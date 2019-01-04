@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Algebraic-Expressions"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Algebraic Expressions</title>
+
+<subsection><title>Writing an Algebraic Expression</title>
+
+<assemblage><p>An <term>algebraic expression</term>, or simply an <term>expression</term>, is any meaningful combination of numbers, variables, and operation symbols.</p></assemblage>
+
+<p>For example,
+	<me>4 \times g,~~~~~~3 \times c + p,~~~~~~\text{and}~~~~~~\dfrac{n-7}{w}</me>
+are algebraic expressions. An important part of algebra involves translating word phrases into algebraic expressions.</p> 
+
+<example><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+	<li>30% of the money invested in stocks</li>
+	<li>The cost of the dinner split three ways</li></ol></p></statement>
+<solution><p><ol label="a">
+	<li><p>The amount invested is unknown, so we choose a variable to represent it.
+			<me>\blert{\text{Amount invested in stocks:}~~~s}</me>
+		Next, we identify the operation described:  "30% of"  means 0.30 times:
+			<me>\text{The expression is} ~~~~\blert{0.30s}</me></p></li>
+	<li><p>The cost of the dinner is unknown, so we choose a variable to represent it.
+			<me>\blert{\text{Cost of dinner:}~~~C}</me>
+		Next, we identify the operation described:  "Split" means divided:
+			<me>\text{The expression is} ~~~~\blert{\dfrac{C}{3}}</me></p></li>
+</ol></p></solution></example>
+
+<reading-questions>
+	<exercise><p>A meaningful combination of numbers, variables and operation symbols is called an <fillin characters="6"/>.</p>
+	<answer><p>algebraic expression</p></answer></exercise></reading-questions>
+</subsection>
+
+<subsection><title>Sums</title>
+<p>When we add two numbers <m>a</m> and <m>b</m>, the result is called the <term>sum</term> of <m>a</m> and <m>b</m>. We call the numbers <m>a</m> and <m>b</m> the <term>terms</term> of the sum.</p>
+	<sidebyside width="50%"><image source="images/fig-1-2-1.png"/></sidebyside>
+
+<example><statement><p>Write sums to represent the following phrases.<ol label="a" cols="2">
+	<li><p>Six more than <m>x</m></p></li>
+	<li><p>Fifteen greater than <m>r</m></p></li>
+</ol></p></statement>
+<solution><p><ol label="a" cols="2">
+	<li><p><m>6+x</m> or <m>x+6</m></p></li>
+	<li><p><m>15+r</m> or <m>r+15</m></p></li>
+</ol></p></solution></example>
+
+<p>The terms can be added in either order.  We call this fact the <term>commutative law</term> for addition.</p>
+
+<assemblage><title>Commutative Law for Addition</title>
+	<p>If <m>a</m> and <m>b</m> are numbers, then
+		<me>a+b = b+a</me></p>
+</assemblage>
+</subsection>
+
+<subsection><title>Products</title>
+<p>When we multiply two numbers <m>a</m> and <m>b</m>, the result is called the <term>product</term> of <m>a</m> and <m>b</m>.  The numbers <m>a</m> and <m>b</m> are the <term>factors</term> of the product.</p>
+
+<assemblage><title>Look Closer</title>
+<p>In arithmetic we use the symbol <m>\times</m> to denote multiplication. However, in algebra, <m>\times</m> may be confused with the variable <m>x</m>. So, instead, we use a dot or parentheses for multiplication, like this:
+	<sidebyside width="70%"><image source="images/fig-1-2-2.png"/></sidebyside>
+If one of the factors is a variable, we can just write the factors side by side. For example,
+	\begin{align*}
+			ab~~~~\amp \text{means} \amp\amp \text{the product of}~~ a~~ \text{times}~~ b\\ 
+			3x~~~~\amp \text{means} \amp\amp \text{the product of}~~ 3~~ \text{times}~~ x\\
+	\end{align*}</p></assemblage>
+
+<example><statement><p>Write products to represent the following phrases.<ol label="a">
+	<li>Ten times <m>z</m></li>
+	<li>Two-thirds of <m>y</m></li>
+	<li>The product of <m>x</m> and <m>y</m></li>
+</ol></p></statement>
+<solution><p><ol label="a" cols="3">
+	<li><m>10z</m></li>
+	<li><m>\dfrac{2}{3}y</m></li>
+	<li><m>xy</m> or <m>yx</m></li>
+</ol></p></solution></example>
+
+<assemblage><title>Look Closer</title>
+<p>In Example 3a, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
+
+<assemblage><title>Commutative Law for Multiplication</title>
+<p>If <m>a</m> and <m>b</m> are numbers, then
+		<me>a \cdot b = b \cdot a</me></p>
+</assemblage>
+
+<p>In algebra, we usually write products with the numeral first. Thus, we write <m>10z</m> for "<m>10</m> times <m>z</m>”.</p>
+
+<reading-questions>
+	<exercise><p>When we add two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p>
+	<answer><p>sum, terms</p></answer></exercise>
+	<exercise><p>When we multiply two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p>
+	<answer><p>product, factors</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Differences</title>
+<p>When we subtract <m>b</m> from <m>a</m> the result is called the <term>difference</term> of <m>a</m> and <m>b</m>. As with addition, <m>a</m> and <m>b</m> are called <term>terms</term>.</p>
+	<sidebyside width="70%"><image source="images/fig-1-2-3.png"/></sidebyside>
+
+<warning><p>The difference <m>5-2</m> is not the same as <m>2-5</m>.  When we translate 
+"<m>a</m> subtracted from <m>b</m>," the order of the terms is important.
+	\begin{align*}
+			b-a~~~~\amp \text{means} \amp\amp a~~ \text{subtracted from}~~ b\\ 
+			x-7~~~~\amp \text{means} \amp\amp 7~~ \text{subtracted from}~~  x\\
+	\end{align*}
+The operation of subtraction is not commutative.</p></warning>
+</subsection>
+
+<subsection><title>Quotients</title>
+<p>When we divide <m>a</m> by <m>b</m> the result is called the <term>quotient</term> of <m>a</m> and <m>b</m>.  We call <m>a</m> the <term>dividend</term> and <m>b</m> the <term>divisor</term>.  In algebra we indicate division by using the division symbol, <m>\div</m>, or a fraction bar.</p>
+	<sidebyside width="80%"><image source="images/fig-1-2-4.png"/></sidebyside>
+
+<assemblage><title>Look Closer</title>
+<p>The operation of division is not commutative. The order of the numbers in a quotient makes a difference. For example, <m>12 \div 3 = 4</m> but <m>3 \div 12 = \dfrac{1}{4}</m>.</p></assemblage>
+
+<example><statement><p>Write an algebraic expression for each phrase.<ol label="a" cols="2">
+	<li><m>z</m> subtracted from <m>13</m></li>
+	<li><m>25</m> divided by <m>R</m></li>
+</ol></p></statement>
+<solution><p><ol label="a" cols ="2">
+	<li><m>13-z</m></li>
+	<li><m>\dfrac{25}{R}</m></li>
+</ol></p></solution></example>
+
+<reading-questions>
+	<exercise><p>Which operations obey the commutative laws? What do these laws say?</p>
+	<answer><p>addition and multiplication. We can add two numbers or multiply two numbers in either order.</p></answer></exercise>
+	<exercise><p>When we subtract two numbers, the result is called the <fillin characters="6"/>.</p>
+	<answer><p>difference</p></answer></exercise>
+	<exercise><p>When we divide two numbers, the result is called the <fillin characters="6"/>.</p>
+	<answer><p>quotient</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Evaluating an Algebraic Expression</title>
+<p>An algebraic expression is a pattern or rule for different versions of the situation it describes. We can replace the variable by specific numbers to fit a particular situation.</p>
+
+<assemblage><p>Substituting a specific value into an expression and calculating the result is called <term>evaluating</term> the expression.</p></assemblage>
+
+<example><statement><p>Fernando has three roommates, and his share of the rent is <m>\dfrac{R}{4}</m>, where <m>R</m> is a variable representing the total rent on the apartment. If Fernando and his roommates find an apartment whose rent is $540, we can find Fernando's share of the rent by replacing <m>R</m> by <m>\alert{540}</m>.
+	<me>\dfrac{R}{4} = \alert{540} \div 4 = 135</me>
+Fernando's share of the rent is $135.</p></statement></example>
+
+<p>In Example 5, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
+</subsection>
+
+<subsection><title>Some Useful Algebraic Formulas</title>
+<p>Here are some examples of common formulas. Formulas may involve several different variables.</p>
+
+<assemblage><p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
+	<me>\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt</me></p></assemblage>
+
+<example><statement><p>How far will a train moving at 80 miles per hour travel in three hours?</p></statement>
+<solution><p>We evaluate the formula with <m>r=\alert{80}</m> and <m>t=\alert{3}</m> to find
+	\begin{align*}
+		d \amp = rt\\
+			\amp = (\alert{80})(\alert{3}) = 240
+	\end{align*}
+The train will travel 240 miles.</p></solution></example>
+
+<assemblage><p>To find the <term>profit</term> earned by a company we subtract the costs from the revenue.
+	<me>\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C</me></p></assemblage>
+
+<example><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies. She received $1150 in revenue.  What was her profit?</p></statement>
+<solution><p>We evaluate the formula with <m>R=\alert{1150}</m> and <m>C=\alert{800}</m> to find
+	\begin{align*}
+		P \amp = R-C\\
+			\amp = \alert{1150}-\alert{350} = 350
+	\end{align*}
+The owner's profit was $350.</p></solution></example>
+
+<assemblage><p>To find the <term>interest</term> earned on an investment we multiply the amount invested (the principal) by the interest rate and the length of the investment.
+	<me>\text{interest} = \text{principal} \times \text{interest rate} \times \text{time}~~~~~~~~~~~~~I=Prt</me></p></assemblage>
+
+<example><statement><p>How much interest will be earned on $800 invested for 3 years in a savings account that pays <m>5\dfrac{1}{2}</m>% interest?</p></statement>
+<solution><p>We evaluate the formula with <m>P=\alert{800}</m>, <m>r=\alert{0.055}</m>, and <m>t=\alert{3}</m> to find
+	\begin{align*}
+		I \amp = Prt\\
+			\amp = \alert{800} \times \alert{0.055} \times \alert{3} = 132
+	\end{align*}
+The account will earn $132 in interest.</p></solution></example>
+
+<assemblage><p>To find a percentage or <term>part</term> of a given amount, we multiply the whole amount by the percentage rate.
+	<me>\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW</me></p></assemblage>
+
+<example><statement><p>How much ginger ale do you need to make 60 gallons of a fruit punch that is 20% ginger ale?</p></statement>
+<solution><p>We evaluate the formula with <m>r=\alert{0.20}</m> and <m>W=\alert{60}</m> to find
+	\begin{align*}
+		P \amp = rW\\
+			\amp = \alert{0.20} \times \alert{60} = 12
+	\end{align*}
+You would need 12 gallons of ginger ale.</p></solution></example>
+
+<assemblage><p>To find the <term>average</term> of a collection of scores, we divide the sum of the scores by the number of scores.
+	<me>\text{average score} = \dfrac{\text{sum of scores}}{\text{number of scores}} ~~~~~~~~~~~~~A=\dfrac{S}{n}</me></p></assemblage>
+
+<example><statement><p>Bert's quiz scores in chemistry are 15, 16, 18, 18, and 12.  What is his average score?</p></statement>
+<solution><p>We evaluate the formula with <m>S=\alert{15+16+18+18+12}</m> and <m>n=\alert{5}</m> to find
+	\begin{align*}
+		A \amp = \dfrac{S}{n}\\
+			\amp = \dfrac{\alert{15+16+18+18+12}} {\alert{5}} = 15.8
+	\end{align*}
+Bert's average score is 15.8.</p></solution></example>
+
+<reading-questions>
+	<exercise><p>What does it mean to evaluate an expression?</p>
+	<answer><p>To substitute a specific value into the expression and calculate the result.</p></answer></exercise>
+	<exercise><p>How do we change a percent to a decimal fraction?</p>
+	<answer><p>Move the decimal point 2 places to the left.</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Look Ahead</title>
+<p>You will also need to know the formulas for the area and perimeter of a rectangle. See the Skills Warm-Up to review these formulas.</p></assemblage>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup><introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
+	<me>A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w</me></p></introduction>
+
+<exercise number="1"><statement><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></statement>
+<answer><p>64 ft</p></answer></exercise>
+
+<exercise number="2"><statement><p>How much wood parquet tiling must he buy to cover the floor?</p></statement>
+<answer><p>240 sq ft</p></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Which of the following phrases describe a perimeter, and which describe an area?</p></introduction>
+
+<exercise number="3"><statement><p>The distance you jog around the shore of a small lake</p></statement>
+<answer><p>perimeter</p></answer></exercise>
+
+<exercise number="4"><statement><p>The amount of Astroturf needed for the new football field</p></statement>
+<answer><p>area</p></answer></exercise>
+
+<exercise number="5"><statement><p>The amount of grated cheese needed to cover a pizza</p></statement>
+<answer><p>area</p></answer></exercise>
+
+<exercise number="6"><statement><p>The number of tulip bulbs needed to border a patio</p></statement>
+<answer><p>perimeter</p></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>Find the perimeter and area of each figure. All angles are right angles.</p></introduction>
+
+<exercise number="7"><statement><sidebyside width="70%"><image source="images/sw-1-2-7.png"/></sidebyside></statement>
+<answer><p>32 cm; 23 sq cm</p></answer></exercise>
+
+<exercise number="8"><statement><sidebyside width="70%"><image source="images/sw-1-2-8.png"/></sidebyside></statement>
+<answer><p>44 ft; 90 sq ft</p></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>    
