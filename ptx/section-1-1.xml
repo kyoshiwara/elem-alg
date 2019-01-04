@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Variables"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Variables</title>
+    <subsection><title>What is a Variable?</title>   
+                   
+    <assemblage><p>A <term>variable</term> is a numerical quantity that changes over time or in different situations.</p></assemblage>
+
+    <p>We can show the values of a variable in a table or a graph.</p>
+                 
+    <example><statement>
+    <p>Life expectancy is the average age to which people will live.  The table below shows that your life expectancy depends on the year of your birth. Thus, life expectancy is a variable.</p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell>Year Born</cell>
+                        <cell>Life Expectancy</cell></row>
+                    <row> 
+                    	<cell><m>1900</m></cell>
+                    	<cell><m>49</m></cell></row>
+                    <row> 
+                    	<cell><m>1910</m></cell>
+                    	<cell><m>51</m></cell></row>
+                    <row> 
+                    	<cell><m>1920</m></cell>
+                    	<cell><m>58</m></cell></row>
+                    <row> 
+                    	<cell><m>1930</m></cell>
+                    	<cell><m>59</m></cell></row>
+                    <row> 
+                    	<cell><m>1940</m></cell>
+                    	<cell><m>63</m></cell></row>
+                    <row> 
+                    	<cell><m>1950</m></cell>
+                    	<cell><m>68</m></cell></row>
+                    <row> 
+                    	<cell><m>1960</m></cell>
+                    	<cell><m>70</m></cell></row>
+                    <row> 
+                    	<cell><m>1970</m></cell>
+                    	<cell><m>71</m></cell></row>
+                    <row> 
+                    	<cell><m>1980</m></cell>
+                    	<cell><m>74</m></cell></row>
+                    <row> 
+                    	<cell><m>1990</m></cell>
+                    	<cell><m>75</m></cell></row>	
+        </tabular></sidebyside>
+        <ol label="a">
+            <li><p>To what age could people born in 1940 expect to live?</p></li>
+            <li><p>In what year did people's life expectancy reach 70 years of age?</p></li>.
+        </ol></statement>
+    <solution><p><ol label="a">
+        <li><p>People born in 1940 lived to 63 years of age on average.</p></li>
+        <li><p>Life expectancy reached 70 years of age in 1960.</p></li>
+    </ol></p></solution></example>
+
+<example><statement>
+    <p>The graph below shows the average annual salaries of NFL football players, starting in 1940. The average salary of NFL football players is a variable.</p>
+    <sidebyside width="45%"><image source="images/fig-1-1-ex2.png"/></sidebyside>
+    <ol label="a">
+        <li><p>Use the graph to estimate the average annual salary of NFL football players in 1975.</p></li>
+        <li><p>By how much did salaries increase from 1975 to 1980?</p></li>
+    </ol></statement>
+<solution><p><ol label="a">
+        <li><p>In 1975, the average NFL player's salary was $40,000.</p></li>
+		<li><p>In 1980, the average salary was $80,000, so salaries had increased from $40,000 to $80,000, or by 
+			<me>$80,000 - $40,000 = $40,000</me></p></li>
+    </ol></p></solution></example>
+
+<reading-questions>
+	<exercise><p>A numerical quantity that changes over time or in different situations is called a <fillin characters="6"/>.</p>
+	<answer><p>variable</p></answer></exercise>
+	<exercise><p>We can show the values of a variable in a <fillin characters="6"/> or a <fillin characters="6"/>.</p><answer><p>table, graph</p></answer></exercise></reading-questions>
+
+<assemblage><title>Look Closer</title>
+<p>By displaying the values of a variable in a table or a graph, we sometimes see trends or patterns in those values.  For example, we see that life expectancy has been increasing slowly over time, and that salaries of NFL football players have been increasing ever more rapidly since 1940.</p></assemblage>
+
+</subsection>
+
+<subsection><title>Using Letters to Represent Variables</title>
+
+<p>Imagine that you are traveling by airplane to another city. The table below shows the altitude of the airplane, in thousands of feet, at ten-minute intervals after take-off. The two quantities shown in the table, time and altitude, are both variables.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">
+                    <cell>Time (min)</cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>40</m></cell>
+                    <cell><m>50</m></cell>
+                    <cell><m>60</m></cell>
+                    <cell><m>70</m></cell>
+                    <cell><m>80</m></cell>
+                    <cell><m>90</m></cell>
+                    <cell><m>100</m></cell>
+                    <cell><m>110</m></cell></row>
+                <row> 
+                    <cell>Altitude (1000 ft)</cell>
+                    <cell><m>0</m></cell>
+                    <cell><m>8</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>21</m></cell>
+                    <cell><m>23</m></cell>
+                    <cell><m>28</m></cell>
+                    <cell><m>29</m></cell>
+                    <cell><m>30</m></cell>
+                    <cell><m>25</m></cell>
+                    <cell><m>13</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>0</m></cell></row>
+            </tabular></sidebyside>
+
+<p>We often use a letter as a kind of short-hand to represent a variable. For this example, we use the following letters:  
+	<me>t~~~  \text{stands for the time elapsed after take-off}</me>
+	<me>h~~~  \text{stands for the plane's altitude at that time}</me></p>
+
+<p>We can get a better feel for the variables by plotting them on a graph. In the figure below, the values of <m>t</m> are displayed on the horizontal scale, or axis, and the values of <m>h</m> are shown on the vertical axis. The graph shows how the values of <m>h</m> are related to the values of <m>t</m>.</p>	           
+    
+<sidebyside width="50%"><image source="images/fig-1-1-1.png" /></sidebyside>
+
+<example><statement><p><ol label="a">
+    <li>What is the value of <m>h</m> when <m>t=85</m>?  What do these values mean in this situation?</li>
+	<li>When is the plane descending?</li>
+</ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><p>The graph shows that <m>h</m> is approximately 20 when <m>t=85</m>. This means that at 85 minutes into the flight, the plane's altitude is about 20,000 feet.</p>
+		<sidebyside width="50%"><image source="images/fig-1-1-ex3.png"/></sidebyside></li>
+	<li>The plane is descending when its altitude is decreasing.  On the graph, <m>h</m> begins to decrease at <m>t=70</m> and continues decreasing until <m>t=110</m>. Thus, the plane is descending from the 70th minute until the end of the flight at 110 minutes.</li>
+</ol></p></solution></example>
+
+<reading-questions>
+	<exercise number="3"><p>We often use <fillin characters="6"/> as a shorthand to represent variable quantities.</p><answer><p>letters</p></answer></exercise>      
+	<exercise number="4"><p>Which variable is displayed on the vertical axis in Example 3?</p><answer><p>altitude</p></answer></exercise></reading-questions>
+
+<assemblage><title>Look Ahead</title>
+<p>It would be useful if we could discover a formula or rule to help us predict the values of an interesting variable.</p></assemblage>
+</subsection>
+
+<subsection><title>Connections Between Variables</title>
+
+<p>Sometimes there is a simple mathematical relationship between the values of two variables.</p>
+
+<example><statement><p>Fernando plans to share an apartment with three other students next year. The table shows his share of the rent for apartments of various prices.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">
+                    <cell>Rent</cell>
+                    <cell><m>280</m></cell>
+                    <cell><m>300</m></cell>
+                    <cell><m>340</m></cell>
+                    <cell><m>360</m></cell>
+                    <cell><m>400</m></cell>
+                    <cell><m>460</m></cell>
+                    <cell><m>500</m></cell></row>
+                <row> 
+                    <cell>Fernando's share</cell>
+                    <cell><m>70</m></cell>
+                    <cell><m>75</m></cell>
+                    <cell><m>85</m></cell>
+                    <cell><m>90</m></cell>
+                    <cell><m>100</m></cell>
+                    <cell><m>\blert{?}</m></cell>
+                    <cell><m>\blert{?}</m></cell></row>
+            </tabular></sidebyside>
+
+<p><ol label="a">
+	<li>Fill in the blanks in the table.  Describe in words how you found the unknown values.	
+		<me>\blert{\text{Divide the rent by 4}}</me></li>
+    <li>Write a mathematical sentence that gives Fernando's share of the total rent.
+    	<me>\blert{\text{Fernando's share}=\text{Rent}\div 4}</me></li>
+    <li>The total rent and Fernando's share are variables. Let <m>R</m> stand for the total rent, and let <m>F</m> stand for Fernando's share. Using these letters, write a formula for Fernando's share of the rent.
+    	<me>\blert{F=R \div 4}</me></li>
+    <li><p>Plot the points from the table and connect them with a smooth curve. Extend your line so that it reaches across the entire grid, not just the points that you plotted.</p>
+	<sidebyside width="50%"><image source="images/fig-1-1-ex4.png"/></sidebyside></li> 	       
+   </ol></p></statement></example>
+
+<assemblage><p>A formula relating two variables is a type of <term>equation</term>, and an equation is just a statement that two quantities are equal.</p></assemblage>
+
+<p>By studying the values in a table, we may be able to find a relationship between the values, and then write an equation relating the two variables. </p>
+
+<example><statement><p>Write an equation that relates the two variables in the table.</p>
+  
+  	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor">    
+                    <cell><m>x</m></cell>
+                    <cell><m>5</m></cell>
+                    <cell><m>10</m></cell>
+                    <cell><m>15</m></cell>
+                    <cell><m>20</m></cell>
+                    <cell><m>25</m></cell></row>
+                <row> 
+                    <cell><m>y</m></cell>
+                    <cell><m>2</m></cell>
+                    <cell><m>7</m></cell>
+                    <cell><m>12</m></cell>
+                    <cell><m>17</m></cell>
+                    <cell><m>22</m></cell></row>
+            </tabular></sidebyside></statement>
+
+<solution><p>The two variables are <m>x</m> and <m>y</m>. Each column of the table shows a related pair of values. Notice that 2 is 3 less than 5, 7 is 3 less than 10, and so on.  That is:
+	\begin{align*}
+               2 \amp = 5-3, \amp\amp 7 = 10-3\\
+                12\amp = 15-3, \amp\amp 17 = 20-3                
+                \end{align*}
+and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>.  Thus,  <m>y=x-3</m>.</p></solution></example>
+
+<reading-questions>
+	<exercise number="5"><p>A statement that two quantities are equal is called an <fillin characters="6"/>.</p><answer><p>equation</p>     
+	</answer></exercise></reading-questions>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup><introduction><p>Choose the correct arithmetic operation (addition, subtraction, multiplication, or division) and explain how to answer the question.</p></introduction>
+
+<exercise number="1"><statement><p>An air conditioner keeps the inside temperature <m>16\degree</m> cooler than the outside temperature.  If the outside temperature is <m>90\degree</m>, how can you find the inside temperature?</p></statement>
+<answer><p>Subtract 16 from the outside temperature. </p></answer></exercise>
+
+<exercise number="2"><statement><p>Tom's recipe for punch calls for 3 times as much fruit juice as soda.  If he has half a gallon of soda, how can he find the amount of fruit juice he needs?</p></statement>
+<answer><p> Multiply the amount of soda by 3.</p></answer></exercise>
+
+<exercise number="3"><statement><p>A clothesline should be 2 feet longer than the distance between the supporting poles so that it can be tied at each end.  If the poles are 20 feet apart, how can you find the length of the clothesline?</p></statement>
+<answer><p>Add 2 feet to the distance between the poles.</p></answer></exercise>
+
+<exercise number="4"><statement><p>The weight of a bridge is supported equally by 8 pillars.  If the bridge weighs one million tons, how can you find the weight each pillar must support?</p></statement>
+<answer><p>Divide the weight of the bridge by 8.</p></answer></exercise>
+
+<exercise number="5"><statement><p>Katrin has 4 hours to complete both her math and geography homework.  If her math assignment takes <m>2\dfrac{1}{2}</m> hours, how can she calculate how long she has for geography?</p></statement>
+<answer><p>Subtract the time for math from 4 hours.</p></answer></exercise>
+
+<exercise number="6"><statement><p>The cost of leasing a compact car is 63% the cost of a luxury car.  If the lease on the luxury car is $500 per month, how can you find the cost of leasing the compact car?</p></statement>
+<answer><p>Multiply the cost of the luxury car by 0.63.</p></answer></exercise>
+</exercisegroup>
+</exercises>
+</subsection>
+
+</section> 
+<!-- </book>  </mathbook> -->
