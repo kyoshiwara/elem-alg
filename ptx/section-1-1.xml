@@ -120,7 +120,28 @@
 
 <p>We can get a better feel for the variables by plotting them on a graph. In the figure below, the values of <m>t</m> are displayed on the horizontal scale, or axis, and the values of <m>h</m> are shown on the vertical axis. The graph shows how the values of <m>h</m> are related to the values of <m>t</m>.</p>	           
     
-<sidebyside width="50%"><image source="images/fig-1-1-1.png" /></sidebyside>
+<sidebyside width="50%"><!--<image source="images/fig-1-1-1.png" />-->
+    <image xml:id="fig-1-1-1">
+        <description>airplane altitude</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.075, yscale=.15]
+        \draw[cyan] (0,0) grid[xstep=10, ystep=5] (110,40);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(119,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,45) node[above]{$h$};
+        \foreach \x in  {10, 20, ..., 110} {
+         \draw[black, thick] (\x,.75) --++(0,-1.5)  node[below]   {\x};
+        }
+        \foreach \y in  {10, 20, ..., 40} {
+         \draw[black, thick] (.75,\y) --++(-1.5,0)  node[left]   {\y};
+        }
+        \draw [red, ultra thick] plot [smooth] coordinates {(0,0) (10,8) (20,20) (30,21) (40,23) (50,28) (60,29) (70,30) (80,25) (85,20) (90,13) (100,5) (110,0) };
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <example><statement><p><ol label="a">
     <li>What is the value of <m>h</m> when <m>t=85</m>?  What do these values mean in this situation?</li>
@@ -129,7 +150,29 @@
 
 <solution><p><ol label="a">
 	<li><p>The graph shows that <m>h</m> is approximately 20 when <m>t=85</m>. This means that at 85 minutes into the flight, the plane's altitude is about 20,000 feet.</p>
-		<sidebyside width="50%"><image source="images/fig-1-1-ex3.png"/></sidebyside></li>
+		<sidebyside width="50%"><!--<image source="images/fig-1-1-ex3.png"/>-->
+    <image xml:id="fig-1-1-ex3">
+        <description>airplane altitude</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.075, yscale=.15]
+        \draw[cyan] (0,0) grid[xstep=10, ystep=5] (110,40);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(119,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,45) node[above]{$h$};
+        \foreach \x in  {10, 20, ..., 110} {
+         \draw[black, thick] (\x,.75) --++(0,-1.5)  node[below]   {\x};
+        }
+        \foreach \y in  {10, 20, ..., 40} {
+         \draw[black, thick] (.75,\y) --++(-1.5,0)  node[left]   {\y};
+        }
+        \draw [red, ultra thick] plot [smooth] coordinates {(0,0) (10,8) (20,20) (30,21) (40,23) (50,28) (60,29) (70,30) (80,25) (85,20) (90,13) (100,5) (110,0) };
+        \draw[blue, fill=blue] (85,20) ellipse (2cm and 1cm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
 	<li>The plane is descending when its altitude is decreasing.  On the graph, <m>h</m> begins to decrease at <m>t=70</m> and continues decreasing until <m>t=110</m>. Thus, the plane is descending from the 70th minute until the end of the flight at 110 minutes.</li>
 </ol></p></solution></example>
 
