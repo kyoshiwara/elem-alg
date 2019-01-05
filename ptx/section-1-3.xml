@@ -184,18 +184,63 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
                 9 \amp = D
                 \end{align*}</p></li></ol></p></solution></example>
 
-<example><statement><p>Here is a graph of
-	<me>y=1.5x</me>
-   Use the graph to solve the equation <m>1.5x=3.75</m>.</p></statement>
+<example><statement><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><p>Here is a graph of
+    <me>y=1.5x</me>
+   Use the graph to solve the equation <m>1.5x=3.75</m>.</p>
+    <image xml:id="fig-1-3-ex5">
+        <description>y=1.5x</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.2]
+        \draw[green] (0,0) grid[xstep=1/2, ystep=1/4] (4,5);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(4.3,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,5.3) node[above]{$y$};
+        \foreach \x in  {1,2,3,4} {
+         \draw[black, thick] (\x,.1) --++(0,-.2)  node[below]   {\x};
+        }
+        \foreach \y in  {1,2,3,4,5} {
+         \draw[black, thick] (.1,\y) --++(-.2,0)  node[left]   {\y};
+        }
+        \draw [red, very thick]  (0,0) -- (10/3,5);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 
  <solution><p>By comparing the equation of the graph with the equation we want to solve, we see that <m>y</m> has been replaced by <m>\alert{3.75}</m>. 
- 	\begin{align*}
+    \begin{align*}
                 y \amp = 1.5x\\
                 \downarrow \amp \\
-                \alert{3.75} \amp	= 1.5x
+                \alert{3.75} \amp   = 1.5x
                 \end{align*}
  We locate 3.75 on the <m>y</m>-axis, then find the point on the graph with <m>y</m>-coordinate 3.75. 
- 	<sidebyside width="40%"><image source="images/fig-1-3-ex5.png"/></sidebyside>
+    <sidebyside width="40%"><!--<image source="images/fig-1-3-ex5.png"/>-->
+    <image xml:id="fig-1-3-ex5ans">
+        <description>y=1.5x</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.2]
+        \draw[green] (0,0) grid[xstep=1/2, ystep=1/4] (4,5);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(4.3,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,5.3) node[above]{$y$};
+        \foreach \x in  {1,2,3,4} {
+         \draw[black, thick] (\x,.1) --++(0,-.2)  node[below]   {\x};
+        }
+        \foreach \y in  {1,2,3,4,5} {
+         \draw[black, thick] (.1,\y) --++(-.2,0)  node[left]   {\y};
+        }
+        \draw [red, very thick]  (0,0) -- (10/3,5);
+        \draw[line width=0.8mm, cyan, dashed, dash pattern=on 9pt off 4pt] (2.5,3.75) -- (2.5,0) node[below, text=red, scale=0.9] {2.5};
+        \draw[line width=0.8mm, cyan, dashed, dash pattern=on 9pt off 4pt] (2.5,3.75) -- (0,3.75) node[left, yshift=-2pt, text=cyan, scale=0.9] {3.75};
+        \draw[cyan, fill=cyan] (2.5,3.75) circle(.75mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
  The <m>x</m>-coordinate of this point is 2.5, so the ordered pair <m>(2.5, 3.75)</m> is a solution of the equation <m>y=1.5x</m>, and <m>x=2.5</m> is the solution of the equation <m>1.5x=3.75</m>.</p></solution></example>
   
 <reading-questions>
