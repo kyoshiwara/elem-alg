@@ -27,8 +27,8 @@ are algebraic expressions. An important part of algebra involves translating wor
 </ol></p></solution></example>
 
 <reading-questions>
-	<exercise><p>A meaningful combination of numbers, variables and operation symbols is called an <fillin characters="6"/>.</p>
-	<answer><p>algebraic expression</p></answer></exercise></reading-questions>
+	<exercise number="1"><statement><p>A meaningful combination of numbers, variables and operation symbols is called an <fillin characters="6"/>.</p></statement>
+		<answer><p>algebraic expression</p></answer></exercise></reading-questions>
 </subsection>
 
 <subsection><title>Sums</title>
@@ -86,10 +86,10 @@ If one of the factors is a variable, we can just write the factors side by side.
 <p>In algebra, we usually write products with the numeral first. Thus, we write <m>10z</m> for "<m>10</m> times <m>z</m>”.</p>
 
 <reading-questions>
-	<exercise><p>When we add two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p>
-	<answer><p>sum, terms</p></answer></exercise>
-	<exercise><p>When we multiply two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p>
-	<answer><p>product, factors</p></answer></exercise>
+	<exercise number="2"><statement><p>When we add two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
+		<answer><p>sum, terms</p></answer></exercise>
+	<exercise number="3"><statement><p>When we multiply two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
+		<answer><p>product, factors</p></answer></exercise>
 </reading-questions>
 </subsection>
 
@@ -123,12 +123,12 @@ The operation of subtraction is not commutative.</p></warning>
 </ol></p></solution></example>
 
 <reading-questions>
-	<exercise><p>Which operations obey the commutative laws? What do these laws say?</p>
-	<answer><p>addition and multiplication. We can add two numbers or multiply two numbers in either order.</p></answer></exercise>
-	<exercise><p>When we subtract two numbers, the result is called the <fillin characters="6"/>.</p>
-	<answer><p>difference</p></answer></exercise>
-	<exercise><p>When we divide two numbers, the result is called the <fillin characters="6"/>.</p>
-	<answer><p>quotient</p></answer></exercise>
+	<exercise number="4"><statement><p>Which operations obey the commutative laws? What do these laws say?</p></statement>
+		<answer><p>addition and multiplication. We can add two numbers or multiply two numbers in either order.</p></answer></exercise>
+	<exercise number="5"><statement><p>When we subtract two numbers, the result is called the <fillin characters="6"/>.</p></statement>
+		<answer><p>difference</p></answer></exercise>
+	<exercise number="6"><statement><p>When we divide two numbers, the result is called the <fillin characters="6"/>.</p></statement>
+		<answer><p>quotient</p></answer></exercise>
 </reading-questions>
 </subsection>
 
@@ -203,10 +203,10 @@ You would need 12 gallons of ginger ale.</p></solution></example>
 Bert's average score is 15.8.</p></solution></example>
 
 <reading-questions>
-	<exercise><p>What does it mean to evaluate an expression?</p>
-	<answer><p>To substitute a specific value into the expression and calculate the result.</p></answer></exercise>
-	<exercise><p>How do we change a percent to a decimal fraction?</p>
-	<answer><p>Move the decimal point 2 places to the left.</p></answer></exercise>
+	<exercise number="7"><statement><p>What does it mean to evaluate an expression?</p></statement>
+		<answer><p>To substitute a specific value into the expression and calculate the result.</p></answer></exercise>
+	<exercise number="8"><statement><p>How do we change a percent to a decimal fraction?</p></statement>
+		<answer><p>Move the decimal point 2 places to the left.</p></answer></exercise>
 </reading-questions>
 
 <assemblage><title>Look Ahead</title>

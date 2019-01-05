@@ -46,564 +46,219 @@
 <exercise number="11"><statement><p>Rashad is 6 years younger than Shelley. If Shelley is <m>n</m> years old, how old is Rashad?</p></statement>
 <answer><p><m>n-6</m></p> </answer></exercise>
 
-<exercise number="6"><statement><p><m>M = \dfrac{3}{2} \times x</m></p>
-    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    <row> 
-                        <cell><m>M</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></statement></exercise>
+<exercise number="12"><statement><p>Each package of sodas contains 6 cans. If Antoine bought <m>n</m> packages of sodas, how many cans did he buy?</p></statement></exercise>
+
+<exercise number="13"><statement><p>Lizette and Patrick together own 6 cats. If Lizette owns <m>n</m> cats, how many cats does Patrick own?</p></statement>
+    <answer><m>6-n</m></answer></exercise>
+
+<exercise number="14"><statement><p>Mitra divided 6 cupcakes among <m>n</m> children.  How much of a cupcake did each child get?
+</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup>
-    <introduction><p>For Problems 7<ndash/>8, fill in the tables. What do you notice? Explain.</p></introduction>
+<exercisegroup cols="3">
+    <introduction><p>For Problems 15<ndash/>17, write an algebraic expression for the area or perimeter of the figure. Include units in your answers. The dimensions are given in inches.</p></introduction>
 
-<exercise number="7"><statement><p><ol label="a" cols="3">
-    <li><m>y = \dfrac{x}{8}</m>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor">              
-                    <cell><m>x</m></cell>
-                    <cell><m>y</m></cell></row>
-                <row> 
-                    <cell><m>4</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>8</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>10</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>16</m></cell>
-                    <cell><m></m></cell></row>
-            </tabular></sidebyside></li>
-    <li><p><m>y = \dfrac{1}{8} x</m></p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor">              
-                    <cell><m>x</m></cell>
-                    <cell><m>y</m></cell></row>
-                <row> 
-                    <cell><m>4</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>8</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>10</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>16</m></cell>
-                    <cell><m></m></cell></row>
-            </tabular></sidebyside></li>
-    <li><p><m>y = 0.125 \times x</m></p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor">              
-                    <cell><m>x</m></cell>
-                    <cell><m>y</m></cell></row>
-                <row> 
-                    <cell><m>4</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>8</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>10</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>16</m></cell>
-                    <cell><m></m></cell></row>
-            </tabular></sidebyside></li>
-    </ol></p></statement>
-    <answer><p>a, b, and c: <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor">              
-                    <cell><m>x</m></cell>
-                    <cell><m>y</m></cell></row>
-                <row> 
-                    <cell><m>4</m></cell>
-                    <cell><m>0.5</m></cell></row>
-                <row> 
-                    <cell><m>8</m></cell>
-                    <cell><m>1</m></cell></row>
-                <row> 
-                    <cell><m>10</m></cell>
-                    <cell><m>1.25</m></cell></row>
-                <row> 
-                    <cell><m>16</m></cell>
-                    <cell><m>2</m></cell></row>
-            </tabular></sidebyside></p>
-            <p>The three tables have identical values.</p></answer></exercise>
+<exercise number="15"><statement><sidebyside width="80%"><image source="images/hp-1-2-15.png"/></sidebyside><p>area =</p></statement>
+<answer><m>2x</m></answer></exercise>
 
-<exercise number="8"><statement><p><ol label="a" cols="3">
-    <li><p><m>y = \dfrac{3 \times x}{5}</m></p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor">              
-                    <cell><m>x</m></cell>
-                    <cell><m>y</m></cell></row>
-                <row> 
-                    <cell><m>5</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>10</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>12</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>1</m></cell>
-                    <cell><m></m></cell></row>
-            </tabular></sidebyside></li>
-    <li><p><m>y = \dfrac{3}{5} \times x</m></p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor">              
-                    <cell><m>x</m></cell>
-                    <cell><m>y</m></cell></row>
-                <row> 
-                    <cell><m>5</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>10</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>12</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>1</m></cell>
-                    <cell><m></m></cell></row>
-            </tabular></sidebyside></li>
-     <li><p><m>y = 0.6 \times x</m></p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor">              
-                    <cell><m>x</m></cell>
-                    <cell><m>y</m></cell></row>
-                <row> 
-                    <cell><m>5</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>10</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>12</m></cell>
-                    <cell><m></m></cell></row>
-                <row> 
-                    <cell><m>1</m></cell>
-                    <cell><m></m></cell></row>
-            </tabular></sidebyside></li>
-    </ol></p></statement></exercise>
+<exercise number="16"><statement><sidebyside width="70%"><image source="images/hp-1-2-16.png"/></sidebyside><p>perimeter =</p></statement></exercise>
+
+<exercise number="17"><statement><sidebyside width="90%"><image source="images/hp-1-2-17.png"/></sidebyside>
+    <p>area = </p></statement>
+<answer><m>2v</m></answer></exercise>
 </exercisegroup>
-
-<exercise number="9"><statement><p>The temperature in Sunnyvale is usually <m>15 \degree</m> hotter than it is in Ridgecrest, which is at a higher elevation. Fill in the table.</p>
-
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor"> 
-                        <cell>Temperature in Ridgecrest</cell>
-                        <cell><m>70</m></cell>
-                        <cell><m>75</m></cell>
-                        <cell><m>82</m></cell>
-                        <cell><m>86</m></cell>
-                        <cell><m>90</m></cell>
-                        <cell><m>R</m></cell></row>
-                    <row> 
-                        <cell>Calculation</cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell></row>
-                    <row> 
-                        <cell>Temperature in Sunnyvale</cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell></row>
-                    </tabular></sidebyside>
-    <p><ol label="a">
-        <li>Explain in words how to find the temperature in Sunnyvale.</li>
-        <li>Write your explanation as a mathematical sentence:
-        
-            <me>\text{Temp in Sunnyvale} = \hphantom{0000000000000000000000000000000000000000000000}</me></li>
-
-        <li>Let <m>R</m> stand for the temperature in Ridgecrest and <m>S</m> for the temperature in Sunnyvale. Write an equation for <m>S</m> in terms of <m>R</m>.</li>
-        <li><p>Plot the points from the table and connect them with a smooth curve.</p>
-            <sidebyside width="40%"><image source="images/hp-1-1-9.png"/></sidebyside></li>
-    </ol></p></statement>
-<answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor"> 
-                        <cell>Temperature in Ridgecrest</cell>
-                        <cell><m>70</m></cell>
-                        <cell><m>75</m></cell>
-                        <cell><m>82</m></cell>
-                        <cell><m>86</m></cell>
-                        <cell><m>90</m></cell>
-                        <cell><m>R</m></cell></row>
-                    <row> 
-                        <cell>Calculation</cell>
-                        <cell><m>70+15</m></cell>
-                        <cell><m>75+15</m></cell>
-                        <cell><m>82+15</m></cell>
-                        <cell><m>86+15</m></cell>
-                        <cell><m>90+15</m></cell>
-                        <cell><m>R+15</m></cell></row>
-                    <row> 
-                        <cell>Temperature in Sunnyvale</cell>
-                        <cell><m>85</m></cell>
-                        <cell><m>90</m></cell>
-                        <cell><m>97</m></cell>
-                        <cell><m>101</m></cell>
-                        <cell><m>105</m></cell>
-                        <cell><m>R+15</m></cell></row>
-                    </tabular></sidebyside>
-<p><ol label="a">
-    <li>Add <m>15\degree</m> to Ridgecrest's temperature to find Sunnyvale's temperature.</li>
-    <li>Temperature in Sunnyvale <m>=</m> Temperature in Ridgecrest <m>+15</m></li>
-    <li><m>S=R+15</m></li>
-    <li><p><sidebyside width="40%"><image source="images/hp-1-1-9ans.png"/></sidebyside></p></li>
-</ol></p></answer></exercise>
-
-<exercise number="10"><statement><p>Jerome is driving from his home in White Falls to his parents' home in Castle Heights, 200 miles away. Fill in the table.</p>
-
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor"> 
-                        <cell>Miles driven</cell>
-                        <cell><m>40</m></cell>
-                        <cell><m>60</m></cell>
-                        <cell><m>90</m></cell>
-                        <cell><m>120</m></cell>
-                        <cell><m>170</m></cell>
-                        <cell><m>d</m></cell></row>
-                    <row> 
-                        <cell>Calculation</cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell></row>
-                    <row> 
-                        <cell>Miles remaining</cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell></row>
-                    </tabular></sidebyside>
-    <p><ol label="a">
-        <li>Explain in words how to find the number of miles Jerome has left to drive.</li>
-        <li>Write your explanation as a mathematical sentence:
-        
-            <me>\text{Miles remaining} = \hphantom{0000000000000000000000000000000000000000000000}</me></li>
-
-        <li>Let <m>d</m> stand for the number of miles Jerome has driven and <m>r</m> for the number of miles that remain. Write an equation for <m>r</m> in terms of <m>d</m>.</li>
-        <li><p>Plot the points from the table and connect them with a smooth curve.</p>
-            <sidebyside width="40%"><image source="images/hp-1-1-10.png"/></sidebyside></li>
-    </ol></p></statement></exercise>
-
-<exercise number="11"><statement><p>Milton goes to a restaurant with two friends, and they agree to split the bill equally. Fill in the table. </p>
-
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor"> 
-                        <cell>Total bill</cell>
-                        <cell><m>15</m></cell>
-                        <cell><m>30</m></cell>
-                        <cell><m>45</m></cell>
-                        <cell><m>75</m></cell>
-                        <cell><m>81</m></cell>
-                        <cell><m>b</m></cell></row>
-                    <row> 
-                        <cell>Calculation</cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell></row>
-                    <row> 
-                        <cell>Milton's share</cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell></row>
-                    </tabular></sidebyside>
-    <p><ol label="a">
-        <li>Explain in words how to find Milton's share of the bill.</li>
-        <li>Write your explanation as a mathematical sentence:
-        
-            <me>\text{Milton's share} = \hphantom{0000000000000000000000000000000000000000000000}</me></li>
-
-        <li>Let <m>b</m> stand for the bill and <m>s</m> for Milton's share. Write an equation for <m>s</m> in terms of <m>b</m>.</li>
-        <li><p>Plot the points from the table and connect them with a smooth curve.</p>
-            <sidebyside width="40%"><image source="images/hp-1-1-11.png"/></sidebyside></li>
-    </ol></p></statement>
-<answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor"> 
-                        <cell>Total bill</cell>
-                        <cell><m>15</m></cell>
-                        <cell><m>30</m></cell>
-                        <cell><m>45</m></cell>
-                        <cell><m>75</m></cell>
-                        <cell><m>81</m></cell>
-                        <cell><m>b</m></cell></row>
-                    <row> 
-                        <cell>Calculation</cell>
-                        <cell><m>15\div 3</m></cell>
-                        <cell><m>30\div 3</m></cell>
-                        <cell><m>45\div 3</m></cell>
-                        <cell><m>75\div 3</m></cell>
-                        <cell><m>81\div 3</m></cell>
-                        <cell><m>b\div 3</m></cell></row>
-                    <row> 
-                        <cell>Milton's share</cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>10</m></cell>
-                        <cell><m>15</m></cell>
-                        <cell><m>20</m></cell>
-                        <cell><m>27</m></cell>
-                        <cell><m>\dfrac{b}{3}</m></cell></row>
-                    </tabular></sidebyside>
-        <p><ol label="a">
-        <li>Divide the total bill by 3 to get Milton's share.</li>
-        <li>Milton's share <m>= \dfrac{\text{total bill}}{3}</m></li>
-        <li><m>s=\dfrac{b}{3}</m></li>
-        <li><p><sidebyside width="40%"><image source="images/hp-1-1-11ans.png"/></sidebyside></p></li>
-    </ol></p></answer></exercise>
-
-<exercise number="12"><statement><p>Nutrition experts tell us that no more than 30% of the calories we consume should come from fat. Fill in the table with the fat calories allowed daily for various calorie levels.</p>
-
-<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-                <row bottom="minor"> 
-                        <cell>Total calories</cell>
-                        <cell><m>1000</m></cell>
-                        <cell><m>1500</m></cell>
-                        <cell><m>2000</m></cell>
-                        <cell><m>2500</m></cell>
-                        <cell><m>3000</m></cell>
-                        <cell><m>C</m></cell></row>
-                    <row> 
-                        <cell>Calculation</cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell></row>
-                    <row> 
-                        <cell>Fat calories</cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell></row>
-                    </tabular></sidebyside>
-    <p><ol label="a">
-        <li>Explain in words how to find the number of fat calories allowed.</li>
-        <li>Write your explanation as a mathematical sentence:
-        
-            <me>\text{Fat calories} = \hphantom{0000000000000000000000000000000000000000000000}</me></li>
-
-        <li>Let <m>C</m> stand for the number of calories and <m>F</m> for the number of fat calories. Write an equation for <m>F</m> in terms of <m>C</m>.</li>
-        <li><p>Plot the points from the table and connect them with a smooth curve.</p>
-            <sidebyside width="40%"><image source="images/hp-1-1-12.png"/></sidebyside></li>
-    </ol></p></statement></exercise> 
-
-<exercisegroup>
-    <introduction><p>Use the graphs to answer the questions in Problems 13<ndash/>14. You may have to estimate some of your answers.</p></introduction>
-
-<exercise number="13"><statement><p>Suppose you invest $2000 in a retirement account that pays 8% interest compounded continuously. The amount of money in the account each year is shown by the graph below.</p>
-<sidebyside width="50%"><image source="images/hp-1-1-13.png"/></sidebyside>
- <p><ol label="a">
-        <li>What variable is displayed on the horizontal axis?  The vertical axis?</li>
-        <li>How much money will be in the account 5 years from now?</li>
-        <li>When will the amount of money in the account exceed $6000?</li>
-        <li>How much will the account grow between the second and third years?</li>
-        <li>How much will the account grow between the twelfth and thirteenth years?</li>
-</ol></p></statement>
-<answer><p><ol label="a">
-        <li>Horizontal:  Number of years, Vertical: Amount in account</li>
-       <li>About $3000</li>      
-       <li>Approximately after 13.75 years</li>
-       <li>About $200</li>
-       <li>About $400</li>
-</ol></p></answer></exercise> 
-
-<exercise number="14"><statement><p>Wendy brings a Thermos of soup for her lunch on a hike in the mountains.  When she pours the soup into a bowl, it begins to cool off. The graph below shows the temperature of the soup after it is served.</p>
-<sidebyside width="50%"><image source="images/hp-1-1-14.png"/></sidebyside>
- <p><ol label="a">
-    <li>What variable is displayed on the horizontal axis? The vertical axis?</li>
-    <li>How long does it take the soup to cool below 100?</li>
-    <li>What is the temperature of the soup after 8 minutes?</li>
-    <li>How many degrees does the soup cool in the first 2 minutes?</li>
-    <li>After a while, the temperature of the soup levels off at the same as the outside temperature. What was the outside temperature that day?</li>
-</ol></p></statement></exercise>
-</exercisegroup>
-
-<exercise number="15"><statement><p>A cantaloupe is dropped from a tall building. Its speed increases until it hits the ground.  Which of the four graphs below best represents the speed of the cantaloupe? Explain why your choice is the best one.</p>
-<sidebyside width="70%"><image source="images/hp-1-1-15.png"/></sidebyside></statement>
-<answer><p>Graph C</p></answer></exercise>
-
-<exercise number="16"><statement><p><ol label="a">
-    <li><p>Match each of the following stories with the appropriate graph.<ol label="I">
-        <li>Delbert walks directly from home to school, then stays there.</li>
-        <li>Delbert walks towards school, but stops at a coffee shop for a cappuccino, then he goes on to school and stays there.</li>
-        <li>Delbert walks toward school, but decides to return home, where he stays.</li></ol></p></li>
-    <li>Write your own story for the remaining graph.</li></ol></p>
-<sidebyside width="60%"><image source="images/hp-1-1-16.png"/></sidebyside></statement></exercise>
-
-<exercise number="17"><statement><p>Plot each pair of values on the grid provided. Connect the points with a smooth curve. Which graph appears to be a straight line?
-<ol label="a" cols="2">
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>t</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>5</m></cell>
-                        <cell><m>6</m></cell>
-                        <cell><m>8</m></cell></row>
-                    <row> 
-                        <cell><m>v</m></cell>
-                        <cell><m>16</m></cell>
-                        <cell><m>14</m></cell>
-                        <cell><m>12</m></cell>
-                        <cell><m>6</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>0</m></cell></row>
-                    </tabular></sidebyside>
-        <sidebyside width="80%"><image source="images/hp-1-1-17a.png"/></sidebyside></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>w</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>6</m></cell>
-                        <cell><m>10</m></cell></row>
-                    <row> 
-                        <cell><m>Q</m></cell>
-                        <cell><m>12</m></cell>
-                        <cell><m>8</m></cell>
-                        <cell><m>6</m></cell>
-                        <cell><m>4</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>2</m></cell></row>
-                    </tabular></sidebyside>
-        <sidebyside width="80%"><image source="images/hp-1-1-17b.png"/></sidebyside></li>
-    </ol></p></statement>
-<answer><p><ol label="a" cols="2">
-            <li><sidebyside width="60%"><image source="images/hp-1-1-17aans.png"/></sidebyside></li>
-            <li><sidebyside width="60%"><image source="images/hp-1-1-17bans.png"/></sidebyside></li>
-</ol></p></answer></exercise>
 
 <exercise number="18"><statement><p><ol label="a">
-    <li><p>Read the graph below to fill in the table.</p>
-        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>10</m></cell>
-                        <cell><m>30</m></cell>
-                        <cell><m>40</m></cell>
-                        <cell><m>60</m></cell>
-                        <cell><m>70</m></cell></row>
-                    <row> 
-                        <cell><m>y</m></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell>
-                        <cell></cell></row>
-                    </tabular></sidebyside>
-        <sidebyside width="40%"><image source="images/hp-1-1-18.png"/></sidebyside></li>
-    <li>Find a formula expressing <m>y</m> in terms of <m>x</m>.</li>
+    <li><p>Which of these expressions says "one-sixth of <m>x</m>" ?</p>
+        <me> \dfrac{x}{6}~~~~~~\dfrac{6}{x}~~~~~~\dfrac{1}{6}x~~~~~\dfrac{1}{6x}</me></li>
+    <li><p>Which of these expressions says "6% of <m>x</m>" ?</p>
+        <me> 0.6x~~~~~~0.06x~~~~~~\dfrac{6}{100}x~~~~~~\dfrac{1}{6}x</me></li>
 </ol></p></statement></exercise>
 
-<exercisegroup cols="2">
-    <introduction><p>For Problems 19<ndash/>20, 
-        <ol label = "a">
-            <li><p>Write an equation for the second variable in terms of the first variable.</p></li>
-            <li>Fill in the table. Plot the points and connect them with a smooth curve.</li>
-    </ol></p></introduction>
-
-<exercise number="19"><statement><p>
+<exercise number="19"><statement><p>Francine is saving up to buy a car, and deposits <m>\dfrac{1}{5}</m> of her spending money each month into a savings account.<ol label="a">    
+    <li>If <m>m</m> stands for Francine's spending money, write an expression for the amount she saves.</li>
+    <li>Evaluate the expression to complete the table.
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>0.2</m></cell>
-                        <cell><m>0.3</m></cell>
-                        <cell><m>0.5</m></cell>
-                        <cell><m>0.6</m></cell>
-                        <cell><m>0.7</m></cell></row>
+                        <cell>Spending money (dollars)</cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>60</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>1.8</m></cell>
-                        <cell><m>1.7</m></cell>
+                        <cell>Amount saved (dollars)</cell>
                         <cell></cell>
                         <cell></cell>
                         <cell></cell></row>
-                    </tabular></sidebyside></p>
-        <sidebyside width="90%"><image source="images/hp-1-1-19.png"/></sidebyside></statement>
+                    </tabular></sidebyside></li>
+        </ol></p></statement>
 <answer><p><ol label="a">
-    <li><m>y=2-x</m></li>
+    <li><m>\dfrac{m}{5}</m></li>
     <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>0</m></cell>
-                        <cell><m>0.2</m></cell>
-                        <cell><m>0.3</m></cell>
-                        <cell><m>0.5</m></cell>
-                        <cell><m>0.6</m></cell>
-                        <cell><m>0.7</m></cell></row>
+                        <cell>Spending money (dollars)</cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>60</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>1.8</m></cell>
-                        <cell><m>1.7</m></cell>
-                        <cell><m>1.5</m></cell>
-                        <cell><m>1.4</m></cell>
-                        <cell><m>1.3</m></cell></row>
-                    </tabular></sidebyside>
-                <sidebyside width="90%"><image source="images/hp-1-1-19ans.png"/></sidebyside></li>
-</ol></p></answer></exercise>
+                        <cell>Amount saved (dollars)</cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>12</m></cell></row>
+                    </tabular></sidebyside></li>
+    </ol></p></answer></exercise>
 
-<exercise number="20"><statement>
+<exercise number="20"><statement><p>Delbert wants to enlarge his class photograph. Its height is <m>\dfrac{1}{4}</m> of its width. The enlarged photo should have the same shape as the original.<ol label="a"> 
+    <li>If <m>W</m> stands for the width of the enlargement, write an expression for its height.</li>
+    <li>Evaluate the expression to complete the table.
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
-                        <cell><m>x</m></cell>
-                        <cell><m>1</m></cell>
-                        <cell><m>2</m></cell>
-                        <cell><m>3</m></cell>
-                        <cell><m>4</m></cell>
+                        <cell>Width of photo (inches)</cell>
                         <cell><m>6</m></cell>
-                        <cell><m>8</m></cell></row>
+                        <cell><m>10</m></cell>
+                        <cell><m>24</m></cell></row>
                     <row> 
-                        <cell><m>y</m></cell>
-                        <cell><m>120</m></cell>
-                        <cell><m>60</m></cell>
-                        <cell><m>40</m></cell>
+                        <cell>Height of photo (inches)</cell>
                         <cell></cell>
                         <cell></cell>
                         <cell></cell></row>
-                    </tabular></sidebyside>
-        <sidebyside width="90%"><image source="images/hp-1-1-20.png"/></sidebyside></statement></exercise>
+                    </tabular></sidebyside></li>
+        </ol></p></statement></exercise>
+
+ <exercise number="21"><statement><p>If the governor vetoes a bill passed by the State Assembly, <m>\dfrac{2}{3}</m> of the members present must vote for the bill in order to overturn the veto.<ol label="a">  
+    <li>If <m>p</m> stands for the number of Assembly members present, write an expression for the number of votes needed to overturn a veto.</li>
+    <li>Evaluate the expression to complete the table.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Members present</cell>
+                        <cell><m>90</m></cell>
+                        <cell><m>96</m></cell>
+                        <cell><m>120</m></cell></row>
+                    <row> 
+                        <cell>Votes needed</cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell></row>
+                    </tabular></sidebyside></li>
+        </ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>\dfrac{2}{3}p</m></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Members present</cell>
+                        <cell><m>90</m></cell>
+                        <cell><m>96</m></cell>
+                        <cell><m>120</m></cell></row>
+                    <row> 
+                        <cell>Votes needed</cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>64</m></cell>
+                        <cell><m>80</m></cell></row>
+                    </tabular></sidebyside></li>
+    </ol></p></answer></exercise>
+
+<exercise number="22"><statement><p>Marla's investment club buys some stock. She will get <m>\dfrac{3}{5}</m> of the dividends.<ol label="a">  
+    <li>If <m>D</m> stands for the stock dividends, write an expression for Marla's share.</li>
+    <li>Evaluate the expression to complete the table.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Stock dividend</cell>
+                        <cell><m>40</m></cell>
+                        <cell><m>85</m></cell>
+                        <cell><m>115</m></cell></row>
+                    <row> 
+                        <cell>Marla's share</cell>
+                        <cell><m>24</m></cell>
+                        <cell><m>51</m></cell>
+                        <cell><m>69</m></cell></row>
+                    </tabular></sidebyside></li>
+        </ol></p></statement></exercise>
+
+<exercisegroup>
+    <introduction><p>For Problems 23<ndash/>30, choose a variable for the unknown quantity and translate the phrase into an algebraic expression.  </p></introduction>
+
+<exercise number="23"><statement><p>The product of the ticket price and $15</p></statement>
+<answer><m>15p</m></answer></exercise>
+
+<exercise number="24"><statement><p>Three times the cost of a light bulb</p></statement></exercise>
+
+<exercise number="25"><statement><p>Three-fifths of the savings account balance</p></statement>
+<answer><m>\dfrac{3}{5}b</m></answer></exercise>
+
+<exercise number="26"><statement><p>The price of the pizza divided by 6</p></statement></exercise>
+
+<exercise number="27"><statement><p>The weight of the copper in ounces divided by 16</p></statement>
+<answer><m>\dfrac{w}{16}</m></answer></exercise>
+
+<exercise number="28"><statement><p>9% of the school buses</p></statement></exercise>
+
+<exercise number="29"><statement><p>$16 less than the cost of the vaccine</p></statement>
+<answer><m>c-16</m></answer></exercise>
+
+<exercise number="30"><statement><p>The total cost of 32 identical computers</p></statement></exercise>
 </exercisegroup>
- 
+
+<exercisegroup>
+    <introduction><p>For Problems 31<ndash/>32, write algebraic expressions in terms of <m>x</m>.</p></introduction>
+
+<exercise number="31"><statement><p><ol label="a">
+    <li>Daniel and Lara together made $480. If Daniel made <m>x</m> dollars, how much did Lara make?</li>
+    <li>Alix spent $500 on tuition and books. If she spent <m>x</m> dollars on books, how much was her tuition?</li>
+    <li>Thirty children signed up for summer camp. If <m>x</m> boys signed up, how many girls signed up?</li>
+</ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>480-x</m></li>
+    <li><m>500-x</m></li>
+    <li><m>30-x</m></li></ol></p></answer></exercise>
+
+<exercise number="32"><statement><p><ol label="a">
+    <li>Rona spent $15 less than her sister on shoes. If Rona's sister spent <m>x</m> dollars, how much did Rona spend?</li>
+    <li>Phoenix had 12 fewer rain days than Boston last year. If Boston had <m>x</m> rain days, how many rain days did Phoenix have?</li>
+    <li>Jared scored 18 points lower on his second test than he scored on his first test. If he scored <m>x</m> points on the first test, what was his score on the second test?</li>
+</ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup>
+    <introduction><p>For Problems 33<ndash/>36, name the variable and write an algebraic expression.</p></introduction>
+
+<exercise number="33"><statement><p>Eggnog is 70% milk. Write an expression for the amount of milk in a container of eggnog.</p></statement>
+<answer><p>Amount of milk: <m>m,~~ 0.70m</m></p></answer></exercise>  
+
+<exercise number="34"><statement><p>Errol has saved $1200 for his vacation this year. Write an expression for the average amount he can spend on each day of his vacation.</p></statement></exercise>
+
+<exercise number="35"><statement><p>Garth received 432 fewer votes than his opponent in the election. Write an expression for the number of votes Garth received.</p></statement>
+<answer><p>Votes received: <m>v,~~ v-432</m></p></answer></exercise>  
+
+<exercise number="36"><statement><p>The cost of the conference was $2000 over budget. Write an expression for the cost of the conference.</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup>
+    <introduction><p>For Problems 37<ndash/>40, use the formulas in this Lesson.</p></introduction>
+
+<exercise number="37"><statement><p><ol label="a">
+    <li>Write an equation for the distance <m>d</m> traveled in <m>t</m> hours by a small plane flying at 180 miles per hour.</li>
+    <li>How far will the plane fly in 2 hours? In <m>3\dfrac{1}{2}</m> hours? In half a day?</li>
+</ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>d=180t</m></li>
+    <li>360 miles, 630 miles, 2160 miles</li>
+    </ol></p></answer></exercise>  
+
+<exercise number="38"><statement><p><ol label="a">
+    <li>A certain pesticide contains 0.02% by volume of a dangerous chemical. Write an equation for the amount of chemical <m>C</m> that enters the environment in terms of the number of gallons of pesticide used.</li>
+   <li>How much of the chemical enters the environment if 400 gallons of the pesticide are used? 5000 gallons? 50,000 gallons?</li>
+</ol></p></statement></exercise>
+
+<exercise number="39"><statement><p><ol label="a">
+    <li>BioTech budgets 8.5% of its revenue for research. Write an equation for the research budget <m>B</m> in terms of BioTech's revenue <m>R</m>.</li>
+    <li>What is the research budget if BioTech's revenue is $100,000? $500,000? $2,000,000?</li>
+</ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>B=0.085R</m></li>
+    <li>$8500;  $42,500;  $170,000</li></ol></p></answer></exercise>  
+    
+<exercise number="40"><statement><p><ol label="a">
+    <li>Hugo's Auto Shop paid $4000 in expenses this month. Write an equation for their profit <m>P</m> in terms of their revenue <m>R</m>.</li>
+    <li>What was their profit if their revenue was $10,000? $6500? $2500?</li></ol></p></statement></exercise>
+</exercisegroup>
+
 </exercises>
