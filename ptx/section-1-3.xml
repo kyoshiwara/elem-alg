@@ -207,21 +207,37 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 
 <subsection><title>Skills Warm-Up</title>
 
+<exercises>
 <exercisegroup>
     <introduction><p>In Exercises 1<ndash/>2, what value corresponds to each labeled point?</p></introduction>
 
-<exercise number="1"><statement><sidebyside width="40%"><image source="images/fig-1-3-ex5.png"/></sidebyside>
+<exercise number="1"><statement><sidebyside width="50%"><image source="images/sw-1-3-1.png"/></sidebyside></statement>
+	<answer><sidebyside width="60%"><image source="images/sw-1-3-1ans.png"/></sidebyside></answer></exercise>
 
+<exercise number="2"><statement><sidebyside width="60%"><image source="images/sw-1-3-2.png"/></sidebyside></statement></exercise>
+</exercisegroup>
 
+<exercise number="3"><statement><p><ol label="a">
+	<li>Label the axis. <sidebyside width="65%"><image source="images/sw-1-3-3.png"/></sidebyside></li>
+	<li>On the axis in part (a), plot 1400 and 8350.</li></ol></p></statement>
+	<answer><sidebyside width="60%"><image source="images/sw-1-3-3ans.png"/></sidebyside></answer></exercise>
 
+<exercise number="4"><statement><p><ol label="a">
+	<li>Label the axis below with 16 tick marks (not counting zero), the highest being 800.
+		<sidebyside width="70%"><image source="images/sw-1-3-4.png"/></sidebyside></li>
+	<li>On the axis in part (a), plot 132 and 614.</li></ol></p></statement></exercise>
 
+<exercise number="5"><statement><p><ol label="a">
+	<li>Label an axis in increments of 40,000 from 0 to 600,000.
+		<sidebyside width="70%"><image source="images/sw-1-3-4.png"/></sidebyside></li>
+	<li>On your axis, plot 250,000 and 472,600.</li></ol></p></statement>
+	<answer><sidebyside width="70%"><image source="images/sw-1-3-5ans.png"/></sidebyside></answer></exercise>
 
-
-
-
-
-
-
+<exercise number="6"><statement><p><ol label="a">
+	<li>Label an axis in increments of 0.5 from 0 to 5.
+		<sidebyside width="70%"><image source="images/sw-1-3-4.png"/></sidebyside></li>
+	<li>On the axis in part (a), plot 1.3 and 3.77.</li></ol></p></statement></exercise>
+</exercises>
 </subsection>
 </section>
 
