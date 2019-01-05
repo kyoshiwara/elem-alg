@@ -69,9 +69,10 @@
     </ol></p></solution></example>
 
 <reading-questions>
-	<exercise><p>A numerical quantity that changes over time or in different situations is called a <fillin characters="6"/>.</p>
-	<answer><p>variable</p></answer></exercise>
-	<exercise><p>We can show the values of a variable in a <fillin characters="6"/> or a <fillin characters="6"/>.</p><answer><p>table, graph</p></answer></exercise></reading-questions>
+	<exercise number="1"><statement><p>A numerical quantity that changes over time or in different situations is called a <fillin characters="6"/>.</p></statement>
+		<answer><p>variable</p></answer></exercise>
+	<exercise number="2"><statement><p>We can show the values of a variable in a <fillin characters="6"/> or a <fillin characters="6"/>.</p></statement>
+		<answer><p>table, graph</p></answer></exercise></reading-questions>
 
 <assemblage><title>Look Closer</title>
 <p>By displaying the values of a variable in a table or a graph, we sometimes see trends or patterns in those values.  For example, we see that life expectancy has been increasing slowly over time, and that salaries of NFL football players have been increasing ever more rapidly since 1940.</p></assemblage>
@@ -133,8 +134,10 @@
 </ol></p></solution></example>
 
 <reading-questions>
-	<exercise number="3"><p>We often use <fillin characters="6"/> as a shorthand to represent variable quantities.</p><answer><p>letters</p></answer></exercise>      
-	<exercise number="4"><p>Which variable is displayed on the vertical axis in Example 3?</p><answer><p>altitude</p></answer></exercise></reading-questions>
+	<exercise number="3"><statement><p>We often use <fillin characters="6"/> as a shorthand to represent variable quantities.</p></statement>
+		<answer><p>letters</p></answer></exercise>      
+	<exercise number="4"><statement><p>Which variable is displayed on the vertical axis in Example 3?</p></statement>
+		<answer><p>altitude</p></answer></exercise></reading-questions>
 
 <assemblage><title>Look Ahead</title>
 <p>It would be useful if we could discover a formula or rule to help us predict the values of an interesting variable.</p></assemblage>
@@ -209,8 +212,8 @@
 and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>.  Thus,  <m>y=x-3</m>.</p></solution></example>
 
 <reading-questions>
-	<exercise number="5"><p>A statement that two quantities are equal is called an <fillin characters="6"/>.</p><answer><p>equation</p>     
-	</answer></exercise></reading-questions>
+	<exercise number="5"><statement><p>A statement that two quantities are equal is called an <fillin characters="6"/>.</p></statement>
+		<answer><p>equation</p></answer></exercise></reading-questions>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
