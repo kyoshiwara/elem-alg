@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Order-of-Operations"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Order of Operations</title>
+
+<subsection><title>Addition and Multiplication</title>
+
+<p>If you add together three or more numbers, such as 
+	<me>2+5+8</me>
+it doesn't matter which addition you do first; you will get the same answer either way.</p>
+
+<example><statement><p><ol label="a">
+	<li>A sum of three or more terms can be added in any order. In the sums below, the parentheses tell us which part of the expression to simplify first.  
+		\begin{align*}
+                (\blert{2} \amp \blert{+5})+8 \amp \text{and}~~~~~~~~~~2 \amp + (\blert{5+8})\\
+                \amp = \blert{7}+8=15 \amp		\amp = 2+\blert{13}=15
+                \end{align*}</li>
+    <li>Similarly, a product of three factors can be multiplied in any order. Thus
+    	\begin{align*}
+                (\blert{3} \amp \blert{\cdot 2}) \cdot 4 \amp \text{and}~~~~~~~~~~3 \cdot \amp + (\blert{2 \cdot 4})\\
+                \amp = \blert{6}\cdot 4=24 \amp		\amp = 3 \cdot \blert{8}=24
+                \end{align*}</li></ol></p></statement></example>
+
+<p>These two facts illustrate the associative laws for addition and multiplication.</p>
+
+<assemblage><title>Associative Law for Addition</title>
+<p>If <m>a, b</m> and <m>c</m> are any numbers, then
+	<me>(a+b)+c = a+(b+c)</me></p></assemblage>
+
+<assemblage><title>Associative Law for Multiplication</title>
+<p>If <m>a, b</m> and <m>c</m> are any numbers, then
+	<me>(a \cdot b) \cdot c = a \cdot (b \cdot c)</me></p></assemblage>
+</subsection>
+
+<subsection><title>Subtraction and Division</title>
+<p>What about a string of subtractions or a string of divisions, such as
+	<me>20-8-5~~~~~~~~~~\text{or}~~~~~~~~~~36 \div 6 \div 2</me>
+In these calculations, we get different answers, depending on which operations we perform first, as you can see in Example 2.</p>
+
+<example><statement><p><ol label="a">
+	<li>Subtraction:
+		<me>(\blert{20-8})-5=\blert{12}-5=7 ~~~~~~\text{but}~~~~~~ 20-(\blert{8-5})=20-\blert(3)=17</me></li>
+	<li>Division:
+		<me>(\blert{36 \div 6}) \div 2 =\blert{6}\div 2=3 ~~~~~~\text{but}~~~~~~ 36 \div(\blert{6 \div 2})=36-\blert(3)=12</me></li>
+	</ol></p></statement></example>
+
+<assemblage><p>The associative laws do not hold for subtraction or division.</p></assemblage>
+
+<p>So, if there are no parentheses in the expression, how do we know which operations to perform first?</p>
+
+<assemblage><p><ol label="1">
+	<li>In a string of additions and subtractions, we perform the operations in order from left to right.</li>  
+	<li>Similarly, we perform multiplications and divisions in order from left to right.</li>
+</ol></p></assemblage>
+
+<example><statement><p>Simplify each expression.<ol label="a" cols="2">
+	<li><m>20-8-5</m></li>
+	<li><m>36 \div 6 \div 2</m></li></ol></p></statement>
+<solution><p>Perform the operations in order from left to right.<ol label="a" cols="2">
+	<li><m>\blert{20-8}-5=\blert{12}-5=7</m></li>
+	<li><m>\blert{36 \div 6} \div 2 =\blert{6}\div 2=3</m></li></ol></p></solution></example>
+
+<reading-questions>
+	<exercise number="1"><statement><p>What do the associative laws tell us?</p></statement>
+		<answer><p>A sum or product of three or more terms can be callculated in any order.</p></answer></exercise>
+	<exercise number="2"><statement><p>Which two operations are not associative?</p></statement>
+		<answer><p>Subtraction and division</p></answer></exercise>
+	<exercise number="3"><statement><p>In what order should we perform a string of additions and subtractions?</p></statement>
+		<answer><p>In order from left to right.</p></answer></exercise></reading-questions>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</subsection>
+</section>
