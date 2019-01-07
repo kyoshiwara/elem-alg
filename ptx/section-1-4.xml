@@ -222,26 +222,55 @@ Finally, we answer the question in a sentence:
 	<exercise number="6"><statement><p>True or false: One side of the equation that models a problem will be the unknown variable.
 </p></statement>
 		<answer><p>False</p></answer></exercise></reading-questions>
+</subsection>
 
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup>
+    <introduction><p>In Exercises 1<ndash/>6, choose the correct algebraic expression.
+		<me> m+15~~~~~~~~m-15~~~~~~~~15-m</me></p></introduction>
 
+<exercise number="1"><statement><p>Carol weighs 15 pounds less than Garth. If Garth weighs <m>m</m> pounds, how much does Carol weigh?</p></statement>
+<answer><p><m>m-15</m></p></answer></exercise>
 
+<exercise number="2"><statement><p>Amber and Beryl together planted 15 trees. If Amber planted <m>m</m> trees, how many trees did Beryl plant?</p></statement>
+<answer><p><m>15-m</m></p></answer></exercise>
 
+<exercise number="3"><statement><p>Fred earned $15 more this week than last week. If he earned <m>m</m> dollars last week, how much did he earn this week?</p></statement>
+<answer><p><m>m+15</m></p></answer></exercise>
 
+<exercise number="4"><statement><p>Meg bicycled 15 miles farther than Kwan. If Kwan rode <m>m</m> miles, how far did Meg ride?</p></statement>
+<answer><p><m>m+15</m></p></answer></exercise>
 
+<exercise number="5"><statement><p>There are 15 children in Amy's swim class. If there are <m>m</m> girls, how many are boys?</p></statement>
+<answer><p><m>15-m</m></p></answer></exercise>
 
+<exercise number="6"><statement><p>The sale price of a sweater is $15 less than the regular price. If the regular price is <m>m</m> dollars, what is the sale price?</p></statement>
+<answer><p><m>m-15</m></p></answer></exercise>
+</exercisegroup>
 
+<exercisegroup>
+    <introduction><p>In Exercises 7<ndash/>12, choose the correct algebraic expression.
+		<me> 12p~~~~~~~~\dfrac{12}{p}~~~~~~~~\dfrac{p}{12}</me></p></introduction>
 
+<exercise number="7"><statement><p>Julian earns $12 an hour. If he works for <m>p</m> hours, how much will he make?</p></statement>
+<answer><p><m>12p</m></p></answer></exercise>
 
+<exercise number="8"><statement><p>Farmer Brown collected <m>p</m> eggs this morning. How many dozen is that?</p></statement>
+<answer><p><m>\dfrac{p}{12}</m></p></answer></exercise>
 
+<exercise number="9"><statement><p>Melissa bought 12 colored markers. If their total cost was <m>p</m> dollars, how much did each marker cost?</p></statement>
+<answer><p><m>\dfrac{p}{12}</m></p></answer></exercise>
 
+<exercise number="10"><statement><p>Rosalind is baby-sitting for <m>p</m> children. If she brings 12 puzzles, how many will each child get?</p></statement>
+<answer><p><m>\dfrac{12}{p}</m></p></answer></exercise>
 
+<exercise number="11"><statement><p>Hector has to read 12 chapters in his history text. If he has <m>p</m> days to complete the assignment, how many chapters should he read per day?</p></statement>
+<answer><p><m>\dfrac{12}{p}</m></p></answer></exercise>
 
-
-
-
-
-
-
+<exercise number="12"><statement><p>Roma swims 12 laps per day. After <m>p</m> days, how many laps has she swum?</p></statement>
+<answer><p><m>12p</m></p></answer></exercise>
+</exercisegroup>
 
 </subsection>
 </section>  
