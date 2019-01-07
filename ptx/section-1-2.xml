@@ -382,13 +382,54 @@ Bert's average score is 15.8.</p></solution></example>
 
 <exercisegroup cols="2"><introduction><p>Find the perimeter and area of each figure. All angles are right angles.</p></introduction>
 
-<exercise number="7"><statement><sidebyside width="70%"><image source="images/sw-1-2-7.png"/></sidebyside></statement>
+<exercise number="7"><statement><sidebyside width="70%"><!--<image source="images/sw-1-2-7.png"/>-->
+    <image xml:id="sw-1-2-7">
+        <description>stacks of squares</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.8]
+        \draw[cyan, thick] (-3,0) grid (-2,5);
+        \draw[cyan, thick] (-2,0) grid (-1,4);
+        \draw[cyan, thick] (-1,0) grid (0,2);
+        \draw[cyan, thick] (0,0) grid (1,1);
+        \draw[cyan, thick] (3,0) grid (4,5);
+        \draw[cyan, thick] (2,0) grid (3,4);
+        \draw[cyan, thick] (1,0) grid (2,2);
+        \node[below,text=cyan] at (0.5,-0.4){All squares are};
+        \node[below,text=cyan] at (0.5,-1){1 centimeter on a side.};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer><p>32 cm; 23 sq cm</p></answer></exercise>
 
-<exercise number="8"><statement><sidebyside width="70%"><image source="images/sw-1-2-8.png"/></sidebyside></statement>
+<exercise number="8"><statement><sidebyside width="70%"><!--<image source="images/sw-1-2-8.png"/>-->
+    <image xml:id="sw-1-2-8">
+        <description>polygonal region with right angles</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.4]
+        \draw[red,very thick] (0,0)--++(0,5) node[left, midway, text=black]{5 ft};
+        \draw[red,very thick] (0,5)--++(8,0) node[above, midway, text=black]{8 ft};
+        \draw[red,very thick] (8,5)--++(0,3) node[left, midway, xshift=2, text=black]{3 ft};
+        \draw[red,very thick] (8,8)--++(4,0) node[above, midway, text=black]{4 ft};
+        \draw[red,very thick] (0,0)--++(3,0);
+        \draw[red,very thick] (3,0)--++(0,-2) node[left, midway, xshift=2, text=black]{2 ft};
+        \draw[red,very thick] (3,-2)--++(9,0) node[below, midway, text=black]{9 ft};
+        \draw[red, very thick](12,8)--++(0,-10);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer><p>44 ft; 90 sq ft</p></answer></exercise>
 </exercisegroup>
 </exercises>
 
 </subsection>
+<xi:include href="./hmwk-1-2.xml" />
+
 </section>    
