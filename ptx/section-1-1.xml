@@ -221,7 +221,28 @@
     <li>The total rent and Fernando's share are variables. Let <m>R</m> stand for the total rent, and let <m>F</m> stand for Fernando's share. Using these letters, write a formula for Fernando's share of the rent.
         <me>\blert{F=R \div 4}</me></li>
     <li><p>Plot the points from the table and connect them with a smooth curve. Extend your line so that it reaches across the entire grid, not just the points that you plotted.</p>
-    <sidebyside width="50%"><image source="images/fig-1-1-ex4.png"/></sidebyside></li>         
+    <sidebyside width="55%"><!--<image source="images/fig-1-1-ex4.png"/>-->
+    <image xml:id="fig-1-1-ex4">
+        <description>Fernando's share of rent</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.015, yscale=.03]
+        \draw[cyan] (0,0) grid[xstep=50, ystep=15] (500,150);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(530,0) node[right]{$R$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,160) node[above]{$F$};
+        \foreach \x in  {100, 200, ..., 500} {
+         \draw[black, thick] (\x,2) --++(0,-4)  node[below]   {\x};
+        }
+        \foreach \y in  {30, 60, ..., 150} {
+         \draw[black, thick] (6,\y) --++(-12,0)  node[left]   {\y};
+        }
+        \draw [red, ultra thick] (0,0) -- (500,125);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>         
    </ol></p></statement></example>
 
 <assemblage><p>A formula relating two variables is a type of <term>equation</term>, and an equation is just a statement that two quantities are equal.</p></assemblage>
@@ -283,6 +304,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 </exercisegroup>
 </exercises>
 </subsection>
+<xi:include href="./hmwk-1-1.xml" />
 
 </section> 
 <!-- </book>  </mathbook> -->
