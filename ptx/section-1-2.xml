@@ -33,22 +33,52 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <subsection><title>Sums</title>
 <p>When we add two numbers <m>a</m> and <m>b</m>, the result is called the <term>sum</term> of <m>a</m> and <m>b</m>. We call the numbers <m>a</m> and <m>b</m> the <term>terms</term> of the sum.</p>
-	<sidebyside width="50%"><image source="images/fig-1-2-1.png"/></sidebyside>
+<!--    <sidebyside width="50%"><image source="images/fig-1-2-1.png"/></sidebyside> -->
+    <sidebyside width="42%">
+        <image xml:id="fig-1-2-1">
+        <description>sums</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate (O) at (0,0);
+        \coordinate (A) at (-0.8,0.7);
+        \coordinate (Aa) at (-0.4,.25);
+        \coordinate (Ab) at (0.2,.25);
+        \coordinate (B) at (-.5,-.2);
+        \node at (O) {$2+3$};
+        \draw[blue, <-, >=stealth'] (Ab)--(A) node[left, scale=.9]{terms};
+        \draw[blue, <-, >=stealth'] (Aa)--(A);
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (.5,-0.2)--(B)  node [below,midway,yshift=-4pt] {sum};
+        \coordinate (P) at (3,0);
+        \coordinate (C) at (3.6,0.7);
+        \coordinate (Ca) at (2.8,.2);
+        \coordinate (Cb) at (3.4,.23);
+        \coordinate (D) at (2.5,-.2);
+        \node at (P) {$x+5$};
+        \draw[blue, <-, >=stealth'] (Cb)--(C) node[right, scale=.9]{terms};
+        \draw[blue, <-, >=stealth'] (Ca)--(C);
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (3.5,-0.2)--(D)  node [below,midway,yshift=-4pt] {sum};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 
 <example><statement><p>Write sums to represent the following phrases.<ol label="a" cols="2">
-	<li><p>Six more than <m>x</m></p></li>
-	<li><p>Fifteen greater than <m>r</m></p></li>
+    <li><p>Six more than <m>x</m></p></li>
+    <li><p>Fifteen greater than <m>r</m></p></li>
 </ol></p></statement>
 <solution><p><ol label="a" cols="2">
-	<li><p><m>6+x</m> or <m>x+6</m></p></li>
-	<li><p><m>15+r</m> or <m>r+15</m></p></li>
+    <li><p><m>6+x</m> or <m>x+6</m></p></li>
+    <li><p><m>15+r</m> or <m>r+15</m></p></li>
 </ol></p></solution></example>
 
 <p>The terms can be added in either order.  We call this fact the <term>commutative law</term> for addition.</p>
 
 <assemblage><title>Commutative Law for Addition</title>
-	<p>If <m>a</m> and <m>b</m> are numbers, then
-		<me>a+b = b+a</me></p>
+    <p>If <m>a</m> and <m>b</m> are numbers, then
+        <me>a+b = b+a</me></p>
 </assemblage>
 </subsection>
 
@@ -56,23 +86,62 @@ are algebraic expressions. An important part of algebra involves translating wor
 <p>When we multiply two numbers <m>a</m> and <m>b</m>, the result is called the <term>product</term> of <m>a</m> and <m>b</m>.  The numbers <m>a</m> and <m>b</m> are the <term>factors</term> of the product.</p>
 
 <assemblage><title>Look Closer</title>
-<p>In arithmetic we use the symbol <m>\times</m> to denote multiplication. However, in algebra, <m>\times</m> may be confused with the variable <m>x</m>. So, instead, we use a dot or parentheses for multiplication, like this:
-	<sidebyside width="70%"><image source="images/fig-1-2-2.png"/></sidebyside>
-If one of the factors is a variable, we can just write the factors side by side. For example,
-	\begin{align*}
-			ab~~~~\amp \text{means} \amp\amp \text{the product of}~~ a~~ \text{times}~~ b\\ 
-			3x~~~~\amp \text{means} \amp\amp \text{the product of}~~ 3~~ \text{times}~~ x\\
-	\end{align*}</p></assemblage>
+<p>In arithmetic we use the symbol <m>\times</m> to denote multiplication. However, in algebra, <m>\times</m> may be confused with the variable <m>x</m>. So, instead, we use a dot or parentheses for multiplication, like this:</p>
+<!--    <sidebyside width="70%"><image source="images/fig-1-2-2.png"/></sidebyside>-->
+    <sidebyside width="60%">
+        <image xml:id="fig-1-2-2">
+        <description>products</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate (O) at (0,0);
+        \coordinate (A) at (-0.8,0.7);
+        \coordinate (Aa) at (-0.3,.2);
+        \coordinate (Ab) at (0.15,.25);
+        \coordinate (B) at (-.4,-.2);
+        \node at (O) {$2\cdot3$};
+        \draw[blue, <-, >=stealth'] (Ab)--(A) node[left, scale=.9]{factors};
+        \draw[blue, <-, >=stealth'] (Aa)--(A);
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (.4,-0.2)--(B)  node [below,midway,yshift=-4pt] {product};
+        \coordinate (P) at (3.4,0);
+        \coordinate (C) at (2.8,0.7);
+        \coordinate (Ca) at (3.15,.25);
+        \coordinate (Cb) at (3.45,.25);
+        \coordinate (D) at (3,-.2);
+        \node at (P) {$2(3)$};
+        \draw[blue, <-, >=stealth'] (Cb)--(C) node[left, scale=.9]{factors};
+        \draw[blue, <-, >=stealth'] (Ca)--(C);
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (3.8,-0.2)--(D)  node [below,midway,yshift=-4pt] {product};
+        \coordinate (Q) at (6.8,0);
+        \coordinate (E) at (6.2,0.7);
+        \coordinate (Ea) at (6.5,.25);
+        \coordinate (Eb) at (6.95,.25);
+        \coordinate (F) at (6.28,-.2);
+        \node at (Q) {$(2)(3)$};
+        \draw[blue, <-, >=stealth'] (Eb)--(E) node[left, scale=.9]{factors};
+        \draw[blue, <-, >=stealth'] (Ea)--(E);
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (7.3,-0.2)--(F)  node [below,midway,yshift=-4pt] {product};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
+<p>If one of the factors is a variable, we can just write the factors side by side. For example,
+    \begin{align*}
+            ab~~~~\amp \text{means} \amp\amp \text{the product of}~~ a~~ \text{times}~~ b\\ 
+            3x~~~~\amp \text{means} \amp\amp \text{the product of}~~ 3~~ \text{times}~~ x\\
+    \end{align*}</p></assemblage>
 
 <example><statement><p>Write products to represent the following phrases.<ol label="a">
-	<li>Ten times <m>z</m></li>
-	<li>Two-thirds of <m>y</m></li>
-	<li>The product of <m>x</m> and <m>y</m></li>
+    <li>Ten times <m>z</m></li>
+    <li>Two-thirds of <m>y</m></li>
+    <li>The product of <m>x</m> and <m>y</m></li>
 </ol></p></statement>
 <solution><p><ol label="a" cols="3">
-	<li><m>10z</m></li>
-	<li><m>\dfrac{2}{3}y</m></li>
-	<li><m>xy</m> or <m>yx</m></li>
+    <li><m>10z</m></li>
+    <li><m>\dfrac{2}{3}y</m></li>
+    <li><m>xy</m> or <m>yx</m></li>
 </ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
@@ -80,55 +149,126 @@ If one of the factors is a variable, we can just write the factors side by side.
 
 <assemblage><title>Commutative Law for Multiplication</title>
 <p>If <m>a</m> and <m>b</m> are numbers, then
-		<me>a \cdot b = b \cdot a</me></p>
+        <me>a \cdot b = b \cdot a</me></p>
 </assemblage>
 
 <p>In algebra, we usually write products with the numeral first. Thus, we write <m>10z</m> for "<m>10</m> times <m>z</m>”.</p>
 
 <reading-questions>
-	<exercise number="2"><statement><p>When we add two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
-		<answer><p>sum, terms</p></answer></exercise>
-	<exercise number="3"><statement><p>When we multiply two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
-		<answer><p>product, factors</p></answer></exercise>
+    <exercise number="2"><statement><p>When we add two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
+        <answer><p>sum, terms</p></answer></exercise>
+    <exercise number="3"><statement><p>When we multiply two numbers, the result is called the <fillin characters="6"/> and the two numbers are called the <fillin characters="6"/>.</p></statement>
+        <answer><p>product, factors</p></answer></exercise>
 </reading-questions>
 </subsection>
 
 <subsection><title>Differences</title>
 <p>When we subtract <m>b</m> from <m>a</m> the result is called the <term>difference</term> of <m>a</m> and <m>b</m>. As with addition, <m>a</m> and <m>b</m> are called <term>terms</term>.</p>
-	<sidebyside width="70%"><image source="images/fig-1-2-3.png"/></sidebyside>
+<!--    <sidebyside width="70%"><image source="images/fig-1-2-3.png"/></sidebyside>-->
+    <sidebyside width="60%">
+        <image xml:id="fig-1-2-3">
+        <description>differences</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate (O) at (0,0);
+        \coordinate (A) at (-0.8,0.7);
+        \coordinate (Aa) at (-0.3,.2);
+        \coordinate (Ab) at (0.25,.2);
+        \coordinate (B) at (-.5,-.2);
+        \node at (O) {$a-b$};
+        \draw[blue, <-, >=stealth'] (Ab)--(A) node[left, scale=.9]{terms};
+        \draw[blue, <-, >=stealth'] (Aa)--(A);
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (.5,-0.2)--(B)  node [below,midway,yshift=-4pt] {difference};
+        \coordinate (P) at (3.4,0);
+        \coordinate (C) at (2.8,0.7);
+        \coordinate (Ca) at (3.1,.25);
+        \coordinate (Cb) at (3.6,.2);
+        \coordinate (D) at (3,-.2);
+        \node at (P) {$8-c$};
+        \draw[blue, <-, >=stealth'] (Cb)--(C) node[left, scale=.9]{terms};
+        \draw[blue, <-, >=stealth'] (Ca)--(C);
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (4.,-0.2)--(D)  node [below,midway,yshift=-4pt] {difference};
+        \coordinate (Q) at (6.8,0);
+        \coordinate (E) at (6.2,0.7);
+        \coordinate (Ea) at (6.5,.25);
+        \coordinate (Eb) at (7.05,.25);
+        \coordinate (F) at (6.28,-.2);
+        \node at (Q) {$5-2$};
+        \draw[blue, <-, >=stealth'] (Eb)--(E) node[left, scale=.9]{terms};
+        \draw[blue, <-, >=stealth'] (Ea)--(E);
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (7.3,-0.2)--(F)  node [below,midway,yshift=-4pt] {difference};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 
 <warning><p>The difference <m>5-2</m> is not the same as <m>2-5</m>.  When we translate 
 "<m>a</m> subtracted from <m>b</m>," the order of the terms is important.
-	\begin{align*}
-			b-a~~~~\amp \text{means} \amp\amp a~~ \text{subtracted from}~~ b\\ 
-			x-7~~~~\amp \text{means} \amp\amp 7~~ \text{subtracted from}~~  x\\
-	\end{align*}
+    \begin{align*}
+            b-a~~~~\amp \text{means} \amp\amp a~~ \text{subtracted from}~~ b\\ 
+            x-7~~~~\amp \text{means} \amp\amp 7~~ \text{subtracted from}~~  x\\
+    \end{align*}
 The operation of subtraction is not commutative.</p></warning>
 </subsection>
 
 <subsection><title>Quotients</title>
 <p>When we divide <m>a</m> by <m>b</m> the result is called the <term>quotient</term> of <m>a</m> and <m>b</m>.  We call <m>a</m> the <term>dividend</term> and <m>b</m> the <term>divisor</term>.  In algebra we indicate division by using the division symbol, <m>\div</m>, or a fraction bar.</p>
-	<sidebyside width="80%"><image source="images/fig-1-2-4.png"/></sidebyside>
+<!--    <sidebyside width="80%"><image source="images/fig-1-2-4.png"/></sidebyside>-->
+    <sidebyside width="60%">
+        <image xml:id="fig-1-2-4">
+        <description>quotients</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate (O) at (0,0);
+        \coordinate (A) at (0,0.8);
+        \coordinate (B) at (-.6,0.3);
+        \coordinate (B2) at (.65,0.3);
+        \coordinate (C) at (-.5,-0.2);
+        \node at (O) {$a\div b$};
+        \draw[blue, <-, >=stealth'] (A)++(0,-.5)--(A) node[above, yshift=-.3, scale=.9]{division symbol};
+        \draw[blue, <-, >=stealth'] (B)++(.2,-0.2)--(B) node[left, scale=.9] {dividend};;
+        \draw[blue, <-, >=stealth'] (B2)++(-.2,-0.2)--(B2) node[right, scale=.9] {divisor};;
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (C)++(1,0)--(C)  node [below,midway,yshift=-4pt] {quotient};
+        \coordinate (P) at (5,0);
+        \coordinate (D) at (5,0.8);
+        \coordinate (E) at (4.4,0);
+        \coordinate (E2) at (5.25,0);
+        \coordinate (F) at (5,-.8);
+        \node at (P) {$\displaystyle\frac{a}{b}$};
+        \draw[blue, <-, >=stealth'] (D)++(0,-.35)--(D)--++(-0.3,0) node[left, scale=.9]{dividend};
+        \draw[blue, <-, >=stealth'] (E)++(.3,0)--(E) node[left, scale=.9] {fraction bar};;
+        \draw[blue, <-, >=stealth'] (F)++(0,.35)--(F)--++(0.3,0) node[right, scale=.9] {divisor};;
+        \draw [blue,decorate,decoration={brace,amplitude=3pt}] (E2)++(0,0.4)--++(0,-0.8)  node [right,midway,xshift=4pt] {quotient};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 
 <assemblage><title>Look Closer</title>
 <p>The operation of division is not commutative. The order of the numbers in a quotient makes a difference. For example, <m>12 \div 3 = 4</m> but <m>3 \div 12 = \dfrac{1}{4}</m>.</p></assemblage>
 
 <example><statement><p>Write an algebraic expression for each phrase.<ol label="a" cols="2">
-	<li><m>z</m> subtracted from <m>13</m></li>
-	<li><m>25</m> divided by <m>R</m></li>
+    <li><m>z</m> subtracted from <m>13</m></li>
+    <li><m>25</m> divided by <m>R</m></li>
 </ol></p></statement>
 <solution><p><ol label="a" cols ="2">
-	<li><m>13-z</m></li>
-	<li><m>\dfrac{25}{R}</m></li>
+    <li><m>13-z</m></li>
+    <li><m>\dfrac{25}{R}</m></li>
 </ol></p></solution></example>
 
 <reading-questions>
-	<exercise number="4"><statement><p>Which operations obey the commutative laws? What do these laws say?</p></statement>
-		<answer><p>addition and multiplication. We can add two numbers or multiply two numbers in either order.</p></answer></exercise>
-	<exercise number="5"><statement><p>When we subtract two numbers, the result is called the <fillin characters="6"/>.</p></statement>
-		<answer><p>difference</p></answer></exercise>
-	<exercise number="6"><statement><p>When we divide two numbers, the result is called the <fillin characters="6"/>.</p></statement>
-		<answer><p>quotient</p></answer></exercise>
+    <exercise number="4"><statement><p>Which operations obey the commutative laws? What do these laws say?</p></statement>
+        <answer><p>addition and multiplication. We can add two numbers or multiply two numbers in either order.</p></answer></exercise>
+    <exercise number="5"><statement><p>When we subtract two numbers, the result is called the <fillin characters="6"/>.</p></statement>
+        <answer><p>difference</p></answer></exercise>
+    <exercise number="6"><statement><p>When we divide two numbers, the result is called the <fillin characters="6"/>.</p></statement>
+        <answer><p>quotient</p></answer></exercise>
 </reading-questions>
 </subsection>
 

@@ -16,40 +16,40 @@
                         <cell>Year Born</cell>
                         <cell>Life Expectancy</cell></row>
                     <row> 
-                    	<cell><m>1900</m></cell>
-                    	<cell><m>49</m></cell></row>
+                        <cell><m>1900</m></cell>
+                        <cell><m>49</m></cell></row>
                     <row> 
-                    	<cell><m>1910</m></cell>
-                    	<cell><m>51</m></cell></row>
+                        <cell><m>1910</m></cell>
+                        <cell><m>51</m></cell></row>
                     <row> 
-                    	<cell><m>1920</m></cell>
-                    	<cell><m>58</m></cell></row>
+                        <cell><m>1920</m></cell>
+                        <cell><m>58</m></cell></row>
                     <row> 
-                    	<cell><m>1930</m></cell>
-                    	<cell><m>59</m></cell></row>
+                        <cell><m>1930</m></cell>
+                        <cell><m>59</m></cell></row>
                     <row> 
-                    	<cell><m>1940</m></cell>
-                    	<cell><m>63</m></cell></row>
+                        <cell><m>1940</m></cell>
+                        <cell><m>63</m></cell></row>
                     <row> 
-                    	<cell><m>1950</m></cell>
-                    	<cell><m>68</m></cell></row>
+                        <cell><m>1950</m></cell>
+                        <cell><m>68</m></cell></row>
                     <row> 
-                    	<cell><m>1960</m></cell>
-                    	<cell><m>70</m></cell></row>
+                        <cell><m>1960</m></cell>
+                        <cell><m>70</m></cell></row>
                     <row> 
-                    	<cell><m>1970</m></cell>
-                    	<cell><m>71</m></cell></row>
+                        <cell><m>1970</m></cell>
+                        <cell><m>71</m></cell></row>
                     <row> 
-                    	<cell><m>1980</m></cell>
-                    	<cell><m>74</m></cell></row>
+                        <cell><m>1980</m></cell>
+                        <cell><m>74</m></cell></row>
                     <row> 
-                    	<cell><m>1990</m></cell>
-                    	<cell><m>75</m></cell></row>	
+                        <cell><m>1990</m></cell>
+                        <cell><m>75</m></cell></row>    
         </tabular></sidebyside>
-        <ol label="a">
+        <p><ol label="a">
             <li><p>To what age could people born in 1940 expect to live?</p></li>
-            <li><p>In what year did people's life expectancy reach 70 years of age?</p></li>.
-        </ol></statement>
+            <li><p>In what year did people's life expectancy reach 70 years of age?</p></li>
+        </ol></p></statement>
     <solution><p><ol label="a">
         <li><p>People born in 1940 lived to 63 years of age on average.</p></li>
         <li><p>Life expectancy reached 70 years of age in 1960.</p></li>
@@ -58,21 +58,21 @@
 <example><statement>
     <p>The graph below shows the average annual salaries of NFL football players, starting in 1940. The average salary of NFL football players is a variable.</p>
     <sidebyside width="45%"><image source="images/fig-1-1-ex2.png"/></sidebyside>
-    <ol label="a">
+    <p><ol label="a">
         <li><p>Use the graph to estimate the average annual salary of NFL football players in 1975.</p></li>
         <li><p>By how much did salaries increase from 1975 to 1980?</p></li>
-    </ol></statement>
+    </ol></p></statement>
 <solution><p><ol label="a">
         <li><p>In 1975, the average NFL player's salary was $40,000.</p></li>
-		<li><p>In 1980, the average salary was $80,000, so salaries had increased from $40,000 to $80,000, or by 
-			<me>$80,000 - $40,000 = $40,000</me></p></li>
+        <li><p>In 1980, the average salary was $80,000, so salaries had increased from $40,000 to $80,000, or by 
+            <me>$80,000 - $40,000 = $40,000</me></p></li>
     </ol></p></solution></example>
 
 <reading-questions>
-	<exercise number="1"><statement><p>A numerical quantity that changes over time or in different situations is called a <fillin characters="6"/>.</p></statement>
-		<answer><p>variable</p></answer></exercise>
-	<exercise number="2"><statement><p>We can show the values of a variable in a <fillin characters="6"/> or a <fillin characters="6"/>.</p></statement>
-		<answer><p>table, graph</p></answer></exercise></reading-questions>
+    <exercise number="1"><statement><p>A numerical quantity that changes over time or in different situations is called a <fillin characters="6"/>.</p></statement>
+        <answer><p>variable</p></answer></exercise>
+    <exercise number="2"><statement><p>We can show the values of a variable in a <fillin characters="6"/> or a <fillin characters="6"/>.</p></statement>
+        <answer><p>table, graph</p></answer></exercise></reading-questions>
 
 <assemblage><title>Look Closer</title>
 <p>By displaying the values of a variable in a table or a graph, we sometimes see trends or patterns in those values.  For example, we see that life expectancy has been increasing slowly over time, and that salaries of NFL football players have been increasing ever more rapidly since 1940.</p></assemblage>
@@ -115,10 +115,10 @@
             </tabular></sidebyside>
 
 <p>We often use a letter as a kind of short-hand to represent a variable. For this example, we use the following letters:  
-	<me>t~~~  \text{stands for the time elapsed after take-off}</me>
-	<me>h~~~  \text{stands for the plane's altitude at that time}</me></p>
+    <me>t~~~  \text{stands for the time elapsed after take-off}</me>
+    <me>h~~~  \text{stands for the plane's altitude at that time}</me></p>
 
-<p>We can get a better feel for the variables by plotting them on a graph. In the figure below, the values of <m>t</m> are displayed on the horizontal scale, or axis, and the values of <m>h</m> are shown on the vertical axis. The graph shows how the values of <m>h</m> are related to the values of <m>t</m>.</p>	           
+<p>We can get a better feel for the variables by plotting them on a graph. In the figure below, the values of <m>t</m> are displayed on the horizontal scale, or axis, and the values of <m>h</m> are shown on the vertical axis. The graph shows how the values of <m>h</m> are related to the values of <m>t</m>.</p>            
     
 <sidebyside width="50%"><!--<image source="images/fig-1-1-1.png" />-->
     <image xml:id="fig-1-1-1">
@@ -145,12 +145,12 @@
 
 <example><statement><p><ol label="a">
     <li>What is the value of <m>h</m> when <m>t=85</m>?  What do these values mean in this situation?</li>
-	<li>When is the plane descending?</li>
+    <li>When is the plane descending?</li>
 </ol></p></statement>
 
 <solution><p><ol label="a">
-	<li><p>The graph shows that <m>h</m> is approximately 20 when <m>t=85</m>. This means that at 85 minutes into the flight, the plane's altitude is about 20,000 feet.</p>
-		<sidebyside width="50%"><!--<image source="images/fig-1-1-ex3.png"/>-->
+    <li><p>The graph shows that <m>h</m> is approximately 20 when <m>t=85</m>. This means that at 85 minutes into the flight, the plane's altitude is about 20,000 feet.</p>
+        <sidebyside width="50%"><!--<image source="images/fig-1-1-ex3.png"/>-->
     <image xml:id="fig-1-1-ex3">
         <description>airplane altitude</description>
         <latex-image>
@@ -173,14 +173,14 @@
     </latex-image>
     </image>
         </sidebyside></li>
-	<li>The plane is descending when its altitude is decreasing.  On the graph, <m>h</m> begins to decrease at <m>t=70</m> and continues decreasing until <m>t=110</m>. Thus, the plane is descending from the 70th minute until the end of the flight at 110 minutes.</li>
+    <li>The plane is descending when its altitude is decreasing.  On the graph, <m>h</m> begins to decrease at <m>t=70</m> and continues decreasing until <m>t=110</m>. Thus, the plane is descending from the 70th minute until the end of the flight at 110 minutes.</li>
 </ol></p></solution></example>
 
 <reading-questions>
-	<exercise number="3"><statement><p>We often use <fillin characters="6"/> as a shorthand to represent variable quantities.</p></statement>
-		<answer><p>letters</p></answer></exercise>      
-	<exercise number="4"><statement><p>Which variable is displayed on the vertical axis in Example 3?</p></statement>
-		<answer><p>altitude</p></answer></exercise></reading-questions>
+    <exercise number="3"><statement><p>We often use <fillin characters="6"/> as a shorthand to represent variable quantities.</p></statement>
+        <answer><p>letters</p></answer></exercise>      
+    <exercise number="4"><statement><p>Which variable is displayed on the vertical axis in Example 3?</p></statement>
+        <answer><p>altitude</p></answer></exercise></reading-questions>
 
 <assemblage><title>Look Ahead</title>
 <p>It would be useful if we could discover a formula or rule to help us predict the values of an interesting variable.</p></assemblage>
@@ -214,14 +214,14 @@
             </tabular></sidebyside>
 
 <p><ol label="a">
-	<li>Fill in the blanks in the table.  Describe in words how you found the unknown values.	
-		<me>\blert{\text{Divide the rent by 4}}</me></li>
+    <li>Fill in the blanks in the table.  Describe in words how you found the unknown values.   
+        <me>\blert{\text{Divide the rent by 4}}</me></li>
     <li>Write a mathematical sentence that gives Fernando's share of the total rent.
-    	<me>\blert{\text{Fernando's share}=\text{Rent}\div 4}</me></li>
+        <me>\blert{\text{Fernando's share}=\text{Rent}\div 4}</me></li>
     <li>The total rent and Fernando's share are variables. Let <m>R</m> stand for the total rent, and let <m>F</m> stand for Fernando's share. Using these letters, write a formula for Fernando's share of the rent.
-    	<me>\blert{F=R \div 4}</me></li>
+        <me>\blert{F=R \div 4}</me></li>
     <li><p>Plot the points from the table and connect them with a smooth curve. Extend your line so that it reaches across the entire grid, not just the points that you plotted.</p>
-	<sidebyside width="50%"><image source="images/fig-1-1-ex4.png"/></sidebyside></li> 	       
+    <sidebyside width="50%"><image source="images/fig-1-1-ex4.png"/></sidebyside></li>         
    </ol></p></statement></example>
 
 <assemblage><p>A formula relating two variables is a type of <term>equation</term>, and an equation is just a statement that two quantities are equal.</p></assemblage>
@@ -230,7 +230,7 @@
 
 <example><statement><p>Write an equation that relates the two variables in the table.</p>
   
-  	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor">    
                     <cell><m>x</m></cell>
                     <cell><m>5</m></cell>
@@ -248,15 +248,15 @@
             </tabular></sidebyside></statement>
 
 <solution><p>The two variables are <m>x</m> and <m>y</m>. Each column of the table shows a related pair of values. Notice that 2 is 3 less than 5, 7 is 3 less than 10, and so on.  That is:
-	\begin{align*}
+    \begin{align*}
                2 \amp = 5-3, \amp\amp 7 = 10-3\\
                 12\amp = 15-3, \amp\amp 17 = 20-3                
                 \end{align*}
 and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>.  Thus,  <m>y=x-3</m>.</p></solution></example>
 
 <reading-questions>
-	<exercise number="5"><statement><p>A statement that two quantities are equal is called an <fillin characters="6"/>.</p></statement>
-		<answer><p>equation</p></answer></exercise></reading-questions>
+    <exercise number="5"><statement><p>A statement that two quantities are equal is called an <fillin characters="6"/>.</p></statement>
+        <answer><p>equation</p></answer></exercise></reading-questions>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>
