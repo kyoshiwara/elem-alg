@@ -67,37 +67,168 @@ In these calculations, we get different answers, depending on which operations w
 	<exercise number="2"><statement><p>Which two operations are not associative?</p></statement>
 		<answer><p>Subtraction and division</p></answer></exercise>
 	<exercise number="3"><statement><p>In what order should we perform a string of additions and subtractions?</p></statement>
-		<answer><p>In order from left to right.</p></answer></exercise></reading-questions>	
+		<answer><p>In order from left to right.</p></answer></exercise></reading-questions>
+</subsection>
 
+<subsection><title>Combined Operations</title>	
+<p>How should we simplify the expression  <m>4+6 \cdot 2</m> ?</p>
 
+<p>If we do the addition first, we get
+	<me>(\blert{4+6}) \cdot 2 = \blert{10} \cdot 2 = 20</me>
+If we do the multiplication first, we get
+	<me>4+(\blert{6 \cdot 2}) = 4 + \blert{12} = 48</me></p>
+<p>Which one is correct?  In order to avoid confusion, we make the following agreement.</p>
 
+<assemblage><p>Always perform multiplications and divisions before additions and subtractions.</p></assemblage> 
 
+<example><statement><p>The correct way to simplify the expression <m>4+6 \cdot 2</m> is
+	\begin{align*}
+                4 \amp + \blert{6 \cdot 2} \amp \amp \blert{\text{Multiply first.}}\\
+                \amp = 4 + 12 \amp	\amp \blert{\text{Then add.}}\\
+                \amp = 16
+                \end{align*}</p></statement></example>
 
+<assemblage><title>Look Closer</title>
+<p>In longer expressions, it can be helpful to group the expression into its terms before beginning. <term>Terms</term> are expressions separated by addition or subtraction symbols. We simplify each term before combining them.</p></assemblage>
 
+<example><statement><p>Simplify <m>6 + 2 \cdot 5 - 12 \div 3 \cdot 2</m></p></statement>
 
+<solution><p>We start by underlining each term of the expression separately. Then we simplify each term.
+	\begin{align*}
+                6 \amp + 2 \cdot 5 - 12 \div 3 \cdot 2 \amp \amp \blert{\text{Perform multiplications and divisions from left to right.}}\\
+                \amp = 6 + 10 - 8 \amp	\amp \blert{\text{Perform additions and subtractions from left to right.}}\\
+                \amp = 16 - 8 = 8
+                \end{align*}</p></solution></example>
 
+<warning><p><ol label="1">
+	<li>In Example 5, we do not start by adding <m>6+2</m>.  We must perform multiplications before additions.</li>  
+	<li>We simplify  <m>12 \div 3 \cdot 2</m> by performing the operations from left to right:
+		<me>\blert{12 \div 3} \cdot 2 = \blert{4} \cdot 2 = 8</me></li></ol></p></warning> 
+</subsection>
 
+<subsection><title>Parentheses</title>
+<p>What if the addition should come first in a particular calculation? In that case, we use parentheses to enclose the sum, like this:
+		<me>(4+6) \cdot 2</me></p>
 
+<assemblage><p>Perform any operations inside parentheses first.</p></assemblage>
 
+<example><statement><p>Simplify.  <ol label="a">
+	<li>\begin{align*}
+                2 + \amp 5 (\blert{7 - 3}) \amp  \amp \blert{\text{Subtract inside parentheses.}}\\
+                \amp = 2 + \blert{5(4)} \amp	\amp \blert{\text{Multiply.}}\\
+                \amp = 2+20 = 22  \amp	\amp \blert{\text{Add.}}
+                \end{align*}</li>
+    <li>\begin{align*}
+               6(\amp 10- \blert{2\cdot 4}) \div 4 \amp  \amp \blert{\text{Multiply inside parentheses.}}\\
+                \amp = 6(\blert{10-8}) \div 4 \amp	\amp \blert{\text{Subtract inside parentheses.}}\\
+                \amp = \blert{6(2)} \div 4  \amp	\amp \blert{\text{Multiply and divide in order from left to right.}}\\
+                \amp = 12 \div 4 = 3
+                \end{align*}</li></ol></p></statement></example>
 
+<reading-questions>
+	<exercise number="4"><statement><p>Is it true that multiplications should be performed before divisions? Why or why not?
+	</p></statement>
+		<answer><p>Perform multiplications and divisions in order from left to right.</p></answer></exercise>
+	<exercise number="5"><statement><p>What do parentheses tell us?</p></statement>
+		<answer><p>Perform any operations inside parentheses first.</p></answer></exercise>
+	<exercise number="6"><statement><p>If there are no parentheses, in what order should we perform multiplications and divisions?
+	</p></statement>
+		<answer><p>In order from left to right.</p></answer></exercise></reading-questions>
+</subsection>
 
+<subsection><title>Fraction Bars</title>
+<p>Like parentheses, a fraction bar is a <term>grouping device</term>.</p>
 
+<assemblage><p>Expressions that appear above or below a fraction bar should be simplified first.</p></assemblage>
 
+<example><statement><p>Simplify <m>\dfrac{24+6}{12+6}</m></p></statement>
 
+<solution><p>We begin by computing the sums above and below the fraction bar. Then we can reduce the fraction. Thus,
+	<me>\dfrac{24+6}{12+6} = \dfrac{30}{18}=\dfrac{5}{3}</me></p></solution></example>
 
+<warning><p>Do not be tempted to "cancel" the terms in Example 7. For example, it would be incorrect to write 
+	<me>\dfrac{24+6}{12+6} = \dfrac{24+6}{12+6} = \dfrac{2+6}{1+6}~~~~~~~~\alert {\leftarrow \text{Incorrect!}}</me>
+According to the order of operations, we must simplify the numerator and denominator first, before dividing.</p></warning>
 
+<reading-questions>
+	<exercise number="7"><statement><p>Besides parentheses, what other symbol serves as a grouping device?</p></statement>
+		<answer><p>Fraction bar</p></answer></exercise>
+	<exercise number="8"><statement><p>When adding fractions, which should you do first: reduce each fraction, or find an LCD?</p></statement>
+		<answer><p>Find an LCD</p></answer></exercise></reading-questions>
+</subsection>
 
+<subsection><title>Summary</title>
+<p>Combining all our guidelines for simplifying expressions, we state the rules for the order of operations.</p>
 
+<assemblage><title>Order of Operations</title>
+<p><ol label="1">
+	<li>First, perform any operations that appear inside parentheses, or above or below a fraction bar.</li>
+	<li>Next, perform all multiplications and divisions in order from left to right.</li>
+	<li>Finally, perform all additions and subtractions in order from left to right.</li>
+</ol></p></assemblage>
+</subsection>
 
+<subsection><title>Algebraic Expressions</title>
+<p>The order of operations applies to variables as well as constants.  For example, the expression
+	<me>5+2x</me>
+tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate the expression for <m>x=8</m> for example, we write
+	\begin{align*}
+                \text{For }x=\alert{8},~~~~~~~~~~5+2x \amp = 5+2(\alert{8}) \amp \amp \blert{\text{Multiply first.}}\\
+                \amp = 5+16=21
+                \end{align*}</p>
+<p>In Example 8, note how parentheses change the meaning of an expression.</p>
 
+<example><statement><p>Write algebraic expressions for each of the following phrases. Then evaluate each phrase for <m>x=2</m> and <m>y=6</m>.<ol label="a">
+	<li>Three times the sum of <m>x</m> and <m>y</m></li> 	
+	<li>The sum of <m>3x</m> and <m>y</m></li></ol></p></statement>
+<solution><p><ol label="a" cols="2">
+	<li><p>\begin{align*}
+                \amp 3(x+y) \\
+                \amp 3(\alert{2}+\alert{6})=3(8)=24
+                \end{align*}</p></li>
+    <li><p>\begin{align*}
+                \amp 3x+y \\
+                \amp 3(\alert{2})+\alert{6}=6+6=12
+                \end{align*}</p></li></ol></p></solution></example>
+</subsection>
 
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup><introduction><p>Perform the operations on fractions as indicated.</p></introduction>
 
+<exercise number="1"><statement><p><ol label="a" cols="2">
+	<li><m>\dfrac{5}{4} + \dfrac{3}{4}</m></li>
+	<li><m>\dfrac{5}{4} - \dfrac{3}{4}</m></li>
+	<li><m>\dfrac{5}{4} \cdot \dfrac{3}{4}</m></li>
+	<li><m>\dfrac{5}{4} \div \dfrac{3}{4}</m></li></ol></p></statement>
+	<answer><p><ol label="a" cols="4">
+		<li><m>2</m></li>
+		<li><m>\dfrac{1}{2}</m></li>
+		<li><m>\dfrac{15}{16}</m></li>
+		<li><m>\dfrac{5}{3}</m></li></ol></p></answer></exercise>
 
+<exercise number="2"><statement><p><ol label="a" cols="2">
+	<li><m>\dfrac{1}{2} + \dfrac{1}{6}</m></li>
+	<li><m>\dfrac{1}{2} - \dfrac{1}{6}</m></li>
+	<li><m>\dfrac{1}{2} \cdot \dfrac{1}{6}</m></li>
+	<li><m>\dfrac{1}{2} \div \dfrac{1}{6}</m></li></ol></p></statement>
+	<answer><p><ol label="a" cols="4">
+		<li><m>\dfrac{2}{3}</m></li>
+		<li><m>\dfrac{1}{3}</m></li>
+		<li><m>\dfrac{1}{12}</m></li>
+		<li><m>3</m></li></ol></p></answer></exercise>
 
-
-
-
-
-
+<exercise number="3"><statement><p><ol label="a" cols="2">
+	<li><m>\dfrac{2}{3} + \dfrac{1}{4}</m></li>
+	<li><m>\dfrac{2}{3} - \dfrac{1}{4}</m></li>
+	<li><m>\dfrac{2}{3} \cdot \dfrac{1}{4}</m></li>
+	<li><m>\dfrac{2}{3} \div \dfrac{1}{4}</m></li></ol></p></statement>
+	<answer><p><ol label="a" cols="4">
+		<li><m>\dfrac{11}{12}</m></li>
+		<li><m>\dfrac{5}{12}</m></li>
+		<li><m>\dfrac{1}{6}</m></li>
+		<li><m>\dfrac{8}{3}</m></li></ol></p></answer></exercise>
+</exercisegroup>
+</exercises>
 </subsection>
 </section>
