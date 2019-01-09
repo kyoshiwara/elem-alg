@@ -28,6 +28,11 @@
     <!-- Prefix to enhance Sage notebook contents -->
     <initialism>Elementary Algebra</initialism>
 
+      <latex-preamble>
+        <package>cancel</package>
+<!--            \usepackage{gensymb}-->
+      </latex-preamble>
+
     <!-- tikz package and libraries for images -->
     <latex-image-preamble>
         \usepackage{tikz}

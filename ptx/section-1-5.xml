@@ -94,9 +94,9 @@ If we do the multiplication first, we get
 <example><statement><p>Simplify <m>6 + 2 \cdot 5 - 12 \div 3 \cdot 2</m></p></statement>
 
 <solution><p>We start by underlining each term of the expression separately. Then we simplify each term.
-	\begin{align*}
-                6 \amp + 2 \cdot 5 - 12 \div 3 \cdot 2 \amp \amp \blert{\text{Perform multiplications and divisions from left to right.}}\\
-                \amp = 6 + 10 - 8 \amp	\amp \blert{\text{Perform additions and subtractions from left to right.}}\\
+    \begin{align*}
+                \underline{6} \amp + \underline{2 \cdot 5} - \underline{12 \div 3 \cdot 2} \amp \amp \blert{\text{Perform multiplications and divisions from left to right.}}\\
+                \amp = 6 + 10 - 8 \amp  \amp \blert{\text{Perform additions and subtractions from left to right.}}\\
                 \amp = 16 - 8 = 8
                 \end{align*}</p></solution></example>
 
@@ -147,8 +147,9 @@ If we do the multiplication first, we get
 	<me>\dfrac{24+6}{12+6} = \dfrac{30}{18}=\dfrac{5}{3}</me></p></solution></example>
 
 <warning><p>Do not be tempted to "cancel" the terms in Example 7. For example, it would be incorrect to write 
-	<me>\dfrac{24+6}{12+6} = \dfrac{24+6}{12+6} = \dfrac{2+6}{1+6}~~~~~~~~\alert {\leftarrow \text{Incorrect!}}</me>
-According to the order of operations, we must simplify the numerator and denominator first, before dividing.</p></warning>
+    <me>\dfrac{24+6}{12+6} = \dfrac{\Ccancel[blue]{24} +6}{\Ccancel[blue]{12} +6} = \dfrac{2+6}{1+6}~~~~~~~~\alert {\leftarrow \text{Incorrect!}}</me>
+According to the order of operations, we must simplify the numerator and denominator first, before dividing.
+</p></warning>
 
 <reading-questions>
 	<exercise number="7"><statement><p>Besides parentheses, what other symbol serves as a grouping device?</p></statement>
