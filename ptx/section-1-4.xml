@@ -134,18 +134,18 @@ The solution is 9. Liz worked for 9 hours.</p></solution></example>
 <example><statement><p>Francine is exactly four years older than Delbert, so an equation relating their ages is <m>F=D+4</m>.  How old is Delbert when Francine is 19?</p></statement>
 
 <solution><p>We must solve the equation
-	<me>19=D+4</me>
+    <me>19=D+4</me>
 We see that 4 has been added to the variable, <m>D</m>. To isolate <m>D</m> on one side of the equals sign, we subtract 4 from both sides of the equation, like this:
-	\begin{align*}
-                19 \amp = D+4 \\
-                \blert{-4} \amp = ~~~\blert{-4} \amp \amp \blert{\text{Note that} ~D+4-4=D}\\
+    \begin{align*}
+                19\, \amp = D+4 \\
+                    \underline{\blert{-4}} \amp = \underline{~~~\,\blert{-4}} \amp \amp \blert{\text{Note that} ~D+4-4=D}\\
                 15 \amp = D
         \end{align*}
 The solution to this equation is 15. You can check that substituting <m>\blert{15}</m> for <m>D</m> does make the equation true.
 \begin{align*}
-	\blert{\text{Check:}}\amp \amp 19 \amp = D+4   \amp \amp \blert{\text{Substitute}~ 15~ \text{for}~D.}\\
-					\amp \amp 19 \amp =\blert{15} +4 \amp \amp \blert{\text{True:  the solution checks.}}
-		\end{align*}</p></solution></example>
+    \blert{\text{Check:}}\amp \amp 19 \amp = D+4   \amp \amp \blert{\text{Substitute}~ 15~ \text{for}~D.}\\
+                    \amp \amp 19 \amp =\blert{15} +4 \amp \amp \blert{\text{True:  the solution checks.}}
+        \end{align*}</p></solution></example>
 
 <assemblage><title>Look Ahead</title>
 <p>That last example is easy enough to solve without algebra, but the method will help us with harder problems. Here is a general strategy for solving such equations.</p></assemblage>
@@ -198,18 +198,23 @@ Finally, we answer the question in a sentence:
 <example><statement><p>Jerry needs an additional $35 for airfare to New York. The ticket to New York costs $293. How much money does Jerry have?</p></statement>
 
 <solution><p>We follow the three steps. <ol label="1">
-	<li>The amount of money Jerry has is unknown.
-		<me>\blert{\text{Amount of money Jerry has:}~~m}</me></li>
-	<li>The airfare to New York can be described in two different ways:
+    <li>The amount of money Jerry has is unknown.
+        <me>\blert{\text{Amount of money Jerry has:}~~m}</me></li>
+    <li><p>The airfare to New York can be described in two different ways:
+        \begin{alignedat}{5}
+        \amp \quad m\amp +\amp\quad 35 \amp =\quad \amp ~~ 293{}\\
+        \amp \,\text{amount }\amp\amp~\text{amount} \amp\amp\text{airfare}  \\
+        \amp\text{Jerry has }\amp\amp\text{he needs}
+        \end{alignedat}
+    </p></li>
+    <li><p>We solve the equation and answer the question.<me>
+        \begin{alignedat}{9}
+         m \amp{}+ 35\amp \amp{}=  ~293 \amp\amp  \qquad \blert{\text{Subtract 35 from both sides.}}\\
+        \amp\underline{{}-{}\blert{35}} \amp  \amp\quad \underline{{}-{}\blert{35}}\\
+        \amp \quad\, m \amp \amp {}= ~258 
+        \end{alignedat}</me></p>
+    <p>Jerry has $258.</p></li></ol></p></solution></example>
 
-	</li>
-	<li>We solve the equation and answer the question.
-		\begin{align*}
-		m+35 \amp =293 \amp \amp \blert{\text{Subtract 35 from both sides.}}\\
-		-\blert{35} \amp ~~~-\blert{35}\\
-		m \amp = 258 
-		\end{align*}
-	Jerry has $258.</li></ol></p></solution></example>
 
 <warning><p>In Example 5, each side of the equation represents the airfare to New York, not the amount of money Jerry has, which is what we want to find. This is typical of applied problems: the equation does not usually represent the unknown quantity itself, but some related quantity.</p></warning>
 
