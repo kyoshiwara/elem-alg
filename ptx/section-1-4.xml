@@ -276,6 +276,7 @@ Finally, we answer the question in a sentence:
 <exercise number="12"><statement><p>Roma swims 12 laps per day. After <m>p</m> days, how many laps has she swum?</p></statement>
 <answer><p><m>12p</m></p></answer></exercise>
 </exercisegroup>
-
+</exercises>
 </subsection>
+<xi:include href="./hmwk-1-4.xml" />
 </section>  

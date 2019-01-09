@@ -51,8 +51,7 @@
         \delimitershortfall-1sp
         \newcommand\abs[1]{\left|#1\right|}
         \newcommand\degree[0]{^{\circ}}
-
-        \renewcommand{\CancelColor}{blue}
+        \newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
 
    </macros>
 
