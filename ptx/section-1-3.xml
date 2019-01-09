@@ -184,7 +184,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
                 9 \amp = D
                 \end{align*}</p></li></ol></p></solution></example>
 
-<example><statement><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><p>Here is a graph of
+<example><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 5%"><p>Here is a graph of
     <me>y=1.5x</me>
    Use the graph to solve the equation <m>1.5x=3.75</m>.</p>
     <image xml:id="fig-1-3-ex5">
@@ -260,7 +260,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 	<answer><m>A: 350;~~B: 825</m></answer></exercise>
 
 <exercise number="2"><statement><sidebyside width="60%"><image source="images/sw-1-3-2.png"/></sidebyside></statement>
-	<answer><m>700;~~1400</m></answer></exercise></exercise>
+	<answer><m>700;~~1400</m></answer></exercise>
 </exercisegroup>
 
 <exercise number="3"><statement><p><ol label="a">

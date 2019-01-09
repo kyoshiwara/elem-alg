@@ -413,13 +413,32 @@
                     </tabular></sidebyside>
     <p><ol label="a">
         <li>Explain in words how to find the temperature in Sunnyvale.</li>
-        <li>Write your explanation as a mathematical sentence:
-        
-            <me>\text{Temp in Sunnyvale} = \hphantom{0000000000000000000000000000000000000000000000}</me></li>
+        <li><p>Write your explanation as a mathematical sentence:</p>
+        <p><m>\text{Temp in Sunnyvale} =</m></p></li>
 
         <li>Let <m>R</m> stand for the temperature in Ridgecrest and <m>S</m> for the temperature in Sunnyvale. Write an equation for <m>S</m> in terms of <m>R</m>.</li>
         <li><p>Plot the points from the table and connect them with a smooth curve.</p>
-            <sidebyside width="40%"><image source="images/hp-1-1-9.png"/></sidebyside></li>
+            <sidebyside width="40%"><!--<image source="images/hp-1-1-9.png"/>-->
+    <image xml:id="hp-1-1-9">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.075, yscale=.075]
+        \draw[cyan] (50,60) grid[step=5] (100,120);
+        \draw[black,thick, ->, >=stealth'] (50,60)--(107,60) node[right]{$R$};
+        \draw[black,thick, ->, >=stealth'] (50,60)--(50,127) node[left]{$S$};
+        \foreach \x in  {50, 60, ..., 100} {
+         \draw[black, thick] (\x,60.75) --++(0,-1.5)  node[below]   {\x};
+        }
+        \foreach \y in  {60, 70, ..., 120} {
+         \draw[black, thick] (50.75,\y) --++(-1.5,0)  node[left]   {\y};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+            </sidebyside></li>
     </ol></p></statement>
 <answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
@@ -451,7 +470,31 @@
     <li>Add <m>15\degree</m> to Ridgecrest's temperature to find Sunnyvale's temperature.</li>
     <li>Temperature in Sunnyvale <m>=</m> Temperature in Ridgecrest <m>+15</m></li>
     <li><m>S=R+15</m></li>
-    <li><p><sidebyside width="40%"><image source="images/hp-1-1-9ans.png"/></sidebyside></p></li>
+    <li><p><sidebyside width="40%"><!--<image source="images/hp-1-1-9ans.png"/>-->
+    <image xml:id="hp-1-1-9ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.075, yscale=.075]
+        \draw[cyan] (50,60) grid[step=5] (100,120);
+        \draw[black,thick, ->, >=stealth'] (50,60)--(107,60) node[right]{$R$};
+        \draw[black,thick, ->, >=stealth'] (50,60)--(50,127) node[left]{$S$};
+        \foreach \x in  {50, 60, ..., 100} {
+         \draw[black, thick] (\x,60.75) --++(0,-1.5)  node[below]   {\x};
+        }
+        \foreach \y in  {60, 70, ..., 120} {
+         \draw[black, thick] (50.75,\y) --++(-1.5,0)  node[left]   {\y};
+        }
+        \draw[blue, very thick] (50,65)--(100,115);
+        \foreach \x in {70, 75, 82, 86, 90}{
+         \draw[red, fill=red] (\x, {\x+15}) circle (1cm);
+         }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></p></li>
 </ol></p></answer></exercise>
 
 <exercise number="10"><statement><p>Jerome is driving from his home in White Falls to his parents' home in Castle Heights, 200 miles away. Fill in the table.</p>
@@ -484,13 +527,29 @@
                     </tabular></sidebyside>
     <p><ol label="a">
         <li>Explain in words how to find the number of miles Jerome has left to drive.</li>
-        <li>Write your explanation as a mathematical sentence:
-        
-            <me>\text{Miles remaining} = \hphantom{0000000000000000000000000000000000000000000000}</me></li>
-
+        <li><p>Write your explanation as a mathematical sentence:</p>
+        <p><m>\text{Miles remaining} =</m></p></li>
         <li>Let <m>d</m> stand for the number of miles Jerome has driven and <m>r</m> for the number of miles that remain. Write an equation for <m>r</m> in terms of <m>d</m>.</li>
         <li><p>Plot the points from the table and connect them with a smooth curve.</p>
-            <sidebyside width="40%"><image source="images/hp-1-1-10.png"/></sidebyside></li>
+            <sidebyside width="40%"><!--<image source="images/hp-1-1-10.png"/>-->
+    <image xml:id="hp-1-1-10">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.02]
+        \draw[cyan] (0,0) grid[step=20] (200,200);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(212,0) node[right]{$d$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,222) node[left]{$r$};
+        \foreach \x in  {100,200} {
+         \draw[black, thick] (\x,0.75) --++(0,-1.5)  node[below]   {\x};
+         \draw[black, thick] (0.75,\x) --++(-1.5,0)  node[left]   {\x};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+            </sidebyside></li>
     </ol></p></statement></exercise>
 
 <exercise number="11"><statement><p>Milton goes to a restaurant with two friends, and they agree to split the bill equally. Fill in the table. </p>
@@ -523,13 +582,31 @@
                     </tabular></sidebyside>
     <p><ol label="a">
         <li>Explain in words how to find Milton's share of the bill.</li>
-        <li>Write your explanation as a mathematical sentence:
-        
-            <me>\text{Milton's share} = \hphantom{0000000000000000000000000000000000000000000000}</me></li>
-
+        <li><p>Write your explanation as a mathematical sentence:</p>
+        <p><m>\text{Milton's share} =</m></p></li>
         <li>Let <m>b</m> stand for the bill and <m>s</m> for Milton's share. Write an equation for <m>s</m> in terms of <m>b</m>.</li>
         <li><p>Plot the points from the table and connect them with a smooth curve.</p>
-            <sidebyside width="40%"><image source="images/hp-1-1-11.png"/></sidebyside></li>
+            <sidebyside width="40%"><!--<image source="images/hp-1-1-11.png"/>-->
+    <image xml:id="hp-1-1-11">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.04, yscale=0.1]
+        \draw[cyan] (0,0) grid[xstep=10, ystep=4] (100,40);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(107,0) node[right]{$b$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,45) node[left]{$s$};
+        \foreach \x in  {50, 100} {
+         \draw[black, thick] (\x,0.75) --++(0,-1.5)  node[below]   {\x};
+        }
+        \foreach \y in  {8,16, ..., 40} {
+         \draw[black, thick] (0.75,\y) --++(-1.5,0)  node[left]   {\y};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+            </sidebyside></li>
     </ol></p></statement>
 <answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                 <row bottom="minor"> 
@@ -561,7 +638,31 @@
         <li>Divide the total bill by 3 to get Milton's share.</li>
         <li>Milton's share <m>= \dfrac{\text{total bill}}{3}</m></li>
         <li><m>s=\dfrac{b}{3}</m></li>
-        <li><p><sidebyside width="40%"><image source="images/hp-1-1-11ans.png"/></sidebyside></p></li>
+        <li><p><sidebyside width="40%"><!--<image source="images/hp-1-1-11ans.png"/>-->
+    <image xml:id="hp-1-1-11ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.04, yscale=0.1]
+        \draw[cyan] (0,0) grid[xstep=10, ystep=4] (100,40);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(107,0) node[right]{$b$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,45) node[left]{$s$};
+        \foreach \x in  {50, 100} {
+         \draw[black, thick] (\x,0.75) --++(0,-1.5)  node[below]   {\x};
+        }
+        \foreach \y in  {8,16, ..., 40} {
+         \draw[black, thick] (0.75,\y) --++(-1.5,0)  node[left]   {\y};
+        }
+        \draw[blue, very thick] (0,0)--(100,100/3);
+        \foreach \x in {15, 30, 45, 75, 81}{
+         \draw[red, fill=red] (\x, {\x/3}) ellipse (1.5cm and 0.6cm);
+         }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></p></li>
     </ol></p></answer></exercise>
 
 <exercise number="12"><statement><p>Nutrition experts tell us that no more than 30% of the calories we consume should come from fat. Fill in the table with the fat calories allowed daily for various calorie levels.</p>
@@ -594,14 +695,32 @@
                     </tabular></sidebyside>
     <p><ol label="a">
         <li>Explain in words how to find the number of fat calories allowed.</li>
-        <li>Write your explanation as a mathematical sentence:
-        
-            <me>\text{Fat calories} = \hphantom{0000000000000000000000000000000000000000000000}</me></li>
-
+        <li><p>Write your explanation as a mathematical sentence:</p>
+        <p><m>\text{Fat calories} =</m></p></li>
         <li>Let <m>C</m> stand for the number of calories and <m>F</m> for the number of fat calories. Write an equation for <m>F</m> in terms of <m>C</m>.</li>
         <li><p>Plot the points from the table and connect them with a smooth curve.</p>
-            <sidebyside width="40%"><image source="images/hp-1-1-12.png"/></sidebyside></li>
-    </ol></p></statement></exercise> 
+            <sidebyside width="40%"><!--<image source="images/hp-1-1-12.png"/>-->
+    <image xml:id="hp-1-1-12">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale = 1.5, yscale=0.5]
+        \draw[cyan] (0,0) grid[xstep=0.2, ystep=.5] (3,10);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(3.30,0) node[right]{$C$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,11) node[left]{$F$};
+        \foreach \x [evaluate=\x as \xi using int( 1000* \x )]  in  {1,2,3} {
+         \draw[black, thick] (\x,0.225) --++(0,-.45)  node[below]   {\xi};
+        }
+        \foreach \y [evaluate=\y as \yi using int( 100* \y )]  in  {2,4,..., 10} {
+         \draw[black, thick] (0.075,\y) --++(-.15,0)  node[left]   {\yi};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+            </sidebyside></li>
+    </ol></p></statement></exercise>
 
 <exercisegroup>
     <introduction><p>Use the graphs to answer the questions in Problems 13<ndash/>14. You may have to estimate some of your answers.</p></introduction>
