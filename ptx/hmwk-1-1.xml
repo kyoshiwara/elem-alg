@@ -726,7 +726,32 @@
     <introduction><p>Use the graphs to answer the questions in Problems 13<ndash/>14. You may have to estimate some of your answers.</p></introduction>
 
 <exercise number="13"><statement><p>Suppose you invest $2000 in a retirement account that pays 8% interest compounded continuously. The amount of money in the account each year is shown by the graph below.</p>
-<sidebyside width="50%"><image source="images/hp-1-1-13.png"/></sidebyside>
+<sidebyside width="50%"><!--<image source="images/hp-1-1-13.png"/>-->
+    <image xml:id="hp-1-1-13">
+        <description>retirement account</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale = 0.4,]
+        \draw[cyan] (0,0) grid[xstep=1, ystep=.2] (15,7);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(15.7,0);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,7.3);
+        \foreach \x  in  {2,4,...,14} {
+         \draw[cyan, very thick] (\x,0) --++(0,7);
+         \draw[black, thick] (\x,0.05) --++(0,-.1)  node[below]   {\x};
+        }
+        \foreach \y [evaluate=\y as \yi using int( 1000* \y )]  in  {1,2,..., 7} {
+         \draw[cyan, very thick] (0, \y) --++(15,0);
+         \draw[black, thick] (0.1,\y) --++(-.2,0)  node[left]   {\yi};
+        }
+        \node[label=left:\rotatebox{90}{Amount in account (in dollars)}] at (-2.5,3.5) {};
+        \node[below] at (8,-.5) {Number of years with account};
+        \draw[samples=65,domain=0:15,smooth,variable=\x,red,very thick, ->, >=stealth'] plot ({\x},{2*e^(.08*\x)});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
  <p><ol label="a">
         <li>What variable is displayed on the horizontal axis?  The vertical axis?</li>
         <li>How much money will be in the account 5 years from now?</li>
@@ -743,7 +768,32 @@
 </ol></p></answer></exercise> 
 
 <exercise number="14"><statement><p>Wendy brings a Thermos of soup for her lunch on a hike in the mountains.  When she pours the soup into a bowl, it begins to cool off. The graph below shows the temperature of the soup after it is served.</p>
-<sidebyside width="50%"><image source="images/hp-1-1-14.png"/></sidebyside>
+<sidebyside width="50%"><!--<image source="images/hp-1-1-14.png"/>-->
+    <image xml:id="hp-1-1-14">
+        <description>temperature of soup</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale = 0.35]
+        \draw[cyan] (0,0) grid  (20,20);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(21,0);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,21);
+        \foreach \x  in  {2,4,...,20} {
+         \draw[cyan, very thick] (\x,0) --++(0,20);
+         \draw[black, thick] (\x,0.2) --++(0,-.2)  node[below]   {\x};
+        }
+        \foreach \y [evaluate=\y as \yi using int( 10* \y )]  in  {2,4,...,20} {
+         \draw[cyan, very thick] (0, \y) --++(20,0);
+         \draw[black, thick] (0.1,\y) --++(-.2,0)  node[left]   {\yi};
+        }
+        \node[label=left:\rotatebox{90}{Temperature of soup (in $\degree$F)}] at (-2.5,10) {};
+        \node[below] at (10,-1.5) {Number of minutes after being poured};
+        \draw[samples=65,domain=0:20,smooth,variable=\x,red,very thick, ->, >=stealth'] plot ({\x},{6+12*2^(-\x/2)});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
  <p><ol label="a">
     <li>What variable is displayed on the horizontal axis? The vertical axis?</li>
     <li>How long does it take the soup to cool below 100?</li>
