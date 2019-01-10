@@ -26,6 +26,13 @@ are algebraic expressions. An important part of algebra involves translating wor
 			<me>\text{The expression is} ~~~~\blert{\dfrac{C}{3}}</me></p></li>
 </ol></p></solution></example>
 
+<p>In Example 1, we used three steps to write an algebraic expression.</p>
+
+<assemblage><title>To write an algebraic expression</title><p><ol label="1">
+    <li>Identify the unknown quantity and write a short phrase to describe it</li>
+    <li>Choose a variable to represent the unknown quantity.</li>
+    <li>Use mathematical symbols to represent the relationship.</li></ol></p></assemblage>
+
 <reading-questions>
 	<exercise number="1"><statement><p>A meaningful combination of numbers, variables and operation symbols is called an <fillin characters="6"/>.</p></statement>
 		<answer><p>algebraic expression</p></answer></exercise></reading-questions>

@@ -114,6 +114,11 @@ which is true.</p></assemblage>
 <subsection><title>Choosing Scales for the Axes</title>
 <p>If the variables in an equation have very large (or very small) values, we must choose scales for the axes that fit these values.</p>
 
+<assemblage><title>To graph an equation:</title><p><ol label="1">
+    <li>Make a table of values.</li>
+    <li>Choose scales for the axes.</li>
+    <li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage>
+
 <example><statement><p>Graph the equation  <m>y=250+x</m>.</p></statement>
 
 <solution><p>To graph this equation, we choose multiples of 50 for the <m>x</m>-values.</p>
