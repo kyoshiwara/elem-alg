@@ -13,7 +13,11 @@
 	<li><m>(8,2)</m></li>
 	<li><m>(4.5,1)</m></li></ol></p>
 	<sidebyside width="70%"><image source="images/hp-1-3-1.png"/></sidebyside></statement>
-	<answer> </answer></exercise>
+	<answer><p><ol label="a" cols="2">
+    <li>no</li>
+    <li>yes</li>
+    <li>no</li>
+    <li>no</li></ol></p> </answer></exercise>
 
 <exercise number="2"><statement><p><ol label="a" cols="2">
 	<li><m>(2,6)</m></li>
@@ -32,7 +36,11 @@
 	<li><m>(12,16)</m></li>
 	<li><m>(2,3)</m></li>
 	<li><m>(6,\dfrac{9}{2})</m></li></ol></p></statement>
-	<answer> </answer></exercise>
+	<answer><p><ol label="a" cols="2">
+    <li>yes</li>
+    <li>no</li>
+    <li>no</li>
+    <li>yes</li></ol></p> </answer></exercise>
 
 <exercise number="4"><statement><p><m>y=\dfrac{x}{2.5}</m>
 	<ol label="a" cols="2">
@@ -47,7 +55,11 @@
 	<li><m>(6,7.8)</m></li>
 	<li><m>(2,\dfrac{1}{5})</m></li>
 	<li><m>(9.2,7.4)</m></li></ol></p></statement>
-	<answer> </answer></exercise>
+	<answer><p><ol label="a" cols="2">
+    <li>no</li>
+    <li>no</li>
+    <li>yes</li>
+    <li>yes</li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>w=120-z</m>
 	<ol label="a" cols="2">
@@ -61,13 +73,13 @@
     <introduction><p>For Problems 7<ndash/>8, state the interval that each grid line represents on the horizontal and vertical axes.</p></introduction>
 
 <exercise number="7"><statement><sidebyside width="80%"><image source="images/hp-1-3-7.png"/></sidebyside></statement>
-<answer> </answer></exercise>
+<answer><p>horizontal: 0.25; vertical: 4</p></answer></exercise>
 
 <exercise number="8"><statement><sidebyside width="80%"><image source="images/hp-1-3-8.png"/></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For the graphs in Problems 9<ndash/>10,<ol label="a">
-    <li>Fill in the table with the correct coordinates.  Choose your own points to complete the table.</li>
+    <li>Fill in the table with the correct coordinates. Choose your own points to complete the table.</li>
 	<li>Look for a pattern in your table, and write an equation for the second variable in terms of the first variable.</li>
 </ol></p></introduction>
 
@@ -92,7 +104,28 @@
                         <cell><m>\hphantom{00}</m></cell></row>
                     </tabular></sidebyside>
 	<sidebyside width="80%"><image source="images/hp-1-3-9.png"/></sidebyside></statement>
-<answer> </answer></exercise>
+<answer><p><ol label="a">
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>16</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>14</m></cell>
+                        <cell><m>11</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>0</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><m>y=16-x</m></li></ol></p></answer></exercise>
 
 <exercise number="10"><statement><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
@@ -128,12 +161,12 @@
 	<li><m>y=5x</m></li></ol></p></introduction>
 
 <exercise number="11"><statement><sidebyside width="70%"><image source="images/hp-1-3-11.png"/></sidebyside></statement>
-<answer> </answer></exercise>
+<answer><p>f</p> </answer></exercise>
 
 <exercise number="12"><statement><sidebyside width="80%"><image source="images/hp-1-3-12.png"/></sidebyside></statement></exercise>
 
 <exercise number="13"><statement><sidebyside width="80%"><image source="images/hp-1-3-13.png"/></sidebyside></statement>
-<answer> </answer></exercise>
+<answer><p>c, e</p></answer></exercise>
 
 <exercise number="14"><statement><sidebyside width="80%"><image source="images/hp-1-3-14.png"/></sidebyside></statement></exercise>
 </exercisegroup>
@@ -166,7 +199,27 @@
 	<li>Plot the values from the table and graph the equation.
 			<sidebyside width="50%"><image source="images/hp-1-3-15.png"/></sidebyside></li>
 </ol></p></statement>
-<answer> </answer></exercise>
+<answer><p><ol label="a">
+    <li>$35</li> 
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>w</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>30</m></cell>
+                        <cell><m>36</m></cell>
+                        <cell><m>40</m></cell></row>
+                    <row> 
+                        <cell><m>p</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>25</m></cell>
+                        <cell><m>37.50</m></cell>
+                        <cell><m>45</m></cell>
+                        <cell><m>50</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><sidebyside width="40%"><image source="images/hp-1-3-15ans.png"/></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>Uncle Ray's diet allows him to eat a total of 1000 calories for lunch and dinner. Let <m>L</m> stand for the number of calories in Uncle Ray's lunch, and <m>D</m> for the number of calories in his dinner.
 <ol label="a">
@@ -211,7 +264,23 @@
 	<li>Label the scales on the axes and graph the equation. Use intervals of 20 on the vertical axis.
 			<sidebyside width="50%"><image source="images/hp-1-3-17.png"/></sidebyside></li>
 </ol></p></statement>
-<answer> </answer></exercise>
+<answer><p><ol label="a">
+    <li><m>S=\dfrac{3600}{m}</m></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>m</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>40</m></cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>100</m></cell></row>
+                    <row> 
+                        <cell><m>S</m></cell>
+                        <cell><m>180</m></cell>
+                        <cell><m>90</m></cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>36</m></cell></row>
+                    </tabular></sidebyside></li> 
+    <li><sidebyside width="40%"><image source="images/hp-1-3-17ans.png"/></sidebyside></li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 18<ndash/>19, solve the equation graphically by drawing on the graph.(You may have to estimate some of your solutions.)Then verify your answer by solving algebraically.</p></introduction>
@@ -227,7 +296,9 @@
 	<li><m>250=18g</m></li>
 	<li><m>18g=210</m></li></ol></p> 
 	<sidebyside width="40%"><image source="images/hp-1-3-19.png"/></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+    <li><m>g \approx 13.9</m></li>
+    <li><m>g \approx 11.7</m></li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 20<ndash/>21, <ol label="a">
@@ -240,7 +311,9 @@
 
 <exercise number="21"><statement><p>The graph gives the weight, <m>W</m>, in ounces of a chocolate bunny that is <m>h</m> inches tall. </p> 
 	<sidebyside width="35%"><image source="images/hp-1-3-21.png"/></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>(4,16)</m></li>
+    <li>A 4-inch tall bunny weighs 16 ounces.</li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 22<ndash/>25, use the formulas in Section 1.2</p></introduction>
@@ -256,7 +329,21 @@
 	<li>What was their profit if their costs were $800? $1000? $2500? Make a table showing your answers as ordered pairs.</li>
 	<li>Use your table to choose appropriate scales for the axes, then plot points and sketch a graph of the equation.</li>
 </ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>P=6000-C</m></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>C</m></cell>
+                        <cell>$800</cell>
+                        <cell>$1000</cell>
+                        <cell>$2500</cell></row>
+                    <row> 
+                        <cell><m>P</m></cell>
+                        <cell>$5200</cell>
+                        <cell>$5000</cell>
+                        <cell>$3500</cell></row>
+                    </tabular></sidebyside></li>
+    <li><sidebyside width="35%"><image source="images/hp-1-3-23ans.png"/></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="24"><statement><p><ol label="a">
 	<li>Edgar's great-aunt plans to put $5000 in a trust for Edgar until he turns 21, three years from now. She has a choice of several different accounts. Write an equation for the amount of interest the money will earn in 3 years if the account pays interest rate <m>r</m>.</li>
@@ -269,7 +356,21 @@
 	<li>What is Delbert's average score if there were 20 assignments? 25 assignments? 30 assignments? Make a table showing your answers as ordered pairs.</li>
 	<li>Use your table to choose appropriate scales for the axes, then plot points and sketch a graph of the equation.</li>
 </ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>S=\dfrac{540}{n}</m></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>n</m></cell>
+                        <cell>20</cell>
+                        <cell>25</cell>
+                        <cell>30</cell></row>
+                    <row> 
+                        <cell><m>S</m></cell>
+                        <cell>27</cell>
+                        <cell>21.6</cell>
+                        <cell>18</cell></row>
+                    </tabular></sidebyside></li>
+    <li><sidebyside width="35%"><image source="images/hp-1-3-25ans.png"/></sidebyside></li></ol></p></answer></exercise>
 </exercisegroup>
 
 </exercises>

@@ -105,41 +105,435 @@
 <li>State the order of operations for simplifying algebraic expressions.</li></ol></p></subsection>
 
 <subsection><title>Review Problems</title>
+<exercises>
 
+<exercise number="1"><statement><p>Martha can travel 22 miles on a gallon of gasoline. Fill in the table with the distance Martha can drive on various amounts of gasoline.
 
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor"> 
+                        <cell>Gallons of gas</cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>11</m></cell>
+                        <cell><m>12</m></cell></row>
+                    <row> 
+                        <cell>Calculation</cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    <row> 
+                        <cell>Miles driven</cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside><ol label="a">
+    <li>Explain in words how to find the distance Martha can drive.</li>
+	<li><p>Write your explanation as a mathematical sentence:</p>
+		<p><m>\text{Miles driven} = </m></p></li>
+	<li>Let <m>g</m> stand for the number of gallons of gas in Martha's car and <m>m</m> for the number of miles she can drive.  Write an equation for <m>m</m> in terms of <m>g</m>.</li>
+	<li>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.
+		<sidebyside width="45%"><image source="images/cr1-1.png"><description>grid</description></image></sidebyside></li>
+	</ol></p></statement>
+	<answer><p><ol label="a">
+        <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor"> 
+                        <cell>Gallons of gas</cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>11</m></cell>
+                        <cell><m>12</m></cell></row>
+                    <row> 
+                        <cell>Miles driven</cell>
+                        <cell><m>66</m></cell>
+                        <cell><m>110</m></cell>
+                        <cell><m>176</m></cell>
+                        <cell><m>220</m></cell>
+                        <cell><m>242</m></cell>
+                        <cell><m>264</m></cell></row>
+                    </tabular></sidebyside></li>
+        <li>Multiply the number of gallons by 22</li>
+        <li><m>m=22g</m></li>
+        <li><sidebyside width="45%"><image source="images/cr1-1ans.png"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
 
- 
+<exercise number="2"><statement><p>Mariel has a 200-page history assignment to read. Fill in the table with the number of pages Mariel has left to read after completing a certain number of pages.
 
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                <row bottom="minor"> 
+                        <cell>Pages read</cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>50</m></cell>
+                        <cell><m>85</m></cell>
+                        <cell><m>110</m></cell>
+                        <cell><m>135</m></cell>
+                        <cell><m>180</m></cell></row>
+                    <row> 
+                        <cell>Calculation</cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    <row> 
+                        <cell>Pages left</cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside><ol label="a">
+    <li>Explain in words how to find the number of pages left to read.</li>
+	<li><p>Write your explanation as a mathematical sentence:</p>
+		<p><m>\text{Pages left} = </m></p></li>
+	<li>Let <m>r</m> stand for the number of pages Mariel has already read and <m>l</m> for the number of pages she has left to read.  Write an equation for <m>l</m> in terms of <m>r</m>.</li>
+	<li>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.
+		<sidebyside width="45%"><image source="images/cr1-2.png"><description>grid</description></image></sidebyside></li>
+	</ol></p></statement></exercise>
 
+<exercise number="3"><statement><p>Find the pattern and fill in the table. Then write an equation for the second variable in terms of the first.</p>
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1.0</m></cell>
+                        <cell><m>1.5</m></cell>
+                        <cell><m>2.0</m></cell>
+                        <cell><m>4.0</m></cell>
+                        <cell><m>6.0</m></cell>
+                        <cell><m>7.5</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>0.125</m></cell>
+                        <cell><m>0.25</m></cell>
+                        <cell><m>0.375</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></statement>
+    <answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1.0</m></cell>
+                        <cell><m>1.5</m></cell>
+                        <cell><m>2.0</m></cell>
+                        <cell><m>4.0</m></cell>
+                        <cell><m>6.0</m></cell>
+                        <cell><m>7.5</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>0.125</m></cell>
+                        <cell><m>0.25</m></cell>
+                        <cell><m>0.375</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>1.5</m></cell>
+                        <cell><m>1.875</m></cell></row>
+                    </tabular></sidebyside>
+                    <m>y=\dfrac{x}{4}</m></answer></exercise>
 
-
-
-
+<exercise number="4"><statement><p>Use the graph to fill in the table. Then write an equation for the second variable in terms of the first.</p>
+ 	<sidebyside widths="50% 30%" margins="0% 20%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular>
     
+<image source="images/cr1-4.png"><description>graph</description></image></sidebyside></statement></exercise>
 
+<exercisegroup>
+    <introduction><p>For Problems 5<ndash/>12, write an algebraic expression for the phrase.</p></introduction>    
 
+<exercise number="5"><statement><p>Five greater than <m>z</m></p></statement>
+<answer><m>z+5</m></answer></exercise> 	
 
+<exercise number="6"><statement><p>28% of <m>t</m></p></statement></exercise>
 
+<exercise number="7"><statement><p>Sixty dollars less than first-class air fare</p></statement>
+<answer><m>f-60</m></answer></exercise> 
 
+<exercise number="8"><statement><p>The quotient of the volume of the sphere and 6</p></statement></exercise>
 
+<exercise number="9"><statement><p>Six degrees hotter than yesterday's temperature</p></statement>
+<answer><m>y+6</m></answer></exercise>
 
+<exercise number="10"><statement><p>The cost of the gasoline divided three ways</p></statement></exercise>
 
+<exercise number="11"><statement><p>8% of the total bill</p></statement>
+<answer><m>0.08b</m></answer></exercise>
 
+<exercise number="12"><statement><p>Five inches less than the height of the triangle</p></statement></exercise>
+</exercisegroup>
 
+<exercise number="13"><statement><p><ol label="a">
+	<li>Write an expression for the distance traveled in <m>t</m> seconds by a car moving at 88 feet per second.</li>
+	<li>How far will the car travel in 5 seconds? In half a second? In half a minute?</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>d=88t</m></li>
+    <li>440 ft; 44 ft; 2640 ft</li></ol></p></answer></exercise>
 
+<exercise number="14"><statement><p><ol label="a">
+	<li>Write an expression for the distance you can travel in 3 hours at a speed of <m>r</m> miles per hour.</li>
+	<li>How far can you travel in 3 hours on a bicycle at a speed of 6 miles per hour? On a motorboat at a speed of 20 miles per hour?</li></ol></p></statement></exercise>
 
+<exercise number="15"><statement><p><ol label="a">
+	<li>Write an expression for the amount of interest earned in <m>t</m> years by $500 deposited in an account that pays 7% annual interest.</li>
+	<li>How much interest will the account earn after 1 year? After 2 years? After 5 years?</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>I=35t</m></li>
+    <li>$35; $70; $175</li></ol></p></answer></exercise>
 
+<exercise number="16"><statement><p><ol label="a">
+	<li>Write an expression for the amount of interest earned in two years by $1500 deposited in an account that pays interest rate <m>r</m>.</li>
+	<li>How much interest will the money earn at 6% interest? At 8.3% interest?</li></ol></p></statement></exercise>
 
+<exercise number="17"><statement><p>Rachel has saved $60 to help pay for her books this semester. Let <m>b</m> stand for the price of her books, and <m>n</m> for the amount she still needs. <ol label="a">
+	<li>Write an equation for <m>n</m> in terms of <m>b</m>.</li>
+	<li>Fill in the table.
+		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>n</m></cell>
+                        <cell><m>100</m></cell>
+                        <cell><m>120</m></cell>
+                        <cell><m>150</m></cell>
+                        <cell><m>180</m></cell>
+                        <cell><m>200</m></cell></row>
+                    <row> 
+                        <cell><m>n</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>Choose appropriate scales for the axes and graph your equation.</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>n=b-60</m></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>n</m></cell>
+                        <cell><m>100</m></cell>
+                        <cell><m>120</m></cell>
+                        <cell><m>150</m></cell>
+                        <cell><m>180</m></cell>
+                        <cell><m>200</m></cell></row>
+                    <row> 
+                        <cell><m>n</m></cell>
+                        <cell><m>40</m></cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>90</m></cell>
+                        <cell><m>120</m></cell>
+                        <cell><m>140</m></cell></row>
+                    </tabular></sidebyside></li></ol></p></answer></exercise>
 
+<exercise number="18"><statement><p>Matt wants to travel 360 miles to visit a friend over spring break. He is deciding whether to ride his bike or drive. If he travels at an average speed of <m>r</m> miles per hour, then the trip will take <m>t</m> hours, where <m>t=\dfrac{360}{r}</m>.<ol label="a">
+	<li>Fill in the table.
+		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>r</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>30</m></cell>
+                        <cell><m>40</m></cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>80</m></cell>
+                        <cell><m>90</m></cell></row>
+                    <row> 
+                        <cell><m>t</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>Choose appropriate scales for the axes and graph your equation.</li></ol></p></statement></exercise>
 
+<exercise number="19"><statement><p>On a typical evening, there are twice as many non-smokers as smokers in a popular restaurant.<ol label="a">
+	<li>Write an equation for the number of non-smokers, <m>n</m>, in terms of the number of smokers, <m>s</m>.</li>
+	<li>Make a table of values and graph your equation.</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>n=2s</m></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>s</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell></row>
+                    <row> 
+                        <cell><m>n</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>16</m></cell></row>
+                    </tabular></sidebyside></li></ol></p></answer></exercise>
 
+<exercise number="20"><statement><p>Match each equation with its graph.<ol label="a" cols="3">
+	<li><m>y=8-x</m></li>
+	<li><m>y=x+8</m></li>
+	<li><m>y=8x</m></li></ol></p>
+<sidebyside><image source="images/cr1-20.png"><description>graphs</description></image></sidebyside></statement></exercise>
 
+<exercise number="21"><statement><p>Decide which ordered pairs are solutions of the equation <m>~y=\dfrac{5}{2}x</m>.
+<ol label="a" cols="4">
+	<li><m>(4,10)</m></li>
+	<li><m>(5,2)</m></li>
+	<li><m>(1.8,4.5)</m></li>
+	<li><m>(3,7.5)</m></li></ol></p></statement>
+<answer><p>a, c, d</p></answer></exercise>
 
+<exercise number="21"><statement><p>Decide which ordered pairs are solutions of the equation whose graph is shown.
+<ol label="a" cols="4">
+	<li><m>(5,0)</m></li>
+	<li><m>(2,8)</m></li>
+	<li><m>(8,3)</m></li>
+	<li><m>(6,8)</m></li></ol></p>
+<sidebyside width="40%"><image source="images/cr1-22.png"><description>graphs</description></image></sidebyside></statement></exercise>
 
+<exercisegroup cols="2">
+    <introduction><p>For Problems 23<ndash/>24, decide whether the given values are solutions of the equation.
+</p></introduction>
 
+<exercise number="23"><statement><p><m>~\dfrac{t}{6}=3</m><ol label="a" cols="2">
+	<li><m>t=18</m></li>
+	<li><m>t=2</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li>yes</li>
+    <li>no</li></ol></p></answer></exercise>
 
+<exercise number="24"><statement><p><m>~8x=36.8</m><ol label="a" cols="2">
+	<li><m>z=28.8</m></li>
+	<li><m>z=4.6</m></li></ol></p></statement></exercise>
+</exercisegroup>
 
+<exercisegroup cols="3">
+    <introduction><p>For Problems 25<ndash/>30, solve the equation.</p></introduction>
 
+<exercise number="25"><statement><p><m>12=3+y</m></p></statement>
+<answer><p>9</p></answer></exercise>  
 
+<exercise number="26"><statement><p><m>2.7=t-1.8</m></p></statement></exercise> 
+
+<exercise number="27"><statement><p><m>12.2a=4.88</m></p></statement>
+<answer><p>0.4</p></answer></exercise> 
+
+<exercise number="28"><statement><p><m>8=\dfrac{y}{4}</m></p></statement></exercise> 
+
+<exercise number="29"><statement><p><m>\dfrac{w}{2}=0</m></p></statement>
+ <answer><p>0</p></answer></exercise>
+
+<exercise number="30"><statement><p><m>9.5=\dfrac{b}{0.6}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup>
+    <introduction><p>For Problems 31<ndash/>32, solve the equation graphically.</p></introduction>
+
+<exercise number="31"><statement><p>The graph of <m>y=1.25x</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
+	<li><m>1.25x=40</m></li>
+	<li><m>30=1.25x</m></li></ol></p>
+<sidebyside width="35%"><image source="images/cr1-31.png"><description>graph</description></image></sidebyside></statement>
+<answer><p><ol label="a">
+    <li>32</li>
+    <li>24</li></ol></p></answer></exercise>
+
+<exercise number="32"><statement>The graph of <p><m>~y=\dfrac{24}{x}</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
+	<li><m>\dfrac{24}{x}=6</m></li>
+	<li><m>1.5=\dfrac{24}{x}</m></li></ol></p>
+<sidebyside width="40%"><image source="images/cr1-32.png"><description>graph</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup>
+    <introduction><p>For Problems 33<ndash/>38, write and solve an equation to answer the question.</p></introduction>
+
+<exercise number="33"><statement><p>Staci invested some money in a T-bill account that pays 9% interest, and 1 year later the account had earned $171 interest. How much did Staci deposit in the T-bill?
+</p></statement>
+<answer><p><m>171=0.095P;~~</m> $1800</p></answer></exercise>  
+
+<exercise number="34"><statement><p>A jet flew 2800 miles at a speed of 560 miles per hour. How long did the trip take?</p></statement></exercise> 
+
+<exercise number="35"><statement><p>Fifty-three percent of the electorate voted for candidate Phil I. Buster. If candidate Buster received 106,000 votes, how many people voted?</p></statement>
+<answer><p><m>106,000=0.53W;~~</m> 200,000</p></answer></exercise> 
+
+<exercise number="36"><statement><p>Salim's test average was 3.2 points below the minimum grade for an A. If Salim's average was 89.3, what grade was required for an A?</p></statement></exercise> 
+
+<exercise number="37"><statement><p>Ivan has a new puppy whose adult weight will be about 85 pounds. When the ratio of the puppy's weight to its adult weight is 0.7, Ivan should take the puppy to the vet for shots. How much will the puppy weight when it is ready for shots?</p></statement>
+ <answer><p><m>\dfrac{w}{85}=0.7;~~</m> 59.5 lb</p></answer></exercise>
+
+<exercise number="38"><statement><p>If a rectangular garden plot is 12 feet wide, how long must it be to provide 180 square feet of gardening space?</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2">
+    <introduction><p>For Problems 39<ndash/>42, simplify by following the order of operations.</p></introduction>
+
+<exercise number="39"><statement><p><m>6+18 \div 6 - 3 \cdot 2</m></p></statement>
+<answer><p>3</p></answer></exercise>  
+
+<exercise number="40"><statement><p><m>\dfrac{2}{3}-\dfrac{1}{3} \cdot 4</m></p></statement></exercise> 
+
+<exercise number="41"><statement><p><m>36 \div (9-3 \cdot 2) \cdot 2 -24 \div 4 \cdot 3</m></p></statement>
+<answer><p>6</p></answer></exercise> 
+
+<exercise number="42"><statement><p><m>\dfrac{1.2(7.7)}{4.3-2.3}</m></p></statement></exercise>
+</exercisegroup> 
+
+<exercisegroup>
+    <introduction><p>For Problems 43<ndash/>46, write an algebraic expression for the phrase.</p></introduction>
+    
+<exercise number="43"><statement><p>Four pages longer than half the length of the first draft</p></statement>
+<answer><m>\dfrac{1}{2}d+4</m></answer></exercise> 	
+
+<exercise number="44"><statement><p>$100 short of twice last year's price</p></statement></exercise>
+
+<exercise number="45"><statement><p>Three times the sum of the length and 5.6</p></statement>
+<answer><m>3(l+5.6)</m></answer></exercise> 
+
+<exercise number="46"><statement><p>73% of the difference of Robin's weight and 100 pounds</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup>
+    <introduction><p>For Problems 47<ndash/>50, evaluate for the given values.</p></introduction>
+
+<exercise number="47"><statement><p><m>mx+b~~~</m> for <m>~~~m=\dfrac{1}{2}, x=3, b=\dfrac{5}{2}</m></p></statement>
+<answer><p>4</p></answer></exercise>  
+
+<exercise number="48"><statement><p><m>\dfrac{1}{m}-\dfrac{1}{n}~~~</m> for <m>m=4, n=6</m></p></statement></exercise> 
+
+<exercise number="49"><statement><p><m>\dfrac{3w+z}{z}~~~</m> for <m>~~~w=8, z=6</m></p></statement>
+<answer><p>5</p></answer></exercise> 
+
+<exercise number="50"><statement><p><m>2(l+w)~~~</m> for <m>~~~l=\dfrac{1}{3}, w=\dfrac{1}{6}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="51"><statement><p>The total amount of money in an account is given by <m>P(1+rt)</m>, where <m>P</m> is the initial investment, <m>r</m> is the interest rate, and <m>t</m> is the number of years the money has been in the account. How much money is in an account that earns 10% interest if $1000 was invested 3 years ago?</p></statement>
+<answer><p>$1300</p></answer></exercise>
+
+<exercise number="52"><statement><p>If an object is thrown downwards with initial speed <m>v</m>, then after <m>t</m> seconds it will fall a distance given in feet by <m>t(16t+v)</m>. How far will a penny fall in 2 seconds if it is thrown at a speed of 10 feet per second?</p></statement></exercise>
+
+</exercises>
 </subsection>
 </section>

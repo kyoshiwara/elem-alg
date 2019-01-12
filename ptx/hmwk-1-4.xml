@@ -4,8 +4,7 @@
     <title>Homework 1.4</title>
 
 <exercisegroup cols="2">
-    <introduction><p>For Problems 1<ndash/>2, fill in the table for each equation. Explain how you found the unknown values.
-</p></introduction>
+    <introduction><p>For Problems 1<ndash/>2, fill in the table for each equation. Explain how you found the unknown values.</p></introduction>
 
 <exercise number="1"><statement><p><m>q=9+t</m></p>
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -22,7 +21,21 @@
                         <cell><m>15</m></cell>
                         <cell><m>18</m></cell></row>
                     </tabular></sidebyside></statement>
-<answer></answer></exercise>
+<answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>9</m></cell></row>
+                    <row> 
+                        <cell><m>q</m></cell>
+                        <cell><m>11</m></cell>
+                        <cell><m>13</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>18</m></cell></row>
+                    </tabular></sidebyside>
+    <p>To find a value for <m>q</m>, add 9 to the value of <m>p</m>.  To find a value for <m>p</m>, subtract 9 from the value of <m>q</m>.</p></answer></exercise>
 
 <exercise number="2"><statement><p><m>p=5n</m></p>
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -41,11 +54,14 @@
                     </tabular></sidebyside></statement></exercise>
 </exercisegroup>
 
-<exercise number="3"><statement><p>Decide whether the given value for the variable is a solution of the equation.</p><ol label="a">
+<exercise number="3"><statement><p>Decide whether the given value for the variable is a solution of the equation.<ol label="a">
 	<li><m>x-4=6;~~x=10</m></li>
 	<li><m>4y=28;~~y=24</m></li>
-	<li><m>\dfrac{0}{z}=0;~~z=19</m></li></ol></statement>
-<answer></answer></exercise>
+	<li><m>\dfrac{0}{z}=0;~~z=19</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="3">
+    <li>yes</li>
+    <li>no</li>
+    <li>yes</li></ol></p></answer></exercise>
 
 <exercisegroup cols="3">
     <introduction><p>For Problems 4<ndash/>12, solve and check your solution.</p></introduction>
@@ -53,22 +69,22 @@
 <exercise number="4"><statement><m>x-3=11</m></statement></exercise>
 
 <exercise number="5"><statement><m>10.6=7.8+y</m></statement>
-<answer></answer></exercise>
+<answer><m>y=2.8</m></answer></exercise>
 
 <exercise number="6"><statement><m>3y=108</m></statement></exercise>
 
 <exercise number="7"><statement><m>42=3.5b</m></statement>
-<answer></answer></exercise>
+<answer><m>b=12</m></answer></exercise>
 
 <exercise number="8"><statement><m>2.6=\dfrac{a}{1.5}</m></statement></exercise>
 
 <exercise number="9"><statement><m>x-4=0</m></statement>
-<answer></answer></exercise>
+<answer><m>x=4</m></answer></exercise>
 
 <exercise number="10"><statement><m>34x=212</m></statement></exercise>
 
 <exercise number="11"><statement><m>6z=20</m></statement>
-<answer></answer></exercise>
+<answer><m>z=\dfrac{10}{3}</m></answer></exercise>
 
 <exercise number="12"><statement><m>9=k+9</m></statement></exercise>
 </exercisegroup>
@@ -80,12 +96,16 @@
 </ol></p></introduction>
 
 <exercise number="13"><statement><p>Clive loaned his brother some money to buy a new truck, and his brother agreed to repay the loan in 1 year with 3% interest. Clive earned $75 interest on the loan.  How much did Clive loan his brother?</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>I=Prt; ~75=P \cdot 0.03 \cdot 1</m></li>
+    <li><m>P=2500</m>; Clive loaned his brother $2500.</li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><p>Andy's average homework score on eight assignments was 38.25. How many homework points did Andy earn altogether?</p></statement></exercise>
 
 <exercise number="15"><statement><p>How long will it take a cyclist traveling at 13 miles an hour to cover 234 miles?</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>d=rt; ~234=13t</m> </li>
+    <li><m>t=18</m>; It takes 18 hours.</li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>A roll of carpet contains 400 square feet of carpet. If the roll is 16 feet wide, how long is the piece of carpet?</p></statement></exercise>
 </exercisegroup>
@@ -98,17 +118,17 @@
         \end{align*}</p></introduction>
 
 <exercise number="17"><statement><p>Sarah drove 7 miles farther to her high school reunion than Jenni drove. If Sarah drove 26 miles, how far did Jenni drive?</p></statement>
-<answer></answer></exercise>
+<answer><m>x+7=26</m></answer></exercise>
 
 <exercise number="18"><statement><p>Lurline and Rozik live 26 miles apart. They meet at a theme park between their homes. If Lurline drove 7 miles to the park, how far did Rozik drive?</p></statement></exercise>
 
 <exercise number="19"><statement><p>Doris is training for a triathlon. This week she averaged 26 miles per day on her bicycle. If she rode every day, what was her total mileage?</p></statement>
-<answer></answer></exercise>
+<answer><m>\dfrac{x}{7}=26</m></answer></exercise>
 
 <exercise number="20"><statement><p>Glynnis jogged the same route every day this week for a total of 26 miles. How long is her route?</p></statement></exercise>
 
 <exercise number="21"><statement><p>Astrid divided her supply of colored pencils among the 26 children in her class, and each child got 7 pencils. How many pencils does she have?</p></statement>
-<answer></answer></exercise>
+<answer><m>\dfrac{x}{26}=7</m></answer></exercise>
 
 <exercise number="22"><statement><p>Ariel lost 7 of the beads on her necklace, and now there are 26. How many were there originally?</p></statement></exercise>
 </exercisegroup>
@@ -120,7 +140,10 @@
 	<li>Find two ways to express the amount of money Lupe had after the Craft Fair, and write an equation.</li>
 	<li>Solve the equation and answer the question in the problem.</li>
 </ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>B=</m> amount before Craft Fair</li>
+    <li><m>B-24=9</m></li>
+    <li>$63</li></ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>Danny weighs 32 pounds more than Brenda. If Danny weighs 157 pounds, how much does Brenda weigh?<ol label="a">
 	<li>What are we asked to find?  Choose a variable to represent it.</li>
@@ -133,9 +156,12 @@
 	<li>Find two ways to express Miranda's total earnings, and write an equation.</li>
 	<li>Solve the equation and answer the question in the problem.</li>
 </ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>w=</m> hourly wage</li>
+    <li><m>20w=136</m></li>
+    <li>$6.80</li></ol></p></answer></exercise>
 
-<exercise number="25"><statement><p>Struggling Students Gardening Service splits their profit equally among their eight members.  If each member made $64 last week, what was the total profit?<ol label="a">
+<exercise number="26"><statement><p>Struggling Students Gardening Service splits their profit equally among their eight members.  If each member made $64 last week, what was the total profit?<ol label="a">
 	<li>What are we asked to find?  Choose a variable to represent it.</li>
 	<li>Find two ways to express each member's share, and write an equation.</li>
 	<li>Solve the equation and answer the question in the problem.</li>
@@ -144,13 +170,13 @@
 
 <exercisegroup><introduction><p>Write algebraic equations to solve Problems 27<ndash/>29. Follow the steps in the Lesson.</p></introduction>
 
-<exercise number="27"><statement><p>Martha paid $26 less for a suit at a discount store than her mother paid at a boutique for the same suit.  If Martha paid $89 for the suit, how much did her mother pay?</p></statement>
-<answer></answer></exercise>
+<exercise number="27"><statement><p>Martha paid $26 less for a suit at a discount store than her mother paid at a boutique for the same suit. If Martha paid $89 for the suit, how much did her mother pay?</p></statement>
+<answer><p><m>89=p-26~~~</m> Her mother paid $115. </p></answer></exercise>
 
 <exercise number="28"><statement><p>Emily spends 40% of her monthly income on rent.  If her rent is $360 a month, how much does Emily make?</p></statement></exercise>
 
 <exercise number="29"><statement><p>After she wrote a check for $2378, Avril's bank account shows a balance of $1978.  How much money was in Avril's account before the check cleared?</p></statement>
-<answer></answer></exercise>
+<answer><p><m>1978=B-2378~~~</m>  There was $4356 in her account.</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>In Problems 30<ndash/>32, we compare evaluating an expression and solving an equation.
@@ -167,7 +193,11 @@
 	<li>If the Dodgers played 120 games, how many did they win?</li>
 	<li>If the Dodgers won 96 games, how many did they play?</li>
 </ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p>Number of pames played: <m>p;</m></p>
+    <p>number of games won: <m>w;~~~ w=0.06p</m></p></li>
+    <li>72</li>
+    <li>160</li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>Sunshine Industries manufactures beach umbrellas. Their profit on each umbrella is 18% of the selling price.<ol label="a">
 	<li>Choose two variables and write an equation for the profit on each umbrella in terms of its selling price.</li>
