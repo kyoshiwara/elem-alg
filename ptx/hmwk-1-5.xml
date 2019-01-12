@@ -220,6 +220,26 @@
     <me>9-3(2)=9-6=3</me></p></answer></exercise>
 
 <exercise number="38"><statement><p>Think of the region shown below as a rectangle with a smaller rectangle removed, and write an expression for its area. Then simplify your expression to find the area. (The measurements given are in centimeters.)
-	<sidebyside width="38%"><image source="images/hp-1-5-40.png"><description>region</description></image></sidebyside></p></statement></exercise>
+    <sidebyside width="38%"><!--<image source="images/hp-1-5-40.png"><description>region</description></image>-->
+    <image xml:id="hp-1-5-40">
+        <description>rectangle with rectangular hole</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.7]
+        \node[left]at (0,3) {6};
+        \node[above] at (1.25,6) {2.3};
+        \draw[red!80!black, line width=0.9mm, text=black] (2.3,6)--++(5.7,0) node[above,midway]{5.7};
+        \draw[red!80!black, line width=0.9mm, fill=cyan!30!white] (0,0) rectangle (8,6);
+        \draw[red!80!black, line width=0.9mm, text=black] (2.3,0)--++(0,6); \draw[red!80!black, line width=0.9mm] (0,0)--(8,0) -- (8,6);
+        \draw[red!80!black, line width=0.9mm, fill=white] (1.1,0.85) rectangle ++(4.5,2);
+        \node[left] at (1.1,1.85) {2};
+        \node[below] at (1.6,.85) {1.2};
+        \node[below] at (3.95,.85) {3.3};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></p></statement></exercise>
 
 </exercises>

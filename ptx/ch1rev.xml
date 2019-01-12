@@ -262,7 +262,31 @@
                         <cell><m>\hphantom{00}</m></cell></row>
                     </tabular>
     
-<image source="images/cr1-4.png"><description>graph</description></image></sidebyside></statement></exercise>
+<!--<image source="images/cr1-4.png"><description>graph</description></image>-->
+    <image xml:id="cr1-4">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.08]
+        \draw[cyan] (0,0) grid[step=4] (40,60);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(45,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,67) node[left]{$y$};
+        \foreach \x in  {20,40} {
+         \draw[cyan, very thick] (\x,0) --++(0,60);
+         \draw[black, thick] (\x,.8) --++(0,-1.6)  node[below]   {\x};
+        }
+        \foreach \y in  {20,40,60} {
+         \draw[cyan, very thick] (0,\y) --++(40,0);
+         \draw[black, thick] (.8,\y) --++(-1.6,0)  node[left]   {\y};
+        }
+        \draw [red, very thick, ->, >=stealth']  (0,4) -- (40,52);
+        \node[below left, xshift=1] at (0,0) {0};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 <exercisegroup>
     <introduction><p>For Problems 5<ndash/>12, write an algebraic expression for the phrase.</p></introduction>    
@@ -397,7 +421,61 @@
 	<li><m>y=8-x</m></li>
 	<li><m>y=x+8</m></li>
 	<li><m>y=8x</m></li></ol></p>
-<sidebyside><image source="images/cr1-20.png"><description>graphs</description></image></sidebyside></statement></exercise>
+<sidebyside><!--<image source="images/cr1-20.png"><description>graphs</description></image>-->
+    <image xml:id="cr1-20">
+        <description>graphs of lines</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.4]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (O)--(11,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,11) node[left]{$y$};
+        \foreach \x in  {5,10} {
+         \draw[black, thick] (\x,.08) --++(0,-.16)  node[below]   {\x};
+        }
+        \foreach \y [evaluate=\y as \yi using int( 6* \y )] in  {1,2,...,10} {
+         \draw[black, thick] (.08,\y) --++(-.16,0)  node[left]   {\yi};
+        }
+        \draw [red, very thick]  (O) -- (15/2,10);
+        \node[below left, xshift=1] at (O) {0};
+        \node[left, xshift=-.4cm] at ($ (O) +(0,12)$) {I};
+
+        \def\delta{14};
+        \coordinate (O) at (\delta,0);
+        \draw[cyan] (O) grid ($ (O)+(10,10) $);
+        \draw[black,thick, ->, >=stealth'] (O)--++(11,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (O)--++(0,11) node[left]{$y$};
+        \foreach \x in  {5,10} {
+         \draw[black, thick] (O)++(\x,.08) --++(0,-.16)  node[below]   {\x};
+        }
+        \foreach \y [evaluate=\y as \yi using int( 2* \y )] in  {5,10} {
+         \draw[black, thick] (O)++(.08,\y) --++(-.16,0)  node[left]   {\yi};
+        }
+        \draw [red, very thick]  (O)++(0,4) -- ++(10,5);
+        \node[below left, xshift=1] at (O) {0};
+        \node[left, xshift=-.4cm] at ($ (O) +(0,12)$) {II};
+
+        \def\delta{28};
+        \coordinate (O) at (\delta,0);
+        \draw[cyan] (O) grid ($ (O)+(10,10) $);
+        \draw[black,thick, ->, >=stealth'] (O)--++(11,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (O)--++(0,11) node[left]{$y$};
+        \foreach \x in  {5,10} {
+         \draw[black, thick] (O)++(\x,.08) --++(0,-.16)  node[below]   {\x};
+        }
+        \foreach \y in  {5,10} {
+         \draw[black, thick] (O)++(.08,\y) --++(-.16,0)  node[left]   {\y};
+        }
+        \draw [red, very thick]  (O)++(0,8) -- ++(8,-8);
+        \node[below left, xshift=1] at (O) {0};
+        \node[left, xshift=-.4cm] at ($ (O) +(0,12)$) {III};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 <exercise number="21"><statement><p>Decide which ordered pairs are solutions of the equation <m>~y=\dfrac{5}{2}x</m>.
 <ol label="a" cols="4">
