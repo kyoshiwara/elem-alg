@@ -485,13 +485,36 @@
 	<li><m>(3,7.5)</m></li></ol></p></statement>
 <answer><p>a, c, d</p></answer></exercise>
 
-<exercise number="21"><statement><p>Decide which ordered pairs are solutions of the equation whose graph is shown.
+<exercise number="22"><statement><p>Decide which ordered pairs are solutions of the equation whose graph is shown.
 <ol label="a" cols="4">
-	<li><m>(5,0)</m></li>
-	<li><m>(2,8)</m></li>
-	<li><m>(8,3)</m></li>
-	<li><m>(6,8)</m></li></ol></p>
-<sidebyside width="40%"><image source="images/cr1-22.png"><description>graphs</description></image></sidebyside></statement></exercise>
+    <li><m>(5,0)</m></li>
+    <li><m>(2,8)</m></li>
+    <li><m>(8,3)</m></li>
+    <li><m>(6,8)</m></li></ol></p>
+<sidebyside width="40%"><!--<image source="images/cr1-22.png"><description>graphs</description></image>-->
+    <image xml:id="cr1-22">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.5]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (O)--(11,0) node[right]{$s$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,11) node[left]{$t$};
+        \foreach \x in  {5,10} {
+         \draw[cyan,thick] (\x,0)--++(0,10);
+         \draw[cyan,thick] (0,\x)--++(10,0);
+         \draw[black, thick] (\x,.08) --++(0,-.16)  node[below]   {\x};
+         \draw[black, thick] (.08,\x) --++(-.16,0)  node[left]   {\x};
+        }
+        \draw[samples=65,domain=0:10,smooth,variable=\x,red,very thick] plot ({\x},{9-(\x-4)^2/4});
+        \node[below left, xshift=1] at (O) {0};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 <exercisegroup cols="2">
     <introduction><p>For Problems 23<ndash/>24, decide whether the given values are solutions of the equation.
