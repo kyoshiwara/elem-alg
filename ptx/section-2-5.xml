@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Like-Terms"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Like Terms</title>
+
+<subsection><title>Equivalent Expressions</title>
+<p>When we solve an equation such as  
+	<me> 2+3x=17</me>
+we find a value for the variable that makes the equation true.  The solution to this equation is 5, because the two expressions <m>2+3x</m> and 17 are equal if <m>x=5</m>. If we use any other value for <m>x</m>, say <m>x=9</m> or <m>x=-1</m>, then <m>2+3x</m> does not equal 17.</p>
+
+<p>It is possible for two algebraic expressions to be equal for all values of the variable. For instance, the expressions <m>2x+3x</m> and <m>5x</m> will always give the same value when the same number is substituted for <m>x</m> in each expression. For example,
+	\begin{align*}
+                \text{if}~~x=\alert{3}~~~~~\text{then}~~~~~~2x+3x \amp =2(\alert{3})+3(\alert{3})\\
+                \amp = 6+9=15\\
+                \text{and}~~~~~~5x \amp = 5(\alert{3})=15
+                \end{align*}
+Both expressions equal 15 when <m>x=3</m>.</p>
+
+<exercise><statement><p>Verify that <m>2+3x</m> and <m>5x</m> are equal when <m>x=-4</m>.
+		\begin{align*}
+                2x+3x \amp = \\
+                \text{and}~~~~~~5x \amp = 
+                \end{align*}
+</p></statement></exercise>
+
+<assemblage><p>Two algebraic expressions are <term>equivalent</term> if they name the same number for all values of the variable.</p></assemblage> 
+
+<p>Thus, <m>2+3x</m> and <m>5x</m> are equivalent expressions, and we can replace one by the other if it will simplify our work.</p>
+
+<warning><p>Although two expressions may name the same number for some values of the variable, they are not necessarily equivalent.  For example, to show that the expressions <m>2+3x</m> and <m>5x</m> are not equivalent, we only have to find a single value of <m>x</m> for which they are not equal.  If we evaluate each expression for <m>x=6</m>, we find:
+	\begin{align*}
+                2+3x \amp = 2+3(\alert{6})=20\\
+                5x \amp = 5(\alert{6})=30
+                \end{align*}
+Because they are not equal for <m>x=6</m>, the expressions <m>2+3x</m> and <m>5x</m> are not equivalent.</p></warning>
+
+<reading-questions>
+    <exercise number="1"><statement><p>When are two expressions equivalent?</p></statement>
+    	<answer><p>When they name the same number for all values of the variable.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Like Terms</title>
+
+<p>We saw above that <m>2x+3x</m> and <m>5x</m> are equivalent expressions. This makes sense when we consider what these expressions mean: <m>2x</m> means two <m>x</m>'s added together, and <m>3x</m> means three <m>x</m>'s added together. Then
+	<me>2x+3x=(x+x)+(x+x+x)=5x</me>	
+We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as we can add two pencils to three pencils, or two dollars to three dollars. In algebra this is called <term>combining like terms</term>.</p>
+
+<assemblage><p><term>Like terms</term> are any terms that are exactly alike in their variable factors.</p></assemblage>
+
+<example><statement><p><ol label="a">
+	<li>\begin{align*}
+                2x~~\text{and}~~3x~~~~~~ \amp \text{are like terms}\\
+                -4a~~\text{and}~~7a~~~~~~ \amp \text{are like terms}
+                \end{align*}
+        because their variable factors are identical.</li>
+    <li>\begin{align*}
+                2x~~\text{and}~~3y~~~~~~ \amp \text{are not like terms}\\
+                2x~~\text{and}~~3~~~~~~ \amp \text{are not like terms}
+                \end{align*}
+        because their variable factors are different.</li></ol></p></statement></example>
+
+<assemblage><p>The numerical factor in a term is called the <term>numerical coefficient</term>, or just the <term>coefficient</term> of the term.</p></assemblage>
+
+<example><statement><p><ol label="a">
+	<li>In the expression <m>3xy</m>, the number 3 is the numerical coefficient.</li>  
+	<li>In a term such as <m>xy</m> or <m>b</m>, the numerical coefficient is 1.</li>  
+	<li>If a variable is preceded by a negative sign, the coefficient of the term is <m>-1</m>.  For example, 
+			\begin{align*}
+                -x~~~~~~\text{means}~~~~~~ \amp -1 \cdot x\\
+                -a~~~~~~\text{means}~~~~~~ \amp -1 \cdot a
+                \end{align*}</li></ol></p></statement></example>
+</subsection>
+
+<subsection><title>Adding and Subtracting Like Terms</title>
+
+<assemblage><title>To add like terms</title>
+<p>Add the numerical coefficients of the terms. Do not change the variable factors of the terms.</p></assemblage>
+
+<example><statement><p>Add like terms.<ol label="a"  cols="3">
+	<li><m>5n+3n</m></li>
+	<li><m>-4y-3y</m></li>
+	<li><m>-6st+9st</m></li></ol></p></statement>
+<solution><p>In each calculation, we do not change the variables we are adding; only the coefficient changes.<ol label="a">
+	<li><m>5n+3n = (5+3)n = 8n~~~~~~~~ \blert{\text{Add the coefficients,}~ 5 ~\text{and}~ 3.}</m></li>
+	<li><m>-4y-3y = (-4-3)y = -7y~~~~~~~~ \blert{\text{Add the coefficients,}~ -4~ \text{and}~ -3}.</m></li>
+	<li><m>-6st+9st = (-6+9)st = 3st~~~~~~~~ \blert{\text{Add the coefficients,}~ -6 ~\text{and} ~9.}</m></li></ol></p></solution></example>
+
+<assemblage><title>Look Ahead</title>
+<p>In Example 3, we replaced each expression by a simpler but equivalent expression. In other words, <m>-7y</m> is equivalent to <m>-4t-3y</m>, and <m>3st</m> is equivalent to <m>-6st+9st</m>.</p></assemblage>
+
+<assemblage><p>Replacing an expression by a simpler equivalent one is called <term>simplifying</term> the expression.</p></assemblage>
+
+<p>We subtract like terms in the same way that we add like terms.</p>
+
+<assemblage><title>To subtract like terms</title>
+<p>Subtract the numerical coefficients of the terms. Do not change the variable factors of the terms.</p></assemblage>
+
+<example><statement><m>6a-(-8a)=[6-(-8)a]=14a~~~~~~~~~~\blert{\text{Subtract the coefficients.}}</m></statement></example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>What are like terms?</p></statement>
+    	<answer><p>Any terms that are exactly alike in their variable factors.</p></answer></exercise>
+    <exercise number="3"><statement><p>How do we add or subtract like terms?</p></statement>
+    	<answer><p>Add or subtract the numerical coefficients of the terms.</p></answer></exercise>
+</reading-questions>
+
+<warning><p>We cannot add or subtract unlike terms. Thus,
+		\begin{align*}
+                2x+3y~~~~~~~~ \amp \text{cannot be simplified}\\
+                -6x+4xy~~~~~~~~ \amp \text{cannot be simplified}\\
+                6-2x~~~~~~~~ \amp \text{cannot be simplified}
+                \end{align*}</p></warning>
+
+<p>Many expressions contain both like and unlike terms. In such expressions we can combine only the like terms.</p>
+
+<example><statement><p>Simplify <m>~-4a+2-5+8a+5a</m></p></statement>
+<solution><p>We combine all the <m>a</m>-terms, and all the constant terms, like this:
+	<me>-4a+8a+5a=9a ~~~~~~~~\text{and}~~~~~~~~2-5=-3</me>
+so
+	<me>-4a+2-5+8a+5a=9a-3</me></p></solution></example>
+
+<warning><p>In Example 5, <m>9a-4 \not= 6a,</m> because <m>9a</m> and <m>-3</m> are not like terms.</p></warning>
+</subsection>
+
+<subsection><title>Removing Parentheses</title>
+<p>When we add signed numbers, we can remove parentheses that follow an addition symbol. For instance,
+	<me>5+(-3)=5-3=2</me>
+We can also remove parentheses when we add like terms. Thus,
+	<me>5x+(-3x)=5x-3x=2x</me></p>
+
+<assemblage><title>Removing parentheses that follow a plus sign</title>
+<p>Parentheses preceded by a plus sign may be omitted, and each term within parentheses keeps its original sign.</p></assemblage>
+
+<example><statement><p>Simplify <m>~(2x+3)+(5x-7)</m></p></statement>
+<solution><p>Each set of parentheses is preceded by a plus sign, so we may remove the parentheses.
+	\begin{align*}
+                (2x+3)+(5x-7)\amp = 2x+3+5x-7 \amp \blert{\text{Combine like terms.}}\\
+                			\amp = 7x-4
+                \end{align*}</p></solution></example>
+
+<p>	BUT:  We must be careful when removing parentheses preceded by a minus sign. In the expression
+	<me>(5x-2)-(7x-4)</me>
+the minus sign preceding <m>(7x-4)</m> applies to each term inside the parentheses. Therefore, when we remove the parentheses we must change the sign of <m>7x</m> from <m>+</m> to <m>-</m> and we must change the sign of <m>-4</m> from <m>-</m> to <m>+</m>. Thus,
+	\begin{align*}
+                (5x-2)-(7x-4)\amp = 5x-2-7x+4 \amp \amp \blert{\text{Change each sign inside parentheses.}}\\
+                			\amp =5x-7x-2+4    \amp \amp \blert{\text{Combine like terms.}}\\
+                			\amp =-2x+2
+                \end{align*}</p>
+
+<assemblage><title>Removing parentheses that follow a minus sign</title>
+<p>If an expression inside parentheses is preceded by a minus sign, we change the sign of each term within parentheses and then omit the parentheses and the minus sign.</p></assemblage>
+
+<example><statement><p>Simplify <m>~-5b-(3-2b)+(4b-6)</m></p></statement>
+<solution><p>Before combining like terms, we must remove the parentheses. We change the signs of any terms inside parentheses preceded by a minus sign; we do not change the signs of terms inside parentheses preceded by a plus sign.
+	<sidebyside width="90%"><image source="images/fig-2-5-ex7.png"><description>graphic</description></image></sidebyside></p></solution></example>
+
+<reading-questions>
+    <exercise number="4"><statement><p>We can remove parentheses that follow <fillin characters="6"/>.</p></statement>
+    	<answer><p>a plus sign</p></answer></exercise>
+    <exercise number="5"><statement><p>What must you do if you remove parentheses that follow a minus sign?</p></statement>
+    	<answer><p>Change the sign of each term within parentheses.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Solving Equations and Inequalities</title>
+<p>	We can now solve equations in which two or more terms contain the variable.</p>
+
+<example><statement><p>Solve the equation <m>~2x+7=4x-3</m></p></statement>
+<solution><p>We first get all terms containing the variable on one side of the equation. For this example, we will subtract <m>2x</m> from both sides of the equation to get
+	\begin{align*}
+                2x+7\amp = 4x-3 \amp \amp \blert{\text{Subtract 2x from both sides.}}\\
+                \blert{-2x}	\amp = \blert{-2x}    \\
+                		7	\amp =2x-3
+                \end{align*}
+Now the equation looks like ones we already know how to solve, and we proceed as usual to isolate the variable.
+	\begin{align*}
+                7\amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}\\
+                \blert{+3}	\amp = \blert{+3}    \\
+                		10	\amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}\\
+                \dfrac{10}{\blert{2}} \amp = \dfrac{2x}{\blert{2}}\\
+                5 \amp = x
+                \end{align*}
+The solution is 5.
+	<me>\blert{\text{Check:}}~~~~~~~~~~\text{Does}~~2(\alert{5})+7=4(\alert{5})-3?~~~~~~~\blert{\text{True}}</me>
+</p></solution></example>
+
+<p>If one side of an equation or inequality contains like terms, we should combine them before beginning to solve.</p>
+
+<example><statement><p>Solve <m>~2x-4x+14 \lt 3+5x-10</m></p></statement>
+
+<solution><p>We combine like terms on each side of the inequality, to get
+	\begin{align*}
+                \blert{2x-4x} \amp \lt \blert{3}+5x \blert{-1} \amp \amp \blert{2x-4x=-2x~~\text{and}~~ 3-10=7}\\
+                -2x+14	\amp \lt 5x-7
+                \end{align*}
+
+Now we continue solving as usual: We want to get all the terms containing <m>x</m> on one side of the inequality, and all the constant terms on the other side.
+	\begin{align*}
+                -2x+14	\amp \lt 5x-7 \amp \amp \blert{\text{Subtract}~ 5x~ \text{from both sides.}}\\
+                \blert{-5x}	\amp = \blert{-5x}    \\
+                -7x+14	\amp \lt  -7   \amp \amp \blert{\text{Subtract}~ 14~ \text{from both sides.}}\\
+                \blert{-14} \amp = \blert{-14}\\
+                -7x \amp \lt -21  \amp \amp \blert{\text{Divide both sides by}~-7;}\\
+                \dfrac{-7x}{\blert{-7}} \amp \gt \dfrac{-21}{\blert{-7}} \amp \amp \blert{\text{reverse the direction of the inequality.}}\\
+                x \amp \gt 3
+                \end{align*}
+The solution is all <m>x</m>-values greater than 3. You can check the solution by substituting one <m>x</m>-value greater than 3 and one value less than 3 into the original inequality, for instance:
+	\begin{align*}
+		\blert{\text{Check:}}~~~~ \amp x=4:~~2(\blert{4})-4(\blert{4})+14 \lt 5(\blert{4})-10?~~~~\blert{\text{True:}~~6 \lt 13}\\
+		\amp x=2:~~2(\blert{2})-4(\blert{2})+14 \lt 5(\blert{2})-10?~~~~\blert{\text{False:}~~10 \nlt 3}
+	\end{align*}</p></solution></example>
+
+<reading-questions>
+    <exercise number="6"><statement><p>What should you do if one side of an equation or inequality contains like terms?</p></statement>
+    	<answer><p>Combine them.</p></answer></exercise>
+</reading-questions>
+
+<p>Here are our guidelines for solving linear equations.</p>
+
+<assemblage><title>Steps for Solving Linear Equations</title><p><ol label="1">
+	<li>Combine like terms on each side of the equation.</li>
+	<li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side and all the constant terms on the other.</li>
+	<li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li></ol></p></assemblage>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup><introduction><p>Write algebraic expressions.</p></introduction>
+
+<exercise number="1"><statement><p>Getaway Tours offers a Caribbean cruise for $2000 per person if 12 people sign up. For each additional person who signs up, the price per person is reduced by $60. How much will you pay for a cruise if <m>p</m> additional people sign up?</p></statement>
+<answer><m>2000-60p</m></answer></exercise>
+
+<exercise number="2"><statement><p>Anita figures her taxes by subtracting a $1200 deductible from her income, then 
+	taking 6% of the result. What is her tax bill if her income is <m>I</m>?</p></statement>
+<answer><m>0.06(I-1200)</m></answer></exercise>
+
+<exercise number="3"><statement><p>The area of a trapezoid is one-half the product of its height <m>h</m> and the sum of the two bases, <m>a</m> and <m>b</m>.</p></statement>
+<answer><m>\dfrac{1}{2}h(a+b)</m></answer></exercise>
+
+<exercise number="4"><statement><p>The ratio of a number <m>k</m> to 5 less than <m>k</m>.</p></statement>
+<answer><m>\dfrac{k}{k-5}</m></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Evaluate.</p></introduction>
+
+<exercise number="5"><statement><p><m>3n(n-k)(n+k)~~~~~~~~</m>for <m>n=-4~</m> and <m>~k=-6</m></p></statement>
+<answer>240</answer></exercise>
+
+<exercise number="6"><statement><p><m>(t-1)(2t+3)~~~~~~~~</m>for <m>t=\dfrac{2}{3}</m></p></statement>
+<answer><m>\dfrac{-13}{9}</m></answer></exercise>
+</exercisegroup>
+
+</exercises>
+</subsection>
+</section>

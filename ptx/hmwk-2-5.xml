@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 2.4</title>
+
+<exercisegroup cols="2"><introduction><p>In Problems 1<ndash/>4, add or subtract like terms.</p></introduction>
+
+<exercise number="1"><statement><m>-6x+2x</m></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><m>-7.6a-5.2a</m></statement></exercise>
+
+<exercise number="3"><statement><m>3t-4t+2t</m></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><m>3bc-(-4bc)-8bc</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>In Problems 5<ndash/>6, combine like terms.</p></introduction>
+
+<exercise number="5"><statement><m>3+4y-(-8y)-7</m></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><m>-2st-2+5s-6st-(-4s)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>In Problems 7<ndash/>10, simplify and combine like terms.</p></introduction>
+
+<exercise number="7"><statement><m>4x+(5x-2)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><m>22y-34-(16y-24)</m></statement></exercise>
+
+<exercise number="9"><statement><m>6a-5-2a-(2a-5)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><m>(-2-3b)-(2b-4)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>In Problems 11<ndash/>16, solve the equation or inequality.</p></introduction>
+
+<exercise number="11"><statement><m>4m-3=2m+5</m></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><m>15-9t=33-5t</m></statement></exercise>
+
+<exercise number="13"><statement><m>-6s=3s</m></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><m>3x+5 \gt 2x+3</m></statement></exercise>
+
+<exercise number="15"><statement><m>-8g+35=9g-13+g</m></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><m>-15y+5-2y-4 \ge -12y+21</m></statement></exercise>
+
+<exercise number="17"><statement><m>-2-3w+5w \le 4w-44</m></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><m>-5p-4+3p=2+7p+3</m></statement></exercise>
+</exercisegroup>
+
+<exercise number="19"><statement><p><ol label="a">
+	<li>Evaluate the expression <m>-3y+2+7y-6y-4y-8</m> for <m>y=2.5</m>.</li>
+	<li>Simplify the expression in part (a).</li>
+	<li>Evaluate your answer to part (b) for <m>y=2.5</m>. Check that you got the same answer for part (a).</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="19"><statement><p>Evaluate the expression for the given values of the variables.
+	<me>4-3a+6ab-(-8a)-10+9ab+2a~~~~\text{for}~~a=-2,~b=5</me></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>In Problems 21<ndash/>22, choose a value for the variable nd show that the following pairs of expressions are not equivalent.</p></introduction>
+
+<exercise number="21"><statement><p><m>~2+7x~</m> and <m>~9x</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p><m>~-(a-3)~</m> and <m>~-a-3</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>Write and simplify an algebraic expression for the perimeter of the figure in Problems 23<ndash/>24.</p></introduction>
+
+<exercise number="23"><statement><sidebyside width="65%"><image source="images/hp-2-5-23.png"><description>rectangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><sidebyside width="90%"><image source="images/hp-2-5-24.png"><description>trapezoid</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 25<ndash/>29, write an algebraic expression or an equation to answer each question.</p></introduction>
+
+<exercise number="25"><statement><p>There are 8 more cats than dogs at the county shelter. Write expressions in terms of the number of dogs, <m>d</m>.<ol label="a">
+	<li>The number of cats</li>
+	<li>The total number of cats and dogs</li>
+	<li>If there are 40 dogs and cats at the shelter, how many dogs are there?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p>For every smoker in the restaurant there are three nonsmokers. Write expressions in terms of <m>x</m>, the number of smokers.<ol label="a">
+	<li>The number of nonsmokers</li> 
+	<li>The total number of people in the restaurant</li>
+	<li>If there are 36 people in the restaurant, how many are smokers?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="27"><statement><p>A tortoise and a hare are having a race. After <m>t</m> seconds, the tortoise has traveled <m>0.2t</m> feet and the hare has traveled <m>10t</m> feet.<ol label="a">
+	<li>Express the distance between them in terms of <m>t</m>.</li>
+	<li>How far apart are the tortoise and the hare after 10 seconds?</li>
+	<li>When will they be 147 feet apart?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p>Delbert bought a high definition TV at a price of <m>x</m> dollars. The sales tax in his state is 8%. <ol label="a">
+	<li>Write an expression for the tax on Delbert's TV.</li>
+	<li>Write an expression for the price Delbert paid, including tax.</li>
+	<li>Delbert paid $928.80 for his TV.  What was the price before tax?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="29"><statement><p>The cost of producing <m>m</m> stereos is <m>251m+1355</m> dollars, and each stereo sells for $847.<ol label="a">
+	<li>What profit is made from producing and selling <m>m</m> stereos?</li>
+	<li>How many stereos must be produced to make a profit of $16,525?</li></ol></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 30<ndash/>34, write and solve an equation.</p></introduction>
+
+<exercise number="30"><statement><p>Last summer Kevin made 8 batches of barbecue sauce using one bottle of catsup. This summer he made only 5 batches and had 12 ounces of catsup left over. How much catsup does Kevin use in a batch of barbecue sauce?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="31"><statement><p>Arch has two wooden beams of equal length. He makes 3 posts for mailboxes with one beam, and has 33 inches left. He makes another mailbox post with the other beam, and has 131 inches left.  How long is each mailbox post?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="32"><statement><p>Quentin bought 12 cans of cat food and a half-gallon of milk that cost $1.80. Tilda bought 8 cans of cat food and a $5 bag of kibble. They paid the same price at the check-out stand.  How much does one can of cat food cost?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="33"><statement><p>If Sarah drinks three glasses of milk a day she will exceed her minimum daily requirement for calcium by 70 milligrams. If she drinks only two glasses of milk she will still need another 220 milligrams of calcium. How many milligrams of calcium does a glass of milk contain?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="34"><statement><p>On her last history test, Parisa answered 9 short-answer questions correctly and earned 15 points on the essay. Seana answered 10 short-answer questions correctly and got 23 points on the essay.  Seana's score on the test was 14 points higher than Parisa's. How many points was each short-answer question worth?</p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+</exercises>

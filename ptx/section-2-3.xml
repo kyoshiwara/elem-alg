@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Graphs-of-Linear-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Graphs of Linear Equations</title>
+
+<subsection><title>Graphing Equations</title>
+
+<assemblage><p>An equation of the form <m>y=ax+b</m>,  where <m>a</m> and <m>b</m> are constants, is called a <term>linear equation</term> because its graph is a straight line.</p></assemblage>
+
+<p>We can graph a linear equation by evaluating the expression <m>ax+b</m> at several values of <m>x</m> and then plotting points.</p>
+
+<example><statement><p>At 6 am the temperature was <m>50 \degree</m>, and it has been rising by <m>4 \degree</m> every hour.<ol label="a">  
+	<li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
+	<li>Graph your equation.</li></ol></p></statement>
+<solution><p><ol label="a">
+	<li>We set <m>h=0</m> at 6 am.  At that time, <m>T=50</m>.  Because the temperature is rising by <m>4 \degree</m> every hour, we multiply the number of hours by 4 and add the result to 50 to get the new temperature. Thus, our equation is <m>T=50+4h</m>.</li>
+	<li><p>Step 1: We make a table of values for the equation. We choose some values for <m>h</m>, as shown in the first column of the table below. For each value of <m>h</m>, we evaluate the formula for <m>T</m>, and we record these values in the second column of the table.
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>h</m></cell>
+                        <cell><m>T</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell>Ordered pairs</cell></row>
+                    <row> 
+                        <cell><m>0</m></cell>
+                        <cell><m>50</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>T=50+4(\alert{0})=50+0=50</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>(0,50)</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>50</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>T=50+4(\alert{1})=50+4=54</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>(1,54)</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>62</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>T=50+4(\alert{3})=50+12=62</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>(3,62)</m></cell></row>
+                    <row> 
+                        <cell><m>5</m></cell>    
+                        <cell><m>70</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>T=50+5(\alert{0})=50+20=70</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>(5,70)</m></cell></row>
+                    </tabular></sidebyside></p>
+	<p>Step 2: We use the values in the table to help us choose scales for the axes. For this graph, the  input values are less than 10, but the largest output value is 70. We use increments of 1 on the horizontal or <m>h</m>-axis and increments of 10 on the vertical or <m>T</m>-axis.</p>
+	<p>Step 3: Each ordered pair gives us a point on the graph. We plot the points on the grid and connect them with a smooth curve. All the points should lie on a straight line.
+	<sidebyside width="50%"><image source="images/fig-2-3-ex1.png"><description>graph</description></image></sidebyside>
+	</p></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>A linear equation has the form <fillin characters="6"/>.</p></statement>
+    	<answer><m>y=ax+b</m></answer></exercise>
+    <exercise number="2"><statement><p>We use <fillin characters="6"/> to help us choose scales for the axes.</p></statement>
+    	<answer><p>the values in the table</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Cartesian Coordinate System</title>
+<p>Many graphs include negative values as well as positive values. To make such a graph, we construct a <term>Cartesian coordinate system</term>, named after the French mathematician and philosopher René Descartes.</p>   
+
+<p>We draw two perpendicular number lines for the horizontal and vertical axes. The two axes divide the plane into four <term>quadrants</term>, or regions, as shown below. We often use <m>x</m> for the input variable and  <m>y</m> for the output variable, so the horizontal axis is called the <m>x</m>-axis and the vertical axis is the <m>y</m>-axis. The axes intersect at the zero point of each number line. The coordinates of this intersection point, called the <term>origin</term>, are <m>(0,0)</m>.</p>
+ <sidebyside width="35%"><image source="images/fig-2-3-1.png"><description>grid</description></image></sidebyside>
+
+ <reading-questions>
+    <exercise number="3"><statement><p>What are the coordinates of the origin?</p></statement>
+    	<answer><m>(0,0)</m></answer></exercise>
+    <exercise number="4"><statement><p>True or False: The <m>x</m>-coordinate of any point on the <m>y</m>-axis is zero.
+</p></statement>
+    	<answer><p>True</p></answer></exercise>
+</reading-questions>
+
+<example><statement><p>The figure below shows how to plot points on a Cartesian grid. Points in the upper right quadrant have both coordinates positive. Points with negative <m>x</m>-coordinates are plotted to the left of the <m>x</m>-axis, and points with negative <m>y</m>-coordinates are plotted below the <m>y</m>-axis.</p>
+<p> For example, the point <m>(-2,1)</m> is plotted 2 units to the left of the <m>x</m>-axis and 1 unit above the <m>y</m>-axis. In which quadrant are both coordinates negative?</p>
+<sidebyside width="35%"><image source="images/fig-2-3-ex2.png"><description>points</description></image></sidebyside>
+</statement></example>
+
+<reading-questions>
+    <exercise number="5"><statement><p>True or False: The notation <m>(5,3)</m> represents two points, one on the <m>x</m>-axis and one on the <m>y</m>-axis.</p></statement>
+    	<answer>False</answer></exercise>
+    <exercise number="6"><statement><p>True or False: If both coordinates of a point are negative, the point is located in the lower left quadrant.</p></statement>
+    	<answer><p>True</p></answer></exercise>
+</reading-questions>
+
+<p>Now we can graph an equation that includes negative values.</p>
+
+<example><statement><p>The temperature in Nome was <m>-12 \degree</m>F at noon. It has been rising at a rate of <m>2 \degree</m>F per hour all day.<ol label="a">  
+	<li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
+	<li>Fill in the table and graph your equation. (Negative values of <m>h</m> represent hours before noon.)
+		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>h</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>T</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+		Use your graph to answer the following questions:</li>
+	<li>What was the temperature 8 hours before noon?</li>
+	<li>When will the temperature reach <m>-12 \degree</m>F?</li></ol></p></statement>
+<solution><p><ol label="a">
+	<li>The temperature at <m>h</m> hours after noon is given by <m>T=-12+2h</m>.</li> 
+	<li>We evaluate the expression for <m>T</m> at each of the <m>h</m>-values in the table.
+		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>h</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>T</m></cell>
+                        <cell><m>-18</m></cell>
+                        <cell><m>-16</m></cell>
+                        <cell><m>-14</m></cell>
+                        <cell><m>-12</m></cell>
+                        <cell><m>-10</m></cell>
+                        <cell><m>-8</m></cell>
+                        <cell><m>-6</m></cell></row>
+                    </tabular></sidebyside>
+            <sidebyside width="50%"><image source="images/fig-2-3-ex3.png"><description>graph</description></image></sidebyside>    </li>
+        <li>We find the point on the graph with <m>h</m>-coordinate 8. Its <m>T</m>-coordinate is <m>-28</m>, so the temperature was <m>-28 \degree</m>F.</li>
+		<li>We find the point on the graph with <m>T</m>-coordinate <m>-4</m>. Its <m>h</m>-coordinate is 4, so it will be <m>-4 \degree</m>F at 4 pm.</li></ol></p></solution></example>
+
+<assemblage><title>Look Closer</title>
+<p>We can also answer parts (c) and (d) of Example 3 using algebra. For part (c), we evaluate the expression for <m>T</m>, namely <m>-12+2h</m>, at <m>h=-8</m>. For part (d), we solve the equation <m>T=-12+2h</m> with <m>T=-4</m>. Make sure that you understand both methods, graphical and algebraic.</p></assemblage>
+
+<assemblage><title>Graphing Tip #1</title>
+<p>If the <term>coefficient</term> of <m>x</m> (the number multiplying <m>x</m>) is a fraction, we can make our work easier by choosing multiples of the denominator for the <m>x</m>-values. That way we won't have to work with fractions to find the <m>y</m>-values. In Example 4, the coefficient of <m>x</m> is <m>\dfrac{-2}{3}</m>, so we choose multiples of 3 for the <m>x</m>-values.</p></assemblage>
+
+<example><statement><p><ol label="a">
+	<li>Graph  <m>~y=\dfrac{-2}{3}x-4</m></li>
+	<li>Use the graph to solve the equation <m>~\dfrac{-2}{3}x-4=-2</m></li></ol></p></statement>
+<solution><p> <ol label="a">
+	<li>We choose <m>x</m>-values that are multiples of 3 and make a table of values.
+		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>-9</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>y=\dfrac{-2}{3}(\alert{-9})-4=2</m></cell></row>
+                    <row>    
+                        <cell><m>-6</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>y=\dfrac{-2}{3}(\alert{-6})-4=0</m></cell></row>
+                    <row>    
+                        <cell><m>0</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>y=\dfrac{-2}{3}(\alert{0})-4=-4</m></cell></row>
+                    <row>
+                        <cell><m>3</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>y=\dfrac{-2}{3}(\alert{3})-4=-6</m></cell></row>
+                    <row> 
+                        <cell><m>6</m></cell>
+                        <cell><m>-8</m></cell>
+                        <cell><m>y=\dfrac{-2}{3}(\alert{6})-4=-8</m></cell></row>
+                    </tabular></sidebyside>
+            Then we plot the points and connect them with a straight line.
+            <sidebyside width="50%"><image source="images/fig-2-3-ex4a.png"><description>graph</description></image></sidebyside>    </li>
+    <li>We see that <m>y</m> has been replaced by <m>-2</m> in the equation of the graph. So we look for the point on the graph that has <m>y</m>-coordinate <m>-2</m>. This point, labeled <m>P</m> on the graph below, has <m>x</m>-coordinate <m>-3</m>. 
+    	<sidebyside width="50%"><image source="images/fig-2-3-ex4b.png"><description>graph</description></image></sidebyside>
+    Because it lies on the graph, the point <m>P(-3,-2)</m> is a solution of the equation <m>~y=\dfrac{-2}{3}x-4</m>.  When we substitute <m>x=-3</m> and <m>y=-2</m> into the equation, we get a true statement: 
+    	<me>-2=\dfrac{-2}{3}(-3)-4</me>
+    But this statement also tells us that <m>-3</m> is a solution of the equation <m>~\dfrac{-2}{3}x-4=-2</m>.</li></ol></p></solution></example> 
+
+<reading-questions>
+    <exercise number="7"><statement><p>What is the first step in graphing an equation?</p></statement>
+    	<answer><p>Make a table of values</p></answer></exercise>
+    <exercise number="8"><statement><p>Which <m>x</m>-values would you choose to graph <m>y=\dfrac{5}{4}x-3</m> ?
+</p></statement>
+    	<answer><p>Multiples of 4</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Graphing Tip #2</title>
+<p>When you graph a linear equation, you should extend the line far enough in both directions so that it will cross both the <m>x</m>-axis and the <m>y</m>-axis. The points where the graph crosses the axes are important for applications.</p></assemblage>
+
+<assemblage><title>Look Closer</title>
+<p>The graph of an equation is a picture of the solutions of the equation. Each point on the graph represents a solution.  If a point lies on the graph, its coordinates make the equation true.</p></assemblage>  
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+	<exercisegroup><introduction><p>Choose the correct algebraic expression for each situation.
+		\begin{align*}
+                \amp 2t+12 \amp\amp 12-2t\\
+                \amp 2(t+12) \amp\amp 2t-12  
+                \end{align*}</p></introduction>
+
+<exercise number="1"><statement><p>Janine's history book has 12 chapters. If she studies 2 chapters a week, how many chapters will she have left after <m>t</m> weeks?</p></statement>
+<answer><m>12-2t</m></answer></exercise>
+
+<exercise number="2"><statement><p>Arturo is 12 years older than twice the age of his nephew. If Arturo's nephew is <m>t</m>  years old, how old is Arturo?</p></statement>
+<answer><m>2t+12</m></answer></exercise>
+
+<exercise number="3"><statement><p>Rick made 12 fewer than twice as many phone calls as his roommate made this month.  If Rick's roommate made <m>t</m> phone calls, how many calls did Rick make?</p></statement>
+<answer><m>2t-12</m></answer></exercise>
+
+<exercise number="4"><statement><p>Every winter, the Civic Society knits mittens for the children of the county orphanage. This year there are 12 more children than last year. If there were <m>t</m> children last year, how many mittens will they need this year?</p></statement>
+<answer><m>2(t+12)</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>

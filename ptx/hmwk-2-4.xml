@@ -1,0 +1,225 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 2.4</title>
+
+<exercisegroup><introduction><p>Fill in the table in Problems 1<ndash/>2. Use two steps for each row:  
+Fill in the middle column first. Then use the table to help you answer the questions.</p></introduction>
+
+<exercise number="1"><statement>
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>2x</m></cell>
+                        <cell><m>2x+4</m></cell></row>
+                    <row>
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>    
+                        <cell><m>6</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>    
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>14</m></cell></row>
+                    <row> 
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>20</m></cell></row>
+                    </tabular></sidebyside>
+   <p>Consider the equation  <m>y=2x+4</m>.<ol label="a">
+   		<li>Let <m>x=3</m>. Explain how to find <m>y</m> in two steps.</li>
+   		<li>Let <m>y=14</m>. Explain how to find <m>x</m> in two steps.</li></ol></p></statement>
+   	<answer></answer></exercise>
+
+ <exercise number="2"><statement>
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>q</m></cell>
+                        <cell><m>q-3</m></cell>
+                        <cell><m>5(q-3)</m></cell></row>
+                    <row>
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>    
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row>    
+                        <cell><m>4</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>20</m></cell></row>
+                    </tabular></sidebyside>
+   <p>Consider the equation  <m>5(q-3)=R</m>.<ol label="a">
+   		<li>Let <m>q=3</m>. Explain how to find <m>R</m> in two steps.</li>
+   		<li>Let <m>R=10</m>. Explain how to find <m>q</m> in two steps.</li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 3<ndash/>17, solve.</p></introduction>
+
+<exercise number="3"><statement><m>6x-13=5</m></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><m>\dfrac{2a}{5}=8</m></statement></exercise>
+
+<exercise number="5"><statement><m>\dfrac{x}{4}+2=3</m></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><m>6x+5=5</m></statement></exercise>
+
+<exercise number="7"><statement><m>24=4(p-7)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><m>0=\dfrac{5z}{7}</m></statement></exercise>
+
+<exercise number="9"><statement><m>\dfrac{k+4}{5}=9</m></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><m>\dfrac{2x}{3}-5=7</m></statement></exercise>
+
+<exercise number="11"><statement><m>7=\dfrac{4b-3}{3}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><m>3c-7=-13</m></statement></exercise>
+
+<exercise number="13"><statement><m>-5=-2-3t</m></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><m>-3(2h-6)=-12</m></statement></exercise>
+
+<exercise number="15"><statement><m>1-\dfrac{b}{3}=-5</m></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><m>\dfrac{3y}{5}+2=-4</m></statement></exercise>
+
+<exercise number="17"><statement><m>\dfrac{5x}{2}+10=0</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 18<ndash/>19, solve.</p></introduction>
+
+<exercise number="18"><statement><m>11.8w-37.8=120.32</m></statement></exercise>
+
+<exercise number="19"><statement><m>9.7(2.6+v)=58.2</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 20<ndash/>28, <ol label="a">
+	<li>Solve each inequality algebraically.</li>
+	<li>Graph your solutions on a number line.</li>  
+	<li>Give at least one value of the variable that is a solution, and one value 
+		that is not a solution.</li></ol></p></introduction>
+
+<exercise number="20"><statement><m>x+10 \le 5</m></statement></exercise>
+
+<exercise number="21"><statement><m>-3y \lt 15</m></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><m>\dfrac{x}{3} \le 4</m></statement></exercise>
+
+<exercise number="23"><statement><m>2x+3 \gt 7</m></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><m>-3x+2 \le 11</m></statement></exercise>
+
+<exercise number="25"><statement><m>-3 \gt \dfrac{2x}{3}+1</m></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><m>-3 \le 3x \le 12</m></statement></exercise>
+
+<exercise number="27"><statement><m>23 \gt 9-2b \ge 13</m></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><m>-8 \le \dfrac{5w+3}{4} \lt -3</m></statement></exercise>
+</exercisegroup>
+
+<exercise number="29"><statement><p>Delbert is thinking of a number. If he multiplies the number by 5 and then subtracts 6, the result is 29. What is the number?</p></statement>
+<answer></answer></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 30<ndash/>31, find the error in the "solution," then write a corrected solution.</p></introduction>
+
+<exercise number="30"><statement><p>
+	\begin{align*}
+                6-3x \amp = -12\\
+                -3x \amp = -6\\
+                x \amp = 2                
+                \end{align*}</p></statement></exercise>
+
+<exercise number="31"><statement><p>
+	\begin{align*}
+                -2+\dfrac{2}{3}x \amp = -4\\
+                -2+2x \amp = -12\\
+                2x \amp = -10 \\
+                x \amp =-5               
+                \end{align*}</p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 32<ndash/>33, use the graphs to answer the questions.</p></introduction>
+
+<exercise number="32"><statement><p>Francine's new puppy weighed 3.8 pounds when she brought it home, and it should gain approximately 0.6 pound per week. The graph shows the puppy's weight, <m>W</m>, after <m>t</m> weeks.
+	<sidebyside width="50%"><image source="images/hp-2-4-32.png"><description>graph</description></image></sidebyside><ol label="a">  
+	<li>Estimate the puppy's weight after 8 weeks.</li>
+	<li>Estimate how long it will take for the puppy to reach 26 pounds.</li>
+	<li>Write an algebraic equation for <m>W</m> in terms of <m>t</m>.</li>
+	<li>Write and solve an equation to verify your answer to part (b).</li></ol></p></statement></exercise>
+
+<exercise number="33"><statement><p>Marvin's telephone company charges $13 a month plus $0.15 per minute. The graph  
+shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
+	<sidebyside width="50%"><image source="images/hp-2-4-33.png"><description>graph</description></image></sidebyside><ol label="a">
+	<li>Estimate Marvin's phone bill if he talks for 45 minutes.</li>
+	<li>Estimate the number of minutes Marvin talked if his phone bill is $25.</li>
+	<li>Write an algebraic equation for <m>P</m> in terms of <m>m</m>.</li>
+	<li>Write and solve an equation to verify your answer to part (b).</li></ol></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 34<ndash/>38, <ol label="a">
+	<li>Choose a variable for the unknown quantity.</li>
+	<li>Write an equation that involves your variable.</li>
+	<li>Solve your equation, and answer the question.</li></ol></p></introduction>
+
+<exercise number="34"><statement><p>Simona bought a car for $10,200. She paid $1200 down and will pay the rest in 36 monthly installments. How much is each installment? (Hint:  Write an equation about the total amount Simona pays.)</p></statement></exercise>
+
+<exercise number="35"><statement><p>Every school day, each member of the cross-country team runs a certain distance , which is assigned on the basis of ability, plus a half mile around the track. Greta runs 22.5 miles per week. What is her assigned distance? (Hint:  Write an equation about the total distance Greta runs in one school week.)</p></statement>
+<answer></answer></exercise>
+
+<exercise number="36"><statement><p>The Tree People planted new trees in an area that was burned by brush fires. 60% of the seeds sprouted, but gophers ate 38 of the new sprouts. That left 112 new saplings.  How many seeds were planted? (Hint:   Write an equation about the number of seeds that survived.)</p></statement></exercise>
+
+<exercise number="37"><statement><p>During a four-day warming trend, the temperature rose from <m>-6 \degree</m> to <m>26 \degree</m>. What was the average change in temperature per day?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="38"><statement><p>Eric is on a diet to reduce his current weight of 196 pounds to 162 pounds. If he loses 4 pounds per week, how long will it take him to reach his desired weight?</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Use one of the formulas below to solve Problems 34<ndash/>38. 
+	\begin{align*}
+                \text{Perimeter of a rectangle}~~~~P \amp  = 2l+2w\\
+                \text{Area of a triangle}~~~~A \amp = \dfrac{bh}{2}               
+                \end{align*}</p></introduction>
+
+<exercise number="39"><statement><p>A farmer has 500 yards of fencing material to enclose a rectangular pasture. He would like the pasture to be 75 yards wide. How long will it be?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="40"><statement><p>A triangular sail requires 12 square meters of fabric. If the base of the sail measures 4 meters, how tall is the sail?</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 41<ndash/>42, write and solve an equation to find the value of <m>x</m>.</p></introduction>
+
+<exercise number="41"><statement><sidebyside width="75%"><image source="images/hp-2-4-41.png"><description>rectangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="42"><statement><sidebyside width="75%"><image source="images/hp-2-4-42.png"><description>triangle</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+</exercises>
+
+
+ 
