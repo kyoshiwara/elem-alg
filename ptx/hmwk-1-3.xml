@@ -364,13 +364,13 @@
 	<li>Complete the table. 
 		 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
-                        <cell><m>D</m></cell>
+                        <cell><m>L</m></cell>
                         <cell><m>250</m></cell>
                         <cell><m>300</m></cell>
                         <cell><m>450</m></cell>
                         <cell><m>60</m></cell></row>
                     <row> 
-                        <cell><m>L</m></cell>
+                        <cell><m>D</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>
                         <cell><m>\hphantom{00}</m></cell>

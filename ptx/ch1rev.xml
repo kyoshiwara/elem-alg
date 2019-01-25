@@ -140,7 +140,29 @@
 		<p><m>\text{Miles driven} = </m></p></li>
 	<li>Let <m>g</m> stand for the number of gallons of gas in Martha's car and <m>m</m> for the number of miles she can drive.  Write an equation for <m>m</m> in terms of <m>g</m>.</li>
 	<li>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.
-		<sidebyside width="45%"><image source="images/cr1-1.png"><description>grid</description></image></sidebyside></li>
+		<sidebyside width="45%"><!--<image source="images/cr1-1.png"><description>grid</description></image>-->
+    <image xml:id="cr1-1">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=0.32, yscale=.016]
+        \draw[cyan] (0,0) grid[ystep=20] (15,300);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(16,0) node[right]{$g$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,330) node[left]{$m$};
+        \foreach \x in  {5,10,15} {
+         \draw[cyan, very thick] (\x,0) --++(0,300);
+         \draw[black, thick] (\x,3) --++(0,-6)  node[below]   {\x};
+        }
+        \foreach \y in  {100, 200, 300} {
+         \draw[cyan, very thick] (0,\y) --++(15,0);
+         \draw[black, thick] (.3,\y) --++(-.6,0)  node[left]   {\y};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
 	</ol></p></statement>
 	<answer><p><ol label="a">
         <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -163,7 +185,30 @@
                     </tabular></sidebyside></li>
         <li>Multiply the number of gallons by 22</li>
         <li><m>m=22g</m></li>
-        <li><sidebyside width="45%"><image source="images/cr1-1ans.png"><description>graph</description></image></sidebyside></li></ol></p></answer></exercise>
+        <li><sidebyside width="45%"><!--<image source="images/cr1-1ans.png"><description>graph</description></image>-->
+    <image xml:id="cr1-1ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=0.32, yscale=.016]
+        \draw[cyan] (0,0) grid[ystep=20] (15,300);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(16,0) node[right]{$g$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,330) node[left]{$m$};
+        \foreach \x in  {5,10,15} {
+         \draw[cyan, very thick] (\x,0) --++(0,300);
+         \draw[black, thick] (\x,3) --++(0,-6)  node[below]   {\x};
+        }
+        \foreach \y in  {100, 200, 300} {
+         \draw[cyan, very thick] (0,\y) --++(15,0);
+         \draw[black, thick] (.3,\y) --++(-.6,0)  node[left]   {\y};
+        }
+        \draw[red,very thick] (0,0)--(150/11,300);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="2"><statement><p>Mariel has a 200-page history assignment to read. Fill in the table with the number of pages Mariel has left to read after completing a certain number of pages.
 
@@ -198,7 +243,27 @@
 		<p><m>\text{Pages left} = </m></p></li>
 	<li>Let <m>r</m> stand for the number of pages Mariel has already read and <m>l</m> for the number of pages she has left to read.  Write an equation for <m>l</m> in terms of <m>r</m>.</li>
 	<li>Use the grid below to plot the values from your table. Connect the data points with a smooth curve.
-		<sidebyside width="45%"><image source="images/cr1-2.png"><description>grid</description></image></sidebyside></li>
+		<sidebyside width="45%"><!--<image source="images/cr1-2.png"><description>grid</description></image>-->
+    <image xml:id="cr1-2">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.025]
+        \draw[cyan] (0,0) grid[step=25] (250,250);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(275,0) node[right]{$r$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,275) node[left]{$l$};
+        \foreach \x in  {50, 100, ..., 250} {
+         \draw[cyan, very thick] (\x,0) --++(0,250);
+         \draw[black, thick] (\x,2) --++(0,-4)  node[below]   {\x};
+         \draw[cyan, very thick] (0,\x) --++(250,0);
+         \draw[black, thick] (2,\x) --++(-4,0)  node[left]   {\x};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
 	</ol></p></statement></exercise>
 
 <exercise number="3"><statement><p>Find the pattern and fill in the table. Then write an equation for the second variable in terms of the first.</p>
@@ -485,13 +550,36 @@
 	<li><m>(3,7.5)</m></li></ol></p></statement>
 <answer><p>a, c, d</p></answer></exercise>
 
-<exercise number="21"><statement><p>Decide which ordered pairs are solutions of the equation whose graph is shown.
+<exercise number="22"><statement><p>Decide which ordered pairs are solutions of the equation whose graph is shown.
 <ol label="a" cols="4">
-	<li><m>(5,0)</m></li>
-	<li><m>(2,8)</m></li>
-	<li><m>(8,3)</m></li>
-	<li><m>(6,8)</m></li></ol></p>
-<sidebyside width="40%"><image source="images/cr1-22.png"><description>graphs</description></image></sidebyside></statement></exercise>
+    <li><m>(5,0)</m></li>
+    <li><m>(2,8)</m></li>
+    <li><m>(8,3)</m></li>
+    <li><m>(6,8)</m></li></ol></p>
+<sidebyside width="40%"><!--<image source="images/cr1-22.png"><description>graphs</description></image>-->
+    <image xml:id="cr1-22">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.5]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (O)--(11,0) node[right]{$s$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,11) node[left]{$t$};
+        \foreach \x in  {5,10} {
+         \draw[cyan,thick] (\x,0)--++(0,10);
+         \draw[cyan,thick] (0,\x)--++(10,0);
+         \draw[black, thick] (\x,.08) --++(0,-.16)  node[below]   {\x};
+         \draw[black, thick] (.08,\x) --++(-.16,0)  node[left]   {\x};
+        }
+        \draw[samples=65,domain=0:10,smooth,variable=\x,red,very thick] plot ({\x},{9-(\x-4)^2/4});
+        \node[below left, xshift=1] at (O) {0};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 <exercisegroup cols="2">
     <introduction><p>For Problems 23<ndash/>24, decide whether the given values are solutions of the equation.
@@ -534,7 +622,32 @@
 <exercise number="31"><statement><p>The graph of <m>y=1.25x</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
 	<li><m>1.25x=40</m></li>
 	<li><m>30=1.25x</m></li></ol></p>
-<sidebyside width="35%"><image source="images/cr1-31.png"><description>graph</description></image></sidebyside></statement>
+<sidebyside width="35%"><!--<image source="images/cr1-31.png"><description>graph</description></image>-->
+    <image xml:id="cr1-31">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.08]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[step=4] (60,80);
+        \draw[black,thick, ->, >=stealth'] (O)--(67,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,87) node[left]{$y$};
+        \foreach \x in  {20, 40, 60} {
+         \draw[cyan, very thick] (\x,0)--++(0,80);
+         \draw[black, thick] (\x,.8) --++(0,-1.6) node[below] {\x};
+        }
+        \foreach \y in  {20, 40, 60, 80} {
+         \draw[cyan, very thick] (0,\y)--++(60,0);
+         \draw[black, thick] (.8,\y) --++(-1.6,0) node[left] {\y};
+        }
+        \draw[red,very thick, ->,>=stealth'] (0,0)--(60,75) node[above, yshift=1.25cm,midway, fill=white, inner sep=1] {$y=1.25x$};
+        \node[below left, xshift=1] at (O) {0};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer><p><ol label="a">
     <li>32</li>
     <li>24</li></ol></p></answer></exercise>
@@ -542,7 +655,33 @@
 <exercise number="32"><statement>The graph of <p><m>~y=\dfrac{24}{x}</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
 	<li><m>\dfrac{24}{x}=6</m></li>
 	<li><m>1.5=\dfrac{24}{x}</m></li></ol></p>
-<sidebyside width="40%"><image source="images/cr1-32.png"><description>graph</description></image></sidebyside></statement></exercise>
+<sidebyside width="40%"><!--<image source="images/cr1-32.png"><description>graph</description></image>-->
+    <image xml:id="cr1-32">
+        <description>curve</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=0.25, yscale=.5]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[xstep=2, ystep=1] (24,12);
+        \draw[black,thick, ->, >=stealth'] (O)--(26,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,13) node[left]{$y$};
+        \foreach \x in  {10, 20} {
+         \draw[cyan, very thick] (\x,0)--++(0,12);
+         \draw[black, thick] (\x,.08) --++(0,-.16) node[below] {\x};
+        }
+        \foreach \y in  {5,10} {
+         \draw[cyan, very thick] (0,\y)--++(24,0);
+         \draw[black, thick] (.04,\y) --++(-.08,0) node[left] {\y};
+        }
+        \draw[samples=65,domain=2:24,smooth,variable=\x,red,very thick, <->, >=stealth'] plot ({\x},{(24/\x});
+        \node[below left, xshift=1] at (O) {0};
+        \node[fill=white, inner sep=1, text=red] at (7,8) {$\displaystyle y=\frac{24}{x}$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup>
