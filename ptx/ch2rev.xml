@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Ch2-Summary-and-Review"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Chapter 2 Summary and Review</title>
+
+<subsection><title>Lesson 2.1 Signed Numbers</title><p><ul>
+<li>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>.</li>
+<li><p>We use special symbols to indicate order: 
+	\begin{align*}
+                \blert{\lt} \amp ~~~~ \text{means}~~~~  \blert{\text{is less than}}\\
+                \blert{\gt} \amp ~~~~ \text{means}~~~~  \blert{\text{is greater than}}               
+                \end{align*}</p></li>
+<li>The <term>absolute value</term> of a number is the unsigned part of the number. It is never negative.</li>
+
+<li><assemblage><title>Rules for Adding Integers</title><p><ol label="1">
+	<li>To add two numbers with the same sign, add their absolute values. The sum has the same sign as the numbers.</li>
+	<li>To add two numbers with opposite signs, subtract their absolute values. The sum has the same sign as the number with the larger absolute value.</li></ol></p></assemblage></li>
+
+<li><assemblage><title>Rules for Subtracting Integers</title>
+<p>To subtract <m>b</m> from <m>a</m>:<ol label="1">
+	<li>Change the sign of <m>b</m>.</li>
+	<li>Change the subtraction to addition.</li>
+	<li>Proceed as in addition.</li></ol></p></assemblage></li>
+
+<li><assemblage><title>Products and Quotients of Signed Numbers</title><p><ol label="1">
+	<li>The product or quotient of two numbers with opposite signs is a negative number.</li>
+	<li>The product or quotient of two numbers with the same sign is a positive number.</li></ol></p></assemblage></li>
+
+<li><assemblage><title>Quotients Involving Zero</title>
+<p>If <m>a</m> is any nonzero number, then
+<me>\dfrac{0}{a} = 0~~~~~~\text{and}~~~~~~ \dfrac{a}{0} ~~ \text{is undefined.}</me></p></assemblage></li></ul></p>
+</subsection>
+
+<subsection><title>Section 2.2 Expressions and Equations</title><p><ul>
+<li>When we evaluate an algebraic expression, we follow the order of operations.</li> 
+<li>When we evaluate an algebraic expression at a negative number, we enclose the negative numbers in parentheses.</li></ul></p></subsection>
+
+<subsection><title>Section 2.3 Graphs of Linear Equations</title><p><ul>
+<li>An equation of the form <m>y=ax+b</m>, where <m>a</m> and <m>b</m> are constants, is called a <term>linear equation</term> because its graph is a straight line.</li>
+<li>We can graph a linear equation by evaluating the expression <m>ax+b</m> at several values of <m>x</m> and then plotting points.</li>
+<li>We use a <term>Cartesian coordinate system</term> to make a graph that includes negative values of the variables.</li>
+<li>The graph of an equation is a picture of the solutions of the equation. Each point on the graph represents a solution.</li></ul></p></subsection>
+
+<subsection><title>Section 2.4 Linear Equations and Inequalities</title><p><ul>
+<li>To solve an equation that involves two or more operations, we undo those operations in reverse order.</li>
+<li>A statement that uses one of the symbols or is called an <term>inequality</term>.</li>
+
+<li><assemblage><title>Rules for Solving Inequalities</title><p><ol label = "1">
+	<li>We can add or subtract the same quantity on both sides.</li> 
+	<li>We can multiply or divide both sides by the same positive number.</li>  
+	<li>If we multiply or divide both sides by a negative number, we must reverse the direction of the inequality.</li></ol></p></assemblage></li>
+
+<li>Each point on the graph of an equation represents a solution of the equation. To solve the equation for a particular <m>y</m>-value, we locate the corresponding point on the graph.</li>
+<li>To solve a <term>compound inequality</term>, we perform the steps needed to isolate <m>x</m> on all three sides of the inequality.</li></ul></p></subsection>
+
+<subsection><title>Section 2.5 Like Terms</title><p><ul>
+<li>Two algebraic expressions are <term>equivalent</term> if they name the same number for all values of the variable.</li> 
+<li><term>Like terms</term> are any terms that are exactly alike in their variable factors. By adding or subtracting like terms we can replace one algebraic expression by a shorter or simpler one.</li> 
+<li>The numerical factor in a term is called the <term>numerical coefficient</term>, or just the <term>coefficient</term> of the term.</li>
+<li>Replacing an expression by a simpler equivalent one is called <term>simplifying</term> the expression.</li>
+
+<li><assemblage><title>To add or subtract like terms</title>
+<p>Add or subtract the numerical coefficients of the terms. Do not change the variable factors of the terms.</p></assemblage></li>
+
+<li><assemblage><title>Removing parentheses</title><p><ol label="1">
+<li>Parentheses following a plus sign may be omitted; each term within parentheses keeps its original sign.</li>
+<li>To remove parentheses that follow a minus sign, we change the sign of each term within parentheses and then omit the parentheses and the minus sign.</li></ol></p></assemblage></li>
+
+<li><assemblage><title>Steps for Solving Linear Equations</title><p><ol label="1">
+	<li>Combine like terms on each side of the equation.</li>
+	<li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side and all the constant terms on the other.</li>
+	<li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li></ol></p></assemblage></li>
+</ul></p></subsection>
+
+<subsection><title>Review Questions</title>
+<p>Use complete sentences to answer the questions.<ol label = "1">
+<li>Explain the terms natural numbers, whole numbers, and integers.</li>
+<li>A classmate claims that the opposite of a number and the absolute value of a number are the same, and uses <m>x=-3</m>   as an example. Do you agree? Give examples of your own.</li>
+<li><p>You have probably heard people say that "two negatives make a positive."  For which of the four arithmetic operations is this statement<ol label="a">
+	<li>always true?</li>
+	<li>always false?</li>
+	<li>sometimes true and sometimes false?</li></ol>
+	Make up an example for each case.</p></li>
+<li>In a Cartesian coordinate system, the axes divide the plane into four <fillin characters="6"/>. The point <m>(0,0)</m> is called the <fillin characters="6"/>.</li>
+<li>Explain how to add or subtract like terms.</li>
+<li>What is wrong with this statement?  <m>8x-(2x-3)=6x-3)</m></li>  
+<li>When solving an inequality, we must remember to <fillin characters="6"/> if we <fillin characters="6"/> both sides by <fillin characters="6"/>.</li>
+<li>Explain how to use a graph to solve an equation.</li>
+<li>Give an example of a quotient that is undefined.</li>
+<li>Explain why <m>-\dfrac{a}{b}</m> is not equal to <m>\dfrac{-a}{-b}</m>.</li></ol></p></subsection>
+
+<subsection><title>Review Problems</title>
+<exercises>
+
+<exercisegroup><introduction><p>For Problems 1<ndash/>6, choose the appropriate equation.<ol label="a" cols="3">
+    	<li><m>5x-8=30</m></li>
+    	<li><m>\dfrac{x}{5}-30=8</m></li>
+    	<li><m>\dfrac{x-30}{5}=8</m></li>
+    	<li><m>5x+8=30</m></li>
+    	<li><m>\dfrac{x}{5}-8=30</m></li>
+    	<li><m>\dfrac{x+30}{5}=8</m></li></ol></p></introduction>
+
+<exercise number="1"><statement><p>Ilciar has earned a total of 30 points on the first four quizzes in his biology class.  What must he earn on the fifth quiz to end up with an average of 8?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><p>Jocelyn ordered five exotic plants from a nursery. She paid a total of $30, including an $8 shipping fee. How much did she pay for each plant?</p></statement></exercise>
+
+<exercise number="3"><statement><p>The five members of the chess team pitched in to buy new equipment. They used $30 from their treasury, and each member donated $8. How much did the new equipment cost?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><p>Hemman bought 5 tapes on sale, and he cashed in a gift certificate for $8. He then owed the clerk $30.  How much was each tape?</p></statement></exercise>
+
+<exercise number="5"><statement><p>Nirusha and four other people won the office baseball pool. After spending $30 of her share, Nirusha had $8 left. What was the total amount in the pool?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><p>One-fifth of the members at Sportslife Health Club signed up for a yoga class. Eight of them dropped out, leaving 30 in the class. How many members are in the Club?</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>10, solve.</p></introduction>
+
+<exercise number="7"><statement><m>3x-4=1</m></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><m>1.2+0.4z=3.2</m></statement></exercise>
+
+<exercise number="9"><statement><m>\dfrac{7v}{8}-3=4</m></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><m>13=\dfrac{2}{7}x+13</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 11<ndash/>12, write an equation relating the variables, make a table of values, and graph your equation on the grid provided.</p></introduction>
+
+<exercise number="11"><statement><p>A new computer station for a graphics design firm costs $2000 and depreciates in value $200 every year. Write and graph an equation that gives the value, <m>V</m>, of the station after <m>t</m> years. Use the grid below.</p>
+	<sidebyside width="45%"><image source="images/cr2-11.png"><description>grid</description></image></sidebyside>
+</statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p>Ranwa teaches aerobic dance. Her gym pays her $5 for an hour-long class, plus $2 for each paying student in the class. Write and graph an equation that gives Ranwa's pay, <m>P</m>, if there are <m>s</m> students in the class. Use the grid below.</p>
+	<sidebyside width="55%"><image source="images/cr2-12.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 13<ndash/>14, write and solve an equation to answer the question.</p></introduction>
+
+<exercise number="13"><statement><p>Customers at Sunny Orchard can pick their own fruit. There is a $5.75 entrance fee, and the fruit costs $4.50 a bushel. Bahn spent $19.25 at the orchard. How many bushels of fruit did he pick?</p>
+</statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><p>The perimeter of a rectangle is the sum of twice its width and twice its length. If 150 meters of fence enclose a rectangular yard of length 45 meters, what is the width of the yard?</p></statement></exercise>
+</exercisegroup>
+
+<exercise number="15"><statement><p>If <m>x=-3</m>, evaluate each expression.<ol label="a" cols="4">
+	<li><m>-x</m></li>
+	<li><m>x-3</m></li>
+	<li><m>3-x</m></li>
+	<li><m>-(-x)</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p>Graph each set of numbers on a separate number line.<ol label="a" cols="2">
+	<li><m>1.4,~2\dfrac{1}{2},~-2\dfrac{1}{3},~-3.5</m></li>
+	<li><m>-15,~-5,~10,~25</m></li></ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, replace the comma by the proper symbol; <m>~\gt~,~\lt~,</m> or <m>~=</m>.</p></introduction>
+
+<exercise number="17"><statement><m>-2,~-3</m></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><m>-2.02,~-2.1</m></statement></exercise>
+
+<exercise number="19"><statement><m>-2-(-5),~-7</m></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><m>-6(\dfrac{-1}{3}),~-2</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>28, simplify.</p></introduction>
+
+<exercise number="21"><statement><m>28-14-9+15</m></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><m>11-14+(-24)-(-18)</m></statement></exercise>
+
+<exercise number="23"><statement><m>12-[6-(-2)-5]</m></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><m>-2+[-3-(-14)+6]</m></statement></exercise>
+
+<exercise number="25"><statement><m>5-(-4)3-7(-2)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><m>5-(-4)(3-7)(-2)</m></statement></exercise>
+
+<exercise number="27"><statement><m>\dfrac{6(-3)-8}{-4(-3-5)}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><m>\dfrac{6(-2)-8(-9)}{5(2-7)}</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 29<ndash/>32, evaluate.</p></introduction>
+
+<exercise number="29"><statement><m>2-ab-3a,~~</m>for  <m>~~a=-5,~b=-4</m></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><m>(8-6xy)xy,~~</m>for  <m>~~x=-2,~y=2</m></statement></exercise>
+
+<exercise number="31"><statement><m>\dfrac{-3-y}{4-x},~~</m>for  <m>~~x=-1,~y=2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="32"><statement><m>\dfrac{5}{9}(F-32)+273,~~</m>for  <m>~~F=-22</m></statement></exercise>
+</exercisegroup>
+
+<exercise number="33"><statement><p>If the overnight low in Lone Pine was <m>-4 \degree</m>F, what was the temperature after it had warmed by <m>10 \degree</m>F?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="34"><statement><p>The winter temperature in the city is typically <m>3 \degree</m>F warmer than in the adjoining suburb. If the temperature in the suburb is <m>-7 \degree</m>F, what is the temperature in the city?</p></statement></exercise>
+
+<exercise number="35"><statement><p>Jordan's clothing company is worth 280,000 dollars and Asher's is worth 180,000 dollars. How much more is Jordan's company worth than Asher's?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="36"><statement><p>A certain arsenic compound has a melting point of <m>-8.5 \degree</m>F. If the melting point is reduced by <m>1.1 \degree</m>F, what is the new melting point?</p></statement></exercise>
+
+<exercise number="37"><statement><p>In his first football game, Bo rushes for three consecutive losses of 4 yards each.  What is his total net yardage for the three plays?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="38"><statement><p>In testing a military aircraft's handling at low altitude, the pilot runs a series of flights over a set course, each at an altitude 150 feet lower than the previous flight. What is the net change in altitude between the first and the sixth flights?</p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 39<ndash/>42, find three solutions for the inequality.</p></introduction>
+
+<exercise number="39"><statement><m>x-2 \lt 5</m></statement>
+<answer></answer></exercise>
+
+<exercise number="40"><statement><m>4x \ge -12</m></statement></exercise>
+
+<exercise number="41"><statement><m>-9 \le -3x</m></statement>
+<answer></answer></exercise>
+
+<exercise number="42"><statement><m>-15 \gt 5+x</m></statement></exercise>
+</exercisegroup>
+
+<exercise number="43"><statement><p>The temperature in Maple Grove was <m>18 \degree</m>F at noon, and it has been dropping ever since at a rate of <m>3 \degree</m>F per hour.<ol label="a">
+<li><p>Fill in the table. <m>T</m> stands for the temperature <m>h</m> hours after noon. Negative values of <m>h</m> represent hours before noon.
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>h</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell></row>
+                    <row> 
+                        <cell><m>T</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p></li>
+	<li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
+	<li>Graph your equation on the grid.
+		<sidebyside width="45%"><image source="images/cr2-43.png"><description>grid</description></image></sidebyside></li>
+	<li>What was the temperature at 10 am?</li>
+	<li>When will the temperature reach <m>-15 \degree</m>?</li>
+	<li>How much did the temperature drop between 3 pm and 9 pm?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="44"><statement><p>Graph each pair of points on the grid, then find the distance between them.<ol label = "a" cols="2">
+	<li><m>A(-2,-4)</m> and <m>B(-7,-4)</m></li>
+	<li><m>P(6,-2)</m> and <m>Q(6,8)</m></li></ol></p>
+	<sidebyside width="45%"><image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>46, make a table of values and graph each equation.
+</p></introduction>
+
+<exercise number="45"><statement><m>y=-2x+7</m>
+<sidebyside width="95%"><image source="images/cr2-45.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="46"><statement><m>y=\dfrac{4}{3}x-2</m>
+<sidebyside width="95%"><image source="images/cr2-45.png"><description>grid</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, simplify the expression.</p></introduction>
+
+<exercise number="47"><statement><m>(4m+2m)-(2m-5m)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="48"><statement><m>(-5c-6)+(-11c+15)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 49<ndash/>54, solve.</p></introduction>
+
+<exercise number="49"><statement><m>4z-6=-10</m></statement>
+<answer></answer></exercise>
+
+<exercise number="50"><statement><m>3-5x=-17</m></statement></exercise>
+
+<exercise number="51"><statement><m>-1=\dfrac{5w}{3}+4</m></statement>
+<answer></answer></exercise>
+
+<exercise number="52"><statement><m>4-\dfrac{2z}{5}=8</m></statement></exercise>
+
+<exercise number="53"><statement><m>3h-2=5h+10</m></statement>
+<answer></answer></exercise>
+
+<exercise number="54"><statement><m>7-9w=w+7</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 55<ndash/>56, use the graph to solve the equation. Estimate your solutions if necessary.</p></introduction>
+
+<exercise number="55"><statement><p><ol label="a">
+	<li><m>-3x+9=24</m></li>
+	<li><m>-3x+9=3</m></li></ol></p>
+	<sidebyside width="60%"><image source="images/cr2-55.png"><description>graph</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="56"><statement><p><ol label="a">
+	<li><m>24x-1800=-1250</m></li>
+	<li><m>24x-1800=500</m></li></ol></p>
+	<sidebyside width="95%"><image source="images/cr2-56.png"><description>graph</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercise number="57"><statement><p>The length of a rectangle is 3 times its width.<ol label="a">
+	<li>If the width of a rectangle is <m>x</m>, what is its length?</li>  
+	<li>Express the perimeter of the rectangle in terms of <m>x</m>.</li>
+	<li>Suppose the perimeter of the rectangle is 48 centimeters. Find the dimensions of the rectangle.</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="58"><statement><p>In a city council election the winner received 132 votes more than her opponent.
+<ol label="a">
+	<li>If the winner received <m>y</m> votes, how many did her opponent receive?</li>
+	<li>Write an expression for the total number of votes cast for the two candidates.</li>
+	<li>If 12,822 votes were cast, how many did each candidate receive?</li></ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 59<ndash/>64, For Problems 59-64, solve the inequality algebraically, and graph the solutions on a number line.</p></introduction>
+
+<exercise number="59"><statement><m>2-3x \le -7</m></statement>
+<answer></answer></exercise>
+
+<exercise number="60"><statement><m>\dfrac{t}{-3}-1.7 \gt 2.8</m></statement></exercise>
+
+<exercise number="61"><statement><m>3k-13 \lt 5+6k</m></statement>
+<answer></answer></exercise>
+
+<exercise number="62"><statement><m>12a-28 \lt -18+2a</m></statement></exercise>
+
+<exercise number="63"><statement><m>-9 \lt 5-2n \le -1</m></statement>
+<answer></answer></exercise>
+
+<exercise number="64"><statement><m>15 \ge -6+3m \ge -6</m></statement></exercise>
+</exercisegroup>
+
+</exercises>
+</subsection>
+</section>
+
+
+
+
+
+

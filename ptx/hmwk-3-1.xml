@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 3.1</title>
+
+ <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>6, <ol label="a">
+ 	<li>Find the <m>x</m>- and <m>y</m>-intercepts of the line.</li>
+	<li>Use the intercept method to graph the line.</li></ol></p></introduction>
+
+<exercise number="1"><statement><m>2x+4y=8</m>
+	<sidebyside width="95%"><image source="images/hp-3-1-1.png"><description>grid</description></image></sidebyside>
+</statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><m>x+2y+10=0</m>
+	<sidebyside width="95%"><image source="images/hp-3-1-1.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+
+<exercise number="3"><statement><m>2x=14+7y</m>
+	<sidebyside width="95%"><image source="images/hp-3-1-1.png"><description>grid</description></image></sidebyside>
+</statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><m>y=-4x+8</m>
+	<sidebyside width="95%"><image source="images/hp-3-1-1.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+
+<exercise number="5"><statement><m>\dfrac{x}{20}+\dfrac{y}{30}=1</m>
+	<sidebyside width="95%"><image source="images/hp-3-1-5.png"><description>grid</description></image></sidebyside>
+</statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><m>3x-2y=120</m>
+	<sidebyside width="95%"><image source="images/hp-3-1-6.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 7<ndash/>12, match each equation with its graph. (More than one equation may describe the same graph.)</p>
+	<sidebyside width="100%"><image source="images/hp-3-1-7.png"><description>graphs</description></image></sidebyside>
+</introduction>
+
+<exercise number="7"><statement><m>2x+3y=12</m></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><m>2x-3y=12</m></statement></exercise>
+
+<exercise number="9"><statement><m>3x-2y=12</m></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><m>-3x-2y=12</m></statement></exercise>
+
+<exercise number="11"><statement><m>\dfrac{x}{6}-\dfrac{y}{4}=1</m></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><m>\dfrac{x}{4}-\dfrac{y}{6}=1</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 13<ndash/>18, solve each pair of equations. In part (b) of each problem, your answer will involve the constant <m>k</m>.</p></introduction>
+
+<exercise number="13"><statement><p><ol label="a">
+	<li><m>-2x=6</m></li>
+	<li><m>-2x=k</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><p><ol label="a">
+	<li><m>x+4=7</m></li>
+	<li><m>x+4=k</m></li></ol></p></statement></exercise>
+
+<exercise number="15"><statement><p><ol label="a">
+	<li><m>x-5=9</m></li>
+	<li><m>x-5=k</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p><ol label="a">
+	<li><m>2x+3=8</m></li>
+	<li><m>2x+k=8</m></li></ol></p></statement></exercise>
+
+<exercise number="17"><statement><p><ol label="a">
+	<li><m>15-4x=3</m></li>
+	<li><m>15-4x=k</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><ol label="a">
+	<li><m>9+3x=-1</m></li>
+	<li><m>9+kx=-1</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="19"><statement><p>During spring break, Francine took the train to San Francisco and then bicycled home.  The graph below left shows Francine's distance <m>d</m> from home, in miles, after cycling for <m>h</m> hours. Use the graph to answer the questions.
+	<sidebyside width="40%"><image source="images/hp-3-1-19.png"><description>graph</description></image></sidebyside>
+<ol label="a">
+	<li>How far is it from San Francisco to Francine's home?</li>
+	<li>How many hours did Francine cycle to get home?</li>
+	<li>After cycling for 12 hours, how far is Francine from home?</li>
+	<li>How far did Francine cycle in the first four hours?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercisegroup><introduction><p>For Problems 20<ndash/>22,<ol label="a">
+	<li>Find the intercepts of each linear equation.</li>  
+	<li>Use the intercept method to graph the line.</li>	
+	<li>Explain what the intercepts mean in terms of the problem situation.</li></ol></p></introduction>
+
+<exercise number="20"><statement><p>The amount of home heating oil (in gallons) in the Olsons' tank is given by the equation <m>G=200-15w</m>, where <m>w</m> is the number of weeks since they turned on the furnace.</p>
+	<sidebyside width="50%"><image source="images/hp-3-1-20.png"><description>graph</description></image></sidebyside>
+</statement></exercise>
+
+<exercise number="21"><statement><p>Dana joined a savings plan some weeks ago. Her bank balance is growing each week according to the formula <m>B=225+25w</m>, where <m>w=0</m> represents this week.</p>
+	<sidebyside width="50%"><image source="images/hp-3-1-21.png"><description>graph</description></image></sidebyside>
+</statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p>Delbert bought some equipment and went into the dog-grooming business. His profit is increasing according to the equation <m>P=-600+40d</m>, where <m>d</m> is the number of dogs he has groomed.</p>
+	<sidebyside width="50%"><image source="images/hp-3-1-22.png"><description>graph</description></image></sidebyside>
+</statement></exercise>
+</exercisegroup>
+
+<exercise number="23"><statement><p><ol label="a">
+	<li><p>At what point does the graph of <m>2x-3y=35</m> cross the <m>x</m>-axis?</p></li>
+	<li><p>At what point does the graph of <m>1.4x+3.6y=-18</m> cross the <m>y</m>-axis?</p></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p>The <m>x</m>-intercept of a line is positive and its <m>y</m>-intercept is negative.  Is the line increasing or decreasing? Sketch a possible example of such a line.</p></statement></exercise>
+
+</exercises>

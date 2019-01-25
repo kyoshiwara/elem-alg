@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Signed-Numbers"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Signed Numbers</title>
+
+<subsection><title>Types of Numbers</title>
+
+<p>Numbers greater than zero are called <term>positive numbers</term>, and numbers less than zero are <term>negative numbers</term>. We use a <term>number line</term> to illustrate relationships among numbers.
+
+<sidebyside width="70%"><image source="images/fig-2-1-1.png"><description>number line</description></image></sidebyside>
+
+To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced intervals. These numbers are called the <term>natural</term> or <term>counting numbers</term>. The <term>whole numbers</term> include the natural numbers and zero:  0, 1, 2, 3, ... .</p> 
+
+<assemblage><p>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>:
+	<me> \cdots -3,~ -2,~ -1,~ 0,~ 1,~ 2,~ 3 \cdots</me></p></assemblage> 
+
+<p>Fractions, such as <m>\dfrac{2}{3}, -\dfrac{5}{4}</m> and <m>3.6</m>, lie between the integers on the number line.</p>
+
+<reading-questions>
+    <exercise number="1"><statement><p>What are integers?</p></statement>
+    <answer><p>The natural numbers, zero, and the negatives of the natural numbers.</p></answer></exercise>
+</reading-questions>
+
+<p>	As we move from left to right on a number line, the numbers increase. In the figure below, the graph of 6 lies to the left of the graph of 2. Therefore, 6 is less than 2, or, equivalently, 2 is greater than 6.</p> 
+
+<sidebyside width="80%"><image source="images/fig-2-1-2.png"><description>number line</description></image></sidebyside>
+
+<assemblage><p>We use special symbols to indicate order:
+	\begin{align*}
+                \blert{\lt} \amp ~~~~ \text{means}~~~~  \blert{\text{is less than}}\\
+                \blert{\gt} \amp ~~~~ \text{means}~~~~  \blert{\text{is greater than}}               
+                \end{align*}</p></assemblage>
+
+<p>For example,
+	\begin{align*}
+                -6 \lt -2 \amp ~~~~ \text{means}~~~~  -6~~ \text{is less than}~~ -2\\
+                -2 \gt -6 \amp ~~~~ \text{means}~~~~  -2~~ \text{is greater than}~~ -6               
+                \end{align*}
+
+The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smaller number.</p>
+
+<sidebyside width="65%"><image source="images/fig-2-1-3.png"><description>graphic</description></image></sidebyside>
+
+<example><statement><p><ol label="a">
+	<li>Which is the lower altitude, <m>-81</m> feet or <m>-94</m> feet?</li>
+	<li>Express the relationship using one of the order symbols.</li></ol></p></statement>
+<solution><p><ol label="a">
+	<li>Negative altitudes correspond to feet below sea level, and 94 feet is farther below sea level than 81 feet.  Therefore, <m>-91</m> feet is the lower altitude.</li>
+	<li><p><m>-94 \lt -81</m>, or <m>-81 \gt -94</m></p></li></ol></p></solution></example>
+</subsection>
+
+<subsection><title>Adding Two Numbers with the Same Sign</title>
+
+<p>We'll use number lines to review operations on signed numbers.</p>
+
+<assemblage><title>Case 1: The sum of two positive numbers</title>
+<p>Illustrate the sum <m>5+3</m> on a number line.<ol label="1">
+	<li>Graph the first number, <m>+5</m>, as shown below.</li>  
+	<li>Move <m>3</m> units in the positive direction, or to the right.</li>  
+	<li>This brings us to the sum, which is <m>+8</m>.  Thus, <m>5+3=8</m>.</li></ol></p> 
+<sidebyside width="75%"><image source="images/fig-2-1-4.png"><description>number line</description></image></sidebyside>
+</assemblage> 
+
+<assemblage><title>Case 2: The sum of two negative numbers</title>
+<p>Illustrate the sum <m>(-5)+(-3)</m> on a number line.<ol label="1">
+	<li>Graph the first number, <m>-5</m>, as shown below.</li>  
+	<li>Move <m>3</m> units in the negative direction, or to the left.</li>  
+	<li>This brings us to the sum, <m>-8</m>, as expected.  Thus, <m>(-5)+(-3)=-8</m>.</li></ol></p> 
+<sidebyside width="75%"><image source="images/fig-2-1-5.png"><description>number line</description></image></sidebyside>
+</assemblage> 
+
+<assemblage><title>Look Closer</title>
+<p>In the examples above, we see that:
+	\begin{align*}
+                \amp \blert{\text{The sum of two positive numbers is positive.}}\\
+                \amp \blert{\text{The sum of two negative numbers is negative.}}               
+                \end{align*}
+Thus, the sign of the sum is the same as the sign of the two terms. To find the value of the sum, we add the <term>absolute values</term>, or unsigned parts, of the two terms.</p></assemblage>
+
+<example><statement><p>Add  <m>(-4)+(-7)</m></p></statement>
+<solution><p>The sum is negative. We add the absolute values of <m>-4</m> and <m>-7</m> (the numbers 4 and 7 without their signs)to get 11, then make the sum negative:  <m>(-4)+(-7)=-11</m></p></solution></example>
+</subsection>
+
+<subsection><title>Adding Two Numbers with Opposite Signs</title>
+<p>Suppose you have debts of $9, and assets of $6. (Your "assets" are your possessions.) What is your net worth?  We can model this situation by the sum
+	<me>-9+(+6)</me>
+where debts are represented by negative numbers and assets by positive numbers. If you use your $6 to pay off part of your debt, you will still owe $3, so your net worth is <m>-$3</m>. It makes sense that if your debts are greater than your assets, your net worth is negative.</p> 
+
+<assemblage><p>Illustrate the sum <m>(-9)+(+6)</m> on a number line.<ol label="1">
+	<li>Graph the first number, <m>-9</m>, as shown below.</li>  
+	<li>Move <m>6</m> units in the positive direction, or to the right.</li>  
+	<li>This brings us to the sum, <m>-3</m>.  Thus, <m>(-9)+(+6)=-3</m>.</li></ol></p> 
+<sidebyside width="75%"><image source="images/fig-2-1-6.png"><description>number line</description></image></sidebyside>
+</assemblage> 
+
+<assemblage><title>Look Closer</title>
+<p>In the example above, we see that the sum has the same sign as the number with the larger absolute value. (Can you explain this in terms of debts and assets?) When the two numbers have opposite signs, we find the value of the sum by subtracting the absolute values of the two numbers.</p></assemblage>
+
+ <example><statement><p><ol label="a" cols="2">
+ 	<li>Add <m>(-5)+(+9)</m></li>
+ 	<li>Add <m>(+5)+(-9)</m></li></ol></p></statement>
+ <solution><p><ol label="a">
+ 	<li>The two numbers have opposite signs, so we subtract 5 from 9 to get 4, then make the answer positive, because <m>+9</m> has a larger absolute value than <m>-5</m>. Thus, <m>(-5)+(+9)=4.</m></li>
+	<li>We subtract 5 from 9 to get 4, then make the answer negative, because <m>-9 </m> has a larger absolute value than <m>+5</m>. Thus,<m>(+5)+(-9)=-4.</m></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>What is the absolute value of a number?</p></statement>
+    	<answer><p>The unsigned part of the number.</p></answer></exercise>
+    <exercise number="3"><statement><p>When we add two numbers with opposite signs, we <fillin characters="6"/> their absolute values.</p></statement>
+    	<answer><p>subtract</p></answer></exercise>
+</reading-questions>
+
+<p>We now have two rules for adding signed numbers.</p>
+
+<assemblage><title>Rules for Adding Integers</title><p><ol label="1">
+	<li>To add two numbers with the same sign, add their absolute values. The sum has the same sign as the numbers.</li>
+	<li>To add two numbers with opposite signs, subtract their absolute values. The sum has the same sign as the number with the larger absolute value.</li></ol></p></assemblage>
+</subsection>
+
+<subsection><title>Subtracting a Positive Number</title>
+<p>Let's compare the two problems:
+	<me>9+(-5)~~~~\text{and}~~~~9-(+5)</me></p>
+
+<assemblage><p>Illustrate the sum <m>9+(-5)</m> on a number line.<ol label="1">
+	<li>Plot <m>9</m> on the number line.</li>  
+	<li>Move <m>5</m> units in the negative direction, or to the left.</li>  
+	<li>The sum is <m>4</m>.</li></ol></p>
+ <p>Illustrate the sum <m>9-(+5)</m> on a number line.<ol label="1">
+	<li>Plot <m>9</m> on the number line.</li>  
+	<li>Move <m>5</m> units to the left, to indicate subtraction.</li>  
+	<li>The result is <m>4</m>. The picture is identical to the graph above. </li></ol></p>
+<sidebyside width="75%"><image source="images/fig-2-1-7.png"><description>number line</description></image></sidebyside>
+</assemblage>
+
+<assemblage><title>Look Closer</title>
+<p>We see that subtracting a positive number has the same result as adding the negative number with the same absolute value. Thus, to subtract a positive number, we add its opposite.</p></assemblage>
+</subsection>
+
+<subsection><title>Subtracting a Negative Number</title>
+<p>When we add a negative number we move to the left on the number line. There are only two directions we can move on a number line, so when we subtract a negative number we must move to the right.</p>
+
+<assemblage><p>Compare the graphs for adding <m>-3</m> and subtracting <m>-3</m><ul>
+	<li>Addition:	<m>~~~~5+(-3)~~~~</m>   Move 3 units to the left, to get 2.
+		<sidebyside width="75%"><image source="images/fig-2-1-8.png"><description>number line</description></image></sidebyside></li>
+	<li>Subtraction:  <m>~~~~5-(-3)~~~~</m>   Move 3 units to the right, to get 8. 
+		<sidebyside width="75%"><image source="images/fig-2-1-9.png"><description>number line</description></image></sidebyside></li></ul></p></assemblage>
+
+<assemblage><title>Look Closer</title>
+<p>Notice that
+	<me>5-(-3)=8 ~~~~~ \text{and} ~~~~~5+(+3)=8</me>
+Subtracting a negative number has the same result as adding the positive number with the same absolute value. Thus, to subtract a negative number, we add its opposite.</p></assemblage>
+
+<reading-questions>
+    <exercise number="4"><statement><p>True or False: <m>-x</m> always represents a negative number.  Give an example to support your answer.</p></statement>
+    	<answer><p>False.  If <m>x=-3</m>, then <m>-x=3</m>.</p></answer></exercise>
+    <exercise number="5"><statement><p>Subtracting a negative number is the same as <fillin characters="6"/> their absolute values.</p></statement>
+    	<answer><p>adding a positive number</p></answer></exercise>
+</reading-questions>
+
+<p>From the examples above, we see that to subtract any number, positive or negative, we add its opposite. We can do this in steps as follows.</p>
+
+<assemblage><title>Rules for Subtracting Integers</title>
+<p>To subtract <m>b</m> from <m>a</m>:<ol label="1">
+	<li>Change the sign of <m>b</m>.</li>
+	<li>Change the subtraction to addition.</li>
+	<li>Proceed as in addition.</li></ol></p></assemblage>
+
+<p>This rule tells us that we can rewrite every subtraction problem as an addition problem by changing the sign of the second number.</p>
+
+<example><statement><p>Rewrite each subtraction problem as an addition, then compute the answer.<ol label="a" cols="2">
+	<li><sidebyside width="95%"><image source="images/fig-2-1-ex4a.png"><description>graphic</description></image></sidebyside></li>
+	<li><sidebyside width="95%"><image source="images/fig-2-1-ex4b.png"><description>graphic</description></image></sidebyside></li>
+	<li><sidebyside width="80%"><image source="images/fig-2-1-ex4c.png"><description>graphic</description></image></sidebyside></li>
+	<li><sidebyside width="95%"><image source="images/fig-2-1-ex4d.png"><description>graphic</description></image></sidebyside></li></ol></p></statement></example>
+
+<assemblage><title>Look Closer</title>
+<p>At first it may be difficult to understand why subtracting a negative number is the same as adding a positive number.  Try thinking in terms of debts and assets. For example, suppose you have $25 in your wallet, and you have $5 in your hand to pay off a debt you owe a friend. If your friend now cancels (or subtracts) the debt, you are actually $5 richer: 
+<me>25-(-5)=30</me></p></assemblage>
+
+<warning><p>For simple subtractions we don't really need the subtraction rule. For example, we can subtract <m>11-5</m>  just as we did in arithmetic:
+	<me>11-5=6</me>
+However, if the subtraction involves negative numbers, it is usually easier to use the subtraction rule.  Thus,
+	<me>11-(-5)=11+(+5)=16</me></p></warning>
+
+<assemblage><title>Look Ahead</title>
+<p>We can interpret the expression <m>7-9</m> either as a subtraction or as an addition: 
+	<me>7-(+9) ~~~~~ \text{or} ~~~~~ 7+(-9)</me>
+ Both give the same result, <m>-2</m>.  Because addition is easier than subtraction, it is better to think of a long expression such as	
+ 	<me>7-9+12-6</me>
+ as a sum of signed numbers. To do this, we add all the numbers together, and the <m>+</m> or <m>-</m> sign in front of each number tells us whether that number is positive or negative. </p></assemblage>
+
+ <p>Remember that additions should be performed in order from left to right.</p>
+
+ <example><statement><p>Simplify <m>~~7-9+12-6</m></p></statement>
+ <solution><p>We add the signed numbers <m>7</m> and <m>-9</m> and <m>12</m> and <m>-6</m>, in order from left to right.
+ 	\begin{align*}
+               \blert{7-9}+12-6 \amp =\blert{-2}+12-6 \amp \amp \blert{\text{The sum of} ~7~ \text{and}~-9~\text{is}~-2.}\\
+                \amp =10-6=4 \amp \amp \blert{\text{The sum of}~-2~\text{and}~12~\text{is}~10.}               
+                \end{align*}</p></solution></example>
+
+<warning><p>The following calculation is incorrect:
+	<me>16-\blert{9-4}+3~=~16-\blert{5}+3~=~11+3~=~14~~~~~~\alert {\leftarrow \text{Incorrect!}}</me>
+We must perform additions and subtractions in order from left to right:
+	<me>\blert{16-9}-4+3~=~\blert{7}-4+3~=~3+3~=~6</me></p></warning>
+</subsection>
+
+<subsection><title>Multiplying Signed Numbers</title>
+
+<subsubsection><title>Case 1: The product of numbers with opposite signs</title>
+<p>We can think of multiplication as repeated addition.  For example,
+	<me>3(2)~~~~~\text{means}~~~~~2+2+2~~~~~\text{The sum of three 2's}</me>
+Similarly,
+	<me>3(-2)~~~~~\text{means}~~~~~-2+(-2)+(-2)~~~~~\text{The sum of three}~ -2\text{'s}</me>
+which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe three different people 2 dollars each, then you are 6 dollars in debt.</p>
+<p>Because multiplication is commutative, it is also true that <m>-2(3)=-6</m>. This example illustrates the following fact.</p>
+
+<assemblage><p>The product of a positive number and a negative number is a negative number.</p></assemblage> 
+
+<example><statement><p>You can use your calculator to verify the following products.<ol label="a" cols="2">
+	<li><m>(-4)(7)=-28</m></li>
+	<li><m>5(-2.6)=-13</m></li></ol></p></statement></example>
+</subsubsection>
+
+<subsubsection><title>Case 1: The product of numbers with the same sign</title>
+<p>You know that the product of two positive numbers is positive. It is also true that the product of two negative numbers is positive.</p>  
+<p>To understand why the product of two negative numbers is positive, you might think of canceling, or subtracting, several debts of the same amount. Or, you could observe the pattern in the lists of products below.  As we move down the list, the product increases by equal amounts. 
+	\begin{align*}
+               3(-2) \amp =-6 \amp  3(-5) \amp =-15\\
+               2(-2) \amp =-4 \amp  2(-5) \amp =-10\\
+               1(-2) \amp =-2 \amp  1(-5) \amp =-5~~\amp \leftarrow \text{Positive times neagtive is negative.}\\
+               0(-2) \amp =-0 \amp  0(-5) \amp =0\\
+               -1(-2) \amp =2 \amp  -1(-5) \amp =5~~\amp \leftarrow \text{Negative times neagtive is positive.}\\
+               -2(-2) \amp =4 \amp  -2(-5) \amp =10\\
+               -3(-2) \amp =6 \amp  -3(-5) \amp =15                 
+                \end{align*}
+Based on the pattern in these calculations, the following rule seems reasonable.</p>
+
+<assemblage><p>The product of two negative numbers is a positive number.</p></assemblage>
+
+<example><statement><p>You can use your calculator to verify the following products.<ol label="a" cols="2">
+	<li><m>(-6)(-3)=-28</m></li>
+	<li><m>(-2.1)(-3.4)=7.14</m></li></ol></p></statement></example>
+
+<p>Now we have a pair of rules about the products of signed numbers.</p>
+
+<assemblage><title>Products of Signed Numbers</title><p><ol label="1">
+	<li>The product of two numbers with opposite signs is a negative number.</li>
+	<li>The product of two numbers with the same sign is a positive number.</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Dividing Signed Numbers</title>
+<p>Division is the inverse operation for multiplication. For example, we know that
+	<me>\dfrac{12}{3}=\alert{4}~~~~~~\text{because}~~~~~~3 \cdot \alert{4} = 12</me>
+Thus, every division fact can be converted into an equivalent multiplication fact. For example,
+	<me>\text{The division fact}~~\dfrac{\blert{400}}{16}=25~~~~\text{is equivalent to}~~~~16 \cdot 25 = \blert{400}</me>
+Note that the numerator in the division fact becomes the product in the multiplication fact. The same relationship between multiplication and division holds for negative numbers as well.</p>
+
+<example><statement><p>Rewrite each division fact as a multiplication fact.<ol label="a" cols="2">
+	<li><m>\dfrac{-144}{64}=-2.25</m></li>
+	<li><m>-36 \div \dfrac{-3}{8}=96</m></li></ol></p></statement>
+<solution><p>The numerator in each division fact becomes the product in the multiplication fact.<ol label="a" cols="2">
+	<li><m>-144=-2.25(64)</m></li>
+	<li><m>-36= \dfrac{-3}{8}(96)</m></li></ol></p></solution></example>
+
+<p>Example 8 illustrates the rules for division of signed numbers.</p>
+
+<assemblage><title>Quotients of Signed Numbers</title><p><ol label="a">
+	<li>The quotient of two numbers with opposite signs is a negative number.</li>
+	<li>The quotient of two numbers with the same sign is a positive number.</li></ol></p></assemblage>
+
+<reading-questions>
+    <exercise number="6"><statement><p>Which of these is a product?<ol label="a" cols="4">
+    		<li><m>3+(-4)</m></li>
+    		<li><m>-3-4</m></li>
+    		<li><m>-3(-4)</m></li>
+    		<li><m>3-(-4)</m></li></ol></p></statement>
+    	<answer><p>c</p></answer></exercise>
+    <exercise number="6"><statement><p>Rewrite the division fact <m>\dfrac{48}{D}=Q</m> as a multiplication fact.
+	</p></statement>
+    	<answer><p><m>DQ=48</m></p></answer></exercise>
+</reading-questions>
+
+<p>Remember that a fraction can be thought of as a division. For example, <m>\dfrac{3}{4}</m> means <m>3 \div 4</m>, or 0.75. What about negative fractions? Because the quotient of two numbers with unlike signs is negative, the fractions <m>\dfrac{-3}{4}</m> and <m>\dfrac{3}{-4}</m> both represent the negative number <m>-\dfrac{3}{4}</m>. On the other hand, <m>\dfrac{-3}{-4}</m> is equal to the positive number <m>\dfrac{3}{4}</m>.</p>
+
+<p>For many of the calculations in algebra, it is more convenient to write a negative fraction with the minus sign in the numerator, like this: <m>\dfrac{-3}{4}</m>.</p> 
+
+<assemblage><title>Standard Form for Fractions</title>
+<p>A negative fraction is written in <term>standard form</term> when the minus sign is in the numerator:  <m>\dfrac{-a}{b}</m>.
+<me>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</me>
+The standard form for a positive fraction has positive numerator and denominator.
+<me>\blert{\dfrac{a}{b}}=\dfrac{-a}{-b}</me></p></assemblage>
+</subsection>
+
+<subsection><title>Quotients Involving Zero</title>
+<p>	What is the meaning of an expression such as <m>\dfrac{0}{2}</m>? We can rewrite this quotient as an equivalent multiplication fact.
+<me>\dfrac{0}{2}=\alert{?}~~~~\text{is equivalent to}~~~~2 \cdot \alert{?} = 0</me> 
+What number can we substitute for the question mark to make <m>2 \cdot \alert{?} = 0</m> a true statement? The only solution for this equation is <m>0</m>. Thus, replacing the question marks by <m>0</m> we have
+<me>\dfrac{0}{2}=\alert{0}~~~~\text{because}~~~~2 \cdot \alert{0} = 0</me>
+In general, 0 divided by any (non-zero) number is 0.</p>
+
+<p>Now consider a quotient with zero in the denominator, such as <m>\dfrac{2}{0}</m>.
+<me>\dfrac{2}{0}=\alert{?}~~~~\text{is equivalent to}~~~~0 \cdot \alert{?} = 2</me>
+What number can we substitute for the question mark to make <m>0 \cdot \alert{?} = 2</m> a true statement? This equation has no solution, because 0 times any number is 0, not 2.  Thus, there is no answer for the division problem <m>\dfrac{2}{0}</m>. We say that the quotient <m>\dfrac{2}{0}</m> is <term>undefined</term>. In general, we cannot divide any number by zero.</p>
+
+<assemblage><title>Quotients Involving Zero</title>
+<p>If <m>a</m> is any nonzero number, then
+<me>\dfrac{0}{a} = 0~~~~~~\text{and}~~~~~~ \dfrac{a}{0} ~~ \text{is undefined.}</me></p></assemblage>
+
+<example><statement><p><ol label="a" cols="2">
+	<li><m>6 \div 0~~</m> is undefined.</li>
+	<li><m>0 \div 8=0</m></li></ol></p></statement></example>
+
+<reading-questions>
+    <exercise number="8"><statement><p>Which of these is undefined?  <m>~\dfrac{-6}{0}~</m> or <m>~\dfrac{0}{-6}~</m>?</p></statement>
+    	<answer><m>\dfrac{-6}{0}</m></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercise number="1"><statement><p>Graph the numbers on the number line:  <m>0,~-3,~3,~\dfrac{1}{2},~\dfrac{-5}{3},~5\dfrac{1}{4}</m></p><sidebyside width="70%"><image source="images/sw-2-1-1.png"><description>number line</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><p>Graph the numbers on the number line:  <m>-4.5,~-2,~-1.4,~0.6,~2</m></p><sidebyside width="70%"><image source="images/sw-2-1-1.png"><description>number line</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercisegroup><introduction><p>Replace the comma in each pair by the proper symbol, <m>\lt,~\gt,~</m> or <m>=</m>.</p></introduction>
+
+<exercise number="3"><statement><p><ol label="a" cols="2">
+	<li><m>0,~-4</m></li>
+	<li><m>-5,~-9</m></li>
+	<li><m>-2\frac{5}{8}~,-2\frac{1}{8}</m></li>
+	<li><m>13.6,~13.66</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="4">
+	<li><m>\gt</m></li>
+	<li><m>\gt</m></li>
+	<li><m>\lt</m></li>
+	<li><m>\lt</m></li></ol></p></answer></exercise>
+
+<exercise number="4"><statement><p><ol label="a" cols="2">
+	<li><m>3,~-7</m></li>
+	<li><m>-1,~-6</m></li>
+	<li><m>-3~,-3\frac{3}{4}</m></li>
+	<li><m>-18.4,~-19.6</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="4">
+	<li><m>\gt</m></li>
+	<li><m>\gt</m></li>
+	<li><m>\gt</m></li>
+	<li><m>\gt</m></li></ol></p></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>
