@@ -231,6 +231,10 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
 		<li><m>\dfrac{8}{3}</m></li></ol></p></answer></exercise>
 </exercisegroup>
 </exercises>
+<solutions xml:id="solutions-Skills-1-5" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+    <title>Answers to Skills Warm-Up</title>
+    <idx><h>answers</h><h>for Section 1.5 skills</h></idx>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-1-5.xml" />
 </section>

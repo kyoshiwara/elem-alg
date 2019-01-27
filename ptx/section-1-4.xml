@@ -277,6 +277,10 @@ Finally, we answer the question in a sentence:
 <answer><p><m>12p</m></p></answer></exercise>
 </exercisegroup>
 </exercises>
+<solutions xml:id="solutions-Skills-1-4" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+    <title>Answers to Skills Warm-Up</title>
+    <idx><h>answers</h><h>for Section 1.4 skills</h></idx>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-1-4.xml" />
 </section>  
