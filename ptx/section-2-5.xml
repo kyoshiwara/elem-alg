@@ -251,8 +251,11 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 <exercise number="6"><statement><p><m>(t-1)(2t+3)~~~~~~~~</m>for <m>t=\dfrac{2}{3}</m></p></statement>
 <answer><m>\dfrac{-13}{9}</m></answer></exercise>
 </exercisegroup>
-
 </exercises>
+<solutions xml:id="solutions-Skills-2-5" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+    <title>Answers to Skills Warm-Up</title>
+    <idx><h>answers</h><h>for Section 2.5 skills</h></idx>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-2-5.xml" />
 </section>

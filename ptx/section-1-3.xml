@@ -370,6 +370,10 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 	<li>On the axis in part (a), plot 1.3 and 3.77.</li></ol></p></statement>
 	<answer><sidebyside width="60%"><image source="images/sw-1-3-6ans.png"/></sidebyside></answer></exercise>
 </exercises>
+<solutions xml:id="solutions-Skills-1-3" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+    <title>Answers to Skills Warm-Up</title>
+    <idx><h>answers</h><h>for Section 1.3 skills</h></idx>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-1-3.xml" />
 </section>

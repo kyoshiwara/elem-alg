@@ -283,7 +283,10 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
 	<li>If you put on socks and then put on shoes, what operations are needed to reverse the process?</li>
 	<li>You leave home and bicycle north for 3 miles and then east for 2 miles.  Suddenly you notice that you have dropped your wallet. How should you retrace your steps?</li></ol></p></statement></exercise>
 </exercises>
-
+<solutions xml:id="solutions-Skills-2-4" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+    <title>Answers to Skills Warm-Up</title>
+    <idx><h>answers</h><h>for Section 2.4 skills</h></idx>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-2-4.xml" />
 </section>

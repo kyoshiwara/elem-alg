@@ -132,7 +132,10 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <answer><m>\dfrac{12}{n}</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions xml:id="solutions-Skills-2-2" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+    <title>Answers to Skills Warm-Up</title>
+    <idx><h>answers</h><h>for Section 2.2 skills</h></idx>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-2-2.xml" />
 </section>

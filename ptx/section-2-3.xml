@@ -228,7 +228,10 @@
 <answer><m>2(t+12)</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions xml:id="solutions-Skills-2-3" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+    <title>Answers to Skills Warm-Up</title>
+    <idx><h>answers</h><h>for Section 2.3 skills</h></idx>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-2-3.xml" />
 </section>

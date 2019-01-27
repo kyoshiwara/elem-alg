@@ -351,7 +351,10 @@ What number can we substitute for the question mark to make <m>0 \cdot \alert{?}
 	<li><m>\gt</m></li></ol></p></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions xml:id="solutions-Skills-1-2" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+    <title>Answers to Skills Warm-Up</title>
+    <idx><h>answers</h><h>for Section 1.2 skills</h></idx>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-2-1.xml" />
 </section>
