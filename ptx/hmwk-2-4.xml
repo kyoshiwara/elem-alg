@@ -146,19 +146,19 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <exercisegroup cols="2"><introduction><p>For Problems 30<ndash/>31, find the error in the "solution," then write a corrected solution.</p></introduction>
 
 <exercise number="30"><statement><p>
-	\begin{align*}
+	<me>\begin{aligned}
                 6-3x \amp = -12\\
                 -3x \amp = -6\\
                 x \amp = 2                
-                \end{align*}</p></statement></exercise>
+                \end{aligned}</me></p></statement></exercise>
 
 <exercise number="31"><statement><p>
-	\begin{align*}
+	<me>\begin{aligned}
                 -2+\dfrac{2}{3}x \amp = -4\\
                 -2+2x \amp = -12\\
                 2x \amp = -10 \\
                 x \amp =-5               
-                \end{align*}</p></statement>
+                \end{aligned}</me></p></statement>
 <answer></answer></exercise>
 </exercisegroup>
 
@@ -200,10 +200,10 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
 </exercisegroup>
 
 <exercisegroup><introduction><p>Use one of the formulas below to solve Problems 34<ndash/>38. 
-	\begin{align*}
+	<me>\begin{aligned}
                 \text{Perimeter of a rectangle}~~~~P \amp  = 2l+2w\\
                 \text{Area of a triangle}~~~~A \amp = \dfrac{bh}{2}               
-                \end{align*}</p></introduction>
+                \end{aligned}</me></p></introduction>
 
 <exercise number="39"><statement><p>A farmer has 500 yards of fencing material to enclose a rectangular pasture. He would like the pasture to be 75 yards wide. How long will it be?</p></statement>
 <answer></answer></exercise>

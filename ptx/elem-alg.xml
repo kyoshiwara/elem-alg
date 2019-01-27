@@ -25,6 +25,7 @@ Elementary Algebra
         <!-- <part> <title>Chapter 1</title> -->
 
         <xi:include href="./chap1.xml" />
+        <xi:include href="./chap2.xml" />
 
 
     <xi:include href="./backmatter.xml" />       

@@ -135,10 +135,10 @@ are algebraic expressions. An important part of algebra involves translating wor
     </image>
     </sidebyside>
 <p>If one of the factors is a variable, we can just write the factors side by side. For example,
-    \begin{align*}
+    <me>\begin{aligned}
             ab~~~~\amp \text{means} \amp\amp \text{the product of}~~ a~~ \text{times}~~ b\\ 
             3x~~~~\amp \text{means} \amp\amp \text{the product of}~~ 3~~ \text{times}~~ x\\
-    \end{align*}</p></assemblage>
+    \end{aligned}</me></p></assemblage>
 
 <example><statement><p>Write products to represent the following phrases.<ol label="a">
     <li>Ten times <m>z</m></li>
@@ -214,10 +214,10 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <warning><p>The difference <m>5-2</m> is not the same as <m>2-5</m>.  When we translate 
 "<m>a</m> subtracted from <m>b</m>," the order of the terms is important.
-    \begin{align*}
+    <me>\begin{aligned}
             b-a~~~~\amp \text{means} \amp\amp a~~ \text{subtracted from}~~ b\\ 
             x-7~~~~\amp \text{means} \amp\amp 7~~ \text{subtracted from}~~  x\\
-    \end{align*}
+    \end{aligned}</me>
 The operation of subtraction is not commutative.</p></warning>
 </subsection>
 
@@ -299,10 +299,10 @@ Fernando's share of the rent is $135.</p></statement></example>
 
 <example><statement><p>How far will a train moving at 80 miles per hour travel in three hours?</p></statement>
 <solution><p>We evaluate the formula with <m>r=\alert{80}</m> and <m>t=\alert{3}</m> to find
-	\begin{align*}
+	<me>\begin{aligned}
 		d \amp = rt\\
 			\amp = (\alert{80})(\alert{3}) = 240
-	\end{align*}
+	\end{aligned}</me>
 The train will travel 240 miles.</p></solution></example>
 
 <assemblage><p>To find the <term>profit</term> earned by a company we subtract the costs from the revenue.
@@ -310,10 +310,10 @@ The train will travel 240 miles.</p></solution></example>
 
 <example><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies. She received $1150 in revenue.  What was her profit?</p></statement>
 <solution><p>We evaluate the formula with <m>R=\alert{1150}</m> and <m>C=\alert{800}</m> to find
-	\begin{align*}
+	<me>\begin{aligned}
 		P \amp = R-C\\
 			\amp = \alert{1150}-\alert{350} = 350
-	\end{align*}
+	\end{aligned}</me>
 The owner's profit was $350.</p></solution></example>
 
 <assemblage><p>To find the <term>interest</term> earned on an investment we multiply the amount invested (the principal) by the interest rate and the length of the investment.
@@ -321,10 +321,10 @@ The owner's profit was $350.</p></solution></example>
 
 <example><statement><p>How much interest will be earned on $800 invested for 3 years in a savings account that pays <m>5\dfrac{1}{2}</m>% interest?</p></statement>
 <solution><p>We evaluate the formula with <m>P=\alert{800}</m>, <m>r=\alert{0.055}</m>, and <m>t=\alert{3}</m> to find
-	\begin{align*}
+	<me>\begin{aligned}
 		I \amp = Prt\\
 			\amp = \alert{800} \times \alert{0.055} \times \alert{3} = 132
-	\end{align*}
+	\end{aligned}</me>
 The account will earn $132 in interest.</p></solution></example>
 
 <assemblage><p>To find a percentage or <term>part</term> of a given amount, we multiply the whole amount by the percentage rate.
@@ -332,10 +332,10 @@ The account will earn $132 in interest.</p></solution></example>
 
 <example><statement><p>How much ginger ale do you need to make 60 gallons of a fruit punch that is 20% ginger ale?</p></statement>
 <solution><p>We evaluate the formula with <m>r=\alert{0.20}</m> and <m>W=\alert{60}</m> to find
-	\begin{align*}
+	<me>\begin{aligned}
 		P \amp = rW\\
 			\amp = \alert{0.20} \times \alert{60} = 12
-	\end{align*}
+	\end{aligned}</me>
 You would need 12 gallons of ginger ale.</p></solution></example>
 
 <assemblage><p>To find the <term>average</term> of a collection of scores, we divide the sum of the scores by the number of scores.
@@ -343,10 +343,10 @@ You would need 12 gallons of ginger ale.</p></solution></example>
 
 <example><statement><p>Bert's quiz scores in chemistry are 15, 16, 18, 18, and 12.  What is his average score?</p></statement>
 <solution><p>We evaluate the formula with <m>S=\alert{15+16+18+18+12}</m> and <m>n=\alert{5}</m> to find
-	\begin{align*}
+	<me>\begin{aligned}
 		A \amp = \dfrac{S}{n}\\
 			\amp = \dfrac{\alert{15+16+18+18+12}} {\alert{5}} = 15.8
-	\end{align*}
+	\end{aligned}</me>
 Bert's average score is 15.8.</p></solution></example>
 
 <reading-questions>

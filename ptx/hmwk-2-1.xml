@@ -223,10 +223,10 @@
 </exercisegroup>
 
 <exercisegroup><introduction><p>Choose the correct equation to model Problems 41<ndash/>44.
-	\begin{align*}
+	<me>\begin{aligned}
                 -12+n \amp = -5 \amp           -12+n \amp =5\\
                 n+12 \amp = -5 \amp           n+12 \amp =5                
-                \end{align*}</p></introduction>
+                \end{aligned}</me></p></introduction>
 
 <exercise number="37"><statement><p>Last night the temperature rose <m>12 \degree</m> and this morning the temperature is <m>5 \degree</m>. What was the temperature yesterday?</p></statement>
 <answer></answer></exercise>

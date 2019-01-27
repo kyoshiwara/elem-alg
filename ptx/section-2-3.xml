@@ -210,10 +210,10 @@
 <subsection><title>Skills Warm-Up</title>
 <exercises>
 	<exercisegroup><introduction><p>Choose the correct algebraic expression for each situation.
-		\begin{align*}
+		<me>\begin{aligned}
                 \amp 2t+12 \amp\amp 12-2t\\
                 \amp 2(t+12) \amp\amp 2t-12  
-                \end{align*}</p></introduction>
+                \end{aligned}</me></p></introduction>
 
 <exercise number="1"><statement><p>Janine's history book has 12 chapters. If she studies 2 chapters a week, how many chapters will she have left after <m>t</m> weeks?</p></statement>
 <answer><m>12-2t</m></answer></exercise>
@@ -230,4 +230,5 @@
 </exercises>
 
 </subsection>
+<xi:include href="./hmwk-2-3.xml" />
 </section>

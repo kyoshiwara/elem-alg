@@ -269,10 +269,10 @@
             </tabular></sidebyside></statement>
 
 <solution><p>The two variables are <m>x</m> and <m>y</m>. Each column of the table shows a related pair of values. Notice that 2 is 3 less than 5, 7 is 3 less than 10, and so on.  That is:
-    \begin{align*}
+    <me>\begin{aligned}
                2 \amp = 5-3, \amp\amp 7 = 10-3\\
                 12\amp = 15-3, \amp\amp 17 = 20-3                
-                \end{align*}
+                \end{aligned}</me>
 and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>.  Thus,  <m>y=x-3</m>.</p></solution></example>
 
 <reading-questions>

@@ -112,10 +112,10 @@
 
 <exercisegroup>
     <introduction><p>For Problems 17<ndash/>22, choose the appropriate equation.
-    	\begin{align*}
+    	<me>\begin{aligned}
                 x+7\amp = 26 \amp 7x \amp = 26  \amp \dfrac{x}{7} \amp = 26\\
                 x-7\amp = 26 \amp \dfrac{x}{26} \amp = 7  \amp \dfrac{26}{x} \amp = 7
-        \end{align*}</p></introduction>
+        \end{aligned}</me></p></introduction>
 
 <exercise number="17"><statement><p>Sarah drove 7 miles farther to her high school reunion than Jenni drove. If Sarah drove 26 miles, how far did Jenni drive?</p></statement>
 <answer><m>x+7=26</m></answer></exercise>

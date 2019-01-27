@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+    <chapter xml:id="chap2"  xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Linear Equations</title>
+
+
+    <xi:include href="./section-2-1.xml" />             
+    <xi:include href="./section-2-2.xml" />            
+    <xi:include href="./section-2-3.xml" />            
+    <xi:include href="./section-2-4.xml" />            
+    <xi:include href="./section-2-5.xml" />            
+                     
+       <xi:include href="./ch2rev.xml" />  
+        
+</chapter>
+<!-- </book>  </mathbook> -->
