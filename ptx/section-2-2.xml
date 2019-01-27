@@ -104,7 +104,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-2-2"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Choose the correct algebraic expression for each of the following situations.
 	<me>\begin{aligned}
@@ -132,7 +132,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <answer><m>\dfrac{12}{n}</m></answer></exercise>
 </exercisegroup>
 </exercises>
-<solutions xml:id="solutions-Skills-2-2" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-2-2">
     <title>Answers to Skills Warm-Up</title>
     <idx><h>answers</h><h>for Section 2.2 skills</h></idx>
 </solutions>

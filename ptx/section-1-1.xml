@@ -280,7 +280,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
         <answer><p>equation</p></answer></exercise></reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-1-1"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Choose the correct arithmetic operation (addition, subtraction, multiplication, or division) and explain how to answer the question.</p></introduction>
 
@@ -303,7 +303,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 <answer><p>Multiply the cost of the luxury car by 0.63.</p></answer></exercise>
 </exercisegroup>
 </exercises>
-<solutions xml:id="solutions-Skills-1-1" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-1">
     <title>Answers to Skills Warm-Up</title>
     <idx><h>answers</h><h>for Section 1.1 skills</h></idx>
 

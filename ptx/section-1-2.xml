@@ -360,7 +360,7 @@ Bert's average score is 15.8.</p></solution></example>
 <p>You will also need to know the formulas for the area and perimeter of a rectangle. See the Skills Warm-Up to review these formulas.</p></assemblage>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-1-2"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
 	<me>A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w</me></p></introduction>
@@ -435,7 +435,7 @@ Bert's average score is 15.8.</p></solution></example>
 <answer><p>44 ft; 90 sq ft</p></answer></exercise>
 </exercisegroup>
 </exercises>
-<solutions xml:id="solutions-Skills-1-2" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-2">
     <title>Answers to Skills Warm-Up</title>
     <idx><h>answers</h><h>for Section 1.2 skills</h></idx>
 

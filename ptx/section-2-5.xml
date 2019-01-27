@@ -225,7 +225,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 	<li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li></ol></p></assemblage>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-2-5"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Write algebraic expressions.</p></introduction>
 
@@ -252,7 +252,7 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 <answer><m>\dfrac{-13}{9}</m></answer></exercise>
 </exercisegroup>
 </exercises>
-<solutions xml:id="solutions-Skills-2-5" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-2-5">
     <title>Answers to Skills Warm-Up</title>
     <idx><h>answers</h><h>for Section 2.5 skills</h></idx>
 </solutions>

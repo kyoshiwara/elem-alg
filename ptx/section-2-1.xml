@@ -318,7 +318,7 @@ What number can we substitute for the question mark to make <m>0 \cdot \alert{?}
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-2-1"><title>Skills Warm-Up</title>
 <exercises>
 <exercise number="1"><statement><p>Graph the numbers on the number line:  <m>0,~-3,~3,~\dfrac{1}{2},~\dfrac{-5}{3},~5\dfrac{1}{4}</m></p><sidebyside width="70%"><image source="images/sw-2-1-1.png"><description>number line</description></image></sidebyside></statement>
 <answer></answer></exercise>
@@ -351,7 +351,7 @@ What number can we substitute for the question mark to make <m>0 \cdot \alert{?}
 	<li><m>\gt</m></li></ol></p></answer></exercise>
 </exercisegroup>
 </exercises>
-<solutions xml:id="solutions-Skills-1-2" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-2-1">
     <title>Answers to Skills Warm-Up</title>
     <idx><h>answers</h><h>for Section 1.2 skills</h></idx>
 </solutions>

@@ -193,7 +193,7 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
                 \end{aligned}</me></p></li></ol></p></solution></example>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-1-5"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Perform the operations on fractions as indicated.</p></introduction>
 
@@ -231,7 +231,7 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
 		<li><m>\dfrac{8}{3}</m></li></ol></p></answer></exercise>
 </exercisegroup>
 </exercises>
-<solutions xml:id="solutions-Skills-1-5" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-5">
     <title>Answers to Skills Warm-Up</title>
     <idx><h>answers</h><h>for Section 1.5 skills</h></idx>
 </solutions>
