@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Ratio-and-Proportion"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Ratio and Proportion</title>
+
+<subsection><title>Ratios</title>
+
+<assemblage><p>A <term>ratio</term> is a type of quotient used to compare two numerical quantities.</p></assemblage>
+
+<p>For example, suppose the ratio of pupils to computers at a local elementary school is 10 to 3. This means that for every 10 pupils in the school there are 3 computers. We often display a ratio as a fraction, like this: 
+	<me>\dfrac{\text{Number of pupils}}{\text{Number of computers}}=\dfrac{10}{3}</me></p>
+
+<warning><p>This ratio does not mean that there are exactly 10 pupils and 3 computers at the school. There could be 40 pupils and 12 computers or 200 pupils and 60 computers (or many other combinations) because
+	<me>\dfrac{40}{12}=\dfrac{200}{60}=\dfrac{10}{3}</me></p></warning>
+
+<example><statement><p>In a survey of 100 of his classmates, Greg found that 68 students supported a strict gun control law, while 32 students did not. What is the ratio of survey respondents who support gun control to those opposed?</p></statement>
+<solution><p>The ratio of those supporting gun control to those opposed is 68 to 32, or <m>\dfrac{68}{32}</m>. This ratio reduces to <m>\dfrac{17}{8}</m>, or 17 to 8.</p></solution></example>
+
+<warning><p> When we write a ratio, it is important to notice which number is the numerator, and which is the denominator.  When we write "the ratio of <m>a</m> to <m>b</m>" as a fraction, <m>a</m> is the numerator and <m>b</m> is the denominator.</p></warning>
+
+<p>In Example 1, we could also compute the ratio of opponents to supporters of the gun control law. In that case, the answer would be <m>\dfrac{32}{68}</m> or <m>\dfrac{8}{17}</m>, the reciprocal of the answer to Example 1.</p>
+
+<assemblage><title>Ratio</title>
+<p>A <term>ratio</term> is a type of quotient used to compare two numerical quantities. The ratio of <m>a</m> to <m>b</m> is written <m>\dfrac{a}{b}</m>.</p></assemblage>
+
+<assemblage><title>Look Closer</title>
+<p>A ratio can be expressed as a decimal instead of a common fraction. Because <m>\dfrac{17}{8}</m> is equal to 2.125, we can write the ratio in Example 1 as 2.125 to 1.  We usually express a ratio as a decimal fraction if the numbers being compared are decimal numbers.</p></assemblage>
+
+<example><statement><p>A small circuit board measures 4.2 centimeters long by 2.4 centimeters wide. What is the ratio of its length to its width?</p></statement>
+<solution><p>The ratio of length to width is <m>\dfrac{4.2~ \text{cm}}{2.4~ \text{cm}}</m>, or 1.75, as you can verify with your calculator.  (Can you express this ratio as a common fraction?)</p></solution></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>What is a ratio?</p></statement>
+    	<answer>A type of quotient comparing two quantities</answer></exercise>
+    <exercise number="2"><statement><p>When do we express a ratio as a decimal fraction?</p></statement>
+    	<answer><p>When the numbers being compared are decimal numbers</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Rates</title>
+
+<assemblage><p>A <term>rate</term> is a ratio that compares two quantities with different units.</p></assemblage>
+
+<p>You are already familiar with many rates. If you say that your average speed was 50 miles per hour, or that apples cost 89 cents per pound, you are using rates. Because per usually indicates division,
+	<md>
+		<mrow>\text{50 miles per hour}~~~~~~\text{means}~~~~~~\dfrac{50~ \text{miles}}{1~ \text{hour}}</mrow>
+		<mrow>\text{89 cents per pound}~~~~~~\text{means}~~~~~~\dfrac{89~ \text{cents}}{1~ \text{pound}}</mrow></md></p>
+
+<example><statement><p>Sarah traveled 390 miles on 15 gallons of gas. Express her rate of fuel consumption as a ratio, and then as a rate.</p></statement>
+<solution><p>As a ratio, Sarah's rate of fuel consumption was <m>\dfrac{390~ \text{miles}}{15~ \text{gallons}}</m>. We simplify by dividing the denominator into the numerator, to get <m>\dfrac{26~ \text{miles}}{1~ \text{gallon}}</m>, or 26 miles per gallon.</p></solution></example>
+</subsection>
+
+<subsection><title>Proportions</title>
+
+<assemblage><p>A <term>proportion</term> is a statement that two ratios are equal.</p></assemblage>
+
+<p>Thus, a proportion is an equation in which both sides are ratios. Here are some proportions: 
+	<me>\dfrac{6}{9}=\dfrac{8}{12}~~~~~~\text{and}~~~~~~\dfrac{3.2}{8}=\dfrac{1}{2.5}</me>
+ A proportion may involve variables. How can we solve a proportion such as this one?
+ 	<me>\dfrac{7}{5}=\dfrac{x}{6}</me> 	
+	
+Because <m>x</m> is divided by 6, we could multiply both sides of the equation by 6 to clear the fraction. But we can clear both fractions at the same time if we multiply by the LCD (Lowest Common Denominator) of the two fractions. In this case, the LCD is <m>5 \cdot 6 = 30</m>. Multiplying both sides by 30 gives us
+	<me>\begin{aligned}
+		\blert{30}(\dfrac{7}{5}) \amp =(\dfrac{x}{6})\blert{30}\\
+						42 \amp = 5x
+						\end{aligned}</me>
+Now we can divide both sides by 5 to get the answer,
+	<me>x=\dfrac{42}{5}=8.4</me></p>
+
+<assemblage><title>Look Ahead</title>
+<p>There is a short-cut we can use that avoids calculating an LCD. We can obtain the equation <m>42=5x</m> by cross-multiplying:
+	<sidebyside width="15%"><image source="images/fig-3-2-1.png"><description>graphic</description></image></sidebyside>
+Then we complete the solution as before.</p></assemblage>
+
+<assemblage><title>Property of Proportions</title>
+<p>We can clear the fractions from a proportion by cross-multiplying.
+	<me>\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.</me></p></assemblage>
+
+<example><statement><p>Solve <m>~~\dfrac{2.4}{1.5}=\dfrac{8.4}{x}</m></p></statement>
+<solution><p>We apply the property of proportions and cross-multiply to get
+	<me>\begin{aligned}
+                2.4x \amp = 1.5(8.4) \amp \amp  \blert{\text{Divide both sides by 2.4.}}\\
+                x \amp = \dfrac{1.5(8.4)}{2.4}  \amp \amp  \blert{\text{Simplify the right side.}}\\
+                x \amp = 5.25   
+                \end{aligned}</me>
+We can check the solution by substituting <m>x=2.5</m> into the original proportion.</p></solution></example>
+
+<warning><p>Cross-mutiplying works only for solving proportions! Do not try to use cross-multiplying on other types of equations, or for other operations on fractions. In particular, do not use cross-multiplying when multiplying fractions or adding fractions.</p></warning>
+
+<reading-questions>
+    <exercise number="3"><statement><p>What is a rate?</p></statement>
+    	<answer>A ratio that compares quantities with different units</answer></exercise>
+    <exercise number="4"><statement><p>What is a proportion?</p></statement>
+    	<answer><p>A statement that two ratios are equal</p></answer></exercise>
+    <exercise number="5"><statement><p>What is the short-cut for solving a proportion called?</p></statement>
+    	<answer><p>Cross-multiplying</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Proportional Variables</title>
+<p>Suppose that grape juice costs 80 cents per quart, and complete the table.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Number of Quarts</cell>
+                        <cell>Total Price (cents)</cell>
+                        <cell><m>\dfrac{\text{Total Price}}{\text{Number of Quarts}}</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>80</m></cell>
+                        <cell><m>\dfrac{80}{1}=80</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m>160</m></cell>
+                        <cell><m>\dfrac{160}{2}=</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>240</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>4</m></cell>
+                        <cell><m>320</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+
+<p>Did you find that the ratio <m>\dfrac{\text{total price}}{\text{number of quarts}}</m>, or price per quart, is the same for each row of the table? This agrees with common sense: The price per quart of grape juice is the same no matter how many quarts you buy.</p>
+
+<assemblage><p>Two variables are <term>proportional</term> if their ratio is always the same.</p></assemblage>  
+
+<example><statement><p>One quart of grape juice costs 80 cents. The price of grape juice is proportional to the number of quarts you buy. How much grape juice can you buy for $10.00?</p></statement>
+
+<solution><p>Let <m>x</m> represent the number of quarts you can buy for $10.00, or 1000 cents. Because the variables total price and number of quarts are proportional, we know that their ratio is constant. Thus, the ratio
+	<md>
+		<mrow>\dfrac{\text{1000 cents}}{x~\text{quarts}}~~~~~~\text{is equal to the ratio}~~~~~~\dfrac{\text{80 cents}}{\text{1 quart}}</mrow>
+		<mrow>\dfrac{1000}{x}=\dfrac{80}{1}</mrow></md>
+We solve the proportion by cross-multiplying to get
+		<me>\begin{aligned}
+                1000(1) \amp = 80x \amp \amp  \blert{\text{Divide both sides by 80.}}\\
+                x \amp = \dfrac{1000}{80}=12.5    
+                \end{aligned}</me>
+You can buy 12.5 quarts of grape juice for $10.00. (Or, if you can only buy quart bottles, then you can buy 12 quarts and have 40 cents left over.)</p></solution></example>
+
+<warning><p> When writing a proportion, we must be careful that both ratios have the same units in their numerators, and the same units in their denominators. In the example above, it would not be correct to equate <m>\dfrac{1000}{x}</m> and <m>\dfrac{1}{80}</m>, because the ratios do not have the same units.</p></warning>
+
+<p>For the grape juice example, the ratio <m>\dfrac{\text{total price}}{\text{number of quarts}}</m> was always equal to 80. The number 80 is called the <term>constant of proportionality</term>.</p>
+
+<assemblage><title>Look Closer</title>
+<p>If we let <m>P</m> stand for the price of the grape juice and <m>q</m> stand for the number of quarts purchased, we have the equation
+		<me>\begin{aligned}
+                \dfrac{P}{q} \amp = 80\\
+                \text{or}~~~~P \amp = 80q    
+                \end{aligned}</me>                        	
+The graph of this equation is a straight line that passes through the origin, as shown below.</p>  
+	<sidebyside width="35%"><image source="images/fig-3-2-2.png"><description>graph</description></image></sidebyside>
+</assemblage>
+
+<assemblage><title>Proportional Variables</title>
+<p>If two variables are proportional, they are related by the equation
+	<me>y=kx</me>
+where <m>k</m> is the <term>constant of proportionality</term>.</p></assemblage>
+
+<reading-questions>
+    <exercise number="6"><statement><p>What are proportional variables?</p></statement>
+    	<answer>Variables whose ratio is always the same</answer></exercise>
+    <exercise number="7"><statement><p>If  and  are proportional, what equation do they satisfy?</p></statement>
+    	<answer><p><m>y=kx</m></p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup cols="4"><introduction><p>Convert each common fraction to a decimal, and each decimal to a common fraction.</p></introduction>
+
+<exercise number="1"><statement><m>\dfrac{3}{8}</m></statement>
+<answer><m>0.375</m></answer></exercise>
+
+<exercise number="2"><statement><m>\dfrac{7}{5}</m></statement>
+<answer><m>1.4</m></answer></exercise>
+
+<exercise number="3"><statement><m>\dfrac{4}{3}</m></statement>
+<answer><m>1.\overline{3}</m></answer></exercise>
+
+<exercise number="4"><statement><m>\dfrac{5}{12}</m></statement>
+<answer><m>0.41\overline{6}</m></answer></exercise>
+
+<exercise number="5"><statement><m>0.04</m></statement>
+<answer><m>\dfrac{1}{25}</m></answer></exercise>
+
+<exercise number="6"><statement><m>0.\overline{6}</m></statement>
+<answer><m>\dfrac{2}{3}</m></answer></exercise>
+
+<exercise number="7"><statement><m>1.875</m></statement>
+<answer><m>\dfrac{15}{8}</m></answer></exercise>
+
+<exercise number="8"><statement><m>2.2</m></statement>
+<answer><m>\dfrac{11}{5}</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+<xi:include href="./hmwk-3-2.xml" />
+</section>
