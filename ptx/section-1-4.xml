@@ -229,7 +229,7 @@ Finally, we answer the question in a sentence:
 		<answer><p>False</p></answer></exercise></reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-1-4"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup>
     <introduction><p>In Exercises 1<ndash/>6, choose the correct algebraic expression.
@@ -277,7 +277,7 @@ Finally, we answer the question in a sentence:
 <answer><p><m>12p</m></p></answer></exercise>
 </exercisegroup>
 </exercises>
-<solutions xml:id="solutions-Skills-1-4" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-4">
     <title>Answers to Skills Warm-Up</title>
     <idx><h>answers</h><h>for Section 1.4 skills</h></idx>
 </solutions>

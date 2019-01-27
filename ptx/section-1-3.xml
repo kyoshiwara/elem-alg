@@ -334,7 +334,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 		<answer><p>vertical</p></answer></exercise></reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-1-3"><title>Skills Warm-Up</title>
 
 <exercises>
 <exercisegroup>
@@ -370,7 +370,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 	<li>On the axis in part (a), plot 1.3 and 3.77.</li></ol></p></statement>
 	<answer><sidebyside width="60%"><image source="images/sw-1-3-6ans.png"/></sidebyside></answer></exercise>
 </exercises>
-<solutions xml:id="solutions-Skills-1-3" inline="hint solution answer" divisional="hint solution answer" project="hint solution answer">
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-3">
     <title>Answers to Skills Warm-Up</title>
     <idx><h>answers</h><h>for Section 1.3 skills</h></idx>
 </solutions>
