@@ -1,0 +1,379 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 3.2</title>
+
+ <exercisegroup><introduction><p>For Problems 1<ndash/>4, write ratios or rates.</p></introduction>
+
+<exercise number="1"><statement><p>In a survey of 300 employees at a large company, 125 used public transportation to commute to work.  What is the ratio of employees who use public transportation to those who do not?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><p>Erica tutored in the math lab for 6.5 hours last week and made $56.68.  What is Erica's rate of pay in dollars per hour?</p></statement></exercise>
+
+<exercise number="3"><statement><p>The instructions for mixing a rose fertilizer call for <m>\dfrac{3}{4}</m> cup of potash and <m>1\dfrac{3}{8}</m> cups of nitrogen.  What is the ratio of nitrogen to potash?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><p>An orange contains 0.14 milligram of thiamin and 0.6 milligram of niacin.  What is the ratio of niacin to thiamin?</p></statement></exercise>
+</exercisegroup>
+
+<exercise number="5"><statement><p>Which of the following expressions are proportions?<ol label="a" cols="2">
+	<li><m>\dfrac{3}{x}=\dfrac{8}{15}</m></li>	
+	<li><m>\dfrac{v}{9}-\dfrac{12}{5}</m></li>
+	<li><m>\dfrac{w}{6}+\dfrac{2}{5}=\dfrac{3}{2}</m></li>
+	<li><m>\dfrac{2.6}{m}=\dfrac{m}{1.6}</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 6<ndash/>9, solve the proportion.</p></introduction>
+
+<exercise number="6"><statement><m>\dfrac{x}{16}=\dfrac{9}{24}</m></statement></exercise>
+
+<exercise number="7"><statement><m>\dfrac{182}{65}=\dfrac{21}{w}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><m>\dfrac{7}{b}=\dfrac{5}{9}</m></statement></exercise>
+
+<exercise number="9"><statement><m>\dfrac{7/3}{3}=\dfrac{z}{9/2}</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 10<ndash/>12, decide whether the two variables are proportional.</p></introduction>
+
+<exercise number="10"><statement><p>
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell>Time</cell>
+                        <cell>Distance</cell></row>
+                    <row> 
+                        <cell>1</cell>
+                        <cell>45</cell></row>
+                    <row> 
+                        <cell>2</cell>
+                        <cell>90</cell></row>
+                    <row> 
+                        <cell>4</cell>
+                        <cell>180</cell></row>
+                    <row> 
+                        <cell>5</cell>
+                        <cell>225</cell></row>
+                    </tabular></sidebyside></p></statement></exercise>
+
+<exercise number="11"><statement><p>
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell>Length</cell>
+                        <cell>Area</cell></row>
+                    <row> 
+                        <cell>3</cell>
+                        <cell>9</cell></row>
+                    <row> 
+                        <cell>4</cell>
+                        <cell>16</cell></row>
+                    <row> 
+                        <cell>8</cell>
+                        <cell>64</cell></row>
+                    <row> 
+                        <cell>10</cell>
+                        <cell>100</cell></row>
+                    </tabular></sidebyside></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p>
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell>Rate</cell>
+                        <cell>Time</cell></row>
+                    <row> 
+                        <cell>20</cell>
+                        <cell>40</cell></row>
+                    <row> 
+                        <cell>40</cell>
+                        <cell>20</cell></row>
+                    <row> 
+                        <cell>50</cell>
+                        <cell>16</cell></row>
+                    <row> 
+                        <cell>80</cell>
+                        <cell>10</cell></row>
+                    </tabular></sidebyside></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 13<ndash/>16, decide whether the two quantities are proportional.</p></introduction>
+
+<exercise number="13"><statement><p>A 9-inch pizza costs $6, and a 12-inch pizza costs $10.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><p>A commuter train travels 10 miles in 20 minutes, and 15 miles in 30 minutes.</p></statement></exercise>
+
+<exercise number="15"><statement><p>It takes <m>4\dfrac{1}{2}</m> cups of flour to make two loaves of bread, and 18 cups to make eight loaves.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p>An 18-foot sailboat sleeps four, and a 32-foot sailboat sleeps six.</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 17<ndash/>22, <ol label="a">
+	<li>Write a proportion.</li>
+	<li>Solve the proportion and answer the question.</li></ol></p></introduction>
+
+<exercise number="17"><statement><p>If 3 pounds of coffee makes 225 cups, how many pounds of coffee is needed to make 3000 cups of coffee?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p>Gunther's car uses 32 liters of gas to travel 184 kilometers.  How many liters will he need to travel 575 kilometers?</p></statement></exercise>
+
+<exercise number="19"><statement><p>On a map of Fairfield County, centimeter represents a distance of 10 kilometers.  If Eastlake and Kenwood are 6 centimeters apart on the map, what is the actual distance between the two towns?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p>In a survey of 1200 voters, 863 favored the construction of a light rail system.  If 8000 people vote, about how many will vote for the light rail system?</p></statement></exercise>
+
+<exercise number="21"><statement><p>If 1 inch equals 2.54 centimeters, what is the length in inches of a wire 35 centimeters long?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p>A cinnamon bread recipe calls for 1tablespoons of cinnamon and 5 cups of flour.  How much cinnamon would be needed with 8 cups of flour?</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 23<ndash/>24, <ol label="a">
+	<li>Find the constant of proportionality and write an equation relating the variables.</li>
+	<li>Make a table of values and graph the equation.</li>
+	<li>Use your equation to answer the question.</li></ol></p></introduction>
+
+<exercise number="23"><statement><p>Megan's wages, <m>w</m>, are proportional to the time, <m>h</m>, she works.  Megan made $60 for 8 hours work as a lab assistant.  How long will it take her to make $500?</p>
+<sidebyside widths="20% 50%" margins="10% 10%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>h</m></cell>
+                        <cell><m>w</m></cell></row>
+                    <row> 
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular>
+   <image source="images/hp-3-2-23.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p>The amount of pure copper, <m>c</m>, produced by Copperfield Mine is proportional to the amount of ore extracted, <m>g</m>.  A new lode produced 24 grams of copper from 800  grams of ore.  How many grams of copper will one kilogram of ore yield?</p>
+<sidebyside widths= "20% 50%" margins="10% 10%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>g</m></cell>
+                        <cell><m>c</m></cell></row>
+                    <row> 
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular>
+<image source="images/hp-3-2-24.png"><description>grid</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercise number="25"><statement><p>Trish's real-estate commission is proportional to the amount of the sale.  She made  $3200 commission on a sale of $80,000.<ol label="a">  
+	<li>Write an equation relating Trish's sales and her commission.</li>
+	<li>What would her commission be on the sale of a $200,000 property?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p>Everett can bicycle 16 miles in 2 hours and 24 miles in 3 hours.  The distance <m>d</m> that Everett travels is proportional to the time <m>t</m> that he bicycles.<ol label="a"> 
+	<li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
+	<li>Graph your equation.
+	<sidebyside width="35%"><image source="images/hp-3-2-26.png"><description>grid</description></image></sidebyside></li>
+	<li>Complete the tables, and use them to answer the question below.
+
+<sidebyside widths="20% 20%" margins="30% 30%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>d</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular>
+
+		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>d</m></cell></row>
+                    <row> 
+                        <cell><m>4</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>6</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+
+    What happens to the distance Everett travels when he doubles the time he bicycles?</li></ol></p></statement>
+</exercise>
+
+<exercise number="27"><statement><p>The sales tax on $12 is 72 cents, and the sales tax on $15 is 90 cents.  The tax <m>T</m> is proportional to the price <m>P</m>.
+<ol label="a"> 
+	<li>Write an equation for <m>T</m> in terms of <m>P</m>.</li>
+	<li>Graph your equation.
+	<sidebyside width="50%"><image source="images/hp-3-2-27.png"><description>grid</description></image></sidebyside></li>
+	<li>Complete the tables, and use them to answer the question below.
+
+<sidebyside widths="20% 20%" margins="30% 30%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>P</m></cell>
+                        <cell><m>T</m></cell></row>
+                    <row> 
+                        <cell><m>12</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>20</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>30</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular>
+
+		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>P</m></cell>
+                        <cell><m>T</m></cell></row>
+                    <row> 
+                        <cell><m>6</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>15</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+
+    What happens to the sales tax when the price is cut in half?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p>The cost of tuition at Walden College is given by the formula <m>T=500+40u</m>,  where <m>u</m> is the number of units you take.  <ol label="a">
+	<li>Fill in the tables. 
+		<sidebyside widths="25% 25%" margins="25% 25%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Units</cell>
+                        <cell>Tuition</cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>8</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular>
+
+		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Units</cell>
+                        <cell>Tuition</cell></row>
+                    <row> 
+                        <cell><m>6</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>16</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+
+    <li>Does doubling the number of units you take double your tuition?</li>
+	<li>Is <m>T</m> proportional to <m>u</m>?</li></ol></p></statement></exercise> 
+
+<exercise number="29"><statement><p><ol label="a">
+	<li>State a formula for the circumference of a circle in terms of its radius.</li>
+	<li>Complete the table. 
+		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>r</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row> 
+                        <cell><m>C</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+	<li>Graph your equation, using the values in your table.
+		<sidebyside width="50%"><image source="images/hp-3-2-29.png"><description>grid</description></image></sidebyside></li>
+	<li>Is the circumference of a circle proportional to its radius?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><p><ol label="a">
+	<li>State a formula for the area of a square in terms of the length of its side.</li>
+	<li>Complete the table. 
+		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>s</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell></row>
+                    <row> 
+                        <cell><m>A</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+	<li>Graph your equation, using the values in your table.
+		<sidebyside width="50%"><image source="images/hp-3-2-30.png"><description>grid</description></image></sidebyside></li>
+	<li>Is the area of a square proportional to the length of its side?</li></ol></p></statement></exercise>
+
+<exercise number="30"><statement><p>The following recipe for Cadet Mess Sloppy Joes comes from the West Point Officers Wives' Club Cookbook.</p> 
+
+<p>For 1000 servings:
+<sidebyside><tabular> 
+                    <row>
+                        <cell>310 lb. ground beef</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>2 cans diced red peppers</cell></row>
+                    <row> 
+                        <cell>100 lb. ground turkey</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>20 lb. onions, sliced</cell></row>
+                    <row> 
+                        <cell><m>5\dfrac{1}{2}</m> cans mushrooms</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>3 lb. chili powder</cell></row>
+                    <row> 
+                        <cell>4 lb. green peppers, sliced</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>1 lb. garlic powder</cell></row>
+                    <row> 
+                        <cell>18 cans tomato puree</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>3\dfrac{1}{2}</m> pounds sugar</cell></row>
+                    <row> 
+                        <cell>12 cans tomato catsup</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>1 qt. light flavor glow</cell></row>
+                    <row> 
+                        <cell>1 qt cider vinegar</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>28 oz. salt and pepper</cell></row>
+                    </tabular></sidebyside>
+Cook off turkey and beef in oven; place in pots. Braise off chopped peppers and diced onions (turkey will absorb liquid).  Add stock to turkey to moisten well before adding other products. Stir together. Heat till piping hot. Serve on rolls.
+
+<ol label="a">
+	<li>What is the ratio of tomato puree to tomato catsup?  How many servings of sloppy joes can you make if you have only 5 cans of tomato catsup?  How many cans of tomato puree will you need?</li>
+	<li>How much chili powder (in ounces) will you need to serve sloppy joes to 50 people?  How many pounds of ground beef?</li>
+	<li>The cookbook also lists the ingredients needed for 4500 servings.  How many cans of mushrooms are required for 4500 servings?  How many pounds of onions?</li></ol></p></statement>
+<answer></answer></exercise>
+
+</exercises>
+
+
