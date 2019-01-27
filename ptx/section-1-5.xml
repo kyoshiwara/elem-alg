@@ -12,15 +12,15 @@ it doesn't matter which addition you do first; you will get the same answer eith
 
 <example><statement><p><ol label="a">
 	<li>A sum of three or more terms can be added in any order. In the sums below, the parentheses tell us which part of the expression to simplify first.  
-		\begin{align*}
+		<me>\begin{aligned}
                 (\blert{2} \amp \blert{+5})+8 \amp \text{and}~~~~~~~~~~2 \amp + (\blert{5+8})\\
                 \amp = \blert{7}+8=15 \amp		\amp = 2+\blert{13}=15
-                \end{align*}</li>
+                \end{aligned}</me></li>
     <li>Similarly, a product of three factors can be multiplied in any order. Thus
-    	\begin{align*}
+    	<me>\begin{aligned}
                 (\blert{3} \amp \blert{\cdot 2}) \cdot 4 \amp \text{and}~~~~~~~~~~3 \cdot \amp + (\blert{2 \cdot 4})\\
                 \amp = \blert{6}\cdot 4=24 \amp		\amp = 3 \cdot \blert{8}=24
-                \end{align*}</li></ol></p></statement></example>
+                \end{aligned}</me></li></ol></p></statement></example>
 
 <p>These two facts illustrate the associative laws for addition and multiplication.</p>
 
@@ -82,11 +82,11 @@ If we do the multiplication first, we get
 <assemblage><p>Always perform multiplications and divisions before additions and subtractions.</p></assemblage> 
 
 <example><statement><p>The correct way to simplify the expression <m>4+6 \cdot 2</m> is
-	\begin{align*}
+	<me>\begin{aligned}
                 4 \amp + \blert{6 \cdot 2} \amp \amp \blert{\text{Multiply first.}}\\
                 \amp = 4 + 12 \amp	\amp \blert{\text{Then add.}}\\
                 \amp = 16
-                \end{align*}</p></statement></example>
+                \end{aligned}</me></p></statement></example>
 
 <assemblage><title>Look Closer</title>
 <p>In longer expressions, it can be helpful to group the expression into its terms before beginning. <term>Terms</term> are expressions separated by addition or subtraction symbols. We simplify each term before combining them.</p></assemblage>
@@ -94,11 +94,11 @@ If we do the multiplication first, we get
 <example><statement><p>Simplify <m>6 + 2 \cdot 5 - 12 \div 3 \cdot 2</m></p></statement>
 
 <solution><p>We start by underlining each term of the expression separately. Then we simplify each term.
-    \begin{align*}
+    <me>\begin{aligned}
                 \underline{6} \amp + \underline{2 \cdot 5} - \underline{12 \div 3 \cdot 2} \amp \amp \blert{\text{Perform multiplications and divisions from left to right.}}\\
                 \amp = 6 + 10 - 8 \amp  \amp \blert{\text{Perform additions and subtractions from left to right.}}\\
                 \amp = 16 - 8 = 8
-                \end{align*}</p></solution></example>
+                \end{aligned}</me></p></solution></example>
 
 <warning><p><ol label="1">
 	<li>In Example 5, we do not start by adding <m>6+2</m>.  We must perform multiplications before additions.</li>  
@@ -113,17 +113,17 @@ If we do the multiplication first, we get
 <assemblage><p>Perform any operations inside parentheses first.</p></assemblage>
 
 <example><statement><p>Simplify.  <ol label="a">
-	<li>\begin{align*}
+	<li><me>\begin{aligned}
                 2 + \amp 5 (\blert{7 - 3}) \amp  \amp \blert{\text{Subtract inside parentheses.}}\\
                 \amp = 2 + \blert{5(4)} \amp	\amp \blert{\text{Multiply.}}\\
                 \amp = 2+20 = 22  \amp	\amp \blert{\text{Add.}}
-                \end{align*}</li>
-    <li>\begin{align*}
+                \end{aligned}</me></li>
+    <li><me>\begin{aligned}
                6(\amp 10- \blert{2\cdot 4}) \div 4 \amp  \amp \blert{\text{Multiply inside parentheses.}}\\
                 \amp = 6(\blert{10-8}) \div 4 \amp	\amp \blert{\text{Subtract inside parentheses.}}\\
                 \amp = \blert{6(2)} \div 4  \amp	\amp \blert{\text{Multiply and divide in order from left to right.}}\\
                 \amp = 12 \div 4 = 3
-                \end{align*}</li></ol></p></statement></example>
+                \end{aligned}</me></li></ol></p></statement></example>
 
 <reading-questions>
 	<exercise number="4"><statement><p>Is it true that multiplications should be performed before divisions? Why or why not?
@@ -173,24 +173,24 @@ According to the order of operations, we must simplify the numerator and denomin
 <p>The order of operations applies to variables as well as constants.  For example, the expression
 	<me>5+2x</me>
 tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate the expression for <m>x=8</m> for example, we write
-	\begin{align*}
+	<me>\begin{aligned}
                 \text{For }x=\alert{8},~~~~~~~~~~5+2x \amp = 5+2(\alert{8}) \amp \amp \blert{\text{Multiply first.}}\\
                 \amp = 5+16=21
-                \end{align*}</p>
+                \end{aligned}</me></p>
 <p>In Example 8, note how parentheses change the meaning of an expression.</p>
 
 <example><statement><p>Write algebraic expressions for each of the following phrases. Then evaluate each phrase for <m>x=2</m> and <m>y=6</m>.<ol label="a">
 	<li>Three times the sum of <m>x</m> and <m>y</m></li> 	
 	<li>The sum of <m>3x</m> and <m>y</m></li></ol></p></statement>
 <solution><p><ol label="a" cols="2">
-	<li><p>\begin{align*}
+	<li><p><me>\begin{aligned}
                 \amp 3(x+y) \\
                 \amp 3(\alert{2}+\alert{6})=3(8)=24
-                \end{align*}</p></li>
-    <li><p>\begin{align*}
+                \end{aligned}</me></p></li>
+    <li><p><me>\begin{aligned}
                 \amp 3x+y \\
                 \amp 3(\alert{2})+\alert{6}=6+6=12
-                \end{align*}</p></li></ol></p></solution></example>
+                \end{aligned}</me></p></li></ol></p></solution></example>
 </subsection>
 
 <subsection><title>Skills Warm-Up</title>

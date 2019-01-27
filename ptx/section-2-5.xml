@@ -10,18 +10,18 @@
 we find a value for the variable that makes the equation true.  The solution to this equation is 5, because the two expressions <m>2+3x</m> and 17 are equal if <m>x=5</m>. If we use any other value for <m>x</m>, say <m>x=9</m> or <m>x=-1</m>, then <m>2+3x</m> does not equal 17.</p>
 
 <p>It is possible for two algebraic expressions to be equal for all values of the variable. For instance, the expressions <m>2x+3x</m> and <m>5x</m> will always give the same value when the same number is substituted for <m>x</m> in each expression. For example,
-	\begin{align*}
+	<me>\begin{aligned}
                 \text{if}~~x=\alert{3}~~~~~\text{then}~~~~~~2x+3x \amp =2(\alert{3})+3(\alert{3})\\
                 \amp = 6+9=15\\
                 \text{and}~~~~~~5x \amp = 5(\alert{3})=15
-                \end{align*}
+                \end{aligned}</me>
 Both expressions equal 15 when <m>x=3</m>.</p>
 
 <exercise><statement><p>Verify that <m>2+3x</m> and <m>5x</m> are equal when <m>x=-4</m>.
-		\begin{align*}
+		<me>\begin{aligned}
                 2x+3x \amp = \\
                 \text{and}~~~~~~5x \amp = 
-                \end{align*}
+                \end{aligned}</me>
 </p></statement></exercise>
 
 <assemblage><p>Two algebraic expressions are <term>equivalent</term> if they name the same number for all values of the variable.</p></assemblage> 
@@ -29,10 +29,10 @@ Both expressions equal 15 when <m>x=3</m>.</p>
 <p>Thus, <m>2+3x</m> and <m>5x</m> are equivalent expressions, and we can replace one by the other if it will simplify our work.</p>
 
 <warning><p>Although two expressions may name the same number for some values of the variable, they are not necessarily equivalent.  For example, to show that the expressions <m>2+3x</m> and <m>5x</m> are not equivalent, we only have to find a single value of <m>x</m> for which they are not equal.  If we evaluate each expression for <m>x=6</m>, we find:
-	\begin{align*}
+	<me>\begin{aligned}
                 2+3x \amp = 2+3(\alert{6})=20\\
                 5x \amp = 5(\alert{6})=30
-                \end{align*}
+                \end{aligned}</me>
 Because they are not equal for <m>x=6</m>, the expressions <m>2+3x</m> and <m>5x</m> are not equivalent.</p></warning>
 
 <reading-questions>
@@ -50,15 +50,15 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 <assemblage><p><term>Like terms</term> are any terms that are exactly alike in their variable factors.</p></assemblage>
 
 <example><statement><p><ol label="a">
-	<li>\begin{align*}
+	<li><me>\begin{aligned}
                 2x~~\text{and}~~3x~~~~~~ \amp \text{are like terms}\\
                 -4a~~\text{and}~~7a~~~~~~ \amp \text{are like terms}
-                \end{align*}
+                \end{aligned}</me>
         because their variable factors are identical.</li>
-    <li>\begin{align*}
+    <li><me>\begin{aligned}
                 2x~~\text{and}~~3y~~~~~~ \amp \text{are not like terms}\\
                 2x~~\text{and}~~3~~~~~~ \amp \text{are not like terms}
-                \end{align*}
+                \end{aligned}</me>
         because their variable factors are different.</li></ol></p></statement></example>
 
 <assemblage><p>The numerical factor in a term is called the <term>numerical coefficient</term>, or just the <term>coefficient</term> of the term.</p></assemblage>
@@ -67,10 +67,10 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 	<li>In the expression <m>3xy</m>, the number 3 is the numerical coefficient.</li>  
 	<li>In a term such as <m>xy</m> or <m>b</m>, the numerical coefficient is 1.</li>  
 	<li>If a variable is preceded by a negative sign, the coefficient of the term is <m>-1</m>.  For example, 
-			\begin{align*}
+			<me>\begin{aligned}
                 -x~~~~~~\text{means}~~~~~~ \amp -1 \cdot x\\
                 -a~~~~~~\text{means}~~~~~~ \amp -1 \cdot a
-                \end{align*}</li></ol></p></statement></example>
+                \end{aligned}</me></li></ol></p></statement></example>
 </subsection>
 
 <subsection><title>Adding and Subtracting Like Terms</title>
@@ -107,11 +107,11 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 </reading-questions>
 
 <warning><p>We cannot add or subtract unlike terms. Thus,
-		\begin{align*}
+		<me>\begin{aligned}
                 2x+3y~~~~~~~~ \amp \text{cannot be simplified}\\
                 -6x+4xy~~~~~~~~ \amp \text{cannot be simplified}\\
                 6-2x~~~~~~~~ \amp \text{cannot be simplified}
-                \end{align*}</p></warning>
+                \end{aligned}</me></p></warning>
 
 <p>Many expressions contain both like and unlike terms. In such expressions we can combine only the like terms.</p>
 
@@ -135,19 +135,19 @@ We can also remove parentheses when we add like terms. Thus,
 
 <example><statement><p>Simplify <m>~(2x+3)+(5x-7)</m></p></statement>
 <solution><p>Each set of parentheses is preceded by a plus sign, so we may remove the parentheses.
-	\begin{align*}
+	<me>\begin{aligned}
                 (2x+3)+(5x-7)\amp = 2x+3+5x-7 \amp \blert{\text{Combine like terms.}}\\
                 			\amp = 7x-4
-                \end{align*}</p></solution></example>
+                \end{aligned}</me></p></solution></example>
 
 <p>	BUT:  We must be careful when removing parentheses preceded by a minus sign. In the expression
 	<me>(5x-2)-(7x-4)</me>
 the minus sign preceding <m>(7x-4)</m> applies to each term inside the parentheses. Therefore, when we remove the parentheses we must change the sign of <m>7x</m> from <m>+</m> to <m>-</m> and we must change the sign of <m>-4</m> from <m>-</m> to <m>+</m>. Thus,
-	\begin{align*}
+	<me>\begin{aligned}
                 (5x-2)-(7x-4)\amp = 5x-2-7x+4 \amp \amp \blert{\text{Change each sign inside parentheses.}}\\
                 			\amp =5x-7x-2+4    \amp \amp \blert{\text{Combine like terms.}}\\
                 			\amp =-2x+2
-                \end{align*}</p>
+                \end{aligned}</me></p>
 
 <assemblage><title>Removing parentheses that follow a minus sign</title>
 <p>If an expression inside parentheses is preceded by a minus sign, we change the sign of each term within parentheses and then omit the parentheses and the minus sign.</p></assemblage>
@@ -169,19 +169,19 @@ the minus sign preceding <m>(7x-4)</m> applies to each term inside the parenthes
 
 <example><statement><p>Solve the equation <m>~2x+7=4x-3</m></p></statement>
 <solution><p>We first get all terms containing the variable on one side of the equation. For this example, we will subtract <m>2x</m> from both sides of the equation to get
-	\begin{align*}
+	<me>\begin{aligned}
                 2x+7\amp = 4x-3 \amp \amp \blert{\text{Subtract 2x from both sides.}}\\
                 \blert{-2x}	\amp = \blert{-2x}    \\
                 		7	\amp =2x-3
-                \end{align*}
+                \end{aligned}</me>
 Now the equation looks like ones we already know how to solve, and we proceed as usual to isolate the variable.
-	\begin{align*}
+	<me>\begin{aligned}
                 7\amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}\\
                 \blert{+3}	\amp = \blert{+3}    \\
                 		10	\amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}\\
                 \dfrac{10}{\blert{2}} \amp = \dfrac{2x}{\blert{2}}\\
                 5 \amp = x
-                \end{align*}
+                \end{aligned}</me>
 The solution is 5.
 	<me>\blert{\text{Check:}}~~~~~~~~~~\text{Does}~~2(\alert{5})+7=4(\alert{5})-3?~~~~~~~\blert{\text{True}}</me>
 </p></solution></example>
@@ -191,13 +191,13 @@ The solution is 5.
 <example><statement><p>Solve <m>~2x-4x+14 \lt 3+5x-10</m></p></statement>
 
 <solution><p>We combine like terms on each side of the inequality, to get
-	\begin{align*}
+	<me>\begin{aligned}
                 \blert{2x-4x} \amp \lt \blert{3}+5x \blert{-1} \amp \amp \blert{2x-4x=-2x~~\text{and}~~ 3-10=7}\\
                 -2x+14	\amp \lt 5x-7
-                \end{align*}
+                \end{aligned}</me>
 
 Now we continue solving as usual: We want to get all the terms containing <m>x</m> on one side of the inequality, and all the constant terms on the other side.
-	\begin{align*}
+	<me>\begin{aligned}
                 -2x+14	\amp \lt 5x-7 \amp \amp \blert{\text{Subtract}~ 5x~ \text{from both sides.}}\\
                 \blert{-5x}	\amp = \blert{-5x}    \\
                 -7x+14	\amp \lt  -7   \amp \amp \blert{\text{Subtract}~ 14~ \text{from both sides.}}\\
@@ -205,12 +205,12 @@ Now we continue solving as usual: We want to get all the terms containing <m>x</
                 -7x \amp \lt -21  \amp \amp \blert{\text{Divide both sides by}~-7;}\\
                 \dfrac{-7x}{\blert{-7}} \amp \gt \dfrac{-21}{\blert{-7}} \amp \amp \blert{\text{reverse the direction of the inequality.}}\\
                 x \amp \gt 3
-                \end{align*}
+                \end{aligned}</me>
 The solution is all <m>x</m>-values greater than 3. You can check the solution by substituting one <m>x</m>-value greater than 3 and one value less than 3 into the original inequality, for instance:
-	\begin{align*}
+	<me>\begin{aligned}
 		\blert{\text{Check:}}~~~~ \amp x=4:~~2(\blert{4})-4(\blert{4})+14 \lt 5(\blert{4})-10?~~~~\blert{\text{True:}~~6 \lt 13}\\
 		\amp x=2:~~2(\blert{2})-4(\blert{2})+14 \lt 5(\blert{2})-10?~~~~\blert{\text{False:}~~10 \nlt 3}
-	\end{align*}</p></solution></example>
+	\end{aligned}</me></p></solution></example>
 
 <reading-questions>
     <exercise number="6"><statement><p>What should you do if one side of an equation or inequality contains like terms?</p></statement>
@@ -254,4 +254,5 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 
 </exercises>
 </subsection>
+<xi:include href="./hmwk-2-5.xml" />
 </section>

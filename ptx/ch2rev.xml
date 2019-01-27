@@ -7,10 +7,10 @@
 <subsection><title>Lesson 2.1 Signed Numbers</title><p><ul>
 <li>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>.</li>
 <li><p>We use special symbols to indicate order: 
-	\begin{align*}
+	<me>\begin{aligned}
                 \blert{\lt} \amp ~~~~ \text{means}~~~~  \blert{\text{is less than}}\\
                 \blert{\gt} \amp ~~~~ \text{means}~~~~  \blert{\text{is greater than}}               
-                \end{align*}</p></li>
+                \end{aligned}</me></p></li>
 <li>The <term>absolute value</term> of a number is the unsigned part of the number. It is never negative.</li>
 
 <li><assemblage><title>Rules for Adding Integers</title><p><ol label="1">

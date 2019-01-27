@@ -67,11 +67,11 @@ Now we have an equation in just one variable. We would like to find the value of
 <subsection><title>Inverse Operations</title>
 <p>Instead of relying on trial and error to solve equations, we will use <term>inverse operations</term>. Try the Exercise below.</p>
 <exercise><statement><p>
-	\begin{align*}
+	<me>\begin{aligned}
                 \amp \text{Choose any number for}~x: \amp x \amp = ~\rule{1cm}{0.15mm}\\
                 \amp \text{Multiply your number by 5}: \amp 5x \amp = ~\rule{1cm}{0.15mm}\\
                 \amp \text{Divide the result by 5}:  \amp \dfrac{5x}{5} \amp = ~\rule{1cm}{0.15mm}
-        \end{align*}
+        \end{aligned}</me>
 
    	Did you end up with your original number?  
 	Try multiplying and dividing your number by another number besides 5.  
@@ -80,11 +80,11 @@ Now we have an equation in just one variable. We would like to find the value of
 <assemblage><p>Multiplication and division are opposite or <term>inverse operations</term>, because each operation undoes the effects of the other.</p></assemblage>
 
 <exercise><statement><p>
-	\begin{align*}
+	<me>\begin{aligned}
                 \amp \text{Choose any number for}~x: \amp x \amp = ~\rule{1cm}{0.15mm}\\
                 \amp \text{Add 4 to your number}: \amp x+4 \amp = ~\rule{1cm}{0.15mm}\\
                 \amp \text{Subtract 4 from the result}:  \amp x+4-4 \amp = ~\rule{1cm}{0.15mm}
-        \end{align*}
+        \end{aligned}</me>
 
    	Did you end up with your original number?  
 	Try adding and subtracting another number besides 4.  
@@ -98,10 +98,10 @@ Now we have an equation in just one variable. We would like to find the value of
 
 <solution><p>We will transform this equation into a new one of the form <m>h=k</m> (or <m>k=h</m>), where the number <m>k</m> is the solution.</p>
 <p> To do this, we must isolate the variable <m>h</m> on one side of the equals sign. Because <m>h</m> is multiplied by 6 in this equation, we divide both sides by 6, like this:
-	\begin{align*}
+	<me>\begin{aligned}
                 \dfrac{54}{\blert{6}} \amp = \dfrac{6h}{\blert{6}} \amp \amp \blert{\text{Divide both sides by 6.}}\\
                 9 \amp = h
-        \end{align*}
+        \end{aligned}</me>
 The solution is 9. Liz worked for 9 hours.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
@@ -136,16 +136,16 @@ The solution is 9. Liz worked for 9 hours.</p></solution></example>
 <solution><p>We must solve the equation
     <me>19=D+4</me>
 We see that 4 has been added to the variable, <m>D</m>. To isolate <m>D</m> on one side of the equals sign, we subtract 4 from both sides of the equation, like this:
-    \begin{align*}
+    <me>\begin{aligned}
                 19\, \amp = D+4 \\
                     \underline{\blert{-4}} \amp = \underline{~~~\,\blert{-4}} \amp \amp \blert{\text{Note that} ~D+4-4=D}\\
                 15 \amp = D
-        \end{align*}
+        \end{aligned}</me>
 The solution to this equation is 15. You can check that substituting <m>\blert{15}</m> for <m>D</m> does make the equation true.
-\begin{align*}
+<me>\begin{aligned}
     \blert{\text{Check:}}\amp \amp 19 \amp = D+4   \amp \amp \blert{\text{Substitute}~ 15~ \text{for}~D.}\\
                     \amp \amp 19 \amp =\blert{15} +4 \amp \amp \blert{\text{True:  the solution checks.}}
-        \end{align*}</p></solution></example>
+        \end{aligned}</me></p></solution></example>
 
 <assemblage><title>Look Ahead</title>
 <p>That last example is easy enough to solve without algebra, but the method will help us with harder problems. Here is a general strategy for solving such equations.</p></assemblage>
@@ -171,17 +171,17 @@ The solution to this equation is 15. You can check that substituting <m>\blert{1
 <solution><p>First, we choose the appropriate formula. This is a problem about interest, so we use the interest formula:
 <me>\blert{I=Prt}</me> 
 Next, we list the values of the variables. (Which variable is unknown?)
-	\begin{align*}
+	<me>\begin{aligned}
 		I \amp = \blert{42.50} \amp  r \amp = \blert{0.05}\\
 		P \amp = \text{unknown}	\amp  t \amp = \blert{1} 
-		\end{align*}
+		\end{aligned}</me>
 We substitute the values into the formula:
 <me>\blert{42.50=P(0.05)(1)}</me>
 Then we solve the equation:
-	\begin{align*}
+	<me>\begin{aligned}
 		\dfrac{42.50}{0.05} \amp =\dfrac{P(0.05)}{0.05} \amp \amp \blert{\text{Divide both sides by}~0.05.}\\
 		850 \amp = P 
-		\end{align*}
+		\end{aligned}</me>
 Finally, we answer the question in a sentence:
 <me>\blert{\text{Jan's account balance was }\$850 \text{ at the beginning of the year.}}</me></p></solution></example>
 

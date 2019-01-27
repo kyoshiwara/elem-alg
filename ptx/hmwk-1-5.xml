@@ -193,10 +193,10 @@
 
 <exercisegroup>
     <introduction><p>For Problems 35<ndash/>38, choose the correct algebraic expression for each English phrase.
-    	\begin{align*}
+    	<me>\begin{aligned}
                 \amp  \dfrac{m}{12}-3~~~~~~\amp  \amp \dfrac{m-3}{12}\\
                 \amp  \dfrac{12}{m-3}~~~~~~\amp  \amp 3-\dfrac{12}{m}
-        \end{align*}</p></introduction>
+        \end{aligned}</me></p></introduction>
 
 <exercise number="35"><statement><p>Twelve divided by 3 less than <m>m</m>.</p></statement>
 <answer><m>\dfrac{12}{m-3}</m></answer></exercise>
@@ -210,11 +210,11 @@
 </exercisegroup>
 
 <exercise number="39"><statement><p>Find and correct the error in the calculation:
-	\begin{align*}
+	<me>\begin{aligned}
             (5+4)\amp -3(8-3 \cdot 2)\\
                 \amp = 9-3(8-6)\\
                 \amp = 6(2)=12
-        \end{align*}
+        \end{aligned}</me>
 </p></statement>
 <answer><p>Subtracting <m>9-3</m> is incorrect. It should be
     <me>9-3(2)=9-6=3</me></p></answer></exercise>

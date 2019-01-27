@@ -27,16 +27,16 @@ To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced interv
 <sidebyside width="80%"><image source="images/fig-2-1-2.png"><description>number line</description></image></sidebyside>
 
 <assemblage><p>We use special symbols to indicate order:
-	\begin{align*}
+	<me>\begin{aligned}
                 \blert{\lt} \amp ~~~~ \text{means}~~~~  \blert{\text{is less than}}\\
                 \blert{\gt} \amp ~~~~ \text{means}~~~~  \blert{\text{is greater than}}               
-                \end{align*}</p></assemblage>
+                \end{aligned}</me></p></assemblage>
 
 <p>For example,
-	\begin{align*}
+	<me>\begin{aligned}
                 -6 \lt -2 \amp ~~~~ \text{means}~~~~  -6~~ \text{is less than}~~ -2\\
                 -2 \gt -6 \amp ~~~~ \text{means}~~~~  -2~~ \text{is greater than}~~ -6               
-                \end{align*}
+                \end{aligned}</me>
 
 The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smaller number.</p>
 
@@ -72,10 +72,10 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 
 <assemblage><title>Look Closer</title>
 <p>In the examples above, we see that:
-	\begin{align*}
+	<me>\begin{aligned}
                 \amp \blert{\text{The sum of two positive numbers is positive.}}\\
                 \amp \blert{\text{The sum of two negative numbers is negative.}}               
-                \end{align*}
+                \end{aligned}</me>
 Thus, the sign of the sum is the same as the sign of the two terms. To find the value of the sum, we add the <term>absolute values</term>, or unsigned parts, of the two terms.</p></assemblage>
 
 <example><statement><p>Add  <m>(-4)+(-7)</m></p></statement>
@@ -194,10 +194,10 @@ However, if the subtraction involves negative numbers, it is usually easier to u
 
  <example><statement><p>Simplify <m>~~7-9+12-6</m></p></statement>
  <solution><p>We add the signed numbers <m>7</m> and <m>-9</m> and <m>12</m> and <m>-6</m>, in order from left to right.
- 	\begin{align*}
+ 	<me>\begin{aligned}
                \blert{7-9}+12-6 \amp =\blert{-2}+12-6 \amp \amp \blert{\text{The sum of} ~7~ \text{and}~-9~\text{is}~-2.}\\
                 \amp =10-6=4 \amp \amp \blert{\text{The sum of}~-2~\text{and}~12~\text{is}~10.}               
-                \end{align*}</p></solution></example>
+                \end{aligned}</me></p></solution></example>
 
 <warning><p>The following calculation is incorrect:
 	<me>16-\blert{9-4}+3~=~16-\blert{5}+3~=~11+3~=~14~~~~~~\alert {\leftarrow \text{Incorrect!}}</me>
@@ -225,7 +225,7 @@ which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe th
 <subsubsection><title>Case 1: The product of numbers with the same sign</title>
 <p>You know that the product of two positive numbers is positive. It is also true that the product of two negative numbers is positive.</p>  
 <p>To understand why the product of two negative numbers is positive, you might think of canceling, or subtracting, several debts of the same amount. Or, you could observe the pattern in the lists of products below.  As we move down the list, the product increases by equal amounts. 
-	\begin{align*}
+	<me>\begin{aligned}
                3(-2) \amp =-6 \amp  3(-5) \amp =-15\\
                2(-2) \amp =-4 \amp  2(-5) \amp =-10\\
                1(-2) \amp =-2 \amp  1(-5) \amp =-5~~\amp \leftarrow \text{Positive times neagtive is negative.}\\
@@ -233,7 +233,7 @@ which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe th
                -1(-2) \amp =2 \amp  -1(-5) \amp =5~~\amp \leftarrow \text{Negative times neagtive is positive.}\\
                -2(-2) \amp =4 \amp  -2(-5) \amp =10\\
                -3(-2) \amp =6 \amp  -3(-5) \amp =15                 
-                \end{align*}
+                \end{aligned}</me>
 Based on the pattern in these calculations, the following rule seems reasonable.</p>
 
 <assemblage><p>The product of two negative numbers is a positive number.</p></assemblage>
@@ -353,4 +353,5 @@ What number can we substitute for the question mark to make <m>0 \cdot \alert{?}
 </exercises>
 
 </subsection>
+<xi:include href="./hmwk-2-1.xml" />
 </section>

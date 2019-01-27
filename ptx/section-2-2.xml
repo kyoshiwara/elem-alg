@@ -33,10 +33,10 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 	<li><p>The discount price of one ticket is <m>t-20</m> dollars. So four tickets cost 
 		<me>4(t-20)~~\text{dollars}</me></p></li>
 	<li><p>We evaluate the expression in part (a) for <m>t=38</m>.         
-		\begin{align*}
+		<me>\begin{aligned}
                4(t-20) \amp = 4(\alert{38}-20) \amp  \blert{\text{Simplify inside parentheses first.}}\\
                 \amp = 4(18)=72                
-                \end{align*}					
+                \end{aligned}</me>					
 		The students paid $72 for the tickets.</p></li></ol></p></solution></example>
 
 <reading-questions>
@@ -53,12 +53,12 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <example><statement><p>Simplify  <m>~~4-3-[-6+(-5)-(-2)]</m></p></statement>
 
 <solution><p>Perform the operations inside brackets first. Simplify each step by rewriting subtractions as equivalent additions. 
-	\begin{align*}
+	<me>\begin{aligned}
               4-3- \amp [-6+\blert{(-5)-(-2)}] \amp  \blert{-5-(-2)=-5+2}\\
                 \amp = 4-3-[\blert{-6-5+2)}]    \amp \blert{-6-5=-11;~-11+2=-9}\\
                 \amp = 4 \blert{-3-[-9]}        \amp \blert{\text{Rewrite as an addition.}}\\
                 \amp = 4-3+9 = 10               \amp  \blert{\text{Add from left to right.}}           
-                \end{align*}</p></solution></example>
+                \end{aligned}</me></p></solution></example>
 
 <reading-questions>
     <exercise number="5"><statement><p>Which operation is performed first in the expression <m>6-4x</m>?</p></statement>
@@ -91,12 +91,12 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <example><statement><p>Evaluate <m>2x-3xy</m> for <m>x=-5</m> and <m>y=-2</m>.</p></statement>
 
 <solution><p>We substitute <m>\alert{-5}</m> for <m>x</m> and <m>\blert{-2}</m> for <m>y</m>, then follow the order of operations.
-	\begin{align*}
+	<me>\begin{aligned}
               2x-3xy \amp  2(\alert{-5})-3(\alert{-5})(\blert{-2})  \amp \blert{\text{ Do multiplications first.}}\\
                 \amp = -10-(-15)(-2)\\
                 \amp = -10-(-15)(-2)\\
                 \amp = -10-30=-40           
-                \end{align*}</p></solution></example>
+                \end{aligned}</me></p></solution></example>
 
 <reading-questions>
     <exercise number="8"><statement><p>When we evaluate an expression at a negative number, we should <fillin characters="6"/> the negative number in <fillin characters="6"/>.</p></statement>
@@ -107,10 +107,10 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Choose the correct algebraic expression for each of the following situations.
-	\begin{align*}
+	<me>\begin{aligned}
               \amp n+12  \amp   \amp 12n    \amp  \amp \dfrac{n}{12}\\
               \amp \dfrac{12}{n} \amp \amp 12-n   \amp  \amp n-12          
-                \end{align*}</p></introduction>
+                \end{aligned}</me></p></introduction>
 
 <exercise number="1"><statement><p>Helen bought <m>n</m> packages of tulip bulbs. If each package contains 12 bulbs, how many bulbs did she buy?</p></statement>
 <answer><m>12n</m></answer></exercise>
@@ -134,4 +134,5 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 </exercises>
 
 </subsection>
+<xi:include href="./hmwk-2-2.xml" />
 </section>
