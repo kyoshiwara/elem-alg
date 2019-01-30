@@ -18,10 +18,10 @@ we find a value for the variable that makes the equation true.  The solution to 
 Both expressions equal 15 when <m>x=3</m>.</p>
 
 <exercise><statement><p>Verify that <m>2+3x</m> and <m>5x</m> are equal when <m>x=-4</m>.
-		<me>\begin{aligned}
-                2x+3x \amp = \\
-                \text{and}~~~~~~5x \amp = 
-                \end{aligned}</me>
+        <md>
+            <mrow>2x+3x \amp =\underline{\qquad\qquad\qquad}</mrow>
+            <mrow>\text{and}\qquad 5x \amp =\underline{\qquad\qquad\qquad}</mrow>
+        </md>
 </p></statement></exercise>
 
 <assemblage><p>Two algebraic expressions are <term>equivalent</term> if they name the same number for all values of the variable.</p></assemblage> 
@@ -191,26 +191,26 @@ The solution is 5.
 <example><statement><p>Solve <m>~2x-4x+14 \lt 3+5x-10</m></p></statement>
 
 <solution><p>We combine like terms on each side of the inequality, to get
-	<me>\begin{aligned}
+    <me>\begin{aligned}
                 \blert{2x-4x} \amp \lt \blert{3}+5x \blert{-1} \amp \amp \blert{2x-4x=-2x~~\text{and}~~ 3-10=7}\\
-                -2x+14	\amp \lt 5x-7
+                -2x+14  \amp \lt 5x-7
                 \end{aligned}</me>
 
 Now we continue solving as usual: We want to get all the terms containing <m>x</m> on one side of the inequality, and all the constant terms on the other side.
-	<me>\begin{aligned}
-                -2x+14	\amp \lt 5x-7 \amp \amp \blert{\text{Subtract}~ 5x~ \text{from both sides.}}\\
-                \blert{-5x}	\amp = \blert{-5x}    \\
-                -7x+14	\amp \lt  -7   \amp \amp \blert{\text{Subtract}~ 14~ \text{from both sides.}}\\
+    <me>\begin{aligned}
+                -2x+14  \amp \lt 5x-7 \amp \amp \blert{\text{Subtract}~ 5x~ \text{from both sides.}}\\
+                \blert{-5x} \amp = \blert{-5x}    \\
+                -7x+14  \amp \lt  -7   \amp \amp \blert{\text{Subtract}~ 14~ \text{from both sides.}}\\
                 \blert{-14} \amp = \blert{-14}\\
                 -7x \amp \lt -21  \amp \amp \blert{\text{Divide both sides by}~-7;}\\
                 \dfrac{-7x}{\blert{-7}} \amp \gt \dfrac{-21}{\blert{-7}} \amp \amp \blert{\text{reverse the direction of the inequality.}}\\
                 x \amp \gt 3
                 \end{aligned}</me>
 The solution is all <m>x</m>-values greater than 3. You can check the solution by substituting one <m>x</m>-value greater than 3 and one value less than 3 into the original inequality, for instance:
-	<me>\begin{aligned}
-		\blert{\text{Check:}}~~~~ \amp x=4:~~2(\blert{4})-4(\blert{4})+14 \lt 5(\blert{4})-10?~~~~\blert{\text{True:}~~6 \lt 13}\\
-		\amp x=2:~~2(\blert{2})-4(\blert{2})+14 \lt 5(\blert{2})-10?~~~~\blert{\text{False:}~~10 \nlt 3}
-	\end{aligned}</me></p></solution></example>
+    <me>\begin{aligned}
+        \blert{\text{Check:}}~~~~ \amp x=4:~~2(\blert{4})-4(\blert{4})+14 \lt 5(\blert{4})-10?~~~~\blert{\text{True:}~~6 \lt 13}\\
+        \amp x=2:~~2(\blert{2})-4(\blert{2})+14 \lt 5(\blert{2})-10?~~~~\blert{\text{False:}~~10 \not\lt 3}
+    \end{aligned}</me></p></solution></example>
 
 <reading-questions>
     <exercise number="6"><statement><p>What should you do if one side of an equation or inequality contains like terms?</p></statement>

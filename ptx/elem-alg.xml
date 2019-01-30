@@ -26,6 +26,7 @@ Elementary Algebra
 
         <xi:include href="./chap1.xml" />
         <xi:include href="./chap2.xml" />
+        <xi:include href="./chap3.xml" />
 
 
     <xi:include href="./backmatter.xml" />       

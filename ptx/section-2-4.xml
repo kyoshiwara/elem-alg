@@ -220,7 +220,9 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
 </exercisegroup>
 
 <exercisegroup><introduction><p>Fill in the tables. Then analyze the order of operations in your calculations.
-<sidebyside widths="50% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<sidebyside widths="50% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">                    <row>
+                        <cell colspan="3" halign="center">Table 1</cell>
+                    </row>
                     <row bottom="minor">
                         <cell><m>n</m></cell>
                         <cell><m>3n</m></cell>
@@ -244,6 +246,9 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
                     </tabular>
 
         <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row>
+                        <cell colspan="3" halign="center">Table 1</cell>
+                    </row>
                     <row bottom="minor">
                         <cell><m>m</m></cell>
                         <cell><m>\dfrac{m}{4}</m></cell>
@@ -268,14 +273,14 @@ The solution consists of all numbers greater than 1 but less than or equal to <m
 
 <exercise number="7"><statement><p>Consider the equation <m>3n-5=p</m>. Look at Table 1 to help you answer the questions:
 <ol label="a">
-	<li>Let <m>n=2</m>. Explain how to find <m>p</m> in two steps.</li>
-	<li>Let <m>p=7</m>. Explain how to find <m>n</m> in two steps.</li>
+    <li>Let <m>n=2</m>. Explain how to find <m>p</m> in two steps.</li>
+    <li>Let <m>p=7</m>. Explain how to find <m>n</m> in two steps.</li>
 </ol></p></statement></exercise>
 
 <exercise number="8"><statement><p>Consider the equation <m>\dfrac{m}{4}+1=h</m>. Look at Table 2 to help you answer the questions:
 <ol label="a">
-	<li>Let <m>m=8</m>. Explain how to find <m>h</m> in two steps.</li>
-	<li>Let <m>h=6</m>. Explain how to find <m>m</m> in two steps.</li>
+    <li>Let <m>m=8</m>. Explain how to find <m>h</m> in two steps.</li>
+    <li>Let <m>h=6</m>. Explain how to find <m>m</m> in two steps.</li>
 </ol></p></statement></exercise>
 </exercisegroup>
 
