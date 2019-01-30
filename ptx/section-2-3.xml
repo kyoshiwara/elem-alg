@@ -11,52 +11,81 @@
 <p>We can graph a linear equation by evaluating the expression <m>ax+b</m> at several values of <m>x</m> and then plotting points.</p>
 
 <example><statement><p>At 6 am the temperature was <m>50 \degree</m>, and it has been rising by <m>4 \degree</m> every hour.<ol label="a">  
-	<li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
-	<li>Graph your equation.</li></ol></p></statement>
+    <li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
+    <li>Graph your equation.</li></ol></p></statement>
 <solution><p><ol label="a">
-	<li>We set <m>h=0</m> at 6 am.  At that time, <m>T=50</m>.  Because the temperature is rising by <m>4 \degree</m> every hour, we multiply the number of hours by 4 and add the result to 50 to get the new temperature. Thus, our equation is <m>T=50+4h</m>.</li>
-	<li><p>Step 1: We make a table of values for the equation. We choose some values for <m>h</m>, as shown in the first column of the table below. For each value of <m>h</m>, we evaluate the formula for <m>T</m>, and we record these values in the second column of the table.
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-                    <row bottom="minor">
-                        <cell><m>h</m></cell>
-                        <cell><m>T</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>\hphantom{0000}</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell>Ordered pairs</cell></row>
-                    <row> 
-                        <cell><m>0</m></cell>
-                        <cell><m>50</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>T=50+4(\alert{0})=50+0=50</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>(0,50)</m></cell></row>
-                    <row> 
-                        <cell><m>1</m></cell>
-                        <cell><m>50</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>T=50+4(\alert{1})=50+4=54</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>(1,54)</m></cell></row>
-                    <row> 
-                        <cell><m>3</m></cell>
-                        <cell><m>62</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>T=50+4(\alert{3})=50+12=62</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>(3,62)</m></cell></row>
-                    <row> 
-                        <cell><m>5</m></cell>    
-                        <cell><m>70</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>T=50+5(\alert{0})=50+20=70</m></cell>
-                        <cell><m>\hphantom{00}</m></cell>
-                        <cell><m>(5,70)</m></cell></row>
-                    </tabular></sidebyside></p>
-	<p>Step 2: We use the values in the table to help us choose scales for the axes. For this graph, the  input values are less than 10, but the largest output value is 70. We use increments of 1 on the horizontal or <m>h</m>-axis and increments of 10 on the vertical or <m>T</m>-axis.</p>
-	<p>Step 3: Each ordered pair gives us a point on the graph. We plot the points on the grid and connect them with a smooth curve. All the points should lie on a straight line.
-	<sidebyside width="50%"><image source="images/fig-2-3-ex1.png"><description>graph</description></image></sidebyside>
-	</p></li></ol></p></solution></example>
+    <li>We set <m>h=0</m> at 6 am.  At that time, <m>T=50</m>.  Because the temperature is rising by <m>4 \degree</m> every hour, we multiply the number of hours by 4 and add the result to 50 to get the new temperature. Thus, our equation is <m>T=50+4h</m>.</li>
+    <li><p>Step 1: We make a table of values for the equation. We choose some values for <m>h</m>, as shown in the first column of the table below. For each value of <m>h</m>, we evaluate the formula for <m>T</m>, and we record these values in the second column of the table.
+    <sidebyside><tabular  halign="center" left="minor">              
+        <col top="minor" right="minor"/>
+        <col top="minor" right="minor"/>
+        <col />
+        <col halign="left" left="none" right="none"/>
+        <col top="none"  bottom="none"/>
+        <col />
+        <row>
+            <cell bottom="minor"><m>h</m></cell>
+            <cell bottom="minor"><m>T</m></cell>
+            <cell><m>\hphantom{000}</m></cell>
+            <cell></cell>
+            <cell><m>\hphantom{00}</m></cell>
+            <cell>Ordered pairs</cell></row>
+        <row> 
+            <cell bottom="minor"><m>0</m></cell>
+            <cell bottom="minor"><m>50</m></cell>
+            <cell></cell>
+            <cell><m>T=50+4(\alert{0})=50+0=50</m></cell>
+            <cell></cell>
+            <cell><m>(0,50)</m></cell></row>
+        <row> 
+            <cell bottom="minor"><m>1</m></cell>
+            <cell bottom="minor"><m>50</m></cell>
+            <cell></cell>
+            <cell><m>T=50+4(\alert{1})=50+4=54</m></cell>
+            <cell></cell>
+            <cell><m>(1,54)</m></cell></row>
+        <row> 
+            <cell bottom="minor"><m>3</m></cell>
+            <cell bottom="minor"><m>62</m></cell>
+            <cell></cell>
+            <cell><m>T=50+4(\alert{3})=50+12=62</m></cell>
+            <cell></cell>
+            <cell><m>(3,62)</m></cell></row>
+        <row> 
+            <cell bottom="minor"><m>5</m></cell>    
+            <cell bottom="minor"><m>70</m></cell>
+            <cell></cell>
+            <cell><m>T=50+5(\alert{0})=50+20=70</m></cell>
+            <cell></cell>
+            <cell><m>(5,70)</m></cell></row>
+        </tabular></sidebyside></p>
+    <p>Step 2: We use the values in the table to help us choose scales for the axes. For this graph, the  input values are less than 10, but the largest output value is 70. We use increments of 1 on the horizontal or <m>h</m>-axis and increments of 10 on the vertical or <m>T</m>-axis.</p>
+    <p>Step 3: Each ordered pair gives us a point on the graph. We plot the points on the grid and connect them with a smooth curve. All the points should lie on a straight line.
+    <sidebyside width="50%"><!--<image source="images/fig-2-3-ex1.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-3-ex1">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.5]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (O)--(11,0) node[right]{$h$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,11) node[left, xshift=2]{$T$};
+        \foreach \x in  {5,10} {
+         \draw[black] (\x,.15) --++(0,-.3)  node[below]   {\x};
+        }
+        \foreach \y [evaluate=\y as \yi using int( 10* \y )] in  {5,10} {
+         \draw[black] (.15,\y) --++(-.3,0)  node[left]   {\yi};
+        }
+        \draw [red, very thick]  (0,5) -- (10,9);
+        \node[below left, xshift=1] at (O) {0};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
+    </p></li></ol></p></solution></example>
 
 <reading-questions>
     <exercise number="1"><statement><p>A linear equation has the form <fillin characters="6"/>.</p></statement>

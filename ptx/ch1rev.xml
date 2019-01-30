@@ -467,7 +467,7 @@
 	<li>Make a table of values and graph your equation.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>n=2s</m></li>
-    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><sidebyside widths="25% 40%" valigns="middle middle" margins="0% 10%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>s</m></cell>
                         <cell><m>2</m></cell>
@@ -480,7 +480,30 @@
                         <cell><m>6</m></cell>
                         <cell><m>10</m></cell>
                         <cell><m>16</m></cell></row>
-                    </tabular></sidebyside></li></ol></p></answer></exercise>
+                    </tabular>
+    <image xml:id="cr1-19bans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=0.4, yscale=.2]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[ystep=2] (10,20);
+        \draw[black,thick, ->, >=stealth'] (O)--(11,0) node[right]{$s$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,22) node[left]{$n$};
+        \foreach \x in  {5,10} {
+         \draw[black, thick] (\x,.3) --++(0,-.6)  node[below]   {\x};
+        }
+        \foreach \y in  {10,20} {
+         \draw[black, thick] (.1,\y) --++(-.2,0)  node[left]   {\y};
+        }
+        \draw [red, very thick]  (O) -- (10,20);
+        \node[below left, xshift=1] at (O) {0};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+            </sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>Match each equation with its graph.<ol label="a" cols="3">
 	<li><m>y=8-x</m></li>

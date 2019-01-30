@@ -8,12 +8,31 @@
 
 <p>Numbers greater than zero are called <term>positive numbers</term>, and numbers less than zero are <term>negative numbers</term>. We use a <term>number line</term> to illustrate relationships among numbers.
 
-<sidebyside width="70%"><image source="images/fig-2-1-1.png"><description>number line</description></image></sidebyside>
+<sidebyside width="70%"><!--<image source="images/fig-2-1-1.png"><description>number line</description></image>-->
+    <image xml:id="fig-2-1-1">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.5]
+        \draw[black,thick,->,>=stealth'] (-11.8,0) -- (11.8,0);
+        \foreach \x in  {-11, -10,...,11} {
+         \draw[black] (\x,0.3) --++(0,-0.3);
+        }
+        \foreach \x in  {-10, -5, ..., 10} {
+         \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below]   {$\x$};
+        }
+        \node[below,text=bold] at (0,-1.3) {\textbf{A Number Line}};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced intervals. These numbers are called the <term>natural</term> or <term>counting numbers</term>. The <term>whole numbers</term> include the natural numbers and zero:  0, 1, 2, 3, ... .</p> 
 
 <assemblage><p>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>:
-	<me> \cdots -3,~ -2,~ -1,~ 0,~ 1,~ 2,~ 3 \cdots</me></p></assemblage> 
+    <me> \cdots -3,~ {-2},~ {-1},~ 0,~ 1,~ 2,~ 3 \cdots</me></p></assemblage> 
 
 <p>Fractions, such as <m>\dfrac{2}{3}, -\dfrac{5}{4}</m> and <m>3.6</m>, lie between the integers on the number line.</p>
 
@@ -24,7 +43,28 @@ To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced interv
 
 <p>	As we move from left to right on a number line, the numbers increase. In the figure below, the graph of 6 lies to the left of the graph of 2. Therefore, 6 is less than 2, or, equivalently, 2 is greater than 6.</p> 
 
-<sidebyside width="80%"><image source="images/fig-2-1-2.png"><description>number line</description></image></sidebyside>
+<sidebyside width="80%"><!--<image source="images/fig-2-1-2.png"><description>number line</description></image>-->
+    <image xml:id="fig-2-1-2">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=0.5]
+		\draw[black,thick,->,>=stealth'] (-11.8,0) -- (11.8,0);
+		\foreach \x in  {-11, -10,...,11} {
+		 \draw[black] (\x,0.25) --++(0,-0.25);
+		}
+		\foreach \x in  {-10, -8, ..., 10} {
+		 \draw[black, thick] (\x,.3) --++(0,-0.3)  node[below, yshift=-2, scale=.9]   {$\x$};
+		}
+		\foreach \x in {-6,-2} {
+		 \filldraw[blue] (\x,0) circle (.2);
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <assemblage><p>We use special symbols to indicate order:
 	<me>\begin{aligned}
@@ -33,14 +73,31 @@ To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced interv
                 \end{aligned}</me></p></assemblage>
 
 <p>For example,
-	<me>\begin{aligned}
-                -6 \lt -2 \amp ~~~~ \text{means}~~~~  -6~~ \text{is less than}~~ -2\\
-                -2 \gt -6 \amp ~~~~ \text{means}~~~~  -2~~ \text{is greater than}~~ -6               
-                \end{aligned}</me>
-
+    <md>
+        <mrow>-6 \lt -2 \amp ~~~~ \text{means}~~~~  {-6}~~ \text{is less than}~~ {-2}</mrow>
+        <mrow>-2 \gt -6 \amp ~~~~ \text{means}~~~~  {-2}~~ \text{is greater than}~~ {-6}</mrow>             
+    </md>
 The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smaller number.</p>
 
-<sidebyside width="65%"><image source="images/fig-2-1-3.png"><description>graphic</description></image></sidebyside>
+<sidebyside width="65%"><!--<image source="images/fig-2-1-3.png"><description>graphic</description></image>-->
+    <image xml:id="fig-2-1-3">
+        <description>graphic with inequality symbols</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} 
+		\coordinate (O) at (0,0);
+		\node at (O) {$3 < 5$};
+		\draw[blue, <-, >=stealth'] (O)++(0,-.25)--++(0,-.6)--++(-1,0) node[left, scale=.9, align=left]{points to \\ smaller number};
+
+		\coordinate (O) at (3,0);
+		\node at (O) {$5 > 3$};
+		\draw[blue, <-, >=stealth'] (O)++(0,-.25)--++(0,-.6)--++(1,0) node[right, scale=.9, align=left]{points to \\ smaller number};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <example><statement><p><ol label="a">
 	<li>Which is the lower altitude, <m>-81</m> feet or <m>-94</m> feet?</li>
@@ -59,7 +116,29 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 	<li>Graph the first number, <m>+5</m>, as shown below.</li>  
 	<li>Move <m>3</m> units in the positive direction, or to the right.</li>  
 	<li>This brings us to the sum, which is <m>+8</m>.  Thus, <m>5+3=8</m>.</li></ol></p> 
-<sidebyside width="75%"><image source="images/fig-2-1-4.png"><description>number line</description></image></sidebyside>
+<sidebyside width="75%"><!--<image source="images/fig-2-1-4.png"><description>number line</description></image>-->
+    <image xml:id="fig-2-1-4">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=0.5]
+		\draw[black,thick,->,>=stealth'] (-11.8,0) -- (11.8,0);
+		\foreach \x in  {-11, -10,...,11} {
+		 \draw[black] (\x,0.3) --++(0,-0.3);
+		}
+		\foreach \x in  {-10, -5, ..., 10,8} {
+		 \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below, yshift=-2]   {$\x$};
+		}
+		\foreach \x in {5,8} {
+		 \filldraw[red] (\x,0) circle (.2);
+		}
+		\draw[cyan, ->, >=stealth'] (5,.53)--++(0,.3)--++(3,0) node[above, midway, scale=.9]{$+3$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </assemblage> 
 
 <assemblage><title>Case 2: The sum of two negative numbers</title>
@@ -67,7 +146,29 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 	<li>Graph the first number, <m>-5</m>, as shown below.</li>  
 	<li>Move <m>3</m> units in the negative direction, or to the left.</li>  
 	<li>This brings us to the sum, <m>-8</m>, as expected.  Thus, <m>(-5)+(-3)=-8</m>.</li></ol></p> 
-<sidebyside width="75%"><image source="images/fig-2-1-5.png"><description>number line</description></image></sidebyside>
+<sidebyside width="75%"><!--<image source="images/fig-2-1-5.png"><description>number line</description></image>-->
+    <image xml:id="fig-2-1-5">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=0.5]
+		\draw[black,thick,->,>=stealth'] (-11.8,0) -- (11.8,0);
+		\foreach \x in  {-11, -10,...,11} {
+		 \draw[black] (\x,0.3) --++(0,-0.3);
+		}
+		\foreach \x in  {-10, -5, ..., 10,-8} {
+		 \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below, yshift=-2]   {$\x$};
+		}
+		\foreach \x in {-5,-8} {
+		 \filldraw[red] (\x,0) circle (.2);
+		}
+		\draw[cyan, ->, >=stealth'] (-5,.53)--++(0,.3)--++(-3,0) node[above, midway, scale=.9]{$-3$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </assemblage> 
 
 <assemblage><title>Look Closer</title>
@@ -91,7 +192,30 @@ where debts are represented by negative numbers and assets by positive numbers. 
 	<li>Graph the first number, <m>-9</m>, as shown below.</li>  
 	<li>Move <m>6</m> units in the positive direction, or to the right.</li>  
 	<li>This brings us to the sum, <m>-3</m>.  Thus, <m>(-9)+(+6)=-3</m>.</li></ol></p> 
-<sidebyside width="75%"><image source="images/fig-2-1-6.png"><description>number line</description></image></sidebyside>
+<sidebyside width="75%"><!--<image source="images/fig-2-1-6.png"><description>number line</description></image>-->
+    <image xml:id="fig-2-1-6">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=0.5]
+		\draw[black,thick,->,>=stealth'] (-11.8,0) -- (11.8,0);
+		\foreach \x in  {-11, -10,...,11} {
+		 \draw[black] (\x,0.3) --++(0,-0.3);
+		}
+		\foreach \x in  { -5, 0,5, 10} {
+		 \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below, yshift=-2, scale=.9]   {$\x$};
+		}
+		\node[below, yshift=-2, scale=.9] at (-10.25,0) {$-10$};
+		\foreach \x in {-9,-3} {
+		 \filldraw[red] (\x,0) circle (.2) node[below, yshift=-3, scale=.8] {$\x$};
+		}
+		\draw[cyan, ->, >=stealth'] (-9,.43)--++(0,.3)--++(6,0) node[above, midway, scale=.9]{$+6$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </assemblage> 
 
 <assemblage><title>Look Closer</title>
@@ -130,7 +254,29 @@ where debts are represented by negative numbers and assets by positive numbers. 
 	<li>Plot <m>9</m> on the number line.</li>  
 	<li>Move <m>5</m> units to the left, to indicate subtraction.</li>  
 	<li>The result is <m>4</m>. The picture is identical to the graph above. </li></ol></p>
-<sidebyside width="75%"><image source="images/fig-2-1-7.png"><description>number line</description></image></sidebyside>
+<sidebyside width="75%"><!--<image source="images/fig-2-1-7.png"><description>number line</description></image>-->
+    <image xml:id="fig-2-1-7">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=0.5]
+		\draw[black,thick,->,>=stealth'] (-11.8,0) -- (11.8,0);
+		\foreach \x in  {-11, -10,...,11} {
+		 \draw[black] (\x,0.3) --++(0,-0.3);
+		}
+		\foreach \x in  {-10, -5, 0,5, 10} {
+		 \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below, yshift=-2, scale=.9]   {$\x$};
+		}
+		\foreach \x in {4,9} {
+		 \filldraw[red] (\x,0) circle (.2) node[below, yshift=-3, scale=.8] {$\x$};
+		}
+		\draw[cyan, ->, >=stealth'] (9,.43)--++(0,.3)--++(-5,0) node[above, midway, scale=.9]{$-5$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </assemblage>
 
 <assemblage><title>Look Closer</title>
@@ -142,9 +288,55 @@ where debts are represented by negative numbers and assets by positive numbers. 
 
 <assemblage><p>Compare the graphs for adding <m>-3</m> and subtracting <m>-3</m><ul>
 	<li>Addition:	<m>~~~~5+(-3)~~~~</m>   Move 3 units to the left, to get 2.
-		<sidebyside width="75%"><image source="images/fig-2-1-8.png"><description>number line</description></image></sidebyside></li>
+		<sidebyside width="75%"><!--<image source="images/fig-2-1-8.png"><description>number line</description></image>-->
+    <image xml:id="fig-2-1-8">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=0.5]
+		\draw[black,thick,->,>=stealth'] (-11.8,0) -- (11.8,0);
+		\foreach \x in  {-11, -10,...,11} {
+		 \draw[black] (\x,0.3) --++(0,-0.3);
+		}
+		\foreach \x in  {-10, -5, 0,5, 10} {
+		 \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below, yshift=-2, scale=.9]   {$\x$};
+		}
+		\foreach \x in {2} {
+		 \filldraw[red] (\x,0) circle (.2) node[below, yshift=-3, scale=.8] {$\x$};
+		}
+		\filldraw[red] (5,0) circle (.2);
+		\draw[cyan, ->, >=stealth'] (5,.53)--++(0,.3)--++(-3,0) node[above, midway, scale=.9]{$-3$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+		</sidebyside></li>
 	<li>Subtraction:  <m>~~~~5-(-3)~~~~</m>   Move 3 units to the right, to get 8. 
-		<sidebyside width="75%"><image source="images/fig-2-1-9.png"><description>number line</description></image></sidebyside></li></ul></p></assemblage>
+		<sidebyside width="75%"><!--<image source="images/fig-2-1-9.png"><description>number line</description></image>-->
+    <image xml:id="fig-2-1-9">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=0.5]
+		\draw[black,thick,->,>=stealth'] (-11.8,0) -- (11.8,0);
+		\foreach \x in  {-11, -10,...,11} {
+		 \draw[black] (\x,0.3) --++(0,-0.3);
+		}
+		\foreach \x in  {-10, -5, 0,5, 10} {
+		 \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below, yshift=-2, scale=.9]   {$\x$};
+		}
+		\foreach \x in {8} {
+		 \filldraw[red] (\x,0) circle (.2) node[below, yshift=-3, scale=.8] {$\x$};
+		}
+		\filldraw[red] (5,0) circle (.2);
+		\draw[cyan, ->, >=stealth'] (5,.53)--++(0,.3)--++(3,0) node[above, midway, scale=.9]{$-(-3)$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+		</sidebyside></li></ul></p></assemblage>
 
 <assemblage><title>Look Closer</title>
 <p>Notice that
