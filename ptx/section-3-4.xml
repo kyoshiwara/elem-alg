@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Slope-INtercept-Form"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Slope-Intercept Form</title>
+
+<subsection><title>Writing a Linear Equation</title>
+
+<p>In Lesson 3.3, we plotted data for the temperature inside an oven used to cure pottery.
+	<sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
+                    <row bottom="minor">
+                        <cell>Time, <m>x</m></cell>
+                        <cell>0</cell>
+                        <cell>10</cell>
+                        <cell>20</cell>
+                        <cell>30</cell>
+                        <cell>40</cell>
+                        <cell>50</cell>
+                        <cell>60</cell></row>
+                    <row> 
+                        <cell>Temperature, <m>y</m></cell>
+                        <cell>70</cell>
+                        <cell>74</cell>
+                        <cell>78</cell>
+                        <cell>82</cell>
+                        <cell>86</cell>
+                        <cell>90</cell>
+                        <cell>94</cell></row>
+                    </tabular>
+    <image source="images/fig-3-3-ex1.png"><description>graph</description></image></sidebyside></p>
+<p>We computed the slope of the graph, shown in the figure. The slope is 
+	<me>\dfrac{\text{change in temperature}}{\text{change in time}} = \dfrac{\Delta y}{\Delta x} = \dfrac{\text{4 degrees}}{\text{10 minutes}}</me>
+or <m>m=0.4</m> degrees per minute.</p>
+<p>	You can see from either the table or the graph that the <m>y</m>-intercept is the point <m>(0,70)</m>. This means that the initial temperature inside the drying oven was 70 degrees.</p>
+
+<assemblage><title>Look Ahead</title>
+<p>If we know two pieces of information about a line: its slope and its initial value or <m>y</m>-intercept, we can write its equation.</p></assemblage>
+
+<example><statement><p>Write an equation for the temperature, <m>H</m>, inside the pottery drying oven <m>t</m> minutes after the oven is turned on.</p></statement>
+
+<solution><p>The initial temperature in the oven was 70 degrees, so <m>H=70</m> when <m>t=0</m>. The temperature rose at a rate of 0.4 degrees per minute, so we add 0.4 degrees to <m>H</m> for each minute that passes. After <m>t</m> minutes, we have added <m>0.4t</m> degrees, giving us a temperature of
+	<me>H = 70 + 0.4t</me>
+We can also write the equation as  <m>H=0.4t+70</m>.</p></solution></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>What does the constant term in an equation tell us about the graph?</p></statement>
+    	<answer><p>The vertical intercept</p></answer></exercise>
+    <exercise number="2"><statement><p>What does the coefficient of the input variable tell us?</p></statement>
+    	<answer><p>The slope of the graph</p></answer></exercise>
+</reading-questions>
+
+<p>From Example 1, we see that the coefficients of a linear equation tell us something about its graph.</p>
+
+<assemblage><p><ol label="1">
+	<li>The constant term tells us the vertical intercept of the graph.</li> 
+	<li>The coefficient of the input variable tells us the slope of the graph.</li></ol></p></assemblage>
+
+<assemblage><title>Slope-Intercept Form</title>
+<p>A linear equation written in the form
+		<me>y=mx+b</me>
+is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and<m>b</m> is the <m>y</m>-intercept.</p></assemblage>
+
+<reading-questions>
+    <exercise number="3"><statement><p>What does the <m>y</m>-intercept tell us in Example 1?</p></statement>
+    	<answer><p>The initial temperature inside the oven</p></answer></exercise>
+    <exercise number="4"><statement><p>What is the slope-intercept form of an equation?</p></statement>
+    	<answer><p><m>y=mx+b</m></p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Slope-Intercept Method of Graphing</title>
+<p>A linear equation has the form <m>Ax+By=C</m>, and its graph is a straight line.  We have already studied two methods for graphing linear equations:<ol label="1">  
+	<li>Make a table of values and plot points</li>  
+	<li>Find and plot the intercepts (the intercept method)</li></ol></p>
+
+<p>There is a third graphing method that makes use of the slope of the line. We can use the slope-intercept form to sketch a graph quickly, without having to plot a lot of points.</p>
+
+<example><statement><p>Graph the equation <m>~y=\dfrac{3}{4}x-2</m></p></statement>
+
+<solution><p>The slope of the line is <m>\dfrac{3}{4}</m> and its <m>y</m>-intercept is the point <m>(0,-2)</m>. We begin by plotting the <m>y</m>-intercept, as shown in the figure. Next, we use the slope to find another point on the line. 
+	<sidebyside width="40%"><image source="images/fig-3-4-ex2.png"><description>graph</description></image></sidebyside>
+The slope,
+	<me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{4}</me>
+gives the ratio of the change in <m>y</m>-coordinate to the change in <m>x</m>-coordinate as we move from any point on the line to another. Thus, starting at the point <m>(0,-2)</m>, we move: <ul>
+	<li>3 units up (the positive <m>y</m>-direction),then</li>
+	<li>4 units right (the positive <m>x</m>-direction )</li></ul>
+to locate another point on the line. The coordinates of this new point are <m>(4,1)</m>. Finally,we draw a line through the two points, as shown in the figure.</p></solution></example>
+
+<assemblage><title>Look Closer</title>
+<p>To improve the accuracy of the graph in Example 2, we can find a third point on the line by writing the slope in an equivalent form. We change the sign of both numerator and denominator of the slope to get  
+	<me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{-3}{-4}</me>
+Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units down and 4 units left, and find the point <m>(-4,-5)</m> on the graph.</p></assemblage>
+
+<reading-questions>
+    <exercise number="5"><statement><p>Name two methods of graphing that we have already studied.</p></statement>
+    	<answer><p>Plotting points and the intercept method</p></answer></exercise>
+    <exercise number="6"><statement><p>When using the slope-intercept method, what is the first point we plot?</p></statement>
+    	<answer><p>the <m>y</m>-intercept</p></answer></exercise>
+    <exercise number="7"><statement><p>How do we use the slope to find a second point on the line?</p></statement>
+    	<answer><p>From the <m>y</m>-intercept, move <m>{\Delta y}</m> units in the <m>y</m>-direction and <m>{\Delta x}</m> units in the <m>x</m>-direction</p></answer></exercise>
+</reading-questions>
+
+<p>The slope-intercept method can be used to graph any non-vertical line.</p>
+
+<assemblage><title>To Graph a Line Using the Slope-Intercept Method</title>
+<p><ol label="1">
+	<li>Write the equation in the form <m>y=mx+b</m>.</li> 
+	<li>Plot the  <m>y</m>-intercept, <m>(0,b)</m>.</li> 
+	<li>Write the slope as a fraction, <m>m = \dfrac{\Delta y}{\Delta x}</m>.</li> 
+	<li>Use the slope to find a second point on the graph:
+	Starting at the <m>y</m>-intercept, move <m>{\Delta y}</m> units in the <m>y</m>-direction, then <m>{\Delta x}</m> units in the <m>x</m>-direction.</li>
+	<li>Find a third point by moving <m>{-\Delta y}</m> units in the <m>y</m>-direction, then <m>{-\Delta x}</m> units in the <m>x</m>-direction, starting from the <m>y</m>-intercept.</li>
+	<li>Draw a line through the three plotted points.</li></ol></p></assemblage>
+</subsection>
+
+<subsection><title>Finding the Slope-Intercept Form</title>
+<p>Not all linear equations appear in slope-intercept form. However, we can write the equation of any non-vertical line in slope-intercept form by solvingthe equation for <m>y</m> in terms of <m>x</m>.</p>
+
+<example><statement><p>Find the slope and <m>y</m>-intercept of the graph of <m>~3x-4y=8</m></p></statement>
+
+<solution><p>To write the equation in slope-intercept form, we solve for <m>y</m> in terms of <m>x</m>.
+ 	<me>\begin{aligned}
+                3x-4y \amp = 8 \amp\amp \blert{\text{Subtract}~ 3x ~ \text{from both sides.}}\\
+                -4y \amp = -3x+8 \amp\amp \blert{\text{Divide both sides by} ~-4.}\\
+                \dfrac{-4y}{-4} \amp = \dfrac{-3x+8}{-4} \amp\amp \blert{\text{Divide each term of the right side by} ~-4.}\\ 
+                y \amp = \dfrac{-3x}{-4}+\dfrac{-8}{-4} \amp\amp \blert{\text{Simplify each quotient.}}\\
+                y \amp = \dfrac{3}{4}x-2                
+                \end{aligned}</me>
+The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>b=-2</m>. Thus, the slope of the graph is <m>\dfrac{3}{4}</m> and the <m>y</m>-intercept is the point <m>(0,-2)</m>.</p></solution></example>
+
+<warning><p>Do not confuse solving for <m>y</m> with finding the <m>y</m>-intercept. In Example 3, we do not set <m>x=0</m> before solving for <m>y</m>. <ul> 
+	<li>When we find the <m>y</m>-intercept, we are looking for a specific point, namely, the point with <m>x</m>-coordinate zero, so we replace <m>x</m> by 0.</li>
+	<li> When we "solve for <m>y</m>," we are writing the equation in another form, so both variables, <m>x</m> and <m>y</m>, still appear in the equation.</li></ul></p></warning>
+
+<reading-questions>
+    <exercise number="8"><statement><p>How do we put an equation into slope-intercept form?</p></statement>
+    	<answer><p>By solving the equation for <m>y</m></p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup cols ="2"><introduction><p>Solve for the indicated variable.</p></introduction>
+
+<exercise number="1"><statement><p><m>2q+p=10~~~~~~~~</m> for <m>p</m></p></statement>
+<answer><m>10=2q</m></answer></exercise>
+
+<exercise number="2"><statement><p><m>2l+2w=18~~~~~~~~</m> for <m>l</m></p></statement>
+<answer><m>9-w</m></answer></exercise>
+
+<exercise number="3"><statement><p><m>3a+9=-6b~~~~~~~~</m> for <m>a</m></p></statement>
+<answer><m>-3-2b</m></answer></exercise>
+
+<exercise number="4"><statement><p><m>2c=2d+22~~~~~~~~</m> for <m>d</m></p></statement>
+<answer><m>c-11</m></answer></exercise>
+
+<exercise number="5"><statement><p><m>5r-4s=24~~~~~~~~</m> for <m>s</m></p></statement>
+<answer><m>\dfrac{5r-24}{4}</m></answer></exercise>
+
+<exercise number="6"><statement><p><m>2m=11-3n~~~~~~~~</m> for <m>n</m></p></statement>
+<answer><m>\dfrac{11-2m}{3}</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+<xi:include href="./hmwk-3-4.xml" />
+</section>  

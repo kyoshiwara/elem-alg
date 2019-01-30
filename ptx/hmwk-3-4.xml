@@ -1,0 +1,372 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 3.4</title>
+
+ <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, <ol label="a">
+	<li>Write the equation in slope-intercept form.</li>  
+	<li>State the slope and <m>y</m>-intercept of the graph.</li></ol></p></introduction>
+
+<exercise number="1"><statement><m>y=3x+4</m></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><m>6x+3y=6</m></statement></exercise>
+
+<exercise number="3"><statement><m>2x-3y=6</m></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><m>5x=4y</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, <ol label="a">  
+	<li>Find the slope and <m>y</m>-intercept of the line.</li>
+	<li>Write the equation for the line.</li></ol></p></introduction>
+
+<exercise number="5"><statement>
+	<sidebyside width="90%"><image source="images/hp-3-4-5.png"><description>graph</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement>
+	<sidebyside width="90%"><image source="images/hp-3-4-6.png"><description>graph</description></image></sidebyside></statement></exercise>
+
+<exercise number="7"><statement>
+	<sidebyside width="90%"><image source="images/hp-3-4-7.png"><description>graph</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement>
+	<sidebyside width="90%"><image source="images/hp-3-4-8.png"><description>graph</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup ><introduction><p>For Problems 9<ndash/>12, <ol label="a">  
+	<li>Fill in the <m>y</m>-values in the tables and graph the lines.</li> 
+	<li>Choose two points on each line and compute its slope.</li>
+	<li>What is the <m>y</m>-intercept of each line?</li></ol></p></introduction>
+
+<exercise number="9"><statement>
+	<sidebyside widths="50% 50%" valigns="middle middle">
+		<ol label="I">
+			<li><p><m>y=2x-6</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li>
+            <li><p><m>y=2x+1</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li>
+            <li><p><m>y=2x+3</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li></ol>
+        <image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside>
+    <p>All three lines have the same <fillin characters="6"/>.</p></statement>
+    <answer></answer></exercise>
+
+<exercise number="10"><statement>
+	<sidebyside widths="50% 50%" valigns="middle middle">
+		<ol label="I">
+			<li><p><m>y=\dfrac{-3}{2}x-4</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li>
+            <li><p><m>y=\dfrac{-3}{2}x+2</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li>
+            <li><p><m>y=\dfrac{-3}{2}x+6</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li></ol>
+        <image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside>
+    <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
+
+<exercise number="11"><statement>
+	<sidebyside widths="50% 50%" valigns="middle middle">
+		<ol label="I">
+			<li><p><m>y=\dfrac{1}{4}x+2</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li>
+            <li><p><m>y=\dfrac{1}{2}x+2</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li>
+            <li><p><m>y=x+2</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li></ol>
+        <image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside>
+    <p>All three lines have the same <fillin characters="6"/>.</p></statement>
+    <answer></answer></exercise>
+
+<exercise number="12"><statement>
+	<sidebyside widths="50% 50%" valigns="middle middle">
+		<ol label="I">
+			<li><p><m>y=-3x-2</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>6</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li>
+            <li><p><m>y=-2x-2</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>6</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li>
+            <li><p><m>y=\dfrac{-5}{3}x-2</m>
+			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>6</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p></li></ol>
+        <image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside>
+    <p>All three lines have the same <fillin characters="6"/>.</p></statement>
+    <answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>14, <ol label="a">  
+	<li>Find the intercepts of the graph and graph the line.</li>
+	<li>Compute the slope of the line.</li>
+	<li>Put the equation in slope-intercept form.</li></ol></p></introduction>
+
+<exercise number="13"><statement><p><m>3x+4y=12</m>
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>0</m></cell></row>
+                    </tabular></sidebyside></p>
+<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><p><m>y+3x-8=0</m>
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>0</m></cell></row>
+                    </tabular></sidebyside></p>
+<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>16, <ol label="a">  
+	<li>Put the equation in slope-intercept form.</li>
+	<li>What is the <m>y</m>-intercept of each line?  What is its slope?</li>
+	<li>Use the slope to find two more points on the line.</li>
+	<li>Graph the line.</li></ol></p></introduction>
+
+<exercise number="15"><statement><p><m>3x-5y=0</m></p>
+<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p><m>5x+4y=0</m></p>
+<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, graph the equation by using the slope-intercept method.</p></introduction>
+
+<exercise number="17"><statement><p><m>y=3-x</m></p>
+<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><m>y=3x-1</m></p>
+<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+
+<exercise number="19"><statement><p><m>y=\dfrac{3}{4}x+2</m></p>
+<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p><m>y=-2-\dfrac{4}{3}x</m></p>
+<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+</exercisegroup>
+
+<exercise number="21"><statement><p>Robin opened a yogurt smoothie shop near campus. The graph shows Robin's profit <m>P</m> after selling <m>s</m> smoothies.</p>
+<sidebyside width="40%"><image source="images/hp-3-4-21.png"><description>graph</description></image></sidebyside>
+<p><ol label="a">
+	<li>What is the <m>P</m>-intercept of the line?</li>
+	<li>Calculate the slope of the line.</li>
+	<li>Write an equation for the line in slope-intercept form.</li>
+	<li>What do the slope and the <m>P</m>-intercept tell us about the problem?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercisegroup><introduction><p>For Problems 22<ndash/>24, <ol label="a">  
+	<li>Graph the line by the slope-intercept method.</li>  
+	<li>Explain what the slope and the vertical intercept tell us about the problem.</li></ol></p></introduction>
+
+<exercise number="22"><statement><p>Serda's score on her driving test is computed by the equation <m>S=120-4n</m>, where <m>n</m> is the number of wrong answers she gives.</p>
+<sidebyside width="50%"><image source="images/hp-3-4-22.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+
+<exercise number="23"><statement><p>Greg is monitoring the growth of a new variety of string beans. The height of the vine each day is given in inches by <m>h=18+3d</m> where <m>d=0</m> represents today.</p>
+<sidebyside width="50%"><image source="images/hp-3-4-23.png"><description>grid</description></image></sidebyside>
+</statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p>Cliff's score was negative at the end of the first round of College Quiz, but in Double Quiz his score improved according the equation <m>S=-400+20q</m>, where <m>q</m> is the number of questions he answered.</p>
+<sidebyside width="55%"><image source="images/hp-3-4-24.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+</exercisegroup>
+
+</exercises>
