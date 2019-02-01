@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Properties-of-Lines"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Properties of Lines</title>
+
+<subsection><title>Parallel and Perpendicular Lines</title>
+
+<p>Lines that lie in the same plane but never intersect are called <term>parallel</term> lines. It is easy to understand that parallel lines have the same slope.</p>
+
+<exercise><statement>
+	<sidebyside widths="50% 35%"><p>Calculate the slopes of the two parallel lines in the figure. (We denote the slope of the first line by <m>m_1</m> and the slope of the second line by <m>m_2</m>.)
+	<md>
+		<mrow>m_1 = \dfrac{\Delta y}{\Delta x} = </mrow>
+		<mrow>m_2 = \dfrac{\Delta y}{\Delta x} = </mrow></md></p>
+	<image source="images/fig-3-5-1.png"><description>graph</description></image></sidebyside></statement></exercise>
+
+<p>Lines that intersect at right angles are called <term>perpendicular</term> lines. It is a little harder to see the relationship between the slopes of perpendicular lines.</p>
+
+<exercise><statement>
+	<sidebyside widths="50% 35%"><p>Calculate the slopes of the two perpendicular lines in the figure. 
+	<md>
+		<mrow>m_1 = \dfrac{\Delta y}{\Delta x} = </mrow>
+		<mrow>m_2 = \dfrac{\Delta y}{\Delta x} = </mrow></md></p>
+	<image source="images/fig-3-5-2.png"><description>graph</description></image></sidebyside></statement></exercise>
+
+<p>In the Checkpoint above, note that the product of <m>m_1</m> and <m>m_2</m> is <m>-1</m>, that is,
+	<me>m_1 m_2 = \dfrac{1}{2} (-2) = -1</me>
+This relationship holds for any pair of perpendicular lines.</p>
+
+<assemblage><title>Parallel and Perpendicular Lines</title>
+<p><ol label="1">
+	<li><p>Two lines are parallel if their slopes are equal, that is, if
+		<me>m_1 = m_2</me>		
+	or if both lines are vertical.</p></li>
+	<li><p>Two lines are perpendicular if the product of their slopes is <m>-1</m>, that is, if 
+		<me>m_1 m_2 = -1</me>
+	or if one of the lines is horizontal and one is vertical.</p></li></ol></p></assemblage>
+
+<reading-questions>
+    <exercise number="1"><statement><p>What do we call two lines that lie in the same plane but never intersect?</p></statement>
+    	<answer><p>Parallel lines</p></answer></exercise>
+    <exercise number="2"><statement><p>What are perpendicular lines?</p></statement>
+    	<answer><p>Lines that intersect at right angles</p></answer></exercise>
+</reading-questions>
+
+<example><statement><p>Decide whether the lines  
+      <me>2x+3y=6~~~~~~~~~ \text{and} ~~~~~~~~~3x-2y=6</me>        
+are parallel, perpendicular, or neither.</p></statement>
+
+<solution><p>We could graph the lines, but we can't be sure from a graph if the lines are exactly parallel or exactly perpendicular. A more accurate way to answer the question is to find the slope of each line. To do this we write each equation in slope-intercept form, that is, we solve for <m>y</m>.</p>
+<sidebyside widths="50% 50%">
+	<p><me>\begin{aligned}
+                2x+3y \amp = 6\\
+                3y \amp = -2x+6\\
+                y \amp = \dfrac{-2}{3}x+2    
+                \end{aligned}</me></p>
+
+	<p><me>\begin{aligned}
+                3x-2y \amp = 6\\
+                -2y \amp = -3x+6\\
+                y \amp = \dfrac{3}{2}x-3    
+                \end{aligned}</me></p></sidebyside>
+
+<p>The slope of the first line is <m>\dfrac{-2}{3}</m>, and the slope of the second line is <m>\dfrac{3}{2}</m>. The slopes are not equal, so the lines are not parallel. However, the product of the slopes is
+	<me>m_1 m_2 = (\dfrac{-2}{3}) (\dfrac{3}{2}) = -1</me>
+so the lines are perpendicular.</p></solution></example>
+
+<assemblage><title>Look Closer</title>
+<p>Another way to state the condition for perpendicular lines is 
+	<m>m_2 = \dfrac{-1}{m_1}</m>
+Because of this relationship, we often say that the slope of one perpendicular line is the <term>negative reciprocal</term> of the other.</p></assemblage>
+
+<reading-questions>
+    <exercise number="3"><statement><p>What is true about the slopes of parallel lines?</p></statement>
+    	<answer><p>They are equal.</p></answer></exercise>
+    <exercise number="4"><statement><p>What do we call the slopes of perpendicular lines?</p></statement>
+    	<answer><p>Negative reciprocals</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Equations for Horizontal and Vertical Lines</title>
+
+<p>In Lesson 3.3 we learned that the slope of a horizontal line is zero. What does this tell us about the equation of a horizontal line that passes through a particular point?</p>
+
+<example><statement><p>Find the equation of the horizontal line that passes through <m>(5,3)</m>.</p></statement>
+
+<solution><p>Looking at the graph of the line shown below, we see that the <m>y</m>-coordinate of every point on the line is 3.</p> 
+	<sidebyside width="40%"><image source="images/fig-3-5-ex2.png"><description>graph</description></image></sidebyside>
+<p>In particular, the <m>y</m>-intercept of the line is the point <m>(0,3)</m>, so <m>b=3</m>. As we noted above, the slope of the line is <m>m=0</m>. Substituting these values into the slope-intercept form gives us the equation 
+	<me>y= 0 \cdot x + 3</me>
+ or just <m>y=3</m>. The fact that <m>x</m> does not appear in the equation means that <m>y=3</m> for every point on the line, no matter what the value of <m>x</m> is.</p></solution></example> 
+
+<assemblage><title>Look Closer</title>
+<p>What about the equation of a vertical line? The slope of a vertical line is undefined; a vertical line does not have a slope. We cannot use the slope-intercept form to write the equation of a vertical line. However, we can use what we learned about horizontal lines in Example 2.</p>
+<sidebyside widths="55% 35%"> 
+<p>Look at the graph of the vertical line at right. Every point on the line has <m>x</m>-coordinate <m>-2</m>, no matter what the <m>y</m>-coordinate is. An equation for this line is <m>x=-2</m>. The value of <m>x</m> does not depend upon <m>y</m>; it is constant, so <m>y</m> does not appear in the equation.</p>
+<image source="images/fig-3-5-3.png"><description>graph</description></image></sidebyside></assemblage>
+
+<note><p>We make two observations about the examples above.<ul> 
+	<li>The <m>y</m>-intercept of the horizontal line <m>y=3</m> is <m>(0,3)</m>; it has no <m>x</m>-intercept.</li>
+	<li>The <m>x</m>-intercept of the vertical line <m>x=-2</m> is <m>(-2,0)</m>; it has no <m>y</m>-intercept.</li>
+</ul></p></note>
+
+<assemblage><title>Horizontal and Vertical Lines</title>
+<p><ol label="1">
+	<li><p>The equation of the horizontal line passing through <m>(0,b)</m> is
+			<me>\blert{y=b}</me></p></li>
+	<li><p>The equation of the vertical line passing through <m>(a,0)</m> is
+			<me>\blert{x=a}</me></p></li></ol></p></assemblage>
+
+<warning><p>The equation for a line is not the same thing as the slope of the line!<ul>
+ 	<li>The slope of every horizontal line is zero, but the equation of a horizontal line has the form <m>y=b</m>, where <m>b</m> is the <m>y</m>-coordinate of every point on the line.</li> 
+ 	<li>Similarly, the equation of a vertical line has the form <m>x=a</m>, but the slope of a vertical line is undefined.</li></ul></p></warning>
+
+<reading-questions>
+    <exercise number="5"><statement><p>Give an example of an equation of a vertical line.</p></statement>
+    	<answer><m>x=k</m></answer></exercise>
+    <exercise number="6"><statement><p>Give an example of an equation of a horizontal line.</p></statement>
+    	<answer><m>y=k</m></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Distance Between Points</title>
+
+<p>It is easy to compute the distance between two points that lie on the same horizontal or vertical line. We subtract the smaller coordinate from the larger one.</p>
+
+<example><statement><sidebyside widths="50% 40%"><p>The distance between the points <m>A(6, \blert{5})</m> and <m>B(6, \blert{-7})</m> in the figure is
+	<me>\Delta y = 5-(-7)=12</me>
+and the distance between points <m>C(\blert{-7}, -3)</m> and <m>D(\blert{-2}, -3)</m> is                
+	<me>\Delta x = -2-(-7)=5</me></p>
+<image source="images/fig-3-5-ex3.png"><description>graph</description></image></sidebyside></statement></example>	
+
+<p>Note that the <term>distance</term> between two points is always a positive number. That is why we always subtract the smaller coordinate from the larger one to compute distance. However, when we compute a slope, we need more information.</p>
+
+<assemblage><title>Look Closer</title>
+<p>When we compute slope, the direction in which we move on the line makes a difference. We will call this the <term>directed distance</term>, and it can be either positive or negative.</p>
+<p>If we move from <m>C</m> to <m>D</m>, we have moved in the positive <m>x</m>-direction, so the directed distance is positive: 
+	<me>\Delta x = -2-(-7)=5</me>
+If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-direction, so the directed distance is negative:                                        
+	<me>\Delta x = -7-(-2)=-5</me></p></assemblage>
+
+<assemblage><p>To find the <term>directed distance</term> between two points on a number line, we subtract the initial coordinate from the final coordinate.</p></assemblage>
+
+<reading-questions>
+    <exercise number="7"><statement><p>How do we find the distance between two points that lie on the same 
+		vertical line?</p></statement>
+    	<answer><p>Subtract the smaller <m>y</m>-coordinate from the larger one</p></answer></exercise>
+    <exercise number="8"><statement><p>A directed distance can be either <fillin characters="6"/> or <fillin characters="6"/>.</p></statement>
+    	<answer><p>positive, negative</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Look Ahead</title>
+<p>So far we have computed the slope of a line by finding <m>\Delta x</m> and <m>\Delta y</m> on the graph. Now we can use directed distance to develop a formula for slope.</p></assemblage>
+
+<example><statement><sidebyside widths="50% 45%"><p>Compute the slope of the line segment joining <m>P</m> and <m>R</m> in two ways:<ol label="a">
+	<li><p>Find <m>\Delta y</m> and <m>\Delta x</m> using the graph</p></li>
+	<li><p>Find <m>\Delta y</m> and <m>\Delta x</m> using coordinates.</p></li></ol></p>
+<image source="images/fig-3-5-ex4.png"><description>graph</description></image></sidebyside></statement>
+
+<solution><p><ol label="a">
+	<li><p>As we move from <m>P</m> to <m>Q</m>, we move up 2 squares on the graph, so <m>\Delta y = 2</m>. As 
+	we move from <m>Q</m> to <m>R</m>, we move 8 squares to the right, so <m>\Delta x = 8</m>. Thus, the slope of the line is 
+		<me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{8} = \dfrac{1}{4}</me></p></li>
+	<li><p>First we write down the coordinates of <m>P</m> and <m>Q</m>:       
+		<me>P(-3,\blert{-4})~~~~~~\text{and}~~~~~~Q(-3,\blert{-2})</me>
+	and compute the directed distance from <m>P</m> to <m>Q</m>:
+		<me>\Delta y = -2-(-4) = 2~~~~~~~~~~~~~~~~~~\blert{\text{final} - \text{initial}}</me>
+	Then we write down the coordinates of <m>Q</m> and <m>R</m>: 
+		<me>Q(\blert{-3},-2)~~~~~~\text{and}~~~~~~R(\blert{5},-2)</me>
+	 and compute the directed distance from <m>Q</m> to <m>R</m>:
+	      <me>\Delta x = 5-(-3) = 8~~~~~~~~~~~~~~~~~~\blert{\text{final} - \text{initial}}</me>
+	We get the same value for the slope as in part (a),   
+			<me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{8} = \dfrac{1}{4}</me></p></li></ol></p></solution></example>
+</subsection>
+
+<subsection><title>Subscript Notation</title>
+<p>When we compute the slope of a line joining two points, we must be careful to subtract their <m>x</m>-coordinates and their <m>y</m>-coordinates in the same order, final minus initial. To distinguish between the coordinates of different points, we use a new notation called <term>subscripts</term>.</p>
+
+<assemblage><p>We denote the coordinates of a particular point by <m>(x_1,y_1)</m> and the coordinates of a second point by <m>(x_2,y_2)</m>.</p></assemblage>
+
+<example><statement><sidebyside widths="50% 40%"><p>Compute the slope between point <m>D</m> and <m>F</m> in the figure.</p><image source="images/fig-3-5-ex5.png"><description>graph</description></image></sidebyside></statement>
+
+<solution><p>We'll call <m>D</m> the first point and <m>F</m> the second point. Then their coordinates are 
+	<md>
+		<mrow>D:~~~x_1=-6~~~~\text{and}~~~~y_1=-2</mrow>
+		<mrow>F:~~~x_2=9~~~~~\text{and}~~~~y_2=4</mrow></md>
+Now we can describe the formula for slope in an organized way. We compute <m>\Delta y</m> and <m>\Delta x</m> as directed distances. First, we observe that the coordinates of point <m>E</m> are <m>(-6,4)</m> or <m>(x_1,y_2)</m>. From the figure, we can see that  
+		<me>\Delta y = y_2-y_1 = 4-(-2)=6</me>
+and
+		<me>\Delta x = x_2-x_1 = 9-(-6)=15</me>
+Thus, the slope of the line segment joining <m>D</m> and <m>F</m> is
+		<me>m=\dfrac{y_2-y_1}{x_2-x_1} = \dfrac{6}{15} = \dfrac{2}{5}</me></p></solution></example>
+
+<warning><p>The subscript 1 on <m>x_1</m>, for instance, has nothing to do with the value of the coordinate; it merely identifies this coordinate as the <m>x</m>-coordinate of the first point.</p></warning>
+
+<reading-questions>
+    <exercise number="9"><statement><p>What do the subscripts in <m>(x_1,y_1)</m> mean?</p></statement>
+    	<answer><p>Coordinates of the first point</p></answer></exercise>
+    <exercise number="10"><statement><p>Write a formula for computing <m>\Delta y</m>.</p></statement>
+    	<answer><m>\Delta y= y_2-y_1</m></answer></exercise>
+</reading-questions> 
+</subsection>
+
+<subsection><title>A New Formula for Slope</title>
+<p>The method described in Example 5 gives us a new formula for computing slope.</p>
+
+<assemblage><title>Two-Point Formula for Slope</title>
+<p>The slope of the line joining points <m>P_1(x_1,y_1)</m> and <m>P_2(x_2,y_2)</m> is
+	<me>\blert{m=\dfrac{y_2-y_1}{x_2-x_1}}~~~~~~\text{if}~~~~x_2 \not= x_1</me></p></assemblage>
+
+<p>We don't need a graph in order to use this formula, just the coordinates of two points on the line.</p>
+
+<example><statement><p>Compute the slope of the line joining the points <m>(6,-2)</m> and <m>(3,-1)</m>.</p></statement>
+
+<solution><p>It doesn't matter which point is <m>P_1</m> and which is <m>P_2</m>, so we choose <m>P_1</m> to be <m>(6,-2)</m>. Then <m>(x_1,y_1)=(6,-2)</m> and <m>(x_2,y_2)=(3,-1)</m>. Thus,
+		<me>\begin{aligned}
+                m \amp = \dfrac{y_2-y_1}{x_2-x_1} \\
+                 \amp = \dfrac{-1-2}{3-(-6)} = \dfrac{-3}{9} = \dfrac{-1}{3}
+                \end{aligned}</me></p></solution></example>
+
+<warning><p>In Example 6, we can reverse the order of both subtractions to find
+		<me>\begin{aligned}
+                m \amp = \dfrac{y_1-y_2}{x_1-x_2} \\
+                 \amp = \dfrac{2-(-1)}{-6-3)} = \dfrac{3}{-9} = \dfrac{-1}{3}
+                \end{aligned}</me>
+the same answer as before. The order of the points does not matter, but we must be consistent and use the same order when computing <m>\Delta y</m> and<m>\Delta x</m>.</p></warning>
+
+<reading-questions>
+    <exercise number="11"><statement><p>What is wrong with this formula for slope: <m>m = \dfrac{y_2-y_1}{x_1-x_2}</m>?</p></statement>
+    	<answer><p>The <m>x</m>- and <m>y</m>-coordinates hould be subtracted in the same order.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup cols ="4"><introduction><p>For Problems 1-8, find the negative reciprocal.</p></introduction>
+
+<exercise number="1"><statement><m>\dfrac{3}{4}</m></statement>
+<answer><m>\dfrac{-4}{3}</m></answer></exercise>
+
+<exercise number="2"><statement><m>\dfrac{-1}{3}</m></statement>
+<answer><m>3</m></answer></exercise>
+
+<exercise number="3"><statement><m>-6</m></statement>
+<answer><m>\dfrac{1}{6}</m></answer></exercise>
+
+<exercise number="4"><statement><m>\dfrac{11}{8}</m></statement>
+<answer><m>\dfrac{-8}{11}</m></answer></exercise>
+
+<exercise number="5"><statement><m>1\dfrac{2}{3}</m></statement>
+<answer><m>\dfrac{-3}{5}</m></answer></exercise>
+
+<exercise number="6"><statement><m>-2\dfrac{1}{2}</m></statement>
+<answer><m>\dfrac{2}{5}</m></answer></exercise>
+
+<exercise number="7"><statement><m>-3.2</m></statement>
+<answer><m>0.3125</m></answer></exercise>
+
+<exercise number="8"><statement><m>0.625</m></statement>
+<answer><m>-1.6</m></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols ="3"><introduction><p>For Problems 9-14, simplify.</p></introduction>
+
+<exercise number="9"><statement><m>\dfrac{10-2}{2-9}</m></statement>
+<answer><m>\dfrac{-4}{3}</m></answer></exercise>
+
+<exercise number="10"><statement><m>\dfrac{-5(-5)}{2-8}</m></statement>
+<answer><m>0</m></answer></exercise>
+
+<exercise number="11"><statement><m>\dfrac{3}{2}(4-7)+\dfrac{1}{2}</m></statement>
+<answer><m>-4</m></answer></exercise>
+
+<exercise number="12"><statement><m>\dfrac{-6-(-12)}{3-(-5)}</m></statement>
+<answer><m>\dfrac{3}{4}</m></answer></exercise>
+
+<exercise number="13"><statement><m>-3(-4-2)-6</m></statement>
+<answer><m>12</m></answer></exercise>
+
+<exercise number="14"><statement><m>\dfrac{5}{3}(5-8)+3</m></statement>
+<answer><m>-2</m></answer></exercise>
+</exercisegroup>
+
+</exercises>
+</subsection>
+<xi:include href="./hmwk-3-5.xml" />
+</section>	
+

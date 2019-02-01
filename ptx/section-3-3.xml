@@ -63,7 +63,7 @@ The rate of change of one variable with respect to another is so important in ap
 <assemblage><title>Slope</title>
 <p>The <term>slope</term> of a line is defined by the ratio
 	<me>\blert{\dfrac{\text{change in } y\text{-coordinate}}{\text{change in } x\text{-coordinate}}}</me>
-as we move from one point to another on the line.  In symbols,
+as we move from one point to another on the line. In symbols,
 	<me>\blert{m=\dfrac{\Delta y}{\Delta x}}</me></p></assemblage>
 
 <assemblage><title>Look Closer</title>
