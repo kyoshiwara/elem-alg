@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 3.5</title>
+
+ <exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, decide whether the lines are parallel perpendicular, or neither.</p></introduction>
+
+ <exercise number="1"><statement>
+ 	<md>
+ 		<mrow>3x-4y=2</mrow>
+ 		<mrow>8y-6x=6</mrow></md></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement>
+ 	<md>
+ 		<mrow>3x-4y=2</mrow>
+ 		<mrow>8y-6x=6</mrow></md></statement></exercise>
+
+<exercise number="3"><statement>
+ 	<md>
+ 		<mrow>3x-4y=2</mrow>
+ 		<mrow>8y-6x=6</mrow></md></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="4" cols="4"><statement><p>The slopes of several lines are given below. Which of the lines are parallel to the graph of <m>y=0.75x+2</m>, and which are perpendicular to it?<ol label="a"  cols="4">
+	<li><m>\dfrac{3}{4}</m></li>
+	<li><m>\dfrac{8}{6}</m></li>
+	<li><m>\dfrac{-20}{15}</m></li>
+	<li><m>\dfrac{-39}{52}</m></li>
+	<li><m>\dfrac{4}{3}</m></li>
+	<li><m>\dfrac{-16}{12}</m></li>
+	<li><m>\dfrac{36}{48}</m></li>
+	<li><m>\dfrac{9}{12}</m></li></ol></p></statement></exercise>
+
+<exercisegroup cols="3"><introduction><p>For Problems 5<ndash/>7,<ol label="a">
+	<li>Sketch a rough graph of the equation, and label its intercept.</li>
+	<li>State the slope of the line.</li></ol></p></introduction>
+
+<exercise number="5"><statement><m>y=-3</m></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><m>2x=8</m></statement></exercise>
+
+<exercise number="7"><statement><m>x=0</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 8<ndash/>12, give the equation of the line described.</p></introduction>
+
+<exercise number="8"><statement><p>Horizontal, passes through <m>(6,-5)</m></p></statement></exercise>
+
+<exercise number="9"><statement><p> <m>m</m> is undefined, passes through <m>(2,1)</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><p>Parallel to <m>x=4</m>, passes through <m>(-8,3)</m></p></statement></exercise>
+
+<exercise number="11"><statement><p>The <m>x</m>-axis</p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p>Perpendicular to the <m>y</m>-axis, passes through <m>(4,-12)</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>16, state the <m>y</m>-intercept and the slope of the line.
+</p></introduction>
+
+<exercise number="13"><statement><m>y=-6</m></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><m>y=-6x</m></statement></exercise>
+
+<exercise number="15"><statement><m>x=-6y</m></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><m>x=6-y</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, compute the slope of the line joining the given points.
+</p></introduction>
+
+<exercise number="17"><statement><m>(5,2),~(8,7)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><m>(3,-2),~(0,1)</m></statement></exercise>
+
+<exercise number="19"><statement><m>(6,-2),~(-3,-3)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><m>(3,-5),~(8,-5)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 21<ndash/>23, <ol label="a">
+	<li>Find the <m>x</m>- and <m>y</m>-intercepts of each line.</li>
+	<li>Use the intercepts to compute the slope of the line.</li></ol></p></introduction>
+
+<exercise number="21"><statement><m>\dfrac{x}{5}+\dfrac{y}{7}=1</m></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><m>\dfrac{-x}{2.4}+\dfrac{y}{1.6}=1</m></statement></exercise>
+
+<exercise number="23"><statement><m>3x+\dfrac{2}{7}y=1</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 24<ndash/>25, you are given the slope of a line and one point on it. Use the grids to help you find the missing coordinates of the other points on the line.</p></introduction>
+
+<exercise number="24"><statement><p><m>m=2,~~(1,-1)</m><ol label="a" cols="2">
+	<li><m>(0,?)</m></li>
+	<li><m>(?,-7)</m></li></ol></p>
+	<sidebyside width="90%"><image source="images/hp-3-5-24.png"><description>grid</description></image></sidebyside>
+	</statement></exercise>
+
+<exercise number="25"><statement><p><m>m=\dfrac{-1}{2},~~(2,-6)</m><ol label="a" cols="2">
+	<li><m>(6,?)</m></li>
+	<li><m>(?,-3)</m></li></ol></p>
+	<sidebyside width="90%"><image source="images/hp-3-5-24.png"><description>grid</description></image></sidebyside>
+	</statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 26<ndash/>29, you are given the slope of a line and one point on it. Use the grids to help you find the missing coordinates of the other points on the linecalculate the slope of the line described, including units, and explain its meaning for the problem.</p></introduction>
+
+<exercise number="26"><statement><p>It cost Melanie $6.88 to copy and bind her 26-page paper at CopyQuik. It cost Nelson $8.80 to copy and bind his 50-page portfolio. The graph of the cost, <m>C</m>, of producing a document of length <m>p</m> pages at CopyQuik is a straight line.</p></statement></exercise>
+
+<exercise number="27"><statement><p>Rani and Larry start a college fund for their son, Colby. When Colby is five years old, the fund has $11,000. When he is 10 years old, the fund has grown to $17,000. The graph of the amount, <m>A</m>, in the fund when Colby is <m>n</m> years old is a straight line.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p>Dean is cycling down Mt. Whitney. After five minutes, his elevation is 9200 feet, and after 21 minutes, his elevation is 1200 feet. The graph of Dean's elevation, <m>h</m>, after cycling for <m>t</m> minutes is approximately a straight line.</p></statement></exercise>
+
+<exercise number="29"><statement><p>At 2 pm the temperature was <m>16 \degree</m>, and by midnight it had dropped to <m>14 \degree</m>. The graph of temperature, <m>T</m>, at <m>h</m> hours after noon is approximately a straight line.</p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="30"><statement><p>The figure shows the wholesale cost, <m>C</m>, in dollars, of <m>p</m> pounds of dry-roasted peanuts.</p>
+	<sidebyside width="40%"><image source="images/hp-3-5-30.png"><description>graph</description></image></sidebyside>
+<p><ol label="a">
+	<li>What does the slope of this graph tell you about dry-roasted peanuts?</li>
+	<li>Compute the slope, including units.</li>
+	<li>If the Lone Star Barbecue increases its weekly order of peanuts from 100 to 120 pounds, how much will the cost increase?</li></ol></p></statement></exercise>
+
+<exercise number="30"><statement><p>Roy is traveling home by train. The figure shows his distance <m>d</m> from home in miles <m>h</m> hours after the train started.</p>
+	<sidebyside width="40%"><image source="images/hp-3-5-31.png"><description>graph</description></image></sidebyside>
+<p><ol label="a">
+	<li>Compute the slope of the graph, including units.</li>
+	<li>What does the slope tell you about Roy's journey?</li>
+	<li>Find the vertical intercept of the graph. What is its meaning for the problem?</li>
+	<li>Compute the horizontal intercept of the graph. What is its meaning for the problem?</li></ol></p></statement>
+<answer></answer></exercise>
+
+</exercises>
