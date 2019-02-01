@@ -113,10 +113,54 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>26, write an algebraic expression for area or perimeter.</p></introduction>
 
-<exercise number="25"><statement><sidebyside width="65%"><image source="images/hp-2-2-25.png"><description>rectangle</description></image></sidebyside></statement>
+<exercise number="25"><statement><sidebyside width="65%"><!--<image source="images/hp-2-2-25.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-2-2-25">
+        <description>rectngle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} 
+		\coordinate(O) at (0,0);
+		\coordinate(A) at (3,1.9);
+		\draw[cyan,thick] (O) rectangle ++(.22,.22);
+		\draw[cyan,thick] (3,0) rectangle ++(-.22,.22);
+		\draw[cyan,thick] (A) rectangle ++(-.22,-.22);
+		\draw[red, ultra thick] (O) rectangle (A);
+		\node[below] at (1.5,0) {$5$};
+		\node[below, scale=.8] at (1.,-.4) {$\textbf{Perimeter}=$};
+		\node[left] at (0,.95) {$x$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer></answer></exercise>
 
-<exercise number="26"><statement><sidebyside width="85%"><image source="images/hp-2-2-26.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+<exercise number="26"><statement><sidebyside width="85%"><!--<image source="images/hp-2-2-26.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-2-2-26">
+        <description>rectangles</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} 
+		\coordinate(O) at (0,0);
+		\coordinate(A) at (4.5,2.5);
+		\coordinate(B) at (2.2,0);
+		\draw[cyan,thick] (O) rectangle ++(.22,.22);
+		\draw[cyan,thick] (B) rectangle ++(.22,.22);
+		\draw[cyan,thick] (A) rectangle ++(-.22,-.22);
+		\draw[cyan,thick] (4.5,0) rectangle ++(-.22,.22);
+		\draw[black, very thick] (B) --++(0,2.5);
+		\draw[red, ultra thick] (O) rectangle (A);
+		\node[below, scale=.8] at (1.,-.2) {$\textbf{Area}=$};
+		\node[left] at (0,1.25) {$7$};
+		\node[above] at (1.15,2.5) {$x$};
+		\node[above] at (3.35,2.5) {$6$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercise number="27"><statement><p>Salewa saved $5000 to live on while going to school full time. She spends $200 per week on living expenses.<ol label="a">

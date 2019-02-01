@@ -53,12 +53,12 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <example><statement><p>Simplify  <m>~~4-3-[-6+(-5)-(-2)]</m></p></statement>
 
 <solution><p>Perform the operations inside brackets first. Simplify each step by rewriting subtractions as equivalent additions. 
-	<me>\begin{aligned}
-              4-3- \amp [-6+\blert{(-5)-(-2)}] \amp  \blert{-5-(-2)=-5+2}\\
-                \amp = 4-3-[\blert{-6-5+2)}]    \amp \blert{-6-5=-11;~-11+2=-9}\\
-                \amp = 4 \blert{-3-[-9]}        \amp \blert{\text{Rewrite as an addition.}}\\
-                \amp = 4-3+9 = 10               \amp  \blert{\text{Add from left to right.}}           
-                \end{aligned}</me></p></solution></example>
+    <md>
+        <mrow>\amp 4-3- [-6+\blert{(-5)-(-2)}] \amp\amp  \blert{-5-(-2)=-5+2}</mrow>
+        <mrow>=\,\amp  4-3-[\blert{-6-5+2}] \amp\amp \blert{-6-5=-11;~-11+2=-9}</mrow>
+        <mrow>=\,\amp  4 \blert{-3-[-9]} \amp\amp \blert{\text{Rewrite as an addition.}}</mrow>
+        <mrow>=\,\amp  4-3+9 = 10 \amp\amp  \blert{\text{Add from left to right.}}</mrow>        
+    </md></p></solution></example>
 
 <reading-questions>
     <exercise number="5"><statement><p>Which operation is performed first in the expression <m>6-4x</m>?</p></statement>
@@ -91,12 +91,11 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <example><statement><p>Evaluate <m>2x-3xy</m> for <m>x=-5</m> and <m>y=-2</m>.</p></statement>
 
 <solution><p>We substitute <m>\alert{-5}</m> for <m>x</m> and <m>\blert{-2}</m> for <m>y</m>, then follow the order of operations.
-	<me>\begin{aligned}
-              2x-3xy \amp  2(\alert{-5})-3(\alert{-5})(\blert{-2})  \amp \blert{\text{ Do multiplications first.}}\\
-                \amp = -10-(-15)(-2)\\
-                \amp = -10-(-15)(-2)\\
-                \amp = -10-30=-40           
-                \end{aligned}</me></p></solution></example>
+    <md>
+        <mrow>2x-3xy \amp = 2(\alert{-5})-3(\alert{-5})(\blert{-2})  \amp \blert{\text{ Do multiplications first.}}</mrow>
+        <mrow>\amp = -10-(-15)(-2)</mrow>
+        <mrow>\amp = -10-30=-40</mrow>         
+    </md></p></solution></example>
 
 <reading-questions>
     <exercise number="8"><statement><p>When we evaluate an expression at a negative number, we should <fillin characters="6"/> the negative number in <fillin characters="6"/>.</p></statement>
