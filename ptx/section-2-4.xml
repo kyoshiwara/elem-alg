@@ -70,7 +70,7 @@ The solutions is 6.
 <reading-questions>
     <exercise number="1"><statement><p>If an equation involves more than one operation, how must we undo those 
 operations? </p></statement>
-    	<answer><m>In reverse order</m></answer></exercise>
+    	<answer><p>In reverse order</p></answer></exercise>
     <exercise number="2"><statement><p>Delbert says he solved the equation <m>-5x=15</m> by adding <m>5</m> to both sides. What is wrong with his method?</p></statement>
     	<answer><p>He should divide by <m>-5</m>.</p></answer></exercise>
 </reading-questions>
@@ -80,14 +80,14 @@ operations? </p></statement>
 <p>Problem solving often involves signed numbers, either in the equation that models the problem or in its solution, or both.</p>
 
 <example><statement><p>The trout population in Clear Lake is decreasing by approximately 60 fish per year, and this year there are about 430 trout in the lake. If the population drops to 100, the Park Service will have to restock the lake.<ol label="a">
-	<li>Write an equation for the population <m>P</m> of trout <m>x</m> years from now.</li>
-	<li>When will the Park Service have to restock the lake?</li>
-	<li>Graph your equation for <m>P</m>, and illustrate your answer to part (b) on the graph.</li></ol></p></statement>
+    <li>Write an equation for the population <m>P</m> of trout <m>x</m> years from now.</li>
+    <li>When will the Park Service have to restock the lake?</li>
+    <li>Graph your equation for <m>P</m>, and illustrate your answer to part (b) on the graph.</li></ol></p></statement>
 
 <solution><p><ol label="a">
-	<li>The population starts this year at 430, and decreases by 60 for each following year. Thus, <m>P=430-60x</m>.</li>
-	<li>We would like to find the value of <m>x</m> when <m>P=100</m>. We substitute 100 for <m>P</m>, and solve the equation for <m>x</m>.
-		<me>\begin{aligned}
+    <li>The population starts this year at 430, and decreases by 60 for each following year. Thus, <m>P=430-60x</m>.</li>
+    <li>We would like to find the value of <m>x</m> when <m>P=100</m>. We substitute 100 for <m>P</m>, and solve the equation for <m>x</m>.
+        <me>\begin{aligned}
                 100 \amp = 430-60x \amp \amp  \blert{\text{Subtract 430 from both sides.}}\\
                 \blert{-430}  \amp = \blert{-430}\\
                 -330 \amp = -60x   
@@ -98,11 +98,46 @@ operations? </p></statement>
                 5.5 \amp = x   
                 \end{aligned}</me>
 
-		The Park Service will have to restock the lake in five and a half years, if the population continues to decline at the current rate.</li>		
-	<li>The figure shows the graph of the equation <m>P=430-60x</m>. To solve
-			<me>100=430-60x</me>
-	     we locate the point on the graph with <m>P=100</m>, and read its <m>x</m>-coordinate, at about 5.5.
-	     <sidebyside width="40%"><image source="images/fig-2-4-ex3.png"><description>graph</description></image></sidebyside></li></ol></p></solution></example>
+        The Park Service will have to restock the lake in five and a half years, if the population continues to decline at the current rate.</li>       
+    <li>The figure shows the graph of the equation <m>P=430-60x</m>. To solve
+            <me>100=430-60x</me>
+         we locate the point on the graph with <m>P=100</m>, and read its <m>x</m>-coordinate, at about 5.5.
+         <sidebyside width="40%"><!--<image source="images/fig-2-4-ex3.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-4-ex3">
+        <description>graph</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.5, yscale=.018]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[ystep=20] (10,440);
+        \draw[black,thick, ->, >=stealth'] (O)--(11,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,460) node[left, xshift=2]{$P$};
+        \foreach \x in  {10} {
+         \draw[cyan, very thick] (\x,0) --(\x,440);
+         \draw[black] (\x,5) --++(0,-10)  node[below] {$\x$};
+        }
+        \draw[cyan, very thick] (5,0) --(5,440);
+        \foreach \x in  {200, 300, 400} {
+         \draw[cyan, very thick] (0,\x) --(10,\x);
+         \draw[black] (.15,\x) --++(-.3,0)  node[left] {$\x$};
+        }
+        \draw[cyan, thick] (0,100) --(10,100);
+        \draw[red,very thick, <->, >=stealth'] (0,430)--({43/6},0);
+        \node[below, text=red] at (5.5,0) {$5.5$};
+        \draw[black] (.15,100)--++(-.3,0) node[left, text=red] {$100$};
+        \filldraw[blue] (5.5,100) ellipse (.2cm and 6cm);
+        \foreach \x in {0,1,1,2.2,3.3,4.4}{
+         \draw[black, very thick, ->,>=stealth'] (\x,100)--++(.8,0);
+         }
+        \foreach \x in {89, 66, 43, 20}{
+         \draw[black, very thick, ->,>=stealth'] (5.5, \x)--++(0, -20);
+         }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+         </sidebyside></li></ol></p></solution></example>
 </subsection>
 
 <subsection><title>Solving Inequalities</title>
@@ -117,20 +152,62 @@ Unlike the equations we have studied, which have at most one solution, an inequa
 
 <solution><p>The solutions include <m>1, 0, -1, -2</m> and all the other negative integers, as well as fractions less than 2, such as <m>1\dfrac{3}{5},~ \dfrac{2}{3},</m> and <m>\dfrac{-17}{8}</m>.  All of these values satisfy the inequality <m>~x \lt 2</m>.</p>
 <p> In fact, all the numbers to the left of 2 on the number line are solutions of <m>~x \lt 2</m>. Because we cannot list all these solutions, we often graph them on a number line as shown below.
-	<sidebyside width="70%"><image source="images/fig-2-4-ex4.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="70%"><!--<image source="images/fig-2-4-ex4.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-4-ex4">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-11.8,0)--(11.8,0);
+        \foreach \x in  {-11, -10, ..., 11} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {-10,-5,0,5,10} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below] {$\x$};
+        }
+        \draw[red, ultra thick, ->, >=stealth'] (2,0)--(-11.8,0);
+        \draw[red, fill=white] (2,0) circle (3mm);
+        \node[below, yshift=-2, text=red, scale=.9] at (2,0) {$2$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 The open circle at 2 shows that 2 itself is not a solution (because 2 is not less than 2.)</p></solution></example>
 
 <assemblage><title>Look Closer</title>
 <p>An inequality that uses the symbol for less than, <m>\lt</m>, or greater than, <m>\gt</m>, is called a <term>strict inequality</term>. A nonstrict inequality uses one of the following symbols.
-	<me>\begin{aligned}
-		\amp \blert{\ge}  \amp \amp \text{means  "greater than or equal to"}\\
-		\amp \blert{\le}    \amp \amp \text{means  "less than or equal to"}
-	\end{aligned}</me>
+    <me>\begin{aligned}
+        \amp \blert{\ge}  \amp \amp \text{means  "greater than or equal to"}\\
+        \amp \blert{\le}    \amp \amp \text{means  "less than or equal to"}
+    \end{aligned}</me>
 
 For example, the graph of all solutions to the inequality
-	<me>x \ge -2</me>
+    <me>x \ge -2</me>
 is shown below. We use a solid dot at <m>-2</m> to show that <m>-2</m> is included in the solutions.
- 	<sidebyside width="70%"><image source="images/fig-2-4-1.png"><description>graph</description></image></sidebyside></p>
+    <sidebyside width="70%"><!--<image source="images/fig-2-4-1.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-4-1">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-11.8,0)--(11.8,0);
+        \foreach \x in  {-11, -10, ..., 11} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {-10,-5,0,5,10} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below] {$\x$};
+        }
+        \draw[red, ultra thick, ->, >=stealth'] (-2,0)--(11.8,0);
+        \draw[red, fill=red] (-2,0) circle (2.5mm);
+        \node[below, yshift=-2, text=red, scale=.9] at (-2,0) {$-2$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></p>
  </assemblage>
 
  <reading-questions>
@@ -151,18 +228,35 @@ is shown below. We use a solid dot at <m>-2</m> to show that <m>-2</m> is includ
 <example><statement><p>Solve  <m>~-3x+1 \gt 7,~</m>  and graph the solutions on a number line.</p></statement>
 
 <solution><p>We isolate  on one side of the inequality.
-	<me>\begin{aligned}
-                -3x+1 \blert{-1}\amp \gt 7 \blert{-1}\amp \amp  \blert{\text{Subtract 430 from both sides.}}\\
-                -3x \amp \gt 6   
-                \end{aligned}</me>
-
     <me>\begin{aligned}
-           \dfrac{-3x}{\blert{-3}} \amp \lt \dfrac{6}{\blert{-3}} \amp \amp \blert{\text{Divide both sides by}~-3;}\\ 
-           \amp \amp \amp \blert{\text{reverse the direction of the inequality.}}\\
+                -3x+1 \blert{-1}\amp \gt 7 \blert{-1}\amp \amp  \blert{\text{Subtract 1 from both sides.}}\\
+                -3x \amp \gt 6 \amp\amp\blert{\text{Divide both sides by}~-3;} \\
+           \dfrac{-3x}{\blert{-3}} \amp \lt \dfrac{6}{\blert{-3}} \amp \amp  \blert{\text{reverse the direction of the inequality.}}\\
                 x \amp \lt -2   
                 \end{aligned}</me>
 The graph of the solutions is shown below.
-	<sidebyside width="80%"><image source="images/fig-2-4-ex5.png"><description>graph</description></image></sidebyside>
+    <sidebyside width="80%"><!--<image source="images/fig-2-4-ex5.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-4-ex5">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-11.8,0)--(11.8,0);
+        \foreach \x in  {-11, -10, ..., 11} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {-10,-5,0,5,10} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below] {$\x$};
+        }
+        \draw[red, ultra thick, ->, >=stealth'] (-2,0)--(-11.8,0);
+        \draw[red, fill=white] (-2,0) circle (3mm);
+        \node[below, yshift=-2, text=red, scale=.9] at (-2,0) {$-2$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 </p></solution></example>
 </subsection>
 
