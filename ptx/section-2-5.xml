@@ -154,7 +154,33 @@ the minus sign preceding <m>(7x-4)</m> applies to each term inside the parenthes
 
 <example><statement><p>Simplify <m>~-5b-(3-2b)+(4b-6)</m></p></statement>
 <solution><p>Before combining like terms, we must remove the parentheses. We change the signs of any terms inside parentheses preceded by a minus sign; we do not change the signs of terms inside parentheses preceded by a plus sign.
-	<sidebyside width="90%"><image source="images/fig-2-5-ex7.png"><description>graphic</description></image></sidebyside></p></solution></example>
+    <sidebyside width="100%"><!--<image source="images/fig-2-5-ex7.png"><description>graphic</description></image>-->
+    <image xml:id="fig-2-5-ex7">
+        <description>equations</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate (O) at (0,0);
+        \node[left] at (O) {$-5b-(3-2b)+(4b-6)$};
+        \node[right] at (O) {$=-5b-3+2b +4b-6$};
+        \coordinate(A) at (1.55,0.2);
+        \draw[blue,thick] (A) --++(0,.3)--++(3.2,0) node[right, scale=.9] {signs changed};
+        \coordinate(B) at (2.27,0.2);
+        \draw[blue,thick] (B) --++(0,.3);
+        \coordinate(C) at (3.18,-0.2);
+        \draw[blue,thick] (C) --++(0,-.2)--++(1.57,0) node[right, scale=.9] {signs not changed};
+        \coordinate(D) at (4.07,-0.2);
+        \draw[blue,thick] (D) --++(0,-.2);
+        \coordinate (O2) at (0,-0.8);
+        \node[right] at (O2) {$=-5b+2b +4b-3-6$};
+        \coordinate (O3) at (0,-1.4);
+        \node[right] at (O3) {$=b-9$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></p></solution></example>
 
 <reading-questions>
     <exercise number="4"><statement><p>We can remove parentheses that follow <fillin characters="6"/>.</p></statement>

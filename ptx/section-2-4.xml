@@ -235,7 +235,7 @@ is shown below. We use a solid dot at <m>-2</m> to show that <m>-2</m> is includ
                 x \amp \lt -2   
                 \end{aligned}</me>
 The graph of the solutions is shown below.
-    <sidebyside width="80%"><!--<image source="images/fig-2-4-ex5.png"><description>graph</description></image>-->
+    <sidebyside width="70%"><!--<image source="images/fig-2-4-ex5.png"><description>graph</description></image>-->
     <image xml:id="fig-2-4-ex5">
         <description>number line</description>
         <latex-image>
@@ -268,18 +268,41 @@ is a compound inequality. To solve a compound inequality, we must perform the st
 <example><statement><p>Solve <m>~-3 \lt 2x-5 \le 6</m></p></statement>
 
 <solution><p>To solve for <m>x</m>, we first add 5 on each side of the inequality symbols.
-	<me>\begin{aligned}
-                -3 \amp \lt 2x-5  \le 6\\
-                \blert{+5}  \amp \lt ~~~~\blert{+5}   \le \blert{+5}\\
-                -2 \amp \le 2x ~~~~~~  \le 11 
-                \end{aligned}</me>
+    <md alignment="alignat">
+        <mrow>-3 \amp \lt 2x-5 \amp\amp\le 6</mrow>
+        <mrow>\underline{\blert{+5}}\amp \quad\qquad\underline{\blert{+5}} \amp\amp ~~~~\underline{\blert{+5}}</mrow>
+        <mrow>-2 \amp \le 2x \amp\amp \le 11 </mrow>
+    </md>
 Next, to solve <m>2 \lt 2x \le 11</m>, we divide each side by 2.
-	<me>\begin{aligned}
+    <me>\begin{aligned}
                 \dfrac{2}{\blert{2}} \amp \lt \dfrac{2x}{\blert{2}}  \le \dfrac{11}{\blert{2}}\\
                 1 \amp \lt x  \le \dfrac{11}{2}  
                 \end{aligned}</me>
 The solution consists of all numbers greater than 1 but less than or equal to <m>\dfrac{11}{2}</m>. The graph of the solutions is shown below.
-	<sidebyside width="75%"><image source="images/fig-2-4-ex6.png"><description>graph</description></image></sidebyside>
+    <sidebyside width="75%"><!--<image source="images/fig-2-4-ex6.png"><description>graph</description></image>-->
+    <image xml:id="fig-2-4-ex6">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.7]
+        \draw[black,thick, ->, >=stealth'] (-7.8,0)--(7.8,0);
+        \foreach \x in  {-7, -6, ..., 7} {
+         \draw[black] (\x,.2) --++(0,-.2);
+        }
+        \foreach \x in  {-5,0,5} {
+         \draw[black] (\x,.4) --++(0,-.4)  node[below] {$\x$};
+        }
+        \draw[red, ultra thick] (1,0)--(11/2,0);
+        \draw[red, fill=white] (1,0) circle (1.5mm);
+        \node[above, yshift=4, text=red, scale=.9] at (1,0) {$1$};
+        \draw[red, fill=red] (11/2,0) circle (1.5mm);
+        \node[above, yshift=3, text=red] at (11/2,0) {$\frac{11}{2}$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 </p></solution></example>
 
 <reading-questions>

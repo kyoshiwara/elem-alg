@@ -146,26 +146,50 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <exercisegroup cols="2"><introduction><p>For Problems 30<ndash/>31, find the error in the "solution," then write a corrected solution.</p></introduction>
 
 <exercise number="30"><statement><p>
-	<me>\begin{aligned}
+	<m>\begin{aligned}[t]
                 6-3x \amp = -12\\
                 -3x \amp = -6\\
                 x \amp = 2                
-                \end{aligned}</me></p></statement></exercise>
+                \end{aligned}</m></p></statement></exercise>
 
 <exercise number="31"><statement><p>
-	<me>\begin{aligned}
+	<m>\begin{aligned}[t]
                 -2+\dfrac{2}{3}x \amp = -4\\
                 -2+2x \amp = -12\\
                 2x \amp = -10 \\
                 x \amp =-5               
-                \end{aligned}</me></p></statement>
+                \end{aligned}</m></p></statement>
 <answer></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 32<ndash/>33, use the graphs to answer the questions.</p></introduction>
 
 <exercise number="32"><statement><p>Francine's new puppy weighed 3.8 pounds when she brought it home, and it should gain approximately 0.6 pound per week. The graph shows the puppy's weight, <m>W</m>, after <m>t</m> weeks.
-	<sidebyside width="50%"><image source="images/hp-2-4-32.png"><description>graph</description></image></sidebyside><ol label="a">  
+	<sidebyside width="50%"><!--<image source="images/hp-2-4-32.png"><description>graph</description></image>-->
+    <image xml:id="hp-2-4-32">
+        <description>line on grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.1, yscale=.12]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[xstep=4, ystep=2] (60,40);
+        \draw[black,thick, ->, >=stealth'] (O)--(65,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,44) node[left, xshift=2]{$W$};
+        \foreach \x in  {20,40,60} {
+         \draw[cyan, very thick] (\x,0) --(\x,40);
+         \draw[black] (\x,.5) --++(0,-1)  node[below]   {$\x$};
+        }
+        \foreach \x in  {10,20,30,40} {
+         \draw[cyan, very thick] (0,\x) --(60,\x);
+         \draw[black] (.6,\x) --++(-1.2,0)  node[left]   {$\x$};
+        }
+        \draw[red,very thick, ->, >=stealth'] (0,3.8)--(60,{3.8+60*0.6});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside><ol label="a">  
 	<li>Estimate the puppy's weight after 8 weeks.</li>
 	<li>Estimate how long it will take for the puppy to reach 26 pounds.</li>
 	<li>Write an algebraic equation for <m>W</m> in terms of <m>t</m>.</li>
@@ -173,7 +197,31 @@ Fill in the middle column first. Then use the table to help you answer the quest
 
 <exercise number="33"><statement><p>Marvin's telephone company charges $13 a month plus $0.15 per minute. The graph  
 shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
-	<sidebyside width="50%"><image source="images/hp-2-4-33.png"><description>graph</description></image></sidebyside><ol label="a">
+	<sidebyside width="50%"><!--<image source="images/hp-2-4-33.png"><description>graph</description></image>-->
+    <image xml:id="hp-2-4-33">
+        <description>line on grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.07, yscale=.14]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[xstep=5, ystep=3] (100,30);
+        \draw[black,thick, ->, >=stealth'] (O)--(108,0) node[right]{$m$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,35) node[left, xshift=2]{$P$};
+        \foreach \x in  {25,50,75,100} {
+         \draw[cyan, very thick] (\x,0) --(\x,30);
+         \draw[black] (\x,.5) --++(0,-1)  node[below]   {$\x$};
+        }
+        \foreach \x in  {6,12,18,24,30} {
+         \draw[cyan, very thick] (0,\x) --(100,\x);
+         \draw[black] (.8,\x) --++(-1.6,0)  node[left]   {$\x$};
+        }
+        \draw[red,very thick, ->, >=stealth'] (0,13)--(100,{13+100*0.15});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside><ol label="a">
 	<li>Estimate Marvin's phone bill if he talks for 45 minutes.</li>
 	<li>Estimate the number of minutes Marvin talked if his phone bill is $25.</li>
 	<li>Write an algebraic equation for <m>P</m> in terms of <m>m</m>.</li>
