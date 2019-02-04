@@ -261,10 +261,56 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
 
 <exercisegroup cols="2"><introduction><p>For Problems 41<ndash/>42, write and solve an equation to find the value of <m>x</m>.</p></introduction>
 
-<exercise number="41"><statement><sidebyside width="75%"><image source="images/hp-2-4-41.png"><description>rectangle</description></image></sidebyside></statement>
+<exercise number="41"><statement><sidebyside width="70%"><!--<image source="images/hp-2-4-41.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-2-4-41">
+        <description>rectangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate(O) at (0,0);
+        \coordinate(A) at (4.2,2.4);
+        \coordinate(B) at (3.,0);
+        \draw[cyan,thick] (O) rectangle ++(.22,.22);
+        \draw[cyan,thick] (B) rectangle ++(.22,.22);
+        \draw[cyan,thick] (A) rectangle ++(-.22,-.22);
+        \draw[cyan,thick] (4.2,0) rectangle ++(-.22,.22);
+        \draw[red, line width=.8mm] (B) --++(0,2.4);
+        \draw[red, line width=.8mm] (O) rectangle (A);
+        \node[below, scale=.9] at (2.2,-.2) {$\textbf{Area}=36$};
+        \node[left] at (0,1.25) {$4$};
+        \node[above] at (1.5,2.5) {$x$};
+        \node[above] at (3.6,2.5) {$2$};
+       \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer></answer></exercise>
 
-<exercise number="42"><statement><sidebyside width="75%"><image source="images/hp-2-4-42.png"><description>triangle</description></image></sidebyside></statement></exercise>
+<exercise number="42"><statement><sidebyside width="65%"><!--<image source="images/hp-2-4-42.png"><description>triangle</description></image>-->
+    <image xml:id="hp-2-4-42">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate(O) at (0,0);
+        \coordinate(A) at (4.4,0);
+        \coordinate(B) at (1.8,1.2);
+        \coordinate(C) at (1.8,0);
+        \draw[cyan,thick] (C) rectangle ++(.22,.22);
+        \draw[red,line width=.8mm] (O)--(A)--(B)--(O);
+        \draw[red,line width=.8mm] (B)--(C);
+        \node[right] at (1.8,0.6) {$2$};
+        \node[below] at (.9,0) {$3$};
+        \node[below, yshift=-2] at (3.1,0,0) {$x$};
+        \node[below, scale=.9] at (2.2,-.5) {$\textbf{Area}=20$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 </exercises>

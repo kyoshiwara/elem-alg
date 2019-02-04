@@ -4,40 +4,216 @@
     <title>Homework 3.1</title>
 
  <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>6, <ol label="a">
- 	<li>Find the <m>x</m>- and <m>y</m>-intercepts of the line.</li>
-	<li>Use the intercept method to graph the line.</li></ol></p></introduction>
+    <li>Find the <m>x</m>- and <m>y</m>-intercepts of the line.</li>
+    <li>Use the intercept method to graph the line.</li></ol></p></introduction>
 
 <exercise number="1"><statement><m>2x+4y=8</m>
-	<sidebyside width="95%"><image source="images/hp-3-1-1.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 </statement>
 <answer></answer></exercise>
 
 <exercise number="2"><statement><m>x+2y+10=0</m>
-	<sidebyside width="95%"><image source="images/hp-3-1-1.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 </statement></exercise>
 
 <exercise number="3"><statement><m>2x=14+7y</m>
-	<sidebyside width="95%"><image source="images/hp-3-1-1.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 </statement>
 <answer></answer></exercise>
 
 <exercise number="4"><statement><m>y=-4x+8</m>
-	<sidebyside width="95%"><image source="images/hp-3-1-1.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 </statement></exercise>
 
 <exercise number="5"><statement><m>\dfrac{x}{20}+\dfrac{y}{30}=1</m>
-	<sidebyside width="95%"><image source="images/hp-3-1-5.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="95%"><!--<image source="images/hp-3-1-5.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-1-5">
+        <description>50 by 50 grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 </statement>
 <answer></answer></exercise>
 
 <exercise number="6"><statement><m>3x-2y=120</m>
-	<sidebyside width="95%"><image source="images/hp-3-1-6.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="95%"><!--<image source="images/hp-3-1-6.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-1-6">
+        <description>100 by 100 grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 </statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 7<ndash/>12, match each equation with its graph. (More than one equation may describe the same graph.)</p>
-	<sidebyside width="100%"><image source="images/hp-3-1-7.png"><description>graphs</description></image></sidebyside>
-</introduction>
+<sidebyside widths="32% 32% 32%" margins="0% 0%"><!--<image source="images/hp-3-1-7.png"><description>graphs</description></image>-->
+    <image xml:id="p-3-1-7a">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan, very thick] (\x,-8) --++(0,16);
+         \draw[cyan, very thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-6,-8)--(8,4/3);
+        \node at (0,-10) {a.};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    <image xml:id="p-3-1-7b">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan, very thick] (\x,-8) --++(0,16);
+         \draw[cyan, very thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-8,4/3)--(6,-8);
+        \node at (0,-10) {b.};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    <image xml:id="p-3-1-7c">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan, very thick] (\x,-8) --++(0,16);
+         \draw[cyan, very thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-4/3,-8)--(8,6);
+        \node at (0,-10) {c.};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
+<sidebyside widths="32% 32% 32%" margins="0% 0%"><!--<image source="images/hp-3-1-7.png"><description>graphs</description></image>-->
+    <image xml:id="p-3-1-7d">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan, very thick] (\x,-8) --++(0,16);
+         \draw[cyan, very thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-6,8)--(8,-4/3);
+        \node at (0,-10) {d.};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    <image xml:id="p-3-1-7e">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan, very thick] (\x,-8) --++(0,16);
+         \draw[cyan, very thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-8,-6)--(4/3,8);
+        \node at (0,-10) {e.};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    <image xml:id="p-3-1-7f">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan, very thick] (\x,-8) --++(0,16);
+         \draw[cyan, very thick] (-8,\x) --++(16,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-8,6)--(4/3,-8);
+        \node at (0,-10) {f.};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></introduction>
 
 <exercise number="7"><statement><m>2x+3y=12</m></statement>
 <answer></answer></exercise>
@@ -86,7 +262,31 @@
 </exercisegroup>
 
 <exercise number="19"><statement><p>During spring break, Francine took the train to San Francisco and then bicycled home.  The graph below left shows Francine's distance <m>d</m> from home, in miles, after cycling for <m>h</m> hours. Use the graph to answer the questions.
-	<sidebyside width="40%"><image source="images/hp-3-1-19.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="40%"><!--<image source="images/hp-3-1-19.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-1-19">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+	\begin{tikzpicture} [scale=.3]
+	\coordinate (O) at (0,0);
+	\draw[cyan] (O) grid (15,20);
+	\draw[black,very thick, ->, >=stealth'] (O)--(16.5,0) node[right]{$h$};
+	\draw[black,very thick, ->, >=stealth'] (O)--(0,21.5) node[left]{$d$};
+	\foreach \x [evaluate=\x as \xi using int(2*\x] in  {5,10,15} {
+	 \draw[cyan, very thick] (\x,0) --++(0,20);
+	 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+	}
+	\foreach \x [evaluate=\x as \xi using int(20*\x] in  {5,10,15,20} {
+	 \draw[cyan, very thick] (0,\x) --++(15,0);
+	 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+	}
+	\draw[red,very thick] (0,18)--(12,0);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 <ol label="a">
 	<li>How far is it from San Francisco to Francine's home?</li>
 	<li>How many hours did Francine cycle to get home?</li>
@@ -100,16 +300,84 @@
 	<li>Explain what the intercepts mean in terms of the problem situation.</li></ol></p></introduction>
 
 <exercise number="20"><statement><p>The amount of home heating oil (in gallons) in the Olsons' tank is given by the equation <m>G=200-15w</m>, where <m>w</m> is the number of weeks since they turned on the furnace.</p>
-	<sidebyside width="50%"><image source="images/hp-3-1-20.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="50%"><!--<image source="images/hp-3-1-20.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-1-20">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.5]
+		\coordinate (O) at (0,0);
+		\draw[cyan] (O) grid (10,10);
+		\draw[black,very thick, ->, >=stealth'] (O)--(11.,0) node[right]{$w$};
+		\draw[black,very thick, ->, >=stealth'] (O)--(0,11.) node[left]{$G$};
+		\foreach \x [evaluate=\x as \xi using int(2*\x] in  {2,4,6,8,10} {
+		 \draw[cyan, very thick] (\x,0) --++(0,10);
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(25*\x] in  {2,4,6,8,10} {
+		 \draw[cyan, very thick] (0,\x) --++(10,0);
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 </statement></exercise>
 
 <exercise number="21"><statement><p>Dana joined a savings plan some weeks ago. Her bank balance is growing each week according to the formula <m>B=225+25w</m>, where <m>w=0</m> represents this week.</p>
-	<sidebyside width="50%"><image source="images/hp-3-1-21.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="50%"><!--<image source="images/hp-3-1-21.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-1-21">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.55]
+		\coordinate (O) at (0,0);
+		\draw[cyan] (-5,0) grid (5,8);
+		\draw[black,very thick, ->, >=stealth'] (-5,0)--(6.,0) node[right]{$w$};
+		\draw[black,very thick, ->, >=stealth'] (O)--(0,9.) node[left]{$B$};
+		\foreach \x [evaluate=\x as \xi using int(2*\x] in  {-4,-2,2,4} {
+		 \draw[cyan, very thick] (\x,0) --++(0,8);
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(50*\x] in  {2,4,6,8} {
+		 \draw[cyan, very thick] (-5,\x) --++(10,0);
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 </statement>
 <answer></answer></exercise>
 
 <exercise number="22"><statement><p>Delbert bought some equipment and went into the dog-grooming business. His profit is increasing according to the equation <m>P=-600+40d</m>, where <m>d</m> is the number of dogs he has groomed.</p>
-	<sidebyside width="50%"><image source="images/hp-3-1-22.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="50%"><!--<image source="images/hp-3-1-22.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-1-22">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.3]
+		\draw[cyan] (0,-15) grid (20,10);
+		\draw[black,very thick, ->, >=stealth'] (0,0)--(21.7,0) node[right]{$d$};
+		\draw[black,very thick, ->, >=stealth'] (0,-15)--(0,11.7) node[left]{$P$};
+		\foreach \x in  {5,10,15,20} {
+		 \draw[cyan, very thick] (\x,-15) --++(0,25);
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(40*\x] in  {-15,-10,-5,5,10} {
+		 \draw[cyan, very thick] (0,\x) --++(20,0);
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 </statement></exercise>
 </exercisegroup>
 

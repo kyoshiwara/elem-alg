@@ -79,10 +79,49 @@
 
 <exercisegroup cols="2"><introduction><p>Write and simplify an algebraic expression for the perimeter of the figure in Problems 23<ndash/>24.</p></introduction>
 
-<exercise number="23"><statement><sidebyside width="65%"><image source="images/hp-2-5-23.png"><description>rectangle</description></image></sidebyside></statement>
+<exercise number="23"><statement><sidebyside width="60%"><!--<image source="images/hp-2-5-23.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-2-5-23">
+        <description>rectangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate(O) at (0,0);
+        \coordinate(A) at (3,1.4);
+        \draw[cyan,thick] (O) rectangle ++(.22,.22);
+        \draw[cyan,thick] (3,0) rectangle ++(-.22,.22);
+        \draw[cyan,thick] (A) rectangle ++(-.22,-.22);
+        \draw[red, line width=.8mm] (O) rectangle (A);
+        \node[below] at (1.5,0) {$4y$};
+        \node[left] at (0,0.7) {$3x$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer></answer></exercise>
 
-<exercise number="24"><statement><sidebyside width="90%"><image source="images/hp-2-5-24.png"><description>trapezoid</description></image></sidebyside></statement></exercise>
+<exercise number="24"><statement><sidebyside width="80%"><!--<image source="images/hp-2-5-24.png"><description>trapezoid</description></image>-->
+    <image xml:id="hp-2-5-24">
+        <description>trapezoid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate(O) at (0,0);
+        \coordinate(A) at (5,0);
+        \coordinate(B) at (3.6,1.4);
+        \coordinate(C) at (.7,1.4);
+        \draw[red,line width=.8mm] (O)--(A)--(B)--(C)--(O);
+        \node[left] at (0.3,0.75) {$3a$};
+        \node[right] at (4.4,0.75) {$3$};
+        \node[above, yshift=1] at (2.1,1.4) {$5a$};
+        \node[below, yshift=-2] at (2.5,0) {$5a+4$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 25<ndash/>29, write an algebraic expression or an equation to answer each question.</p></introduction>
