@@ -32,7 +32,7 @@
 
 <reading-questions>
     <exercise number="1"><statement><p>What is a ratio?</p></statement>
-    	<answer>A type of quotient comparing two quantities</answer></exercise>
+    	<answer><p>A type of quotient comparing two quantities</p></answer></exercise>
     <exercise number="2"><statement><p>When do we express a ratio as a decimal fraction?</p></statement>
     	<answer><p>When the numbers being compared are decimal numbers</p></answer></exercise>
 </reading-questions>
@@ -62,7 +62,7 @@
 	
 Because <m>x</m> is divided by 6, we could multiply both sides of the equation by 6 to clear the fraction. But we can clear both fractions at the same time if we multiply by the LCD (Lowest Common Denominator) of the two fractions. In this case, the LCD is <m>5 \cdot 6 = 30</m>. Multiplying both sides by 30 gives us
 	<me>\begin{aligned}
-		\blert{30}(\dfrac{7}{5}) \amp =(\dfrac{x}{6})\blert{30}\\
+		\blert{30}\left(\dfrac{7}{5}\right) \amp =\left(\dfrac{x}{6}\right)\blert{30}\\
 						42 \amp = 5x
 						\end{aligned}</me>
 Now we can divide both sides by 5 to get the answer,
@@ -70,7 +70,31 @@ Now we can divide both sides by 5 to get the answer,
 
 <assemblage><title>Look Ahead</title>
 <p>There is a short-cut we can use that avoids calculating an LCD. We can obtain the equation <m>42=5x</m> by cross-multiplying:
-	<sidebyside width="15%"><image source="images/fig-3-2-1.png"><description>graphic</description></image></sidebyside>
+    <sidebyside width="15%"><!--<image source="images/fig-3-2-1.png"><description>graphic</description></image>-->
+    <image xml:id="fig-3-2-1">
+        <description>cross-multiplying</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \coordinate (O) at (0,0);
+        \def\dx{.3};
+        \def\dy{.13};
+        \coordinate (A) at (\dx,-\dy);
+        \coordinate (B) at (\dx,\dy);
+        \node[left] at (O) {$\displaystyle{\frac{7}{5}}\quad={}$};
+        \node[right] at (O) {$\,\displaystyle{\frac{x}{6}}$};
+        \draw[blue,thick,->,>=stealth'] (-0.7,0.1)++(-\dx,\dy)--++(A);
+        \draw[blue,thick,->,>=stealth'] (0.15,-0.2)++(-\dx,\dy)--++(A);
+        \draw[red,thick,->,>=stealth'] (-0.7, -0.1)++(-\dx,-\dy)--++(B);
+        \draw[red,thick,->,>=stealth'] (0.15,0.2)++(-\dx,-\dy)--++(B);
+        \node[left] at (0,-.8) {$42\quad={}$};
+        \node[right] at (0,-.8) {$5x$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 Then we complete the solution as before.</p></assemblage>
 
 <assemblage><title>Property of Proportions</title>
@@ -90,7 +114,7 @@ We can check the solution by substituting <m>x=2.5</m> into the original proport
 
 <reading-questions>
     <exercise number="3"><statement><p>What is a rate?</p></statement>
-    	<answer>A ratio that compares quantities with different units</answer></exercise>
+    	<answer><p>A ratio that compares quantities with different units</p></answer></exercise>
     <exercise number="4"><statement><p>What is a proportion?</p></statement>
     	<answer><p>A statement that two ratios are equal</p></answer></exercise>
     <exercise number="5"><statement><p>What is the short-cut for solving a proportion called?</p></statement>
@@ -152,7 +176,32 @@ You can buy 12.5 quarts of grape juice for $10.00. (Or, if you can only buy quar
                 \text{or}~~~~P \amp = 80q    
                 \end{aligned}</me>                        	
 The graph of this equation is a straight line that passes through the origin, as shown below.</p>  
-	<sidebyside width="35%"><image source="images/fig-3-2-2.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="35%"><!--<image source="images/fig-3-2-2.png"><description>graph</description></image>-->
+    <image xml:id="fig-3-2-2">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.8]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[ystep=1/2] (5,5);
+        \draw[black,very thick, ->, >=stealth'] (O)--(5.7,0) node[right]{$q$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,5.7) node[left]{$P$};
+        \foreach \x in  {1,2,3,4,5} {
+         \draw[cyan, very thick] (\x, 0) --++(0,5);
+         \draw[black] (\x,.1) --++(0,-.2) node[below]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(80*\x] in  {1,2,3,4,5} {
+         \draw[cyan, very thick] (0,\x) --++(5,0);
+         \draw[black] (.1,\x) --++(-.2,0) node[left]   {$\xi$};
+        }
+        \node[below left] at (O) {$0$};
+        \draw[red,ultra thick, ->, >=stealth'] (O)--(5,5);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 </assemblage>
 
 <assemblage><title>Proportional Variables</title>
@@ -162,7 +211,7 @@ where <m>k</m> is the <term>constant of proportionality</term>.</p></assemblage>
 
 <reading-questions>
     <exercise number="6"><statement><p>What are proportional variables?</p></statement>
-    	<answer>Variables whose ratio is always the same</answer></exercise>
+    	<answer><p>Variables whose ratio is always the same</p></answer></exercise>
     <exercise number="7"><statement><p>If  and  are proportional, what equation do they satisfy?</p></statement>
     	<answer><p><m>y=kx</m></p></answer></exercise>
 </reading-questions>

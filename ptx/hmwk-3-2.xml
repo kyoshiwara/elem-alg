@@ -131,9 +131,9 @@
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 23<ndash/>24, <ol label="a">
-	<li>Find the constant of proportionality and write an equation relating the variables.</li>
-	<li>Make a table of values and graph the equation.</li>
-	<li>Use your equation to answer the question.</li></ol></p></introduction>
+    <li>Find the constant of proportionality and write an equation relating the variables.</li>
+    <li>Make a table of values and graph the equation.</li>
+    <li>Use your equation to answer the question.</li></ol></p></introduction>
 
 <exercise number="23"><statement><p>Megan's wages, <m>w</m>, are proportional to the time, <m>h</m>, she works.  Megan made $60 for 8 hours work as a lab assistant.  How long will it take her to make $500?</p>
 <sidebyside widths="20% 50%" margins="10% 10%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -150,7 +150,30 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular>
-   <image source="images/hp-3-2-23.png"><description>grid</description></image></sidebyside></statement>
+   <!--<image source="images/hp-3-2-23.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-2-23">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.1]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[step=1/2] (5,6);
+        \draw[black,very thick, ->, >=stealth'] (O)--(5.5,0) node[right]{$h$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,6.5) node[left]{$w$};
+        \foreach \x [evaluate=\x as \xi using int(20*\x] in  {1,2,3,4,5} {
+         \draw[cyan, very thick] (\x, 0) --++(0,6);
+         \draw[black] (\x,.1) --++(0,-.2) node[below]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(100*\x] in  {1,2,3,4,5,6} {
+         \draw[cyan, very thick] (0,\x) --++(5,0);
+         \draw[black] (.1,\x) --++(-.2,0) node[left]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="24"><statement><p>The amount of pure copper, <m>c</m>, produced by Copperfield Mine is proportional to the amount of ore extracted, <m>g</m>.  A new lode produced 24 grams of copper from 800  grams of ore.  How many grams of copper will one kilogram of ore yield?</p>
@@ -168,7 +191,30 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular>
-<image source="images/hp-3-2-24.png"><description>grid</description></image></sidebyside></statement></exercise>
+<!--<image source="images/hp-3-2-24.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-2-24">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid (12,10);
+        \draw[black,very thick, ->, >=stealth'] (O)--(13,0) node[right]{$g$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,11) node[left]{$c$};
+        \foreach \x [evaluate=\x as \xi using int(100*\x] in  {5,10} {
+         \draw[cyan, very thick] (\x, 0) --++(0,10);
+         \draw[black] (\x,.1) --++(0,-.2) node[below]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(5*\x] in  {2,4,6,8,10} {
+         \draw[cyan, very thick] (0,\x) --++(12,0);
+         \draw[black] (.1,\x) --++(-.2,0) node[left]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercise number="25"><statement><p>Trish's real-estate commission is proportional to the amount of the sale.  She made  $3200 commission on a sale of $80,000.<ol label="a">  
@@ -179,7 +225,30 @@
 <exercise number="26"><statement><p>Everett can bicycle 16 miles in 2 hours and 24 miles in 3 hours.  The distance <m>d</m> that Everett travels is proportional to the time <m>t</m> that he bicycles.<ol label="a"> 
 	<li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
 	<li>Graph your equation.
-	<sidebyside width="35%"><image source="images/hp-3-2-26.png"><description>grid</description></image></sidebyside></li>
+	<sidebyside width="35%"><!--<image source="images/hp-3-2-26.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-2-26">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.8]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid (5,10);
+        \draw[black,very thick, ->, >=stealth'] (O)--(5.5,0) node[right]{$t$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,10.6) node[left]{$d$};
+        \foreach \x in  {2,4} {
+         \draw[cyan, very thick] (\x, 0) --++(0,10);
+         \draw[black] (\x,.1) --++(0,-.2) node[below]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(4*\x] in  {2,4,6,8,10} {
+         \draw[cyan, very thick] (0,\x) --++(5,0);
+         \draw[black] (.1,\x) --++(-.2,0) node[left]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
 	<li>Complete the tables, and use them to answer the question below.
 
 <sidebyside widths="20% 20%" margins="30% 30%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -219,7 +288,30 @@
 <ol label="a"> 
 	<li>Write an equation for <m>T</m> in terms of <m>P</m>.</li>
 	<li>Graph your equation.
-	<sidebyside width="50%"><image source="images/hp-3-2-27.png"><description>grid</description></image></sidebyside></li>
+	<sidebyside width="50%"><!--<image source="images/hp-3-2-27.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-2-27">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.3, yscale=5]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[ystep=3/50] (20,1.44);
+        \draw[black,very thick, ->, >=stealth'] (O)--(21.5,0) node[right]{$P$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,1.55) node[left]{$t$};
+        \foreach \x in  {5,10,15,20} {
+         \draw[cyan, very thick] (\x, 0) --++(0,1.44);
+         \draw[black] (\x,.02) --++(0,-.04) node[below]   {$\x$};
+        }
+        \foreach \x in  {0.12,0.24,0.36,0.48,0.60,0.72,0.84,0.96,1.08,1.20,1.32,1.44} {
+         \draw[cyan, very thick] (0,\x) --++(20,0);
+         \draw[black] (.2,\x) --++(-.4,0) node[left,style={/pgf/number format/.cd,fixed,precision=2}] {$\x$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
 	<li>Complete the tables, and use them to answer the question below.
 
 <sidebyside widths="20% 20%" margins="30% 30%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -291,9 +383,9 @@
 	<li>Is <m>T</m> proportional to <m>u</m>?</li></ol></p></statement></exercise> 
 
 <exercise number="29"><statement><p><ol label="a">
-	<li>State a formula for the circumference of a circle in terms of its radius.</li>
-	<li>Complete the table. 
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li>State a formula for the circumference of a circle in terms of its radius.</li>
+    <li>Complete the table. 
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>r</m></cell>
                         <cell><m>2</m></cell>
@@ -307,9 +399,32 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
-	<li>Graph your equation, using the values in your table.
-		<sidebyside width="50%"><image source="images/hp-3-2-29.png"><description>grid</description></image></sidebyside></li>
-	<li>Is the circumference of a circle proportional to its radius?</li></ol></p></statement>
+    <li>Graph your equation, using the values in your table.
+        <sidebyside width="50%"><!--<image source="images/hp-3-2-29.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-2-29">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.6, yscale=0.07]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[ystep=5] (10,65);
+        \draw[black,very thick, ->, >=stealth'] (O)--(11,0) node[right]{$r$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,70) node[left]{$C$};
+        \foreach \x in  {5,10} {
+        % \draw[cyan, very thick] (\x, 0) --++(0,65);
+         \draw[black] (\x,2) --++(0,-4) node[below]   {$\x$};
+        }
+        \foreach \x in  {10,20,...,60} {
+        % \draw[cyan, very thick] (0,\x) --++(10,0);
+         \draw[black] (.15,\x) --++(-.3,0) node[left,style={/pgf/number format/.cd,fixed,precision=2}] {$\x$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
+    <li>Is the circumference of a circle proportional to its radius?</li></ol></p></statement>
 <answer></answer></exercise>
 
 <exercise number="30"><statement><p><ol label="a">
@@ -330,7 +445,30 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
 	<li>Graph your equation, using the values in your table.
-		<sidebyside width="50%"><image source="images/hp-3-2-30.png"><description>grid</description></image></sidebyside></li>
+		<sidebyside width="50%"><!--<image source="images/hp-3-2-30.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-2-30">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.6, yscale=0.07]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[ystep=5] (10,65);
+        \draw[black,very thick, ->, >=stealth'] (O)--(11,0) node[right]{$s$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,70) node[left]{$A$};
+        \foreach \x in  {5,10} {
+        % \draw[cyan, very thick] (\x, 0) --++(0,65);
+         \draw[black] (\x,2) --++(0,-4) node[below]   {$\x$};
+        }
+        \foreach \x in  {10,20,...,60} {
+        % \draw[cyan, very thick] (0,\x) --++(10,0);
+         \draw[black] (.15,\x) --++(-.3,0) node[left,style={/pgf/number format/.cd,fixed,precision=2}] {$\x$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
 	<li>Is the area of a square proportional to the length of its side?</li></ol></p></statement></exercise>
 
 <exercise number="30"><statement><p>The following recipe for Cadet Mess Sloppy Joes comes from the West Point Officers Wives' Club Cookbook.</p> 
