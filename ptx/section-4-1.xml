@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="The-Distributive-Law"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Distributive Law</title>
+
+<subsection><title>Products</title>
+<p>So far we have considered sums and differences of algebraic expressions. Now we take a look at simple products. To simplify a product such as <m>3(2a)</m>, we multiply the numerical factors to find
+	<me>3(2a)=(3 \cdot 2)a = 6a</me>
+This calculation is an application of the associative law for multiplication. We can see why the product is reasonable by recalling that multiplication is repeated addition, so that
+	<me>3(2a) = 2a + 2a + 2a = 6a~~~~~~~~~~~~~\blert{\text{Three terms}}</me></p>
+
+
+<example><statement><p><ol label="a" cols="2">
+	<li><m>5(3x)=15x</m></li>
+	<li><m>-2(-4h)=8h</m></li></ol></p></statement></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>Explain the difference between the expressions <m>2b+3b</m> and <m>2(3b)</m>.
+</p></statement>
+    	<answer><p>The first expression is a sum and the second one is a product.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>The Distributive Law</title>
+<sidebyside widths="55% 35%"><p>Another useful property for simplifying expressions is the distributive law. First consider a numerical example. Suppose we would like to find the area of the two rooms shown at right.
+	We can do this in two different ways:</p>  
+	<image source="images/fig-4-1-1.png"><description>rectangle</description></image></sidebyside>
+
+<p><ul>
+	<li><p>Method 1: Think of the rooms as one large rectangle, with width 10 feet and length <m>12+8</m> feet. The area is then given by
+			<me>\begin{aligned}
+                \text{Area} \amp = \text{width} \times \text{length}\\
+					 \amp = \blert{10(12+8)} = 10(20) = 200~\text{square feet}             
+                \end{aligned}</me></p></li>
+    <li><p>Method 2: Find the area of each room separately and add the two areas together. This gives us
+    		<me>\blert{10(12) + 10(8)} = 10(20) = 200~\text{square feet}</me></p></li></ul></p>
+
+<p>	Of course, we get the same answer with either method. However, looking at the first step in each calculation, we see that
+		<me>10(12+8)= 10(12) + 10(8)</me>
+We see that there are two ways to compute the expression <m>10(12+8)</m>.<ul> 
+	<li>The first way follows the order of operations, adding <m>12+8</m> first.</li>
+	<li><p>  The second way <term>distributes</term> the multiplication to each term inside parentheses; that is, we multiply each term inside the parentheses by 10.
+			<me>\blert{10}(12+8)= \blert{10}(12) + \blert{10}(8)</me></p></li></ul></p>
+
+<p>This last equation is an example of the distributive law.</p>
+
+<assemblage><title>Distributive Law</title>
+<p>If <m>a,~ b,</m> and <m>c</m> are any numbers, then
+		<me>\blert{a(b+c) = ab + ac}</me></p></assemblage>
+
+<assemblage><title>Look Ahead</title>
+	<p>If the terms inside parentheses are not like terms, we have no choice but to use the distributive law to simplify the expression.</p></assemblage>
+
+<example><statement><p>Simplify <m>~-2(3x-1)</m></p></statement>
+
+<solution><p>We multiply each term inside parentheses by <m>-2</m>:
+		<me>\begin{aligned}
+                \blert{-2}(3x-1) \amp = \blert{-2}(3x)\blert{-2}(-1)\\
+					 \amp = -6x+2             
+                \end{aligned}</me></p></solution></example>
+
+<warning><p>Compare the three similar expressions:
+	<me>-3x-5x,~~~~~~-3(-5x),~~~~~~-3(-5-x)</me>
+To simplify these expressions, we must first recognize the operations involved.<ul>
+	<li><p>The first is a sum of terms.
+			<me>-3x-5x = -8x</me></p></li> 
+	<li><p>The second is a product.
+			<me>-3(-5x) = 15x</me></p></li> 
+	<li><p>The third is an application of the distributive law.
+			<me>-3(-5-x) = 15+3x</me></p></li></ul></p></warning>
+
+<reading-questions>
+    <exercise number="2"><statement><p>When do we need the distributive law to simplify an expression?</p></statement>
+    	<answer><p>If the terms inside parentheses are not like terms</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Solving Equations and Inequalities</title>
+<p>If an equation or inequality contains parentheses, we use the distributive law to simplify each side before we begin to solve.</p>
+
+<example><statement><p>Solve  <m>~25-6x=3x-2(4-x)</m></p></statement>
+
+<solution><p>We apply the distributive law to the right side of the equation.
+		<me>\begin{aligned}
+                25-6x \amp = 3x-2(4-x) \amp\amp \blert{\text{Apply the distributive law.}}\\
+                25-6x \amp = \blert{3x} - 8 + \blert{2x} \amp\amp \blert{\text{Combine like terms.}}\\
+                25-6x \amp = 5x-8 \amp\amp \blert{\text{Subtract}~5x~ \text{from both sides.}}\\ 
+                25-11x \amp = -8  \amp\amp \blert{\text{Subtract 25 from both sides.}}\\
+                -11x \amp = -33  \amp\amp \blert{\text{Divide both sides by}~-11.}\\
+                x \amp =3   \amp\amp \blert{\text{The solution is 3.}}           
+                \end{aligned}</me>
+You should verify each step of the solution, and check the answer.</p></solution></example>
+
+<warning><p>The expression on the right side of the equation in Example 3 is made up of two terms:
+		<me>3x~~~~~~\text{and}~~~~~~-2(4-x)</me>
+Remember that we think of all terms as added together, so the minus sign in front of the 2 tells us that 2 is negative.  When we apply the distributive law, we multiply each term inside parentheses by <m>-2</m> to get <m>-8+2x</m>.</p></warning>
+
+<p>We know that a fraction bar often serves as a grouping device, like parentheses.</p>  
+
+<example><statement><p>Solve the proportion  <m>~\dfrac{7.6}{1.2} = \dfrac{x+3}{2x-1}</m></p></statement>
+
+<solution><p>We apply the property of proportions and cross-multiply to get
+		<me>\begin{aligned}
+                7.6(2x-1) \amp = 1.2(x+3) \amp\amp \blert{\text{Apply the distributive law.}}\\
+                15.2x-7.6 \amp = 1.2x+3.6 \amp\amp \blert{\text{Subtract}~1.2x~ \text{from both sides.}}\\
+                14x-7.6 \amp = 3.6 \amp\amp \blert{\text{Add}~7.6~ \text{to both sides.}}\\ 
+                14x \amp = 11.2  \amp\amp \blert{\text{Divide both sides by 14.}}\\
+                x \amp = \dfrac{11.2}{14} = 0.8             
+                \end{aligned}</me>
+We can check the solution by substituting <m>x=0.8</m> into the original proportion.</p></solution></example>
+
+<reading-questions>
+    <exercise number="3"><statement><p>In Example 4, why did we put parentheses around <m>2x-1</m> and <m>x+3</m>?
+</p></statement>
+    	<answer><p>To replace the fraction bars as grouping symbols</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Algebraic Expressions</title>
+<p>We can often simplify algebraic expressions by combining like terms.</p>
+
+<example><statement><p>Delbert and Francine are collecting aluminum cans to recycle. They will be paid <m>x</m> dollars for every pound of cans they collect. At the end of three weeks, Delbert collected 23 pounds of aluminum cans, and Francine collected 47 pounds.<ol label="a">
+	<li>Write algebraic expressions for the amount of money Delbert made, and the amount Francine made.</li>
+	<li>Write and simplify an expression for the total amount of money Delbert and Francine made from aluminum cans.</li>
+</ol></p></statement>
+
+<solution><p><ol label="a">
+	<li>We multiply the number of pounds collected by the price per pound. Delbert made <m>23x</m> dollars, and Francine made <m>47x</m> dollars.</li>
+	<li>We add the amount of money Delbert made to the amount Francine made.
+			<me>23x+47x=70x</me></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="4"><statement><p>In Example 5, what does <m>x</m> stand for? What does <m>23x</m> stand for?
+</p></statement>
+    	<answer><p>The fee for a pound of recycled cans; the amount of money Delbert made</p></answer></exercise>
+</reading-questions>
+
+<p>The distributive law is also helpful for writing algebraic expressions.</p>
+
+<example><statement><p>The length of a rectangle is 3 feet less than twice its width, <m>w</m>.<ol label="a">  
+	<li>Write an expression for the length of the rectangle in terms of <m>w</m>.</li>
+	<li>Write and simplify an expression for the perimeter of the rectangle in terms of <m>w</m>.</li>
+	<li>Suppose the perimeter of the rectangle is 36 feet. Write and solve an equation to find the dimensions of the rectangle.</li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li>"Three feet less than twice the width" tells us to subtract 3 from twice the width. The length of the rectangle is 	<m>2w-3</m>.</li>
+	<li><p>The perimeter of a rectangle is given by the formula <m>P=2l+2w</m>. We substitute our expression for the length to get
+			<me>\begin{aligned}
+                P \amp = 2(\alert{2w-3}) +2w  \amp\amp \blert{\text{Apply the distributive law.}}\\
+                 \amp = 4w-6+2w \amp\amp \blert{\text{Combine like terms.}}\\
+                 \amp = 6w-6             
+                \end{aligned}</me></p></li>
+    <li><p>We set our expression for the perimeter equal to 36.
+    		<me>\begin{aligned}
+                6w-6 \amp = 36 \amp\amp \blert{\text{Add 6 to both sides.}}\\
+                 6w \amp = 42 \amp\amp \blert{\text{Divide both sides by 6.}}\\
+                  w \amp = 7             
+                \end{aligned}</me>
+The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\alert{7})-3=11</m> feet.</p></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="5"><statement><p>In Example 6, why did we multiply <m>2w-3</m> by 2?</p></statement>
+    	<answer><p>We substituted into the formula for perimeter.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup><introduction><p>For Problems 1-2, use a formula to write an equation. Then solve the equation.</p></introduction>
+
+<exercise number="1"><statement><p>32.5% of the class are engineering majors. If there are 91 engineering majors, how many students are in the class?</p></statement>
+<answer><m>0.325x=91;~~280</m></answer></exercise>
+
+<exercise number="2"><statement><p>A rectangular cookie sheet is 40 cm long and has a perimeter of 116 cm. How wide is the cookie sheet?</p></statement>
+<answer><p><m>2w+2(40)=116;~~ 18~</m>cm</p></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 3-4, write an equation you could solve to answer the question.</p></introduction>
+
+<exercise number="3"><statement><p>Erika bought a 50-pound bag of dog food and after 28 days she had 29 pounds left. How much dog food did she use per day?</p></statement>
+<answer><p><m>50-28d=29;~~\dfrac{3}{4}~</m>lb</p></answer></exercise>
+
+<exercise number="4"><statement><p>A hamburger contains 60 calories less than two bags of fries.  A hamburger and one bag of fries contains 780 calories. How many calories are in a bag of fries? </p></statement>
+<answer><m>x+(2x-60)=780;~~280</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>

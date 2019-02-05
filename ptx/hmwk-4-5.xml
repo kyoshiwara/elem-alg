@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 4.5</title>
+
+ <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>6,<ol label="a">
+ 	<li>Use the point-slope method to graph the line with the given slope and passing through the given point.</li>
+	<li>Find an equation for the line. Write your equation in slope-intercept form.</li>
+	<li>Find the <m>x</m>-intercept of the line.</li></ol>
+</p></introduction>
+
+<exercise number="1"><statement><m>m=-2,~~(-3,4)</m>
+<sidebyside width="90%"><image source="images/hp-4-5-1.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><m>m=\dfrac{1}{2},~~(4,-3)</m>
+<sidebyside width="90%"><image source="images/hp-4-5-1.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise number="3"><statement><m>m=\dfrac{-2}{3},~~(-6,2)</m>
+<sidebyside width="90%"><image source="images/hp-4-5-1.png"><description>grid</description></image></sidebyside></statement><answer></answer></exercise>
+
+<exercise number="4"><statement><m>m=0,~~(-3,5)</m>
+<sidebyside width="90%"><image source="images/hp-4-5-1.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise number="5"><statement><m>m=\dfrac{-5}{2},~~(6,-10)</m>
+<sidebyside width="90%"><image source="images/hp-4-5-1.png"><description>grid</description></image></sidebyside></statement><answer></answer></exercise>
+
+<exercise number="6"><statement><m>m=3,~~(1,-1)</m>
+<sidebyside width="90%"><image source="images/hp-4-5-1.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 7<ndash/>9, without doing any calculations, give the slope of each line and the coordinates of one point on the line.</p></introduction>
+
+<exercise number="7"><statement><m>y=\dfrac{3}{5}-7</m></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><m>y-2=3(x+5)</m></statement></exercise>
+
+<exercise number="9"><statement><m>y=\dfrac{4}{5}x)</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 10<ndash/>12, find an equation for the line passing through the given points. Write your answer in slope-intercept form.</p></introduction>
+
+<exercise number="10"><statement><m>(-2,4),~(1,7)</m></statement></exercise>
+
+<exercise number="11"><statement><m>(3,5),~(-3,-5)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><m>(6,4),~(-2,5)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>16, find the equation of the line shown in the graph.
+</p></introduction>
+
+<exercise number="13"><statement><sidebyside width="70%"><image source="images/hp-4-5-13.png"><description>graph</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><sidebyside width="70%"><image source="images/hp-4-5-14.png"><description>graph</description></image></sidebyside></statement></exercise>
+
+<exercise number="15"><statement><sidebyside width="70%"><image source="images/hp-4-5-15.png"><description>graph</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><sidebyside width="70%"><image source="images/hp-4-5-16.png"><description>graph</description></image></sidebyside></statement>
+</exercise>
+</exercisegroup>
+
+<exercise number="17"><statement><p><ol label="a">
+	<li><p>Put the equation <m>2y-3x=5</m> into slope-intercept form, and graph the equation.</p>
+	<sidebyside width="45%"><image source="images/hp-4-5-17.png"><description>graph</description></image></sidebyside></li>
+	<li>What is the slope of any line that is parallel to <m>2y-3x=5</m>?</li>
+	<li>On your graph for part (a), sketch by hand a line that is parallel to <m>2y-3x=5</m> and passes through the point <m>(-3,2)</m>.</li><m>2y-3x=5</m>
+	<li>Use the point-slope formula to write an equation for the line that is parallel to the graph of <m>2y-3x=5</m> and passes through the point <m>(-3,2)</m>.</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><ol label="a">
+	<li><p>Put the equation <m>x-2y=5</m> into slope-intercept form, and graph the equation.</p>
+	<sidebyside width="45%"><image source="images/hp-4-5-17.png"><description>graph</description></image></sidebyside></li>
+	<li>What is the slope of any line that is perpendicular to <m>x-2y=5</m>?</li>
+	<li>On your graph for part (a), sketch by hand a line that is perpendicular to <m>x-2y=5</m> and passes through the point <m>(4,-3)</m>.</li>
+	<li>Use the point-slope formula to write an equation for the line that is perpendicular to the graph of <m>x-2y=5</m> and passes through the point <m>(4,-3)</m>.</li></ol></p></statement></exercise>	 
+
+<exercise number="19"><statement><p><ol label="a">
+	<li>What is the slope of the line <m>y=2x+1</m>?</li>
+	<li>What is the slope of a line parallel to <m>y=2x+1</m>?</li>
+	<li>A line is parallel to <m>y=2x+1</m>  and passes through <m>(-2,1)</m>. What is its equation?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p><ol label="a">
+	<li>What is the slope of the line <m>y=-3x-2</m>?</li>
+	<li>What is the slope of a line parallel to <m>y=-3x-2</m>?</li>
+	<li>A line is parallel to <m>y=-3x-2</m>  and passes through <m>(1,3)</m>. What is its equation?</li></ol></p></statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 21<ndash/>24, we'll find a linear model from two data points.<ol label="1">
+	<li>Make a table showing the coordinates of two data points for the model.</li>  
+	<li>Find a linear equation in slope-intercept form relating the variables.</li>
+  	<li>Use your equation to answer the questions.</li></ol></p></introduction>
+
+<exercise number="21"><statement><p>Francine is driving into the mountains and stopping periodically to record the temperature, <m>T</m>, at various altitudes, <m>h</m>. The temperature at an altitude of 3200 feet is <m>77 \degree</m>, and the temperature at 8000 feet is <m>65 \degree</m>.  <ol label="a">
+	<li>What is the slope, including units?  What does it tell you about the problem?</li>
+	<li>What will the temperature be at 10,000 feet?</li>
+	<li>What was the temperature at sea level?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p>Envirotech is marketing a new line of microwave clothes dryers. It cost them $45,000 to produce the first 100 dryers. When they had produced 180 dryers, their total cost was up to $61,000. They would like to know the total cost, <m>C</m>, of producing <m>x</m> dryers.<ol label="a">
+	<li>What is the slope, including units?  What does it tell you about the problem?</li>
+	<li>Envirotech has budgeted $100,000 for microwave clothes dryers this year. How many can they produce?</li>
+	<li>How much did Envirotech invest in development before they made the first dryer?</li></ol></p></statement>
+</exercise>
+
+<exercise number="23"><statement><p>Flying lessons cost $645 for an 8-hour course and $1425 for a 20-hour course. Both prices include a fixed insurance fee. Express the cost, <m>C</m>, of flying lessons in terms of the length, <m>h</m>,
+of the course in hours.<ol label="a">
+	<li>What is the slope, including units?  What does it tell you about the problem?</li>
+	<li>How much does a 10-hour course cost?</li>
+	<li>How much is the fixed insurance fee?</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p>On an international flight a passenger may check two bags each weighing 70 kilograms, or 154 pounds, and one carryon bag weighing 50 kilograms, or 110 pounds. Express the weight, <m>p</m>, of a bag in pounds in terms of its weight, <m>k</m>, in kilograms.<ol label="a">
+	<li>What is the slope, including units?  What does it tell you about the problem?</li>
+	<li>What does a 50-pound bag weigh in kilograms?</li>
+	<li>Why is the constant term in your equation equal to zero?</li></ol></p></statement></exercise>
+</exercisegroup>
+
+</exercises>
