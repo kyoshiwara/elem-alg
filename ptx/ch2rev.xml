@@ -133,12 +133,60 @@
 <exercisegroup><introduction><p>For Problems 11<ndash/>12, write an equation relating the variables, make a table of values, and graph your equation on the grid provided.</p></introduction>
 
 <exercise number="11"><statement><p>A new computer station for a graphics design firm costs $2000 and depreciates in value $200 every year. Write and graph an equation that gives the value, <m>V</m>, of the station after <m>t</m> years. Use the grid below.</p>
-	<sidebyside width="45%"><image source="images/cr2-11.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="50%"><!--<image source="images/cr2-11.png"><description>grid</description></image>-->
+    <image xml:id="cr2-11">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.25, yscale=0.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[xstep=2] (24,20);
+        \draw[black,thick, ->, >=stealth'] (O)--(26,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,22) node[left, xshift=2]{$V$};
+        \foreach \x in  {10, 20} {
+         \draw[cyan,very thick] (\x,0) --(\x,20); 
+         \draw[black] (\x,.2) --++(0,-.4)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int( 100* \x )] in  {5,10,15,20} {
+         \draw[cyan, very thick] (0,\x) --(24,\x); 
+         \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \node[below left, xshift=1] at (O) {0};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 </statement>
 <answer></answer></exercise>
 
 <exercise number="12"><statement><p>Ranwa teaches aerobic dance. Her gym pays her $5 for an hour-long class, plus $2 for each paying student in the class. Write and graph an equation that gives Ranwa's pay, <m>P</m>, if there are <m>s</m> students in the class. Use the grid below.</p>
-	<sidebyside width="55%"><image source="images/cr2-12.png"><description>grid</description></image></sidebyside>
+    <sidebyside width="50%"><!--<image source="images/cr2-12.png"><description>grid</description></image>-->
+    <image xml:id="cr2-12">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.2, yscale=0.08]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[xstep=2, ystep=4] (30,80);
+        \draw[black,thick, ->, >=stealth'] (O)--(32,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,86) node[left, xshift=2]{$P$};
+        \foreach \x in  {10, 20,30} {
+         \draw[cyan,very thick] (\x,0) --(\x,80); 
+         \draw[black] (\x,.4) --++(0,-.8)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in {20,40,60,80} {
+         \draw[cyan, very thick] (0,\x) --(30,\x); 
+         \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \node[below left, xshift=1] at (O) {0};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 </statement></exercise>
 </exercisegroup>
 
@@ -263,7 +311,29 @@
                     </tabular></sidebyside></p></li>
 	<li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
 	<li>Graph your equation on the grid.
-		<sidebyside width="45%"><image source="images/cr2-43.png"><description>grid</description></image></sidebyside></li>
+		<sidebyside width="45%"><!--<image source="images/cr2-43.png"><description>grid</description></image>-->
+    <image xml:id="cr2-43">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [xscale=.35, yscale=0.12]
+		\draw[cyan] (-4,-30) grid[ ystep=3] (14,30);
+		\draw[black,thick, ->, >=stealth'] (-4,0)--(15,0) node[right]{$h$};
+		\draw[black,thick, ->, >=stealth'] (0,-30)--(0,34) node[left, xshift=2]{$T$};
+		\foreach \x in  {5, 10} {
+		 \draw[cyan,very thick] (\x,-30) --(\x,30); 
+		 \draw[black] (\x,.4) --++(0,-.8)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in {-24,-12,12,24} {
+		 \draw[cyan, very thick] (-4,\x) --(14,\x); 
+		 \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+		</sidebyside></li>
 	<li>What was the temperature at 10 am?</li>
 	<li>When will the temperature reach <m>-15 \degree</m>?</li>
 	<li>How much did the temperature drop between 3 pm and 9 pm?</li></ol></p></statement>
@@ -272,17 +342,17 @@
 <exercise number="44"><statement><p>Graph each pair of points on the grid, then find the distance between them.<ol label = "a" cols="2">
 	<li><m>A(-2,-4)</m> and <m>B(-7,-4)</m></li>
 	<li><m>P(6,-2)</m> and <m>Q(6,8)</m></li></ol></p>
-	<sidebyside width="45%"><image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+	<sidebyside width="45%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>46, make a table of values and graph each equation.
 </p></introduction>
 
 <exercise number="45"><statement><m>y=-2x+7</m>
-<sidebyside width="95%"><image source="images/cr2-45.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="46"><statement><m>y=\dfrac{4}{3}x-2</m>
-<sidebyside width="95%"><image source="images/cr2-45.png"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, simplify the expression.</p></introduction>
@@ -314,15 +384,63 @@
 <exercisegroup cols="2"><introduction><p>For Problems 55<ndash/>56, use the graph to solve the equation. Estimate your solutions if necessary.</p></introduction>
 
 <exercise number="55"><statement><p><ol label="a">
-	<li><m>-3x+9=24</m></li>
-	<li><m>-3x+9=3</m></li></ol></p>
-	<sidebyside width="60%"><image source="images/cr2-55.png"><description>graph</description></image></sidebyside></statement>
+    <li><m>-3x+9=24</m></li>
+    <li><m>-3x+9=3</m></li></ol></p>
+    <sidebyside width="55%"><!--<image source="images/cr2-55.png"><description>graph</description></image>-->
+    <image xml:id="cr2-55">
+        <description>graph</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.3]
+        \draw[cyan] (-7,-4) grid (4,30);
+        \draw[black,thick, ->, >=stealth'] (-7,0)--(5,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-4)--(0,32) node[left, xshift=2]{$y$};
+        \foreach \x in  {-6,-3,3} {
+         \draw[cyan,very thick] (\x,-4) --(\x,30); 
+         \draw[black] (\x,.2) --++(0,-.4)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in {-3,3,6,9,12,15,18,21,24,27,30} {
+         \draw[cyan, very thick] (-7,\x) --(4,\x); 
+         \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, ultra thick, <->, >=stealth'] (-7,30)--(4,-3);
+        \node[above, text=red, fill=white, inner sep=2] at (-3.5,0) {$y=-3x+9$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="56"><statement><p><ol label="a">
-	<li><m>24x-1800=-1250</m></li>
-	<li><m>24x-1800=500</m></li></ol></p>
-	<sidebyside width="95%"><image source="images/cr2-56.png"><description>graph</description></image></sidebyside></statement></exercise>
+    <li><m>24x-1800=-1250</m></li>
+    <li><m>24x-1800=500</m></li></ol></p>
+    <sidebyside width="80%"><!--<image source="images/cr2-56.png"><description>graph</description></image>-->
+    <image xml:id="cr2-56">
+        <description>graph</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=0.3]
+        \draw[cyan] (-6,-20) grid (12,5);
+        \draw[black,thick, ->, >=stealth'] (-6,0)--(13,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-20)--(0,6.5) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int( 10* \x )] in {-5,5,10} {
+         \draw[cyan,very thick] (\x,-20) --(\x,5); 
+         \draw[black] (\x,.2) --++(0,-.4)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int( 200* \x )] in {-20,-15,-10,-5,5} {
+         \draw[cyan, very thick] (-6,\x) --(12,\x); 
+         \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red, ultra thick, <->, >=stealth'] (-6,{(24*(-60)-1800)/200})--({280/24}, 5);
+        \node[above, text=red, fill=white, inner sep=2] at (7.2,-19.4) {$y=24x-1800$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercise number="57"><statement><p>The length of a rectangle is 3 times its width.<ol label="a">
