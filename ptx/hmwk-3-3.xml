@@ -3,16 +3,76 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 3.3</title>
 
- <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, find the slope of each line segment.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, find the slope of each line segment.</p></introduction>
 
-<exercise number="1"><statement><p><ol label="a" cols="2">
-	<li><p><sidebyside width="100%" vertalign = "middle"><image source="images/hp-3-3-1a.png"><description>segment</description></image></sidebyside></p></li>
-	<li><p><sidebyside width="100%"><image source="images/hp-3-3-1b.png"><description>segment</description></image></sidebyside></p></li></ol></p></statement>
+<exercise number="1"><statement><!--<p><ol label="a" cols="2">
+    <li><p><sidebyside width="100%" vertalign = "middle"><image source="images/hp-3-3-1a.png"><description>segment</description></image></sidebyside></p></li>
+    <li><p><sidebyside width="100%"><image source="images/hp-3-3-1b.png"><description>segment</description></image></sidebyside></p></li></ol></p>-->
+<sidebyside width="90%" margins="0% 10%">
+    <image xml:id="hp-3-3-1">
+        <description>two sloping segments</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \coordinate (O) at (0,0);
+        \coordinate (A) at ($ (O)+(4,6) $);
+        \draw[lightgray,very thick] (O)--++(4,0) node[below,midway, text=black] {4};
+        \draw[lightgray,very thick] (A)--++(0,-6) node[right,midway, text=black] {6};
+        \filldraw[red] (O) circle (1.5mm);
+        \filldraw[red] (A) circle (1.5mm);
+        \draw[red,ultra thick] (O)--(A);
+        \node[below] at ($ (O)+(-1,3) $) {a.};
+
+        \coordinate (O) at (14,0);
+        \coordinate (A) at ($ (O)+(-4,8) $);
+        \draw[lightgray,very thick] (O)--++(-4,0) node[below,midway, text=black] {4};
+        \draw[lightgray,very thick] (A)--++(0,-8) node[left,midway, text=black] {8};
+        \filldraw[red] (O) circle (1.5mm);
+        \filldraw[red] (A) circle (1.5mm);
+        \draw[red,ultra thick] (O)--(A);
+        \node[below] at ($ (O)+(-5.5,3) $) {b.};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
+</statement>
 <answer></answer></exercise>
 
-<exercise number="2"><statement><p><ol label="a" cols="2">
-	<li><p><sidebyside width="100%"><image source="images/hp-3-3-2a.png"><description>segment</description></image></sidebyside></p></li>
-	<li><p><sidebyside width="90%"><image source="images/hp-3-3-2b.png"><description>segment</description></image></sidebyside></p></li></ol></p></statement></exercise>
+<exercise number="2"><statement><!--<p><ol label="a" cols="2">
+    <li><p><sidebyside width="100%"><image source="images/hp-3-3-2a.png"><description>segment</description></image></sidebyside></p></li>
+    <li><p><sidebyside width="90%"><image source="images/hp-3-3-2b.png"><description>segment</description></image></sidebyside></p></li></ol></p>-->
+<sidebyside>
+    <image xml:id="hp-3-3-2">
+        <description>two sloping segments on grids</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.33]
+        \coordinate (O) at (0,0);
+        \coordinate (A) at (1,3);
+        \coordinate (B) at (9,1);
+        \draw[cyan] (O) grid ($ (O)+(10,4) $);
+        \filldraw[red] (B) circle (1.5mm);
+        \filldraw[red] (A) circle (1.5mm);
+        \draw[red,ultra thick] (B)--(A);
+        \node[below] at ($ (O)+(-1,2) $) {a.};
+
+        \coordinate (O) at (13,2);
+        \coordinate (A) at ($ (O)+(1,-4) $);
+        \coordinate (B) at ($ (O)+(4,5) $);
+        \draw[cyan] (13,-3) grid (18,8);
+        \filldraw[red] (B) circle (1.5mm);
+        \filldraw[red] (A) circle (1.5mm);
+        \draw[red,ultra thick] (B)--(A);
+        \node[below] at ($ (O)+(-1.2,0.2) $) {b.};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
+    </statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2">
@@ -32,7 +92,30 @@
                         <cell><m>60</m></cell>
                         <cell><m>90</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="90%"><image source="images/hp-3-3-3.png"><description>graph</description></image></sidebyside></p></statement>
+    <sidebyside width="90%"><!--<image source="images/hp-3-3-3.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-3">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.3]
+		\draw[cyan] (-10,-5) grid (10,10);
+		\draw[black, thick,->,>=stealth'] (-10,0)--(11.5,0) node[right]{$x$};
+		\draw[black, thick,->,>=stealth'] (0,-5)--(0,11.5) node[left]{$y$};
+		\foreach \x  in  {-10,-5,5,10} {
+		 \draw[cyan, very thick] (\x,-5) --(\x,10);
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-3, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(10*\x] in  {-5,5,10} {
+		 \draw[cyan, very thick] (-10,\x) --(10,\x);
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[red, ultra thick, <->,>=stealth'] (-4/3,-5)--(26/3,10);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></p></statement>
  <answer></answer></exercise>  
  
  <exercise number="4"><statement><p>Graph the line and compute its slope.
@@ -51,16 +134,86 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="70%"><image source="images/hp-3-3-4.png"><description>grid</description></image></sidebyside></p></statement></exercise>
+    <sidebyside width="70%"><!--<image source="images/hp-3-3-4.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-3-4">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.4]
+		\draw[cyan] (-4,-5) grid (8,15);
+		\draw[black, thick,->,>=stealth'] (-4,0)--(9.,0) node[right]{$x$};
+		\draw[black, thick,->,>=stealth'] (0,-5)--(0,16.5) node[left]{$y$};
+		\draw[cyan, very thick] (5,-5) --(5,15);
+		\foreach \x  in  {-3,5} {
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-3, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(4*\x] in  {-3,3,6,9,12,15} {
+		 \draw[cyan, very thick] (-4,\x) --(8,\x);
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\xi$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></p></statement></exercise>
 </exercisegroup> 
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>6, find the slope of the line. Illustrate <m>\Delta x</m> and <m>\Delta y</m> on the graph.</p></introduction>
  
 <exercise number="5"><statement><p><m>x+2y=6</m></p>
-<sidebyside width="100%"><image source="images/hp-3-3-5.png"><description>graph</description></image></sidebyside></statement><answer></answer></exercise>
+<sidebyside width="100%"><!--<image source="images/hp-3-3-5.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-5">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.3]
+		\coordinate (O) at (0,0);
+		\draw[cyan] (-10,-10) grid (10,10);
+		\draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+		\draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+		\foreach \x in  {-5, 5, -10, 10} {
+		 \draw[cyan, very thick] (\x,-10) --++(0,20);
+		 \draw[cyan, very thick] (-10,\x) --++(20,0);
+		 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[red, ultra thick, <->, >=stealth'] (-10,8)--(10,-2);
+		\filldraw[red!80!black] (-4,5) circle (2.5mm);
+		\filldraw[red!80!black] (4,1) circle (2.5mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement><answer></answer></exercise>
 
 <exercise number="6"><statement><p><m>3x-2y=0</m></p>
-<sidebyside width="100%"><image source="images/hp-3-3-6.png"><description>graph</description></image></sidebyside></statement></exercise>
+<sidebyside width="100%"><!--<image source="images/hp-3-3-6.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-6">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.3]
+		\coordinate (O) at (0,0);
+		\draw[cyan] (-10,-10) grid (10,10);
+		\draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+		\draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+		\foreach \x in  {-5, 5, -10, 10} {
+		 \draw[cyan, very thick] (\x,-10) --++(0,20);
+		 \draw[cyan, very thick] (-10,\x) --++(20,0);
+		 \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		 \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[red, ultra thick, <->, >=stealth'] (-20/3,-10)--(20/3,10);
+		\filldraw[red!80!black] (-2,-3) circle (2.5mm);
+		\filldraw[red!80!black] (4,6) circle (2.5mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>10, <ol label="a">
@@ -71,19 +224,19 @@
 
 <exercise number="7"><statement><p><m>2x+3y=12</m>
 	<me>(-3,6)~~\text{and}~~(3,2)</me></p>
-<sidebyside width="100%"><image source="images/hp-3-3-7.png"><description>grid</description></image></sidebyside></statement><answer></answer></exercise>
+<sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement><answer></answer></exercise>
 
 <exercise number="8"><statement><p><m>5x-2y=10</m>
 	<me>(-2,-10)~~\text{and}~~(4,5)</me></p>
-<sidebyside width="100%"><image source="images/hp-3-3-7.png"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="9"><statement><p><m>x+y=5</m>
 	<me>(-3,8)~~\text{and}~~(8,-3)</me></p>
-<sidebyside width="100%"><image source="images/hp-3-3-7.png"><description>grid</description></image></sidebyside></statement><answer></answer></exercise>
+<sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement><answer></answer></exercise>
 
 <exercise number="10"><statement><p><m>x-2y=4</m>
 	<me>(6,1)~~\text{and}~~(-4,-4)</me></p>
-<sidebyside width="100%"><image source="images/hp-3-3-7.png"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercise number="11"><statement><p>A line contains the points <m>(0,0)</m> and <m>(3,2)</m>. What is its slope?</p></statement>
@@ -97,11 +250,39 @@
 <exercise number="14"><statement><p>Which line is decreasing: one with slope <m>\dfrac{1}{4}</m> or one with slope <m>-2</m>?</p></statement></exercise>
 
 <exercise number="15"><statement><p>The line shown below has slope <m>\dfrac{5}{2}</m>. If <m>\Delta x = 7</m>, find <m>\Delta y</m>.</p>
-<sidebyside width="15%"><image source="images/hp-3-3-15.png"><description>segment</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<sidebyside width="15%"><!--<image source="images/hp-3-3-15.png"><description>segment</description></image>-->
+    <image xml:id="hp-3-3-15">
+        <description>line segment</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=1.5]
+		\draw[black,thick](0,0)--(1,0) node[below, midway]{$\Delta x=7$};
+		\draw[black,thick] (1,0)--(1,1.5) node[right, midway]{$\Delta y$};
+		\draw[red,thick, <->, >=stealth'] (-.2, -.3)--(1.2, 1.8);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
+<answer><p><m>\dfrac{35}{2}</m></p></answer></exercise>
 
 <exercise number="16"><statement><p>The line shown below has slope <m>-4</m>. If <m>\Delta y=-6</m>, find <m>\Delta x</m>.</p>
-<sidebyside width="20%"><image source="images/hp-3-3-16.png"><description>segment</description></image></sidebyside></statement></exercise>
+<sidebyside width="20%"><!--<image source="images/hp-3-3-16.png"><description>segment</description></image>-->
+    <image xml:id="hp-3-3-16">
+        <description>line segment</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.8]
+		\draw[black,thick](0,0)--(1,0) node[below, midway]{$\Delta x$};
+		\draw[black,thick] (0,0)--(0,4) node[left, midway]{$\Delta y=-6$};
+		\draw[red,thick, <->, >=stealth'] (-.1, 4.4)--(1.1, -.4);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 17<ndash/>18, <ol label="a">
 	<li>Compute the slope of the graph, including units.</li>
@@ -109,15 +290,85 @@
 </li></ol></p></introduction>
 
 <exercise number="17"><statement><p>Audrey can drive 150 miles on 6 gallons of gas, and 225 miles on 9 gallons of gas.  Write an equation for the distance, <m>d</m>, that Audrey can drive on <m>g</m> gallons of gas.</p>
-<sidebyside width="40%"><image source="images/hp-3-3-17.png"><description>graph</description></image></sidebyside></statement>
+<sidebyside width="40%"><!--<image source="images/hp-3-3-17.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-17">
+        <description>graph</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.4]
+		\coordinate (O) at (0,0);
+		\draw[cyan] (O) grid (10,12);
+		\draw[black,very thick, ->, >=stealth'] (O)--(11.5,0) node[right]{$g$};
+		\draw[black,very thick, ->, >=stealth'] (O)--(0,13.5) node[left]{$d$};
+		\foreach \x  in  {5,10} {
+		 \draw[cyan, very thick] (\x,0) --++(0,12);
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(25*\x] in  {4,8,12} {
+		 \draw[cyan, very thick] (0,\x) --(10,\x);
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[red, ultra thick, ->, >=stealth'] (O)--(10,10);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="18"><statement><p>The sales tax on a $15 purchase is 60 cents, and 80 cents on a $20 purchase. Write an equation for the tax <m>T</m>, in cents, on a purchase of <m>p</m> dollars.</p>
-<sidebyside width="40%"><image source="images/hp-3-3-18.png"><description>segment</description></image></sidebyside></statement></exercise>
+<sidebyside width="40%"><!--<image source="images/hp-3-3-18.png"><description>segment</description></image>-->
+    <image xml:id="hp-3-3-18">
+        <description>line on grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}
+		\coordinate (O) at (0,0);
+		\draw[cyan] (O) grid[ystep=1/2] (4,5);
+		\draw[black,very thick, ->, >=stealth'] (O)--(4.5,0) node[right]{$p$};
+		\draw[black,very thick, ->, >=stealth'] (O)--(0,5.5) node[left]{$T$};
+		\foreach \x [evaluate=\x as \xi using int(5*\x] in  {2,4} {
+		 \draw[cyan, very thick] (\x,0) --++(0,5);
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(16*\x] in  {.5,1.5,2.5,3.5,4.5} {
+		 \draw[cyan, very thick] (0,\x) --(4,\x);
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[red, ultra thick, ->, >=stealth'] (O)--(4,5);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercise number="19"><statement><p>Lynette is saving money for the down payment on a new car. The figure below shows the amount <m>A</m> she has saved, in dollars, <m>w</m> weeks after the first of the year.</p>
-<sidebyside width="45%"><image source="images/hp-3-3-19.png"><description>graph</description></image></sidebyside>
+<sidebyside width="45%"><!--<image source="images/hp-3-3-19.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-19">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.5]
+		\coordinate (O) at (0,0);
+		\draw[cyan] (O) grid (12,10);
+		\draw[black,very thick, ->, >=stealth'] (O)--(13,0) node[right]{$w$};
+		\draw[black,very thick, ->, >=stealth'] (O)--(0,11) node[left]{$A$};
+		\foreach \x in  {2,4,...,12} {
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(100*\x] in  {2,4,...,10} {
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[red, ultra thick, ->, >=stealth'] (0,2)--(12,8);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 <p><ol label="a">
 	<li>How much does Lynette save each week?</li>
 	<li>Give the coordinates <m>w,A)</m> of any two points on the graph. Use those coordinates to compute the slope of the graph, <m>\dfrac{\Delta A}{\Delta w}</m>.</li> 
@@ -125,7 +376,29 @@
 <answer></answer></exercise>
 
 <exercise number="20"><statement><p>Jason is raising a rabbit for the county fair. The figure below shows the rabbit's weight <m>W</m> when it was <m>t</m> weeks old.</p>
-<sidebyside width="40%"><image source="images/hp-3-3-20.png"><description>graph</description></image></sidebyside>
+<sidebyside width="40%"><!--<image source="images/hp-3-3-20.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-20">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.6]
+		\coordinate (O) at (0,0);
+		\draw[cyan] (O) grid (10,10);
+		\draw[black,very thick, ->, >=stealth'] (O)--(11,0) node[right]{$t$};
+		\draw[black,very thick, ->, >=stealth'] (O)--(0,11) node[left]{$W$};
+		\foreach \x [evaluate=\x as \xi using int(2*\x] in  {2,4,...,10} {
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(2*\x] in  {2,4,...,10} {
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[red, ultra thick, ->, >=stealth'] (0,1)--(10,6);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 <p><ol label="a">
 	<li>How much did the rabbit's weight increase from the fourth week to the twelfth week?  From the second week to the eighth week?</li>
 	<li>Compute the rabbit's rate of growth, including units.</li>
@@ -144,24 +417,141 @@
 	<li>Calculate the slope of the line shown below.</li>
 	<li>Explain why <m>\Delta y = 0</m> for any two points on the line.</li>
 	<li>Explain why the slope of any horizontal line is zero.</li></ol></p>
-	<sidebyside width="30%"><image source="images/hp-3-3-23.png"><description>graph</description></image></sidebyside></statement>
+	<sidebyside width="30%"><!--<image source="images/hp-3-3-23.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-23">
+        <description>horizontal line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.4]
+		\draw[cyan] (-5,-5) grid (5,5);
+		\draw[black,very thick, ->, >=stealth'] (-5,0)--(6.4,0) node[right]{$x$};
+		\draw[black,very thick, ->, >=stealth'] (0,-5)--(0,6.4) node[left, xshift=2]{$y$};
+		\foreach \x  in  {-5, 5} {
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[red, ultra thick, <->, >=stealth'] (-5,3)--(5,3);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="24"><statement><p><ol label="a">
 	<li>Calculate the slope of the line shown below.</li>
 	<li>Explain why <m>\Delta x = 0</m> for any two points on the line.</li>
 	<li>Explain why the slope of any vertical line is undefined.</li></ol></p>
-	<sidebyside width="30%"><image source="images/hp-3-3-24.png"><description>graph</description></image></sidebyside></statement></exercise>
+	<sidebyside width="30%"><!--<image source="images/hp-3-3-24.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-24">
+        <description>vertical line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+
+		\begin{tikzpicture} [scale=.4]
+		\draw[cyan] (-5,-5) grid (5,5);
+		\draw[black,very thick, ->, >=stealth'] (-5,0)--(6.4,0) node[right]{$x$};
+		\draw[black,very thick, ->, >=stealth'] (0,-5)--(0,6.4) node[left, xshift=2]{$y$};
+		\foreach \x  in  {-5, 5} {
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		 \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[red, ultra thick, <->, >=stealth'] (-2,-5)--(-2,5);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside></statement></exercise>
 
 <exercise number="25"><statement><p><ol label="a">
-	<li>Which of the two graphs in the figure below appears steeper?</li>
-	<li>Compute the slopes of the two graphs.  Which has the greater slope?</li></ol></p>
-	<sidebyside widths="35% 45%" margins="10% 10%"><image source="images/hp-3-3-25a.png"><description>graph</description></image>
-	<image source="images/hp-3-3-25b.png"><description>graph</description></image></sidebyside></statement>
+    <li>Which of the two graphs in the figure below appears steeper?</li>
+    <li>Compute the slopes of the two graphs.  Which has the greater slope?</li></ol></p>
+    <sidebyside widths="38% 45%" margins="10% 0%" valigns="bottom bottom"><!--<image source="images/hp-3-3-25a.png"><description>graph</description></image>
+    <image source="images/hp-3-3-25b.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-25a">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (-5,-7) grid (5,6);
+        \draw[black,thick, ->, >=stealth'] (-5,0)--(6.,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-7)--(0,6.7) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x] in  {-5,5} {
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(4*\x] in  {-5,5} {
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red, thick] (-11/3,-7)--(5,6);
+        \filldraw[black] (-3,-6) circle (2.mm);
+        \filldraw[black] (-1,-3) circle (2.mm);
+        \filldraw[black] (1,0) circle (2.mm);
+        \filldraw[black] (3,3) circle (2.mm);
+        \node[above left, xshift=-4] at (-5,-7) {I};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    <image xml:id="hp-3-3-25b">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (-6,-5) grid (6,5);
+        \draw[black,thick, ->, >=stealth'] (-6,0)--(6.7,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-5)--(0,6) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(10*\x] in  {-5,5} {
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(400*\x] in  {-5,-1,1,5} {
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red, thick] (-6,-5)--(6,1);
+        \filldraw[black] (-2,-3) circle (2.mm);
+        \filldraw[black] (0,-2) circle (2.mm);
+        \filldraw[black] (2,-1) circle (2.mm);
+        \filldraw[black] (4,0) circle (2.mm);
+        \node[above left, xshift=-4] at (-6,-5) {II};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="26"><statement><p>Kira buys granola in bulk at the health food store. There are two standard containers customers can use.  The size of each container in ounces and its price in dollars are shown in the graph.</p>
-<sidebyside width="45%"><image source="images/hp-3-3-26.png"><description>graph</description></image></sidebyside>
+<sidebyside width="45%"><!--<image source="images/hp-3-3-26.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-3-26">
+        <description>graph of line on grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [xscale=.3,yscale=.25]
+		\draw[cyan] (0,0) grid (16,25);
+		\draw[black,thick, ->, >=stealth'] (0,0)--(17,0) node[right]{$x$};
+		\draw[black,thick, ->, >=stealth'] (0,0)--(0,27) node[left, xshift=2]{$P$};
+		\foreach \x [evaluate=\x as \xi using int(2*\x] in  {5,10} {
+		 \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \y [evaluate=\y as \yi using int(2.5*\y)] in  {2.00, 4.00, 6.00} {
+		 \draw[black] (.15,\yi) --++(-.3,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\y$};
+		}
+		\draw[red, thick] (0,0)--(16,24);
+		\filldraw[black] (4,6) circle (2.2mm);
+		\filldraw[black] (8,12) circle (2.2mm);
+		\foreach \x in {1,2,...,16}
+		 \draw[black,thick] (\x,.2)--++(0,-.4);
+		\foreach \y in {1,2,...,25}
+		 \draw[black,thick] (.2,\y)--++(-.4,0);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 <p><ol label="a">
 	<li>Read the coordinates of the two points shown on the graph.</li>
 	<li>Calculate the slope of the graph, including units. What does the slope tell us about the granola?</li>
