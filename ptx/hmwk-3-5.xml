@@ -107,13 +107,13 @@
 <exercise number="24"><statement><p><m>m=2,~~(1,-1)</m><ol label="a" cols="2">
 	<li><m>(0,?)</m></li>
 	<li><m>(?,-7)</m></li></ol></p>
-	<sidebyside width="90%"><image source="images/hp-3-5-24.png"><description>grid</description></image></sidebyside>
+	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 	</statement></exercise>
 
 <exercise number="25"><statement><p><m>m=\dfrac{-1}{2},~~(2,-6)</m><ol label="a" cols="2">
 	<li><m>(6,?)</m></li>
 	<li><m>(?,-3)</m></li></ol></p>
-	<sidebyside width="90%"><image source="images/hp-3-5-24.png"><description>grid</description></image></sidebyside>
+	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
 	</statement>
 <answer></answer></exercise>
 </exercisegroup>
@@ -132,14 +132,60 @@
 </exercisegroup>
 
 <exercise number="30"><statement><p>The figure shows the wholesale cost, <m>C</m>, in dollars, of <m>p</m> pounds of dry-roasted peanuts.</p>
-	<sidebyside width="40%"><image source="images/hp-3-5-30.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="40%"><!--<image source="images/hp-3-5-30.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-5-30">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.5]
+		\draw[cyan] (0,0) grid (10,10);
+		\draw[black,very thick, ->, >=stealth'] (0,0)--(11,0) node[right]{$p$};
+		\draw[black,thick, ->, >=stealth'] (0,0)--(0,11) node[left, xshift=2]{$C$};
+		\foreach \x [evaluate=\x as \xi using int(10*\x] in  {5,10} {
+		 \draw[cyan, very thick] (\x,0) --++(0,10);
+		 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=x as \xi using int(20*\x] in  {5,10} {
+		 \draw[cyan, very thick] (0,\x) --++(10,0);
+		 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[red, very thick, ->, >=stealth'] (0,0)--(10,15/2);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 <p><ol label="a">
 	<li>What does the slope of this graph tell you about dry-roasted peanuts?</li>
 	<li>Compute the slope, including units.</li>
 	<li>If the Lone Star Barbecue increases its weekly order of peanuts from 100 to 120 pounds, how much will the cost increase?</li></ol></p></statement></exercise>
 
-<exercise number="30"><statement><p>Roy is traveling home by train. The figure shows his distance <m>d</m> from home in miles <m>h</m> hours after the train started.</p>
-	<sidebyside width="40%"><image source="images/hp-3-5-31.png"><description>graph</description></image></sidebyside>
+<exercise number="31"><statement><p>Roy is traveling home by train. The figure shows his distance <m>d</m> from home in miles <m>h</m> hours after the train started.</p>
+	<sidebyside width="40%"><!--<image source="images/hp-3-5-31.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-5-31">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} [scale=.45]
+		\draw[cyan] (0,0) grid (12,18);
+		\draw[black,very thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$h$};
+		\draw[black,thick, ->, >=stealth'] (0,0)--(0,19.5) node[left, xshift=2]{$d$};
+		\foreach \x [evaluate=\x as \xi using int(10*\x] in  {5,10} {
+		 \draw[cyan, very thick] (\x,0) --++(0,18);
+		 \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=x as \xi using int(50*\x] in  {2,4,...,18} {
+		 \draw[cyan, very thick] (0,\x) --++(12,0);
+		 \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[red, very thick] (0,16)--(32/3,0);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 <p><ol label="a">
 	<li>Compute the slope of the graph, including units.</li>
 	<li>What does the slope tell you about Roy's journey?</li>
