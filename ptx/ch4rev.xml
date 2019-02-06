@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Ch4-Summary-and-Review"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Chapter 4 Summary and Review</title>
+
+<subsection><title>Lesson 4.1 The Distributive Law</title><p><ul>
+
+<li><assemblage><title>Distributive Law</title>
+<p>If <m>a,~ b,</m> and <m>c</m> are any numbers, then
+		<me>\blert{a(b+c) = ab + ac}</me></p></assemblage></li>
+
+<li><assemblage><title>Steps for Solving Linear Equations</title><p><ol label="1">
+	<li>Use the distributive law to remove any parentheses.</li>
+	<li>Combine like terms on each side of the equation.</li>
+	<li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side 	
+		and all the constant terms on the other.</li>
+	<li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li>
+</ol></p></assemblage></li></ul></p>
+</subsection>
+
+<subsection><title>Lesson 4.2 Systems of Linear Equations</title><p><ul>
+
+<li>A pair of linear equations in two variables 
+		<md><mrow>a_1x+b_1y=c_1</mrow>
+		<mrow>a_2x+b_2y=c_2</mrow></md>
+	considered together is called a <term>system of linear equations</term>, or a <term>linear system</term>.</li>
+<li>A <term>solution</term> to a system of linear equations is an ordered pair <m>(x,y)</m> that satisfies each equation in the system. It is the intersection point of the two lines described by the system.</li>
+
+<li><assemblage><p>There are three types of linear systems:<ol label="1">
+	<li><term>Consistent and independent system</term>. The graphs of the two lines intersect in exactly one point. The system has exactly one solution.</li>  
+	<li><term>Inconsistent system.</term> The graphs of the equations are parallel lines and hence do not intersect. An inconsistent system has no solutions.</li>
+	<li><term>Dependent system.</term> All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</li></ol></p></assemblage></li></ul></p>
+</subsection>
+
+<subsection><title>Lesson 4.3 Algebraic Solution of Systems</title><p><ul>
+
+<li><assemblage><title>To Solve a System by Substitution</title>
+<p><ol label="1">
+	<li>Choose one of the variables in one of the equations. (It is best to choose a variable whose coefficient is 1 or <m>-1</m>.)  Solve the equation for that variable.</li>
+	<li>Substitute the result of Step 1 into the other equation. This gives an equation in one variable.</li>
+	<li>Solve the equation obtained in Step 2. This gives the solution value for one of the variables.
+	<li>Substitute this value into the result of Step 1 to find the solution value of the other variable.</li>
+</li></ol></p></assemblage></li>
+
+<li><assemblage><title>To Solve a System by Elimination</title><p><ol label="1">
+	<li>Write each equation in the form <m>Ax+By = C</m>.</li>
+	<li>Decide which variable to eliminate. Multiply each equation by an appropriate constant so that the coefficients of that variable are opposites.</li>
+	<li>Add the equations from Step 2 and solve for the remaining variable.</li>
+	<li>Substitute the value found in Step 3 into one of the original equations and solve for the other variable.</li>
+</ol></p></assemblage></li>
+
+<li><assemblage><title>When Using Elimination to Solve a System</title>
+<p><ol label="1">
+	<li>If combining the two equations results in an equation of the form
+		<me>0x+0y=k~~~~(k \not= 0)</me>
+	then the system is inconsistent.</li>
+	<li>If combining the two equations results in an equation of the form
+		<me>0x+0y=0</me>
+	then the system is dependent.</li></ol></p></assemblage></li></ul></p>
+</subsection>
+
+<subsection><title>Lesson 4.4 Applications of Systems</title><p><ul>
+<li>We can use tables to organize the information in applications involving interest, mixtures, or motion.</li>
+<li>The formula for calculating interest is
+		<me>\blert{I=Prt}</me>
+    <m>I</m> is the interest you will earn after <m>t</m> years if you invest a principal of <m>P</m> dollars in an account that earns simple interest at an annual rate <m>r</m>.</li>  
+<li>The formula for calculating percents is 
+		<me>\blert{P-rW}</me>
+	<m>P</m> stands for the part obtained when we take <m>r</m> percent of a whole amount, <m>W</m>.</li>
+<li>In general, we cannot add percents unless they are percents of the same whole amount.</li>
+<li>To solve problems involving motion at a constant speed we use the formula
+		<Me>\blert{D=RT}</Me>
+<m>D</m> stands for the distance you travel at speed <m>R</m> in time <m>T</m>.</li></ul></p>
+</subsection>
+
+<subsection><title>Lesson 4.5 Point-Slope Form</title><p><ul>
+
+<li><assemblage><title>Point-Slope Formula</title>
+<p>To find an equation for the line of slope <m>m</m> passing through the point <m>(x_1,y_1)</m>, we use the <term>point-slope formula</term>
+<me>\blert{\dfrac{y-y_1}{x-x_1} = m}</me>  
+or
+<me>\blert{y-y_1 = m(x-x_1)}</me></p></assemblage></li>
+
+<li><assemblage><title>To Fit a Line through Two Points</title><p><ol label="1">
+	<li>Compute the slope between the two points.</li>
+	<li>Substitute the slope and either point into the point-slope formula.</li></ol></p></assemblage></li></ul></p>
+</subsection>
+
+<subsection><title>Review Questions</title>
+<p>Use complete sentences to answer the questions.<ol label = "1">
+<li>State the two-point formula for slope.</li>
+<li>How can you find the equation of a line when you know the slope of the line and one point on the line?</li>
+<li>How can you find the solution to a linear system by graphing?</li>
+<li>Name two algebraic methods for solving linear systems.</li>
+<li>Suppose you are using the elimination method to solve a system. How can you tell if the system is dependent or inconsistent?</li>
+<li>How would you label the columns when making a table for a problem about interest?</li>
+<li>How would you label the columns when making a table for a problem about a mixture?</li>
+<li>How would you label the columns when making a table for a problem about motion?</li>
+<li>Under what conditions can we add percents?</li>
+<li>Explain why the distributive law does not apply to the expression <m>-3(2ab)</m>.</li></ol></p>
+</subsection>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</section>  
+
