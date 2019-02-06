@@ -23,30 +23,122 @@
 	<li>Write the equation for the line.</li></ol></p></introduction>
 
 <exercise number="5"><statement>
-	<sidebyside width="90%"><image source="images/hp-3-4-5.png"><description>graph</description></image></sidebyside></statement>
+	<sidebyside width="90%"><!--<image source="images/hp-3-4-5.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-4-5">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-2,-10)--(14/3,10);
+        \filldraw[red!80!black] (0,-4) circle (2mm);
+        \filldraw[red!80!black] (2,2) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="6"><statement>
-	<sidebyside width="90%"><image source="images/hp-3-4-6.png"><description>graph</description></image></sidebyside></statement></exercise>
+	<sidebyside width="90%"><!--<image source="images/hp-3-4-6.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-4-6">
+        <description>graph of ine</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-10,-29/3)--(10,11/3);
+        \filldraw[red!80!black] (0,-3) circle (2mm);
+        \filldraw[red!80!black] (6,1) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></statement></exercise>
 
 <exercise number="7"><statement>
-	<sidebyside width="90%"><image source="images/hp-3-4-7.png"><description>graph</description></image></sidebyside></statement>
+	<sidebyside width="90%"><!--<image source="images/hp-3-4-7.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-4-7">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-45/8,10)--(55/8,-10);
+        \filldraw[red!80!black] (0,1) circle (2mm);
+        \filldraw[red!80!black] (5,-7) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="8"><statement>
-	<sidebyside width="90%"><image source="images/hp-3-4-8.png"><description>graph</description></image></sidebyside></statement></exercise>
+	<sidebyside width="90%"><!--<image source="images/hp-3-4-8.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-4-8">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-10,7/3)--(10,-13/3);
+        \filldraw[red!80!black] (0,-1) circle (2mm);
+        \filldraw[red!80!black] (-6,1) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup ><introduction><p>For Problems 9<ndash/>12, <ol label="a">  
-	<li>Fill in the <m>y</m>-values in the tables and graph the lines.</li> 
-	<li>Choose two points on each line and compute its slope.</li>
-	<li>What is the <m>y</m>-intercept of each line?</li></ol></p></introduction>
+    <li>Fill in the <m>y</m>-values in the tables and graph the lines.</li> 
+    <li>Choose two points on each line and compute its slope.</li>
+    <li>What is the <m>y</m>-intercept of each line?</li></ol></p></introduction>
 
 <exercise number="9"><statement>
-	<sidebyside widths="50% 50%" valigns="middle middle">
-		<ol label="I">
-			<li><p><m>y=2x-6</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
+        <ol label="I">
+            <li><p><m>y=2x-6</m>
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -63,7 +155,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li>
             <li><p><m>y=2x+1</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -80,7 +172,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li>
             <li><p><m>y=2x+3</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -96,15 +188,15 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li></ol>
-        <image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside>
+        <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
     <answer></answer></exercise>
 
 <exercise number="10"><statement>
-	<sidebyside widths="50% 50%" valigns="middle middle">
-		<ol label="I">
-			<li><p><m>y=\dfrac{-3}{2}x-4</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
+        <ol label="I">
+            <li><p><m>y=\dfrac{-3}{2}x-4</m>
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -121,7 +213,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li>
             <li><p><m>y=\dfrac{-3}{2}x+2</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -138,7 +230,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li>
             <li><p><m>y=\dfrac{-3}{2}x+6</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -154,14 +246,14 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li></ol>
-        <image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside>
+        <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
 
 <exercise number="11"><statement>
-	<sidebyside widths="50% 50%" valigns="middle middle">
-		<ol label="I">
-			<li><p><m>y=\dfrac{1}{4}x+2</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
+        <ol label="I">
+            <li><p><m>y=\dfrac{1}{4}x+2</m>
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-4</m></cell>
@@ -178,7 +270,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li>
             <li><p><m>y=\dfrac{1}{2}x+2</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-4</m></cell>
@@ -195,7 +287,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li>
             <li><p><m>y=x+2</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-4</m></cell>
@@ -211,15 +303,15 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li></ol>
-        <image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside>
+        <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
     <answer></answer></exercise>
 
 <exercise number="12"><statement>
-	<sidebyside widths="50% 50%" valigns="middle middle">
-		<ol label="I">
-			<li><p><m>y=-3x-2</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
+        <ol label="I">
+            <li><p><m>y=-3x-2</m>
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -236,7 +328,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li>
             <li><p><m>y=-2x-2</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -253,7 +345,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li>
             <li><p><m>y=\dfrac{-5}{3}x-2</m>
-			<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+            <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-6</m></cell>
@@ -269,7 +361,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li></ol>
-        <image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside>
+        <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
     <answer></answer></exercise>
 </exercisegroup>
@@ -290,7 +382,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside></p>
-<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="14"><statement><p><m>y+3x-8=0</m>
@@ -304,7 +396,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside></p>
-<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 
@@ -315,35 +407,61 @@
 	<li>Graph the line.</li></ol></p></introduction>
 
 <exercise number="15"><statement><p><m>3x-5y=0</m></p>
-<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="16"><statement><p><m>5x+4y=0</m></p>
-<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, graph the equation by using the slope-intercept method.</p></introduction>
 
 <exercise number="17"><statement><p><m>y=3-x</m></p>
-<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="18"><statement><p><m>y=3x-1</m></p>
-<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 
 <exercise number="19"><statement><p><m>y=\dfrac{3}{4}x+2</m></p>
-<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="20"><statement><p><m>y=-2-\dfrac{4}{3}x</m></p>
-<sidebyside><image source="images/hp-3-4-9.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 
 <exercise number="21"><statement><p>Robin opened a yogurt smoothie shop near campus. The graph shows Robin's profit <m>P</m> after selling <m>s</m> smoothies.</p>
-<sidebyside width="40%"><image source="images/hp-3-4-21.png"><description>graph</description></image></sidebyside>
+<sidebyside width="40%"><!--<image source="images/hp-3-4-21.png"><description>graph</description></image>-->
+    <image xml:id="hp-3-4-21">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.45]
+        \draw[cyan] (0,-13) grid (10,2);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(11,0) node[right]{$s$};
+        \draw[black,thick, ->, >=stealth'] (0,-13)--(0,3) node[left, xshift=2]{$P$};
+        \foreach \x [evaluate=x as \xi using int(10*\x] in  {5, 10} {
+         \draw[cyan, very thick] (\x,-13) --++(0,15);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=x as \xi using int(20*\x] in  {-10,-5} {
+         \draw[cyan, very thick] (0,\x) --++(10,0);
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[black] (.15,2) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$40$};
+        \draw[red,very thick, ->, >=stealth'] (0,-12)--(28/3,2);
+        \end{tikzpicture}
+
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 <p><ol label="a">
 	<li>What is the <m>P</m>-intercept of the line?</li>
 	<li>Calculate the slope of the line.</li>
@@ -352,20 +470,86 @@
 <answer></answer></exercise>
 
 <exercisegroup><introduction><p>For Problems 22<ndash/>24, <ol label="a">  
-	<li>Graph the line by the slope-intercept method.</li>  
-	<li>Explain what the slope and the vertical intercept tell us about the problem.</li></ol></p></introduction>
+    <li>Graph the line by the slope-intercept method.</li>  
+    <li>Explain what the slope and the vertical intercept tell us about the problem.</li></ol></p></introduction>
 
 <exercise number="22"><statement><p>Serda's score on her driving test is computed by the equation <m>S=120-4n</m>, where <m>n</m> is the number of wrong answers she gives.</p>
-<sidebyside width="50%"><image source="images/hp-3-4-22.png"><description>grid</description></image></sidebyside>
+<sidebyside width="50%"><!--<image source="images/hp-3-4-22.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-4-22">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \draw[cyan] (0,0) grid (6,6);
+        \draw[black,thick, ->, >=stealth'] (0,0)--(6.5,0) node[right]{$n$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,6.5) node[left, xshift=2]{$S$};
+        \foreach \x [evaluate=x as \xi using int(5*\x] in  {2,4,6} {
+         \draw[cyan, very thick] (\x,0) --++(0,6);
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=x as \xi using int(20*\x] in  {2,4,6} {
+         \draw[cyan, very thick] (0,\x) --++(6,0);
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </statement></exercise>
 
 <exercise number="23"><statement><p>Greg is monitoring the growth of a new variety of string beans. The height of the vine each day is given in inches by <m>h=18+3d</m> where <m>d=0</m> represents today.</p>
-<sidebyside width="50%"><image source="images/hp-3-4-23.png"><description>grid</description></image></sidebyside>
+<sidebyside width="50%"><!--<image source="images/hp-3-4-23.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-4-23">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (-6,0) grid (6,16);
+        \draw[black,thick, ->, >=stealth'] (-6,0)--(7,0) node[right]{$d$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,17) node[left, xshift=2]{$h$};
+        \foreach \x in  {-6,-4,-2,2,4,6} {
+         \draw[cyan, very thick] (\x,0) --++(0,16);
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=x as \xi using int(2*\x] in  {2,4,...,16} {
+         \draw[cyan, very thick] (-6,\x) --++(12,0);
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </statement>
 <answer></answer></exercise>
 
 <exercise number="22"><statement><p>Cliff's score was negative at the end of the first round of College Quiz, but in Double Quiz his score improved according the equation <m>S=-400+20q</m>, where <m>q</m> is the number of questions he answered.</p>
-<sidebyside width="55%"><image source="images/hp-3-4-24.png"><description>grid</description></image></sidebyside>
+<sidebyside width="55%"><!--<image source="images/hp-3-4-24.png"><description>grid</description></image>-->
+    <image xml:id="hp-3-4-24">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (0,-8) grid (20,8);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(22,0) node[right]{$q$};
+        \draw[black,thick, ->, >=stealth'] (0,-8)--(0,10) node[left, xshift=2]{$S$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x] in  {5,10,15,20} {
+         \draw[cyan, very thick] (\x,-8) --++(0,16);
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=x as \xi using int(50*\x] in  {-8,-4,4,8} {
+         \draw[cyan, very thick] (0,\x) --++(20,0);
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </statement></exercise>
 </exercisegroup>
 

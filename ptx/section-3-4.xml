@@ -6,32 +6,34 @@
 
 <subsection><title>Writing a Linear Equation</title>
 
-<p>In Lesson 3.3, we plotted data for the temperature inside an oven used to cure pottery.
-	<sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
-                    <row bottom="minor">
-                        <cell>Time, <m>x</m></cell>
-                        <cell>0</cell>
-                        <cell>10</cell>
-                        <cell>20</cell>
-                        <cell>30</cell>
-                        <cell>40</cell>
-                        <cell>50</cell>
-                        <cell>60</cell></row>
-                    <row> 
-                        <cell>Temperature, <m>y</m></cell>
-                        <cell>70</cell>
-                        <cell>74</cell>
-                        <cell>78</cell>
-                        <cell>82</cell>
-                        <cell>86</cell>
-                        <cell>90</cell>
-                        <cell>94</cell></row>
-                    </tabular>
-    <image source="images/fig-3-3-ex1.png"><description>graph</description></image></sidebyside></p>
-<p>We computed the slope of the graph, shown in the figure. The slope is 
-	<me>\dfrac{\text{change in temperature}}{\text{change in time}} = \dfrac{\Delta y}{\Delta x} = \dfrac{\text{4 degrees}}{\text{10 minutes}}</me>
-or <m>m=0.4</m> degrees per minute.</p>
-<p>	You can see from either the table or the graph that the <m>y</m>-intercept is the point <m>(0,70)</m>. This means that the initial temperature inside the drying oven was 70 degrees.</p>
+<p>In Lesson 3.3, we plotted data for the temperature inside an oven used to cure pottery.</p>
+    <sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%"><stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
+        <row bottom="minor">
+            <cell>Time, <m>x</m></cell>
+            <cell>0</cell>
+            <cell>10</cell>
+            <cell>20</cell>
+            <cell>30</cell>
+            <cell>40</cell>
+            <cell>50</cell>
+            <cell>60</cell></row>
+        <row> 
+            <cell>Temperature, <m>y</m></cell>
+            <cell>70</cell>
+            <cell>74</cell>
+            <cell>78</cell>
+            <cell>82</cell>
+            <cell>86</cell>
+            <cell>90</cell>
+            <cell>94</cell></row>
+        </tabular>
+    <p>We computed the slope of the graph, shown in the figure. The slope is 
+    <md><mrow>\dfrac{\text{change in temperature}}{\text{change in time}} \amp= \dfrac{\Delta y}{\Delta x}</mrow>
+    <mrow> \amp= \dfrac{\text{4 degrees}}{\text{10 minutes}}</mrow></md>
+    </p></stack>
+    <image source="images/fig-3-3-ex1"><description>graph</description></image></sidebyside>
+<p>or <m>m=0.4</m> degrees per minute.</p>
+<p> You can see from either the table or the graph that the <m>y</m>-intercept is the point <m>(0,70)</m>. This means that the initial temperature inside the drying oven was 70 degrees.</p>
 
 <assemblage><title>Look Ahead</title>
 <p>If we know two pieces of information about a line: its slope and its initial value or <m>y</m>-intercept, we can write its equation.</p></assemblage>
@@ -78,7 +80,42 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <example><statement><p>Graph the equation <m>~y=\dfrac{3}{4}x-2</m></p></statement>
 
 <solution><p>The slope of the line is <m>\dfrac{3}{4}</m> and its <m>y</m>-intercept is the point <m>(0,-2)</m>. We begin by plotting the <m>y</m>-intercept, as shown in the figure. Next, we use the slope to find another point on the line. 
-	<sidebyside width="40%"><image source="images/fig-3-4-ex2.png"><description>graph</description></image></sidebyside>
+	<sidebyside width="40%"><!--<image source="images/fig-3-4-ex2.png"><description>graph</description></image>-->
+    <image xml:id="ig-3-4-ex2">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (-5,-6) grid (5,4);
+        \foreach \x  in  {-5,5} {
+         \draw[cyan, very thick] (\x,-6) --++(0,10);
+         \draw[black] (\x,0.1) --++(0,-0.2) node[below, yshift=-3, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in {-6,-3,3} {
+         \draw[cyan, very thick] (-5,\x) --++(10,0);
+         \draw[black] (.1,\x) --++(-.2,0) node[left, xshift=-3, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[black, thick, ->, >=stealth'] (-5,0)--++(11,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-6)--++(0,11) node[left, xshift=2]{$y$};
+        \draw[red,  thick, ->,>=stealth] (-5,-23/4)--++(10,15/2);
+        \foreach \x in {-2,-1,0} 
+         \draw[violet,thick,->,>=stealth'] (0,\x)--++(0,1);
+        \foreach \x in {0,1,2,3} 
+         \draw[violet,thick,->,>=stealth'] (\x,1)--++(1,0);
+        \draw[red, ultra thick, ->,>=stealth] (-5,-23/4)--++(10,15/2);
+        \foreach \x in {-2,-3,-4} 
+         \draw[magenta,thick,->,>=stealth'] (0,\x)--++(0,-1);
+        \foreach \x in {0,1,2,3} 
+         \draw[magenta,thick,->,>=stealth'] (-\x,-5)--++(-1,0);
+        \filldraw[red] (0,-2) circle (1.5mm);
+        \filldraw[red] (4,1) circle (1.5mm);
+        \filldraw[red] (-4,-5) circle (1.5mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
 The slope,
 	<me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{4}</me>
 gives the ratio of the change in <m>y</m>-coordinate to the change in <m>x</m>-coordinate as we move from any point on the line to another. Thus, starting at the point <m>(0,-2)</m>, we move: <ul>
