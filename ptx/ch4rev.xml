@@ -101,25 +101,293 @@ or
 <li>Explain why the distributive law does not apply to the expression <m>-3(2ab)</m>.</li></ol></p>
 </subsection>
 
+<subsection><title>Review Problems</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, simplify. Which product requires the distributive law?</p></introduction>
 
+<exercise number="1"><statement><p><ol label="a">
+	<li><m>-5(-6m)</m></li>
+	<li><m>-5(-6-m)</m></li></ol></p></statement>
+<answer></answer></exercise>
 
+<exercise number="2"><statement><p><ol label="a">
+	<li><m>9(-3-w)</m></li>
+	<li><m>9(-3w)</m></li></ol></p></statement></exercise>
+</exercisegroup>
 
+<exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>6, simplify.</p></introduction>
 
+<exercise number="3"><statement><m>(4m+2n)-(2m-5n)</m></statement>
+<answer></answer></exercise>
 
+<exercise number="4"><statement><m>(-5c-6)+(-11c+15)</m></statement></exercise>
 
+<exercise number="5"><statement><m>-7w-2(4w-13)</m></statement>
+<answer></answer></exercise>
 
+<exercise number="6"><statement><m>4(3z-10)+5(-z-6)</m></statement></exercise>
+</exercisegroup>
 
+<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>10, simplify.</p></introduction>
 
+<exercise number="7"><statement><m>5p+10(17-p)=2p-5</m></statement>
+<answer></answer></exercise>
 
+<exercise number="8"><statement><m>-3(k-2)-4(2k+5)=10+3k</m></statement></exercise>
 
+<exercise number="9"><statement><m>4(3a-7) \lt -18+2a</m></statement>
+<answer></answer></exercise>
 
+<exercise number="10"><statement><m>\dfrac{2x-1}{x+3}=\dfrac{3}{2}</m></statement></exercise>
+</exercisegroup>
 
+<exercise number="11"><statement><p>The length of a rectangle is 3 times its width.<ol label="a">
+	<li>If the width of a rectangle is <m>x</m>, what is its length?</li>  
+	<li>Express the perimeter of the rectangle in terms of <m>x</m>.</li>
+	<li>Suppose the perimeter of the rectangle is 48 centimeters. Find the dimensions of the rectangle.</li></ol></p>
+</statement>
+<answer></answer></exercise>
 
+<exercise number="12"><statement><p>Last Saturday, a total of 620 people attended the Gaslamp Theater at its two performances. <ol label="a">
+	<li>If <m>p</m> people attended the matinee last Saturday, how many attended the evening performance?</li>
+	<li>This Saturday, attendance at the matinee increased by 5%, and attendance at the evening performance increased by 8%. Write expressions in terms of <m>p</m> for the attendance at each performance.</li>
+	<li>This Saturday, the total attendance was 663 people. How many people attended the matinee last Saturday?</li></ol></p></statement></exercise>
 
+<exercise number="13"><statement><p>Wheaton Elementary school plans to buy 30 computers. The computers with speakers cost $1200 each, and those without speakers cost $800 each. Let <m>x</m> represent the number of computers with speakers.  Write expressions in terms of  for:<ol label="a">
+	<li>The number of computers without speakers.</li>
+	<li>The total cost of the computers with speakers.</li>
+	<li>The total cost of the computers without speakers.</li>
+	<li>The total cost of all 30 computers.</li>
+	<li>If Wheaton Elementary has $28,800 to spend on the computershow many of each kind can they buy?</li></ol></p>
+</statement>
+<answer></answer></exercise>
 
+<exercise number="14"><statement><p>The current in the Lazy River flows at 4 miles per hour.<ol label="a">
+	<li>If your motorboat is traveling at speed <m>v</m> miles per hour, write expressions for your speed traveling upstream and your speed traveling downstream.</li>
+	<li>You travel upstream for <m>\dfrac{3}{2}</m> hours and stop for lunch at an island. Write an expression in terms of <m>v</m> for the distance you traveled upstream.</li>
+	<li>You return to your starting point downstream in <m>\dfrac{1}{2}</m> hour. Write an expression in terms of <m>v</m> for the distance you traveled downstream.</li>
+	<li>Write an equation and solve it to find the speed, <m>v</m>, of your motorboat.</li></ol></p></statement></exercise>
 
+<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>16, decide whether the given point is a solution of the system.</p></introduction>
 
+<exercise number="15"><statement><p>
+	<md><mrow>x+y=8~~~~~~~~~~~~~~~~~(-2,10)</mrow>
+		<mrow>x-y=2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</mrow></md></p></statement>
+<answer></answer></exercise>
 
+<exercise number="16"><statement><p>
+	<md><mrow>8x+3y=21~~~~~~~~~~~~~~~~~(-3,1)</mrow>
+		<mrow>5x=y-16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</mrow></md></p></statement></exercise>
+</exercisegroup>
 
+<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>18, solve the system by graphing.</p></introduction>
+
+<exercise number="17"><statement><p>
+	<md><mrow>x+y=5</mrow>
+		<mrow>2x-y=4</mrow></md></p>
+		<sidebyside width="100%"><image source="images/cr4-17.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p>
+	<md><mrow>x-y=7</mrow>
+		<mrow>y=\dfrac{-2}{3}x-2</mrow></md></p>
+		<sidebyside width="100%"><image source="images/cr4-17.png"><description>grid</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, solve by substitution.</p></introduction>
+
+<exercise number="19"><statement><p>
+	<md><mrow>y=2x+1</mrow>
+		<mrow>2x+3y=-21</mrow></md></p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p>
+	<md><mrow>x+4y=1</mrow>
+		<mrow>2x+3y=-3</mrow></md></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>22, solve by elimination.</p></introduction>
+
+<exercise number="21"><statement><p>
+	<md><mrow>2x+7y=-19</mrow>
+		<mrow>5x-3y=14</mrow></md></p></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p>
+	<md><mrow>4x+3y=-19</mrow>
+		<mrow>5x+15=-2y</mrow></md></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 23<ndash/>26, solve using substitution or elimination.</p></introduction>
+
+<exercise number="23"><statement><p>
+	<md><mrow>x+5y=18</mrow>
+		<mrow>x-y=-3</mrow></md></p></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p>
+	<md><mrow>x+5y=11</mrow>
+		<mrow>2x+3y=8</mrow></md></p></statement></exercise>
+
+<exercise number="25"><statement><p>
+	<md><mrow>\dfrac{2}{3}x-3y=8</mrow>
+		<mrow>x+\dfrac{3}{4}y=12</mrow></md></p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p>
+	<md><mrow>3x=5y-6</mrow>
+		<mrow>3y=10=11x</mrow></md></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>30, decide whether the system is inconsistent, dependent, or consistent and independent.</p></introduction>
+
+<exercise number="27"><statement><p>
+	<md><mrow>2x-3y=4</mrow>
+		<mrow>x+2y=7</mrow></md></p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p>
+	<md><mrow>2x-3y=4</mrow>
+		<mrow>6x-9y=4</mrow></md></p></statement></exercise>
+
+<exercise number="29"><statement><p>
+	<md><mrow>2x-3y=4</mrow>
+		<mrow>6x-9y=12</mrow></md></p></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><p>
+	<md><mrow>x-y=6</mrow>
+		<mrow>x+y=6</mrow></md></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 31<ndash/>42, solve by writing and solving a system of equations.</p></introduction>
+
+<exercise number="31"><statement><p>A health food store wants to produce 30 pounds of granola worth 80 cents per pound.  They plan to mix cereal worth 65 cents per pound with dried fruit worth 90 cents per pound.  How much of each should they use?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="32"><statement><p>The perimeter of a rectangle is 50 yards and its length is 9 yards greater than its width.  Find the dimensions of the rectangle.</p></statement></exercise>
+
+<exercise number="33"><statement><p>Last year Veronica made $93 in interest from her savings accounts, one of which paid 6% interest, and the other paid 9%.  This year her interest rates dropped to 4% and 8%, respectively, and she made $76 interest.  How much does Veronica have invested in each account?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="34"><statement><p>Marvin invested $300 more at 6% than he invested at 8%.  His total annual income from his two investments is $242.  How much did he invest at each rate?</p></statement></exercise>
+
+<exercise number="35"><statement><p>How many pounds of an alloy containing 60% copper must be melted with an alloy containing 20% copper to obtain 8 pounds of an alloy containing 30% copper?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="36"><statement><p>Jerry Glove came to bat only 20 times in the first half of the season and got hits 15% of the time.  During the second half of the season, Jerry came to bat 140 times and got hits 35% of the time.<ol label="a">
+	<li>How many hits did Jerry get in the first half of the season?  How many hits did he get in the second half?</li>
+	<li>How many times did Jerry come to bat all season?  How many hits did he get?</li>
+	<li>What percent of Jerry's at-bats resulted in hits?</li></ol></p></statement></exercise>
+
+<exercise number="37"><statement><p>Alida and Steve are moving to San Diego.  Alida is driving their car, and Steve is driving a rental truck.  They start together, but Alida drives twice as fast as Steve.  After 3 hours they are 93 miles apart.  How fast is each traveling?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="38"><statement><p>Jake rides for the Pony Express, covering his route in 6 hours and returning home,  8 miles per hour slower, in 9 hours.  How far does Jake ride?</p></statement></exercise>
+
+<exercise number="39"><statement><p>A math contest exam has 40 questions.  A contestant scores 5 points for each correct answer, but loses 2 points for each wrong answer.  Lupe answered all the questions and her score was 102.  How many questions did she answer correctly?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="40"><statement><p>A game show contestant wins $25 for each correct answer he gives but loses $10 for each incorrect response.  Roger answered 24 questions and won $355.  How many answers did he get right?</p></statement></exercise>
+
+<exercise number="41"><statement><p>Barbara wants to earn $500 a year by investing $5000 in two accounts, a savings plan that pays 8% annual interest and a high-risk option that pays 13.5% interest.  How much should she invest in each account?
+</p></statement>
+<answer></answer></exercise>
+
+<exercise number="42"><statement><p>An investment broker promises his client a 12% return on her funds.  If the broker invests  $3000  in bonds paying 8% interest, how much must he invest in stocks paying 15% interest to keep his promise?
+</p></statement></exercise>
+</exercisegroup>
+
+<exercise number="43"><statement><p><ol label="a">
+	<li>Graph the line of slope <m>\dfrac{-5}{3}</m> that passes through the point <m>(-2,1)</m>.</li>
+	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
+<sidebyside width="50%"><image source="images/cr4-17.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="44"><statement><p><ol label="a">
+	<li>Graph the line of slope <m>\dfrac{6}{5}</m> that passes through the point <m>(-3,-4)</m>.</li>
+	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
+<sidebyside width="50%"><image source="images/cr4-17.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>46, find an equation for the line passing through the two points.</p></introduction>
+
+<exercise number="45"><statement><m>(3,-5),~(-2,4)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="46"><statement><m>(0,8),~(4,-2)</m></statement></exercise>
+</exercisegroup>
+
+<exercise number="47"><statement><p>An interior decorator bases her fee on the cost of a remodeling job.  The table below shows her fee, <m>F</m>, for jobs of various costs, <m>C</m>, both given in dollars.
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>C</m></cell>
+                        <cell>5000</cell>
+                        <cell>10,000</cell>
+                        <cell>20,000</cell>
+                        <cell>50,000</cell></row>
+                    <row> 
+                        <cell><m>F</m></cell>
+                        <cell>1000</cell>
+                        <cell>1500</cell>
+                        <cell>2500</cell>
+                        <cell>5500</cell></row>
+                    </tabular></sidebyside></p>
+<p><ol label="a">
+	<li>Write a linear equation for <m>F</m> in terms of <m>C</m>.</li>
+	<li>Give the slope of the graph, and explain the meaning of the slope in terms of the decorator's fee.</li></ol></p>
+</statement>
+<answer></answer></exercise>
+
+<exercise number="48"><statement><p>Auto registration fees in Connie's home state depend on the value of the automobile.  The table below shows the registration fee <m>R</m> for a car whose value is <m>V</m>, both given in dollars.
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>V</m></cell>
+                        <cell>5000</cell>
+                        <cell>10,000</cell>
+                        <cell>15,000</cell>
+                        <cell>20,000</cell></row>
+                    <row> 
+                        <cell><m>R</m></cell>
+                        <cell>135</cell>
+                        <cell>235</cell>
+                        <cell>335</cell>
+                        <cell>435</cell></row>
+                    </tabular></sidebyside></p>
+<p><ol label="a">
+	<li>Write a linear equation for <m>R</m> in terms of <m>V</m>.</li>
+	<li>Give the slope of the graph, and explain the meaning of the slope in terms of the registration fee.</li></ol></p>
+</statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 49<ndash/>50, <ol label="a">
+	<li>Make a table of values showing two data points.</li>
+	<li>Find a linear equation relating the variables.</li>
+	<li>State the slope of the line, including units, and explain its meaning in the context of the problem.</li></ol>
+</p></introduction>
+
+<exercise number="49"><statement><p>The population of Maple Rapids was 4800 in 1982 and had grown to 6780 by 1997.  Assume that the population increases at a constant rate.  Express the population <m>P</m> of Maple Rapids in terms of the number of years <m>t</m> since 1982.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="50"><statement><p>Cicely's odometer read 112 miles when she filled up her 14-gallon gas tank and 308 when the gas gauge read half full.  Express her odometer reading <m>m</m> in terms of the amount of gas <m>g</m> she used.
+</p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="51"><statement><p><ol label="a">
+	<li>Write an equation for any line that is parallel to <m>2y=5x-3</m>.</li>
+	<li>Write an equation for any line that is perpendicular to <m>2y=5x-3</m>.</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="52"><statement><p><ol label="a">
+	<li>Write an equation for the vertical line that passes through <m>(3,6)</m>.</li>
+	<li>Write an equation for the horizontal line that passes through <m>(3,6)</m>.</li></ol></p></statement></exercise>
+
+<exercise number="53"><statement><p>Write an equation for the line that is parallel to <m>2x+3y=6</m> and passes through the point <m>(1,4)</m>.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="54"><statement><p>Write an equation for the line that is perpendicular to <m>2x+3y=6</m> and passes through the point <m>(1,4)</m>.</p></statement></exercise>
+
+</exercises>
+</subsection>
 </section>  
 
