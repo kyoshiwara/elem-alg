@@ -140,7 +140,7 @@ The graph of the line is shown in the figure.</p>
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-4-5"><title>Skills Warm-Up</title>
 
 <exercises>
 <exercisegroup cols="2"><introduction><p>Use cross-multiplying to solve the proportion for <m>y</m> in terms of <m>x</m>.</p></introduction>
@@ -164,10 +164,9 @@ The graph of the line is shown in the figure.</p>
 <answer><m>y=\dfrac{-1}{3}x+\dfrac{13}{3}</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-5">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-4-5.xml" />
 </section>                
-
-
-
-

@@ -397,7 +397,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-4-4"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>For part (b) of each problem, write an algebraic expression in two variables.</p>
 </introduction>
@@ -432,6 +432,9 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 	<li><m>0.06x+0.60y</m></li></ol></p></answer></exercise>
 </exercisegroup>
 </exercises>
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-4">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
-
+<xi:include href="./hmwk-4-4.xml" />
 </section>

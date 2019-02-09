@@ -175,7 +175,7 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-3-4"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols ="2"><introduction><p>Solve for the indicated variable.</p></introduction>
 
@@ -198,7 +198,9 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
 <answer><m>\dfrac{11-2m}{3}</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-3-4">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-3-4.xml" />
 </section>  

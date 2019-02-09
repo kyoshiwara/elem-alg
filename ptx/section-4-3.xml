@@ -231,7 +231,7 @@ We are left with the true but unhelpful equation <m>0=0</m>. The two equations a
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-4-3"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Simplify each expression. Write your answers in the form <m>ax+b</m>.</p></introduction>
 
@@ -260,6 +260,9 @@ We are left with the true but unhelpful equation <m>0=0</m>. The two equations a
 <answer><m>\dfrac{-5}{3}x-\dfrac{20}{3}</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-3">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-4-3.xml" />
 </section>  
