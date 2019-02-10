@@ -1,0 +1,328 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 5.2</title>
+
+ <exercisegroup><introduction><p>For Problems 1<ndash/>3, simplify. Do not use a calculator!</p></introduction>
+
+ <exercise number="1"><statement><p><ol label="a" cols="2">
+ 	<li><m>4-2\sqrt{64}</m></li>
+ 	<li><m>\dfrac{4-\sqrt{64}}{2}</m></li></ol></p></statement>
+ <answer></answer></exercise>
+
+ <exercise number="2"><statement><p><ol label="a" cols="2">
+ 	<li><m>\sqrt{9-4(-18)}</m></li>
+ 	<li><m>\sqrt{\dfrac{4(50)-56}{16}}</m></li></ol></p></statement></exercise>
+
+ <exercise number="3"><statement><p><ol label="a" cols="2">
+ 	<li><m>5\sqrt[3]{8}-\dfrac{\sqrt[3]{64}}{8}</m></li>
+ 	<li><m>\dfrac{3+\sqrt[3]{-729}}{6-\sqrt[3]{-27}}</m></li></ol></p></statement>
+ <answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 4<ndash/>9, give a decimal approximation rounded to thousandths.
+</p></introduction>
+
+<exercise number="4"><statement><m>5\sqrt{3}</m></statement></exercise>
+
+<exercise number="5"><statement><m>\dfrac{-2}{3}\sqrt{21}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><m>-3+2\sqrt{6}</m></statement></exercise>
+
+<exercise number="7"><statement><m>2+6\sqrt[3]{-25}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><m>\dfrac{8-2\sqrt{2}}{4}</m></statement></exercise>
+
+<exercise number="9"><statement><m>3\sqrt{3}-3\sqrt{5}</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 10<ndash/>12, choose the best approximation. Do not use a calculator!
+</p></introduction>
+
+<exercise number="10"><statement><p><m>\sqrt{72}</m>
+<ol label="a" cols="4">
+	<li>7</li>
+	<li>8</li>
+	<li>36</li>
+	<li>64</li></ol></p></statement></exercise>
+
+<exercise number="11"><statement><p><m>\sqrt{13}</m>
+<ol label="a" cols="4">
+	<li>6</li>
+	<li>6.5</li>
+	<li>3.5</li>
+	<li>4</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p><m>\sqrt{134}</m>
+<ol label="a" cols="4">
+	<li>11</li>
+	<li>11.5</li>
+	<li>12</li>
+	<li>15</li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="11"><statement><p>Each number below is approximately the square root of a whole number. Find the whole number.
+<ol label="a" cols="3">
+	<li>9.220</li>
+	<li>12.961</li>
+	<li>63.891</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p><ol label="a">
+	<li>Evaluate  <m>~\sqrt{x^2}~</m> for <m>~x=3, 5, 8,</m> and <m>12</m>.</li>
+	<li>Simplify  <m>~\sqrt{a^2}~</m> if <m>a \ge 0</m>.</li></ol></p></statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 15<ndash/>18, use the definitions of square root and cube root to simplify each expression. Do not use a calculator!</p></introduction>
+
+<exercise number="15"><statement><p><ol label="a" cols="3">
+	<li><m>(\sqrt{16})(\sqrt{16})</m></li>
+	<li><m>\sqrt{29}(\sqrt{29})</m></li>
+	<li><m>\sqrt{x}(\sqrt{x})</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p><ol label="a" cols="3">
+	<li><m>(\sqrt{7})^2</m></li>
+	<li><m>(\sqrt[3]{20})^3</m></li>
+	<li><m>(\sqrt[3]{4})(\sqrt[3]{4})(\sqrt[3]{4})</m></li></ol></p></statement></exercise>
+
+<exercise number="17"><statement><p><ol label="a" cols="3">
+	<li><m>\dfrac{6}{\sqrt{6}}</m></li>
+	<li><m>\dfrac{-15}{\sqrt{15}}</m></li>
+	<li><m>\dfrac{2m}{\sqrt{m}}</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><ol label="a" cols="3">
+	<li><m>(\sqrt{2b})(\sqrt{2b})</m></li>
+	<li><m>(3\sqrt{a})(3\sqrt{a})</m></li>
+	<li><m>(2\sqrt[3]{b})^3</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, put each set of numbers in order from smallest to largest.Try not to use a calculator.</p></introduction>
+
+<exercise number="19"><statement><m>\dfrac{5}{4}, 2, \sqrt{8}, 2.3</m></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><m>2\sqrt{3}, 3, \dfrac{23}{6}, \sqrt{6}</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>23, evaluate the expression for the given values of <m>x</m>. Round your answers to three decimal places if necessary.</p></introduction>
+
+<exercise number="21"><statement><m>\sqrt{x^2-4}~~~~~~~~x=3, \sqrt{5}, -2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><m>\sqrt{x}-\sqrt{x-3}~~~~~~~~x=1, 4, 100</m></statement></exercise>
+
+<exercise number="23"><statement><m>2x^2-4x~~~~~~~~x=-3, \sqrt{2}, \dfrac{1}{4}</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="24"><statement><p>The distance <m>m</m> in miles that you can see on a clear day from a height of <m>h</m> miles is given by the formula  
+<me>m=89.4\sqrt{h}</me>
+ How far can you see from an airplane flying at an altitude of 4.7 miles?</p></statement></exercise>
+
+<exercise number="25"><statement><p>The period of a pendulum (the time it takes to complete one full swing) is given in seconds by the formula   
+<me>T=6.28\sqrt{\dfrac{L}{32}}</me>
+ where <m>L</m> is the length of the pendulum in feet. What is the period of the Foucault pendulum in the United Nations Headquarters in New York, whose length is 75 feet?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p>What is a rational number? An irrational number? Give examples of each.</p></statement></exercise>
+
+<exercise number="27"><statement><p>Give three examples of square roots that represent rational numbers, and three that are irrational.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p>Identify each number as rational or irrational.<ol label="a" cols="3">
+<li><m>\sqrt{6}</m></li>
+<li><m>\dfrac{-5}{3}</m></li>
+<li><m>\sqrt{16}</m></li>
+<li><m>\sqrt{\dfrac{5}{9}}</m></li>
+<li><m>6.008</m></li>
+<li><m>3.\overline{23}</m></li></ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>32, decide whether the two expressions are equivalent by completing the table.</p></introduction>
+
+<exercise number="29"><statement><p>Does  <m>~(a+b)^2=a^2+b^2~</m>?
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>a</m></cell>
+                        <cell><m>b</m></cell>
+                    	<cell><m>a+b</m></cell>
+                        <cell><m>(a+b)^2</m></cell>
+                        <cell><m>a^2</m></cell>
+                    	<cell><m>b^2</m></cell>
+                        <cell><m>a^2+b^2</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>-2</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                                           
+                </tabular></sidebyside></p></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><p>Does  <m>~\sqrt{a^2+b^2}=a+b~</m>?
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>a</m></cell>
+                        <cell><m>b</m></cell>
+                    	<cell><m>a+b</m></cell>
+                        <cell><m>a^2</m></cell>
+                        <cell><m>b^2</m></cell>
+                    	<cell><m>a^2+b^2</m></cell>
+                        <cell><m>\sqrt{a^2+b^2}</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                                           
+                </tabular></sidebyside></p></statement></exercise>
+
+<exercise number="31"><statement><p>Does  <m>~\sqrt{a+b}=\sqrt{a}+\sqrt{b}~</m>?
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>a</m></cell>
+                        <cell><m>b</m></cell>
+                    	<cell><m>a+b</m></cell>
+                        <cell><m>\sqrt{a+b}</m></cell>
+                        <cell><m>\sqrt{a}</m></cell>
+                    	<cell><m>\sqrt{b}</m></cell>
+                        <cell><m>\sqrt{a}+\sqrt{b}</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>4</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>9</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                                           
+                </tabular></sidebyside></p></statement>
+<answer></answer></exercise>
+
+<exercise number="32"><statement><p>Does  <m>(\sqrt{a}+\sqrt{b})^2=a+b~</m>?
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>a</m></cell>
+                        <cell><m>b</m></cell>
+                    	<cell><m>a+b</m></cell>
+                        <cell><m>\sqrt{a}</m></cell>
+                        <cell><m>\sqrt{b}</m></cell>
+                    	<cell><m>\sqrt{a}+\sqrt{b}</m></cell>
+                        <cell><m>(\sqrt{a}+\sqrt{b})^2</m></cell></row>
+                    <row> 
+                        <cell><m>4</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>6</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                                           
+                </tabular></sidebyside></p></statement></exercise>
+</exercisegroup>
+
+</exercises>
+
+ 
