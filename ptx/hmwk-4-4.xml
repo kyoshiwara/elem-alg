@@ -154,7 +154,28 @@
 	<li>Write an equation for Julio's final grade, <m>g</m>, in terms of his term paper grade, <m>t</m>.</li>
 	<li>What will Julio's final grade be if he earns a grade of 65 on the term paper? What if he earns a grade of 80?</li>
 	<li><p>Use the graph below to estimate what grade Julio must make on the term paper in order to earn afinal grade of 80 in the class.</p>
-	<sidebyside width="60%"><image source="images/hp-4-4-12.png"><description>graph</description></image></sidebyside></li>
+	<sidebyside width="60%"><!--<image source="images/hp-4-4-12.png"><description>graph</description></image>-->
+    <image xml:id="hp-4-4-12">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (0,0) grid (20,20);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(21.3,0) node[right]{$t$};
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,21.3) node[left, xshift=2]{$g$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {5,10,15,20} {
+         \draw[cyan, very thick] (\x,0) --++(0,20);
+         \draw[cyan, very thick] (0,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+         \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red, very thick, ->, >=stealth'] (0,{.6*72/5})--(20,{(.6*72 +.4*100)/5});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
 	<li>Use your equation from part (a) to verify your answer algebraically.</li></ol></p></statement></exercise>
 </exercisegroup>
 </exercises>

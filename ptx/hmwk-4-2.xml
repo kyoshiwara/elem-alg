@@ -6,15 +6,18 @@
  <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, decide whether the given ordered pair is a solution of the system.</p></introduction>
 
  <exercise number="1"><statement>
- 	<sidebyside><p><md><mrow>x+2y=-8</mrow>
- 						<mrow>2x-y=4</mrow></md></p>
- 	<p><m>~~~~(4,-2)</m></p></sidebyside></statement>
+    <p><m>\begin{aligned}[t]
+        x+2y\amp=-8\amp\amp (4,-2)\\
+        2x-y\amp=4
+    \end{aligned}</m></p></statement>
  <answer></answer></exercise>
 
  <exercise number="2"><statement>
- 	<sidebyside><p><md><mrow>3x+2y=-5</mrow>
- 					<mrow>x+3y=-9</mrow></md></p>
- 	<p><m>~~~~(-3,-2)</m></p></sidebyside></statement></exercise>
+    <p><m>\begin{aligned}[t]
+        3x+2y\amp=-5\amp\amp (-3,-2)\\
+        x+3y\amp=-9
+    \end{aligned}</m></p>
+</statement></exercise>
  </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 3<ndash/>5, decide which graphing technique, the intercept method or the slope-intercept method, would be easier to use. Explain why you made the choice you did.</p></introduction>
@@ -30,42 +33,54 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 6<ndash/>9, solve the system by graphing.</p></introduction>
 
-<exercise number="6"><statement>
- 	<md><mrow>y=-3x</mrow>
- 		<mrow>y=3x-6</mrow></md>
- 	<sidebyside><image source="images/hp-4-2-6.png"><description>grid</description></image></sidebyside></statement>
+<exercise number="6"><statement><p>
+    <m>\begin{aligned}[t]
+        y\amp=-3x\\
+        y\amp=3x-6
+        \end{aligned}</m></p>
+    <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
  </exercise>
 
- <exercise number="7"><statement>
- 	<md><mrow>y=\dfrac{3}{4}x-2</mrow>
- 		<mrow>2y-5x=10</mrow></md>
- 	<sidebyside><image source="images/hp-4-2-6.png"><description>grid</description></image></sidebyside></statement>
+ <exercise number="7"><statement><p>
+    <m>\begin{aligned}[t]
+        \amp y=\dfrac{3}{4}x-2\\
+        \amp 2y-5x=10
+        \end{aligned}</m></p>
+    <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
  <answer></answer></exercise>
 
- <exercise number="8"><statement>
- 	<md><mrow>x+y=4</mrow>
- 		<mrow>3x-3y=12</mrow></md>
- 	<sidebyside><image source="images/hp-4-2-6.png"><description>grid</description></image></sidebyside></statement>
+ <exercise number="8"><statement><p>
+    <m>\begin{aligned}[t]
+        \amp x+y=4\\
+        \amp 3x-3y=12
+        \end{aligned}</m></p>
+    <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
  </exercise>
 
- <exercise number="9"><statement>
- 	<md><mrow>2y=-3x</mrow>
- 		<mrow>y=-2x-1</mrow></md>
- 	<sidebyside><image source="images/hp-4-2-6.png"><description>grid</description></image></sidebyside></statement>
+ <exercise number="9"><statement><p>
+    <m>\begin{aligned}[t]
+        \amp 2y=-3x\\
+        \amp y=-2x-1
+        \end{aligned}</m></p>
+    <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
  <answer></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 10<ndash/>11, decide whether the system is dependent or inconsistent.
 </p></introduction>
 
-<exercise number="10"><statement>
- 	<md><mrow>x+y=4</mrow>
- 		<mrow>2x+2y=12</mrow></md>
+<exercise number="10"><statement><p>
+    <m>\begin{aligned}[t]
+        \amp x+y=4\\
+        \amp 2x+2y=12
+        \end{aligned}</m></p>
  	</statement></exercise>
 
- <exercise number="11"><statement>
- 	<md><mrow>y=-2x+4</mrow>
- 		<mrow>4x+2y=2</mrow></md></statement>
+ <exercise number="11"><statement><p>
+    <m>\begin{aligned}[t]
+        \amp y=-2x+4\\
+        \amp 4x+2y=2
+        \end{aligned}</m></p></statement>
  <answer></answer></exercise>
 </exercisegroup>
 
@@ -144,16 +159,40 @@
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular></sidebyside></p></li>
     <li><p>Graph both of your equations on the grid. (Both axes are scaled in thousands of dollars.)</p>
-    	<sidebyside width="40%"><image source="images/hp-4-2-13.png"><description>grid</description></image></sidebyside></li>
+    	<sidebyside width="40%"><!--<image source="images/hp-4-2-13.png"><description>grid</description></image>-->
+    <image xml:id="hp-4-2-13">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (0,0) grid (10,15);
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in {0, 2,4,6,8,10} {
+         \draw[cyan,very thick] (\x,0)--(\x,15);
+         \draw[black,very thick] (\x, .2)--++(0,-.4) node[below]{$ \xi $};
+         }
+        \foreach \x [evaluate=\x as \xi using int(2*\x+10)] in {0, 5,10,15} {
+         \draw[cyan,very thick] (0,\x)--(10,\x);
+         \draw[black,very thick] (.2,\x)--++(-.4,0) node[left]{$ \xi $};
+         }
+        \draw[black, very thick,->,>=stealth'] (0,0)--(11.3,0) node[right]{$x$};
+        \draw[black, very thick,->,>=stealth'] (0,0)--(0,16.3) node[left]{$y$};
+        \node[below] at (5,-1.5) {Thousands of dollars};
+        \node[label=below:\rotatebox{90}{Thousands of dollars}] at (-2,11) {};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
 	<li>For what sales amount do the two plans result in equal earnings for Delbert?</li></ol></p></statement>
 <answer></answer></exercise>
 
 <exercise number="14"><statement><p>Orpheus Music plans to manufacture clarinets for schools. Their startup costs are $6000, and each clarinet costs $60 to make. They plan to sell the clarinets for $80 each. <ol label="a">
-	<li><p>Let <m>x</m> stand for the number of clarinets Orpheus manufactures. Write equations for the total cost, <m>C</m>, of producing <m>x</m> clarinets, and the revenue, <m>R</m>, earned from selling <m>x</m> clarinets.
- 	<md><mrow>\text{Cost}~~~C =</mrow>
- 		<mrow>\text{Revenue}~~~R =</mrow></md></p></li>
- 	<li><p>Fill in the tables, where <m>x</m> is given in thousands of dollars.
- 		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+    <li><p>Let <m>x</m> stand for the number of clarinets Orpheus manufactures. Write equations for the total cost, <m>C</m>, of producing <m>x</m> clarinets, and the revenue, <m>R</m>, earned from selling <m>x</m> clarinets.
+    <md><mrow>\text{Cost}~~~C =</mrow>
+        <mrow>\text{Revenue}~~~R =</mrow></md></p></li>
+    <li><p>Fill in the tables, where <m>x</m> is given in thousands of dollars.
+        <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell>Cost</cell></row>
@@ -219,10 +258,33 @@
                         <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular></sidebyside></p></li>
     <li><p>Graph both of your equations on the grid. (The vertical axis is scaled in thousands of dollars.)</p>
-    	<sidebyside width="40%"><image source="images/hp-4-2-13.png"><description>grid</description></image></sidebyside></li>
-	<li>How many clarinets must Orpheus sell in order to break even?</li>
-	<li>What is their profit if they sell 500 clarinets? 200 clarinets?</li>
-	<li>Illustrate your answers to part (e) on your graph.</li></ol></p></statement></exercise>
+        <sidebyside width="40%"><!--<image source="images/hp-4-2-13.png"><description>grid</description></image>-->
+    <image xml:id="hp-4-2-14">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (0,0) grid (10,15);
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in {0, 2,4,6,8,10} {
+         \draw[cyan,very thick] (\x,0)--(\x,15);
+         \draw[black,very thick] (\x, .2)--++(0,-.4) node[below]{$ \xi $};
+         }
+        \foreach \x [evaluate=\x as \xi using int(2*\x+10)] in {0, 5,10,15} {
+         \draw[cyan,very thick] (0,\x)--(10,\x);
+         \draw[black,very thick] (.2,\x)--++(-.4,0) node[left]{$ \xi $};
+         }
+        \draw[black, very thick,->,>=stealth'] (0,0)--(11.3,0) node[right]{$x$};
+        \draw[black, very thick,->,>=stealth'] (0,0)--(0,16.3) node[left]{$y$};
+        \node[label=below:\rotatebox{90}{Thousands of dollars}] at (-2,11) {};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
+    <li>How many clarinets must Orpheus sell in order to break even?</li>
+    <li>What is their profit if they sell 500 clarinets? 200 clarinets?</li>
+    <li>Illustrate your answers to part (e) on your graph.</li></ol></p></statement></exercise>
 
 <exercisegroup><introduction><p>For Problems 15<ndash/>16, <ol label="a">
 	<li>Choose a variable for each of the unknown quantities.</li>
@@ -231,10 +293,50 @@
 	<li>Verify your solution algebraically.</li></ol></p></introduction>
 
 <exercise number="15"><statement><p>A bouquet of 4 roses and 8 carnations costs $14. A bouquet of 6 roses and 9 carnations costs $18. How much do one rose and one carnation cost?</p> 
- 	<sidebyside width="40%"><image source="images/hp-4-2-15.png"><description>grid</description></image></sidebyside></statement>
+ 	<sidebyside width="40%"><!--<image source="images/hp-4-2-15.png"><description>grid</description></image>-->
+    <image xml:id="hp-4-2-15">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1]
+        \draw[cyan] (0,0) grid[step=1/2] (4,4);
+        \foreach \x in {1,2,3,4} {
+         \draw[cyan,very thick] (\x,0)--(\x,4);
+         \draw[black,very thick] (\x, .1)--++(0,-.2) node[below]{$ \x $};
+         \draw[cyan,very thick] (0,\x)--(4,\x);
+         \draw[black,very thick] (.1,\x)--++(-.2,0) node[left]{$ \x $};
+         }
+        \draw[black, very thick,->,>=stealth'] (0,0)--(4.6,0) node[right]{$x$};
+        \draw[black, very thick,->,>=stealth'] (0,0)--(0,4.6) node[left]{$y$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="16"><statement><p>The vertex angle of an isosceles triangle is <m>15 \degree</m> less than each base angle. (In an isosceles triangle, the base angles are equal.) Find the measure of each angle of the triangle. (Hint:  For your second equation, recall that the sum of the angles in any triangle is <m>180 \degree</m>.</p> 
- 	<sidebyside width="45%"><image source="images/hp-4-2-16.png"><description>grid</description></image></sidebyside></statement></exercise>
+ 	<sidebyside width="45%"><!--<image source="images/hp-4-2-16.png"><description>grid</description></image>-->
+    <image xml:id="hp-4-2-16">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[cyan] (-5,-5) grid (10,10);
+        \foreach \x [evaluate=\x as \xi using int(20*\x)]in {-5,5,10} {
+         \draw[cyan,very thick] (\x,-5)--(\x,10);
+         \draw[black,very thick] (\x, .2)--++(0,-.4) node[below, yshift=-3, fill=white, inner sep=1]{$ \xi $};
+         \draw[cyan,very thick] (-5,\x)--(10,\x);
+         \draw[black,very thick] (.2,\x)--++(-.4,0) node[left,xshift=-2, fill=white, inner sep=1]{$ \xi $};
+         }
+        \draw[black, very thick,->,>=stealth'] (-5,0)--(11.6,0) node[right]{$x$};
+        \draw[black, very thick,->,>=stealth'] (0,-5)--(0,11.6) node[left]{$y$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></statement></exercise>
 </exercisegroup>
 </exercises>
