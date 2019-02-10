@@ -20,10 +20,12 @@
 <statement><p>Harvey deposited $1200 in two accounts. He put $700 in a savings account that pays 6% annual interest rate, and the rest in his credit union, which pays 7% annual interest rate. How much will Harvey's investments earn in two years?</p>
 
 <p>Step 1 Calculate the interest earned by each account.
-		<md><mrow>\blert{\text{Savings}~~~~~~~~~~~~I=Prt=}</mrow>
-			<mrow>~~~~\blert{\text{Credit Union}~~~~~~I=Prt=}</mrow></md></p>
+        <md><mrow>\amp\blert{\text{Savings}}\amp\amp \blert{I=Prt=}</mrow>
+            <mrow>\amp\blert{\text{Credit Union}}\amp\amp \blert{I=Prt=}</mrow></md></p>
 <p>Step 2 Add the earnings from the two investments.
-		<me>\blert{\text{Interest from Savings} + \text{Interest from Credit Union} = \text{Total Interest}}</me></p></statement>
+<me>\blert{\binom{\text{Total}}{\text{<E></E>arnings}} = \binom{\text{Earnings from}}{\text{Savings}}+\binom{\text{Earnings from}}{\text{Credit Union}}} 
+</me>
+    </p></statement>
 <answer><p>$154</p></answer></exercise>
 
 <p>Here is a similar example with variables.</p>
@@ -31,9 +33,9 @@
 <exercise><title>Warm-Up 2</title>
 <statement><p>You have $5000 to invest for one year. You want to put part of the money into bonds that pay 7% interest rate and the rest of the money into stocks, which involve some risk but will pay 12% if the investment is successful.</p>
 <ol label="a">
-	<li><p>Fill in the table.
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-	<col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
+    <li><p>Fill in the table.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
                     <row bottom="minor">
                         <cell><p>Amount invested in stocks</p></cell>
                         <cell><p>Amount invested in bonds</p></cell>
@@ -66,17 +68,19 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></p></li>  
 
-	<li><p>Now suppose you invest <m>x</m> dollars in the stocks and <m>y</m> dollars in the bonds.
-			<md><mrow>\blert{\text{Sum of amounts invested:}~~~~~~x+y=}</mrow>		
-				<mrow>\blert{\text{Interest earned on the stocks:}~~~~~~I=Prt=}</mrow>	  
-				<mrow>\blert{\text{Interest earned on the bonds:}~~~~~~I=Prt=}</mrow></md></p></li>
-	<li><p>Finally, suppose that you earned a total of $345 in interest from your two investments.  
-	Write an equation about this, using your expressions from part (b).	  
-			<me>\blert{\text{Interest from stocks} + \text{Interest from bonds} = \text{Total Interest}}</me></p></li></ol></statement>
+    <li><p>Now suppose you invest <m>x</m> dollars in the stocks and <m>y</m> dollars in the bonds.
+            <md><mrow>\blert{\text{Sum of amounts invested:}~~~~~~x+y=}</mrow>      
+                <mrow>\blert{\text{Interest earned on the stocks:}~~~~~~I=Prt=}</mrow>    
+                <mrow>\blert{\text{Interest earned on the bonds:}~~~~~~I=Prt=}</mrow></md></p></li>
+    <li><p>Finally, suppose that you earned a total of $345 in interest from your two investments.  
+    Write an equation about this, using your expressions from part (b).   
+    <me>\blert{\binom{\text{Total}}{\text{Interest}} = \binom{\text{Interest from}}{\text{stocks}}+\binom{\text{Interest from}}{\text{bonds}}} 
+    </me>
+    </p></li></ol></statement>
 <answer><p><ol lable="a">
-	<li><p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
-	<col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
+    <li><p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
                     <row bottom="minor">
                         <cell><p>Amount invested in stocks</p></cell>
                         <cell><p>Amount invested in bonds</p></cell>
@@ -108,8 +112,8 @@
                         <cell>$120</cell>
                         <cell>$400</cell></row>
                     </tabular></sidebyside></p></li>
-	<li>$5000; <m>0.07x;~0.12y</m></li>
-	<li><m>0.07x+0.12y = 345</m></li></ol></p></answer></exercise>
+    <li>$5000; <m>0.07x;~0.12y</m></li>
+    <li><m>0.07x+0.12y = 345</m></li></ol></p></answer></exercise>
 
 <reading-questions>
     <exercise number="1"><statement><p>What formula do we need for interest problems?</p></statement>
@@ -121,8 +125,8 @@
 <example><statement><p>Mort invested money in two accounts, a savings plan that pays 8% interest and a mutual fund that pays 7% interest. He put twice as much money in the savings plan as in the mutual fund. At the end of the year Mort's total interest income was $345. How much did he invest in each account?</p></statement>
 
 <solution><p>The unknown quantities are the amounts Mort invested in his two accounts.
-		<md><mrow>\text{Amount invested in savings:}~~~~~~x</mrow>	  
-			<mrow>\text{Amount invested in mutual fund:}~~~~~~y</mrow></md></p>
+        <md><mrow>\amp\text{Amount invested in savings:}\amp\amp x</mrow>    
+            <mrow>\amp\text{Amount invested in mutual fund:}\amp\amp y</mrow></md></p>
 <p>Do not confuse the amount Mort invested in each account (the principal) with the amount he earned in interest! A table is a good way to keep these amounts straight.
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -140,37 +144,36 @@
                         <cell><m>0.07y</m></cell></row>
                     </tabular></sidebyside></p>
 <p>We must write two equations for the problem, one about the principal and one about the interest. <ul>
-	<li><p>Equation about Principal: From the statement "He put twice as much money in the savings plan as in the mutual fund," we write the equation
-
-	<me>\begin{aligned}
-        x\amp = 2y \\
-        \blert{\text{Amount invested in savings plan}} \amp = 2 \cdot \blert{\text{Amount invested in mutual fund}}
-        \end{aligned}</me></p></li>
-
+    <li><p>Equation about Principal: From the statement "He put twice as much money in the savings plan as in the mutual fund," we write the equation
+    <md alignment="alignat">
+        <mrow>\amp\amp\blert{\binom{\small\text{Amount invested}}{\small\text{in savings plan}}} \amp\blert{{}= 2\cdot\binom{\small\text{Amount invested}} {\small\text{in mutual fund}}} </mrow>
+        <mrow>\amp\blert{\text{Equation about principal:}}\amp x\qquad\quad~\amp = 2y</mrow>
+    </md>
+</p></li>
     <li><p>Equation about Interest: From the statement "Mort's total interest income was $345," we write the equation
-
-	<me>\begin{aligned}
-        0.08x + 0.07y\amp = 345 \\
-        \blert{\text{Interest from savings plan} + \text{Interest from mutual fund}} \amp = \blert{\text{Total interest}}
-        \end{aligned}</me></p></li></ul></p>
+    <md alignment="alignat">
+        <mrow>\amp\amp\blert{\binom{\small\text{Interest from}}{\small\text{savings plan}}+\binom{\small\text{Interest from}}{\small\text{mutual fund}}} \amp\blert{{}= \binom{\small\text{Total}}{\small\text{interest}}}  </mrow>
+        <mrow>\amp\blert{\text{Equation about interest:}}\amp 0.08x~~\quad +\qquad 0.07y\quad~~\amp = 345</mrow>
+    </md>
+    </p></li></ul></p>
 
 <p>This gives us a system of equations.
-	<md><mrow>x=2y</mrow>	  
-		<mrow>0.08x+0.07y=345</mrow></md>
-Because the first equation is already solved for <m>x</m> in terms of <m>y</m>, we'll use the substitution method to solve the system. We substitute <m>2y</m> for <m>x</m> in the second equation and solve for <m>y</m>. 	
-	<me>\begin{aligned}
+    <md><mrow>x=2y</mrow>     
+        <mrow>0.08x+0.07y=345</mrow></md>
+Because the first equation is already solved for <m>x</m> in terms of <m>y</m>, we'll use the substitution method to solve the system. We substitute <m>2y</m> for <m>x</m> in the second equation and solve for <m>y</m>.  
+    <me>\begin{aligned}
             0.08(\alert{2y})+0.07y \amp = 345  \\
             0.16y+0.07y \amp = 345 \amp\amp \blert{\text{Combine like terms.}}\\
             0.23y \amp = 345   \amp\amp \blert{\text{Divide both sides by 0.23.}}\\
             y \amp = 1500         
         \end{aligned}</me> 
 Finally, we substitute <m>y=\alert{1500}</m> into the first equation to find 
-	<me>x=2y=2(\alert{1500})=3000</me>
+    <me>x=2y=2(\alert{1500})=3000</me>
 Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p></solution></example>
 
 <reading-questions>
     <exercise number="3"><statement><p>What were the two equation in Example 1 about?</p></statement>
-    	<answer>Principal and interest</answer></exercise>
+    	<answer><p>Principal and interest</p></answer></exercise>
     <exercise number="4"><statement><p>Which method did we use to solve the system in Example 1?</p></statement>
     	<answer><p>Substitution</p></answer></exercise>
 </reading-questions>
@@ -188,7 +191,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 <li><p>What percent of the marbles in the first jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
 	<p>What percent of the marbles in the second jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
 	<p>You pour both jars of marbles into a larger jar and mix them together.</p>
-<sidebyside width="50%"><image source="images/fig-4-4-1.png"><description>picture</description></image></sidebyside></li>
+<sidebyside width="50%"><image source="images/fig-4-4-1"><description>picture</description></image></sidebyside></li>
 <li><p>How many marbles total are in the larger jar?</p>
 	<p>How many red marbles are in the larger jar?</p>
 	<p>What percent of marbles in the larger jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p></li>
@@ -245,7 +248,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 <p>So far we have considered mixture problems involving discrete objects, such as marbles or votes.  The same methods apply to mixtures of liquids.</p>
 
 <example><statement><p>A chemist wants to produce 45 milliliters of a 40% solution of carbolic acid by mixing a 20% solution with a 50% solution. How many milliliters of each should he use?</p>
-<sidebyside width="55%"><image source="images/fig-4-4-2.png"><description>picture</description></image></sidebyside>
+<sidebyside width="55%"><image source="images/fig-4-4-2"><description>picture</description></image></sidebyside>
 </statement>
 <solution><p>We let <m>x</m> represent the number of milliliters of the 20% solution he needs and <m>y</m> the number of milliliters of the 50% solution. We use a table to organize the information. The first two columns contain the variables and information given in the problem: the number of milliliters of each solution and its strength as a percent.  
 	
@@ -323,7 +326,7 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
 
 <reading-questions>
     <exercise number="7"><statement><p>What were the two equations in Example 2 about?</p></statement>
-    	<answer>Total amount of mixture and amount of acid</answer></exercise>
+    	<answer><p>Total amount of mixture and amount of acid</p></answer></exercise>
     <exercise number="8"><statement><p>Which method did we use to solve the system in Example 2?</p></statement>
     	<answer><p>Elimination</p></answer></exercise>
 </reading-questions>

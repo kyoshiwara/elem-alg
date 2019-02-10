@@ -10,7 +10,7 @@
 	<md><mrow>y=6x+1000</mrow>
 		<mrow>y=2x+1200</mrow></md> 
 where <m>x</m> is the number of months the refrigerator has been running. We looked for a point on the graphs where the two <m>y</m>-values, which represent the costs, are equal. This point is the intersection point of the graphs, as shown in the figure. The <m>x</m>-coordinate of the intersection point shows that the costs are equal after 50 months.</p>
-	<image source="images/fig-4-2-ex3.png"><description>graph</description></image></sidebyside>
+	<image source="images/fig-4-2-ex3"><description>graph</description></image></sidebyside>
 	
 <p>We can also solve the system using algebra.</p>
 
@@ -30,21 +30,64 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
 
 <subsection><title>Substitution Method</title>
 <p>In Example 1, we solved the system by equating the two expressions for <m>y</m>. We can think of this procedure as substituting the expression for <m>y</m> from one equation into the other equation, like this:</p>
-<sidebyside width="80%"><image source="images/fig-4-3-1.png"><description>graphic</description></image></sidebyside>
+<sidebyside width="83%"><!--<image source="images/fig-4-3-1.png"><description>graphic</description></image>-->
+    <image xml:id="fig-4-3-1">
+        <description>substitution</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \node[right] at (0,0) {$y=\alert{6x+1000}$};
+        \coordinate (A) at (2.95,-.15);
+        \draw [blue,decorate,decoration={brace,amplitude=5pt}] (A) -- ++(-2.05,0) node [below right,xshift=2.5cm, scale=.9] {Substitute into the second equation.};
+        \coordinate (B) at (-.05,-1.);
+        \node[right] at (B) {$\alert{y}=2x+1200$};
+        \draw[blue,->,>=stealth'] (1.9,-.4) to [out=270,in=90] ($(B)+(.28,.15)$);
+        \coordinate (C) at (-1.9,-2.1);
+        \node[right] at (C) {$\alert{6x+1000}=2x+1200$};
+        \draw [blue,decorate,decoration={brace,amplitude=5pt}] (C)++(.15,.2) -- ++(2,0);
+        \draw[blue,->,>=stealth'] (B)++(.22,-.21) to [out=270,in=90] ($(C)+(1.2,0.45)$);
+        \node at ($(C)+(-.7,.8)$) {to get};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <assemblage><title>Look Closer</title>
 <p>The method works well in this example because both equations in the system were already in the form <m>y=mx+b</m>.  Sometimes we must solve one of the equations for <m>y</m> in terms of <m>x</m> before we can substitute.</p></assemblage>
 
 <example><statement><p>Use substitution to solve the system.
-		<md><mrow>y+3x=1</mrow>
-		<mrow>2y+5x=5</mrow></md></p></statement>
+        <md><mrow>y+3x=1</mrow>
+        <mrow>2y+5x=5</mrow></md></p></statement>
 
 <solution><p>We first solve one of the equations for <m>y</m> in terms of <m>x</m>. It is easier to solve the first equation for <m>x</m>, by subtracting  from both sides to get: 
-		<me>y=1-3x</me>
+        <me>y=1-3x</me>
 We now substitute the expression <m>1-3x</m> for <m>y</m> in the other equation:
-<sidebyside width="50%"><image source="images/fig-4-3-ex2.png"><description>graphic</description></image></sidebyside>
+<sidebyside width="30%"><!--<image source="images/fig-4-3-ex2.png"><description>graphic</description></image>-->
+    <image xml:id="fig-4-3-ex2">
+        <description>substitution</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \node[right] at (0,0) {$y=\alert{1-3x}$};
+        \coordinate (A) at (2.25,-.15);
+        \draw [blue,decorate,decoration={brace,amplitude=5pt}] (A) -- ++(-1.35,0);
+        \coordinate (B) at (-1.15,-1.1);
+        \node[right] at (B) {$2\alert{y}+5x=5$};
+        \draw[blue,->,>=stealth'] (1.6,-.4) to [out=270,in=90] ($(B)+(0.55,.15)$);
+        \coordinate (C) at (-1.6,-2.2);
+        \node[right] at (C) {$2(\alert{1-3x})=5$};
+        \draw [blue,decorate,decoration={brace,amplitude=5pt}] (C)++(.55,.25) -- ++(1.3,0);
+        \draw[blue,->,>=stealth'] (B)++(.5,-.21) to [out=270,in=90] ($(C)+(1.2,0.47)$);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 This gives us an equation in one variable, which we can solve as usual. We begin by simplifying the left side.
-		<me>\begin{aligned}
+        <me>\begin{aligned}
             2(1-3x)+5x \amp = 5 \amp\amp \blert{\text{Apply the distributive law.}} \\
             2-6x+5x \amp = 5 \amp\amp \blert{\text{Combine like terms.}}\\
             2-x \amp = 5   \amp\amp \blert{\text{Subtract 2 from both sides.}}\\
@@ -52,7 +95,7 @@ This gives us an equation in one variable, which we can solve as usual. We begin
             x \amp = -3    
         \end{aligned}</me>
 This is the <m>x</m>-coordinate of the solution point. To find the <m>y</m>-coordinate, we substitute <m>x=\alert{-3}</m> into either of the original equations. It is easiest to use the equation we solved for <m>y</m>, namely <m>y=1-3x</m>.
-		<me>y=1-3(\alert{-3}) = 10 ~~~~~~~~~~~~~~~~~~~\blert{\text{Substitute}~-3~ \text{for}~x.}</me> 
+        <me>y=1-3(\alert{-3}) = 10 ~~~~~~~~~~~~~~~~~~~\blert{\text{Substitute}~-3~ \text{for}~x.}</me> 
 The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. You can check that these values satisfy both of the original equations in the system.</p></solution></example>
 
 <reading-questions>
@@ -77,39 +120,40 @@ The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. Y
 <p>A second algebraic method for solving systems is called <term>elimination</term>. As with the substitution method, we try to obtain an equation in a single variable, but we do it by eliminating one of the variables in the system. We first put both equations into the general linear form, <m>Ax+By = C</m>.</p> 
 
 <example><statement><p>Solve the system
-		<md><mrow>5x=2y+21</mrow>
-		<mrow>2y=19-3x</mrow></md></p></statement>
+        <md><mrow>5x=2y+21</mrow>
+        <mrow>2y=19-3x</mrow></md></p></statement>
 
 <solution><p>First, we rewrite each equation in the form <m>Ax+By=C</m>.</p>
-<sidebyside><p><me>\begin{aligned}
-            5x \amp = 2y+21 \amp\amp \blert{\text{Subtract}~2y.} \\
-           -2y \amp = -2y \\
-            5x-2y \amp = 21      
-        \end{aligned}</me></p>
+<sidebyside widths="51% 49%"><p>
+    <md alignment="alignat"><mrow>
+        5x \amp = ~~~~2y+21 \amp\amp \quad\blert{\text{Subtract}~2y.}</mrow>
+        <mrow>\underline{~~~~ -2y} \amp \underline{{}= {}-2y~~~~~}</mrow>
+        <mrow> 5x-2y \amp = 21</mrow></md></p>
 
-        <p><me>\begin{aligned}
-            2y \amp = 19-3x \amp\amp \blert{\text{Add}~3x.} \\
-           +3x \amp = +3x \\
-            3x+2y \amp = 19      
-        \end{aligned}</me></p></sidebyside>
+    <p>
+    <md alignment="alignat"><mrow>
+        2y \amp = 19-3x \amp\amp \quad\blert{\text{Add}~3x.}</mrow>
+        <mrow>\underline{~~~~ +3x} \amp \underline{ {}= \quad{}+3x~}</mrow>
+        <mrow> 3x+2y \amp = 19</mrow></md></p>
+    </sidebyside>
 
 <p>We add the equations together by adding the left side of the first equation to the left side of the second equation, and then adding the two right sides together, as follows:
-		<me>\begin{aligned}
-            5x-2y \amp = 21 \\
-           3x+2y \amp = 19 \\
-            8x \amp = 40      
-        \end{aligned}</me>
+        <md><mrow>
+            5x-2y \amp = 21</mrow><mrow>
+           3x+2y \amp = 19</mrow><mrow>
+            8x \amp = 40 </mrow>     
+        </md>
 Note that the <m>y</m>-terms canceled, or were eliminated. We are left with an equation in <m>x</m> that is easy to solve:
-		<me>\begin{aligned}
-           8x \amp = 40 \amp\amp \blert{\text{Divide both sides by 8.}}\\
+        <md><mrow>
+           8x \amp = 40 \amp\amp \blert{\text{Divide both sides by 8.}}</mrow><mrow>
             x \amp = 5      
-        \end{aligned}</me>
+        </mrow></md>
 We are not finished yet, because we must still find the value of <m>y</m>. We can substitute our value for <m>x</m> into either of the original equations, and solve for <m>y</m>. We'll use the second equation, <m>3x+2y=19</m>:
-		<me>\begin{aligned}
-            3(\alert{5})+2y \amp = 19 \amp\amp \blert{\text{Subtract 15 from both sides.}} \\
-           2y \amp = 4 \amp\amp \blert{\text{Divide by 2.}}\\
+        <md><mrow>
+            3(\alert{5})+2y \amp = 19 \amp\amp \blert{\text{Subtract 15 from both sides.}}</mrow><mrow>
+           2y \amp = 4 \amp\amp \blert{\text{Divide by 2.}}</mrow><mrow>
             y \amp = 4     
-        \end{aligned}</me>
+        </mrow></md>
 Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 
 <assemblage><title>Look Ahead</title>
@@ -188,29 +232,78 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 <p>Recall that a system of two parallel lines has no solution and is called inconsistent. If the two equations in a system have the same graph, then every point on the graph is a solution and the system is called dependent. The elimination method will reveal whether the system falls into one of these two cases.</p>
 
 <example><statement><p>Solve each system by elimination.<ol label="a" cols="2">
-		<li><md><mrow>3x-y=2</mrow>
-				<mrow>-6x+2t=3</mrow></md></li>
-		<li><md><mrow>x-2y=3</mrow>
-				<mrow>2x-4y=6</mrow></md></li></ol></p></statement> 
+        <li><p><m>\begin{aligned}[t]
+            3x-y=2\\
+                -6x+2y=3\end{aligned}</m></p></li>
+        <li><p><m>\begin{aligned}
+            x-2y=3\\
+            2x-4y=6\end{aligned}</m></p></li></ol></p></statement> 
 
 <solution><p><ol label="a">
-	<li><p>To eliminate the <m>y</m>-terms, we multiply the first equation by 2 and add:</p>
-		<sidebyside widths="55% 40%" valigns="middle middle"><p>
-			<me>\begin{aligned}
-            	6x-2y \amp = 4 \\
-          	   -6x+2y\amp = 3 \\
-            	0x+0y \amp = 7      
-        	\end{aligned}</me>
-Both variables are eliminated, and we are left with the false statement <m>0=7</m>. There are no values of <m>x</m> or <m>y</m> that will make this equation true, so the system has no solutions. The graph shows that the system is inconsistent.</p><image source="images/fig-4-3-ex6a.png"><description>graph</description></image></sidebyside></li>
-	<li><p>To eliminate the <m>x</m>-terms, we multiply the first equation by <m>-2</m> and add:</p>
-	<sidebyside widths="55% 40%" valigns="middle middle"><p>
-			<me>\begin{aligned}
-            	-2x+4y \amp = -6 \\
-          	   2x-4y\amp = 6 \\
-            	0x+0y \amp = 0      
-        	\end{aligned}</me>
-We are left with the true but unhelpful equation <m>0=0</m>. The two equations are in fact equivalent (one is a constant multiple of the other), so the system is dependent. The graph of both equations is shown in the figure.</p>
-<image source="images/fig-4-3-ex6b.png"><description>graph</description></image></sidebyside></li></ol></p></solution></example>
+    <li>
+        <sidebyside widths="57% 40%" valigns="middle middle" margins="0% 0%">
+         <p>To eliminate the <m>y</m>-terms, we multiply the first equation by 2 and add:   <me>\begin{aligned}[t]
+                6x-2y \amp = 4 \\
+               \underline{-6x+2y}\amp\underline{{}= 3\vphantom{y}}\\
+                0x+0y \amp = 7      
+            \end{aligned}</me></p><!--
+<image source="images/fig-4-3-ex6a.png"><description>graph</description></image>-->
+    <image xml:id="fig-4-3-ex6a">
+        <description>graph of parallel line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.4]
+        \def\delx{0};
+        \draw[cyan] ({-5},-5) grid ({5},5);
+        \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-5)--++(0,11) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan, thick] ({\x},-5) --++(0,10);
+         \draw[cyan, thick] ({-5},\x) --++(10,0);
+         \draw[black] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] ({.15},\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, very thick,<->, >=stealth'] (-1,-5)--(7/3,5);
+        \draw[red, very thick,<->, >=stealth'] (-13/6,-5)--(7/6,5);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside>
+    <p>Both variables are eliminated, and we are left with the false statement <m>0=7</m>. There are no values of <m>x</m> or <m>y</m> that will make this equation true, so the system has no solutions. The graph shows that the system is inconsistent.</p></li>
+    <li>
+    <sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%"><p>To eliminate the <m>x</m>-terms, we multiply the first equation by <m>-2</m> and add:
+            <me>\begin{aligned}
+                -2x+4y \amp = -6 \\
+               \underline{2x-4y}\amp \underline{{}= \hphantom{-}6\vphantom{y}} \\
+                0x+0y \amp = 0      
+            \end{aligned}</me>
+</p>
+<!--<image source="images/fig-4-3-ex6b.png"><description>graph</description></image>-->
+    <image xml:id="fig-4-3-ex6b">
+        <description>coincident lines</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.4]
+        \def\delx{0};
+        \draw[cyan] (-5,-5) grid (5,5);
+        \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-5)--++(0,11) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan, thick] ({\x},-5) --++(0,10);
+         \draw[cyan, thick] ({-5},\x) --++(10,0);
+         \draw[black] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] ({.15},\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, very thick,<->, >=stealth'] (-5,-4)--(5,1);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
+<p>We are left with the true but unhelpful equation <m>0=0</m>. The two equations are in fact equivalent (one is a constant multiple of the other), so the system is dependent. The graph of both equations is shown in the figure.</p></li></ol></p></solution></example>
 
 <p>Example 5 illustrates a rule for identifying inconsistent and dependent systems.</p>
 

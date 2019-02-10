@@ -171,93 +171,145 @@ or
 <exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>16, decide whether the given point is a solution of the system.</p></introduction>
 
 <exercise number="15"><statement><p>
-	<md><mrow>x+y=8~~~~~~~~~~~~~~~~~(-2,10)</mrow>
-		<mrow>x-y=2~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</mrow></md></p></statement>
+<m>\begin{aligned}[t]
+        x+y\amp=8\amp\amp (-2,10)\\
+        x-y\amp=2
+    \end{aligned}</m>	
+</p></statement>
 <answer></answer></exercise>
 
 <exercise number="16"><statement><p>
-	<md><mrow>8x+3y=21~~~~~~~~~~~~~~~~~(-3,1)</mrow>
-		<mrow>5x=y-16~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~</mrow></md></p></statement></exercise>
+<m>\begin{aligned}[t]
+        \amp 8x+3y=21\amp\amp (-3,1)\\
+        \amp 5x=y-16
+    \end{aligned}</m>	
+</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>18, solve the system by graphing.</p></introduction>
 
 <exercise number="17"><statement><p>
-	<md><mrow>x+y=5</mrow>
-		<mrow>2x-y=4</mrow></md></p>
-		<sidebyside width="100%"><image source="images/cr4-17.png"><description>grid</description></image></sidebyside></statement>
+<m>\begin{aligned}[t]
+        x+y\amp =5\\
+        2x-y\amp =4
+    \end{aligned}</m>   
+</p>
+        <sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="18"><statement><p>
-	<md><mrow>x-y=7</mrow>
-		<mrow>y=\dfrac{-2}{3}x-2</mrow></md></p>
-		<sidebyside width="100%"><image source="images/cr4-17.png"><description>grid</description></image></sidebyside></statement></exercise>
+<m>\begin{aligned}[t]
+        \amp x-y=7\\
+        \amp y=\dfrac{-2}{3}x-2
+    \end{aligned}</m>   
+</p>
+        <sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, solve by substitution.</p></introduction>
 
 <exercise number="19"><statement><p>
-	<md><mrow>y=2x+1</mrow>
-		<mrow>2x+3y=-21</mrow></md></p></statement>
+    <m>\begin{aligned}[t]
+        \amp y=2x+1\\
+        \amp 2x+3y=-21\end{aligned}
+    </m>
+</p></statement>
 <answer></answer></exercise>
 
 <exercise number="20"><statement><p>
-	<md><mrow>x+4y=1</mrow>
-		<mrow>2x+3y=-3</mrow></md></p></statement></exercise>
+<m>\begin{aligned}[t]
+        x+4y\amp =1\\
+        2x+3y\amp =-3
+    \end{aligned}</m>   
+</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>22, solve by elimination.</p></introduction>
 
 <exercise number="21"><statement><p>
-	<md><mrow>2x+7y=-19</mrow>
-		<mrow>5x-3y=14</mrow></md></p></statement>
+<m>\begin{aligned}[t]
+        2x+7y\amp =-19\\
+        5x-3y\amp =14
+    \end{aligned}</m>   
+    <md><mrow>2x+7y=-19</mrow>
+        <mrow>5x-3y=14</mrow></md>
+</p></statement>
 <answer></answer></exercise>
 
 <exercise number="22"><statement><p>
-	<md><mrow>4x+3y=-19</mrow>
-		<mrow>5x+15=-2y</mrow></md></p></statement></exercise>
+<m>\begin{aligned}[t]
+        4x+3y\amp =-19\\
+        5x+15\amp =-2y
+    \end{aligned}</m>   
+    <md><mrow>4x+3y=-19</mrow>
+        <mrow>5x+15=-2y</mrow></md>
+</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 23<ndash/>26, solve using substitution or elimination.</p></introduction>
 
 <exercise number="23"><statement><p>
-	<md><mrow>x+5y=18</mrow>
-		<mrow>x-y=-3</mrow></md></p></statement>
+<m>\begin{aligned}[t]
+        x+5y\amp =18\\
+        x-y\amp =-3
+    \end{aligned}</m>   
+</p></statement>
 <answer></answer></exercise>
 
 <exercise number="24"><statement><p>
-	<md><mrow>x+5y=11</mrow>
-		<mrow>2x+3y=8</mrow></md></p></statement></exercise>
+<m>\begin{aligned}[t]
+        x+5y\amp =11\\
+        2x+3y\amp =8
+    \end{aligned}</m>   
+</p></statement></exercise>
 
 <exercise number="25"><statement><p>
-	<md><mrow>\dfrac{2}{3}x-3y=8</mrow>
-		<mrow>x+\dfrac{3}{4}y=12</mrow></md></p></statement>
+<m>\begin{aligned}[t]
+        \dfrac{2}{3}x-3y\amp =8\\
+        x+\dfrac{3}{4}y\amp =12
+    \end{aligned}</m>   
+</p></statement>
 <answer></answer></exercise>
 
 <exercise number="26"><statement><p>
-	<md><mrow>3x=5y-6</mrow>
-		<mrow>3y=10=11x</mrow></md></p></statement></exercise>
+<m>\begin{aligned}[t]
+        3x\amp =5y-6\\
+        3y\amp =10-11x
+    \end{aligned}</m>   
+</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>30, decide whether the system is inconsistent, dependent, or consistent and independent.</p></introduction>
 
 <exercise number="27"><statement><p>
-	<md><mrow>2x-3y=4</mrow>
-		<mrow>x+2y=7</mrow></md></p></statement>
+<m>\begin{aligned}[t]
+        2x-3y\amp =4\\
+        x+2y\amp =7
+    \end{aligned}</m>   
+</p></statement>
 <answer></answer></exercise>
 
 <exercise number="28"><statement><p>
-	<md><mrow>2x-3y=4</mrow>
-		<mrow>6x-9y=4</mrow></md></p></statement></exercise>
+<m>\begin{aligned}[t]
+        2x-3y\amp =4\\
+        6x-9y\amp =4
+    \end{aligned}</m>   
+</p></statement></exercise>
 
 <exercise number="29"><statement><p>
-	<md><mrow>2x-3y=4</mrow>
-		<mrow>6x-9y=12</mrow></md></p></statement>
+<m>\begin{aligned}[t]
+        2x-3y\amp =4\\
+        6x-9y\amp =12
+    \end{aligned}</m>   
+</p></statement>
 <answer></answer></exercise>
 
 <exercise number="30"><statement><p>
-	<md><mrow>x-y=6</mrow>
-		<mrow>x+y=6</mrow></md></p></statement></exercise>
+<m>\begin{aligned}[t]
+        x-y\amp =6\\
+        x+y\amp =6
+    \end{aligned}</m>   
+</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 31<ndash/>42, solve by writing and solving a system of equations.</p></introduction>
@@ -301,13 +353,13 @@ or
 <exercise number="43"><statement><p><ol label="a">
 	<li>Graph the line of slope <m>\dfrac{-5}{3}</m> that passes through the point <m>(-2,1)</m>.</li>
 	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
-<sidebyside width="50%"><image source="images/cr4-17.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="50%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="44"><statement><p><ol label="a">
 	<li>Graph the line of slope <m>\dfrac{6}{5}</m> that passes through the point <m>(-3,-4)</m>.</li>
 	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
-<sidebyside width="50%"><image source="images/cr4-17.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="50%"><image source="imageshp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>46, find an equation for the line passing through the two points.</p></introduction>
