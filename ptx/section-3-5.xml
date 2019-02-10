@@ -365,7 +365,7 @@ the same answer as before. The order of the points does not matter, but we must 
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-3-5"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols ="4"><introduction><p>For Problems 1-8, find the negative reciprocal.</p></introduction>
 
@@ -416,6 +416,9 @@ the same answer as before. The order of the points does not matter, but we must 
 </exercisegroup>
 
 </exercises>
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-3-5">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-3-5.xml" />
 </section>	

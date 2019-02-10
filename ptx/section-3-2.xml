@@ -217,7 +217,7 @@ where <m>k</m> is the <term>constant of proportionality</term>.</p></assemblage>
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-3-2"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="4"><introduction><p>Convert each common fraction to a decimal, and each decimal to a common fraction.</p></introduction>
 
@@ -246,7 +246,9 @@ where <m>k</m> is the <term>constant of proportionality</term>.</p></assemblage>
 <answer><m>\dfrac{11}{5}</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-3-2">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-3-2.xml" />
 </section>

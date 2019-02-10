@@ -305,7 +305,7 @@ The slope represents the trucker's average speed or velocity.</p></li></ol></p><
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-3-3"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Write a rate for each of the following situations, including units.</p></introduction>
 
@@ -329,7 +329,9 @@ The slope represents the trucker's average speed or velocity.</p></li></ol></p><
 <answer><p><m>2.25</m> dollars per page</p></answer></exercise>
 </exercisegroup>
 </exercises>
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-3-3">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
-
 <xi:include href="./hmwk-3-3.xml" />
 </section>

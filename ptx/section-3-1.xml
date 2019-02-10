@@ -233,7 +233,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-3-1"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Choose the correct algebraic expression for each of the following situations.
 		<md>
@@ -260,6 +260,9 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 	<answer><m>\dfrac{x}{5}-30=8</m></answer></exercise>
 </exercisegroup>
 </exercises>
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-1">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
 <xi:include href="./hmwk-3-1.xml" />
 </section>

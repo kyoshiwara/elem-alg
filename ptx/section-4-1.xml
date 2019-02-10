@@ -23,9 +23,29 @@ This calculation is an application of the associative law for multiplication. We
 </subsection>
 
 <subsection><title>The Distributive Law</title>
-<sidebyside widths="55% 35%"><p>Another useful property for simplifying expressions is the distributive law. First consider a numerical example. Suppose we would like to find the area of the two rooms shown at right.
-	We can do this in two different ways:</p>  
-	<image source="images/fig-4-1-1.png"><description>rectangle</description></image></sidebyside>
+<sidebyside widths="60% 35%" valigns="middle middle" margins="0% 0%"><p>Another useful property for simplifying expressions is the distributive law. First consider a numerical example. Suppose we would like to find the area of the two rooms shown at right.
+    We can do this in two different ways:</p>  
+    <!--<image source="images/fig-4-1-1.png"><description>rectangle</description></image>-->
+    <image xml:id="fig-4-1-1">
+        <description>rectangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.2]
+        \draw[red, line width=1mm] (0,0) rectangle ++(4,2);
+        \draw[red, line width=1mm] (2.4,0) --++(0,2);
+        \draw[black,thick] (0,2.1)--++(0, 0.3);
+        \draw[black,thick] (4,2.1)--++(0, 0.3);
+        \draw[black,thick, <-, >=stealth'] (0,2.25)--++(1.7,0) node[right]{20};
+        \draw[black,thick, <-, >=stealth'] (4,2.25)--++(-1.7,0);
+        \node[below] at (1.2,-.05) {12};
+        \node[below] at (3.2,-.05) {8};
+        \node[right] at (4.05,1) {10};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <p><ul>
 	<li><p>Method 1: Think of the rooms as one large rectangle, with width 10 feet and length <m>12+8</m> feet. The area is then given by
@@ -165,7 +185,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-4-1"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>For Problems 1-2, use a formula to write an equation. Then solve the equation.</p></introduction>
 
@@ -185,6 +205,9 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 <answer><m>x+(2x-60)=780;~~280</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-1">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-4-1.xml" />
 </section>
