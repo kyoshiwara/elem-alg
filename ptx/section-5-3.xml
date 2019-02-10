@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Using-Formulas" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Using Formulas</title>
+
+<subsection><title>Volume and Surface Area</title>
+<p>In Section 5.1 we used exponents to calculate the area of a square and the volume of a cube.</p>
+
+<assemblage><p><ul>
+	<li><term>Volume</term> is the amount of space contained within a three-dimensional object. It is measured in cubic units, such as cubic feet or cubic centimeters.</li>  
+	<li><term>Surface area</term> is the sum of the areas of all the faces or surfaces that contain a solid. It is measured in square units.</li></ul></p></assemblage>
+
+<p>We saw that the area of a square whose side has length <m>s</m> units is given by <m>A=s^2</m> square units, and the volume of a cube of side <m>s</m> units is gven by <m>V=s^3</m> cubic units.  Many other useful formulas involve exponents. The figure below shows several solid objects, along with formulas for their volumes and surface areas.</p>
+
+<sidebyside width="90%"><image source="images/fig-5-3-1.png"><description>solids</description></image></sidebyside>  
+
+<example><statement><p>At the Red Deer Pub and Microbrewery there is a spherical copper tank in which beer is brewed. If the tank is 4 feet in diameter, how much beer does it hold?</p></statement>
+
+<solution><p>The formula for the volume of a sphere is <m>V=\dfrac{4}{3} \pi r^3</m>, where <m>r</m> is the radius of the sphere. The tank has diameter 4 feet, so its radius is 2 feet. We substitute <m>r=\alert{2}</m> into the formula, and simplify, following the order of operations. (If your calculator does not have a key for <m>\pi</m>, you can use the approximation <m>\pi \approx 3.14</m>.)
+	<md><mrow>V \amp =\dfrac{4}{3} \pi (\alert{2})^3 \amp \amp \blert{\text{Compute the power first.}}</mrow>
+		<mrow> \amp = \dfrac{4 \pi (8)}{3} \amp \amp \blert{\text{Multiply by}~4\pi,~\text{divide by 3.}}</mrow>
+		<mrow> \amp=33.51 \ldots</mrow></md>
+The tank holds approximately 33.5 cubic feet of beer, or about 251 gallons.</p></solution></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>What are the units of volume?</p></statement>
+    	<answer><p>Cubic units</p></answer></exercise>
+    <exercise number="2"><statement><p>What are the units of surface area?</p></statement>
+    	<answer><p>Square units</p></answer></exercise>
+ </reading-questions>
+
+ <assemblage><title>Look Closer</title>
+ <p>What does it mean for the volume of a round tank to be measured in "cubic" units?  If we pour all the beer in the tank into a rectangular box, that box will hold 33 and a half cubes that measure 1 foot on each side.</p></assemblage>
+</subsection>
+
+<subsection><title>Solving Equations with <m>x^2</m></title>
+<p>Taking a square root is the opposite of squaring a number. Thus, we can undo the squaring operation by taking square roots.  For example, to solve the equation
+	<me>x^2=64</me>
+we take the square root of each side. Saying that <m>x^2</m> equals 64 is the same as saying that <m>x</m> is a square root of 64. Remember that every positive number has two square roots, so we write
+	<md><mrow>x^2 \amp =64 \amp \amp \blert{\text{Take square roots of both sides.}}</mrow>
+		<mrow> \amp = \pm \sqrt{64} </mrow>
+		<mrow> \amp= \pm 8</mrow></md>
+The equation has two solutions, <m>8</m> and <m>-8</m>.</p>
+
+<example><statement><p>The volume of a can of soup is 582 cubic centimeters, and its height is 10.5 centimeters. What is its radius?</p></statement>
+
+<solution><p>The volume of a cylinder is given by the formula <m>V=\pi r^2h</m>. We substitute <m>\alert{582}</m> for <m>V</m> and <m>\alert{10.5}</m> for <m>h</m>, then solve for <m>r</m>.
+	<md><mrow>\alert{582} \amp = \pi r^2(\alert{10.5}) \amp \amp \blert{\text{Divide both sides by}~\pi.}</mrow>
+		<mrow> 185.256 \amp = r^2(10.5) \amp \amp \blert{\text{Divide both sides by 10.5.}}</mrow>
+		<mrow> 17.643 \amp = r^2 \amp \amp \blert{\text{Take square roots.}}</mrow>
+		<mrow> \pm 4.2 \amp = 4</mrow></md>
+Because the radius of a soup can cannot be a negative number, we discard the negative solution in this application. The radius of the can is 4.2 centimeters.</p></solution></example>
+
+<p>The equations above, which involve the square of the variable (such as <m>x^2</m> or <m>r^2</m>), are called <term>quadratic equations</term>, and we shall see more about them later.</p>
+
+<reading-questions>
+    <exercise number="3"><statement><p>What operation is the opposite of squaring a number?</p></statement>
+    	<answer><p>Taking a squre root</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Pythagorean Theorem</title>
+<p>A triangle in which one of the angles is a right angle, or <m>90 \degree</m>, is called a <term>right triangle</term>.  The side opposite the right angle is the longest side of the triangle, and is called the <term>hypotenuse</term>. The other two sides of the triangle are called the <term>legs</term>.</p> 		
+	
+<p>If we know the lengths of any two sides of a right triangle, we can find the third side using a formula called the Pythagorean Theorem. We use the variable <m>c</m> for the length of the hypotenuse, and the lengths of the legs are denoted by <m>a</m> and <m>b</m> (it doesn't matter which is which).</p>
+
+<assemblage><title>Pythagorean Theorem</title>
+<sidebyside widths="60% 25%"><p>If <m>c</m> stands for the length of the hypotenuse of a right triangle, and the lengths of the two legs are represented by <m>a</m> and <m>b</m>, then
+<me>a^2 + b^2 = c^2</me></p>                  
+<image source="images/fig-5-3-2.png"><description>triangle</description></image></sidebyside></assemblage>
+
+<p>The Pythagorean theorem says that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the two legs.</p>
+
+<example><statement><p>The length of a rectangle is 17 centimeters and its diagonal is 20 centimeters long. What is the width of the rectangle?</p></statement>
+
+<solution><sidebyside widths="60% 30%"><p>The diagonal of the rectangle is the hypotenuse of a right triangle, as shown in the figure. We are looking for the width of the rectangle, which forms one of the legs of the right triangle. We use the Pythagorean Theorem.</p>
+<image source="images/fig-5-3-ex3.png"><description>rectangle</description></image></sidebyside>
+	<md><mrow>a^2 + b^2 \amp = c^2 \amp \amp \blert{\text{Substitute 20 for} ~c~ \text{and 17 for} ~b.}</mrow>
+		<mrow>a^2 + (\alert{17})^2 \amp = (\alert{20})^2 </mrow></md>
+<p>We compute the powers, then solve for <m>a</m>.
+	<md><mrow>a^2 + 289 \amp = 400 \amp \amp \blert{\text{Subtract 289 from both sides.}}</mrow>
+		<mrow>a^2 \amp = 111 \amp \amp \blert{\text{Take square roots.}}</mrow>
+		<mrow>a \amp = \pm \sqrt{111}</mrow></md>
+We use a calculator to evaluate the square root and find that the width of the rectangle is approximately 10.536 centimeters.</p></solution></example> 
+
+<reading-questions>
+    <exercise number="4"><statement><p>What is a right triangle, and what is the hypotenuse?</p></statement>
+    	<answer><p>A triangle in which one of the angles is a right angle; the longest side</p></answer></exercise>
+    <exercise number="5"><statement><p>What do we use the Pythagorean theorem for?</p></statement>
+    	<answer><p>To find a side of a right triangle</p></answer></exercise>
+ </reading-questions>
+</subsection>
+
+<subsection><title>Solving for One Variable</title>
+<p>In the formula in Example 4, the variable <m>P</m> occurs more than once.  We substitute the value for <m>P</m> each time it occurs.</p>
+
+<example><statement><p>If a principal of <m>P</m> dollars is invested at interest rate <m>r</m>, the formula 
+<me>A = P + Prt</me>   
+gives the amount of money in an account after <m>t</m> years. (The "amount," <m>A</m>, is the original principal plus the interest earned.) How long will it take an investment of $5000 to grow to $7000 in an account that pays 6% interest?</p></statement>
+
+<solution><p>We substitute <m>\alert{7000}</m> for <m>A</m>, <m>\alert{5000}</m> for <m>P</m>, and <m>\alert{0.065}</m> for <m>r</m> in the formula, and then solve the resulting equation for <m>t</m>. 
+	<md><mrow>\alert{7000} \amp = \alert{5000} + \alert{5000}(\alert{0.065})t \amp \amp \blert{\text{Simplify the right side.}}</mrow>
+		<mrow>7000 \amp = 5000+325t \amp \amp \blert{\text{Subtract 5000 from both sides.}}</mrow>
+		<mrow>2000 \amp = 325t \amp \amp \blert{\text{Divide both sides by 325.}}</mrow>
+		<mrow>615 \amp \approx t</mrow></md>
+However, the answer to the question in the problem is not 6.15 years! Because interest is paid only once a year, the investor must wait until the end of the seventh year before the account contains at least $7000.</p></solution></example>
+
+<warning><p>To simplify the right side of the equation
+	<me>7000 = 5000 + 5000(0.065)t</me>
+it is not correct to add the two 5000's and write <m>7000 = 10,000(0.065)t</m>.  Remember that multiplication comes before addition in the order of operations.</p></warning>
+
+<p>If we plan to use a formula more than once with different values for the variables, it may be faster in the long run to solve for one of the variables in terms of the others. We have already done something like this when we put a linear equation into slope-intercept form:  in that situation we solved for <m>y</m> in terms of <m>x</m>.</p>
+
+<example><statement><p>Solve the formula <m>~~A=P+Prt~~</m> for <m>t</m>.</p></statement>
+
+<solution><p>For this problem, we treat <m>t</m> as the unknown and treat all the other variables as if they were constants. We begin by isolating the term containing <m>t</m> on one side of the equation.
+	<md><mrow>A \amp = P+Prt \amp \amp \blert{\text{Subtract} ~P~ \text{from both sides.}}</mrow>
+		<mrow>A-P \amp = Prt \amp \amp \blert{\text{Divide bothe sides by}~Pr.}</mrow>
+		<mrow>\dfrac{A-P}{Pr} \amp = \dfrac{Prt}{Pr}</mrow>
+		<mrow>\dfrac{A-P}{Pr} \amp = t</mrow></md>
+We now have a new formula for <m>t</m> in terms of the other variables.</p></solution></example>
+
+<warning><p>In the expression <m>P+Prt</m> in Example 5, the terms <m>P</m> and <m>Prt</m> are not like terms. They cannot be combined.</p></warning>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p>Follow the order of operations to simplify.</p></introduction>
+
+<exercise number="1"><statement><m>3(-5)^2-2^3</m></statement>
+<answer><m>-23</m></answer></exercise>
+
+<exercise number="2"><statement><m>6(7-4)^2</m></statement>
+<answer><m>54</m></answer></exercise>
+
+<exercise number="3"><statement><m>-6-2 \cdot 4^2</m></statement>
+<answer><m>-38</m></answer></exercise>
+
+<exercise number="4"><statement><m>(5-3)^4(3-6)^3</m></statement>
+<answer><m>-432</m></answer></exercise>
+
+<exercise number="5"><statement><m>4(4-4^2)</m></statement>
+<answer><m>-48</m></answer></exercise>
+
+<exercise number="6"><statement><m>-3(-2)^2-5</m></statement>
+<answer><m>-17</m></answer></exercise>
+
+<exercise number="7"><statement><m>-(3 \cdot 2)^2-5</m></statement>
+<answer><m>-41</m></answer></exercise>
+
+<exercise number="8"><statement><m>3-4(-2)^3(-3)</m></statement>
+<answer><m>-93</m></answer></exercise>
+
+<exercise number="9"><statement><m>\dfrac{-5^2+1}{4}+\dfrac{2(-3)^3}{-6}</m></statement>
+<answer><m>3</m></answer></exercise>
+
+<exercise number="10"><statement><m>\dfrac{2^2(-3^2)}{1-3^2}-\dfrac{7^2-6^2}{(1-3)^2}</m></statement>
+<answer><m></m>\dfrac{5}{4}</answer></exercise>
+
+<exercise number="11"><statement><m>\dfrac{3^3-3}{(3-5)^3}-\dfrac{2(-2)^2-8}{-2^2(8-2^2)}</m></statement>
+<answer><m>\dfrac{-9}{2}</m></answer></exercise>
+
+<exercise number="12"><statement><m>3 \cdot \dfrac{5^3-(-10)^2}{3^2-3(5)} \cdot \dfrac{2^5+4}{3^2-2^2}</m></statement>
+<answer><m>-90</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>  
+
+

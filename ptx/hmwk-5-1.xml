@@ -1,0 +1,317 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 5.1</title>
+
+ <exercisegroup><introduction><p>Compute the powers in Problems 1<ndash/>2.</p></introduction>
+
+ <exercise number="1"><statement><p><ol label="a" cols="3">
+ 	<li><m>4^3</m></li>
+ 	<li><m>5^3</m></li>
+ 	<li><m>5^4</m></li></ol></p></statement>
+ 	<answer></answer></exercise>
+
+<exercise number="2"><statement><p><ol label="a" cols="3">
+ 	<li><m>(\dfrac{2}{3})^4</m></li>
+ 	<li><m>(\dfrac{4}{5})^3</m></li>
+ 	<li><m>(\dfrac{11}{9})^2</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="3"><statement><p>Use a calculator to compute the powers. Round your answers to the nearest hundredth.<ol label="a" cols="3">
+ 	<li><m>(3.1)^3</m></li>
+ 	<li><m>(2.6)^4</m></li>
+ 	<li><m>(0.8)^4</m></li></ol></p></statement>
+ <answer></answer></exercise>
+
+<exercisegroup><introduction><p>For Problems 4<ndash/>5, simplify.</p></introduction>
+
+<exercise number="4"><statement><p><ol label="a" cols="2">
+ 	<li><m>-5^2</m></li>
+ 	<li><m>-5^3</m></li>
+ 	<li><m>(-5)^2</m></li>
+ 	<li><m>(-5)^3</m></li></ol></p></statement></exercise>
+
+<exercise number="5"><statement><p><ol label="a" cols="2">
+ 	<li><m>-(-2)^2</m></li>
+ 	<li><m>-(-2)^3</m></li>
+ 	<li><m>-2^3-2^2</m></li>
+ 	<li><m>-(2^3-2)^2</m></li></ol></p></statement>
+ <answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="6"><statement><p>Evaluate for <m>x=-2</m>.<ol label="a" cols="2">
+ 	<li><m>5x^3</m></li>
+ 	<li><m>5x^2</m></li>
+ 	<li><m>5-x^2</m></li>
+ 	<li><m>5-x^3</m></li></ol></p></statement></exercise>
+
+ <exercise number="7"><statement><p>Evaluate for <m>a=-3,~b=-4</m>.<ol label="a" cols="2">
+ 	<li><m>ab^3</m></li>
+ 	<li><m>a-b^3</m></li>
+ 	<li><m>(a-b^2)^2</m></li>
+ 	<li><m>ab(a^2-b^2)</m></li></ol></p></statement>
+ 	<answer></answer></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 8<ndash/>11, simplify.</p></introduction>
+
+<exercise number="8"><statement><p><ol label="a">
+ 	<li><m>x+x+x</m></li>
+ 	<li><m>x \cdot x \cdot x</m></li></ol></p></statement></exercise>
+
+<exercise number="9"><statement><p><ol label="a">
+ 	<li><m>5a \cdot 5a</m></li>
+ 	<li><m>5a+5a</m></li></ol></p></statement>
+ <answer></answer></exercise>
+
+<exercise number="10"><statement><p><ol label="a">
+ 	<li><m>-q-q-q</m></li>
+ 	<li><m>-q(-q)(-q)</m></li></ol></p></statement></exercise>
+
+<exercise number="11"><statement><p><ol label="a">
+ 	<li><m>-3m-3m</m></li>
+ 	<li><m>(-3m)(-3m)</m></li></ol></p></statement>
+ <answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 12<ndash/>15, one of the two statements is true for all values of <m>x</m>, and the other is not. By trying some values of <m>x</m>, decide which statement is true.</p></introduction>
+
+<exercise number="12"><statement><p><ol label="a">
+ 	<li><m>x+x=2x</m></li>
+ 	<li><m>x+x=x^2</m></li></ol>
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>x+x</m></cell>
+                    	<cell><m>2x</m></cell>
+                        <cell><m>x^2</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>-4</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>-1</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                                           
+                </tabular></sidebyside></p></statement></exercise>
+
+<exercise number="13"><statement><p><ol label="a">
+ 	<li><m>x \cdot x = 2x</m></li>
+ 	<li><m>x \cdot x = x^2</m></li></ol>
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>x \cdot x</m></cell>
+                    	<cell><m>2x</m></cell>
+                        <cell><m>x^2</m></cell></row>
+                    <row> 
+                        <cell><m>4</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>6</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>-3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>-1</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                                           
+                </tabular></sidebyside></p></statement>
+ <answer></answer></exercise>
+
+<exercise number="14"><statement><p><ol label="a">
+ 	<li><m>x^2+x^2=x^4</m></li>
+ 	<li><m>x^2+x^2=2x^2</m></li></ol>
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>x^2+x^2</m></cell>
+                    	<cell><m>x^4</m></cell>
+                        <cell><m>2x^2</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>-2</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>-1</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                                           
+                </tabular></sidebyside></p></statement></exercise>
+
+<exercise number="15"><statement><p><ol label="a">
+ 	<li><m>x+x^2 = x^3</m></li>
+ 	<li><m>x \cdot x^2 = x^3</m></li></ol>
+<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>x + x^2</m></cell>
+                    	<cell><m>x \cdot x^2</m></cell>
+                        <cell><m>x^3</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>4</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>-3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>-1</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                                           
+                </tabular></sidebyside></p></statement>
+ <answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>Using what you learned in Problems 12<ndash/>15, simplify the expressions in Problems 16<ndash/>21 if possible, or state "cannot be simplified."</p></introduction>
+
+<exercise number="16"><statement><m>5a^2-7a^2</m></statement></exercise>
+
+<exercise number="17"><statement><m>3t-2t^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><m>-m^2-m^2</m></statement></exercise>
+
+<exercise number="19"><statement><m>3k(4k)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><m>3k+4k^2</m></statement></exercise>
+
+<exercise number="21"><statement><m>3k^2+4k^2</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>In Problems 22<ndash/>24, simplify by combining like terms.</p></introduction>
+
+<exercise number="22"><statement><m>6b^3-2b^3-(-8b^3)</m></statement></exercise>
+
+<exercise number="23"><statement><m>(2y^3-4y^2-y)+(6y^2+2y+1)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><m>(5x^3+3x^2-4x+8)-(2x^3-4x-3)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>In Problems 25<ndash/>28, explain why the calculation is incorrect, and give the correct answer.</p></introduction>
+
+<exercise number="25"><statement><m>6w^3 + 8w^3 \rightarrow 14w^6</m></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><m>6+3x^2 \rightarrow 9x^2</m></statement></exercise>
+
+<exercise number="27"><statement><m>4t^2+7 - (3t^2-5) \rightarrow t^2+2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><m>5b^2-3b \rightarrow 2b</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 29<ndash/>31, translate into an algebraic expression, then simplify. </p></introduction>
+
+<exercise number="29"><statement><p>The square of the sum of 3 and 4</p></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><p>5 more than <m>x</m> to the third power</p></statement></exercise>
+
+<exercise number="31"><statement><p>25% of the cube of <m>h</m></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="31"><statement><p>Myra sells mugs at the sidewalk fair every week. Her revenue from selling <m>x</m> mugs is <m>12x-0.3x^2</m> dollars, and the cost of producing <m>x</m> mugs is <m>50+3x</m> dollars.<ol label="a">
+	<li>Write an expression for the profit Myra earns from selling <m>x</m> mugs.</li>
+	<li>Find Myra's profit from the sale of 10 mugs, from 15 mugs, and from 20 mugs.</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="32"><statement><p>The owner of the Koffee Shop pours the remainder of her old house blend, which is 30% Colombian beans, into a 50-pound bin, and fills it up with her new house blend, which is 25% Colombian beans. Let <m>h</m> stand for the number of pounds of the old house blend. Write algebraic expressions to answer the questions below.
+<ol label="a">
+	<li>How many pounds of Colombian beans are in the old house blend?</li>
+	<li>How many pounds of new blend does she pour into the bin?</li>
+	<li>How many pounds of Colombian beans are in this amount of new house blend?</li>
+	<li>How many pounds of Colombian beans are in the 50-pound bin?</li></ol></p></statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 34<ndash/>35, recall that two algebraic expressions are called equivalent if they are equal for every value of their variables.</p></introduction>
+
+<exercise number="34"><statement><p><ol label="a">
+ 	<li>Explain why the expressions <m>3x^2</m> and <m>(3z)^2</m> are not equivalent.</li>
+	<li>Explain why the expressions <m>(3z)^2</m> and <m>9z^2</m> are equivalent.</li></ol></p></statement></exercise>
+
+<exercise number="35"><statement><p><ol label="a">
+ 	<li>Find two values of <m>x</m> for which <m>2x=x^2</m>.</li>
+ 	<li>Find four values of <m>x</m> for which <m>2x \not= x^2</m>.</li>
+ 	<li>Is <m>2x</m> equivalent to <m>x^2</m>?</li></ol></p></statement>
+ <answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 36<ndash/>39, simplify mentally, without using pencil, paper, or calculator.
+</p></introduction>
+
+<exercise number="36"><statement><p><ol label="a">
+ 	<li>Multiply 3.5 by 100.</li>
+ 	<li>Multiply 3.5 by 1000.</li>
+ 	<li>Multiply 3.5 by 10,000.</li></ol></p></statement></exercise>
+
+<exercise number="37"><statement><p><ol label="a" cols="3">
+ 	<li><m>0.074 \times 10^2</m></li>
+ 	<li><m>0.074 \times 10^3</m></li>
+ 	<li><m>0.074 \times 10^4</m></li></ol></p></statement>
+ <answer></answer></exercise>
+
+<exercise number="38"><statement><p><ol label="a" cols="3">
+ 	<li><m>24 \times 10^2</m></li>
+ 	<li><m>8.91 \times 10^5</m></li>
+ 	<li><m>0.003 \times 10^4</m></li></ol></p></statement></exercise>
+
+<exercise number="39"><statement><p><ol label="a">
+ 	<li><m>3 \cdot 10 + 9</m></li>
+ 	<li><m>2 \cdot 10^2 + 3 \cdot 10 + 4</m></li>
+ 	<li><m>3 \cdot 10^3 + 4 \cdot 10^2 + 5 \cdot 10 + 6</m></li></ol></p></statement>
+ <answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="40"><statement><p>Find the perimeter of the triangle.</p>
+<sidebyside width="30%"><image source="images/hp-5-1-40.png"><description>triangle</description></image></sidebyside></statement></exercise>
+
+<exercise number="41"><statement><p>Find the area of the triangle.</p>
+<sidebyside width="25%"><image source="images/hp-5-1-41.png"><description>triangle</description></image></sidebyside></statement></exercise>
+
+<exercise number="42"><statement><p>Find the area and perimeter of the rectangle.</p>
+<sidebyside width="25%"><image source="images/hp-5-1-42.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+
+</exercises>
