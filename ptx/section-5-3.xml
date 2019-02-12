@@ -124,7 +124,7 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
 <warning><p>In the expression <m>P+Prt</m> in Example 5, the terms <m>P</m> and <m>Prt</m> are not like terms. They cannot be combined.</p></warning>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-5-3"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Follow the order of operations to simplify.</p></introduction>
 
@@ -165,8 +165,11 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
 <answer><m>-90</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-5-3">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-5-3.xml" />
 </section>  
 
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
     <chapter xml:id="chap4"  xmlns:xi="http://www.w3.org/2001/XInclude">
-        <title>Graphs of Linear Equations</title>
+        <title>Applications of Linear Equations</title>
 
 
     <xi:include href="./section-4-1.xml" />             

@@ -167,7 +167,7 @@ Each term of the product corresponds to the area of one of the four sub-rectangl
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-5-4"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="3"><introduction><p>Find the area and perimeter of each figure.</p></introduction>
 
@@ -191,8 +191,11 @@ Each term of the product corresponds to the area of one of the four sub-rectangl
 
 </exercisegroup>
 </exercises> 
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-5-4">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-5-4.xml" />
 </section>
 
 

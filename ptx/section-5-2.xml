@@ -189,7 +189,7 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
  </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-5-2"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Solve the equation for <m>x</m>.</p></introduction>
 
@@ -218,29 +218,10 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 <answer><m>\dfrac{5}{b+3}</m></answer></exercise>
 </exercisegroup>
 </exercises> 
-
-                                             
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-5-2">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-5-1.xml" />
 </section>
 
