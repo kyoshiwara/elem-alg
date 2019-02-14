@@ -13,7 +13,7 @@
 
 <p>We saw that the area of a square whose side has length <m>s</m> units is given by <m>A=s^2</m> square units, and the volume of a cube of side <m>s</m> units is gven by <m>V=s^3</m> cubic units.  Many other useful formulas involve exponents. The figure below shows several solid objects, along with formulas for their volumes and surface areas.</p>
 
-<sidebyside width="90%"><image source="images/fig-5-3-1.png"><description>solids</description></image></sidebyside>  
+<sidebyside width="95%"><image source="images/fig-5-3-1"><description>solids</description></image></sidebyside>  
 
 <example><statement><p>At the Red Deer Pub and Microbrewery there is a spherical copper tank in which beer is brewed. If the tank is 4 feet in diameter, how much beer does it hold?</p></statement>
 
@@ -67,8 +67,25 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 
 <assemblage><title>Pythagorean Theorem</title>
 <sidebyside widths="60% 25%"><p>If <m>c</m> stands for the length of the hypotenuse of a right triangle, and the lengths of the two legs are represented by <m>a</m> and <m>b</m>, then
-<me>a^2 + b^2 = c^2</me></p>                  
-<image source="images/fig-5-3-2.png"><description>triangle</description></image></sidebyside></assemblage>
+<me>a^2 + b^2 = c^2</me></p><!--                  
+<image source="images/fig-5-3-2.png"><description>triangle</description></image>-->
+    <image xml:id="fig-5-3-2">
+        <description>right triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}
+		\def\a{3};
+		\def\b{2};
+		\draw[magenta!80!black,line width=1mm] (0,0)--(\a,0)--(\a,\b)--(0,0);
+		\node[below, yshift=-3] at ({\a/2},0) {$a$};
+		\node[right, xshift=3] at (\a,{\b/2}) {$b$};
+		\node[above left] at ({\a/2},{\b/2}) {$c$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></assemblage>
 
 <p>The Pythagorean theorem says that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the two legs.</p>
 
@@ -124,7 +141,7 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
 <warning><p>In the expression <m>P+Prt</m> in Example 5, the terms <m>P</m> and <m>Prt</m> are not like terms. They cannot be combined.</p></warning>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-5-3"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Follow the order of operations to simplify.</p></introduction>
 
@@ -165,8 +182,11 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
 <answer><m>-90</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-5-3">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-5-3.xml" />
 </section>  
 
 
