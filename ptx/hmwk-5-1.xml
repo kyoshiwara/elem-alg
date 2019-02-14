@@ -306,12 +306,65 @@
 </exercisegroup>
 
 <exercise number="40"><statement><p>Find the perimeter of the triangle.</p>
-<sidebyside width="30%"><image source="images/hp-5-1-40.png"><description>triangle</description></image></sidebyside></statement></exercise>
+<sidebyside width="25%"><!--<image source="images/hp-5-1-40.png"><description>triangle</description></image>-->
+    <image xml:id="hp-5-1-40">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \def\x{0.7};
+        \coordinate (A) at ({asin(3/5)}:{4*\x});
+        \coordinate (B) at ({5*\x},0);
+        \draw[magenta!80!black,line width=1mm] (0,0)--(B)--(A)--(0,0);
+        \node[below] at ({2.5*\x},0) {$5x$};
+        \node[left, yshift=5] at ($ 0.5*(A)$) {$4x$};
+        \node[right, yshift=5] at ($ (B) + ({180-acos(3/5)}:{1.5*\x}) $) {$3x$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 <exercise number="41"><statement><p>Find the area of the triangle.</p>
-<sidebyside width="25%"><image source="images/hp-5-1-41.png"><description>triangle</description></image></sidebyside></statement></exercise>
+<sidebyside width="25%"><!--<image source="images/hp-5-1-41.png"><description>triangle</description></image>-->
+    <image xml:id="hp-5-1-41">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \def\b{0.22};
+        \coordinate (A) at ({14*\b},{15*\b});
+        \coordinate (B) at ({8*\b},0);
+        \coordinate (C) at ({14*\b},0);
+        \draw[blue] (C) rectangle ++(-.25,.25);
+        \draw[gray,thick,densely dashed] (B)--(C)--(A) node[right,midway, text=black]{$15b$};
+        \draw[magenta!80!black,line width=1mm] (0,0)--(B)--(A)--(0,0);
+        \node[below] at ({4*\b},0) {$8b$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 <exercise number="42"><statement><p>Find the area and perimeter of the rectangle.</p>
-<sidebyside width="25%"><image source="images/hp-5-1-42.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+<sidebyside width="25%"><!--<image source="images/hp-5-1-42.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-5-1-42">
+        <description>rectangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \def\v{0.35};
+        \coordinate (A) at ({9*\v},{7*\v});
+        \draw[magenta!80!black,line width=1mm] (0,0) rectangle (A);
+        \node[below, yshift=-2] at ({4.5*\v},0) {$9v$};
+        \node[right, xshift=2] at ({9*\v},{3.5*\v}) {$7v$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 </exercises>
