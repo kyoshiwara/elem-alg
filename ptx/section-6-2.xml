@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Some-Quadratic-Models" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Some Quadratic Models</title>
+
+<subsection><title>Revenue</title>
+<p>In this section we consider some applications that lead to quadratic equations. The first application involves revenue.</p>
+<p><term>Revenue</term> is the amount of money a company takes in from selling a product. To find the total revenue from the sale of a product, we multiply the price of one item by the number of items sold.</p>
+
+<assemblage><p>Revenue <m>=</m> (price per item) <m>\cdot</m> (number of items sold)</p></assemblage>
+
+<p>For example, if a snack bar sells 30 sandwiches at $4.25 each, their revenue from sandwiches is 
+	<me>\text{Revenue} = ($4.25~ \text{per sandwich}) \cdot (30~ \text{sandwiches}) = $127.50</me></p>
+
+<assemblage><title>Look Ahead</title>
+<p>Usually, the number of items that consumers will buy depends on the price of the item: the higher a company sets the price, the fewer items it is likely to sell. How does a company's revenue depend upon the price it charges? A good way to study such a problem is to consider the graph of the equation for revenue.</p></assemblage>
+
+<example><statement><p>Rick works as a personal trainer at his gym. By experimenting with his fee, he discovers that if he charges <m>p</m> dollars per hour, he attracts <m>40-p</m> clients.<ol label="a">
+	<li>Write a quadratic equation for Rick's revenue, <m>R</m>, in terms of his fee, <m>p</m>.</li>
+	<li>Graph your equation for <m>R</m>.</li>
+	<li>What should Rick charge if he wants to make $300 revenue? How many clients will he attract?</li>
+	<li>Use your graph to find the fee Rick should charge in order to earn the largest possible revenue. How many clients will he attract at that fee?</li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><p>Rick's revenue is given by
+		<md><mrow>\text{Revenue} \amp = \text{(hourly fee)} \cdot \text{(number of clients)}</mrow>
+			<mrow>R  \amp = p(40-p) = 40p - p^2</mrow></md></p></li>
+	<li><sidebyside widths="50% 45%"><stack><p>We make a table of values and plot the points to obtain the parabola shown in the figure.</p>
+		<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+			<col halign="center"/> <col halign="center"/> <col halign="center"/>
+                    <row bottom="minor">
+                        <cell><m>p</m></cell>
+                        <cell><m>R</m></cell>
+                    	<cell><m>\hphantom{00}</m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m>300</m></cell>
+                    	<cell><m>40(\alert{10})-\alert{10}^2</m></cell></row>
+                    <row> 
+                        <cell><m>20</m></cell>
+                        <cell><m>400</m></cell>
+                        <cell><m>40(\alert{20})-\alert{20}^2</m></cell></row>
+                    <row> 
+                        <cell><m>30</m></cell>
+                        <cell><m>300</m></cell>
+                        <cell><m>40(\alert{30})-\alert{30}^2</m></cell></row>
+                    <row>
+                    	<cell><m>40</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>40(\alert{40})-\alert{40}^2</m></cell></row>                      
+                </tabular></stack>
+        <image source="images/fig-6-2-ex1.png"><description>parabola</description></image></sidebyside></li>
+    <li>There are two points on the graph with <m>p</m>-coordinate 300. Those points have <m>p</m>-coordinates 10 and 30.  If he charges $10 per hour, he will attract <m>40-10=30</m> clients, and if he charges $30 per hour, he will attract <m>40-30=10</m> clients. In either case, his revenue will be $300.</li> 
+	<li>The largest value of <m>R</m> that appears on the graph occurs at the point <m>(20, 400)</m>, so when <m>p=20,~ R=400</m>. If Rick charges $20 per hour, he will make $400 in revenue. He will attract <m>40-20=20</m> clients at that price.</li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>State a formula for calculating revenue.</p></statement>
+    	<answer><p>Revenue equals price per item times number of items sold.</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Look Closer</title>
+<p>In Example 1 we found a quadratic equation for the revenue Rick earns as a personal trainer. The equation was
+	<me>R=p(40-p)=(40p-p^2)</me>
+The graph of this equation is shown again below. </p>
+<sidebyside widths="55% 40%"><p>If Rick charges <m>p=0</m> dollars per hour, he will not earn any revenue, so <m>R=0</m>. You can see this fact in the graph, which passes through the point <m>p=0,~R=0</m>. But there is another point on the graph where <m>R=0</m>;  it has <m>p</m>-coordinate <m>40</m>. If Rick charges 40 dollars an hour, he will not earn any revenue. (Why does this happen?)</p>
+<image source="images/fig-6-2-ex1.png"><description>parabola</description></image></sidebyside></assemblage>
+</subsection>
+
+<subsection><title>The Zero Factor Principle</title>
+<p>Look again at the equation for revenue in Example 1,
+	<me>R=p(40-p)</me>
+The expression for revenue has two factors. The first factor is <m>p</m>, and when <m>p=\alert{0}</m> we have
+	<me>R=\alert{0}(40-\alert{0})=0</me>
+so the revenue is zero as well. The second factor, <m>40-p</m>, is zero when <m>p=\alert{40}</m>. If Rick charges $40 an hour, his revenue is
+	<me>R=\alert{40}(40-\alert{40})=0</me>
+(Recall that <m>40-p</m> represents the number of clients that Rick will attract if he charges <m>p</m> dollars an hour.  Apparently, no one will pay $40 an hour for a personal trainer.)</p>
+<p>Both of these values, <m>p=0</m> and<m>p=40</m> are solutions of the quadratic equation
+	<me>p(40-p)=0</me>
+A quadratic equation has a solution when either of its factors is equal to zero. This is a consequence of the following fact about numbers.</p>
+
+<assemblage><title>Zero-Factor Principle</title>
+<p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero.  Using symbols,
+	<me>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</me></p></assemblage>
+
+<p>The zero-factor principle also applies to algebraic expressions: If the product of two factors is zero, then one of the factors must be zero.</p> 
+
+<example><statement><p>For what values of  is the expression <m>3x(x-5)</m> equal to zero?</p></statement>
+
+<solution><p>The expression is equal to zero if either of its factors equals zero. The factor <m>3x</m> equals zero if <m>x=0</m>, and <m>x-5</m> equals zero if <m>x=5</m>. So <m>3x(x-5)</m> equals zero if <m>x=0</m> or <m>x=5</m>.</p></solution></example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>If you multiply two numbers together and the product is zero, what can 
+	you say about the original numbers?</p></statement>
+    	<answer><p>At least one of them must be zero.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Factoring</title>
+<p>In order to use the zero-factor principle to solve quadratic equations, we must be able to write quadratic expressions in <term>factored form</term>. This process is called <term>factoring</term>, and it is the reverse of multiplying factors together. Here are some examples comparing multiplying and factoring.</p>
+
+<assemblage><p>
+	<md><mrow>\amp \text{Multiplying} \amp \amp \text{Factoring}</mrow>
+		<mrow>\amp \text{1.}~~2 \cdot 3 = 6 \amp \amp \text{1.}~~6 = 2\cdot 3</mrow>
+		<mrow>\amp \text{2.}~~3(2x-5)=6x-15	\amp \amp \text{2.}~~6x-15=3(2x-5)</mrow>
+		<mrow>\amp \text{3.}~~(x-5)(x+2)=x^2-3x-10	\amp \amp \text{3.}~~x^2-3x-10=(x-5)(x+2)</mrow></md></p></assemblage>
+
+<p>The first type of factoring we consider is the reverse of the distributive law. Consider the expression <m>6x-15</m>. The expression has two terms, <m>6x</m> and <m>-15</m>, and each term is divisible by 3:
+	<me>6x=3 \cdot 2x~~~~\text{and}~~~~-15=3 \cdot -5</me>
+We say that 3 is a <term>common factor</term> for the expression <m>6x-15</m> because it is a factor of each term.  Using the distributive law, we can write 
+	<me>6x-15=\blert{3} \cdot 2x- \blert{3} \cdot 15 = \blert{3}(2x-15)</me>
+We have factored out a common factor, namely 3, from <m>6x-15</m>.</p>
+	
+<reading-questions>
+    <exercise number="3"><statement><p>What does it mean to factor an expression?</p></statement>
+    	<answer><p>To write it as a product of factors.</p></answer></exercise>
+    <exercise number="4"><statement><p>Factoring is the reverse process for which operation?</p></statement>
+    	<answer><p>Multiplying</p></answer></exercise>
+</reading-questions>
+
+<example><statement><p>Factor  <m>~~36t^2-63t</m></p></statement>
+
+<solution><p>We look for the largest common factor for the two terms. Both coefficients are divisible by 9, and <m>t</m> divides evenly into both terms. Thus, we factor out <m>\blert{9t}</m> and write the expression as
+	<me>36t^2-63t = \blert{9t}(? - ?)</me>
+You may be able to see the missing factors at a glance, but if not, you can divide each term of the original expression by the common factor, as follows:
+	<me>\dfrac{36t^2}{9t}=\alert{4t}~~~~\text{and}~~~~\dfrac{63t}{9t} = \alert{7}</me>
+We fill in these factors for the question marks to obtain the factored form,
+	<me>36t^2-63t = \blert{9t}(\alert{4t} - \alert{7})</me></p></solution></example>
+
+<p>You can always check your factorization by computing the product; it should be the same as the original expression.</p>
+
+<reading-questions>
+    <exercise number="5"><statement><p>Explain the meaning of "common factor."</p></statement>
+    	<answer><p>An expression that is a factor of each term of another expression</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Solving Quadratic Equations by Factoring</title>
+<p>Now let's see how to solve a quadratic equation using factoring.</p>
+
+<assemblage><p>First, we must arrange the terms so that one side of the equation is zero; the zero-factor principle applies only to zero products. </p></assemblage>  
+
+<example><statement><p>Solve  <m>~~2x^2=4x</m></p></statement>
+
+<solution><p>First, we write the equation in standard form by subtracting <m>4x</m> from both sides.
+	<me>2x^2-4x=0</me>
+Next, we factor the left side of the equation. We can take out a common factor of <m>2x</m>.
+	<me>2x(x-2)=0</me>
+Now, we apply the zero-factor principle: In order for the product to be zero, one of the two factors must be zero. We set each factor equal to zero, and solve for <m>x</m>.
+	<md><mrow>2x \amp = 0  \amp \amp \text{or}~~~~~ x-2 =0</mrow>
+		<mrow>x \amp = 0 \amp \amp  \text{or}~~~~~~~~~~~~~~x  = 2</mrow></md>
+Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that both of these values satisfy the original equation.</p></solution></example>
+
+<reading-questions>
+    <exercise number="6"><statement><p>What is the first step in solving a quadratic equation by factoring?</p></statement>
+    	<answer><p>Arrange the terms so that one side of the equation is zero</p></answer></exercise>
+</reading-questions>
+
+<warning><p>We cannot solve the equation in Example 4 by dividing both sides by <m>2x</m>. If we do that, we get the equation <m>x=2</m>. This is one of the solutions, but we have lost the second solution, <m>x=0</m>. We should never divide both sides of an equation by the variable, because we risk losing one of the solutions. Instead, we follow the steps below to solve the equation by factoring.</p></warning>
+
+<assemblage><title>To Solve a Quadratic Equation by Factoring</title><p><ol label="1">
+	<li>Write the equation with zero isolated on the right side.</li>       
+	<li>Factor the left side of the equation.</li>
+	<li>Apply the zero-factor principle; that is, set each factor equal to zero.</li>
+	<li>Solve each equation to obtain two solutions.</li></ol></p></assemblage>
+
+<reading-questions>
+    <exercise number="7"><statement><p>Why is it wrong to divide both sides of the equation <m>2x(x-2)=0</m> by <m>2x</m>?
+</p></statement>
+    	<answer><p>We lose one of the soutions.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup><introduction><p>Mental Exercise: Evaluate each expression for the given values of the variable. Try not to use pencil, paper, or calculator.</p></introduction>
+
+<exercise number="1"><statement><m>2x(x-3),~~~~x=0,~1,~2,~3</m></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="2"><statement><m>(x+1)(x-6),~~~~x=-1,~3,~6,~9</m></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="3"><statement><m>2(x+2)(x+4),~~~~x=-4,~-2,~0,~2</m></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="4"><statement><m>3n(2n-1),~~~~n=-1,~0,~\dfrac{1}{2},~1</m></statement>
+<answer><m></m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section> 
