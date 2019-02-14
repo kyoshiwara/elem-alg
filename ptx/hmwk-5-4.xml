@@ -46,10 +46,10 @@
 	<li>Write a product (length <m>\times</m> width) for the area of the rectangle.</li>
 	<li>Use the distributive law to compute the product.</li></ol></p></introduction>
 
- <exercise number="7"><statement><sidebyside width="80%"><image source="images/hp-5-4-7.png"><description>rectangle</description></image></sidebyside></statement>
+ <exercise number="7"><statement><sidebyside width="80%"><image source="images/hp-5-4-7"><description>rectangle</description></image></sidebyside></statement>
  <answer></answer></exercise>
 
-<exercise number="8"><statement><sidebyside width="80%"><image source="images/hp-5-4-8.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+<exercise number="8"><statement><sidebyside width="80%"><image source="images/hp-5-4-8"><description>rectangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>14, compute the product.</p></introduction>
@@ -87,10 +87,10 @@
 	<li>as the sum of four small areas,</li>
 	<li>as one large rectangle, using the formula  Area <m>=</m> length <m>\times</m> width.</li></ol></p></introduction>
 
-<exercise number="19"><statement><sidebyside width="60%"><image source="images/hp-5-4-19.png"><description>rectangle</description></image></sidebyside></statement>
+<exercise number="19"><statement><sidebyside width="60%"><image source="images/hp-5-4-19"><description>rectangle</description></image></sidebyside></statement>
  <answer></answer></exercise>
 
-<exercise number="20"><statement><sidebyside width="45%"><image source="images/hp-5-4-20.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+<exercise number="20"><statement><sidebyside width="45%"><image source="images/hp-5-4-20"><description>rectangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 21<ndash/>23, <ol label="a">
@@ -132,7 +132,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 31<ndash/>32, find the product without a calculator by using rectangles.  </p></introduction>
 
 <exercise number="31"><statement><p><m>36 \times 42</m>
-	<sidebyside width="60%"><image source="images/hp-5-4-31.png"><description>rectangle</description></image></sidebyside></p></statement>
+	<sidebyside width="60%"><image source="images/hp-5-4-31"><description>rectangle</description></image></sidebyside></p></statement>
  <answer></answer></exercise>
 
 <exercise number="20"><statement><p><m>82 \times 16</m></p>
@@ -144,11 +144,11 @@
 	<li>Shade the sub-rectangles that correspond to the linear term.</li></ol></p></introduction>
 
 <exercise number="33"><statement><p><m>(x+6)(x-9)</m></p>
-<sidebyside width="50%"><image source="images/hp-5-4-33.png"><description>rectangle</description></image></sidebyside></statement>
+<sidebyside width="50%"><image source="images/hp-5-4-33"><description>rectangle</description></image></sidebyside></statement>
  <answer></answer></exercise>
 
 <exercise number="34"><statement><p><m>(2x-5)(x+4)</m></p>
-	<sidebyside width="50%"><image source="images/hp-5-4-33.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+	<sidebyside width="50%"><image source="images/hp-5-4-33"><description>rectangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 35<ndash/>37, compute the product. What do you notice? Explain why this happens.</p></introduction>
@@ -217,10 +217,10 @@
 	<li>as the sum of four smaller areas,</li>
 	<li>as one large square, using the formula  Area <m>= (\text{length})^2</m>.</li></ol></p></introduction>
 
-<exercise number="43"><statement><sidebyside width="45%"><image source="images/hp-5-4-43.png"><description>rectangle</description></image></sidebyside></statement>
+<exercise number="43"><statement><sidebyside width="45%"><image source="images/hp-5-4-43"><description>rectangle</description></image></sidebyside></statement>
  <answer></answer></exercise>
 
-<exercise number="44"><statement><sidebyside width="50%"><image source="images/hp-5-4-44.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+<exercise number="44"><statement><sidebyside width="50%"><image source="images/hp-5-4-44"><description>rectangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercise number="45"><statement><p>Is <m>(x+4)^2</m> equivalent to <m>x^2+4^2</m>? Explain why or why not, and give a numerical example to justify your answer.</p></statement>
@@ -238,10 +238,10 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 49<ndash/>50, use the Pythagorean theorem to write an equation about the sides of the right triangle.</p></introduction>
 
-<exercise number="49"><statement><sidebyside width="35%"><image source="images/hp-5-4-49.png"><description>triangle</description></image></sidebyside></statement>
+<exercise number="49"><statement><sidebyside width="35%"><image source="images/hp-5-4-49"><description>triangle</description></image></sidebyside></statement>
  <answer></answer></exercise>
 
-<exercise number="50"><statement><sidebyside width="75%"><image source="images/hp-5-4-50.png"><description>triangle</description></image></sidebyside></statement></exercise>
+<exercise number="50"><statement><sidebyside width="75%"><image source="images/hp-5-4-50"><description>triangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 </exercises>
