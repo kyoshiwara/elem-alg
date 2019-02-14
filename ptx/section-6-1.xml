@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Extracting-Roots" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Extracting Roots</title>
+
+<subsection><title>Quadratic Equations</title>
+<p>So far you have learned how to solve linear equations. In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term>. In this chapter we'll consider second-degree equations, or <term>quadratic equations</term>.</p>
+
+<assemblage><title>Quadratic Equations</title>
+<p>A <term>quadratic equation</term> can be written in the standard form 
+	<me>ax^2+bx+c=0</me>
+where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></assemblage>  
+
+<example><statement><p>Some examples of quadratic equations are
+	<me>2x^2+5x-3=0,~~~~7t-t^2=0,~~~~\text{and}~~~~3w^2=16</me>
+The first equation is already written in standard form, with <m>a=2,~b=5</m> and <m>c=-3</m>. In standard form, the other two equations are 
+	<md><mrow>-t^2+7t+0 \amp =0 \amp \amp \text{so} ~ a=-1,~b=7,~ \text{and}~ c=0</mrow>
+		<mrow>3w^2+0w-16 \amp =0 \amp \amp \text{so} ~ a=3,~b=0,~ \text{and}~ c=-16</mrow></md></p></statement></example>
+
+<p>The numbers <m>a,~b,</m> and <m>c</m> are called <term>parameters</term>. They are the coefficients of, respectively, the quadratic term (the <m>x^2</m>-term), the linear term (the <m>x</m>-term), and the constant term.</p>
+
+<warning><p>The <m>x^2</m>-term and the <m>x</m>-term in a quadratic expression are not like terms, so they cannot be combined.</p></warning>
+
+<reading-questions>
+    <exercise number="1"><statement><p>What is a quadratic equation? Give an example.</p></statement>
+    	<answer><p>An equation of the form <m>ax^2+bx+c=0</m></p></answer></exercise>
+</reading-questions>
+</subsection> 
+
+<subsection><title>Graphs of Quadratic Equations</title>
+<sidebyside widths="60% 25%"><p>Quadratic equations appear in a variety of applications. A quadratic equation in two variables has the form
+	<me>y=ax^2+bx+c,~~a \not= 0</me>
+ Its graph is not a straight line, but a curve called a <term>parabola</term>. The simplest, or basic, parabola is the graph of <m>y=x^2</m>, shown in the figure. 
+ <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                    	<cell><m>4</m></cell>
+                        <cell><m>9</m></cell></row>
+                    </tabular></sidebyside></p>
+    </sidebyside>
+<image source="images/fig-6-1-1.png"><description>parabola</description></image>
+<assemblage><title>Look Ahead</title>
+<p>In the equation for the basic parabola, <m>y=x^2</m>, we have <m>a=1,~b=0,</m> and <m>c=0</m>. If the parameters have different values, the appearance or location of the graph will be altered. Example 2 illustrates a parabola that is shifted downward by 4 units.</p></assemblage>
+
+<example><statement><p>Graph <m>~~y=x^2-4</m></p></statement>
+
+<solution><sidebyside widths="60% 30%"><p>We make a table of values and plot the points. The graph is shown at right.
+ 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-3</m></cell>
+                    	<cell><m>0</m></cell>
+                        <cell><m>5</m></cell></row>
+                    </tabular>
+    Note that in this equation, <m>c=-4</m>.</p>
+    <image source="images/fig-6-1-ex2.png"><description>parabola</description></image></sidebyside></solution></example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>The basic parabola is the graph of what equation?</p></statement>
+    	<answer><p><m>y=x^2</m></p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Solving Quadratic Equations</title>
+<p>Consider a simple quadratic equation,
+	<me>x^2=16</me>
+This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x</m> must be a square root of 16. Now, 16 has two square roots, <m>4</m> and <m>-4</m>, so these are the solutions of the equation.</p>
+
+<p>	We can think of the solution process in the following way. Because <m>x</m> is squared in the equation, we perform the opposite operation, or take square roots, in order to solve for <m>x</m>.
+	<md><mrow>x^2 \amp = 16 \amp \amp \blert{\text{Take square roots of both sides.}}</mrow> 
+		<mrow>x \amp = \pm \sqrt{16} \amp \amp \blert{\text{Simplify.}}</mrow>
+		<mrow> x \amp = 4</mrow></md></p>
+
+<assemblage><title>Look Closer</title>
+<sidebyside widths="60% 30%"><p>Remember that every positive number has two square roots, so the equation has two solutions, <m>x=4</m> and <m>x=-4</m>.  We can also see the two solutions on a graph.  The figure at right shows the graph of <m>y=x^2</m> and a horizontal line at <m>y=16</m>. There are two points on the graph with <m>y</m>-coordinate <m>16</m>, and their <m>y</m>-coordinates are <m>4</m> and <m>-4</m>.</p>
+<image source="images/fig-6-1-2.png"><description>parabola</description></image></sidebyside></assemblage>
+
+<example><statement><p>Solve each equation without using a calculator.<ol label="a" cols="2">
+	<li><m>t^2=10,000</m></li>
+	<li><m>b^2=\dfrac{4}{9}</m></li>
+	<li><m>h^2=0.04</m></li>
+	<li><m>m^2=(-17)^2</m></li></ol></p></statement>
+<solution><p>For each equation, we find the square root of the right side. (That is, we find a number whose square gives the right side.) Remember that every positive number has two square roots.<ol label="a">
+	<li>Because <m>~~100^2=10,000,~~t=\pm 100</m></li>
+	<li>Because <m>~~(\dfrac{2}{3})^2=\dfrac{4}{9},~~b=\pm \dfrac{2}{3}</m></li>
+	<li>Because <m>~~0.2^2=0.04,~~h=\pm 0.2</m></li>
+	<li>Because <m>~~17^2=(-17)^2,~~m=\pm 17</m></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="3"><statement><p>Why do the equations in Example 3 have two solutions?</p></statement>
+    	<answer><p>Because every positive number has two square roots.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Extraction of Roots</title>
+<sidebyside widths="55% 35%"><stack><p>The figure at right shows a graph of the quadratic equation <m>y=2x^2-5</m>.</p><p> 
+	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>13</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-5</m></cell>
+                        <cell><m>-3</m></cell>
+                    	<cell><m>3</m></cell>
+                        <cell><m>13</m></cell></row>
+                    </tabular></p>
+    <p>You can see that there are two points on the graph for each <m>y</m>-value greater than <m>-5</m>. For example, the two points with <m>y</m>-coordinate 7 are shown.</p></stack> 
+    <image source="images/fig-6-1-3.png"><description>parabola</description></image></sidebyside>
+    <p>To solve the quadratic equation
+    	<me>2x^2-5=7</me>
+   	we need only find the <m>x</m>-coordinates of these points. From the graph, the solutions appear to be about <m>2.5</m> and <m>-2.5</m>.</p>
+ <p>How can we solve this equation algebraically? We use the fact that taking square roots is the opposite of squaring.</p>
+
+<example><statement><p>Solve the equation  <m>~2x^2-5=7~</m> algebraically.</p></statement>
+
+<solution><p>We first solve for <m>x^2</m> as follows.
+	<md><mrow> 2x^2-5 \amp =7  	\amp \amp \blert{\text{Add 5 to both sides.}}</mrow>
+		<mrow>2x^2 \amp =12  \amp \amp \blert{\text{Divide both sides by 2.}}</mrow>
+		<mrow>x^2 \amp =6</mrow></md>
+Once we have isolated <m>x^2</m>, we take the square root of each side to find
+<me>x=\pm \sqrt{6}</me>
+The exact solutions are thus <m>\sqrt{6}</m> and <m>-\sqrt{6}</m>. (Don't forget that every positive number has two square roots.) We can also find decimal approximations for the solutions using a calculator.  Rounded to two decimal places, the solutions are <m>2.45</m> and <m>-2.45</m>.</p></solution></example> 
+
+<reading-questions>
+    <exercise number="4"><statement><p><ol label="a">
+    	<li>What are the exact solutions to the equation <m>~2x^2-5=7~</m>?</li>
+		<li>What are the approximate values of those solutions, rounded to hundredths?</li></ol></p></statement>
+    	<answer><p><ol label="a">
+    		<li><m>\sqrt{6}</m> and <m>-\sqrt{6}</m></li>
+    		<li><m>2.45</m> and <m>-2.45</m></li></ol></p></answer></exercise>
+</reading-questions>
+
+<p>This method for solving quadratic equations is called <term>extraction of roots</term>. The method applies to quadratic equation of the form <m>ax^2+c=0</m>, where the linear term <m>bx</m> is missing.</p>
+
+<assemblage><title>Extraction of Roots</title>
+	<p>To solve a quadratic equation of the form
+		<me>ax^2+c=0</me><ol label="1">
+	<li>Isolate <m>x^2</m> on one side of the equation.</li> 
+	<li>Take the square root of each side.</li></ol></p></assemblage>  
+
+<reading-questions>
+    <exercise number="5"><statement><p>Explain how to solve the equation <m>ax^2+c=0</m>.</p></statement>
+    	<answer><p>Isolate <m>x^2</m>, then take square roots.</p></answer></exercise>
+    <exercise number="6"><statement><p>Why does the equation <m>ax^2+c=0</m> have two solutions?</p></statement>
+    	<answer><p>Every positive number has two square roots.</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Look Closer</title>
+<p>In the next Example we compare evaluating a quadratic expression and solving a quadratic equation.</p></assemblage>
+
+<example><statement><p>A cat falls off a tree branch 20 feet above the ground. Its height <m>t</m> seconds later is given by  <m>h=20-16t^2</m>.<ol label="a"> 
+	<li>What is the height of the cat <m>0.5</m> second later?</li>
+	<li>How long does the cat have to get in position to land on its feet before it reaches the ground?</li></ol></p></statement>
+<solution><p><ol label="a"> 
+	<li><p>In this question, we are given the value of <m>t</m> and asked to find the corresponding value of <m>h</m>. To do this we evaluate the formula for <m>t=0.5</m>. We substitute <m>\alert{0.5}</m> for <m>t</m> into the formula, and simplify.
+		<md><mrow> h \amp = 20-16(\alert{0.5})^2  	\amp \amp \blert{\text{Compute the power.}}</mrow>
+		<mrow> \amp = 20-16(0.25)  \amp \amp \blert{\text{Multiply, then subtract.}}</mrow>
+		<mrow> \amp = 20-4=16</mrow></md>
+	The cat is 16 feet above the ground after 0.5 second. You can also use your calculator to simplify the expression for  by entering
+		<me>20~~\boxed{~-~}~~16~~\boxed{~\times~}~~0.5~~\boxed{~x^2~}~~\boxed{\text{ENTER}}</me></p></li>
+	<li><stack><p>We would like to find the value of <m>t</m> when the height, <m>h</m>, is known. We substitute <m>h=0</m> into the equation to obtain
+		<me>\alert{0}=20-16t^2</me>
+	To solve this equation we use extraction of roots. We first isolate <m>t^2</m> on one side of the equation.
+		<md><mrow> 16t^2 \amp = 20 	\amp \amp \blert{\text{Divide by 16.}}</mrow>
+		<mrow> t^2 \amp = \dfrac{20}{16} - 1.25  </mrow></md></p>
+	<sidebyside widths="50% 40%"><p>Next, we take the square root of both sides of the equation to find 
+		<me>t= \pm \sqrt{1.25} \approx \pm 1.118</me>
+	Only the positive solution makes sense here, so the cat has approximately 1.12 seconds to be in position for landing.  A graph of the cat's height after <m>t</m> seconds is shown at right. The points corresponding to parts (a) and (b) are labeled.</p>
+	<image source="images/fig-6-1-ex5.png"><description>parabola</description></image></sidebyside></stack></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="7"><statement><p>In Example 5a, did we solve an equation or evaluate an expression?</p></statement>
+    	<answer><p>We evaluated an expression.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Solving Formulas</title>
+<p>Extraction of roots can be used to solve some formulas with a quadratic term.</p>
+
+<example><statement><p>The formula <m>V=\dfrac{1}{3}\pi r^2h</m>  gives the volume of a cone in terms of its height and radius.  Solve the formula for <m>r</m> in terms of <m>V</m> and <m>h</m>.</p></statement>
+
+<solution><p>Because the variable we want is squared, we use extraction of roots. First, we multiply both sides by 3 to clear the fraction.
+	<md><mrow> 3V \amp = \pi r^2h 	\amp \amp \blert{\text{Divide both sides by } \pi h.}</mrow>
+		<mrow>\dfrac{3V}{\pi h} \amp = r^2  \amp \amp \blert{\text{Take square roots.}}</mrow>
+		<mrow>\pm \sqrt{\dfrac{3V}{\pi h}} \amp = r</mrow></md>
+Because the radius of a cone must be a positive number, we use only the positive square root: <m>r=\sqrt{\dfrac{3V}{\pi h}}</m>.</p></solution></example>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup><introduction><p>Evaluate each expression if possible.</p></introduction>
+
+<exercise number="1"><statement><p><ol label="a" cols="3">
+	<li><m>\sqrt{16}</m></li>
+	<li><m>-\sqrt{16}</m></li>
+	<li><m>\sqrt{-16}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="3">
+	<li><m>4</m></li>
+	<li><m>-4</m></li>
+	<li>not a real number</li></ol></p></answer></exercise>
+
+<exercise number="2"><statement><p><ol label="a" cols="3">
+	<li><m>\sqrt{16^2}</m></li>
+	<li><m>\sqrt{(-16)^2}</m></li>
+	<li><m>\sqrt{-16^2}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="3">
+	<li><m>16</m></li>
+	<li><m>16</m></li>
+	<li>not a real number</li></ol></p></answer></exercise>
+
+<exercise number="3"><statement><p><ol label="a" cols="3">
+	<li><m>(\sqrt{16})^2</m></li>
+	<li><m>(-\sqrt{16})^2</m></li>
+	<li><m>(\sqrt{-16})^2</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="3">
+	<li><m>16</m></li>
+	<li><m>16</m></li>
+	<li>not a real number</li></ol></p></answer></exercise>
+
+<exercise number="4"><statement><p><ol label="a" cols="3">
+	<li><m>16^2</m></li>
+	<li><m>-16^2</m></li>
+	<li><m>(-16)^2</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="3">
+	<li><m>256</m></li>
+	<li><m>-256</m></li>
+	<li><m>256</m></li></ol></p></answer></exercise>
+</exercisegroup>
+</exercises>
+
+
+</subsection>
+</section>

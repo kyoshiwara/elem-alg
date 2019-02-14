@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 6.1</title>
+
+  <exercise number="1"><statement><p>Which of the following are quadratic equations?<ol label="a" cols="3">
+  		<li><m>1-4x^2=2x</m></li>
+  		<li><m>6a-2a^3=a^2</m></li>
+  		<li><m>2b-3=4b-b^2</m></li></ol></p></statement>
+  <answer></answer></exercise>
+
+ <exercisegroup cols="2"><introduction><p>For Problems 2<ndash/>5, complete the table of values and graph the quadratic equation.  </p></introduction>
+
+ <exercise number="2"><statement><p><m>y=x^2+4</m>
+ <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></p>
+    <sidebyside width="75%"><image source="images/hp-6-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise number="3"><statement><p><m>y=x^2-4</m>
+ <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></p>
+    <sidebyside width="70%"><image source="images/hp-6-1-3.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><p><m>y=4-x^2</m>
+ <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></p>
+    <sidebyside width="75%"><image source="images/hp-6-1-3.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise number="5"><statement><p><m>y=\dfrac{x^2}{4}</m>
+ <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell><m>\hphantom{00}</m></cell></row>
+                    </tabular></sidebyside></p>
+    <sidebyside width="70%"><image source="images/hp-6-1-3.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 6<ndash/>8, <ol label="a">
+	<li>Graph the parabola in part (a).</li> 
+	<li>Use the graph to solve the equation in part (b).</li></ol></p></introduction>
+
+<exercise number="6"><statement><p><ol label="a">
+	<li><m>y=\dfrac{1}{2}x^2</m></li>
+	<li><m>\dfrac{1}{2}x^2=8</m></li></ol></p>
+<sidebyside width="70%"><image source="images/hp-6-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>	
+
+<exercise number="7"><statement><p><ol label="a">
+	<li><m>y=x^2+2</m></li>
+	<li><m>x^2+2=11</m></li></ol></p>
+<sidebyside width="70%"><image source="images/hp-6-1-2.png"><description>grid</description></image></sidebyside></statement><answer></answer></exercise>
+
+<exercise number="8"><statement><p><ol label="a">
+	<li><m>y=6-2x^2</m></li>
+	<li><m>6-2x^2=4</m></li></ol></p>
+<sidebyside width="70%"><image source="images/hp-6-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>	
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 9<ndash/>14, solve by extracting roots. Give exact values for your answers.</p></introduction>
+
+<exercise number="9"><statement><p><m>x^2=121</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><p><m>98=2a^2</m></p></statement></exercise>
+
+<exercise number="11"><statement><p><m>9x^2=25</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p><m>3g^2-54=0</m></p></statement></exercise>
+
+<exercise number="13"><statement><p><m>\dfrac{2x^2}{3}=4</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><p><m>400+\dfrac{k^2}{4} = 625</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>20, solve by extracting roots.  Round your answers to two decimal places.</p></introduction>
+
+<exercise number="15"><statement><p><m>2.4m^2=126</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p><m>55-3z^2=7</m></p></statement></exercise>
+
+<exercise number="17"><statement><p><m>2x^2-200=x^2+25</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><m>3t^2-16=16t^2</m></p></statement></exercise>
+
+<exercise number="19"><statement><p><m>1.5x^2=0.7x^2+26.2</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p><m>5x^2-97=3.2x^2-38</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>24, solve the formula for the indicated variable.
+</p></introduction>
+
+<exercise number="21"><statement><p><m>A=4\pi r^2~~~~\text{for}~~r</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p><m>F=\dfrac{1}{2}mv^2~~~~\text{for}~~v</m></p></statement></exercise>
+
+<exercise number="23"><statement><p><m>d=6+kv^2~~~~\text{for}~~v</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p><m>h=100-\dfrac{1}{2}gt^2~~~~\text{for}~~t</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="25"><statement><p>At the Custom Pizza shop you can buy their special smoked chicken pizza in any size you like.The cost, <m>C</m>, of the pizza in dollars is given by the equation 
+	<me>C=\dfrac{1}{4}r^2</me>      
+where <m>r</m> is the radius of the pizza.</p>
+	<sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
+		<li><p>Complete the table of values and graph the equation on the grid at right.</p>
+		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+			<col halign="center"/>
+                    <row bottom="minor">
+                        <cell><m>r</m></cell>
+                        <cell><m>C</m></cell></row>
+                    <row> 
+                        <cell><m>0</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>4</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>  
+                    <row>
+                        <cell><m>6</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row> 
+                    <row>
+                        <cell><m>9</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row> 
+                    <row>
+                        <cell><m>14</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                      
+                </tabular></sidebyside></li>
+    <li>How much does a pizza of radius 3 inches cost? Locate this point on your graph.</li>
+	<li>Use your graph to find out how big a pizza you can buy for $16.</li>
+	<li>What does the point <m>(6,9)</m> tell you about pizzas?</li></ol></p></stack>
+	<image source="images/hp-6-1-25.png"><description>grid</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p>The faster a car moves, the more difficult it is to stop. The distance, <m>d</m>, in meters, required to stop a car traveling at velocity <m>v</m>, in kilometers per hour, is given by <m>d=0.005v^2</m>.</p>
+<sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
+		<li><p>Complete the table of values and graph the equation on the grid at right.</p>
+		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+			<col halign="center"/>
+                    <row bottom="minor">
+                        <cell>Velocity (kph)</cell>
+                        <cell>Distance (meters)</cell></row>
+                    <row> 
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>15</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>20</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>  
+                    <row>
+                        <cell><m>40</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row> 
+                    <row>
+                        <cell><m>60</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                      
+                </tabular></sidebyside></li>
+    <li>What distance does a car moving at 40 kilometers per hour require to stop? Locate this point on your graph.</li>
+	<li>Use your graph to estimate the speed of a car that stopped in 12 meters. </li>
+	<li>What does the point <m>(20,2)</m> tell you about stopping distances?</li></ol></p></stack>
+	<image source="images/hp-6-1-26.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 27<ndash/>29, use the Pythagorean theorem. Give exact answers, and then approximate values rounded to thousandths.</p></introduction>
+
+<exercise number="27"><statement><p><ol label="a">
+	<li>Find the height of an equilateral triangle of side 6 feet, as shown below. (Hint: The altitude divides the base into two segments of equal length.)</li>  
+	<li>Find the area of the triangle in part (a).</li></ol></p>
+	<sidebyside width="25%"><image source="images/hp-6-1-27.png"><description>triangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p><ol label="a">
+	<li>The pyramid shown below has a square base. If <m>k=2</m> centimeters, find the length of the diagonal of the base.</li>
+	<li>Find the height of the pyramid. (Hint: The altitude of the pyramid divides the diagonal of the base into two segments of equal length. Use your answer to part (a).)</li>
+	<li>Find the volume of the pyramid.</li></ol></p>
+	<sidebyside width="25%"><image source="images/hp-6-1-28.png"><description>pyramid</description></image></sidebyside></statement></exercise>
+
+<exercise number="29"><statement><p>Akemi wants to know the distance across a small lake, from point <m>A</m> to point <m>B</m>. She locates the point <m>C</m> on one side of the lake so that the line from <m>A</m> to <m>C</m> is perpendicular to the line from <m>A</m> to <m>B</m>. She then measures the distance from <m>A</m> to <m>C</m> as 2 miles. If the distance from <m>B</m> to <m>C</m> is <m>x</m> miles, write an expression for the distance from <m>A</m> to <m>B</m> across the lake.</p>
+	<sidebyside width="40%"><image source="images/hp-6-1-29.png"><description>triangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="28"><statement><p>If you drop a stone from a bridge 100 feet above the water, the height of the stone   seconds after you drop it is given in feet by <m>h=100-16t^2</m>.</p> 
+<sidebyside widths="60% 40%" valigns="middle middle"><stack><p><ol label="a">
+		<li><p>Complete the table of values and sketch a graph of the equation.</p>
+		<sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+			<col halign="center"/>
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>h</m></cell></row>
+                    <row> 
+                        <cell><m>0</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>0.5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>1.25</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>  
+                    <row>
+                        <cell><m>1.5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row> 
+                    <row>
+                        <cell><m>1.75</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>2</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>2.25</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row> 
+                    <row>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>                      
+                </tabular></sidebyside></li>
+    <li>What is the height of the stone after 2 seconds? Locate this point on your graph.</li>
+	<li>Use the graph to find out when the height of the stone is 75 feet.</li>  
+	<li>Write an equation you could solve to answer the question in part (c).</li></ol></p></stack>
+	<image source="images/hp-6-1-30.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+ </exercises>
