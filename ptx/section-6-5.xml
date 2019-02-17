@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="The-Quadratic-Formula" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>The Quadratic Formula</title>
+
+<subsection>
+<sidebyside widths="65% 30%" valigns="middle middle"><p>The graph of the equation
+	<me>y=x^2+2x-5</me>
+is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at approximately 1.5 and 3.5. To find their exact values, we must solve the equation
+	<me>x^2+2x-5=0</me></p>
+<image source="images/fig-6-5-1.png"><description>parabola</description></image></sidebyside>
+	
+<p>But, as you can check, the trinomial <m>x^2+2x-5</m> cannot be factored.</p>	
+<p>So far we know two methods for solving quadratic equations:  extracting roots and factoring. Neither of these methods applies to every quadratic equation. In this Lesson we consider a technique that works on all quadratic equations.</p>
+</subsection>
+
+<subsection><title>Using the Quadratic Formula</title>
+<p>The graph of the quadratic equation  
+<me>y=ax^2+bx+c</me>
+depends upon its coefficients, <m>a,~b,</m> and <m>c</m>. In particular, the <m>x</m>-intercepts of the graph are determined by the values of these coefficients. In fact, there is a formula that uses the coefficients to calculate the solutions of the equation <m>ax^2+bx+c=0</m>.  It is called the <term>quadratic formula</term>.</p>
+
+<assemblage><title>The Quadratic Formula</title>
+<p>The solutions of the equation
+	<me>ax^2+bx+c=0,~~~~a \not= 0</me>
+are given by the formula
+	<me>\blert{x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}}</me></p></assemblage>  
+
+<assemblage><title>Look Closer</title>
+<p>The symbol <m>\pm</m>   is used in this context to combine two similar formulas into one. It means that the quadratic equation has two solutions, namely
+	<me>\dfrac{-b + \sqrt{b^2-4ac}}{2a}~~~~\text{and}~~~~\dfrac{-b - \sqrt{b^2-4ac}}{2a}</me></p></assemblage>
+
+<example><statement><p> Use the quadratic formula to solve the equation 
+		<me>x^2+2x-5=0</me></p></statement>
+<solution><p>We first identify the coefficients <m>a,~b,</m> and <m>c</m>:
+	<me>a=1,~~b=2,~~c=-5</me>
+We substitute the values of <m>a,~b,</m> and <m>c</m> into the quadratic formula, and simplify according to the order of operations. We start with the expression under the radical.
+	<md><mrow>x \amp =\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}</mrow>
+		<mrow> \amp =\dfrac{-\alert{2} \pm \sqrt{\alert{2}^2-4(\alert{1})(\alert{-5})}}{2(\alert{1})} \amp \amp \blert{\text{Simplify under the radical.}}</mrow>
+		<mrow> \amp = \dfrac{-2 \pm \sqrt{4+20}}{2} = \dfrac{-2 \pm \sqrt{24}}{2}</mrow></md></p>
+<p>The solutions of the equation are <m>\dfrac{-2 + \sqrt{24}}{2}</m> and <m>\dfrac{-2 - \sqrt{24}}{2}</m>. These are the exact values of the solutions. We can use a calculator to approximate each solution to hundredths.
+	<md><mrow>\dfrac{-2 + \sqrt{24}}{2} \amp \approx \dfrac{-2+4.90}{2} = 1.50</mrow>
+		<mrow>\dfrac{-2 - \sqrt{24}}{2} \amp \approx \dfrac{-2-4.90}{2} = -3.50</mrow></md>
+These values are very close to our estimates from the graph.</p></solution></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>What should you do if a quadratic equation cannot be solved by factoring?</p></statement>
+    <answer><p>Use the quadratic formula.</p></answer></exercise>
+</reading-questions>
+
+<warning><p>Before we use the quadratic formula, we must write the equation in standard form so that we can identify the coefficients <m>a,~b,</m> and <m>c</m>.</p></warning>
+
+<reading-questions>
+    <exercise number="1"><statement><p>How do we find the values of <m>a,~b,</m> and <m>c</m> in the quadratic formula?
+</p></statement>
+    <answer><p>They are the coefficients of <m>x^2</m> and <m>x</m> and the constant term, respectively.</p></answer></exercise>
+</reading-questions>
+
+<p>If some of the coefficients are fractions, it helps to clear the fractions before applying the quadratic formula. The fastest way to clear all the fractions is to multiply each term of the equation by the lowest common denominator, or LCD, of all the fractions involved.</p>
+
+<example><statement><p><ol label="a">
+	<li>Solve  <m>~x=\dfrac{2}{3}-\dfrac{x^2}{6}</m></li>
+	<li>Find decimal approximations to two decimal places for the solutions.</li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><p>We multiply each term of the equation by the LCD, <m>\blert{6}</m>, to get
+			<md><mrow>\blert{6}(x) \amp =\blert{6}(\dfrac{2}{3}-\dfrac{x^2}{6}) \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
+				<mrow>6x \amp = 4-x^2</mrow></md>
+		Next, we write the equation in standard form and identify the coefficients. 
+			<md><mrow>x^2+6x-4=0</mrow>
+				<mrow>a=1,~ b=6,~ c=-4</mrow></md>
+	We substitute the coefficients into the quadratic formula, and simplify.
+			<md><mrow>x =\dfrac{-b \pm \sqrt{b^2-4ac}}{2a} \amp = \dfrac{-6 \pm \sqrt{6^2-4(1)(-4)}}{2(1)}  \amp \amp \blert{\text{Simplify under the radical.}}</mrow>
+				<mrow> \amp = \dfrac{-6 \pm \sqrt{52}}{2}</mrow></md>
+	The exact values of the solutions are <m>x=\dfrac{-6+\sqrt{52}}{2}</m> and <m>x=\dfrac{-6-\sqrt{52}}{2}</m>.</p></li>
+	<li><p>We use a calculator to approximate each solution.
+			<md><mrow>\dfrac{-6 + \sqrt{52}}{2} \amp \approx \dfrac{-6+7.21}{2} = 0.605</mrow>
+		<mrow>\dfrac{-6 - \sqrt{52}}{2} \amp \approx \dfrac{-6-7.21}{2} = -6.605</mrow></md>
+		To two decimal places the solutions are <m>0.61</m> and <m>-6.61</m>.</p></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="3"><statement><p>If the coefficients in a quadratic equation are fractions, what should you do?
+</p></statement>
+    <answer><p>Multiply each term of the equation by their LCD.</p></answer></exercise>
+</reading-questions>
+
+<p>Of course, if a quadratic equation can be solved by factoring, then the quadratic formula will give the same solutions. You can use whichever technique seems faster for a particular equation.</p>
+</subsection>
+
+<subsection><title>Non-Real Solutions</title>
+<sidebyside widths="60% 30%"><p>The graph of 
+	<me>y=x^2-4x+5</me>
+has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, we can use the quadratic formula to solve the equation
+	<me>x^2-4x+5=0</me></p>
+<image source="images/fig-6-5-2.png"><description>parabola</description></image></sidebyside>
+
+<p>Applying the formula with <m>a=1,~b=-4,</m> and <m>c=5</m>, we find
+	<md><mrow>x =\dfrac{-b \pm \sqrt{b^2-4ac}}{2a} \amp = \dfrac{-(-4) \pm \sqrt{(-4)^2-4(1)(5)}}{2(1)}</mrow>
+				<mrow> \amp = \dfrac{4 \pm \sqrt{16-20}}{2} = \dfrac{4 \pm \sqrt{-4}}{2}</mrow></md>
+  
+We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  it is not equal to any real number.  This quadratic equation does not have any real-valued solutions, and that is why the graph of <m>y=x^2-4x+5</m> does not have any <m>x</m>-intercepts.</p>
+<p>The solutions to the equation above are a type of number called <term>complex numbers</term>. If a quadratic equation does not have real-valued solutions, then its graph will not have <m>x</m>-intercepts.</p>
+
+<assemblage><p>Every quadratic equation has two solutions. The nature of those solutions determines the nature of the <m>x</m>-intercepts of the graph. </p></assemblage>
+
+<assemblage><title><m>x</m>-Intercepts of <m>y=ax^2+bx+c</m></title>
+<p>The <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m> are the solutions of
+<me> ax^2+bx+c=0</me>There are three possibilities.<ol label="1"> 
+	<li>If both solutions are real numbers, and unequal, the graph has two <m>x</m>-intercepts.</li>
+	<li>If the solutions are real and equal, the graph has one <m>x</m>-intercept, which is also its vertex.</li>
+	<li>If both solutions are non-real complex numbers, the graph has no <m>x</m>-intercepts.</li></ol></p></assemblage>
+
+<reading-questions>
+    <exercise number="4"><statement><p>If a quadratic equation has no real solutions, what does that tell you about 
+	the graph?</p></statement>
+    <answer><p>It has no <m>x</m>-intercepts.</p></answer></exercise>
+</reading-questions>
+
+<example><statement><p>How many <m>x</m>-intercepts does the parabola have?<ol label="a" cols="2">
+	<li><m>y=x^2+5</m></li>
+	<li><m>y=x^2-6x+9</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><p>To find the <m>x</m>-intercepts, we solve the equation
+		<md><mrow>x^2+5 \amp = 0  \amp \amp \blert{\text{Solve by extraction of roots.}}</mrow>
+			<mrow>x^2 \amp = -5</mrow>
+			<mrow> x \amp = \pm \sqrt{-5}</mrow></md>
+		Because the square root of a negative number is undefined, this parabola has no <m>x</m>-intercepts.</p></li>
+	<li><p>We solve the equation
+		<md><mrow>x^2-6x+9 \amp = 0  \amp \amp \blert{\text{Solve by factoring.}}</mrow>
+			<mrow>(x-3)(x-3) \amp = 0</mrow>
+			<mrow> x-3=0~~~~x-3 \amp = 0</mrow>
+			<mrow> x=3~~~~x \amp = 3</mrow></md>
+		This parabola has one <m>x</m>-intercept, <m>(3,0)</m>.</p></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="5"><statement><p>If the solutions of a quadratic equation are equal, what does that tell you 
+	about the graph?
+</p></statement>
+    <answer><p>The graph has one <m>x</m>-intercept, which is also its vertex.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p>Solve each equation by the easiest method.</p></introduction>
+
+<exercise number="1"><statement><m>x^2=36</m></statement>
+<answer><m>6,~-6</m></answer></exercise>
+
+<exercise number="2"><statement><m>x^2-9x=36</m></statement>
+<answer><m>12,~-3</m></answer></exercise>
+
+<exercise number="3"><statement><m>x^2-9x=0</m></statement>
+<answer><m>0,~9</m></answer></exercise>
+
+<exercise number="4"><statement><m>9x^2-36=0</m></statement>
+<answer><m>2,~-2</m></answer></exercise>
+
+<exercise number="5"><statement><m>3x^2-24x-36=0</m></statement>
+<answer><m>2,~6</m></answer></exercise>
+
+<exercise number="6"><statement><m>3x^2=31x-36</m></statement>
+<answer><m>\dfrac{4}{3},~9</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>
