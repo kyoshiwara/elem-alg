@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Graphing-Quadratic-Equations" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Graphing Quadratic Equations</title>
+
+<subsection><title><m>x</m>-Intercepts of a Parabola</title>
+<p>So far we have graphed quadratic equations by plotting points. But we can use some algebraic techniques to make the process easier.</p>
+<p>In Lesson 6.2 we saw that the solutions of the equation
+	<me>40p=p^2=0</me>
+namely, <m>p=0</m> and <m>p=40</m>, are also the horizontal intercepts of the graph of  
+	<me>R=40p-p^2</me>
+This is the same connection we saw between the <m>x</m>-intercepts of a line and the solutions of its equation. Recall that the <m>x</m>-intercept of the line <m>y=mx+b</m> is the point where the graph crosses the <m>x</m>-axis. To find the <m>x</m>-intercepts of a line, we set <m>y=0</m> and solve for <m>x</m>. The same strategy applies to quadratic equations.</p>
+
+<assemblage><title><m>x</m>-Intercepts of a Parabola</title>
+<p>	To find the <m>x</m>-intercepts of the graph of
+	<me>y=ax^2+bx+c</me> 
+we set <m>y=0</m> and solve the equation
+	<me>ax^2+bx+c=0</me></p></assemblage>
+
+<example><statement><p><ol label="a">
+	<li>Find the  intercepts of the graph of <m>y=4x-x^2</m>.</li>
+	<li>Sketch the graph.</li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li>We set <m>y=0</m> and solve the equation
+			<md><mrow>4x-x^2 \amp =0 \amp \amp \blert{\text{Factor the left side.}}</mrow>
+				<mrow>x(4-x) \amp =0 \amp \amp \blert{\text{Set each factor equal to 0.}}</mrow>
+				<mrow>x=0~~~~4-x \amp = 0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
+				<mrow>x = 0~~~~x \amp = 4</mrow></md>
+	The <m>x</m>-intercepts are the points <m>(0,0)</m> and <m>(4,0)</m>.</li>
+	<li><sidebyside widths="60% 35%"><stack><p>We make a table of values that includes the <m>x</m>-intercepts.</p>
+		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>-5</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>-5</m></cell></row>
+                    </tabular>         
+        <p>We plot the points and connect them with a parabola, as shown in the figure.</p></stack>
+        <image source="images/fig-6-4-ex1.png"><description>parabola</description></image></sidebyside></li>
+    </ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>How do we find the <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m>?
+</p></statement>
+    <answer><p>Set <m>y=0</m> and solve for <m>x</m>.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>The Vertex</title>
+<p>The graph of a quadratic equation <m>y=ax^2+bx+c</m> is a smooth curve, called a parabola, that bends upwards or downwards.</p> 
+	
+	<assemblage><p>The high or low point of a parabola is called its <term>vertex</term>.</p></assemblage> 
+
+<sidebyside widths="50% 30%" valigns="middle middle"><p>Look again at the graph of <m>y=4x-x^2</m> from Example 1, shown at right. Notice that the graph is symmetric about a vertical line (called the <term>axis of symmetry</term>) that passes through the vertex. All the parabolas we'll study have a vertical axis of symmetry.</p>   
+	<image source="images/fig-6-4-1.png"><description>parabola</description></image></sidebyside>
+
+<assemblage><title>Look Closer</title>
+<p>Because of this symmetry, the <m>x</m>-intercepts are located at equal distances on either side of the axis of symmetry. Or we can say that the <m>x</m>-coordinate of the vertex is exactly halfway between the two <m>x</m>-intercepts.</p></assemblage>
+
+<assemblage><p>We can locate the vertex of a parabola by taking the average of its <m>x</m>-intercepts.</p></assemblage>
+
+<reading-questions>
+    <exercise number="2"><statement><p>What is the vertex of a parabola?</p></statement>
+    <answer><p>The high or low point</p></answer></exercise>
+</reading-questions>
+
+<example><statement><p>Find the vertex of the graph of <m>y=4x-x^2.</m></p></statement>
+
+<solution><p>In Example 1 we found that the <m>x</m>-intercepts of the graph are <m>x=0</m> and <m>x=4</m>. The <m>x</m>-coordinate of the vertex is the average of these two numbers.
+	<me>x=\dfrac{0+4}{2}</me>
+The <m>x</m>-coordinate of the vertex is <m>x=2</m>. To find the <m>y</m>-coordinate of the vertex, we substitute <m>x=\alert{2}</m> into the equation of the parabola.
+<me>y=4(\alert{2})-\alert{2}^2=8-4=4</me>
+The coordinates of the vertex are <m>(2,4)</m>, as you can see in the graph above.</p></solution></example>
+
+<assemblage><title>The Vertex of a Parabola</title><p><ol label="1">
+	<li>The <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts.</li>
+	<li>To find the <m>y</m>-coordinate of the vertex, substitute its <m>x</m>-coordinate into 
+	the equation of the parabola.</li></ol></p></assemblage>
+
+<reading-questions>
+    <exercise number="3"><statement><p>How can we find the <m>x</m>-coordinate of the vertex of a parabola?</p></statement>
+    <answer><p>Take the average of its <m>x</m>-intercepts.</p></answer></exercise>
+    <exercise number="4"><statement><p>How can we find the <m>y</m>-coordinate of the vertex of a parabola?</p></statement>
+    <answer><p>Substitute its <m>x</m>-coordinate into the equation of the parabola.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Graphing Parabolas</title>
+<p>By locating the <m>x</m>-intercepts and the vertex of the graph, we can make a quick sketch of a parabola.</p>
+
+<example><statement><p>Sketch a graph of  <m>~y=x^2-8x+7</m>.</p></statement>
+
+<solution><p>First we find the <m>x</m>-intercepts: we substitute <m>y=0</m> into the equation, and solve for <m>x</m>.
+		<md><mrow>x^2-8x+7 \amp =0 \amp \amp \blert{\text{Factor the left side.}}</mrow>
+				<mrow>(x-7)(x-1) \amp =0 \amp \amp \blert{\text{Set each factor equal to 0.}}</mrow>
+				<mrow>x-7=0~~~~x-1 \amp = 0  \amp \amp \blert{\text{Solve each equation.}}</mrow>
+				<mrow>x = 7~~~~x \amp = 1</mrow></md></p>
+<p>The <m>x</m>-intercepts are the points <m>(7,0)</m> and <m>(1,0)</m>. Next, we locate the vertex of the graph. The <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts, so
+	<me>x=\dfrac{1+7}{2}=4</me>
+You can check that <m>x=4</m> is halfway between the two <m>x</m>-intercepts of the graph shown in the figure. To find the <m>y</m>-coordinate of the vertex, we evaluate the formula for the parabola at<m>x=\alert{4}</m>.
+		<md><mrow>y \amp = \alert{4}^2-8(\alert{4})+7</mrow>
+			<mrow> \amp = 16-32+7=-9</mrow></md></p>
+<sidebyside widths="50% 40%"><p>The vertex of the parabola is the point <m>(4,-9)</m>. We can also find the <m>y</m>-intercept of the graph by substituting <m>x=\alert{0}</m> into the equation. 
+	<me>\alert{0}^2-8(\alert{0})+7=7</me>
+The <m>y</m>-intercept is the point <m>0,7</m>. We plot the vertex and the intercepts and draw a smooth curve through them. The completed graph is shown above.</p>
+	<image source="images/fig-6-4-ex3.png"><description>parabola</description></image></sidebyside></solution></example> 
+
+<reading-questions>
+    <exercise number="3"><statement><p>How can we find the <m>y</m>-intercept of the graph of <m>y=ax^2+bx+c</m>?</p></statement>
+    <answer><p>Substitute <m>x=\alert{0}</m> into the equation.</p></answer></exercise>
+</reading-questions>
+
+<p>By combining the techniques we studied in this Lesson, we write the following guidelines for sketching an accurate graph of a quadratic equation.</p>
+
+<assemblage><title>To Graph a Quadratic Equation</title><p><ol label="1">  
+	<li>Find the <m>x</m>-intercepts:  set <m>y=0</m> and solve for <m>x</m>.</li>
+	<li>Find the vertex:  the <m>x</m>-coordinate is the average of the <m>x</m>-intercepts.  
+	Find the <m>y</m>-coordinate by substituting the <m>x</m>-coordinate into the 
+	equation of the parabola.</li>
+	<li>Find the <m>y</m>-intercept:  set <m>x=0</m> and solve for <m>y</m>.</li>
+	<li>Draw a parabola through the points. The graph is symmetric about a vertical line through the vertex.</li>
+</ol></p></assemblage>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p><ol label="a">
+	<li>Solve the equation.</li>
+	<li>Write the equation in the form  <m>ax+b=0</m>.</li>
+	<li>Graph the equation  <m>y=ax+b</m>.</li>
+	<li>Find the <m>x</m>-intercept of your graph. Compare with your answer to part (a).</li></ol></p></introduction>
+
+<exercise number="1"><statement><m>2x+5=11</m>
+	<sidebyside width="60%"><image source="images/sw-6-4-1.png"><description>parabola</description></image></sidebyside>
+</statement><answer><m>x=3</m></answer></exercise>
+
+<exercise number="2"><statement><m>2x-3=5x+9</m>
+	<sidebyside width="60%"><image source="images/sw-6-4-2.png"><description>parabola</description></image></sidebyside>
+</statement><answer><m>x=-4</m></answer></exercise>
+
+<exercise number="3"><statement><m>0.7x+0.2(100-x) = 0.3(100)</m>
+	<sidebyside width="60%"><image source="images/sw-6-4-3.png"><description>parabola</description></image></sidebyside>
+</statement><answer><m>x=20</m></answer></exercise>
+
+<exercise number="4"><statement><m>4(7-x)=-2(6x-5)-6</m>
+	<sidebyside width="60%"><image source="images/sw-6-4-4.png"><description>parabola</description></image></sidebyside>
+</statement><answer><m>x=6</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>  
+

@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 6.3</title>
+
+<exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, <ol label="a">
+	<li>Fill in the missing expressions.</li>
+	<li>Write the area as a product of binomials, then compute the product.</li></ol></p></introduction>
+
+<exercise number="1"><statement><p>
+	<sidebyside><tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"  ><m>~~~~?~~~~~</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>x</m></cell>
+            <cell  bottom="major" right="major" ><m>x^2</m></cell>
+            <cell  bottom="major" right="major"  ><m>6x</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>?</m></cell>
+            <cell  bottom="major" right="major" ><m>5x</m></cell>
+            <cell  bottom="major" right="major" ><m>30</m></cell>
+        </row>
+    </tabular></sidebyside></p></statement>
+ <answer></answer></exercise>
+
+ <exercise number="2"><statement><p>
+	<sidebyside><tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"  ><m>~~~~-3~~~~~</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>x</m></cell>
+            <cell  bottom="major" right="major" ><m>x^2</m></cell>
+            <cell  bottom="major" right="major"  ><m>-3x</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>?</m></cell>
+            <cell  bottom="major" right="major" ><m>?</m></cell>
+            <cell  bottom="major" right="major" ><m>27</m></cell>
+        </row>
+    </tabular></sidebyside></p></statement></exercise>
+
+ <exercise number="3"><statement><p>
+	<sidebyside><tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"  ><m>~~~~?~~~~~</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>?</m></cell>
+            <cell  bottom="major" right="major" ><m>x^2</m></cell>
+            <cell  bottom="major" right="major"  ><m>2x</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>?</m></cell>
+            <cell  bottom="major" right="major" ><m>?</m></cell>
+            <cell  bottom="major" right="major" ><m>16</m></cell>
+        </row>
+    </tabular></sidebyside></p></statement>
+ <answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 4<ndash/>6, list all the ways to write the number as a product of two whole numbers.</p></introduction>
+
+<exercise number="4"><statement><p>24</p></statement></exercise>
+
+<exercise number="5"><statement><p>60</p></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><p>40</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>12, <ol label="a">
+	<li>Factor the quadratic trinomial.</li>
+	<li>Solve the quadratic equation.</li></ol></p></introduction>
+
+<exercise number="7"><statement><p><ol label="a">
+	<li><m>n^2+10n+16</m></li>
+	<li><m>n^2+10n+16=0</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><p><ol label="a">
+	<li><m>h^2+26h+48</m></li>
+	<li><m>h^2+26h+48=0</m></li></ol></p></statement></exercise>
+
+<exercise number="9"><statement><p><ol label="a">
+	<li><m>a^2-8a+12</m></li>
+	<li><m>a^2-8a+12=0</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><p><ol label="a">
+	<li><m>t^2-15t+36</m></li>
+	<li><m>t^2-15t+36=0</m></li></ol></p></statement></exercise>
+
+<exercise number="11"><statement><p><ol label="a">
+	<li><m>x^2-3x-10</m></li>
+	<li><m>x^2-3x-10=0</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p><ol label="a">
+	<li><m>a^2+8a-20</m></li>
+	<li><m>a^2+8a-20=0</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 13<ndash/>21, factor if possible. If the trinomial cannot be factored, say so.</p></introduction>
+
+<exercise number="13"><statement><p><m>x^2-17x+30</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><p><m>x^2+4x+2</m></p></statement></exercise>
+
+<exercise number="15"><statement><p><m>y^2-44y-45</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p><m>t^2-9t-20</m></p></statement></exercise>
+
+<exercise number="17"><statement><p><m>q^2-5q-6</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><m>n^2-6-5n</m></p></statement></exercise>
+
+<exercise number="19"><statement><p><m>a^2+48-2a</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p><m>32-12b+b^2</m></p></statement></exercise>
+
+<exercise number="21"><statement><p><m>4c-60+c^2</m></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 22<ndash/>24, factor completely.</p></introduction>
+
+<exercise number="22"><statement><p><m>3b^2-33b+72</m></p></statement></exercise>
+
+<exercise number="23"><statement><p><m>4x^2-20x-144</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p><m>42-8m-2m^2</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>32, solve the quadratic equation.</p></introduction>
+
+<exercise number="25"><statement><p><m>x^2+3x-10=0</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p><m>t^2+t=42</m></p></statement></exercise>
+
+<exercise number="27"><statement><p><m>2x^2-10x=12</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p><m>0=n^2-14n+49</m></p></statement></exercise>
+
+<exercise number="29"><statement><p><m>5q^2=10q</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><p><m>x(x-4)=21</m></p></statement></exercise>
+
+<exercise number="31"><statement><p><m>(x-2)(x+1)=4</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="32"><statement><p><m>(x-8)^2=12+4(10-6x)</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="33"><statement><p>An architect is designing rectangular offices to be 3 yards longer than they are wide, to allow for storage space. Let <m>w</m> represent the width of one office.<ol label="a">
+	<li>Draw a sketch of the floor of an office and label its dimensions.</li>  
+	<li>Write an equation for the area, <m>A,</m> of one office in terms of its width.</li>
+	<li><p>Complete the table and graph your equation for <m>A</m>.
+
+	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>w</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>-5</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell></row>
+                    <row> 
+                        <cell><m>A</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>                
+    <sidebyside width="45%"><image source="images/hp-6-3-33.png"><description>grid</description></image></sidebyside></p></li>
+    <li>Each office should have an area of 28 square yards. Write an equation for this requirement.</li>
+	<li>Solve your equation. You should get two solutions. Which one makes sense for this application?</li></ol></p>
+</statement>
+<answer></answer></exercise>
+
+<exercise number="34"><statement><p>Icon Industries produces all kinds of electronic equipment. The cost, <m>C</m>, of producing a piece of equipment depends on the number of hours, <m>t</m>, it takes to build it, where
+	<me>C=8t^2-32t-16</me>
+How many hours does it take to build a transformer if it costs $80 to produce?</p></statement>
+</exercise>
+
+<exercisegroup><introduction><p>For Problems 35<ndash/>36, <ol label="a">
+	<li>Draw and label a sketch to illustrate the problem.</li>
+	<li>Write an equation for the problem.</li>
+	<li>Solve your equation and complete the problem.</li></ol></p></introduction>
+
+<exercise number="35"><statement><p>The area of a computer circuit board must be 60 square centimeters. The length of the circuit board should be 2 centimeters shorter than twice its width. Find the dimensions of the circuit board.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="36"><statement><p>A paper airplane in the shape of a triangle is 40 square inches in area. Its base is 11 inches longer than its altitude. Find the base and altitude of the triangle.</p></statement></exercise>
+</exercisegroup>
+
+<exercise number="37"><statement><p>What is wrong with the following solution to the quadratic equation?
+	<md><mrow>x^2-6x+8 \amp =0</mrow>
+		<mrow>x^2 \amp = 6x-8</mrow>
+		<mrow>x \amp = \dfrac{6x-8}{x}</mrow></md></p></statement>		
+<answer></answer></exercise>
+
+
+
+
+
+</exercises>
