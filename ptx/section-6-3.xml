@@ -209,7 +209,7 @@ The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make 
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-6-3"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="3"><introduction><p><ol label="a">
 	<li>Find the linear term of each product mentally.</li>
@@ -246,6 +246,9 @@ The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make 
 	<li><m>-10</m></li></ol></p></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-6-3">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-6-3.xml" />
 </section>

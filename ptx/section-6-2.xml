@@ -171,7 +171,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-6-2"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Mental Exercise: Evaluate each expression for the given values of the variable. Try not to use pencil, paper, or calculator.</p></introduction>
 
@@ -188,6 +188,9 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 <answer><m></m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-6-2">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-6-2.xml" />
 </section> 
