@@ -414,11 +414,11 @@
 </exercisegroup>
 
 <exercise number="77"><statement><p>Use the given areas to find the area of the large square shown below.</p>
-	<sidebyside width="20%"><image source="images/cr5-77.png"><description>rectangle</description></image></sidebyside></statement>
+	<sidebyside width="20%"><image source="images/cr5-77"><description>rectangle</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="78"><statement><p>Use the given areas to find the area of the large semicircle shown below.</p>
-	<sidebyside width="25%"><image source="images/cr5-78.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+	<sidebyside width="25%"><image source="images/cr5-78"><description>rectangle</description></image></sidebyside></statement></exercise>
 
 </exercises>
 </subsection>

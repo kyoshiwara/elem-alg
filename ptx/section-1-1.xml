@@ -57,7 +57,7 @@
 
 <example><statement>
     <p>The graph below shows the average annual salaries of NFL football players, starting in 1940. The average salary of NFL football players is a variable.</p>
-    <sidebyside width="45%"><image source="images/fig-1-1-ex2.png"/></sidebyside>
+    <sidebyside width="45%"><image source="images/fig-1-1-ex2"/></sidebyside>
     <p><ol label="a">
         <li><p>Use the graph to estimate the average annual salary of NFL football players in 1975.</p></li>
         <li><p>By how much did salaries increase from 1975 to 1980?</p></li>
