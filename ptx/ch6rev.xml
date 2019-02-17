@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Ch6-Summary-and-Review"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Chapter 6 Summary and Review</title>
+
+<subsection><title>Lesson 6.1 Extracting Roots</title><p><ul>
+<li><assemblage><title>Quadratic Equations</title>
+<p>A <term>quadratic equation</term> can be written in the standard form 
+	<me>ax^2+bx+c=0</me>
+where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></assemblage> </li>
+
+<li>The numbers <m>a,~b,</m> and <m>c</m> are called <term>parameters</term>. They are the coefficients of, respectively, the quadratic term (the <m>x^2</m>-term), the linear term (the <m>x</m>-term), and the constant term.</li> 
+<li>The graph of <m>y=ax^2+bx+c</m> is a curve called a <term>parabola</term>. The simplest, or basic, parabola is the graph of <m>y=x^2</m>.</li>
+
+<li><assemblage><title>Extraction of Roots</title>
+	<p>To solve a quadratic equation of the form
+		<me>ax^2+c=0</me><ol label="1">
+	<li>Isolate <m>x^2</m> on one side of the equation.</li> 
+	<li>Take the square root of each side.</li></ol></p></assemblage>  </li></ul></p>
+</subsection>
+
+<subsection><title>Lesson 6.2 Some Quadratic Models</title><p><ul>
+<li>Revenue <m>=</m> (price per item) <m>\cdot</m> (number of items sold)</li>
+
+<li><assemblage><title>Zero-Factor Principle</title>
+<p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero.  Using symbols,
+	<me>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</me></p></assemblage></li>
+
+<li>In order to use the zero-factor principle to solve quadratic equations, we must be able to write quadratic expressions in <term>factored form</term>. This process is called <term>factoring</term>, and it is the reverse of multiplying factors together.</li>  
+<li>To solve a quadratic equation using factoring, we must arrange the terms so that one side of the equation is zero.  Then we set each factor equal to zero, and solve for <m>x</m>.</li></ul></p>
+</subsection>
+
+<subsection><title>Lesson 6.3 Solving Quadratic Equations by Factoring</title><p><ul>
+<li><assemblage><title>To Factor a Quadratic Trinomial</title>
+<p>	To factor <m>x^2+bx+c</m>, we look for two numbers <m>p</m> and <m>q</m> so that   
+		<me>\blert{pq=c}~~~~\text{and}~~~~\blert{p+q=b}</me></p></assemblage></li>
+
+<li><assemblage><title>To Solve a Quadratic Equation by Factoring</title><p><ol label="1">
+	<li>Write the equation in standard form, 
+		<me>ax^2+bx+c=0~~~~~~(a \not= 0)</me></li>       
+	<li>Factor the left side of the equation.</li>
+	<li>Apply the Zero-Factor Principle; that is, set each factor equal to zero.</li>
+	<li>Solve each equation to obtain two solutions.</li></ol></p></assemblage></li></ul></p>
+</subsection>
+
+<subsection><title>Lesson 6.4 Graphing Quadratic Equations</title><p><ul>
+<li>To find the <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m>, we set <m>y=0</m> and solve the equation <m>ax^2+bx+c=0</m>.</li>
+<li>The high or low point of a parabola is called the <term>vertex</term> of the graph. The parabola has an <term>axis of symmetry</term> that runs through the vertex.</li>
+
+<li><assemblage><title>The Vertex of a Parabola</title><p><ol label="1">
+	<li>The <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts.</li>
+	<li>To find the <m>y</m>-coordinate of the vertex, substitute its <m>x</m>-coordinate into 
+	the equation of the parabola.</li></ol></p></assemblage></li>
+
+<li><assemblage><title>To Graph a Quadratic Equation</title><p><ol label="1">  
+	<li>Find the <m>x</m>-intercepts:  set <m>y=0</m> and solve for <m>x</m>.</li>
+	<li>Find the vertex:  the <m>x</m>-coordinate is the average of the <m>x</m>-intercepts.  
+	Find the <m>y</m>-coordinate by substituting the <m>x</m>-coordinate into the 
+	equation of the parabola.</li>
+	<li>Find the <m>y</m>-intercept:  set <m>x=0</m> and solve for <m>y</m>.</li>
+	<li>Draw a parabola through the points. The graph is symmetric about a vertical line through the vertex.</li>
+</ol></p></assemblage></li></ul></p>
+</subsection>  
+
+<subsection><title>Lesson 6.5 The Quadratic Formula</title><p><ul>
+<li><assemblage><title>The Quadratic Formula</title>
+<p>The solutions of the equation
+	<me>ax^2+bx+c=0,~~~~a \not= 0</me>
+are given by the formula
+	<me>\blert{x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}}</me></p></assemblage></li>
+
+<li>If some or all of the coefficients are fractions, it helps to clear the fractions before applying the quadratic formula. The fastest way to clear all the fractions is to multiply each term of the equation by the lowest common denominator, or LCD, of all the fractions involved.</li>
+<li>Every quadratic equation has two solutions. The nature of those solutions determines the nature of the -intercepts of the graph.</li>
+
+<li><assemblage><title><m>x</m>-Intercepts of <m>y=ax^2+bx+c</m></title>
+<p>The <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m> are the solutions of
+<me> ax^2+bx+c=0</me>There are three possibilities.<ol label="1"> 
+	<li>If both solutions are real numbers, and unequal, the graph has two <m>x</m>-intercepts.</li>
+	<li>If the solutions are real and equal, the graph has one <m>x</m>-intercept, which is also its vertex.</li>
+	<li>If both solutions are non-real complex numbers, the graph has no <m>x</m>-intercepts.</li></ol></p></assemblage></li></ul></p></subsection>
+
+<subsection><title>Review Questions</title>
+<p>Use complete sentences to answer the questions.<ol label = "1">
+
+<li>What is the standard form for a quadratic equation?</li>
+<li>What are parameters?  What is a parabola?</li>
+<li>Write down the steps for solving a quadratic equation by extraction of roots.</li>
+<li>State the zero factor principle.  What is it used for?</li>
+<li>Explain how to factor out a common factor.</li>
+<li>Francine factored <m>3x^2-2xy+x</m> and got <m>x(3x-2y)</m>.  Why is this incorrect?</li>
+<li>State the steps for solving a quadratic equation by factoring.</li>
+<li>Explain how to factor a quadratic trinomial.</li>
+<li>How do we find the <m>x</m>-intercepts of a parabola?</li>
+<li>If you know the <m>x</m>-intercepts of a parabola, how can you find the coordinates of its vertex?</li>
+<li>If you cannot solve a quadratic equation by facoring, what should you do?</li>
+<li>How many solutions does a quadratic equaiton have?</li>
+<li>State the quadratic formula.</li>
+<li>What is the difference between a quadratic equation and the quadratic formula?</li>
+<li>Does every parabola have two <m>x</m>-interepts?  Why or why not?</li></ol></p>
+</subsection>
+
+<subsection><title>Review Problems</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>6, solve by extraction of roots. Round to thousandths any answers that are irrational numbers.</p></introduction>
+
+<exercise number="1"><statement><p><m>9x^2-4=0</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="2"><statement><p><m>3+t^2=9</m></p></statement></exercise>
+
+<exercise number="3"><statement><p><m>5y^2-12=2y^2</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="4"><statement><p><m>q^2-3=5-q^2</m></p></statement></exercise>
+
+<exercise number="5"><statement><p><m>9k^2+21=25</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="6"><statement><p><m>6a^2+3=4a^2+19</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="7"><statement><p>The distance, <m>d</m>, that a penny will fall in <m>t</m> seconds is given in feet by
+	<me>d=16t^2</me><ol label="a">
+	<li>If you drop a penny from a height of 144 feet, how long will it take to reach the ground?</li>
+	<li>How far will the penny fall in <m>1 \dfrac{1}{2}</m> seconds?</li></ol></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="8"><statement><p><ol label="a">
+	<li>How much water would you need to fill a spherical tank of radius 3 feet?</li>
+	<li>A biosphere must contain 7000 cubic inches of space. What is the radius of the biosphere?</li></ol>
+</p></statement></exercise>
+
+<exercisegroup cols="3"><introduction><p>For Problems 9<ndash/>20, factor.</p></introduction>
+
+<exercise number="9"><statement><p><m>24x^2-18x</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="10"><statement><p><m>-32y^2+24y</m></p></statement></exercise>
+
+<exercise number="11"><statement><p><m>a^2-18a+45</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="12"><statement><p><m>x^2-14x-51</m></p></statement></exercise>
+
+<exercise number="13"><statement><p><m>2t^2-t-10</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="14"><statement><p><m>3b^2-14b+8</m></p></statement></exercise>
+
+<exercise number="15"><statement><p><m>14w-5+3w^2</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="16"><statement><p><m>-3+2p^2-5p</m></p></statement></exercise>
+
+<exercise number="17"><statement><p><m>z^2-121</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="18"><statement><p><m>81-4t^2</m></p></statement></exercise>
+
+<exercise number="19"><statement><p><m>6x^2+21x+9</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="20"><statement><p><m>8y^2-6y-2</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>26, solve.</p></introduction>
+
+<exercise number="21"><statement><p><m>0=m^2+10m+25</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="22"><statement><p><m>b^2-25=0</m></p></statement></exercise>
+
+<exercise number="23"><statement><p><m>4p^2=16p</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="24"><statement><p><m>11t=6t^2+3</m></p></statement></exercise>
+
+<exercise number="25"><statement><p><m>(x-5)(x+1)=-8</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="26"><statement><p><m>2q(3q-1)=4</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>30, solve by using the quadratic formula.</p></introduction>
+<exercise number="27"><statement><p><m>2t^2+6t+3=0</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="28"><statement><p><m>\dfrac{x^2}{4}+1=\dfrac{13}{12}x</m></p></statement></exercise>
+
+<exercise number="29"><statement><p><m>0.5x^2-0.3x-0.25=0</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="30"><statement><p><m>\dfrac{2}{3}v^2+\dfrac{5}{6}v=\dfrac{1}{6}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 31<ndash/>34, solve for the specified variable.</p></introduction>
+
+<exercise number="31"><statement><p><m>V=\dfrac{s^2h}{3}~~~~</m>  for <m>s</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="32"><statement><p><m>A=\dfrac{\pi d^2}{4}~~~~</m>  for <m>d</m></p></statement></exercise>
+
+<exercise number="33"><statement><p><m>C=bh^2r~~~~</m>  for <m>h</m></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="34"><statement><p><m>G=\dfrac{np}{r^2}~~~~</m>  for <m>r</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="35"><statement><p>Audrey launches her experimental hydraulic rocket from the top of her apartment building. The height of the rocket after <m>t</m> seconds is given in feet by
+	<me>h=-16t^2+40t+80</me>
+How long is the test flight before the rocket hits the ground?</p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="36"><statement><p>The formula 
+	<me>S=\dfrac{1}{2}n^2 + \dfrac{1}{2}n</me>
+gives the sum of the first <m>n</m> counting numbers. How many counting numbers must you add to get a sum of 325?
+</p></statement></exercise>
+
+<exercise number="37"><statement><p>The Corner Market sells <m>160-2p</m> pounds of bananas per week if they charge <m>p</m> cents per pound. <ol label="a">
+	<li>Write an expression for the market's weekly revenue, <m>R</m>, from bananas.</li>
+	<li>It costs the market <m>80+24p</m> cents to buy and display the bananas. Write an expression for the market's profit, <m>P</m>, from selling the bananas.</li>
+	<li>If the market made a profit of $22 (or 2200 cents) on bananas last week, how much did they charge per pound?</li></ol></p></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="38"><statement><p>The city park used 136 meters of fence to enclose its rectangular rock garden. The diagonal path across the middle of the garden is 52 meters long.  What are the dimensions of the garden? (Hint:  make a sketch.)</p></statement></exercise>
+
+<exercise number="39"><statement><p><ol label="a">
+<li>Sketch three rectangles of different sizes but such that the length of the rectangle is always twice its width.</li>  
+<li>If the width of a particular such rectangle is <m>w</m> inches, write an equation for its area, <m>A</m>, in terms of <m>w</m>.</li>
+<li>Make a table of values for <m>A</m> in terms of <m>w</m>, and graph your equation.</li>  
+<li>If the area of one of these rectangles is 48 square inches, find its width. Locate the point corresponding to this rectangle on your graph.</li></ol></p>
+<sidebyside width="40%"><image source="images/cr6-39.png"><description>grid</description></image></sidebyside>
+</statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="40"><statement><p><ol label="a">
+<li>Sketch three equilateral triangles of different sizes.</li>
+<li>The area, <m>A</m>, of an equilateral triangle is given by 
+	<me>A=\dfrac{\sqrt{3}}{4}s^2</me>
+where <m>s</m> is the length of one side of the triangle. Rewrite the formula for the area using an approximation to three decimal places.</li>
+<li>Make a table of values for <m>A</m> in terms of <m>s</m>, and graph your equation.</li>  
+<li>If the area of a particular equilateral triangle is 15.6 square inches, find the length of its side. Locate the point corresponding to this triangle on your graph.</li></ol></p>
+<sidebyside width="40%"><image source="images/cr6-40.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 41<ndash/>46, <ol label="a">
+	<li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph.</li>
+	<li>Find the vertex of the graph.</li>
+	<li>Sketch the graph.</li></ol></p></introduction>
+
+<exercise number="41"><statement><p><m>y=\dfrac{1}{2}x^2</m></p>
+<sidebyside width="80%"><image source="images/cr6-41.png"><description>grid</description></image></sidebyside></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="42"><statement><p><m>y=x^2-4</m></p>
+<sidebyside width="80%"><image source="images/cr6-41.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise number="43"><statement><p><m>y=x^2-9x</m></p>
+<sidebyside width="80%"><image source="images/cr6-41.png"><description>grid</description></image></sidebyside></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="44"><statement><p><m>y=-2x^2-4x</m></p>
+<sidebyside width="80%"><image source="images/cr6-41.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise number="45"><statement><p><m>y=x^2+6x</m></p>
+<sidebyside width="90%"><image source="images/cr6-45.png"><description>grid</description></image></sidebyside></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="46"><statement><p><m>y=x^2+3x-4</m></p>
+<sidebyside width="90%"><image source="images/cr6-45.png"><description>grid</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, find the unknown sides of the right triangle.</p></introduction>
+
+<exercise number="46"><statement><sidebyside width="40%"><image source="images/cr6-47.png"><description>triangle</description></image></sidebyside></statement>
+<answer><m></m></answer></exercise>
+
+<exercise number="46"><statement><sidebyside width="60%"><image source="images/cr6-48.png"><description>triangle</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+</exercises>
+</subsection>
+</section>	
+
