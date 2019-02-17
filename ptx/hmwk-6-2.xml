@@ -121,7 +121,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="50%"><image source="images/hp-6-2-25.png"><description>grid</description></image></sidebyside></li>
+    <sidebyside width="50%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></li>
     <li>Use your graph to find the solutions of the equation <m>-x^2+6x=5</m>.</li>
 	<li>Verify algebraically that your answers to part (a) are really solutions.</li>
 	<li>Use your graph to find the solutions of the equation <m>-x^2+6x=0</m>.</li>
@@ -156,7 +156,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
-    <sidebyside width="50%"><image source="images/hp-6-2-25.png"><description>grid</description></image></sidebyside></li>
+    <sidebyside width="50%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></li>
     <li>Use your graph to find the solutions of the equation <m>x^2+2x-8=7</m>.</li>
 	<li>Verify algebraically that your answers to part (a) are really solutions.</li>
 	<li>Use your graph to find the solutions of the equation <m>x^2+2x-8=0</m>.</li>
@@ -200,7 +200,29 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                    
                 </tabular>
-        <image source="images/hp-6-2-27.png"><description>grid</description></image></sidebyside></p></li>
+    <!--    <image source="images/hp-6-2-27.png"><description>grid</description></image>-->
+    <image xml:id="hp-6-2-27">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (0,0) grid (8,10);
+        \draw[black, thick, ->, >=stealth'] (0,0)--(9,0) node[right]{$n$};
+        \draw[black, thick, ->, >=stealth'] (0,0)--(0,11) node[left]{$R$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {4,8} {
+        \draw[cyan, very thick] (\x,0)--++(0,10);
+         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(100*\x)] in  {5,10} {
+         \draw[cyan, very thick] (0,\x)--++(8,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></p></li>
 <li>What is the maximum revenue that you can earn? How many bracelets should you make in order to earn that revenue?</li>
 <li>How much revenue will you earn if you charge $40 for a bracelet?</li></ol></p></statement>
 <answer></answer></exercise>
@@ -236,14 +258,36 @@
                         <cell><m>5</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                    
                 </tabular>
-        <image source="images/hp-6-2-28.png"><description>grid</description></image></sidebyside></p></li>
+        <!--<image source="images/hp-6-2-28.png"><description>grid</description></image>-->
+    <image xml:id="hp-6-2-28">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (0,0) grid (10,10);
+        \draw[black, thick, ->, >=stealth'] (0,0)--(11,0) node[right]{$t$};
+        \draw[black, thick, ->, >=stealth'] (0,0)--(0,11) node[left]{$h$};
+        \foreach \x [evaluate=\x as \xi using int(.5*\x)] in  {2,4,...,10} {
+        \draw[cyan, very thick] (\x,0)--++(0,10);
+         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(10*\x)] in  {5,10} {
+         \draw[cyan, very thick] (0,\x)--++(10,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></p></li>
 	<li>What is the maximum height of the football? When does it reach this height?</li>
 	<li>When does the football fall back to the ground?</li></ol></p></statement></exercise>
 
 <exercise number="29"><statement><p>Sportsworld sells <m>180=3p</m> pairs of their name-brand running shoes per week when they charge <m>p</m> dollars per pair.<ol label="a">
 	<li>Write an equation for Sportsworld's revenue, <m>R</m>, in terms of <m>p</m>.</li>
 	<li><p>Fill in the table and graph the equation.
-	<sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+	<sidebyside widths="50% 45%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 		<col halign="center"/> <col halign="center"/>
                     <row bottom="minor">
                         <cell><m>p</m></cell>
@@ -270,7 +314,29 @@
                         <cell><m>60</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                    
                 </tabular>
-        <image source="images/hp-6-2-29.png"><description>grid</description></image></sidebyside></p></li>
+    <!--    <image source="images/hp-6-2-29.png"><description>grid</description></image>-->
+    <image xml:id="hp-6-2-29">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (0,0) grid (12,15);
+        \draw[black, thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$p$};
+        \draw[black, thick, ->, >=stealth'] (0,0)--(0,16) node[left]{$R$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {2,4,...,12} {
+        \draw[cyan, very thick] (\x,0)--++(0,15);
+         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(200*\x)] in  {5,10,15} {
+         \draw[cyan, very thick] (0,\x)--++(12,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></p></li>
 	<li>At what price(s) will Sportsworld's revenue be zero?</li>
 	<li>At what price will Sportsworld's revenue be maximum?  What is their maximum revenue?</li></ol></p></statement>
 <answer></answer></exercise>
@@ -290,13 +356,13 @@
 <exercise number="33"><statement><p><m>y=x</m></p>
 <p><m>y=6-x</m></p>
 <p><m>y=6x-x^2</m></p>
-<sidebyside><image source="images/hp-6-2-25.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="34"><statement><p><m>y=x+3</m></p>
 <p><m>y=3-x</m></p>
 <p><m>y=x^2-9</m></p>
-<sidebyside><image source="images/hp-6-2-25.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 </exercise>
 </exercisegroup>
 

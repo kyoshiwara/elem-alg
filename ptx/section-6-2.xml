@@ -17,26 +17,26 @@
 <p>Usually, the number of items that consumers will buy depends on the price of the item: the higher a company sets the price, the fewer items it is likely to sell. How does a company's revenue depend upon the price it charges? A good way to study such a problem is to consider the graph of the equation for revenue.</p></assemblage>
 
 <example><statement><p>Rick works as a personal trainer at his gym. By experimenting with his fee, he discovers that if he charges <m>p</m> dollars per hour, he attracts <m>40-p</m> clients.<ol label="a">
-	<li>Write a quadratic equation for Rick's revenue, <m>R</m>, in terms of his fee, <m>p</m>.</li>
-	<li>Graph your equation for <m>R</m>.</li>
-	<li>What should Rick charge if he wants to make $300 revenue? How many clients will he attract?</li>
-	<li>Use your graph to find the fee Rick should charge in order to earn the largest possible revenue. How many clients will he attract at that fee?</li></ol></p></statement>
+    <li>Write a quadratic equation for Rick's revenue, <m>R</m>, in terms of his fee, <m>p</m>.</li>
+    <li>Graph your equation for <m>R</m>.</li>
+    <li>What should Rick charge if he wants to make $300 revenue? How many clients will he attract?</li>
+    <li>Use your graph to find the fee Rick should charge in order to earn the largest possible revenue. How many clients will he attract at that fee?</li></ol></p></statement>
 
 <solution><p><ol label="a">
-	<li><p>Rick's revenue is given by
-		<md><mrow>\text{Revenue} \amp = \text{(hourly fee)} \cdot \text{(number of clients)}</mrow>
-			<mrow>R  \amp = p(40-p) = 40p - p^2</mrow></md></p></li>
-	<li><sidebyside widths="50% 45%"><stack><p>We make a table of values and plot the points to obtain the parabola shown in the figure.</p>
-		<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-			<col halign="center"/> <col halign="center"/> <col halign="center"/>
+    <li><p>Rick's revenue is given by
+        <md><mrow>\text{Revenue} \amp = \text{(hourly fee)} \cdot \text{(number of clients)}</mrow>
+            <mrow>R  \amp = p(40-p) = 40p - p^2</mrow></md></p></li>
+    <li><sidebyside widths="50% 45%" valigns="middle middle" margins="0% 0%"><stack><p>We make a table of values and plot the points to obtain the parabola shown in the figure.</p>
+        <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+            <col halign="center"/> <col halign="center"/> <col halign="center"/>
                     <row bottom="minor">
                         <cell><m>p</m></cell>
                         <cell><m>R</m></cell>
-                    	<cell><m>\hphantom{00}</m></cell></row>
+                        <cell><m>\hphantom{00}</m></cell></row>
                     <row> 
                         <cell><m>10</m></cell>
                         <cell><m>300</m></cell>
-                    	<cell><m>40(\alert{10})-\alert{10}^2</m></cell></row>
+                        <cell><m>40(\alert{10})-\alert{10}^2</m></cell></row>
                     <row> 
                         <cell><m>20</m></cell>
                         <cell><m>400</m></cell>
@@ -46,13 +46,36 @@
                         <cell><m>300</m></cell>
                         <cell><m>40(\alert{30})-\alert{30}^2</m></cell></row>
                     <row>
-                    	<cell><m>40</m></cell>
+                        <cell><m>40</m></cell>
                         <cell><m>0</m></cell>
                         <cell><m>40(\alert{40})-\alert{40}^2</m></cell></row>                      
                 </tabular></stack>
-        <image source="images/fig-6-2-ex1.png"><description>parabola</description></image></sidebyside></li>
+        <!--<image source="images/fig-6-2-ex1.png"><description>parabola</description></image>-->
+    <image xml:id="fig-6-2-ex1">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (0,0) grid (10,10);
+        \draw[black, thick, ->, >=stealth'] (0,0)--(11,0) node[right]{$p$};
+        \draw[black, thick, ->, >=stealth'] (0,0)--(0,11) node[left]{$R$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {2,4,...,10} {
+        \draw[cyan, very thick] (\x,0)--++(0,10);
+         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {2,4,...,10} {
+         \draw[cyan, very thick] (0,\x)--++(10,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain=0:8,smooth,variable=\x,magenta!80!black, ultra thick] plot ({\x},{8-.5*(\x-4)^2});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
     <li>There are two points on the graph with <m>p</m>-coordinate 300. Those points have <m>p</m>-coordinates 10 and 30.  If he charges $10 per hour, he will attract <m>40-10=30</m> clients, and if he charges $30 per hour, he will attract <m>40-30=10</m> clients. In either case, his revenue will be $300.</li> 
-	<li>The largest value of <m>R</m> that appears on the graph occurs at the point <m>(20, 400)</m>, so when <m>p=20,~ R=400</m>. If Rick charges $20 per hour, he will make $400 in revenue. He will attract <m>40-20=20</m> clients at that price.</li></ol></p></solution></example>
+    <li>The largest value of <m>R</m> that appears on the graph occurs at the point <m>(20, 400)</m>, so when <m>p=20,~ R=400</m>. If Rick charges $20 per hour, he will make $400 in revenue. He will attract <m>40-20=20</m> clients at that price.</li></ol></p></solution></example>
 
 <reading-questions>
     <exercise number="1"><statement><p>State a formula for calculating revenue.</p></statement>
@@ -64,7 +87,7 @@
 	<me>R=p(40-p)=(40p-p^2)</me>
 The graph of this equation is shown again below. </p>
 <sidebyside widths="55% 40%"><p>If Rick charges <m>p=0</m> dollars per hour, he will not earn any revenue, so <m>R=0</m>. You can see this fact in the graph, which passes through the point <m>p=0,~R=0</m>. But there is another point on the graph where <m>R=0</m>;  it has <m>p</m>-coordinate <m>40</m>. If Rick charges 40 dollars an hour, he will not earn any revenue. (Why does this happen?)</p>
-<image source="images/fig-6-2-ex1.png"><description>parabola</description></image></sidebyside></assemblage>
+<image source="images/fig-6-2-ex1"><description>parabola</description></image></sidebyside></assemblage>
 </subsection>
 
 <subsection><title>The Zero Factor Principle</title>
