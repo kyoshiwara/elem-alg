@@ -204,7 +204,29 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>                
-    <sidebyside width="45%"><image source="images/hp-6-3-33.png"><description>grid</description></image></sidebyside></p></li>
+    <sidebyside width="45%"><!--<image source="images/hp-6-3-33.png"><description>grid</description></image>-->
+    <image xml:id="hp-6-3-33">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (-8,-2) grid (8,15);
+        \draw[black, thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$w$};
+        \draw[black, thick, ->, >=stealth'] (0,-2)--(0,16) node[left]{$A$};
+        \foreach \x in {-5,5} {
+         \draw[cyan, very thick] (\x,-2)--++(0,17);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {5,10,15} {
+         \draw[cyan, very thick] (-8,\x)--++(16,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></p></li>
     <li>Each office should have an area of 28 square yards. Write an equation for this requirement.</li>
 	<li>Solve your equation. You should get two solutions. Which one makes sense for this application?</li></ol></p>
 </statement>

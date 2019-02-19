@@ -57,10 +57,42 @@
 <exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>16, the figure is a right triangle. Find the unknown sides.
 </p></introduction>
 
-<exercise number="15"><statement><p><sidebyside width="60%"><image source="images/hp-6-5-15.png"><description>triangle</description></image></sidebyside></p></statement>
+<exercise number="15"><statement><p><sidebyside width="60%"><!--<image source="images/hp-6-5-15.png"><description>triangle</description></image>-->
+    <image xml:id="hp-6-5-15">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}
+		\draw[blue,thick] (0,0) rectangle ++(.25,-.25);
+		\draw[magenta!90!black, line width=1mm] (0,0)--(3,0)--(0,-2)--(0,0);
+		\node[left] at (0,-1) {$x$};
+		\node[above] at (1.5,0) {$2x-1$};
+		\node[below right] at (1.5,-1) {$17$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></p></statement>
 <answer></answer></exercise>
 
-<exercise number="16"><statement><p><sidebyside width="40%"><image source="images/hp-6-5-16.png"><description>triangle</description></image></sidebyside></p></statement></exercise>
+<exercise number="16"><statement><p><sidebyside width="40%"><!--<image source="images/hp-6-5-16.png"><description>triangle</description></image>-->
+    <image xml:id="hp-6-5-16">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}
+		\draw[blue,thick] (0,0) rectangle ++(-.25,.25);
+		\draw[magenta!90!black, line width=1mm] (0,0)--(-1.8,0)--(0,3)--(0,0);
+		\node[right] at (0,1.5) {$k$};
+		\node[below] at (-.9,0) {$\sqrt{13}$};
+		\node[left] at (-.9,1.5) {$2k-5$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, <ol label="a">
@@ -69,21 +101,65 @@
 	<li>Sketch the graph.</li></ol></p></introduction>
 
 <exercise number="17"><statement><p><m>y=x^2-2x-2</m></p>
-	<sidebyside width="80%"><image source="images/hp-6-5-17.png"><description>grid</description></image></sidebyside>
+	<sidebyside width="80%"><image source="images/hp-6-4-9"><description>grid</description></image></sidebyside>
 </statement>
 <answer></answer></exercise>
 
 <exercise number="18"><statement><p><m>y=-3x^2+2x-1</m></p>
-	<sidebyside width="80%"><image source="images/hp-6-5-18.png"><description>grid</description></image></sidebyside>
+	<sidebyside width="80%"><!--<image source="images/hp-6-5-18.png"><description>grid</description></image>-->
+    <image xml:id="hp-6-5-18">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.5]
+		\draw[cyan] (-5,-9) grid (5,1);
+		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-9)--(0,2) node[left, xshift=2]{$y$};
+		\foreach \x in {-3,3} {
+		 \draw[cyan, very thick] (\x,-9)--++(0,10);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in  {-5} {
+		 \draw[cyan, very thick] (-5,\x)--++(10,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 </statement></exercise>
 
 <exercise number="19"><statement><p><m>y=x^2-4x-1</m></p>
-	<sidebyside width="80%"><image source="images/hp-6-5-19.png"><description>grid</description></image></sidebyside>
+	<sidebyside width="80%"><!--<image source="images/hp-6-5-19.png"><description>grid</description></image>-->
+    <image xml:id="hp-6-5-19">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.5]
+		\draw[cyan] (-5,-6) grid (5,4);
+		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-6)--(0,5) node[left, xshift=2]{$y$};
+		\foreach \x in {-3,3} {
+		 \draw[cyan, very thick] (\x,-6)--++(0,10);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in  {-5,3} {
+		 \draw[cyan, very thick] (-5,\x)--++(10,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 </statement>
 <answer></answer></exercise>
 
 <exercise number="20"><statement><p><m>y=x^2-0.6x-7.2</m></p>
-	<sidebyside width="80%"><image source="images/hp-6-5-18.png"><description>grid</description></image></sidebyside>
+	<sidebyside width="80%"><image source="images/hp-6-5-18"><description>grid</description></image></sidebyside>
 </statement></exercise>
 </exercisegroup>
 

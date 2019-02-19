@@ -19,7 +19,7 @@
 
 <solution><p><ol label="a">
 	<li>We use the FOIL method to apply the distributive law to the product.
-		<sidebyside width="55%"><image source="images/fig-6-3-ex1.png"><description>graphic</description></image></sidebyside></li>
+		<sidebyside width="50%"><image source="images/fig-6-3-ex1"><description>graphic</description></image></sidebyside></li>
 	<li>From part (a) we see that <m>~x^2+x-20</m> can also be written in factored form as <m>~(x+5)(x-4)</m>. Thus, the equation <m>~x^2+x-20</m> is equivalent to
 		<me>(x+5)(x-4)=0</me>
 	We can apply the Zero-Factor Principle to this equation: If the product is zero, then one of the factors must be zero. Thus, either
@@ -41,10 +41,32 @@
 <p>In Section 6.2 we learned to factor quadratic expressions of the form <m>ax^2+bx</m>. Now we consider quadratic trinomials of the form <m>x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
 	<me>x^2+7x+12=(x+3)(x+4)</me></p>
 <p>How can we come up with the factors of the quadratic trinomial? Let's recall how the product is obtained. We apply the distributive law and multiply each term of the first binomial by each term of the second binomial. We use the word "FOIL" to label the four terms of the product: First, Outside, Inside, and Last.</p>
-<sidebyside widths ="60% 25%" valigns="middle middle"><p>
+<sidebyside widths ="60% 23%" valigns="middle middle"><p>
 	<md><mrow>(x+3)(x+4) = \amp x^2+4x+3x+12</mrow>
 		<mrow> \amp \blert{\text{F}}~~~~~~~~~~~~\blert{\text{O + I}}~~~~~~~~~~\blert{\text{L}}</mrow></md></p>
-	<image source="images/fig-6-3-1.png"><description>graphic</description></image></sidebyside>
+	<!--<image source="images/fig-6-3-1.png"><description>graphic</description></image>-->
+    <image xml:id="fig-6-3-1">
+        <description>subdivided rectangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} 
+		\draw[magenta!90!black, line width=1mm] (0,0) rectangle ++(2.7,2.2);
+		\draw[magenta!90!black, line width=1mm] (0,1.1) --++(2.7,0);
+		\draw[magenta!90!black, line width=1mm] (1.2,0) --++(0,2.2);
+		\node[above] at (.55,2.2) {$x$};
+		\node[above] at (1.9,2.2) {$4$};
+		\node[left] at (0,1.65) {$x$};
+		\node[left] at (0,0.6) {$3$};
+		\node[above] at (0.55,1.4) {$x^2$};
+		\node[above] at (1.9,1.4) {$4x$};
+		\node[above] at (0.55,.3) {$3x$};
+		\node[above] at (1.9,.3) {$12$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <reading-questions>
     <exercise number="2"><statement><p>Where does the constant term of the trinomial appear in the product box?
@@ -181,7 +203,31 @@ This new equation is the same as the equation in Example 3. Thus, the solutions 
 <p>Delbert is standing at the edge of a 240-foot cliff. He throws his algebra book upwards off the cliff with a velocity of 32 feet per second. The height of his book above the ground (at the base of the cliff) after <m>t</m> seconds is given by the formula
 	<me>h=-16t^2+32t+240</me>
 where <m>h</m> is in feet. The figure below shows a graph of the equation.</p> 
-<sidebyside width="40%"><image source="images/fig-6-3-2.png"><description>graph</description></image></sidebyside>
+<sidebyside width="44%"><!--<image source="images/fig-6-3-2.png"><description>graph</description></image>-->
+    <image xml:id="fig-6-3-2">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.5]
+		\draw[cyan] (0,0) grid (12,12);
+		\draw[black, thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$t$};
+		\draw[black, thick, ->, >=stealth'] (0,0)--(0,13) node[left]{$h$};
+		\foreach \x [evaluate=\x as \xi using int(0.5*\x)] in  {2,4,...,12} {
+		\draw[cyan, very thick] (\x,0)--++(0,12);
+		 \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(25*\x)] in  {2,4,...,12} {
+		 \draw[cyan, very thick] (0,\x)--++(12,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[samples=65,domain=0:10,smooth,variable=\x,magenta!80!black, ultra thick] plot ({\x},{240/25+16/25*\x-16/25*(\x/2)^2});
+		\end{tikzpicture}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <p>From the graph, we see that it takes the book 5 seconds to reach the ground. Because <m>h=0</m> when the book reaches the ground, 5 is one of the solutions of the quadratic equation 
 	<me>0=-16t^2+32t+240</me>

@@ -51,7 +51,30 @@ we set <m>y=0</m> and solve the equation
                         <cell><m>-5</m></cell></row>
                     </tabular>         
         <p>We plot the points and connect them with a parabola, as shown in the figure.</p></stack>
-        <image source="images/fig-6-4-ex1.png"><description>parabola</description></image></sidebyside></li>
+    <!--    <image source="images/fig-6-4-ex1.png"><description>parabola</description></image>-->
+    <image xml:id="fig-6-4-ex1">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[xscale=.5, yscale=.4]
+		\draw[cyan] (-2,-6) grid (6,6);
+		\draw[black, thick, ->, >=stealth'] (-2,0)--(6.6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-6)--(0,6.6) node[left]{$y$};
+		\foreach \x in {5} {
+		 \draw[cyan, very thick] (\x,-6)--++(0,12);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in  {-5,5} {
+		 \draw[cyan, very thick] (-2,\x)--++(8,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[samples=65,domain={2-sqrt(10)}:{2+sqrt(10)},smooth,variable=\x,red, ultra thick] plot ({\x},{4-(\x-2)^2});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></li>
     </ol></p></solution></example>
 
 <reading-questions>
@@ -66,8 +89,32 @@ we set <m>y=0</m> and solve the equation
 	
 	<assemblage><p>The high or low point of a parabola is called its <term>vertex</term>.</p></assemblage> 
 
-<sidebyside widths="50% 30%" valigns="middle middle"><p>Look again at the graph of <m>y=4x-x^2</m> from Example 1, shown at right. Notice that the graph is symmetric about a vertical line (called the <term>axis of symmetry</term>) that passes through the vertex. All the parabolas we'll study have a vertical axis of symmetry.</p>   
-	<image source="images/fig-6-4-1.png"><description>parabola</description></image></sidebyside>
+<sidebyside widths="60% 30%" valigns="middle middle" margins="0% 0%"><p>Look again at the graph of <m>y=4x-x^2</m> from Example 1, shown at right. Notice that the graph is symmetric about a vertical line (called the <term>axis of symmetry</term>) that passes through the vertex. All the parabolas we'll study have a vertical axis of symmetry.</p>   
+<!--	<image source="images/fig-6-4-1.png"><description>parabola</description></image>-->
+    <image xml:id="fig-6-4-1">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[xscale=.5, yscale=.4]
+		\draw[cyan] (-2,-6) grid (6,6);
+		\draw[black, thick, ->, >=stealth'] (-2,0)--(6.6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-6)--(0,6.6) node[left]{$y$};
+		\foreach \x in {5} {
+		 \draw[cyan, very thick] (\x,-6)--++(0,12);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in  {-5,5} {
+		 \draw[cyan, very thick] (-2,\x)--++(8,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[samples=65,domain={2-sqrt(10)}:{2+sqrt(10)},smooth,variable=\x,red, ultra thick] plot ({\x},{4-(\x-2)^2});
+		\draw[ultra thick, densely dashed,blue!90!black] (2,-6)--(2,6);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <assemblage><title>Look Closer</title>
 <p>Because of this symmetry, the <m>x</m>-intercepts are located at equal distances on either side of the axis of symmetry. Or we can say that the <m>x</m>-coordinate of the vertex is exactly halfway between the two <m>x</m>-intercepts.</p></assemblage>
@@ -118,7 +165,7 @@ You can check that <m>x=4</m> is halfway between the two <m>x</m>-intercepts of 
 <sidebyside widths="50% 40%"><p>The vertex of the parabola is the point <m>(4,-9)</m>. We can also find the <m>y</m>-intercept of the graph by substituting <m>x=\alert{0}</m> into the equation. 
 	<me>\alert{0}^2-8(\alert{0})+7=7</me>
 The <m>y</m>-intercept is the point <m>0,7</m>. We plot the vertex and the intercepts and draw a smooth curve through them. The completed graph is shown above.</p>
-	<image source="images/fig-6-4-ex3.png"><description>parabola</description></image></sidebyside></solution></example> 
+	<image source="images/fig-6-4-ex3"><description>parabola</description></image></sidebyside></solution></example> 
 
 <reading-questions>
     <exercise number="3"><statement><p>How can we find the <m>y</m>-intercept of the graph of <m>y=ax^2+bx+c</m>?</p></statement>
@@ -137,7 +184,7 @@ The <m>y</m>-intercept is the point <m>0,7</m>. We plot the vertex and the inter
 </ol></p></assemblage>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-6-4"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p><ol label="a">
 	<li>Solve the equation.</li>
@@ -146,23 +193,114 @@ The <m>y</m>-intercept is the point <m>0,7</m>. We plot the vertex and the inter
 	<li>Find the <m>x</m>-intercept of your graph. Compare with your answer to part (a).</li></ol></p></introduction>
 
 <exercise number="1"><statement><m>2x+5=11</m>
-	<sidebyside width="60%"><image source="images/sw-6-4-1.png"><description>parabola</description></image></sidebyside>
+	<sidebyside width="60%"><!--<image source="images/sw-6-4-1.png"><description>parabola</description></image>-->
+    <image xml:id="sw-6-4-1">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.4]
+		\draw[cyan] (-5,-5) grid (5,5);
+		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-5)--(0,6) node[left, xshift=2]{$y$};
+		\foreach \x in {-3,3} {
+		 \draw[cyan, very thick] (\x,-5)--++(0,10);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-3,3} {
+		 \draw[cyan, very thick] (-5,\x)--++(10,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 </statement><answer><m>x=3</m></answer></exercise>
 
 <exercise number="2"><statement><m>2x-3=5x+9</m>
-	<sidebyside width="60%"><image source="images/sw-6-4-2.png"><description>parabola</description></image></sidebyside>
+	<sidebyside width="60%"><!--<image source="images/sw-6-4-2.png"><description>parabola</description></image>-->
+    <image xml:id="sw-6-4-2">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.4]
+		\draw[cyan] (-5,-8) grid (5,2);
+		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-8)--(0,3) node[left, xshift=2]{$y$};
+		\foreach \x in {-3,3} {
+		 \draw[cyan, very thick] (\x,-8)--++(0,10);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-3,-6,2} {
+		 \draw[cyan, very thick] (-5,\x)--++(10,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 </statement><answer><m>x=-4</m></answer></exercise>
 
 <exercise number="3"><statement><m>0.7x+0.2(100-x) = 0.3(100)</m>
-	<sidebyside width="60%"><image source="images/sw-6-4-3.png"><description>parabola</description></image></sidebyside>
+	<sidebyside width="60%"><!--<image source="images/sw-6-4-3.png"><description>parabola</description></image>-->
+    <image xml:id="sw-6-4-3">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.4]
+		\draw[cyan] (-5,-5) grid (5,5);
+		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-5)--(0,6) node[left, xshift=2]{$y$};
+		\foreach \x [evaluate=\x as \xi using int(5*\x)] in {-4,-2,2,4} {
+		 \draw[cyan, very thick] (\x,-5)--++(0,10);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(5*\x)] in  {-4,-2,2,4} {
+		 \draw[cyan, very thick] (-5,\x)--++(10,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 </statement><answer><m>x=20</m></answer></exercise>
 
 <exercise number="4"><statement><m>4(7-x)=-2(6x-5)-6</m>
-	<sidebyside width="60%"><image source="images/sw-6-4-4.png"><description>parabola</description></image></sidebyside>
+	<sidebyside width="60%"><!--<image source="images/sw-6-4-4.png"><description>parabola</description></image>-->
+    <image xml:id="sw-6-4-4">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.4]
+		\draw[cyan] (-5,-2) grid (5,8);
+		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-2)--(0,9) node[left, xshift=2]{$y$};
+		\foreach \x [evaluate=\x as \xi using int(2*\x)] in {-3,3} {
+		 \draw[cyan, very thick] (\x,-2)--++(0,10);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(4*\x)] in  {3,6} {
+		 \draw[cyan, very thick] (-5,\x)--++(10,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside>
 </statement><answer><m>x=6</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-6-4">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-6-4.xml" />
 </section>  
 

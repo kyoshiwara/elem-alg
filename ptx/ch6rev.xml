@@ -230,7 +230,29 @@ gives the sum of the first <m>n</m> counting numbers. How many counting numbers 
 <li>If the width of a particular such rectangle is <m>w</m> inches, write an equation for its area, <m>A</m>, in terms of <m>w</m>.</li>
 <li>Make a table of values for <m>A</m> in terms of <m>w</m>, and graph your equation.</li>  
 <li>If the area of one of these rectangles is 48 square inches, find its width. Locate the point corresponding to this rectangle on your graph.</li></ol></p>
-<sidebyside width="40%"><image source="images/cr6-39.png"><description>grid</description></image></sidebyside>
+<sidebyside width="40%"><!--<image source="images/cr6-39.png"><description>grid</description></image>-->
+    <image xml:id="cr6-39">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[yscale=.5]
+		\draw[cyan] (0,0) grid (5,12);
+		\draw[black, thick, ->, >=stealth'] (0,0)--(5.6,0) node[right]{$w$};
+		\draw[black, thick, ->, >=stealth'] (0,0)--(0,13) node[left, xshift=1]{$A$};
+		\foreach \x in {5} {
+		 \draw[cyan, very thick] (\x,0)--++(0,12);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(5*\x)] in  {4,8,12} {
+		 \draw[cyan, very thick] (0,\x)--++(5,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </statement>
 <answer><m></m></answer></exercise>
 
@@ -241,42 +263,119 @@ gives the sum of the first <m>n</m> counting numbers. How many counting numbers 
 where <m>s</m> is the length of one side of the triangle. Rewrite the formula for the area using an approximation to three decimal places.</li>
 <li>Make a table of values for <m>A</m> in terms of <m>s</m>, and graph your equation.</li>  
 <li>If the area of a particular equilateral triangle is 15.6 square inches, find the length of its side. Locate the point corresponding to this triangle on your graph.</li></ol></p>
-<sidebyside width="40%"><image source="images/cr6-40.png"><description>grid</description></image></sidebyside>
+<sidebyside width="40%"><!--<image source="images/cr6-40.png"><description>grid</description></image>-->
+    <image xml:id="cr6-40">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[yscale=.4]
+		\draw[cyan] (0,0) grid (6,18);
+		\draw[black, thick, ->, >=stealth'] (0,0)--(6.6,0) node[right]{$s$};
+		\draw[black, thick, ->, >=stealth'] (0,0)--(0,19) node[left, xshift=1]{$A$};
+		\foreach \x in {1,2,3,...,6} {
+		 \draw[cyan, very thick] (\x,0)--++(0,18);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in  {5,10,15} {
+		 \draw[cyan, very thick] (0,\x)--++(6,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 41<ndash/>46, <ol label="a">
-	<li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph.</li>
-	<li>Find the vertex of the graph.</li>
-	<li>Sketch the graph.</li></ol></p></introduction>
+    <li>Find the <m>x</m>- and <m>y</m>-intercepts of the graph.</li>
+    <li>Find the vertex of the graph.</li>
+    <li>Sketch the graph.</li></ol></p></introduction>
 
 <exercise number="41"><statement><p><m>y=\dfrac{1}{2}x^2</m></p>
-<sidebyside width="80%"><image source="images/cr6-41.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="80%"><!--<image source="images/cr6-41.png"><description>grid</description></image>-->
+    <image xml:id="cr6-41">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[xscale=.5, yscale=.4]
+        \draw[cyan] (-5,-10) grid (5,10);
+        \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-10)--(0,11) node[left, xshift=2]{$y$};
+        \foreach \x in {-3,3} {
+         \draw[cyan, very thick] (\x,-10)--++(0,20);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-10,-5,5,10} {
+         \draw[cyan, very thick] (-5,\x)--++(10,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer><m></m></answer></exercise>
 
 <exercise number="42"><statement><p><m>y=x^2-4</m></p>
-<sidebyside width="80%"><image source="images/cr6-41.png"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="43"><statement><p><m>y=x^2-9x</m></p>
-<sidebyside width="80%"><image source="images/cr6-41.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement>
 <answer><m></m></answer></exercise>
 
 <exercise number="44"><statement><p><m>y=-2x^2-4x</m></p>
-<sidebyside width="80%"><image source="images/cr6-41.png"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="45"><statement><p><m>y=x^2+6x</m></p>
-<sidebyside width="90%"><image source="images/cr6-45.png"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><m></m></answer></exercise>
 
 <exercise number="46"><statement><p><m>y=x^2+3x-4</m></p>
-<sidebyside width="90%"><image source="images/cr6-45.png"><description>grid</description></image></sidebyside></statement></exercise>
+<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, find the unknown sides of the right triangle.</p></introduction>
 
-<exercise number="46"><statement><sidebyside width="40%"><image source="images/cr6-47.png"><description>triangle</description></image></sidebyside></statement>
+<exercise number="47"><statement><sidebyside width="40%"><!--<image source="images/cr6-47.png"><description>triangle</description></image>-->
+    <image xml:id="NAME">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}
+		\draw[blue,thick] (0,0) rectangle ++(-.25,-.25);
+		\draw[magenta!90!black, line width=1mm] (0,0)--(-2,0)--(0,-3)--(0,0);
+		\node[left] at (-1.1,-1.5) {$m+5$};
+		\node[right] at (0,-1.5) {$m$};
+		\node[above] at (-1,0) {$8$};
+		\end{tikzpicture}
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer><m></m></answer></exercise>
 
-<exercise number="46"><statement><sidebyside width="60%"><image source="images/cr6-48.png"><description>triangle</description></image></sidebyside></statement></exercise>
+<exercise number="48"><statement><sidebyside width="60%"><!--<image source="images/cr6-48.png"><description>triangle</description></image>-->
+    <image xml:id="cr6-48">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}
+		\draw[blue,thick] (0,0) rectangle ++(-.25,.25);
+		\draw[magenta!90!black, line width=1mm] (0,0)--(-3.2,0)--(0,2)--(0,0);
+		\node[right] at (0,1) {$k-1$};
+		\node[below] at (-1.6,-0.1) {$k$};
+		\node[above left] at (-1.7,1) {$k+1$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 </exercises>
