@@ -9,7 +9,30 @@
 	<me>y=x^2+2x-5</me>
 is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at approximately 1.5 and 3.5. To find their exact values, we must solve the equation
 	<me>x^2+2x-5=0</me></p>
-<image source="images/fig-6-5-1.png"><description>parabola</description></image></sidebyside>
+<!--<image source="images/fig-6-5-1.png"><description>parabola</description></image>-->
+    <image xml:id="ig-6-5-1">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+	\begin{tikzpicture}[scale=.4]
+	\draw[cyan] (-6,-5) grid (6,5);
+	\draw[black, thick, ->, >=stealth'] (-6,0)--(7,0) node[right]{$x$};
+	\draw[black, thick, ->, >=stealth'] (0,-5)--(0,6) node[left, xshift=2]{$y$};
+	\foreach \x  in {-5,5} {
+	 \draw[cyan, very thick] (\x,-5)--++(0,10);
+	 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+	}
+	\foreach \x [evaluate=\x as \xi using int(2*\x)] in  {-5,5} {
+	 \draw[cyan, very thick] (-6,\x)--++(12,0);
+	\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+	}
+	\draw[samples=65,domain=-5:3,smooth,variable=\x,red!80!black, very thick, <->, >=stealth'] plot ({\x},{((\x)^2 +2*\x-5)/2});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 	
 <p>But, as you can check, the trinomial <m>x^2+2x-5</m> cannot be factored.</p>	
 <p>So far we know two methods for solving quadratic equations:  extracting roots and factoring. Neither of these methods applies to every quadratic equation. In this Lesson we consider a technique that works on all quadratic equations.</p>
@@ -64,7 +87,7 @@ These values are very close to our estimates from the graph.</p></solution></exa
 
 <solution><p><ol label="a">
 	<li><p>We multiply each term of the equation by the LCD, <m>\blert{6}</m>, to get
-			<md><mrow>\blert{6}(x) \amp =\blert{6}(\dfrac{2}{3}-\dfrac{x^2}{6}) \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
+			<md><mrow>\blert{6}(x) \amp =\blert{6}\left(\dfrac{2}{3}-\dfrac{x^2}{6}\right) \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
 				<mrow>6x \amp = 4-x^2</mrow></md>
 		Next, we write the equation in standard form and identify the coefficients. 
 			<md><mrow>x^2+6x-4=0</mrow>
@@ -92,7 +115,30 @@ These values are very close to our estimates from the graph.</p></solution></exa
 	<me>y=x^2-4x+5</me>
 has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, we can use the quadratic formula to solve the equation
 	<me>x^2-4x+5=0</me></p>
-<image source="images/fig-6-5-2.png"><description>parabola</description></image></sidebyside>
+<!--<image source="images/fig-6-5-2.png"><description>parabola</description></image>-->
+    <image xml:id="fig-6-5-2">
+        <description>parabola with no x-intercepts</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.5]
+		\draw[cyan] (-1,-2) grid (5,6);
+		\draw[black, thick, ->, >=stealth'] (-1,0)--(6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-2)--(0,7) node[left, xshift=2]{$y$};
+		\foreach \x  in {5} {
+		 \draw[cyan, very thick] (\x,-2)--++(0,8);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in  {5} {
+		 \draw[cyan, very thick] (-1,\x)--++(6,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[samples=65,domain={2-sqrt(5)}:{2+sqrt(5)},smooth,variable=\x,red!80!black, very thick, <->, >=stealth'] plot (\x,{((\x-2)^2 +1});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <p>Applying the formula with <m>a=1,~b=-4,</m> and <m>c=5</m>, we find
 	<md><mrow>x =\dfrac{-b \pm \sqrt{b^2-4ac}}{2a} \amp = \dfrac{-(-4) \pm \sqrt{(-4)^2-4(1)(5)}}{2(1)}</mrow>
@@ -141,29 +187,32 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-6-5"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Solve each equation by the easiest method.</p></introduction>
 
 <exercise number="1"><statement><m>x^2=36</m></statement>
-<answer><m>6,~-6</m></answer></exercise>
+<answer><p><m>6,~-6</m></p></answer></exercise>
 
 <exercise number="2"><statement><m>x^2-9x=36</m></statement>
-<answer><m>12,~-3</m></answer></exercise>
+<answer><p><m>12,~-3</m></p></answer></exercise>
 
 <exercise number="3"><statement><m>x^2-9x=0</m></statement>
-<answer><m>0,~9</m></answer></exercise>
+<answer><p><m>0,~9</m></p></answer></exercise>
 
 <exercise number="4"><statement><m>9x^2-36=0</m></statement>
-<answer><m>2,~-2</m></answer></exercise>
+<answer><p><m>2,~-2</m></p></answer></exercise>
 
 <exercise number="5"><statement><m>3x^2-24x-36=0</m></statement>
-<answer><m>2,~6</m></answer></exercise>
+<answer><p><m>2,~6</m></p></answer></exercise>
 
 <exercise number="6"><statement><m>3x^2=31x-36</m></statement>
-<answer><m>\dfrac{4}{3},~9</m></answer></exercise>
+<answer><p><m>\dfrac{4}{3},~9</m></p></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-6-5">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-6-5.xml" />
 </section>
