@@ -1,0 +1,152 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 7.2</title>
+
+<exercise number="1"><statement><p>Apply the first law of exponents to find the product.<ol label="a" cols="3">
+	<li><m>x^3 \cdot x^6</m></li>
+	<li><m>5^6 \cdot 5^8</m></li>
+	<li><m>b^3(b)(b^5)</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><p>Find a value of <m>n</m> that makes the expressions equivalent.<ol label="a" cols="3">
+	<li><m>y^3 \cdot y^n=y^8</m></li>
+	<li><m>a^n \cdot a^4 = a^8</m></li>
+	<li><m>3\cdot 3^n=3^3</m></li></ol></p></statement></exercise>
+
+<exercise number="3"><statement><p>Simplify if possible.<ol label="a" cols="2">
+	<li><m>2x^4(-3x^4)</m></li>
+	<li><m>-x^4(-2x^2)</m></li>
+	<li><m>-x^4 \cdot y^3</m></li>
+	<li><m>-3x^5(3y^5)</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><p>Simplify if possible.<ol label="a" cols="2">
+	<li><m>2x^4-3x^4</m></li>
+	<li><m>-x^4-2x^2</m></li>
+	<li><m>-x^4 + y^3</m></li>
+	<li><m>-3x^5+3y^5</m></li></ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For the pair of expressions in Problems 5<ndash/>6 find <ol label="a" cols="2">
+	<li>their product,</li>
+	<li>their sum.</li></ol></p></introduction>
+
+<exercise number="5"><statement><p><m>-3z^4,~-7z^4</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><p><m>-9cd^3,~-cd^3</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For the rectangles in Problems 7<ndash/>8 find <ol label="a" cols="2">
+	<li>the perimeter,</li>
+	<li>the area.</li></ol></p></introduction>
+
+<exercise number="7"><statement><sidebyside width="50%"><image source="images/hp-7-2-7.png"><description>rectangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><sidebyside width="70%"><image source="images/hp-7-2-8.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>10, <ol label="a">
+	<li>Write a product (length <m>\times</m> width) for the area of the rectangle.</li>
+	<li>Use the distributive law to compute the product.</li></ol></p></introduction>
+
+<exercise number="9"><statement><sidebyside width="80%"><image source="images/hp-7-2-9.png"><description>rectangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><sidebyside width="80%"><image source="images/hp-7-2-10.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 11<ndash/>14, simplify each expression if possible. If it cannot be simplified, say so.</p></introduction>
+
+<exercise number="11"><statement><p><ol label="a" cols="2">
+	<li><m>x^2+x^2</m></li>
+	<li><m>x^2(x^2)</m></li>
+	<li><m>x^2-x^2</m></li>
+	<li><m>x^2(-x^2)</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p><ol label="a" cols="2">
+	<li><m>-x-x</m></li>
+	<li><m>-x(-x)</m></li>
+	<li><m>-x^2-x^2</m></li>
+	<li><m>-x^2(-x^2)</m></li></ol></p></statement></exercise>
+
+<exercise number="13"><statement><p><ol label="a" cols="2">
+	<li><m>x+x^2</m></li>
+	<li><m>x(x^2)</m></li>
+	<li><m>x^2-x</m></li>
+	<li><m>x^2(-x)</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><p><ol label="a" cols="2">
+	<li><m>-x^3 \cdot x</m></li>
+	<li><m>x^3(-x^2)</m></li>
+	<li><m>x^3-x^2</m></li>
+	<li><m>(-x)^3(-x)^2</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>16, multiply.</p></introduction>
+
+<exercise number="15"><statement><p><m>-xy(x^2+xy+y^2)</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p><m>(6-st+3s^2t^2)(-3s^2t^2)</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>18, simplify.</p></introduction>
+
+<exercise number="17"><statement><p><m>ax(x^2+2x-3)-a(x^3+2x^2)</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><m>3ab^2(2+3a)-2ab(3ab+2b)</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 19<ndash/>21, use rectangles to help you multiply the binomials in two variables.</p></introduction>
+
+<exercise number="19"><statement><p><m>(x+2y)(x-y)</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p><m>(3s+t)(2s+3t)</m></p></statement></exercise>
+
+<exercise number="21"><statement><p><m>(2x-a)(x-3a)</m></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 22<ndash/>25, compute the product. Multiply the binomials together first, then multiply the result by the numerical coefficient.</p></introduction>
+
+<exercise number="22"><statement><p><m>2(3x-1)(x-3)</m></p></statement></exercise>
+
+<exercise number="23"><statement><p><m>-3(x+4)(x-1)</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p><m>-(4x+3)(x-2)</m></p></statement></exercise>
+
+<exercise number="25"><statement><p><m>5(2x+1)(2x-1)</m></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 26<ndash/>29, multiply.</p></introduction>
+
+<exercise number="26"><statement><p><m>4a(a-1)(a+5)</m></p></statement></exercise>
+
+<exercise number="27"><statement><p><m>s^2t^2(2s+t)(3s-t)</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p><m>(x-2)(x^2-3x+2)</m></p></statement></exercise>
+
+<exercise number="29"><statement><p><m>(3x-1)(9x^2-3x+1)</m></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="30"><statement><p><ol label="a">
+	<li>Multiply <m>~(x+1)(x+2)(x+3).</m></li>
+	<li>Evaluate the product for <m>~x=-1,~x=-2,</m> and <m>~x=-3)</m></li></ol></p></statement></exercise>
+
+<exercise number="31"><statement><p><ol label="a">
+	<li>Multiply <m>~(x-2)(x+4)(x+5).</m></li>
+	<li>Find three values of <m>x</m> for which the product is equal to zero.</li></ol></p></statement>
+<answer></answer></exercise>
+
+
+</exercises>

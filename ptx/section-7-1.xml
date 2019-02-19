@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Polynomials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Polynomials</title>
+
+<subsection><title>What is a Polynomial?</title>
+<assemblage><p>A <term>polynomial</term> is an algebraic expression with several terms. Each term is a power of a variable (or a product of powers) with a constant coefficient.</p></assemblage>
+
+<assemblage><title>Look Closer</title>
+<p>The exponents in a polynomial must be whole numbers, which means that a polynomial has no radicals containing variables, and no variables in the denominators of fractions.</p></assemblage> 
+
+<example><statement><p>The following expressions are polynomials.</p>
+	<sidebyside><tabular>              
+                    <row>
+                        <cell><m>4x^3+2x^2-7x+5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\dfrac{1}{2}at^2+vt</m></cell></row>
+                    <row> 
+                        <cell><m>2a^2-6ab+3b^2</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\pi r^2h</m></cell></row>
+                    </tabular></sidebyside></statement></example>
+
+<assemblage><p>Recall that:  An algebraic expression with only one term is called a <term>monomial</term>. An expression with two terms is called a <term>binomial</term>, and an expression with three terms is a <term>trinomial</term>.</p></assemblage>
+
+<example><statement><p><ul>
+	<li>The expression <m>2x^3</m> is a monomial (it has only one term).</li>
+	<li>The expression <m>x^2-16</m> is a binomial (it has two terms).</li>
+	<li>The expression <m>ax^2+bx+c</m> is called a <term>quadratic trinomial</term>.</li></ul></p></statement></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>Explain the terms monomial, binomial, trinomial, and polynomial.</p></statement>
+    <answer><p>A monomial has one term, a binomial has two terms, a trinomial has three terms, and a polynomial has several terms. Each term is a power of a variable (or a product of powers) with a constant coefficient.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Degree</title>
+<p>In a term containing only one variable, the exponent of the variable is called the <term>degree</term> of the term. (The degree of a constant term is zero, for reasons that will become clear in Chapter 9.) For example,  
+	<md><mrow>\amp 3x^2~~~~~~	 \amp \amp\text{is of second degree}</mrow>
+		<mrow>\amp 8y^3~~~~~~    \amp \amp\text{is of third degree}</mrow>
+		<mrow>\amp 4x~~~~~~      \amp \amp\text{is of first degree (the exponent on}~x~ \text{ is 1)}</mrow>
+		<mrow>\amp 5 ~~~~~~      \amp \amp\text{is of zero degree}</mrow></md>
+The degree of a polynomial in one variable is the largest exponent that appears in any term.</p>  
+
+<example><statement><p>The degree of a polynomial does not depend on the number of terms in the polynomial.	
+	<md><mrow>\amp 2x+1~~~~~~	 \amp \amp\text{is of first degree}</mrow>
+		<mrow>\amp 3y^2-2y+2~~~~~~    \amp \amp\text{is of second degree}</mrow>
+		<mrow>\amp m-2m^2+m^5~~~~~~      \amp \amp\text{is of fifth degree}</mrow></md></p></statement></example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>What is the difference between a polynomial of degree four and a 
+	polynomial with four terms?</p></statement>
+    <answer><p>Degree four means the largest exponent is four.</p></answer></exercise>
+</reading-questions>
+
+<p>Polynomials in one variable are usually written in <term>descending powers</term> of the variable. The term with the largest exponent comes first, then the term with the next highest exponent, and so on down to the constant term, if there is one.</p> 
+
+<example><statement><p>Write the polynomial <m>x+3x^4-5-2x^2</m> in descending powers.</p></statement>
+
+<solution><p>We start with the highest power. We must be careful to keep the correct sign of each term.</p>
+<sidebyside width="75%"><image source="images/fig-7-1-ex4.png"><description>graphic</description></image></sidebyside></solution></example>
+
+<reading-questions>
+    <exercise number="3"><statement><p>What does it mean to write a polynomial in descending powers?</p></statement>
+    <answer><p>Start with the term with the largest exponent, and continue with decreasing exponents.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Evaluating Polynomials</title>
+<p>We evaluate polynomials the same way we evaluate any other algebraic expression:  by substituting the given values for the variables and then following the order of operations to simplify.</p>
+
+<example><statement><p>Evaluate <m>~16t^3-6t+20~</m> for <m>~t=\dfrac{3}{2}</m>.</p></statement>
+
+<solution><p>Substitute <m>\alert{\dfrac{3}{2}}</m> for <m>t</m>, and follow the order of operations to simplify.</p>
+	<md><mrow>16(\alert{\dfrac{3}{2}})^3 \amp -6(\alert{\dfrac{3}{2}})+20 \amp \amp \blert{\text{Compute the power.}}</mrow>
+		<mrow> \amp = 16(\dfrac{27}{8})-6(\dfrac{3}{2})+20 \amp \amp \blert{\text{Perform all multiplications.}}</mrow>
+		<mrow> \amp = 54-9+20 \amp \amp \blert{\text{Add.}}</mrow>
+		<mrow> \amp = 65</mrow></md></solution></example>
+</subsection>
+
+<subsection><title>Like Terms</title>
+<p><term>Like terms</term> are any terms that are exactly alike in their variable factors. The exponents on the variable factors must also match. For example,
+	<md><mrow>x^3~~~\amp \text{and}~~~2x+1 \amp \amp \blert{\text{Not like terms}}</mrow>
+		<mrow>2x^2y~~~\amp \text{and}~~~3y^2-2y+2   \amp \amp \blert{\text{Not like terms}}</mrow></md>
+are not like terms because their variable factors are different. However,
+	<md><mrow>\dfrac{1}{2}x^2y~~~\amp \text{and}~~~-3yx^2 \amp \amp \blert{\text{Like terms}}</mrow></md>
+are like terms, because <m>x^2y</m> and <m>yx^2</m> are equivalent expressions.</p>
+
+<assemblage><p>Recall that: To add or subtract like terms, we add or subtract their numerical coefficients. The variable factors of the terms remain unchanged.</p></assemblage>
+
+<reading-questions>
+    <exercise number="4"><statement><p>What is the numerical coefficient of a term?</p></statement>
+    <answer><p>The factor in a term that is a constant, not a variable.</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Look Closer</title>
+<p>Which of the following two expressions can be simplified? 
+	<me>3x^2+5x^3~~~~~~\text{and}~~~~~~3x^2+5x^2</me>       	
+In the first expression, the two terms have different exponents, even though the base, <m>x</m>, is the same. Powers of the same variable with different exponents are not like terms. The first expression, <m>3x^2+5x^3</m>, cannot be simplified.</p>
+<p>In the second expression, <m>3x^2</m> and <m>5x^2</m> are like terms.Thus, 
+	<me>3x^2+5x^2=8x^2</me>
+Note that we do not change the exponent on <m>x</m> in the sum; it is still 2.</p></assemblage>
+
+<example><statement><p>Simplify by combining any like terms:
+	<me>x^3+2x^2-2x^3-(-4x^2)+4x</me></p></statement>
+<solution><p>The terms <m>x^3</m> and <m>-2x^3</m> are like terms; so are <m>2x^2</m> and <m>-4x^2</m>. We group the like terms together and combine them.
+	<me>\blert{x^3-2x^3} + \alert{2x^2-(-4x^2)} + 4x = \blert{-x^3} + \alert{6x^2} + 4x</me>
+The last term, <m>4x</m>, is not combined with any other terms.</p></solution></example>
+</subsection>
+
+<subsection><title>Adding Polynomials</title>
+<p>To add two polynomials we remove parentheses and combine like terms.</p>
+
+<example><statement><p>
+	<md><mrow>(4a^3 \amp -2a^2-3a+1)+(2a^3+4a-5) \amp \amp \blert{\text{Remove parentheses.}}</mrow>
+		<mrow> \amp = \blert{4a^3}-2a^2 \alert{-3a}+1 \blert{+2a^3} \alert{+4a}-5 \amp \amp \blert{\text{Combine like terms.}}</mrow>
+		<mrow> \amp = \blert{6a^3}-2a^2 \alert{+a}-4</mrow></md></p></statement></example>
+
+<p>We can also use a vertical format to add polynomials.</p>
+
+<example><statement><p>Add <m>~4x^2+2-7x~</m> and <m>~5x-5+2x^2</m></p></statement>
+
+<solution><p>We first write each polynomial in descending powers of <m>x</m>. Then we write the second polynomial beneath the first, aligning like terms.
+	<md><mrow> \amp 4x^2-7x+2 \amp \amp \blert{\text{Combine like terms vertically.}}</mrow>
+		<mrow> + ~~\amp \underline{2x^2+5x-5} </mrow>
+		<mrow> \amp  6x^2-2x-3</mrow></md></p></solution></example>
+</subsection>
+
+<subsection><title>Subtracting Polynomials</title>
+<p>If an expression in parentheses is preceded by a minus sign, we must change the sign of each term within parentheses when we remove the parentheses. This rule applies when we subtract polynomials.</p>
+
+<example><statement><p>Subtract the polynomials <m>~(4x^2+2x-5)-(2x^2-3x-2)</m></p></statement>
+
+<solution><p>We first remove the parentheses, remembering to change the sign of each term of the subtracted polynomial.
+	<md><mrow>(4x^2 \amp +2x-5)-(2x^2-3x-2) \amp \amp \blert{\text{Change signs in the subtracted polynomial.}}</mrow>
+		<mrow> \amp = 4x^2+2x-5 \blert{-} 2x^2\blert{+}3x\blert{+}2\amp \amp \blert{\text{Combine like terms.}}</mrow>
+		<mrow> \amp = 2x^2+5x-3</mrow></md></p></solution></example>
+
+<warning><p>In Example 9, the following second step is <m>\alert{\text{incorrect}}</m>:	
+<me>4x^2+2x-5-2x^2-3x-2</me>
+because we have not changed the sign of <m>\alert{\text{each}}</m> term inside parentheses.</p></warning>
+
+<p>To use a vertical format for subtraction, we change the sign of each term in the bottom, or subtracted, polynomial.</p>
+
+<example><statement><p>Subtract <m>~2n^2-3n-2~</m> from <m>~4n^2+2n-5</m></p></statement>
+
+<solution><p>
+	<sidebyside><tabular>         
+                    <row>
+                        <cell><m>~~~~~~~~4n^2+2n-5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>~~~~~~~~~~4n^2+2n-5</m></cell></row>
+                    <row> 
+                        <cell><m>-~~\underline{(2n^2-3n-2)}</m></cell>
+                        <cell><m>\blert{\rightarrow~~\text{Change signs of each term.}~~\rightarrow}</m></cell>
+                        <cell><m>+~~~\underline{-2n^2+3n+2}</m></cell></row>
+                    <row>
+                    	<cell><m>\hphantom{0000}</m></cell>
+                    	<cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>~~~~~~~~~~2n^2+5n-3</m></cell></row>
+                    </tabular></sidebyside></p></solution></example>
+
+<reading-questions>
+    <exercise number="5"><statement><p>When subtracting two polynomials, what must we do before 
+	combining like terms?</p></statement>
+    <answer><p>Change the sign of each term in the subtracted polynomial.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Application</title>
+<p>Applied problems may involve addition or subtraction of polynomials. In particular, to calculate the profit it earns by selling its product, a company must subtract the cost of producing the goods from the revenue it earns by selling them. We can state this as a formula.</p>
+
+<assemblage><p><me>\blert{\text{Profit = Revenue - Cost}}</me></p></assemblage>
+
+<example><statement><p>It costs The Cookie Company <m>200+2x</m> dollars to produce <m>x</m> bags of cookies per week, and they earn <m>8x-0.01x^2</m> dollars from the sale of <m>x</m> bags of cookies.<ol label="a">
+<li>Write a polynomial for the profit earned by The Cookie Company on <m>x</m> bags of cookies.</li>
+<li>Find the company's profit on 300 bags of cookies, and on 600 bags.</li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><p>Applying the profit formula to this situation, we subtract polynomials to find
+	<md><mrow>\text{Profit} \amp =(8x-0.01x^2)-(200+2x) \amp \amp \blert{\text{Change signs of second polynomial.}}</mrow>
+		<mrow> \amp = 8x-0.01x^2-200-2x\amp \amp \blert{\text{Combine like terms.}}</mrow>
+		<mrow> \amp = -0.01x^2+6x-200</mrow></md></p></li>
+	<li><p>Evaluate the profit polynomial for <m>x=\alert{300}</m> and for <m>x=\blert{600}</m>. For 300 bags of cookies, the profit is
+		<me>-0.01(\alert{300})^2+6(\alert{300})-200 = -900+1800-200=700</me>
+	or $700. For 600 bags of cookies, the profit is
+		<me>-0.01(\blert{600})^2+6(\blert{600})-200 = -3600+3600-200=-200</me>
+	The company loses $200 if they produce 600 bags of cookies.</p></li></ol></p></solution></example>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p>Replace the comma in each pair by the proper symbol: <m>~\gt,~ \lt,~</m> or <m>~=</m>.</p></introduction>
+
+<exercise number="1"><statement><m>(-2)^3,~-2^3</m></statement>
+<answer><m>=</m></answer></exercise>
+
+<exercise number="2"><statement><m>-5^4,~(-5)^4</m></statement>
+<answer><m>\lt</m></answer></exercise>
+
+<exercise number="3"><statement><m>7-3^2,~4^2</m></statement>
+<answer><m>\lt</m></answer></exercise>
+
+<exercise number="4"><statement><m>2+4^3,~6^3</m></statement>
+<answer><m>\lt</m></answer></exercise>
+
+<exercise number="5"><statement><m>4 \cdot 2^3,~8^3</m></statement>
+<answer><m>\lt</m></answer></exercise>
+
+<exercise number="6"><statement><m>2 \cdot 5^2,~10^2</m></statement>
+<answer><m>\lt</m></answer></exercise>
+
+<exercise number="7"><statement><m>\dfrac{1}{2},~(\dfrac{1}{2})^2</m></statement>
+<answer><m>\gt</m></answer></exercise>
+
+<exercise number="8"><statement><m>\dfrac{3}{4},~(\dfrac{3}{4})^2</m></statement>
+<answer><m>\gt</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>
