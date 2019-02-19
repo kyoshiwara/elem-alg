@@ -6,11 +6,11 @@
 
     <xi:include href="./section-6-1.xml" />             
     <xi:include href="./section-6-2.xml" />            
-<!--    <xi:include href="./section-6-3.xml" />            
+    <xi:include href="./section-6-3.xml" />            
     <xi:include href="./section-6-4.xml" />            
     <xi:include href="./section-6-5.xml" />            
                      
     <xi:include href="./ch6rev.xml" />  
-        -->
+        
 </chapter>
 <!-- </book>  </mathbook> -->

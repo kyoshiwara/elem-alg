@@ -284,7 +284,7 @@
 	<li>What is the maximum height of the football? When does it reach this height?</li>
 	<li>When does the football fall back to the ground?</li></ol></p></statement></exercise>
 
-<exercise number="29"><statement><p>Sportsworld sells <m>180=3p</m> pairs of their name-brand running shoes per week when they charge <m>p</m> dollars per pair.<ol label="a">
+<exercise number="29"><statement><p>Sportsworld sells <m>180-3p</m> pairs of their name-brand running shoes per week when they charge <m>p</m> dollars per pair.<ol label="a">
 	<li>Write an equation for Sportsworld's revenue, <m>R</m>, in terms of <m>p</m>.</li>
 	<li><p>Fill in the table and graph the equation.
 	<sidebyside widths="50% 45%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
