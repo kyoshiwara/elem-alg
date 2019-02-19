@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Products-of-Polynomials" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Products of Polynomials</title>
+
+<subsection><title>Products of Powers</title>
+<p>Suppose we would like to multiply two powers together. For instance, consider the product <m>(x^3)(x^4)</m>,  which can be written as
+	<me>(x^3)(x^4)=xxx \cdot xxxx = x^7</me>
+because <m>x</m> occurs as a factor 7 times. We see that the number of <m>x</m>'s in the product is the sum of the number of <m>x</m>'s in each factor.</p>
+<p>On the other hand, if we'd like to multiply <m>x^3</m> times <m>y^4</m>, we cannot simplify the product because the two powers do not have the same base.
+	<me>(x^3)(y^4)=xxx \cdot yyyy = x^3y^4</me>
+These observations illustrate the following rule.</p>
+
+<assemblage><title>First Law of Exponents</title>
+<p>To multiply two powers with the same base, we add the exponents and leave the base unchanged. In symbols,
+	<me>a^m \cdot a^n = a^{m+n}</me></p></assemblage>
+
+<example><statement><p>In each product below, we keep the same base and add the exponents.<ol label="a" cols="2">
+	<li><m>x^2 \cdot x^6 = x^8</m></li>
+	<li><m>5^2 \cdot 5^5 = 5^8</m></li></ol></p></statement></example>
+
+<warning><p>Each product below is <m>\alert{\text{incorrect}}.</m>
+	<md><mrow> 3^4 \cdot 3^3 \amp \rightarrow 9^7  \amp \amp \blert{\text{The base does not change.The correct product is}~3^7.}</mrow> 
+		<mrow> t^3 \cdot t^5 \amp \rightarrow t^{15}  \amp \amp \blert{\text{We add the exponents.The correct product is}~t^8.}</mrow></md></p></warning>
+
+<reading-questions>
+    <exercise number="1"><statement><p><ol label="a">
+    	<li>How do we simplify the product of two powers with the same base?</li>
+		<li>How do we simplify the product of two powers with different bases?</li></ol></p></statement>
+    <answer><p><ol label="a">
+    	<li>We add the exponents and leave the base unchanged.</li>
+    	<li>We cannot simplify the product.</li></ol></p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Products of Monomials</title>
+<p>We can use the first law of exponents to multiply two monomials together.</p>
+
+<example><statement><p>Multiply  <m>~~(2x^2y)(5x^4y^3)</m></p></statement>
+
+<solution><p>We rearrange the factors to group together the numerical coefficients and the powers of each base.
+	<me>(2x^2y)(5x^4y^3) = (2)(5)~x^2x^4~yy^3</me>
+ We multiply the coefficients together, and use the first law of exponents to find the products of the variable factors.                               
+ <me>(2)(5)~x^2x^4~yy^3 = 10x^6y^4</me></p></solution></example>
+
+ <reading-questions>
+    <exercise number="2"><statement><p>Which law of algebra allows us to rearrange the factors in a product?
+</p></statement>
+    <answer><p>The associative law</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Multiplying by a Monomial</title>
+<p>To multiply a polynomial by a monomial, we use the distributive law.</p>
+
+<example><statement><p>Multiply  <m>~~-3xy^2(4x^2-2xy+2)</m></p></statement>
+
+<solution><p>We apply the distributive law to multiply each term of the polynomial by the monomial <m>-3xy^2</m>.
+	<md><mrow>-3xy^2(4x^2-2xy+2) \amp = -3xy^2(4x^2)-3xy^2(-2xy)-3xy^2(2)</mrow>
+		<mrow>\amp = -3 \cdot 4 \cdot x \cdot x^2 \cdot y^2 -3(-2) \cdot x \cdot x \cdot y^2 \cdot y-3 \cdot 2 \cdot xy^2</mrow>
+		<mrow> \amp = -12x^3y^2+6x^2y^3-6xy^2</mrow></md> 
+To simplify each term, we group together the coefficients and powers with the same base.</p></solution></example>
+
+<reading-questions>
+    <exercise number="3"><statement><p>Which algebraic law do we use when we multiply a polynomial by a monomial?
+</p></statement>
+    <answer><p>The distributive law</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Products of Polynomials</title>
+<p>In Chapter 5 we found the product of two binomials using the "FOIL" method, a special case of the distributive law. We can also use the distributive law to help us compute products of two or more polynomials.</p>  
+
+<example><statement><p>Multiply  <m>~~(2x-1)(3x^2-x+2)</m></p></statement>
+
+<solution><p>We multiply each term of the first polynomial by each term of the second polynomial. This involves six multiplications:  We first multiply each term of the trinomial by <m>2x</m>, then multiply each term by <m>-1</m>.
+	<md><mrow>(\blert{2x}\alert{-1})(3x^2-x+2) \amp = \blert{2x}(3x^2)+\blert{2x}(-x)+\blert{2x}(2)\alert{-1}(3x^2)\alert{-1}(-x)\alert{-1}(2)</mrow>
+		<mrow> \amp = 6x^3-2x^2+4x-3x^2+x-2 ~~~~~~ \blert{\text{Combine like terms.}}</mrow>
+		<mrow> \amp = 6x^3-5x^2+5x-2</mrow></md></p></solution></example>
+
+<reading-questions>
+    <exercise number="4"><statement><p>How many terms are there in the product of two trinomials?</p></statement>
+    <answer><p>Nine</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Look Closer</title>
+<p>f a product contains both polynomial and monomial factors, it is a good idea to multiply the polynomial factors together first, and save the monomial factor for last.</p></assemblage>
+
+<example><statement><p>Multiply  <m>~~2x(x+2)(3x-5)</m></p></statement>
+
+<solution><p>We begin by multiplying the binomial factors, <m>(x+2)(3x-5)</m>.
+	<md><mrow>2x[\blert{(x+2)(3x-5)}] \amp = 2x[\blert{3x^2-5x+6x-10}]</mrow>
+		<mrow> \amp = 2x(3x^2+x-10)</mrow></md> 
+Next we use the distributive law to multiply the result by <m>2x</m>.
+	<me>2x(3x^2+x-10) = 6x^3+2x^2-20x</me></p></solution></example>
+
+<reading-questions>
+    <exercise number="5"><statement><p>To compute the product <m>3a(a+6)(4a-1)</m>, which factors should we 
+	multiply first?</p></statement>
+    <answer><p>The binomial factors</p></answer></exercise>
+</reading-questions>
+
+<p>In a product of three or more polynomials, we start by multiplying together any two of the three factors.</p>
+
+<example><statement><p>Multiply  <m>~~(3a-1)(a+2)(2a-3)</m></p></statement>
+
+<solution><p>We begin by multiplying together the last two binomials, <m>(a+2)(2a-3)</m>.
+	<md><mrow>(3a-1)[\blert{(a+2)(2a-3)}] \amp = (3a-1)[\blert{2a^2-3a+4a-6}]</mrow>
+		<mrow> \amp = (3a-1)(2a^2+a-6)</mrow></md> 
+Now we use the distributive law to multiply each term of the trinomial by each term of the binomial, as shown in Example 4. 
+	<md><mrow>(3a-1)(2a^2+a-6) \amp = 6a^3+3a^2-18a-2a^2-a+6~~~~ \blert{\text{Combine like terms.}}</mrow>
+		<mrow> \amp = 6a^3+a^2-19a+6</mrow></md></p></solution></example>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p>Simplify.</p></introduction>
+
+<exercise number="1"><statement><m>3(b-4)-2b(3-2b)</m></statement>
+<answer><m>4^2-3b-12</m></answer></exercise>
+
+<exercise number="2"><statement><m>5x-2x(1-2x)-3(x-2)</m></statement>
+<answer><m>4x^2+6</m></answer></exercise>
+
+<exercise number="3"><statement><m>6+3[x-2x(x-4)]</m></statement>
+<answer><m>-6x^2+27x+6</m></answer></exercise>
+
+<exercise number="4"><statement><m>a-2[a-2(a-2)]</m></statement>
+<answer><m>3a-8</m></answer></exercise>
+
+<exercise number="5"><statement><m>4[-2(t-\dfrac{1}{2})(t-1)]</m></statement>
+<answer><m>-8t^2+12t-4</m></answer></exercise>
+
+<exercise number="6"><statement><m>5[-6(w+\dfrac{2}{3})(w-\dfrac{3}{2})]</m></statement>
+<answer><m>-30w^2+25w+30</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>
