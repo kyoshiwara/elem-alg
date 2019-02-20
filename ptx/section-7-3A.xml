@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="More-About-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Optional Extension</title>
+
+<subsection><title>A Property of Binomial Products</title>
+<p>If the coefficients in a quadratic trinomial <m>ax^2+bx+c</m> are not prime numbers, the guess-and-check method may be time-consuming. In that case, we can use another technique that depends upon the following property of binomial products.</p>
+
+<example><statement><p><ol label="a">
+	<li>Compute the product <m>(3t+2)(t+3)</m> using the area of a rectangle.</li>
+	<li>Verify that the products of the diagonal entries are equal.</li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><p>We construct a rectangle with sides <m>3t+2</m> and <m>t+3</m>, as shown below. We see that the product of the two binomials is 
+<sidebyside widths="60% 25%" margins="5% 10%" valigns="middle middle"><p><m>3t^2+9t+2t+6=3t^2+11t+6</m></p>
+	<tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>~~~~~t~~~~~</m></p></cell>
+            <cell  bottom="major"  ><m>~~~~3~~~~~</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>3t</m></cell>
+            <cell  bottom="major" right="major" ><m>3t^2</m></cell>
+            <cell  bottom="major" right="major"  ><m>9t</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>2</m></cell>
+            <cell  bottom="major" right="major" ><m>2t</m></cell>
+            <cell  bottom="major" right="major" ><m>6</m></cell>
+        </row>
+    </tabular></sidebyside></p></li>
+    <li><p>Now let's compute the product of the expressions along each diagonal of the rectangle: 
+    	<me>3t^2 \cdot 6 = 18t^2~~~~~~\text{and}~~~~~~9t \cdot 2t = 18t^2</me>    
+    The two products are equal. This is not surprising when you think about it, because each diagonal product is the product of all four terms of the binomials, namely <m>3t,~2,~t,</m> and <m>3</m>, just multiplied in a different order. You can see where the diagonal entries came from in our example:
+    	<md><mrow>18t^2 \amp = 3t^2 \cdot 6 =3t \cdot t \cdot 2 \cdot 3</mrow> 
+    		<mrow>18t^2 \amp = 9t \cdot 2t =3t \cdot 3 \cdot 2 \cdot t</mrow></md></p></li></ol></p></solution>
+</example>
+
+<assemblage><title>Product of Binomials</title>
+<p>When we represent the product of two binomials by the area of a rectangle, the products of the entries on the two diagonals are equal.</p></assemblage>
+
+<reading-questions>
+    <exercise number="1"><statement><p>In Example 1, why are the products on the two diagonals equal?</p></statement>
+    <answer><p>Each is the product of all four terms of the binomials.</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Look Ahead</title>
+<p>We can use rectangles to help us factor quadratic trinomials. Recall that factoring is the opposite or reverse of multiplying, so we must first understand how multiplication works.</p></assemblage>  
+
+<assemblage><title>Look Closer</title>
+<p>Look carefully at the rectangle for the product</p>
+<sidebyside widths="60% 25%" margins="5% 10%" valigns="middle middle"><p><me>(3x+4)(x+2)=3x^2+10x+8</me>
+Shown at right.</p>
+	<tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"  ><m>~~~~2~~~~~</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>3x</m></cell>
+            <cell  bottom="major" right="major" ><m>3x^2</m></cell>
+            <cell  bottom="major" right="major"  ><m>6x</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>4</m></cell>
+            <cell  bottom="major" right="major" ><m>4x</m></cell>
+            <cell  bottom="major" right="major" ><m>8</m></cell>
+        </row>
+    </tabular></sidebyside><p><ul>
+    <li>The quadratic term of the product, <m>3x^2</m>, appears in the upper left sub-rectangle.</li>  
+	<li>The constant term of the product, 8, appears in the lower right sub-rectangle.</li>  
+	<li>The linear term, <m>10x</m>, is the sum of the other two sub-rectangles.</li></ul></p></assemblage>
+</subsection>
+
+<subsection><title>Factoring Quadratic Trinomials by the Box Method</title>
+<p>Now we'll factor the trinomial
+	<me>3x^2+10x+8</me>
+We'll try to reverse the steps for multiplication. Instead of starting with the factors on the outside of the rectangle, we begin by filling in the areas of the sub-rectangles.</p>
+
+<sidebyside widths="55% 25%" margins="0% 20%" valigns="middle middle">
+<p>Step 1	  The quadratic term, goes in the upper left, and the constant term, 8, goes in the lower right, as shown in the figure.</p>
+  
+<tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>\hphantom{0000}</m></p></cell>
+            <cell  bottom="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>3x^2</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>8</m></cell>
+        </row>
+    </tabular></sidebyside>
+
+<p>	What about the other two entries?  We know that their sum must be <m>10x</m>, but we don't know what expressions go in each! This is where we use our observation that the products on the two diagonals are equal.</p>
+
+<p>Step 2	  We compute the product of the entries on the first diagonal:
+	<me>D=3x^2 \cdot 8 = 24x^2</me>
+The product of the entries on the other diagonal must also be <m>24x^2</m>. We now know two things about those entries:
+	<md><mrow> \amp \text {1. Their product is}~~24x^2~~\text{and}</mrow>
+		<mrow> \amp \text {2. Their sum is}~~10x</mrow></md></p> 
+
+<p>Step 3	  To find the two unknown entries, we list all the ways to factor <m>D=24x^2</m>, then choose the factors whose sum is <m>10x</m>. </p>
+
+<sidebyside><tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
+                    <row>
+                        <cell>Factors of </cell>
+                        <cell><m>D=24x^2</m></cell>
+                        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
+                    <row> 
+                        <cell><m>x</m></cell>
+                        <cell><m>24x</m></cell>
+                        <cell><m>\hphantom{0000}x+24x=25x</m></cell></row>
+                    <row> 
+                        <cell><m>2x</m></cell>
+                        <cell><m>12x</m></cell>
+                        <cell><m>\hphantom{0000}2x+12x=24x</m></cell></row>
+                    <row> 
+                        <cell><m>3x</m></cell>
+                        <cell><m>8x</m></cell>
+                        <cell><m>\hphantom{0000}3x+8x=11x</m></cell></row>
+                    <row> 
+                        <cell><m>\blert{4x}</m></cell>
+                        <cell><m>\blert{6x}</m></cell>
+                        <cell><m>\hphantom{0000}\blert{4x+6x=10x}</m></cell></row>
+                    </tabular></sidebyside>
+
+<sidebyside widths="65% 25%" margins="0% 10%" valigns="middle middle">
+<p>Step 4	  We see that the last pair of factors, <m>4x</m> and <m>6x</m>, has a sum of <m>10x</m>. We enter these factors in the remaining sub-rectangles. (It doesn't matter which one goes in which spot.) We now have all the sub-rectangles filled in, as shown at right.</p>
+
+<tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>\hphantom{0000}</m></p></cell>
+            <cell  bottom="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}3x^2\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{00}4x\hphantom{00}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}6x\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}8\hphantom{00}</m></cell>
+        </row>
+    </tabular></sidebyside>
+
+<p>Finally, we work backwards to discover what length and width produce the areas of the four subrectangles.</p>   
+
+<p>Step 5	  We factor each row of the rectangle, and write the factors on the outside. Start with the top row, factoring out <m>x</m> and writing the result, <m>3x+4</m>, at the top, as shown at right.  We get the same result when we factor <m>2</m> from the bottom row.</p> 
+
+<sidebyside widths="65% 25%" margins="0% 5%" valigns="middle middle">
+<p>The final rectangle is shown at right, and the factors of <m>3x^2+10x+8</m> appear as the length and width of the rectangle. Our factorization is thus
+	<me>3x^2+10x+8=(x+2)(3x+4)</me></p> 
+
+<tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>3x</m></p></cell>
+            <cell  bottom="major"  ><m>4</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>x</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}3x^2\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{00}4x\hphantom{00}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>2</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}6x\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}8\hphantom{00}</m></cell>
+        </row>
+    </tabular></sidebyside>
+
+<reading-questions>
+    <exercise number="1"><statement><p>Which terms of the quadratic trinomial go into the upper left and lower 
+	right sub-rectangles of the box?</p></statement>
+    <answer><p>The quadratic and constant terms</p></answer></exercise>
+    <exercise number="2"><statement><p>Why do we list the possible factors of <m>D</m>?</p></statement>
+    <answer><p>To see which sum of factors equals the linear term</p></answer></exercise>
+</reading-questions> 
+
+<example><statement><p>Factor <m>~~2x^2-11x+15</m></p></statement>
+
+<solution><sidebyside widths="70% 20%" margins="0% 10%" valigns="middle middle">
+	<p>Step 1	Enter <m>2x^2</m> and <m>15</m> on the diagonal of the rectangle, as shown in the figure.</p>
+
+<tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>\hphantom{0000}</m></p></cell>
+            <cell  bottom="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>2x^2</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>15</m></cell>
+        </row>
+    </tabular></sidebyside>
+<p>Step 2	Compute the diagonal product:
+		<me>D=2x^2 \cdot 15 = 30x^2</me></p>
+<p>Step 3	List all possible factors of <m>D</m>, and compute the sum of each pair of 
+			factors.  (Note that both factors must be negative.)</p>
+
+	<sidebyside><tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
+                    <row>
+                        <cell>Factors of </cell>
+                        <cell><m>D=30x^2</m></cell>
+                        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
+                    <row> 
+                        <cell><m>-x</m></cell>
+                        <cell><m>-3024x</m></cell>
+                        <cell><m>\hphantom{0000}-x-30x=-31x</m></cell></row>
+                    <row> 
+                        <cell><m>-2x</m></cell>
+                        <cell><m>-15x</m></cell>
+                        <cell><m>\hphantom{0000}-2x-15x=-17x</m></cell></row>
+                    <row> 
+                        <cell><m>-3x</m></cell>
+                        <cell><m>-10x</m></cell>
+                        <cell><m>\hphantom{0000}-3x-10x=-13x</m></cell></row>
+                    <row> 
+                        <cell><m>\blert{-5x}</m></cell>
+                        <cell><m>\blert{-6x}</m></cell>
+                        <cell><m>\hphantom{0000}\blert{-5x-6x=-11x}</m></cell></row>
+                    </tabular></sidebyside>
+<sidebyside widths="65% 25%" margins="0% 10%" valigns="middle middle"><stack>
+    <p>The correct factors are <m>-5x</m> and <m>-6x</m>.</p>
+    <p>Step 4	Enter the factors <m>-5x</m> and <m>-6x</m> into the rectangle.</p></stack> 
+<tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>\hphantom{0000}</m></p></cell>
+            <cell  bottom="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}2x^2\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{00}-6x\hphantom{00}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}-5x\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}15\hphantom{00}</m></cell>
+        </row>
+    </tabular></sidebyside>
+<p>Step 5	Factor <m>2x</m> from the top row of the rectangle, and write the result, <m>x-3</m>, at the top, as shown below.</p>
+
+<sidebyside widths="50% 50%" valigns="middle middle">
+
+<tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>x</m></p></cell>
+            <cell  bottom="major"  ><m>-3</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>2x</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}2x^2\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{00}-6x\hphantom{00}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}-5x\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}15\hphantom{00}</m></cell>
+        </row>
+    </tabular>
+
+<tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>x</m></p></cell>
+            <cell  bottom="major"  ><m>-3</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>2x</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}2x^2\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{00}-6x\hphantom{00}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>-5</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}-5x\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}15\hphantom{00}</m></cell>
+        </row>
+    </tabular></sidebyside> 
+
+<p>Finally, factor <m>x-3</m> from the bottom row, and write the result, <m>-5</m>, on the left. The correct factorization is
+	<me>2x^2-11x+15=(2x-5)(x-3)</me></p></solution></example>
+
+<reading-questions>
+    <exercise number="3"><statement><p>What do we do after we have filled in all the sub-rectangles of the box?
+</p></statement>
+    <answer><p>Factor the rows</p></answer></exercise>
+    <exercise number="4"><statement><p>Where do the factors of the quadratic trinomial appear?</p></statement>
+    <answer><p>As the length and width of the rectangle</p></answer></exercise>
+</reading-questions>
+
+<p>Here is a summary of our factoring method.</p>
+
+<assemblage><title>To Factor <m>~ax^2+bx+c~</m> Using the Box Method</title>
+<p><ol label="1">
+	<li>Write the quadratic term <m>ax^2</m> in the upper left sub-rectangle, and the 
+	constant term <m>c</m> in the lower right.</li>
+	<li>Multiply these two terms to find the diagonal product, <m>D</m>.</li>
+	<li>List all possible factors <m>px</m> and <m>qx</m> of <m>D</m>, and choose the pair whose sum 
+	is the linear term, <m>bx</m>, of the quadratic trinomial.</li>
+	<li>Write the factors <m>px</m> and <m>qx</m> in the remaining sub-rectangles.</li>
+	<li>Factor each row of the rectangle, writing the factors on the outside.  
+	These are the factors of the quadratic trinomial.</li></ol></p></assemblage>
+
+</subsection>
+</section>

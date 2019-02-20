@@ -148,5 +148,38 @@
 	<li>Find three values of <m>x</m> for which the product is equal to zero.</li></ol></p></statement>
 <answer></answer></exercise>
 
+<exercise number="32"><statement><p>Simplify mentally, without using paper, pencil, or calculator.
+<ol label="a" cols ="3">
+	<li><m>10^3(8 \cdot 10^4)</m></li>
+	<li><m>(3 \cdot 10^2)(2 \cdot 20^2)</m></li>
+	<li><m>(3.3 \cdot 10^2)(2 \cdot 10^2)</m></li></ol></p></statement></exercise>
+
+<exercise number="33"><statement><p>The sum of two numbers is 16.<ol label="a">
+	<li>If one of the numbers is <m>n</m>, write an expression for the other number.</li>
+	<li>Write a polynomial for the product of the two numbers.</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="34"><statement><p>A large wooden box is 3 feet longer than it is wide, and its height is 2 feet shorter than its width.<ol label="a">
+	<li>If the width of the box is <m>w</m>, write expressions for its length and its height.</li>
+	<li>Write a polynomial for the volume of the box.</li>
+	<li>Write a polynomial for the surface area of the box.</li></ol></p></statement></exercise>
+
+<exercise number="35"><statement><p>If you count by even numbers, such as 6, 8, 10, et cetera, you are listing consecutive even integers.<ol label="a">
+	<li>If your first even integer is <m>n</m>, what is the next even integer?</li>
+	<li>What is the next even integer after that?</li>
+	<li>Write a polynomial for the product of the three even integers in parts (a) and (b).</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercisegroup cols="3"><introduction><p>In Lesson 7.3 we'll use rectangles to factor quadratic trinomials.  Problems 36-38 review representing a product as the area of a rectangle.<ol label="a">
+	<li>Compute each product.</li>
+	<li>Illustrate each product as the area of a rectangle.</li></ol></p></introduction>
+
+<exercise number="36"><statement><p><m>(3y+4)(y+2)</m></p></statement></exercise>
+
+<exercise number="37"><statement><p><m>(2w-6)(4w+3)</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="38"><statement><p><m>(3t+5)(2t+3)</m></p></statement></exercise>
+</exercisegroup>
 
 </exercises>
