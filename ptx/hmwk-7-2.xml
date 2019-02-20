@@ -38,23 +38,85 @@
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For the rectangles in Problems 7<ndash/>8 find <ol label="a" cols="2">
-	<li>the perimeter,</li>
-	<li>the area.</li></ol></p></introduction>
+    <li>the perimeter,</li>
+    <li>the area.</li></ol></p></introduction>
 
-<exercise number="7"><statement><sidebyside width="50%"><image source="images/hp-7-2-7.png"><description>rectangle</description></image></sidebyside></statement>
+<exercise number="7"><statement><sidebyside width="50%"><!--<image source="images/hp-7-2-7.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-7-2-7">
+        <description>square</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \draw[magenta!90!black, line width=1mm] (0,0) rectangle ++(2.6,2.6);
+        \node[right] at (2.6,1.3) {$12w^5$};
+        \node[below] at (1.3,0) {$12w^5$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer></answer></exercise>
 
-<exercise number="8"><statement><sidebyside width="70%"><image source="images/hp-7-2-8.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+<exercise number="8"><statement><sidebyside width="80%"><!--<image source="images/hp-7-2-8.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-7-2-8">
+        <description>rectangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.8]
+        \draw[magenta!90!black, line width=1mm] (0,0) rectangle ++(6.5,2.);
+        \node[right] at (6.5,1.) {$4t^6$};
+        \node[below] at (3.25,0) {$13t^6$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>10, <ol label="a">
-	<li>Write a product (length <m>\times</m> width) for the area of the rectangle.</li>
-	<li>Use the distributive law to compute the product.</li></ol></p></introduction>
+    <li>Write a product (length <m>\times</m> width) for the area of the rectangle.</li>
+    <li>Use the distributive law to compute the product.</li></ol></p></introduction>
 
-<exercise number="9"><statement><sidebyside width="80%"><image source="images/hp-7-2-9.png"><description>rectangle</description></image></sidebyside></statement>
+<exercise number="9"><statement><sidebyside width="80%"><!--<image source="images/hp-7-2-9.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-7-2-9">
+        <description>rectangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.8]
+        \draw[magenta!90!black, line width=1mm] (0,0) rectangle ++(6,2.);
+        \draw[magenta!90!black, line width=1mm] (4.6,0) --++(0,2);
+        \node[above] at (2.3,2) {$5a$};
+        \node[above] at (5.3,2) {$3$};
+        \node[left] at (0,1) {$2a$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer></answer></exercise>
 
-<exercise number="10"><statement><sidebyside width="80%"><image source="images/hp-7-2-10.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+<exercise number="10"><statement><sidebyside width="80%"><!--<image source="images/hp-7-2-10.png"><description>rectangle</description></image>-->
+    <image xml:id="hp-7-2-10">
+        <description>rectangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.8]
+        \draw[magenta!90!black, line width=1mm] (0,0) rectangle ++(6,2.);
+        \draw[magenta!90!black, line width=1mm] (1.6,0) --++(0,2);
+        \draw[magenta!90!black, line width=1mm] (3.8,0) --++(0,2);
+        \node[above] at (0.8,2) {$2x$};
+        \node[above] at (2.7,2) {$-5$};
+        \node[above] at (4.9,2) {$y$};
+        \node[left] at (0,1) {$3xy$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 11<ndash/>14, simplify each expression if possible. If it cannot be simplified, say so.</p></introduction>

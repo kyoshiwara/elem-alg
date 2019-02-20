@@ -113,7 +113,7 @@ Now we use the distributive law to multiply each term of the trinomial by each t
 		<mrow> \amp = 6a^3+a^2-19a+6</mrow></md></p></solution></example>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-7-2"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Simplify.</p></introduction>
 
@@ -136,6 +136,9 @@ Now we use the distributive law to multiply each term of the trinomial by each t
 <answer><m>-30w^2+25w+30</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-7-2">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-7-2.xml" />
 </section>
