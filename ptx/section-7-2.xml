@@ -14,7 +14,7 @@ These observations illustrate the following rule.</p>
 
 <assemblage><title>First Law of Exponents</title>
 <p>To multiply two powers with the same base, we add the exponents and leave the base unchanged. In symbols,
-	<me>a^m \cdot a^n = a^{m+n}</me></p></assemblage>
+	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p></assemblage>
 
 <example><statement><p>In each product below, we keep the same base and add the exponents.<ol label="a" cols="2">
 	<li><m>x^2 \cdot x^6 = x^8</m></li>

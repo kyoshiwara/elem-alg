@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="More-About-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>More About Factoring</title>
+
+<subsection><title>Quotients of Powers</title>
+<p>We can reduce a fraction by dividing numerator and denominator by any common factors.  For example,
+	<me>\dfrac{10}{15} = \dfrac{2 \cdot 5}{3 \cdot 5} = \dfrac{2}{3}</me>
+We first factored the numerator and denominator of the fraction and then canceled the 5's by dividing.  We can apply the same technique to quotients of powers.</p>
+
+<example><statement><p>Simplify.<ol label="a" cols="2">
+	<li><m> \dfrac{a^5}{a^3}</m></li>
+	<li><m>\dfrac{a^4}{a^8}</m></li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><p>We first write the numerator and denominator in factored form. Then we divide any common factors from the numerator and denominator.
+		<me>\dfrac{a^5}{a^3} = \dfrac{a\cdot a\cdot a\cdot a\cdot a}{a\cdot a\cdot a} = \dfrac{a^2}{1} = a^2</me>
+	You may observe that the exponent of the quotient can be obtained by subtracting the exponent of the denominator from the exponent of the numerator. In other words,
+		<me>\dfrac{a^5}{a^3}= a^{5-3} = a^2</me></p></li>
+	<li><p>In this quotient, the larger power occurs in the denominator.
+		<me>\dfrac{a^4}{a^8} = \dfrac{a\cdot a\cdot a\cdot a}{a\cdot a\cdot a\cdot a\cdot a\cdot a\cdot a \cdot a} = \dfrac{1}{a^4} </me>
+	We see that we can subtract the exponent of the numerator from the exponent of the denominator. That is,
+		<me>\dfrac{a^4}{a^8}=\dfrac{1} {a^{8-4}} = \dfrac{1}{a^4}</me></p></li></ol></p></solution></example>
+
+<p>These examples suggest the following property.</p>
+
+<assemblage><title>Second Law of Exponents</title>
+<p>To divide two powers with the same base, we subtract the smaller exponent from the larger one, and keep the same base.<ol label="1">
+<li>If the larger exponent occurs in the numerator, put the power in the numerator.</li>
+<li>If the larger exponent occurs in the denominator, put the power in the denominator.</li></ol></p>
+<p>In symbols,<ol label="1">
+		<li><m>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~~~\text{if}~~~~n \lt m}</m></li>      	
+		<li><m>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~~~\text{if}~~~~n \gt m}</m></li></ol></p></assemblage>
+				      
+<reading-questions>
+    <exercise number="1"><statement><p>In a quotient of powers, how do we know whether the new power appears 
+	in the numerator or the denominator?</p></statement>
+    <answer><p>By which has the larger exponent</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Quotients of Monomials</title>
+<p>To divide one monomial by another, we apply the second law of exponents to the powers of each variable.</p>
+
+<example><statement><p>Divide <m>~~\dfrac{3x^2y^4}{6x^3y}</m></p></statement>
+
+<solution><p>We consider the numerical coefficients and the powers of each base separately.  We use the second law of exponents to simplify each quotient of powers.
+	<md><mrow>\dfrac{3x^2y^4}{6x^3y} \amp = \dfrac{3}{6} \cdot \dfrac{x^2}{x^3} \cdot \dfrac{y^4}{y} \amp \amp \blert{\text{Subtract exponents on each base.}}</mrow>
+		<mrow> \amp = \dfrac{1}{2} \cdot \dfrac{1}{x^{3-2}} \cdot y^{4-1}</mrow>
+		<mrow> \amp = \dfrac{1}{2} \cdot \dfrac{1}{x} \cdot \dfrac{y^3}{1}=\dfrac{y^3}{2x} \amp \amp \blert{\text{Multiply factors.}}</mrow></md></p></solution></example>
+</subsection>
+
+<subsection><title>Greatest Common Factors</title>
+<p>Now we consider several techniques for factoring polynomials. The first of these is factoring out the <term>greatest common factor</term> (GCF).</p>
+
+<assemblage><p>The <term>greatest common factor</term> (GCF) is the largest factor that divides evenly into each term of the polynomial: the largest numerical factor and the highest power of each variable.</p></assemblage>
+
+<example><statement><p>Find the greatest common factor for <m>~~4a^3b^2+6ab^3-18a^2b^4</m></p></statement>
+
+<solution><p>The largest integer that divides evenly into all three coefficients is 2. The highest power of <m>a</m> is <m>a^1</m>, and the highest power of <m>b</m> is <m>b^2</m>. Thus, the GCF is <m>2ab^2</m>. Note that the exponent on each variable of <m>2ab^2</m> is the smallest exponent that appears on that variable among the terms of the polynomial.</p></solution></example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>The exponent on each variable of the GCF is the <fillin characters="6"/> exponent that appears on that variable among the terms of the polynomial.</p></statement>
+    <answer><p>smallest</p></answer></exercise>
+</reading-questions> 
+
+<p>Once we have found the greatest common factor for the polynomial, we can write each term as a product of the GCF and another factor. For example, the GCF of <m>8x^2-6x</m> is <m>2x</m>, and we can write
+	<me>8x^2-6x = \blert{2x} \cdot 4x - \blert{2x} \cdot 3</me>
+We can then use the distributive law to write the expression on the right side as a product.
+	<me>\blert{2x} \cdot 4x - \blert{2x} \cdot 3 = \blert{2x} (4x-3)</me>
+We say that we have factored out the greatest common factor from the polynomial.</p>
+
+<p>For more complicated polynomials, we can divide the GCF into each term to find the remaining factors.</p>
+
+<example><statement><p>Factor <m>~~4a^3b^2+6ab^3-18a^2b^4</m></p></statement>
+
+<solution><p>The GCF for this polynomial is <m>2ab^2</m>, as we saw in Example 3. We factor out the GCF from each term and write the polynomial as a product,
+	<me>2ab^2(\hphantom{0000000000})</me>
+To find the factor inside parentheses, we divide each term of the polynomial by the GCF.
+	<me>\dfrac{4a^3b^2}{2ab^2}=\blert{2a^2},~~~~\dfrac{6ab^3}{2ab^2}=\blert{3b},~~~\dfrac{-18a^2b^4}{2ab^2}=\blert{-9ab^2}</me>
+We apply the distributive law to factor <m>2ab^2</m> from each term.
+	<md><mrow>4a^3b^2+6ab^3-18a^2b^4 \amp =2ab^2\cdot \blert{2a^2}+2ab^2 \cdot \blert{3b-}2ab^2 \cdot \blert{9ab^2}</mrow> 
+		<mrow> \amp = 2ab^2(2a^2+3b-9ab^2)</mrow></md></p></solution></example>
+
+<assemblage><title>Look Closer</title>
+<p>Sometimes the greatest common factor for a polynomial is not a monomial, but may instead have two or more terms.</p></assemblage>
+
+<example><statement><p>Factor <m>x^2(2x+1)-3(2x+1)</m></p></statement>
+
+<solution><p>The given expression has two terms, and <m>(2x+1)</m> is a factor of each. We factor out the entire binomial <m>(2x+1)</m>.
+	<me>x^2\blert{(2x+1)}-3\blert{(2x+1)} = \blert{(2x+1)} (x^2-3)</me></p></solution></example>
+</subsection>
+
+<subsection><title>Factoring Quadratic Trinomials by Guess-and-Check</title>
+<p>So far, we can factor quadratic trinomials of the form <m>x^2+bx+c=0</m>, where <m>a=1</m>. Recall that the factored form of <m>x^2+bx+c=0</m> looks like
+	<me>(x+p)(x+q)~~~~~~ \text{where}~~~pq=c ~~~ \text{and} ~~~p+q=b</me></p>
+
+<p>You may want to review the FOIL method discussed in Section 6.3.</p>
+
+<p>What if the coefficient of <m>a</m> is not 1? Sometimes, if the coefficients are small, we can factor a quadratic expression by the <term>guess-and-check</term> method.</p>
+
+<example><statement><p>Factor <m>~2x^2-7x+3~</m>  into a product of two binomials.</p></statement>
+
+<solution><p>We begin by factoring the quadratic term, <m>2x^2</m>, which can only be factored as <m>x</m> times <m>2x</m>, so we can fill in the First terms in each binomial.                 
+	<me>2x^2-7x+3 = (2x<fillin characters="6"/>)(x<fillin characters="6"/>)</me>
+Next, we factor the constant term, <m>3</m>, which can only be factored as 3 times 1. Because the linear term is negative, we make both factors negative: <m>3=-3(-1)</m>. Finally, we have to decide which number appears as the Last term in each binomial. We check <m>O+I</m> for each possibility.
+<md><mrow>(2x-3)(x-1)~~~~O+I \amp = -2x-3x=-5x</mrow>
+	<mrow>(2x-1)(x-3)~~~~\blert{O+I} \amp \blert{= -6x-x=-7x}</mrow></md>
+The second choice gives the correct middle term, so the factorization is
+	<me>2x^2-7x+3 = (2x-1)(x-3)</me></p></solution></example>
+
+<reading-questions>
+    <exercise number="3"><statement><p>When we factor a quadratic trinomial by the guess-and-check method, 
+	how do we check for the correct middle term?</p></statement>
+    <answer><p>We compute <m>O+I</m>.</p></answer></exercise>
+</reading-questions> 
+
+<p>	Remember that you can always check your factorization by multiplying the factors together.</p>
+</subsection>
+
+<subsection><title>Quadratic Trinomials in Two Variables</title>
+<p>So far, we have factored quadratic trinomials in one variable, that is, polynomials of the form
+	<me>ax^2+bx+c</me>
+The method we learned can also be used to factor trinomials in two variables of the form
+	<me>ax^2+bxy+cy^2</me>
+In this expression,  the first and last terms are quadratic terms, while the middle term is a cross-term consisting of the product of the two variables.</p>
+
+<example><statement><p>Factor <m>~x^2+5xy+6y^2~</m></p></statement>
+
+<solution><p>As usual, we begin by factoring the first term into <m>x</m> times <m>x</m>.
+	<me>x^2+5xy+6y^2 = (x + <fillin characters="6"/>)(x + <fillin characters="6"/>)</me>
+Next we look for factors of the last term, <m>6y^2</m>. In order to obtain the <m>xy</m>-term in the middle, we need a <m>y</m> in each factor. Thus the possibilities are
+	<me>y~~\text{and}~~6y~~~~~~~~\text{or}~~~~~~~~2y~~\text{and}~~3y</me>  
+We'll check the sum <m>O+I</m> for each possibility.
+	<md><mrow>(x+y)(x+6y)~~~~O+I \amp = 6xy+xy=7xy</mrow>
+	<mrow>(x+2y)(x+3y)~~~~\blert{O+I} \amp \blert{= 3xy+2xy=5xy}</mrow></md>
+The second possibility gives the correct middle term, so the factorization is
+	<me>x^2+5xy+6y^2 = (x+2y)(x+3y)</me></p></solution></example>
+</subsection>
+
+<subsection><title>Combining Factoring Techniques</title>
+<p>We should always begin factoring by checking to see if there is a common factor that can be factored out.</p>
+
+<example><statement><p>Factor completely  <m>~2b^3+8b^2+6b~</m></p></statement>
+
+<solution><p>We begin by factoring out the greatest common factor, <m>2b</m>.
+	<me>2b^3+8b^2+6b = 2b(b^2+4b+3)</me>
+The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be factored. We look for two numbers <m>p</m> and <m>q</m> so that <m>pq=3</m> and <m>p+q=4</m>. You can check that <m>p=3</m> and <m>q=1</m> will work.</p>  
+<p>Thus, <m>~~b^2+4b+3 = (b+3)(b+1)</m>, and
+	<me>2b^3+8b^2+6b = 2b(b+3)(b+1)</me></p></solution></example>
+
+<reading-questions>
+    <exercise number="4"><statement><p>What should always be the first step in factoring a polynomial?</p></statement>
+    <answer><p>Factor out any common factors.</p></answer></exercise>
+</reading-questions> 
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup ><introduction><p>Mental exercise: Find the other factor of each quadratic trinomial without using pencil, paper, or calculator.</p></introduction>
+
+<exercise number="1"><statement><m>b^2+8b-240 = (b-12)(<fillin characters="6"/>)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><m>n^2-97n-300 = (n-100)(<fillin characters="6"/>)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="3"><statement><m>3u^2-17u-6 = (u-6)(<fillin characters="6"/>)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><m>2t^2-21t+54 = (t-6)(<fillin characters="6"/>)</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+</exercises>
+</subsection>
+</section>		

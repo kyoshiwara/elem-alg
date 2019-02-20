@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 7.3A</title>
+
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, Use the given areas to find the length and width of each rectangle.</p></introduction>
+
+<exercise number="1"><statement>
+	<sidebyside><tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>\hphantom{0000}</m></p></cell>
+            <cell  bottom="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}6x^2\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{00}9x\hphantom{00}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}10x\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}15\hphantom{00}</m></cell>
+        </row>
+    </tabular></sidebyside></statement>
+ <answer></answer></exercise>
+
+<exercise number="2"><statement>
+	<sidebyside><tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>\hphantom{0000}</m></p></cell>
+            <cell  bottom="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}8t^2\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{00}-14t\hphantom{00}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}-12t\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}21\hphantom{00}</m></cell>
+        </row>
+    </tabular></sidebyside></statement></exercise>
+
+<exercise number="3"><statement>
+	<sidebyside><tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>\hphantom{0000}</m></p></cell>
+            <cell  bottom="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}12m^2\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{00}-10m\hphantom{00}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}30m\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}-25\hphantom{00}</m></cell>
+        </row>
+    </tabular></sidebyside></statement>
+ <answer></answer></exercise>
+
+ <exercise number="4"><statement>
+	<sidebyside><tabular halign="center">
+        <col />
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>\hphantom{0000}</m></p></cell>
+            <cell  bottom="major"  ><m>\hphantom{0000}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}9a^2\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major"  ><m>\hphantom{00}21a\hphantom{00}</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}-21a\hphantom{00}</m></cell>
+            <cell  bottom="major" right="major" ><m>\hphantom{00}-49\hphantom{00}</m></cell>
+        </row>
+    </tabular></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>10, use the box method to factor the quadratic trinomials.</p></introduction>
+
+<exercise number="5"><statement><p><m>2x^2-13x+18</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><p><m>5x^2+16x-16</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="7"><statement><p><m>6h^2+7h+2</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><p><m>9n^2-8n-1</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="9"><statement><p><m>6t^2-5t-25</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><p><m>5x^2-14x-24</m></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+</exercises>
