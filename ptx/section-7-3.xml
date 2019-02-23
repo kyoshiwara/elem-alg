@@ -161,16 +161,16 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 <exercisegroup ><introduction><p>Mental exercise: Find the other factor of each quadratic trinomial without using pencil, paper, or calculator.</p></introduction>
 
 <exercise number="1"><statement><m>b^2+8b-240 = (b-12)(<fillin characters="6"/>)</m></statement>
-<answer></answer></exercise>
+<answer><m>(b+20)</m></answer></exercise>
 
 <exercise number="2"><statement><m>n^2-97n-300 = (n-100)(<fillin characters="6"/>)</m></statement>
-<answer></answer></exercise>
+<answer><m>(n+3)</m></answer></exercise>
 
 <exercise number="3"><statement><m>3u^2-17u-6 = (u-6)(<fillin characters="6"/>)</m></statement>
-<answer></answer></exercise>
+<answer><m>(3u+1)</m></answer></exercise>
 
 <exercise number="4"><statement><m>2t^2-21t+54 = (t-6)(<fillin characters="6"/>)</m></statement>
-<answer></answer></exercise>
+<answer><m>(2t-9)</m></answer></exercise>
 </exercisegroup>
 </exercises>
 <solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-7-3">
