@@ -156,7 +156,7 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 </reading-questions> 
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-7-3"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup ><introduction><p>Mental exercise: Find the other factor of each quadratic trinomial without using pencil, paper, or calculator.</p></introduction>
 
@@ -173,5 +173,9 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 <answer><m>(2t-9)</m></answer></exercise>
 </exercisegroup>
 </exercises>
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-7-3">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-7-3.xml" />
 </section>		
