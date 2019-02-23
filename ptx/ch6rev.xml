@@ -340,7 +340,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
 <exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, find the unknown sides of the right triangle.</p></introduction>
 
 <exercise number="47"><statement><sidebyside width="40%"><!--<image source="images/cr6-47.png"><description>triangle</description></image>-->
-    <image xml:id="NAME">
+    <image xml:id="cr6-47">
         <description>triangle</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
@@ -348,7 +348,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
         }
 		\begin{tikzpicture}
 		\draw[blue,thick] (0,0) rectangle ++(-.25,-.25);
-		\draw[magenta!90!black, line width=1mm] (0,0)--(-2,0)--(0,-3)--(0,0);
+		\draw[magenta!90!black, line width=1mm] (0,0)--(-2,0)--(0,-3)--cycle;
 		\node[left] at (-1.1,-1.5) {$m+5$};
 		\node[right] at (0,-1.5) {$m$};
 		\node[above] at (-1,0) {$8$};
@@ -368,7 +368,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
         }
 		\begin{tikzpicture}
 		\draw[blue,thick] (0,0) rectangle ++(-.25,.25);
-		\draw[magenta!90!black, line width=1mm] (0,0)--(-3.2,0)--(0,2)--(0,0);
+		\draw[magenta!90!black, line width=1mm] (0,0)--(-3.2,0)--(0,2)--cycle;
 		\node[right] at (0,1) {$k-1$};
 		\node[below] at (-1.6,-0.1) {$k$};
 		\node[above left] at (-1.7,1) {$k+1$};

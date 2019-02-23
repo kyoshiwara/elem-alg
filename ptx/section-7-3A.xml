@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="More-About-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="Factoring-Optional-Extension" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Optional Extension</title>
 
 <subsection><title>A Property of Binomial Products</title>
@@ -350,4 +350,5 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 	These are the factors of the quadratic trinomial.</li></ol></p></assemblage>
 
 </subsection>
+<xi:include href="./hmwk-7-3A.xml" />
 </section>
