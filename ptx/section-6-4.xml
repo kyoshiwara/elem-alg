@@ -70,7 +70,7 @@ we set <m>y=0</m> and solve the equation
 		 \draw[cyan, very thick] (-2,\x)--++(8,0);
 		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
 		}
-		\draw[samples=65,domain={2-sqrt(10)}:{2+sqrt(10)},smooth,variable=\x,red, ultra thick] plot ({\x},{4-(\x-2)^2});
+		\draw[samples=65,domain={2-sqrt(10)}:{2+sqrt(10)},smooth,variable=\x,magenta!80!black, ultra thick, <->,>=stealth'] plot ({\x},{4-(\x-2)^2});
         \end{tikzpicture}]]>
     </latex-image>
     </image>
@@ -109,7 +109,7 @@ we set <m>y=0</m> and solve the equation
 		 \draw[cyan, very thick] (-2,\x)--++(8,0);
 		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
 		}
-		\draw[samples=65,domain={2-sqrt(10)}:{2+sqrt(10)},smooth,variable=\x,red, ultra thick] plot ({\x},{4-(\x-2)^2});
+		\draw[samples=65,domain={2-sqrt(10)}:{2+sqrt(10)},smooth,variable=\x,magenta!80!black, ultra thick, <->,>=stealth'] plot ({\x},{4-(\x-2)^2});
 		\draw[ultra thick, densely dashed,blue!90!black] (2,-6)--(2,6);
         \end{tikzpicture}]]>
     </latex-image>
