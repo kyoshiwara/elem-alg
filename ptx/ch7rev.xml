@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Ch7-Summary-and-Review"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Chapter 7 Summary and Review</title>
+
+<subsection><title>Lesson 7.1 Polynomials</title><p><ul>
+<li>A <term>polynomial</term> is a sum of terms, each of which is a power of a variable with a constant coefficient and a whole number exponent.</li> 
+<li>The <term>degree</term> of a polynomial in one variable is the largest exponent that appears in any term.</li>   
+<li><term>Like terms</term> are any terms that are exactly alike in their variable factors. The exponents on the variable factors must also match.</li>
+<li>To add two polynomials, we need only remove parentheses and combine like terms.</li>
+<li>To subtract polynomials, we change the sign of each term within parentheses, remove the parentheses, and combine like terms.</li>
+<li><assemblage><p><me>\blert{\text{Profit = Revenue - Cost}}</me></p></assemblage></li></ul></p></subsection>
+
+<subsection><title>Lesson 7.2 Products of Polynomials</title><p><ul>
+<li><assemblage><title>First Law of Exponents</title>
+<p>To multiply two powers with the same base, we add the exponents and leave the base unchanged. In symbols,
+	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p></assemblage></li>
+<li>We use the distributive law to compute products of two or more polynomials.</li></ul></p></subsection>
+
+<subsection><title>Lesson 7.3 More About Factoring</title><p><ul>
+<li><assemblage><title>Second Law of Exponents</title>
+<p>To divide two powers with the same base, we subtract the smaller exponent from the larger one, and keep the same base.<ol label="1">
+<li>If the larger exponent occurs in the numerator, put the power in the numerator.</li>
+<li>If the larger exponent occurs in the denominator, put the power in the denominator.</li></ol></p>
+<p>In symbols,<ol label="1">
+	<li><m>\blert{\dfrac{a^m}{a^n}= a^{m-n}~~~~~~\text{if}~~~~n \lt m}</m></li>      	
+	<li><m>\blert{\dfrac{a^m}{a^n}= \dfrac{1}{a^{n-m}}~~~~~~\text{if}~~~~n \gt m}</m></li></ol></p></assemblage></li>
+
+<li>The <term>greatest common factor</term> (GCF) is the largest factor that divides evenly into each term of the polynomial:  the largest numerical factor and the highest power of each variable.</li>
+<li>When we represent the product of two binomials by the area of a rectangle, the products of the entries on the two diagonals are equal.</li>
+
+<li><assemblage><title>To Factor <m>~ax^2+bx+c~</m> Using the Box Method</title>
+<p><ol label="1">
+	<li>Write the quadratic term <m>ax^2</m> in the upper left sub-rectangle, and the 
+	constant term <m>c</m> in the lower right.</li>
+	<li>Multiply these two terms to find the diagonal product, <m>D</m>.</li>
+	<li>List all possible factors <m>px</m> and <m>qx</m> of <m>D</m>, and choose the pair whose sum 
+	is the linear term, <m>bx</m>, of the quadratic trinomial.</li>
+	<li>Write the factors <m>px</m> and <m>qx</m> in the remaining sub-rectangles.</li>
+	<li>Factor each row of the rectangle, writing the factors on the outside.  
+	These are the factors of the quadratic trinomial.</li></ol></p></assemblage></li>
+
+<li>We should always begin factoring by checking to see if there is a common factor that can be factored out.</li>
+</ul></p></subsection>
+
+<subsection><title>Lesson 7.4 Special Products and Factors</title><p><ul>
+<li><assemblage><title>Squares of Binomials</title>
+<p><ol label="1">
+	<li><m>\blert{(a+b)^2=a^2+2ab+b^2}</m></li>
+	<li><m>\blert{(a-b)^2=a^2-2ab+b^2}</m></li></ol></p></assemblage></li>
+
+<li><assemblage><title>Difference of Two Squares</title>
+<p><me>\blert{(a+b)(a-b)=a^2-b^2}</me></p></assemblage>  </li>
+
+<li><assemblage><title>Special Factorizations</title>
+<p><ol label="1">
+	<li><m>\blert{a^2+2ab+b^2=(a+b)^2}</m></li>
+	<li><m>\blert{a^2-2ab+b^2=(a-b)^2}</m></li>
+	<li><m>\blert{a^2-b^2=(a+b)(a-b)}</m></li></ol></p></assemblage></li>
+
+<li><assemblage><title>Sum of Two Squares</title>	
+<p>	The sum of two squares, <m>~a^2+b^2~</m>, cannot be factored.</p></assemblage></li>
+</ul></p></subsection>
+
+<subsection><title>Review Questions</title>
+<p>Use complete sentences to answer the questions.<ol label = "1">
+
+<li>Explain why <m>\dfrac{x}{2}+3</m> is a polynomial but <m>\dfrac{2}{x}+3</m> is not a polynomial.</li>
+<li>A classmate says that <m>\sqrt{2}x^2+3\sqrt{2}x +1</m> is a polynomial, but another classmate disagrees. Who is correct? Explain.</li>
+<li>If a polynomial is written in descending powers of the variable and the first term has degree 5, what is the degree of the polynomial? Give an example.</li>
+<li>If a polynomial of degree3 is added to a polynomial of degree 2, what is the degree of the sum? Give an example.</li>
+<li>A classmate tells you that, depending on the binomials used, the sum of two binomials can have one, two, three, or four terms. Give an example of each.</li>
+<li>If a polynomial of degree 3 is multiplied by a polynomial of degree 2, what is the degree of the product? Give an example.</li>
+<li>How many terms are there in the square of a monomial? Of a binomial? Give examples.</li>
+<li><p>Which of the following can be factored? Give examples.<ol label="a" cols="2">
+	<li>sum of two squares</li>
+	<li>difference of two squares</li></ol></p></li>
+<li>Explain the difference between the sum of two squares and the square of a binomial. Give examples.</li>
+<li>When you are trying to factor a polynomial, what is the best way to start?</li></ol></p></subsection>
+
+<subsection><title>Review Problems</title>
+<exercises>
+
+<exercise number="1"><statement><p>Write the polynomial in descending powers of the variable and state the degree of the polynomial.<ol label="a" cols="2">
+	<li><m>1-\dfrac{x^2}{2}+\dfrac{x^4}{24}-\dfrac{x^6}{720}</m></li>
+	<li><m>10n^4+10^6n+10^8n^2</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><p>Which of the following are polynomials?
+<ol label="a" cols="2">
+	<li><m>-25y^{10}-1</m></li>
+	<li><m>\sqrt{3}x+2</m></li>
+	<li><m>\dfrac{4}{x^3}-\dfrac{3}{x^2}+\dfrac{1}{x}</m></li>
+	<li><m>t^4+5t^3-2\sqrt{t}+3</m></li></ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>8,  evaluate the polynomial for the given values of the variables.</p></introduction>
+
+<exercise number="3"><statement><m>-16t^2+50t+5~~~~\text{for}~~t=\dfrac{1}{2}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><m>\dfrac{1}{2}n^2+\dfrac{1}{2}n~~~~\text{for}~~n=100</m></statement></exercise>
+
+<exercise number="5"><statement><m>\dfrac{1}{6}z^3+\dfrac{1}{2}z^2+z+1~~~~\text{for}~~z=-1</m></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><m>p^4+4p^3+6p^2+4p+1~~~~\text{for}~~p=-2</m></statement></exercise>
+
+<exercise number="7"><statement><m>4x^2-12xy+9y^2~~~~\text{for}~~x=-3,~y=-2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><m>2R^2S~~~~\text{for}~~R=150,~S=0.01</m></statement></exercise>
+</exercisegroup>
+
+<exercise number="9"><statement><p>Write as a polynomial:  <m>~~~x(3x[2x(x-2)+1]-4)</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><p>Write as a polynomial:
+	<me>a^2(a-3)-2a(a^2+2a^3)+(a-2)(a-3)</me>
+</p></statement></exercise>
+
+<exercise number="11"><statement><p>Suppose you want to choose four items from a list of  possible items. The number of different ways you can make your choice is given by the polynomial
+	<me>\dfrac{1}{24}n^4-\dfrac{1}{4}n^3+\dfrac{11}{24}n^2-\dfrac{1}{4}n</me>
+<ol label="a">
+	<li>How many different sets of four compact disks can be chosen from a collection with 20 compact disks?</li>
+	<li>Of course you cannot choose four different items from a list of only 3 possible items.  What do you get when you evaluate the polynomial for <m>~n=3</m>?  <m>~n=2</m>?  <m>~n=1</m>?</li>
+	<li>Evaluate the polynomial for <m>~n=4~</m>. Explain why your answer makes sense in term of what the polynomial represents.</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p>The sum of the cubes of the first  counting numbers is given by
+	<me>\dfrac{n^4}{4}+\dfrac{n^3}{2}+\dfrac{n^2}{4}</me>
+   Find the sum of the cubes of the first five counting numbers.</p></statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 13<ndash/>14,  evaluate the polynomial for the given values of the variables.</p></introduction>
+
+<exercise number="13"><statement><m>8p^2q-3pq^2-2pq^2+p^2q</m></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><m>1.7m^3+2.6-0.3m-1.4m^2-1.2m^3+4.5m^2+1.1</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 15<ndash/>16,add or subtract the polynomials.</p></introduction>
+
+<exercise number="15"><statement><m>(4b^3+2b^2-3b+7)-(-2b+3-b^3-7b)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><m>(8w^6-5w^4-3w^2)+(2w^4-8w^2+4)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 17<ndash/>22, add or subtract the polynomials.</p></introduction>
+
+<exercise number="17"><statement><p><ol label="a">
+	<li><m>3x^2+x^2</m></li>
+	<li><m>3x^2\cdot x^2</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><ol label="a">
+	<li><m>5b^3-b^3</m></li>
+	<li><m>5b^3(-b^3)</m></li></ol></p></statement></exercise>
+
+<exercise number="19"><statement><p><ol label="a">
+	<li><m>7a^4+a^6</m></li>
+	<li><m>7a^4 \cdot a^6</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p><ol label="a">
+	<li><m>24^4-r^3</m></li>
+	<li><m>2r^4(-4^3)</m></li></ol></p></statement></exercise>
+
+<exercise number="21"><statement><p><ol label="a">
+	<li><m>\dfrac{3b^9}{9b^3}</m></li>
+	<li><m>\dfrac{9b^3}{3b^9}</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p><ol label="a">
+	<li><m>\dfrac{4m^8}{m^8}</m></li>
+	<li><m>\dfrac{m^4}{8m^4}</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 23<ndash/>24, multiply.</p></introduction>
+
+<exercise number="23"><statement><m>(5m^2n)(-6m^3n^2)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><m>-7qr^2(2q^4-1)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>26, divide.</p></introduction>
+
+<exercise number="25"><statement><m>\dfrac{-21x^4y^3}{3xy^3}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><m>\dfrac{3a^2b}{6a^4b^3}</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>32, multiply.</p></introduction>
+
+<exercise number="27"><statement><m>-2y(y-4)(y+3)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><m>6p^4(2p+1)(p-4)</m></statement></exercise>
+
+<exercise number="29"><statement><m>(d-2)(d^2-4d+4)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><m>(2k+1)(k-2)(k+3)</m></statement></exercise>
+
+<exercise number="31"><statement><m>9x^3y(4x-3y)^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="32"><statement><m>(a-3)^3</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 33<ndash/>44, add, subtract, multiply, or divide the polynomials as indicated.</p></introduction>
+
+<exercise number="33"><statement><m>(3a^2-4a-7)-(a^2-5a+2)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="34"><statement><m>(5ab^2+6a^2b)-(3ab^2+5ab)</m></statement></exercise>
+
+<exercise number="35"><statement><m>\dfrac{13c^d}{26c^3d}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="36"><statement><m>\dfrac{12m^4+4m}{4m}</m></statement></exercise>
+
+<exercise number="37"><statement><m>7q62(8-7q^2-q^4)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="38"><statement><m>2k^2(-3km)(m^3k)</m></statement></exercise>
+
+<exercise number="39"><statement><m>(9v+5w)(9v-5w)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="40"><statement><m>(x^2+1)^2</m></statement></exercise>
+
+<exercise number="41"><statement><m>-3p^2(p+2)(p-5)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="42"><statement><m>12rs^2(3r-s)(r+4s)</m></statement></exercise>
+
+<exercise number="43"><statement><m>(2x-3)(4x^2+6x+9)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="44"><statement><m>(3x+2)(3x+2)(3x+2)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For the rectangle in Problems 45<ndash/>48, find <ol label="a" cols="2">
+	<li>its perimeter,</li>
+	<li>its area.</li></ol></p></introduction>
+
+<exercise number="45"><statement>
+	<sidebyside width="50%"><image source="images/cr7-45.png"><description>rectangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="46"><statement>
+	<sidebyside width="45%"><image source="images/cr7-46.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+
+<exercise number="47"><statement>
+	<sidebyside width="65%"><image source="images/cr7-47.png"><description>rectangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="48"><statement>
+	<sidebyside width="65%"><image source="images/cr7-48.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercise number="49"><statement><p>Evaluate the expression below for <m>~~a=-6.3,~b=-4.8,~c=5.2</m>
+	<me>(4a-3b-2c)-(a+6b-5c)+(3a+9b-2c)</me></p></statement>
+<answer></answer></exercise>
+
+<exercise number="50"><statement><p>Write a polynomial for the volume of a box whose width is 10 centimeters less than its length, and 2 centimeters more than its height. Let <m>w</m> represent the width of the box.</p></statement></exercise>
+
+<exercise number="51"><statement><p>Nova cosmetics sells <m>140-2p</m> cans of styling mousse each month if they charge <m>p</m> dollars per can.<ol label="a">
+	<li>Write a polynomial for the company's monthly revenue from mousse.</li>
+	<li>Find the revenue if each can costs $4.</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="52"><statement><p>Newsday magazine surveyed 400 people on the question “Do you think the government is spending too much on defense?” They reported the following results: Of the college-educated respondents, 72% answered yes, and 48% of those without a college education answered yes. Suppose you would like to know how many of the 400 people surveyed answered yes. You will need to know how many of the 400 have a college education. Let <m>x</m> represent this unknown value. Write and simplify expressions in terms of  for each of the following.
+<ol label="a">
+	<li>How many of the people surveyed do not have a college education?</li>
+	<li>How many of the college-educated respondents answered yes?</li>
+	<li>How many of those without a college education answered yes?</li>
+	<li>How many people total answered yes?</li></ol></p></statement></exercise>
+
+<exercisegroup cols="3"><introduction><p>For Problems 53<ndash/>64, decide whether the expression is an equation or a polynomial. If it is an equation, solve it. If it is a polynomial, factor it.</p></introduction>
+
+<exercise number="53"><statement><m>2x^2+x-3=0</m></statement>
+<answer></answer></exercise>
+
+<exercise number="54"><statement><m>a^2-9</m></statement></exercise>
+
+<exercise number="55"><statement><m>2x^2+x-3</m></statement>
+<answer></answer></exercise>
+
+<exercise number="56"><statement><m>a^2=9</m></statement></exercise>
+
+<exercise number="57"><statement><m>2x^2+x=0</m></statement>
+<answer></answer></exercise>
+
+<exercise number="58"><statement><m>a-9=0</m></statement></exercise>
+
+<exercise number="59"><statement><m>2x+3=0</m></statement>
+<answer></answer></exercise>
+
+<exercise number="60"><statement><m>a^2=9a</m></statement></exercise>
+
+<exercise number="61"><statement><m>2x^3-2x</m></statement>
+<answer></answer></exercise>
+
+<exercise number="62"><statement><m>a^4-16</m></statement></exercise>
+
+<exercise number="63"><statement><m>p^3-p=0</m></statement>
+<answer></answer></exercise>
+
+<exercise number="64"><statement><m>n(n-3)(n+3)=0</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 65<ndash/>68, factor out the greatest common factor.
+</p></introduction>
+
+<exercise number="65"><statement><m>12x^5-8x^4+20x^3</m></statement>
+<answer></answer></exercise>
+
+<exercise number="66"><statement><m>9a^4b^2+6a^3b^3-3a^2b^4</m></statement></exercise>
+
+<exercise number="67"><statement><m>30w^9-42w^4+54w^8</m></statement>
+<answer></answer></exercise>
+
+<exercise number="68"><statement><m>45x^2y^2+18x^2y^3-27x^3y^3</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 69<ndash/>71, factor out a negative monomial.</p>
+</introduction>
+
+<exercise number="69"><statement><m>-10d^4+20d^3-5d^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="70"><statement><m>-6m^3n-18m^2n+6mn</m></statement></exercise>
+
+<exercise number="71"><statement><m>-vw^5-vw^4+vw^2</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 72<ndash/>74, factor out the common binomial factor.</p>
+</introduction>
+
+<exercise number="72"><statement><m>7q(q-3)-(q-3)</m></statement></exercise>
+
+<exercise number="73"><statement><m>-r^2(3r+2)+4(3r+2)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="74"><statement><m>5(x-2)-x^2(x-2)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 75<ndash/>90, factor completely.</p>
+</introduction>
+
+<exercise number="75"><statement><m>3z^2-12z</m></statement>
+<answer></answer></exercise>
+
+<exercise number="76"><statement><m>-4x^3y+8x^2y-4xy</m></statement></exercise>
+
+<exercise number="77"><statement><m>a^4+10a^2+25</m></statement>
+<answer></answer></exercise>
+
+<exercise number="78"><statement><m>4x^8-64</m></statement></exercise>
+
+<exercise number="79"><statement><m>2a^2b^6+32a^6b^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="80"><statement><m>4p^2q^4+32p^3q^3+64p^4q^2</m></statement></exercise>
+
+<exercise number="81"><statement><m>-2a^4b-4a^3b^2+30ab^3</m></statement>
+<answer></answer></exercise>
+
+<exercise number="82"><statement><m>15r^3s+39r^2s^3-18rs^4</m></statement></exercise>
+
+<exercise number="83"><statement><m>2q^4+6q^3-80q^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="84"><statement><m>32-b^4-14b^2</m></statement></exercise>
+
+<exercise number="85"><statement><m>x^2-3xy+2y^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="86"><statement><m>y^2-3by-28b^2</m></statement></exercise>
+
+<exercise number="87"><statement><m>3a^2b+12ab^2+9b^3</m></statement>
+<answer></answer></exercise>
+
+<exercise number="88"><statement><m>80t^4-28t^3-24t^2</m></statement></exercise>
+
+<exercise number="89"><statement><m>9x^2y^2+3xy-2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="90"><statement><m>4a^3x-2a^2x^2-12ax^3</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 91<ndash/>98, factor if possible.</p>
+</introduction>
+
+<exercise number="91"><statement><m>h^2-24h+144</m></statement>
+<answer></answer></exercise>
+
+<exercise number="92"><statement><m>9t^2-30tv+25v^2</m></statement></exercise>
+
+<exercise number="93"><statement><m>x^2+144</m></statement>
+<answer></answer></exercise>
+
+<exercise number="94"><statement><m>98n^4-8n^2</m></statement></exercise>
+
+<exercise number="95"><statement><m>w^8+12w^4+36</m></statement>
+<answer></answer></exercise>
+
+<exercise number="96"><statement><m>q^6-14q^3+49</m></statement></exercise>
+
+<exercise number="97"><statement><m>3s^4-48</m></statement>
+<answer></answer></exercise>
+
+<exercise number="98"><statement><m>2y^4-2</m></statement></exercise>
+</exercisegroup>
+
+</exercises>
+</subsection> 
+</section> 

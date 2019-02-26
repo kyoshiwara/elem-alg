@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 7.3</title>
 
 <exercise number="1"><statement><p>Find each quotient by using the second law of exponents.<ol label="a" cols="3">
@@ -121,7 +121,6 @@
 How many hours did it take to weave a rug that costs $120?</p></statement>
 <answer></answer></exercise>
 
-<exercise number="36"><statement><p>Steve's boat locker is 2 feet longer than twice its width. Find the dimensions of the locker if the 13-foot mast of Steve's boat will just fit diagonally across the floor of the locker.</p></statement>
-</exercise>
+<exercise number="36"><statement><p>Steve's boat locker is 2 feet longer than twice its width. Find the dimensions of the locker if the 13-foot mast of Steve's boat will just fit diagonally across the floor of the locker.</p></statement></exercise>
 
 </exercises>

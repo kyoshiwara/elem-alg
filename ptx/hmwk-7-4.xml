@@ -1,0 +1,201 @@
+<?xml version="1.0"?>
+
+<exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 7.4</title>
+
+<exercise number="1"><statement><p>Square each monomial.<ol label="a" cols="3">
+	<li><m>(8t^4)^2</m></li>
+	<li><m>(-12a^2)^2</m></li>
+	<li><m>(10h^2h)^2</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><p>Find a monomial whose square is given.<ol label="a" cols="3">
+	<li><m>16b^{16}</m></li>
+	<li><m>121z^{22}</m></li>
+	<li><m>36p^6q^{24}</m></li></ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>4, write the area of the square in two different ways:	<ol label="a">
+	<li>as the sum of four smaller areas,</li>
+	<li><p>as one large square, using the formula  Area = (length)<m>^2</m>.</p></li></ol></p></introduction>
+
+<exercise number="3"><statement>
+	<sidebyside width="55%"><image source="images/hp-7-4-3.png"><description>rectangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement>
+	<sidebyside width="55%"><image source="images/hp-7-4-4.png"><description>rectangle</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 5<ndash/>7, compute the product.</p></introduction>
+
+<exercise number="5"><statement><m>(n+1)(n+1)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><m>(m-9)(m-9)</m></statement></exercise>
+
+<exercise number="7"><statement><m>(2b+5c)(2b+5c)</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 8<ndash/>13, compute the product.</p></introduction>
+
+<exercise number="8"><statement><m>(x+1)^2</m></statement></exercise>
+
+<exercise number="9"><statement><m>(2x-3)^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><m>(5x+2y)^2</m></statement></exercise>
+
+<exercise number="11"><statement><m>(3a+b)^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><m>(7b^3-6)^2</m></statement></exercise>
+
+<exercise number="13"><statement><m>(3h+5k^4)^2</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 14<ndash/>19, use the formula for difference of two squares to multiply.</p></introduction>
+
+<exercise number="14"><statement><m>(x-4)(x+4)</m></statement></exercise>
+
+<exercise number="15"><statement><m>(x+5z)(x-5z)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><m>(2x-3)(2x+3)</m></statement></exercise>
+
+<exercise number="17"><statement><m>(3p-4)(3p+4)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><m>(2x^2-1)(2x^2+1)</m></statement></exercise>
+
+<exercise number="19"><statement><m>(h^2+7t)(h^2-7t)</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 20<ndash/>22, multiply. Write your answer as a polynomial.
+</p></introduction>
+
+<exercise number="20"><statement><m>-2a(3a-5)^2</m></statement></exercise>
+
+<exercise number="21"><statement><m>4x^2(2x+6y)^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><m>5mp^2(2m^2-p)(2m^2+p)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 23<ndash/>25, factor the squares of binomials.</p></introduction>
+
+<exercise number="23"><statement><m>y^2+6y+9</m></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><m>m^2-30m+225</m></statement></exercise>
+
+<exercise number="25"><statement><m>a^6-4a^3b+4b^2</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 26<ndash/>31, factor.</p></introduction>
+
+<exercise number="26"><statement><m>z^2-64</m></statement></exercise>
+
+<exercise number="27"><statement><m>1-g^2</m></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><m>-225+a^2</m></statement></exercise>
+
+<exercise number="29"><statement><m>x^2-9</m></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><m>36-a^2b^2</m></statement></exercise>
+
+<exercise number="31"><statement><m>64y^2-49x^2</m></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 32<ndash/>40, factor completely.</p></introduction>
+
+<exercise number="32"><statement><m>a^4+10a^2+25</m></statement></exercise>
+
+<exercise number="33"><statement><m>36y^8-49</m></statement>
+<answer></answer></exercise>
+
+<exercise number="34"><statement><m>16x^6-9y^4</m></statement></exercise>
+
+<exercise number="35"><statement><m>3a^2-75</m></statement>
+<answer></answer></exercise>
+
+<exercise number="36"><statement><m>2a^3-12a^2+18a</m></statement></exercise>
+
+<exercise number="37"><statement><m>9x^7-81x^3</m></statement>
+<answer></answer></exercise>
+
+<exercise number="38"><statement><m>12h^2+3k^6</m></statement></exercise>
+
+<exercise number="39"><statement><m>81x^8-y^4</m></statement>
+<answer></answer></exercise>
+
+<exercise number="40"><statement><m>162a^4b^8-2a^8</m></statement></exercise>
+</exercisegroup>
+
+<exercise number="41"><statement><p>Is <m>x-3)^2</m> equivalent to <m>x^2-3^2</m>?  Explain why or why not, and give a numerical example to justify your answer.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="42"><statement><p>Use areas to explain why the figure illustrates the product  <m>(a+b)^2 = a^2+2ab+b^2.</m></p>
+<sidebyside width="65%"><image source="images/hp-7-4-42.png"><description>rectangles</description></image></sidebyside></statement></exercise>
+
+<exercise number="43"><statement><p>Use evaluation to decide whether the two expressions <m>(a+b)^2</m> and <m>a^2+b^2</m> are equivalent.</p>
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>a</m></cell>
+                        <cell><m>b</m></cell>
+                        <cell><m>a+b</m></cell>
+                        <cell><m>(a+b)^2</m></cell>
+                        <cell><m>a^2</m></cell>
+                        <cell><m>b^2</m></cell>
+                        <cell><m>a^2+b^2</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>-2</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>2</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="44"><statement><p>Explain why you can factor <m>x^2-4</m>, but you cannot factor <m>x^2+4</m>.
+</p></statement></exercise>
+
+<exercise number="45"><statement><p><ol label="a">
+	<li>Expand <m>(a-b)^3</m> by multiplying.</li>
+	<li>Use your formula from part (a) to expand <m>(2x-3)^3</m></li>
+	<li>Substitute <m>a=5</m> and <m>b=2</m> to show that <m>(a-b)^3</m> is not equivalent to <m>a^3-b^3</m>.</li>
+</ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="46"><statement><p><ol label="a">
+	<li>Multiply <m>(a+b)(a^2-ab+b^2)</m>.</li>
+	<li>Factor <m>a^3+b^3</m></li>
+	<li>Factor <m>x^3+8</m>.</li>
+</ol></p></statement></exercise>
+
+</exercises>	
+
