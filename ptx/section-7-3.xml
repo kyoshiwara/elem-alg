@@ -30,8 +30,8 @@ We first factored the numerator and denominator of the fraction and then cancele
 <li>If the larger exponent occurs in the numerator, put the power in the numerator.</li>
 <li>If the larger exponent occurs in the denominator, put the power in the denominator.</li></ol></p>
 <p>In symbols,<ol label="1">
-		<li><m>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~~~\text{if}~~~~n \lt m}</m></li>      	
-		<li><m>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~~~\text{if}~~~~n \gt m}</m></li></ol></p></assemblage>
+	<li><m>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~~~\text{if}~~~~n \lt m}</m></li>      	
+	<li><m>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~~~\text{if}~~~~n \gt m}</m></li></ol></p></assemblage>
 				      
 <reading-questions>
     <exercise number="1"><statement><p>In a quotient of powers, how do we know whether the new power appears 
