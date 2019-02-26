@@ -7,18 +7,18 @@
 </p></introduction>
 
  <exercise number="1"><statement><m>(x+1)(x-4)=0</m></statement>
- <answer></answer></exercise>
+ <answer><p><m>-1, ~4</m></p></answer></exercise>
 
  <exercise number="2"><statement><m>0=p(p+7)</m></statement></exercise>
 
  <exercise number="3"><statement><m>(2v+3)(4v-1)=0</m></statement>
- <answer></answer></exercise>
+ <answer><p><m>\dfrac{-3}{2}, ~\dfrac{1}{4} </m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 4<ndash/>5, <ol label="a">
-	<li>Verify that the factored form for each expression is correct.</li>
-	<li>Use the factored form to find the solutions of the original equation.</li>
-	<li>Check algebraically that your answers to part (b) actually are solutions of the original equation.</li></ol>
+    <li>Verify that the factored form for each expression is correct.</li>
+    <li>Use the factored form to find the solutions of the original equation.</li>
+    <li>Check algebraically that your answers to part (b) actually are solutions of the original equation.</li></ol>
 </p></introduction>
 
 <exercise number="4"><statement><p><m>x^2-6x-27=0</m></p>
@@ -26,7 +26,7 @@
 
 <exercise number="5"><statement><p><m>x^2-81=0</m></p>
 <p>factored form: <m>(x-9)(x+9)=0</m></p></statement>
-<answer></answer></exercise>
+<answer><p>b. <m>9, ~-9~~~</m>c. <m>9^2-81=0</m>; <m>(-9)^2-81=0</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 6<ndash/>8, find the largest common factor for the monomials.
@@ -35,7 +35,7 @@
 <exercise number="6"><statement><p><m>8x^2,~ 12x</m></p></statement></exercise>
 
 <exercise number="7"><statement><p><m>6a^2b,~ 9ab^2</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>3ab</m></p></answer></exercise>
 
 <exercise number="8"><statement><p><m>10w^2,~ 15w</m></p></statement></exercise>
 </exercisegroup>
@@ -44,12 +44,12 @@
 </p></introduction>
 
 <exercise number="9"><statement><p><m>4x(2x+?)=8x^2-12x</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-3</m></p></answer></exercise>
 
 <exercise number="10"><statement><p><m>?(a-3)=2a^2-6a</m></p></statement></exercise>
 
 <exercise number="11"><statement><p><m>6h(?+?)=24h-18h^2</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>4-3h</m></p></answer></exercise>
 
 <exercise number="12"><statement><p><m>?(4m-9)=-12m^2+27m</m></p></statement></exercise>
 </exercisegroup>
@@ -58,12 +58,12 @@
 </introduction>
 
 <exercise number="13"><statement><p><m>6a^2-8a</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>2a(3a-4)</m></p></answer></exercise>
 
 <exercise number="14"><statement><p><m>-18v^2-6v</m></p></statement></exercise>
 
 <exercise number="15"><statement><p><m>4h-9h^2</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>h(4-9h)</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 16<ndash/>18, factor the right side of the formula.</p>
@@ -72,7 +72,7 @@
 <exercise number="16"><statement><p><m>d=k-kat</m></p></statement></exercise>
 
 <exercise number="17"><statement><p><m>A=2rh-\pi r^2</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>r(2h-\pi r)</m></p></answer></exercise>
 
 <exercise number="18"><statement><p><m>V=\pi r^2h - \dfrac{1}{3}s^2h</m></p></statement></exercise>
 </exercisegroup>
@@ -80,24 +80,24 @@
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>24, solve the equation.</p></introduction>
 
 <exercise number="19"><statement><p><m>10x^2-15x=0</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>0, ~\dfrac{3}{2} </m></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>20x^2=x</m></p></statement></exercise>
 
 <exercise number="21"><statement><p><m>0=144x+3x^2</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>0, ~-48</m></p></answer></exercise>
 
 <exercise number="22"><statement><p><m>4x-6x^2=0</m></p></statement></exercise>
 
 <exercise number="23"><statement><p><m>x^2+x=0</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>0, ~{-1}</m></p></answer></exercise>
 
 <exercise number="24"><statement><p><m>\dfrac{1}{3}x^2=\dfrac{2}{3}x</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="25"><statement><p><ol label="a">
-	<li><p>Complete the table of values for the equation <m>y=-x^2+6x</m>, then graph the equation on the grid.</p>
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><p>Complete the table of values for the equation <m>y=-x^2+6x</m>, then graph the equation on the grid.</p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>-1</m></cell>
@@ -123,12 +123,61 @@
                     </tabular></sidebyside>
     <sidebyside width="50%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></li>
     <li>Use your graph to find the solutions of the equation <m>-x^2+6x=5</m>.</li>
-	<li>Verify algebraically that your answers to part (a) are really solutions.</li>
-	<li>Use your graph to find the solutions of the equation <m>-x^2+6x=0</m>.</li>
-	<li>Verify algebraically that your answers to part (d) are really solutions.</li>
-	<li>Compute the product <m>-x(x+6)</m>.  What do you get?</li>  
-	<li>What is the value of the expression <m>-x(x+6)</m> when <m>x=0</m>?  When <m>x=6</m>?</li></ol></p></statement>
-<answer></answer></exercise>
+    <li>Verify algebraically that your answers to part (a) are really solutions.</li>
+    <li>Use your graph to find the solutions of the equation <m>-x^2+6x=0</m>.</li>
+    <li>Verify algebraically that your answers to part (d) are really solutions.</li>
+    <li>Compute the product <m>-x(x+6)</m>.  What do you get?</li>  
+    <li>What is the value of the expression <m>-x(x+6)</m> when <m>x=0</m>?  When <m>x=6</m>?</li></ol></p></statement>
+<answer><p>a.</p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>7</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>-7</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>-7</m></cell></row>
+                    </tabular></sidebyside>
+    <sidebyside width="50%">
+    <image xml:id="hp-2-3-25ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={3-sqrt(19)}:{3+sqrt(19)},smooth,variable=\x,magenta!80!black, ultra thick, <->, >=stealth'] plot ({\x},{-(\x)^2 +6*\x});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image></sidebyside>
+    <p>b. <m>x=1</m>, or <m>x=5 ~~~</m> d.  <m>x=0</m>, or <m>x=6</m></p>
+    <p>f. <m>-x^2+6x</m> d.  <m>0, ~~~ 0</m></p>
+</answer></exercise>
 
 <exercise number="26"><statement><p><ol label="a">
 	<li><p>Complete the table of values for the equation <m>y=x^2+2x-8</m>, then graph the equation on the grid.</p>
@@ -166,15 +215,15 @@
 </exercise>
 
 <exercise number="27"><statement><p>The revenue you can earn by making and selling <m>n</m> jade bracelets is given in dollars by 
-	<me>R=-2n^2+80n</me><ol label="a">
-	<li>Factor <m>n</m> from the expression for <m>R</m>. How much should you charge per bracelet in order to sell <m>n</m> bracelets?</li>
-	<li><p>Complete the table and sketch a graph.
-	<sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
-		<col halign="center"/>
+    <me>R=-2n^2+80n</me><ol label="a">
+    <li>Factor <m>n</m> from the expression for <m>R</m>. How much should you charge per bracelet in order to sell <m>n</m> bracelets?</li>
+    <li><p>Complete the table and sketch a graph.
+    <sidebyside widths="50% 40%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+        <col halign="center"/>
                     <row bottom="minor">
                         <cell><m>n</m></cell>
                         <cell>Price per Bracelet</cell>
-                    	<cell><m>R</m></cell></row>
+                        <cell><m>R</m></cell></row>
                     <row> 
                         <cell><m>0</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
@@ -225,7 +274,35 @@
 </sidebyside></p></li>
 <li>What is the maximum revenue that you can earn? How many bracelets should you make in order to earn that revenue?</li>
 <li>How much revenue will you earn if you charge $40 for a bracelet?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>n(-2n+80)</m>; <m>80-2n</m> dollars</p></li>
+    <li><sidebyside width="40%" margins="0% 60%">
+    <image xml:id="hp-6-2-27ans">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (0,0) grid (8,10);
+        \draw[black, thick, ->, >=stealth'] (0,0)--(9,0) node[right]{$n$};
+        \draw[black, thick, ->, >=stealth'] (0,0)--(0,11) node[left]{$R$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {4,8} {
+        \draw[cyan, very thick] (\x,0)--++(0,10);
+         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(100*\x)] in  {5,10} {
+         \draw[cyan, very thick] (0,\x)--++(8,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain={0}:{8},smooth,variable=\x,magenta!80!black, ultra thick] plot ({\x},{-1/50*(\x*5)^2 +4*\x});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p>$800; 20 bracelets</p></li>
+    <li><p>0 dollars</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>The height in feet of a football <m>t</m> seconds after being kicked from the ground is given by
 	<me>h=-16t^2+80t</me><ol label="a">
@@ -286,7 +363,7 @@
 
 <exercise number="29"><statement><p>Sportsworld sells <m>180-3p</m> pairs of their name-brand running shoes per week when they charge <m>p</m> dollars per pair.<ol label="a">
 	<li>Write an equation for Sportsworld's revenue, <m>R</m>, in terms of <m>p</m>.</li>
-	<li><p>Fill in the table and graph the equation.
+	<li><p>Fill in the table and graph the equation.</p>
 	<sidebyside widths="50% 45%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
 		<col halign="center"/> <col halign="center"/>
                     <row bottom="minor">
@@ -336,10 +413,63 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></p></li>
+</sidebyside></li>
 	<li>At what price(s) will Sportsworld's revenue be zero?</li>
 	<li>At what price will Sportsworld's revenue be maximum?  What is their maximum revenue?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>R=180p-3p^2</m></p></li>
+    <li><sidebyside widths="50% 45%" valigns="middle middle"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+        <col halign="center"/> <col halign="center"/>
+                    <row bottom="minor">
+                        <cell><m>p</m></cell>
+                        <cell><m>R</m></cell></row>
+                    <row> 
+                        <cell><m>0</m></cell>
+                        <cell><m>0</m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m>1500</m></cell></row>
+                    <row> 
+                        <cell><m>20</m></cell>
+                        <cell><m>2400</m></cell></row>
+                    <row>
+                        <cell><m>30</m></cell>
+                        <cell><m>2700</m></cell></row>  
+                    <row>
+                        <cell><m>40</m></cell>
+                        <cell><m>2400</m></cell></row> 
+                    <row>
+                        <cell><m>50</m></cell>
+                        <cell><m>1500</m></cell></row>
+                    <row>
+                        <cell><m>60</m></cell>
+                        <cell><m>0</m></cell></row>                    
+                </tabular>
+    <image xml:id="hp-6-2-29ans">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (0,0) grid (12,15);
+        \draw[black, thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$p$};
+        \draw[black, thick, ->, >=stealth'] (0,0)--(0,16) node[left]{$R$};
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {2,4,...,12} {
+        \draw[cyan, very thick] (\x,0)--++(0,15);
+         \draw[black, thick] ({\x},.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(200*\x)] in  {5,10,15} {
+         \draw[cyan, very thick] (0,\x)--++(12,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain={0}:{12},smooth,variable=\x,magenta!80!black, ultra thick] plot ({\x},{13.5/36*(\x)*(12-\x});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></li>
+    <li><p>$0 and $80</p></li>
+    <li><p>$30; $2700</p></li></ol></p></answer></exercise>
 
 <exercisegroup cols="3"><introduction><p>For Problems 30<ndash/>32, find the <m>x</m>-intercepts of the graph of the equation.</p></introduction>
 
@@ -357,7 +487,31 @@
 <p><m>y=6-x</m></p>
 <p><m>y=6x-x^2</m></p>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><sidebyside>
+    <image xml:id="hp-6-2-33ans">
+        <description>two lines and parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[lightgray] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[lightgray, very thick] (\x,-10) --++(0,20);
+         \draw[lightgray, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[blue,very thick, <->, >=stealth'] (-10,-10)--(10,10);
+        \draw[blue,very thick, <->, >=stealth'] (-4,10)--(10,-4);
+        \draw[samples=65,domain={-sqrt(19)+3}:{sqrt(19)+3},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{6*\x - (\x)^2});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></answer></exercise>
 
 <exercise number="34"><statement><p><m>y=x+3</m></p>
 <p><m>y=3-x</m></p>

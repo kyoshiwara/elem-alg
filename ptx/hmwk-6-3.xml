@@ -4,76 +4,122 @@
     <title>Homework 6.3</title>
 
 <exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, <ol label="a">
-	<li>Fill in the missing expressions.</li>
-	<li>Write the area as a product of binomials, then compute the product.</li></ol></p></introduction>
+    <li>Fill in the missing expressions.</li>
+    <li>Write the area as a product of binomials, then compute the product.</li></ol></p></introduction>
 
-<exercise number="1"><statement><p>
-	<sidebyside><tabular halign="center">
-        <col />
+<exercise number="1"><statement>
+    <sidebyside><tabular halign="center">
+        <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
         <row>
             <cell ></cell>
             <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
-            <cell  bottom="major"  ><m>~~~~?~~~~~</m></cell>
+            <cell  bottom="major" ><p><m>~~~~?~~~~~</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><m>x</m></cell>
-            <cell  bottom="major" right="major" ><m>x^2</m></cell>
-            <cell  bottom="major" right="major"  ><m>6x</m></cell>
+            <cell right="major" left="none"><p><m>x</m></p></cell>
+            <cell  bottom="major" right="major" ><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>6x</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><m>?</m></cell>
-            <cell  bottom="major" right="major" ><m>5x</m></cell>
-            <cell  bottom="major" right="major" ><m>30</m></cell>
+            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>5x</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>30</m></p></cell>
         </row>
-    </tabular></sidebyside></p></statement>
- <answer></answer></exercise>
-
- <exercise number="2"><statement><p>
-	<sidebyside><tabular halign="center">
-        <col />
+    </tabular></sidebyside></statement>
+    <answer><ol label="a"><li>
+    <sidebyside><tabular halign="center">
+        <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
         <row>
             <cell ></cell>
             <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
-            <cell  bottom="major"  ><m>~~~~-3~~~~~</m></cell>
+            <cell  bottom="major"><p><m>\alert{6}</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><m>x</m></cell>
-            <cell  bottom="major" right="major" ><m>x^2</m></cell>
-            <cell  bottom="major" right="major"  ><m>-3x</m></cell>
+            <cell right="major" left="none"><p><m>x</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>6x</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><m>?</m></cell>
-            <cell  bottom="major" right="major" ><m>?</m></cell>
-            <cell  bottom="major" right="major" ><m>27</m></cell>
+            <cell right="major" left="none"><p><m>\alert{5}</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>5x</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>30</m></p></cell>
         </row>
-    </tabular></sidebyside></p></statement></exercise>
+    </tabular></sidebyside></li>
+    <li><p><m>(x+5)(x+6)=x^2+11x+30</m></p></li>     
+ </ol>
+ </answer></exercise>
 
- <exercise number="3"><statement><p>
-	<sidebyside><tabular halign="center">
-        <col />
+ <exercise number="2"><statement>
+    <sidebyside><tabular halign="center">
+        <col width="20%"/>
         <col width="20%"/>
         <col  width="20%"/>
         <row>
             <cell ></cell>
             <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
-            <cell  bottom="major"  ><m>~~~~?~~~~~</m></cell>
+            <cell  bottom="major"><p><m>~~~~-3~~~~~</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><m>?</m></cell>
-            <cell  bottom="major" right="major" ><m>x^2</m></cell>
-            <cell  bottom="major" right="major"  ><m>2x</m></cell>
+            <cell right="major" left="none"><p><m>x</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>-3x</m></p></cell>
         </row>
         <row>
-            <cell right="major" left="none"><m>?</m></cell>
-            <cell  bottom="major" right="major" ><m>?</m></cell>
-            <cell  bottom="major" right="major" ><m>16</m></cell>
+            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>27</m></p></cell>
         </row>
-    </tabular></sidebyside></p></statement>
- <answer></answer></exercise>
+    </tabular></sidebyside></statement></exercise>
+
+ <exercise number="3"><statement>
+    <sidebyside><tabular halign="center">
+        <col width="20%"/>
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major"><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"><p><m>~~~~?~~~~~</m></p></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>2x</m></p></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>?</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>16</m></p></cell>
+        </row>
+    </tabular></sidebyside></statement>
+    <answer><ol label="a"><li>
+    <sidebyside><tabular halign="center">
+        <col width="20%"/>
+        <col width="20%"/>
+        <col  width="20%"/>
+        <row>
+            <cell ></cell>
+            <cell bottom="major" ><p><m>~~~~~x~~~~~</m></p></cell>
+            <cell  bottom="major"><p><m>\alert{2}</m></p></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><p><m>\alert{x}</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>x^2</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>2x</m></p></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><p><m>\alert{8}</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>\alert{8x}</m></p></cell>
+            <cell  bottom="major" right="major"><p><m>16</m></p></cell>
+        </row>
+    </tabular></sidebyside></li>
+    <li><p><m>(x+8)(x+2)=x^2+10x+26</m></p></li>     
+</ol>
+ </answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 4<ndash/>6, list all the ways to write the number as a product of two whole numbers.</p></introduction>
@@ -81,67 +127,76 @@
 <exercise number="4"><statement><p>24</p></statement></exercise>
 
 <exercise number="5"><statement><p>60</p></statement>
-<answer></answer></exercise>
+<answer><p><m>1\cdot 60</m>, <m>1\cdot 60</m>, <m>2\cdot 30</m>, <m>3\cdot 20</m>, <m>4\cdot 15</m>, <m>5\cdot 12</m>, <m>6\cdot 10</m></p></answer></exercise>
 
 <exercise number="6"><statement><p>40</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>12, <ol label="a">
-	<li>Factor the quadratic trinomial.</li>
-	<li>Solve the quadratic equation.</li></ol></p></introduction>
+    <li>Factor the quadratic trinomial.</li>
+    <li>Solve the quadratic equation.</li></ol></p></introduction>
 
 <exercise number="7"><statement><p><ol label="a">
-	<li><m>n^2+10n+16</m></li>
-	<li><m>n^2+10n+16=0</m></li></ol></p></statement>
-<answer></answer></exercise>
+    <li><m>n^2+10n+16</m></li>
+    <li><m>n^2+10n+16=0</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><p><m>(n+2)(n+8)</m></p></li>
+    <li><p><m>-2</m>, <m>-8</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="8"><statement><p><ol label="a">
-	<li><m>h^2+26h+48</m></li>
-	<li><m>h^2+26h+48=0</m></li></ol></p></statement></exercise>
+    <li><m>h^2+26h+48</m></li>
+    <li><m>h^2+26h+48=0</m></li></ol></p></statement></exercise>
 
 <exercise number="9"><statement><p><ol label="a">
-	<li><m>a^2-8a+12</m></li>
-	<li><m>a^2-8a+12=0</m></li></ol></p></statement>
-<answer></answer></exercise>
+    <li><m>a^2-8a+12</m></li>
+    <li><m>a^2-8a+12=0</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><p><m>(a-2)(a-6)</m></p></li>
+    <li><p><m>2</m>, <m>6</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="10"><statement><p><ol label="a">
-	<li><m>t^2-15t+36</m></li>
-	<li><m>t^2-15t+36=0</m></li></ol></p></statement></exercise>
+    <li><m>t^2-15t+36</m></li>
+    <li><m>t^2-15t+36=0</m></li></ol></p></statement></exercise>
 
 <exercise number="11"><statement><p><ol label="a">
-	<li><m>x^2-3x-10</m></li>
-	<li><m>x^2-3x-10=0</m></li></ol></p></statement>
-<answer></answer></exercise>
+    <li><m>x^2-3x-10</m></li>
+    <li><m>x^2-3x-10=0</m></li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><p><m>(x+2)(x-5)</m></p></li>
+    <li><p><m>-2</m>, <m>5</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="12"><statement><p><ol label="a">
-	<li><m>a^2+8a-20</m></li>
-	<li><m>a^2+8a-20=0</m></li></ol></p></statement></exercise>
+    <li><m>a^2+8a-20</m></li>
+    <li><m>a^2+8a-20=0</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 13<ndash/>21, factor if possible. If the trinomial cannot be factored, say so.</p></introduction>
 
 <exercise number="13"><statement><p><m>x^2-17x+30</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>(x-2)(x-15)</m></p></answer></exercise>
 
 <exercise number="14"><statement><p><m>x^2+4x+2</m></p></statement></exercise>
 
 <exercise number="15"><statement><p><m>y^2-44y-45</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>(y+1)(y-45)</m></p></answer></exercise>
 
 <exercise number="16"><statement><p><m>t^2-9t-20</m></p></statement></exercise>
 
 <exercise number="17"><statement><p><m>q^2-5q-6</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>(q+1)(q-6)</m></p></answer></exercise>
 
 <exercise number="18"><statement><p><m>n^2-6-5n</m></p></statement></exercise>
 
 <exercise number="19"><statement><p><m>a^2+48-2a</m></p></statement>
-<answer></answer></exercise>
+<answer><p>doesn't factor</p></answer></exercise>
 
 <exercise number="20"><statement><p><m>32-12b+b^2</m></p></statement></exercise>
 
 <exercise number="21"><statement><p><m>4c-60+c^2</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>(c+10)(c-6)</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 22<ndash/>24, factor completely.</p></introduction>
@@ -149,7 +204,7 @@
 <exercise number="22"><statement><p><m>3b^2-33b+72</m></p></statement></exercise>
 
 <exercise number="23"><statement><p><m>4x^2-20x-144</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>4(x-9)(x+4)</m></p></answer></exercise>
 
 <exercise number="24"><statement><p><m>42-8m-2m^2</m></p></statement></exercise>
 </exercisegroup>
@@ -157,32 +212,31 @@
 <exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>32, solve the quadratic equation.</p></introduction>
 
 <exercise number="25"><statement><p><m>x^2+3x-10=0</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>x=2</m>, <m>x=-5</m></p></answer></exercise>
 
 <exercise number="26"><statement><p><m>t^2+t=42</m></p></statement></exercise>
 
 <exercise number="27"><statement><p><m>2x^2-10x=12</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>x=-1</m>, <m>x=6</m></p></answer></exercise>
 
 <exercise number="28"><statement><p><m>0=n^2-14n+49</m></p></statement></exercise>
 
 <exercise number="29"><statement><p><m>5q^2=10q</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>q=0</m>, <m>q=2</m></p></answer></exercise>
 
 <exercise number="30"><statement><p><m>x(x-4)=21</m></p></statement></exercise>
 
 <exercise number="31"><statement><p><m>(x-2)(x+1)=4</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>x=-2</m>, <m>x=3</m></p></answer></exercise>
 
 <exercise number="32"><statement><p><m>(x-8)^2=12+4(10-6x)</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="33"><statement><p>An architect is designing rectangular offices to be 3 yards longer than they are wide, to allow for storage space. Let <m>w</m> represent the width of one office.<ol label="a">
-	<li>Draw a sketch of the floor of an office and label its dimensions.</li>  
-	<li>Write an equation for the area, <m>A,</m> of one office in terms of its width.</li>
-	<li><p>Complete the table and graph your equation for <m>A</m>.
-
-	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li>Draw a sketch of the floor of an office and label its dimensions.</li>  
+    <li>Write an equation for the area, <m>A,</m> of one office in terms of its width.</li>
+    <li><p>Complete the table and graph your equation for <m>A</m>.</p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>w</m></cell>
                         <cell><m>-6</m></cell>
@@ -211,26 +265,85 @@
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture}[scale=.5]
-        \draw[cyan] (-8,-2) grid (8,15);
-        \draw[black, thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$w$};
-        \draw[black, thick, ->, >=stealth'] (0,-2)--(0,16) node[left]{$A$};
+        \begin{tikzpicture}[xscale=.75, yscale=.5]
+        \draw[cyan] (-6,-3) grid (6,15);
+        \draw[black, thick, ->, >=stealth'] (-6,0)--(7,0) node[right]{$w$};
+        \draw[black, thick, ->, >=stealth'] (0,-3)--(0,16) node[left]{$A$};
         \foreach \x in {-5,5} {
-         \draw[cyan, very thick] (\x,-2)--++(0,17);
+         \draw[cyan, very thick] (\x,-3)--++(0,18);
          \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {5,10,15} {
-         \draw[cyan, very thick] (-8,\x)--++(16,0);
+         \draw[cyan, very thick] (-6,\x)--++(12,0);
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-    </sidebyside></p></li>
+    </sidebyside></li>
     <li>Each office should have an area of 28 square yards. Write an equation for this requirement.</li>
-	<li>Solve your equation. You should get two solutions. Which one makes sense for this application?</li></ol></p>
+    <li>Solve your equation. You should get two solutions. Which one makes sense for this application?</li></ol></p>
 </statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><sidebyside width="20%" margins="0% 80%"><tabular halign="center">
+        <row>
+            <cell ></cell>
+            <cell bottom="major"><m>w+3</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>w</m></cell>
+            <cell bottom="major" right="major"></cell>
+        </row>
+    </tabular></sidebyside></li>  
+    <li><p><m>A=w(w+3)</m></p></li>
+    <li><sidebyside width="55%" margins="0% 45%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>w</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>-5</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell></row>
+                    <row> 
+                        <cell><m>A</m></cell>
+                        <cell><m>18</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>10</m></cell></row>
+                    </tabular></sidebyside>                
+    <sidebyside width="45%" margins="0% 55%">
+    <image xml:id="hp-6-3-33ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[xscale=.75, yscale=.5]
+        \draw[cyan] (-6,-3) grid (6,15);
+        \draw[black, thick, ->, >=stealth'] (-6,0)--(7,0) node[right]{$w$};
+        \draw[black, thick, ->, >=stealth'] (0,-3)--(0,16) node[left]{$A$};
+        \foreach \x in {-5,5} {
+         \draw[cyan, very thick] (\x,-3)--++(0,18);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {5,10,15} {
+         \draw[cyan, very thick] (-6,\x)--++(12,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain={-sqrt(69)/2-3/2}:{sqrt(69)/2-3/2},smooth,variable=\x,magenta!80!black, ultra thick, <->, >=stealth'] plot ({\x},{\x*(\x+3)});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>w(w+3)=28</m></p></li>
+    <li><p>4 yds</p></li></ol></p></answer></exercise>
 
 <exercise number="34"><statement><p>Icon Industries produces all kinds of electronic equipment. The cost, <m>C</m>, of producing a piece of equipment depends on the number of hours, <m>t</m>, it takes to build it, where
 	<me>C=8t^2-32t-16</me>
@@ -243,7 +356,19 @@ How many hours does it take to build a transformer if it costs $80 to produce?</
 	<li>Solve your equation and complete the problem.</li></ol></p></introduction>
 
 <exercise number="35"><statement><p>The area of a computer circuit board must be 60 square centimeters. The length of the circuit board should be 2 centimeters shorter than twice its width. Find the dimensions of the circuit board.</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><sidebyside width="20%" margins="0% 80%"><tabular halign="center">
+        <row>
+            <cell ></cell>
+            <cell bottom="major"><m>2w+3</m></cell>
+        </row>
+        <row>
+            <cell right="major" left="none"><m>w</m></cell>
+            <cell bottom="major" right="major"></cell>
+        </row>
+    </tabular></sidebyside></li>
+    <li><p><m>w(2w-2)=60</m></p></li>
+    <li><p><m>w=-5</m>, <m>w=6</m>; The circuit board should be 6 cm by 10 cm</p></li></ol></p></answer></exercise>
 
 <exercise number="36"><statement><p>A paper airplane in the shape of a triangle is 40 square inches in area. Its base is 11 inches longer than its altitude. Find the base and altitude of the triangle.</p></statement></exercise>
 </exercisegroup>
@@ -252,7 +377,7 @@ How many hours does it take to build a transformer if it costs $80 to produce?</
 	<md><mrow>x^2-6x+8 \amp =0</mrow>
 		<mrow>x^2 \amp = 6x-8</mrow>
 		<mrow>x \amp = \dfrac{6x-8}{x}</mrow></md></p></statement>		
-<answer></answer></exercise>
+<answer><p>The solution should be a number, not an algebraic expression.</p></answer></exercise>
 
 
 
