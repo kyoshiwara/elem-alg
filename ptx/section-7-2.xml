@@ -123,16 +123,16 @@ Now we use the distributive law to multiply each term of the trinomial by each t
 <exercise number="2"><statement><m>5x-2x(1-2x)-3(x-2)</m></statement>
 <answer><m>4x^2+6</m></answer></exercise>
 
-<exercise number="3"><statement><m>6+3[x-2x(x-4)]</m></statement>
+<exercise number="3"><statement><m>6+3\left[x-2x(x-4)\right]</m></statement>
 <answer><m>-6x^2+27x+6</m></answer></exercise>
 
-<exercise number="4"><statement><m>a-2[a-2(a-2)]</m></statement>
+<exercise number="4"><statement><m>a-2\left[a-2(a-2)\right]</m></statement>
 <answer><m>3a-8</m></answer></exercise>
 
-<exercise number="5"><statement><m>4[-2(t-\dfrac{1}{2})(t-1)]</m></statement>
+<exercise number="5"><statement><m>4\left[-2\left(t-\dfrac{1}{2}\right)(t-1)\right]</m></statement>
 <answer><m>-8t^2+12t-4</m></answer></exercise>
 
-<exercise number="6"><statement><m>5[-6(w+\dfrac{2}{3})(w-\dfrac{3}{2})]</m></statement>
+<exercise number="6"><statement><m>5\left[-6\left(w+\dfrac{2}{3}\right)\left(w-\dfrac{3}{2}\right)\right]</m></statement>
 <answer><m>-30w^2+25w+30</m></answer></exercise>
 </exercisegroup>
 </exercises>

@@ -4,10 +4,13 @@
     <title>Homework 7.2</title>
 
 <exercise number="1"><statement><p>Apply the first law of exponents to find the product.<ol label="a" cols="3">
-	<li><m>x^3 \cdot x^6</m></li>
-	<li><m>5^6 \cdot 5^8</m></li>
-	<li><m>b^3(b)(b^5)</m></li></ol></p></statement>
-<answer></answer></exercise>
+    <li><m>x^3 \cdot x^6</m></li>
+    <li><m>5^6 \cdot 5^8</m></li>
+    <li><m>b^3(b)(b^5)</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="3">
+    <li><p><m>x^9</m></p></li>
+    <li><p><m>5^{14}</m></p></li>
+    <li><p><m>b^9</m></p></li></ol></p></answer></exercise>
 
 <exercise number="2"><statement><p>Find a value of <m>n</m> that makes the expressions equivalent.<ol label="a" cols="3">
 	<li><m>y^3 \cdot y^n=y^8</m></li>
@@ -19,7 +22,11 @@
 	<li><m>-x^4(-2x^2)</m></li>
 	<li><m>-x^4 \cdot y^3</m></li>
 	<li><m>-3x^5(3y^5)</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+    <li><p><m>-6x^8</m></p></li>
+    <li><p><m>2x^6</m></p></li>
+    <li><p><m>-x^4y^3</m></p></li>
+    <li><p><m>-9x^5 y^5</m></p></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement><p>Simplify if possible.<ol label="a" cols="2">
 	<li><m>2x^4-3x^4</m></li>
@@ -32,7 +39,9 @@
 	<li>their sum.</li></ol></p></introduction>
 
 <exercise number="5"><statement><p><m>-3z^4,~-7z^4</m></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>21z^8</m></p></li>
+    <li><p><m>-10z^4</m></p></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>-9cd^3,~-cd^3</m></p></statement></exercise>
 </exercisegroup>
@@ -56,7 +65,9 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>48w^5</m></p></li>
+    <li><p><m>144w^{10}</m></p></li></ol></p></answer></exercise>
 
 <exercise number="8"><statement><sidebyside width="80%"><!--<image source="images/hp-7-2-8.png"><description>rectangle</description></image>-->
     <image xml:id="hp-7-2-8">
@@ -96,7 +107,9 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>2a(5a+3)</m></p></li>
+    <li><p><m>10a^2+6a</m></p></li></ol></p></answer></exercise>
 
 <exercise number="10"><statement><sidebyside width="80%"><!--<image source="images/hp-7-2-10.png"><description>rectangle</description></image>-->
     <image xml:id="hp-7-2-10">
@@ -126,7 +139,11 @@
 	<li><m>x^2(x^2)</m></li>
 	<li><m>x^2-x^2</m></li>
 	<li><m>x^2(-x^2)</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+    <li><p><m>2x^2</m></p></li>
+    <li><p><m>x^4</m></p></li>
+    <li><p><m>0</m></p></li>
+    <li><p><m>-x^4</m></p></li></ol></p></answer></exercise>
 
 <exercise number="12"><statement><p><ol label="a" cols="2">
 	<li><m>-x-x</m></li>
@@ -139,7 +156,11 @@
 	<li><m>x(x^2)</m></li>
 	<li><m>x^2-x</m></li>
 	<li><m>x^2(-x)</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+    <li><p>cannot be simplified</p></li>
+    <li><p><m>x^3</m></p></li>
+    <li><p>cannot be simplified</p></li>
+    <li><p><m>-x^3</m></p></li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><p><ol label="a" cols="2">
 	<li><m>-x^3 \cdot x</m></li>
@@ -151,7 +172,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>16, multiply.</p></introduction>
 
 <exercise number="15"><statement><p><m>-xy(x^2+xy+y^2)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-x^3 y -x^2y^2 - xy^3</m></p></answer></exercise>
 
 <exercise number="16"><statement><p><m>(6-st+3s^2t^2)(-3s^2t^2)</m></p></statement></exercise>
 </exercisegroup>
@@ -159,7 +180,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>18, simplify.</p></introduction>
 
 <exercise number="17"><statement><p><m>ax(x^2+2x-3)-a(x^3+2x^2)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-3ax</m></p></answer></exercise>
 
 <exercise number="18"><statement><p><m>3ab^2(2+3a)-2ab(3ab+2b)</m></p></statement></exercise>
 </exercisegroup>
@@ -167,12 +188,12 @@
 <exercisegroup cols="3"><introduction><p>For Problems 19<ndash/>21, use rectangles to help you multiply the binomials in two variables.</p></introduction>
 
 <exercise number="19"><statement><p><m>(x+2y)(x-y)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>x^2+xy-2y^2</m></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>(3s+t)(2s+3t)</m></p></statement></exercise>
 
 <exercise number="21"><statement><p><m>(2x-a)(x-3a)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>2x^2-7ax+3a^2</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 22<ndash/>25, compute the product. Multiply the binomials together first, then multiply the result by the numerical coefficient.</p></introduction>
@@ -180,12 +201,12 @@
 <exercise number="22"><statement><p><m>2(3x-1)(x-3)</m></p></statement></exercise>
 
 <exercise number="23"><statement><p><m>-3(x+4)(x-1)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-3x^2-9x+12</m></p></answer></exercise>
 
 <exercise number="24"><statement><p><m>-(4x+3)(x-2)</m></p></statement></exercise>
 
 <exercise number="25"><statement><p><m>5(2x+1)(2x-1)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>20x^2-5</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 26<ndash/>29, multiply.</p></introduction>
@@ -193,12 +214,12 @@
 <exercise number="26"><statement><p><m>4a(a-1)(a+5)</m></p></statement></exercise>
 
 <exercise number="27"><statement><p><m>s^2t^2(2s+t)(3s-t)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>6s^4t^2+s^3t^3-s^2t^4</m></p></answer></exercise>
 
 <exercise number="28"><statement><p><m>(x-2)(x^2-3x+2)</m></p></statement></exercise>
 
 <exercise number="29"><statement><p><m>(3x-1)(9x^2-3x+1)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>27x^3-18x^2+6x-1</m></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="30"><statement><p><ol label="a">
@@ -208,7 +229,9 @@
 <exercise number="31"><statement><p><ol label="a">
 	<li>Multiply <m>~(x-2)(x+4)(x+5).</m></li>
 	<li>Find three values of <m>x</m> for which the product is equal to zero.</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>x^3+7x^2+11x+6</m></p></li>
+    <li><p><m>x=2</m>, <m>-4</m>, <m>-5</m></p></li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>Simplify mentally, without using paper, pencil, or calculator.
 <ol label="a" cols ="3">
@@ -219,7 +242,9 @@
 <exercise number="33"><statement><p>The sum of two numbers is 16.<ol label="a">
 	<li>If one of the numbers is <m>n</m>, write an expression for the other number.</li>
 	<li>Write a polynomial for the product of the two numbers.</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>16-n</m></p></li>
+    <li><p><m>16n-n^2</m></p></li></ol></p></answer></exercise>
 
 <exercise number="34"><statement><p>A large wooden box is 3 feet longer than it is wide, and its height is 2 feet shorter than its width.<ol label="a">
 	<li>If the width of the box is <m>w</m>, write expressions for its length and its height.</li>
@@ -230,7 +255,10 @@
 	<li>If your first even integer is <m>n</m>, what is the next even integer?</li>
 	<li>What is the next even integer after that?</li>
 	<li>Write a polynomial for the product of the three even integers in parts (a) and (b).</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>n+2</m></p></li>
+    <li><p><m>n+4</m></p></li>
+    <li><p><m>n^3+6n^2+8n</m></p></li></ol></p></answer></exercise>
 
 <exercisegroup cols="3"><introduction><p>In Lesson 7.3 we'll use rectangles to factor quadratic trinomials.  Problems 36-38 review representing a product as the area of a rectangle.<ol label="a">
 	<li>Compute each product.</li>
@@ -239,7 +267,7 @@
 <exercise number="36"><statement><p><m>(3y+4)(y+2)</m></p></statement></exercise>
 
 <exercise number="37"><statement><p><m>(2w-6)(4w+3)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>8w^2-18w-18</m></p></answer></exercise>
 
 <exercise number="38"><statement><p><m>(3t+5)(2t+3)</m></p></statement></exercise>
 </exercisegroup>

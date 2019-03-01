@@ -105,17 +105,17 @@ are given by the formula
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>6, solve by extraction of roots. Round to thousandths any answers that are irrational numbers.</p></introduction>
 
 <exercise number="1"><statement><p><m>9x^2-4=0</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>\pm\dfrac{2}{3} </m></p></answer></exercise>
 
 <exercise number="2"><statement><p><m>3+t^2=9</m></p></statement></exercise>
 
 <exercise number="3"><statement><p><m>5y^2-12=2y^2</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>\pm 2</m></p></answer></exercise>
 
 <exercise number="4"><statement><p><m>q^2-3=5-q^2</m></p></statement></exercise>
 
 <exercise number="5"><statement><p><m>9k^2+21=25</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>\pm\dfrac{2}{3} </m></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>6a^2+3=4a^2+19</m></p></statement></exercise>
 </exercisegroup>
@@ -124,7 +124,10 @@ are given by the formula
 	<me>d=16t^2</me><ol label="a">
 	<li>If you drop a penny from a height of 144 feet, how long will it take to reach the ground?</li>
 	<li>How far will the penny fall in <m>1 \dfrac{1}{2}</m> seconds?</li></ol></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><ol label="a" cols="2">
+	<li><p>3 sec</p></li>
+	<li><p>36 ft</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="8"><statement><p><ol label="a">
 	<li>How much water would you need to fill a spherical tank of radius 3 feet?</li>
@@ -134,32 +137,32 @@ are given by the formula
 <exercisegroup cols="3"><introduction><p>For Problems 9<ndash/>20, factor.</p></introduction>
 
 <exercise number="9"><statement><p><m>24x^2-18x</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>6x(4x-3)</m></p></answer></exercise>
 
 <exercise number="10"><statement><p><m>-32y^2+24y</m></p></statement></exercise>
 
 <exercise number="11"><statement><p><m>a^2-18a+45</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>(a-15)(a-3)</m></p></answer></exercise>
 
 <exercise number="12"><statement><p><m>x^2-14x-51</m></p></statement></exercise>
 
 <exercise number="13"><statement><p><m>2t^2-t-10</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>(2t-5)(t+2)</m></p></answer></exercise>
 
 <exercise number="14"><statement><p><m>3b^2-14b+8</m></p></statement></exercise>
 
 <exercise number="15"><statement><p><m>14w-5+3w^2</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>(3w-1)(w+5)</m></p></answer></exercise>
 
 <exercise number="16"><statement><p><m>-3+2p^2-5p</m></p></statement></exercise>
 
 <exercise number="17"><statement><p><m>z^2-121</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>(z+11)(z-11)</m></p></answer></exercise>
 
 <exercise number="18"><statement><p><m>81-4t^2</m></p></statement></exercise>
 
 <exercise number="19"><statement><p><m>6x^2+21x+9</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>3(2x+1)(x+3)</m></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>8y^2-6y-2</m></p></statement></exercise>
 </exercisegroup>
@@ -167,29 +170,29 @@ are given by the formula
 <exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>26, solve.</p></introduction>
 
 <exercise number="21"><statement><p><m>0=m^2+10m+25</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>-5</m>, <m>-5</m></p></answer></exercise>
 
 <exercise number="22"><statement><p><m>b^2-25=0</m></p></statement></exercise>
 
 <exercise number="23"><statement><p><m>4p^2=16p</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>0</m>, <m>4</m></p></answer></exercise>
 
 <exercise number="24"><statement><p><m>11t=6t^2+3</m></p></statement></exercise>
 
 <exercise number="25"><statement><p><m>(x-5)(x+1)=-8</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>1</m>, <m>3</m></p></answer></exercise>
 
 <exercise number="26"><statement><p><m>2q(3q-1)=4</m></p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 27<ndash/>30, solve by using the quadratic formula.</p></introduction>
 <exercise number="27"><statement><p><m>2t^2+6t+3=0</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>\dfrac{-6\pm\sqrt{12}}{4} </m></p></answer></exercise>
 
 <exercise number="28"><statement><p><m>\dfrac{x^2}{4}+1=\dfrac{13}{12}x</m></p></statement></exercise>
 
 <exercise number="29"><statement><p><m>0.5x^2-0.3x-0.25=0</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>-0.47</m>, <m>1.07</m></p></answer></exercise>
 
 <exercise number="30"><statement><p><m>\dfrac{2}{3}v^2+\dfrac{5}{6}v=\dfrac{1}{6}</m></p></statement></exercise>
 </exercisegroup>
@@ -197,12 +200,12 @@ are given by the formula
 <exercisegroup cols="2"><introduction><p>For Problems 31<ndash/>34, solve for the specified variable.</p></introduction>
 
 <exercise number="31"><statement><p><m>V=\dfrac{s^2h}{3}~~~~</m>  for <m>s</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>s=\pm\sqrt{\dfrac{3V}{h}} </m></p></answer></exercise>
 
 <exercise number="32"><statement><p><m>A=\dfrac{\pi d^2}{4}~~~~</m>  for <m>d</m></p></statement></exercise>
 
 <exercise number="33"><statement><p><m>C=bh^2r~~~~</m>  for <m>h</m></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>h=\pm\sqrt{\dfrac{C}{br}} </m></p></answer></exercise>
 
 <exercise number="34"><statement><p><m>G=\dfrac{np}{r^2}~~~~</m>  for <m>r</m></p></statement></exercise>
 </exercisegroup>
@@ -210,7 +213,7 @@ are given by the formula
 <exercise number="35"><statement><p>Audrey launches her experimental hydraulic rocket from the top of her apartment building. The height of the rocket after <m>t</m> seconds is given in feet by
 	<me>h=-16t^2+40t+80</me>
 How long is the test flight before the rocket hits the ground?</p></statement>
-<answer><m></m></answer></exercise>
+<answer><p>3.81 sec</p></answer></exercise>
 
 <exercise number="36"><statement><p>The formula 
 	<me>S=\dfrac{1}{2}n^2 + \dfrac{1}{2}n</me>
@@ -221,7 +224,10 @@ gives the sum of the first <m>n</m> counting numbers. How many counting numbers 
 	<li>Write an expression for the market's weekly revenue, <m>R</m>, from bananas.</li>
 	<li>It costs the market <m>80+24p</m> cents to buy and display the bananas. Write an expression for the market's profit, <m>P</m>, from selling the bananas.</li>
 	<li>If the market made a profit of $22 (or 2200 cents) on bananas last week, how much did they charge per pound?</li></ol></p></statement>
-<answer><m></m></answer></exercise>
+<answer><p><ol label="a">
+	<li><p><m>R=160p-2p^2</m></p></li>
+	<li><p><m>M=136p-2p^2-80</m></p></li>
+	<li><p>30 cents or 38 cents</p></li></ol></p></answer></exercise>
 
 <exercise number="38"><statement><p>The city park used 136 meters of fence to enclose its rectangular rock garden. The diagonal path across the middle of the garden is 52 meters long.  What are the dimensions of the garden? (Hint:  make a sketch.)</p></statement></exercise>
 
@@ -254,7 +260,32 @@ gives the sum of the first <m>n</m> counting numbers. How many counting numbers 
     </image>
 </sidebyside>
 </statement>
-<answer><m></m></answer></exercise>
+<answer><p>b. <m>2w^2</m></p><p>c. </p>
+<sidebyside width="40%" margins="0% 60%">
+    <image xml:id="cr6-39ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[yscale=.5]
+		\draw[cyan] (0,0) grid (5,12);
+		\draw[black, thick, ->, >=stealth'] (0,0)--(5.6,0) node[right]{$w$};
+		\draw[black, thick, ->, >=stealth'] (0,0)--(0,13) node[left, xshift=1]{$A$};
+		\foreach \x in {5} {
+		 \draw[cyan, very thick] (\x,0)--++(0,12);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(5*\x)] in  {4,8,12} {
+		 \draw[cyan, very thick] (0,\x)--++(5,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[samples=65,domain=0:{5},smooth,variable=\x,red, ultra thick, ->, >=stealth'] plot ({\x},{0.4*(\x)^2});
+		\filldraw[blue] ({sqrt(24)}, 48/5) ellipse (1mm and 2mm) node[above left, xshift=-6, fill=white, inner sep=1] {(d)};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside><p>d. 4.9 in</p></answer></exercise>
 
 <exercise number="40"><statement><p><ol label="a">
 <li>Sketch three equilateral triangles of different sizes.</li>
@@ -317,21 +348,123 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><m></m></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>(0,0)</m>; <m>(0,0)</m></p></li>
+    <li><p><m>(0,0)</m></p></li>
+    <li><sidebyside width="80%" margins="0% 20%">
+    <image xml:id="cr6-41ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (-5,-10) grid (5,10);
+        \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-10)--(0,11) node[left, xshift=2]{$y$};
+        \foreach \x in {-3,3} {
+         \draw[cyan, very thick] (\x,-10)--++(0,20);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-10,-5,5,10} {
+         \draw[cyan, very thick] (-5,\x)--++(10,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-sqrt(20)}:{sqrt(20)},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{0.5*(\x)^2});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    </ol></p></answer></exercise>
 
 <exercise number="42"><statement><p><m>y=x^2-4</m></p>
 <sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="43"><statement><p><m>y=x^2-9x</m></p>
-<sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement>
-<answer><m></m></answer></exercise>
+<sidebyside width="80%">
+    <image xml:id="cr6-43">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[xscale=.32, yscale=.25]
+        \draw[cyan] (-3,-22) grid[ystep=2] (12,8);
+        \draw[black, thick, ->, >=stealth'] (-3,0)--(13,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-22)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x in {5,10} {
+         \draw[cyan, very thick] (\x,-22)--++(0,30);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {-10,-20} {
+         \draw[cyan, very thick] (-3,\x)--++(15,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
+<answer><p><ol label="a">
+    <li><p><m>(0,0), (9,0)</m>; <m>(0,0)</m></p></li>
+    <li><p><m>\left(\dfrac{9}{2}, \dfrac{-81}{4}\right) </m></p></li>
+    <li><sidebyside width="80%" margins="0% 20%">
+    <image xml:id="cr6-43ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[xscale=.32, yscale=.25]
+        \draw[cyan] (-3,-22) grid[ystep=2] (12,8);
+        \draw[black, thick, ->, >=stealth'] (-3,0)--(13,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-22)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x in {5,10} {
+         \draw[cyan, very thick] (\x,-22)--++(0,30);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {-10,-20} {
+         \draw[cyan, very thick] (-3,\x)--++(15,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-sqrt(113)/2+4.5}:{sqrt(113)/2+4.5},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{(\x)^2-9*\x});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    </ol></p></answer></exercise>
 
 <exercise number="44"><statement><p><m>y=-2x^2-4x</m></p>
 <sidebyside width="80%"><image source="images/cr6-41"><description>grid</description></image></sidebyside></statement></exercise>
 
 <exercise number="45"><statement><p><m>y=x^2+6x</m></p>
 <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer><m></m></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>(-6,0), (0,0)</m>; <m>(0,0)</m></p></li>
+    <li><p><m>(-3,-9)</m></p></li>
+    <li><sidebyside width="80%" margins="0% 20%">
+    <image xml:id="cr6-45ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-sqrt(19)-3}:{sqrt(19)-3},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{(\x)^2+6*\x});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    </ol></p></answer></exercise>
 
 <exercise number="46"><statement><p><m>y=x^2+3x-4</m></p>
 <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
@@ -357,7 +490,7 @@ where <m>s</m> is the length of one side of the triangle. Rewrite the formula fo
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><m></m></answer></exercise>
+<answer><p><m>m=3.9</m>, <m>m+5=8.9</m></p></answer></exercise>
 
 <exercise number="48"><statement><sidebyside width="60%"><!--<image source="images/cr6-48.png"><description>triangle</description></image>-->
     <image xml:id="cr6-48">

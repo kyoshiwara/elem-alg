@@ -9,9 +9,8 @@
     <xi:include href="./section-7-3.xml" />            
     <xi:include href="./section-7-3A.xml" />            
     <xi:include href="./section-7-4.xml" />            
-<!--    <xi:include href="./section-7-5.xml" />            
                      
-    <xi:include href="./ch6rev.xml" />  
-     -->   
+    <xi:include href="./ch7rev.xml" />  
+       
 </chapter>
 <!-- </book>  </mathbook> -->

@@ -69,7 +69,33 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer></answer></exercise>
+<answer><sidebyside width="70%">
+    <image xml:id="hp-6-4-5ans">
+        <description>parabolas</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (-4,-10) grid (4,6);
+        \draw[black, thick, ->, >=stealth'] (-4,0)--(5,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-10)--(0,7) node[left, xshift=2]{$y$};
+        \foreach \x in {-3,3} {
+         \draw[cyan, very thick] (\x,-10)--++(0,16);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-5,-10,5} {
+         \draw[cyan, very thick] (-4,\x)--++(8,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-sqrt(7)}:{sqrt(7)},smooth,variable=\x,magenta!80!black, ultra thick, <->, >=stealth'] plot ({\x},{-(\x)^2-3});
+        \node[text=magenta!80!black, fill=white, inner sep=1] at (1.2,-8) {(a)};
+        \draw[samples=65,domain={-sqrt(11)}:{sqrt(11)},smooth,variable=\x,blue, ultra thick, <->, >=stealth'] plot ({\x},{1-(\x)^2});
+        \node[text=blue, fill=white, inner sep=1] at (1.2,1.5) {(b)};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></answer></exercise>
 </exercisegroup>
 
 <exercise number="6"><statement><p><ol label="a">
@@ -105,7 +131,33 @@
     </latex-image>
     </image>
 	</sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><sidebyside width="80%" margins="0% 20%">
+    <image xml:id="hp-6-4-7ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (-5,-2) grid (5,14);
+        \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-2)--(0,15) node[left, xshift=2]{$y$};
+        \foreach \x in {-3,3} {
+         \draw[cyan, very thick] (\x,-2)--++(0,16);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {5,10} {
+         \draw[cyan, very thick] (-5,\x)--++(10,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-5}:{-2+sqrt(14)},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{(\x+2)^2});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>(-2,0)</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="8"><statement><p><m>y=(x-3)^2</m></p>
 	<sidebyside width="80%"><image source="images/hp-6-4-7"><description>grid</description></image></sidebyside></statement></exercise>
@@ -140,7 +192,34 @@
     </latex-image>
     </image>
 	</sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>(-2,0)</m>, <m>(0,0)</m></p></li>
+    <li><p><m>(-1,-1)</m></p></li>
+    <li><sidebyside width="80%" margins="0% 20%">
+    <image xml:id="hp-6-4-9ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (-5,-5) grid (5,5);
+        \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-5)--(0,6) node[left, xshift=2]{$y$};
+        \foreach \x in {-3,3} {
+         \draw[cyan, very thick] (\x,-5)--++(0,10);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-3,3} {
+         \draw[cyan, very thick] (-5,\x)--++(10,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-sqrt(6)-1}:{sqrt(6)-1},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{(\x)^2+2*\x});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+</ol></p></answer></exercise>
 
 <exercise number="10"><statement><p><m>y=x^2-2x-3</m></p>
 	<sidebyside width="80%"><image source="images/hp-6-4-9"><description>grid</description></image></sidebyside></statement></exercise>
@@ -169,7 +248,34 @@
     </latex-image>
     </image>
 	</sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>(-3,0)</m>, <m>(3,0)</m></p></li>
+    <li><p><m>(0,9)</m></p></li>
+    <li><sidebyside width="80%" margins="0% 20%">
+    <image xml:id="hp-6-4-11ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (-5,-1) grid (5,9);
+        \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-1)--(0,10) node[left, xshift=2]{$y$};
+        \foreach \x in {-3,3} {
+         \draw[cyan, very thick] (\x,-1)--++(0,10);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {5} {
+         \draw[cyan, very thick] (-5,\x)--++(10,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-sqrt(10)}:{sqrt(10)},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{9-(\x)^2});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+</ol></p></answer></exercise>
 
 <exercise number="12"><statement><p><m>y=-2x^2+12x-10</m></p>
 	<sidebyside width="80%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
@@ -184,7 +290,35 @@
 	<li><m>y=x^2-x-2</m></li>
 	<li><m>y=-x^2+x+2</m></li></ol></p>
 	<sidebyside width="75%"><image source="images/hp-6-4-9"><description>grid</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>(-1,0)</m>, <m>(2,0)</m>; <m>(-1,0)</m>, <m>(2,0)</m></p></li>
+    <li><p><m>\left(\frac{1}{2},\frac{-9}{4} \right)</m>; <m>\left(\frac{1}{2},\frac{9}{4} \right)</m></p></li>
+    <li><sidebyside width="80%" margins="0% 20%">
+    <image xml:id="hp-6-4-13ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.5]
+        \draw[cyan] (-5,-5) grid (5,5);
+        \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,-5)--(0,6) node[left, xshift=2]{$y$};
+        \foreach \x in {-3,3} {
+         \draw[cyan, very thick] (\x,-5)--++(0,10);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in  {-3,3} {
+         \draw[cyan, very thick] (-5,\x)--++(10,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain={-sqrt(29)/2+1/2}:{sqrt(29)/2+1/2},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{(\x)^2-\x-2}) node[right, xshift=4, yshift=-4, fill=white, inner sep=1]{(a)};
+        \draw[samples=65,domain={-sqrt(29)/2+1/2}:{sqrt(29)/2+1/2},smooth,variable=\x,blue, ultra thick, <->, >=stealth'] plot ({\x},{-(\x)^2+\x+2}) node[right, xshift=3, yshift=4, fill=white, inner sep=1]{(b)};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+</ol></p></answer></exercise>
 
 <exercise number="14"><statement><p><ol label="a">
 	<li><m>y=x^2-2x-15</m></li>
@@ -215,9 +349,9 @@
 </exercisegroup>
 
 <exercise number="15"><statement><p>The bridge over the Rushing River at Marionville is 48 feet high. Francine stands on the bridge and tosses a rock into the air off the edge of the bridge. The height of the rock above the water <m>t</m> seconds later is given in feet by
-	<me>h=48+32t-16t^2</me><ol label="a">
-	<li><p>Complete the table of values.
-	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <me>h=48+32t-16t^2</me><ol label="a">
+    <li><p>Complete the table of values.</p><sidebyside>
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>0</m></cell>
@@ -236,41 +370,88 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></p>         </li>
-	<li><p>Sketch a graph of the equation on the grid.
-	<sidebyside width="45%"><!--<image source="images/hp-6-4-15.png"><description>grid</description></image>-->
+                    </tabular></sidebyside></li>
+    <li><p>Sketch a graph of the equation on the grid.
+    <sidebyside width="45%"><!--<image source="images/hp-6-4-15.png"><description>grid</description></image>-->
     <image xml:id="hp-6-4-15">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-		\begin{tikzpicture}[xscale=.75, yscale=.5]
-		\draw[cyan] (0,0) grid (8,15);
-		\draw[black, thick, ->, >=stealth'] (0,0)--(9,0) node[right]{$x$};
-		\draw[black, thick, ->, >=stealth'] (0,0)--(0,16) node[left, xshift=2]{$y$};
-		\foreach \x [evaluate=\x as \xi using int(.5*\x)] in {2,4,6,8} {
-		 \draw[cyan, very thick] (\x,0)--++(0,15);
-		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
-		}
-		\foreach \x [evaluate=\x as \xi using int(5*\x)] in  {5,10,15} {
-		 \draw[cyan, very thick] (0,\x)--++(8,0);
-		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
-		}
-		\node[below left] at (0,0) {$0$};
+        \begin{tikzpicture}[xscale=.75, yscale=.5]
+        \draw[cyan] (0,0) grid (8,15);
+        \draw[black, thick, ->, >=stealth'] (0,0)--(9,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,0)--(0,16) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(.5*\x)] in {2,4,6,8} {
+         \draw[cyan, very thick] (\x,0)--++(0,15);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {5,10,15} {
+         \draw[cyan, very thick] (0,\x)--++(8,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \node[below left] at (0,0) {$0$};
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-	</sidebyside></p></li>
-	<li>Use the graph to estimate the height of the rock after 1.75 seconds. Verify your answer algebraically by substituting <m>t=1.75</m> into the equation for <m>h</m>.</li></ol></p></statement>
-<answer></answer></exercise>
+    </sidebyside></p></li>
+    <li>Use the graph to estimate the height of the rock after 1.75 seconds. Verify your answer algebraically by substituting <m>t=1.75</m> into the equation for <m>h</m>.</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><sidebyside width="45%" margins="0% 55%">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>1.5</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>2.5</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>h</m></cell>
+                        <cell><m>48</m></cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>64</m></cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>48</m></cell>
+                        <cell><m>28</m></cell>
+                        <cell><m>0</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><sidebyside width="45%" margins="0% 55%">
+    <image xml:id="hp-6-4-15ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[xscale=.75, yscale=.5]
+        \draw[cyan] (0,0) grid (8,15);
+        \draw[black, thick, ->, >=stealth'] (0,0)--(9,0) node[right]{$x$};
+        \draw[black, thick, ->, >=stealth'] (0,0)--(0,16) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(.5*\x)] in {2,4,6,8} {
+         \draw[cyan, very thick] (\x,0)--++(0,15);
+         \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(5*\x)] in  {5,10,15} {
+         \draw[cyan, very thick] (0,\x)--++(8,0);
+        \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \node[below left] at (0,0) {$0$};
+        \draw[samples=65,domain=0:{3},smooth,variable=\x,red, ultra thick] plot ({2*\x},{(48+32*\x-16*(\x)^2)/5});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p>55 ft</p></li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><ol label="a">
 	<li>Use your graph from Problem 15 to answer the question:  When is the rock about 40 feet above the water?</li>
 	<li>Write an equation that you could solve to answer the question in part (a).</li></ol></p></statement></exercise>
 
 <exercise number="17"><statement><p>How long is the rock in Problem 15 more than 60 feet high?</p></statement>
-<answer></answer></exercise>
+<answer><p>1 sec</p></answer></exercise>
 
 <exercise number="18"><statement><p>Refer to Problem 15.<ol label="a">
 	<li>What is the highest point the rock reaches?</li>
