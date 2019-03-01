@@ -6,7 +6,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, Use the given areas to find the length and width of each rectangle.</p></introduction>
 
 <exercise number="1"><statement>
-	<sidebyside><tabular halign="center">
+    <sidebyside width="60%" margins="0% 40%"><tabular halign="center">
         <col />
         <col width="20%"/>
         <col  width="20%"/>
@@ -26,10 +26,10 @@
             <cell  bottom="major" right="major" ><m>\hphantom{00}15\hphantom{00}</m></cell>
         </row>
     </tabular></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><p><m>(2x+3)</m> by <m>(3x+5)</m></p></answer></exercise>
 
 <exercise number="2"><statement>
-	<sidebyside><tabular halign="center">
+    <sidebyside width="60%" margins="0% 40%"><tabular halign="center">
         <col />
         <col width="20%"/>
         <col  width="20%"/>
@@ -51,7 +51,7 @@
     </tabular></sidebyside></statement></exercise>
 
 <exercise number="3"><statement>
-	<sidebyside><tabular halign="center">
+    <sidebyside width="75%" margins="0% 25%"><tabular halign="center">
         <col />
         <col width="20%"/>
         <col  width="20%"/>
@@ -71,10 +71,10 @@
             <cell  bottom="major" right="major" ><m>\hphantom{00}-25\hphantom{00}</m></cell>
         </row>
     </tabular></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><p><m>(6m-5)</m> by <m>(2m+5)</m></p></answer></exercise>
 
  <exercise number="4"><statement>
-	<sidebyside><tabular halign="center">
+    <sidebyside width="60%" margins="0% 40%"><tabular halign="center">
         <col />
         <col width="20%"/>
         <col  width="20%"/>
@@ -99,22 +99,20 @@
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>10, use the box method to factor the quadratic trinomials.</p></introduction>
 
 <exercise number="5"><statement><p><m>2x^2-13x+18</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>(2x-9)(x-2)</m></p></answer></exercise>
 
-<exercise number="6"><statement><p><m>5x^2+16x-16</m></p></statement>
-<answer></answer></exercise>
+<exercise number="6"><statement><p><m>5x^2+16x-16</m></p></statement></exercise>
 
 <exercise number="7"><statement><p><m>6h^2+7h+2</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>(2h+1)(3h+2)</m></p></answer></exercise>
 
 <exercise number="8"><statement><p><m>9n^2-8n-1</m></p></statement>
-<answer></answer></exercise>
+</exercise>
 
 <exercise number="9"><statement><p><m>6t^2-5t-25</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>(3t+5)(2t-5)</m></p></answer></exercise>
 
-<exercise number="10"><statement><p><m>5x^2-14x-24</m></p></statement>
-<answer></answer></exercise>
+<exercise number="10"><statement><p><m>5x^2-14x-24</m></p></statement></exercise>
 </exercisegroup>
 
 </exercises>

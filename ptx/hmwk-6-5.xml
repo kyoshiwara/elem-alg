@@ -8,27 +8,39 @@
 	<li>Give approximate values for your solutions, rounded to hundredths.</li></ol></p></introduction>
 
 <exercise number="1"><statement><m>x^2-8x+4=0</m></statement>
-<answer></answer></exercise>
+<answer><p><ol>
+	<li><p><m>\dfrac{8\pm\sqrt{48}}{2} </m></p></li>
+	<li><p><m>0.54 </m>, <m>7.46</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="2"><statement><m>3s^2+2s=2</m></statement></exercise>
 
 <exercise number="3"><statement><m>n^2=n+1</m></statement>
-<answer></answer></exercise>
+<answer><p><ol>
+	<li><p><m>\dfrac{1\pm\sqrt{5}}{2} </m></p></li>
+	<li><p><m>-0.62</m>, <m>1.62</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="4"><statement><m>-4z^2+2z+1-0</m></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 5<ndash/>7, solve the equation two ways: <ol label="a">
-	<li>Use the quadratic formula.</li>
-	<li>Use either factoring or extracting roots.</li></ol></p></introduction>
+    <li>Use the quadratic formula.</li>
+    <li>Use either factoring or extracting roots.</li></ol></p></introduction>
 
 <exercise number="5"><statement><m>3t^2-5=0</m></statement>
-<answer></answer></exercise>
+<answer><p><ol>
+    <li><p><m>\dfrac{\pm\sqrt{60}}{6} </m></p></li>
+    <li><p><m>\pm\sqrt{\frac{5}{3} } </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="6"><statement><m>z=3z^2</m></statement></exercise>
 
 <exercise number="7"><statement><m>2w^2+6=7w</m></statement>
-<answer></answer></exercise>
+<answer><p><ol>
+    <li><p><m>\dfrac{3}{2} </m>, <m>2</m></p></li>
+    <li><p><m>\dfrac{3}{2} </m>, <m>2</m></p></li>
+</ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 8<ndash/>11, solve the equation.</p></introduction>
@@ -36,12 +48,12 @@
 <exercise number="8"><statement><m>\dfrac{x^2}{6}+x=\dfrac{2}{3}</m></statement></exercise>
 
 <exercise number="9"><statement><m>v^2+3v-2=9v^2-12v+5</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{7}{8} </m>, <m>1</m></p></answer></exercise>
 
 <exercise number="10"><statement><m>m^2-3m=\dfrac{1}{3}(m^2-1)</m></statement></exercise>
 
 <exercise number="11"><statement><m>-0.2x^2+3.6x-9=0</m></statement>
-<answer></answer></exercise>
+<answer><p><m>3 </m>, <m>15</m></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="12"><statement><p>Delbert throws a penny from the top of the Texas Building in Fort Worth. After <m>t</m>  seconds, the height of the penny is given in feet by
@@ -50,7 +62,7 @@
 	<li>How long does it take the penny to reach the ground?</li></ol></p></statement></exercise>
 
 <exercise number="13"><statement><p>The volume of a cedar chest is 12,000 cubic inches. The chest is 20 inches high, and its length is 5 inches less than three times its width. Find the dimensions of the chest.</p></statement>
-<answer></answer></exercise>
+<answer><p>width: 15 in, length: 40 in, height: 20 in</p></answer></exercise>
 
 <exercise number="14"><statement><p>The perimeter of a rectangle is 42 inches and its diagonal is 15 inches. Find the dimensions of the rectangle.</p></statement></exercise>
 
@@ -74,7 +86,7 @@
     </latex-image>
     </image>
 </sidebyside></p></statement>
-<answer></answer></exercise>
+<answer><p><m>x=8</m>; <m>2x-1=15</m></p></answer></exercise>
 
 <exercise number="16"><statement><p><sidebyside width="40%"><!--<image source="images/hp-6-5-16.png"><description>triangle</description></image>-->
     <image xml:id="hp-6-5-16">
@@ -103,7 +115,33 @@
 <exercise number="17"><statement><p><m>y=x^2-2x-2</m></p>
 	<sidebyside width="80%"><image source="images/hp-6-4-9"><description>grid</description></image></sidebyside>
 </statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><p><m>(-0.73,0)</m>, <m>(2.73,0)</m></p></li>
+	<li><p><m>(1,-3)</m></p></li>
+	<li><sidebyside width="80%" margins="0% 20%">
+    <image xml:id="hp-6-5-17ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.5]
+		\draw[cyan] (-5,-5) grid (5,5);
+		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-5)--(0,6) node[left, xshift=2]{$y$};
+		\foreach \x in {-3,3} {
+		 \draw[cyan, very thick] (\x,-5)--++(0,10);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in  {-3,3} {
+		 \draw[cyan, very thick] (-5,\x)--++(10,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[samples=65,domain={-sqrt(8)+1}:{sqrt(8)+1},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{(\x)^2-2*\x-2});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="18"><statement><p><m>y=-3x^2+2x-1</m></p>
 	<sidebyside width="80%"><!--<image source="images/hp-6-5-18.png"><description>grid</description></image>-->
@@ -156,7 +194,33 @@
     </image>
 	</sidebyside>
 </statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><p><m>(-0.24,0)</m>, <m>(4.24,0)</m></p></li>
+	<li><p><m>(2,-5)</m></p></li>
+	<li><sidebyside width="80%" margins="0% 20%">
+    <image xml:id="hp-6-5-19ans">
+        <description>parabola</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.5]
+		\draw[cyan] (-5,-6) grid (5,4);
+		\draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+		\draw[black, thick, ->, >=stealth'] (0,-6)--(0,5) node[left, xshift=2]{$y$};
+		\foreach \x in {-3,3} {
+		 \draw[cyan, very thick] (\x,-6)--++(0,10);
+		 \draw[black, thick] (\x,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\foreach \x in  {-5,3} {
+		 \draw[cyan, very thick] (-5,\x)--++(10,0);
+		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+		}
+		\draw[samples=65,domain={-1}:{5},smooth,variable=\x,red, ultra thick, <->, >=stealth'] plot ({\x},{(\x)^2-4*\x-1});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+	</sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>y=x^2-0.6x-7.2</m></p>
 	<sidebyside width="80%"><image source="images/hp-6-5-18"><description>grid</description></image></sidebyside>
