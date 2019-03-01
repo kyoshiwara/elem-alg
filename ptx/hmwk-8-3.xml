@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 8.3</title>
+
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>12, find the LCD, then add or subtract.</p></introduction>
+
+<exercise number="1"><statement><p><m>\dfrac{3}{x} - \dfrac{4}{y}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><p><m>\dfrac{-3}{a} - \dfrac{2a}{b}</m></p></statement></exercise>
+
+<exercise number="3"><statement><p><m>1 - \dfrac{3}{a}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><p><m>\dfrac{1}{x} + \dfrac{x}{y} + \dfrac{x}{z}</m></p></statement></exercise>
+
+<exercise number="5"><statement><p><m>\dfrac{5}{xy} - \dfrac{x}{y}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><p><m>\dfrac{2}{z} - \dfrac{1}{2z}</m></p></statement></exercise>
+
+<exercise number="7"><statement><p><m>\dfrac{u-4}{3} + \dfrac{6}{v}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><p><m>\dfrac{3}{x} - \dfrac{2}{x+1}</m></p></statement></exercise>
+
+<exercise number="9"><statement><p><m>\dfrac{3}{n+3} + \dfrac{4n}{n-3}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><p><m>h - \dfrac{3}{h+2}</m></p></statement></exercise>
+
+<exercise number="11"><statement><p><m>\dfrac{v+1}{v} + \dfrac{1}{v-1}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p><m>\dfrac{2}{x} + \dfrac{x}{x-2}-2</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>24, <ol label="a">
+	<li>Find the lowest common denominator for the fractions.</li>
+	<li>Add or subtract.</li></ol></p></introduction>
+
+<exercise number="13"><statement><p><m>\dfrac{-2}{5n} + \dfrac{q}{4n}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><p><m>\dfrac{-6}{s} + \dfrac{3}{s^2}</m></p></statement></exercise>
+
+<exercise number="15"><statement><p><m>\dfrac{z}{4x^2} - \dfrac{1}{6xz}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p><m>\dfrac{5}{2x} + \dfrac{3}{4x^2}</m></p></statement></exercise>
+
+<exercise number="17"><statement><p><m>\dfrac{2z-3}{8z} + \dfrac{z-2}{6z}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><m>\dfrac{3}{2a-b} + \dfrac{1}{8a-4b}</m></p></statement></exercise>
+
+<exercise number="19"><statement><p><m>\dfrac{1}{x} + \dfrac{1}{d-x}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p><m>a + \dfrac{N-a^2}{2a}</m></p></statement></exercise>
+
+<exercise number="21"><statement><p><m>\dfrac{1}{2} \cdot \dfrac{a}{t} - \dfrac{m}{a}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p><m>\dfrac{q}{4 \pi r} + \dfrac{qa}{2 \pi r^2}</m></p></statement></exercise>
+
+<exercise number="23"><statement><p><m>\dfrac{L}{c-V} + \dfrac{L}{c+V}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p><m>\dfrac{q}{r-a} - \dfrac{2q}{r} + \dfrac{q}{r+a}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>30, <ol label="a">
+	<li>Find the lowest common denominator for the fractions.</li>
+	<li>Add or subtract.</li></ol></p></introduction>
+
+<exercise number="25"><statement><p><m>\dfrac{2x+3}{x-1} + \dfrac{2x-5}{1-x}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p><m>\dfrac{5}{2p-4} - \dfrac{2}{6-3p}</m></p></statement></exercise>
+
+<exercise number="27"><statement><p><m>\dfrac{-2}{m^2+3m} + \dfrac{1}{m^2-9}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p><m>\dfrac{4}{k^2-3k} + \dfrac{1}{k^2+k}</m></p></statement></exercise>
+
+<exercise number="29"><statement><p><m>\dfrac{x-1}{x^2+3x} + \dfrac{x}{x^2+6x+9}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><p><m>\dfrac{n+2}{2n^2-3n} - \dfrac{7}{6n-9}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 31<ndash/>33, combine the fractions.</p></introduction>
+
+<exercise number="31"><statement><p><ol label="a" cols="2">
+	<li><m>\dfrac{2b}{a} \cdot \dfrac{4}{b}</m></li>
+	<li><m>\dfrac{2b}{a} - \dfrac{4}{b}</m></li>
+	<li><m>\dfrac{2b}{a} \div \dfrac{4}{b}</m></li>
+	<li><m>\dfrac{2b}{a} + \dfrac{4}{b}</m></li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="32"><statement><p><ol label="a" cols="2">
+	<li><m>\dfrac{2y}{3x^2} \div \dfrac{6}{xy}</m></li>
+	<li><m>\dfrac{2y}{3x^2} + \dfrac{6}{xy}</m></li>
+	<li><m>\dfrac{2y}{3x^2} \cdot \dfrac{6}{xy}</m></li>
+	<li><m>\dfrac{2y}{3x^2} - \dfrac{6}{xy}</m></li></ol></p></statement></exercise>
+
+<exercise number="33"><statement><p><ol label="a" cols="2">
+	<li><m>\dfrac{3}{2+a} - \dfrac{2}{a^2-4}</m></li>
+	<li><m>\dfrac{3}{2+a} \cdot \dfrac{2}{a^2-4}</m></li>
+	<li><m>\dfrac{3}{2+a} + \dfrac{2}{a^2-4}</m></li>
+	<li><m>\dfrac{3}{2+a} \div \dfrac{2}{a^2-4}</m></li></ol></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 34<ndash/>36, write algebraic fractions in simplest form.</p>
+</introduction>
+
+<exercise number="34"><statement><p>The dimensions of a rectangular rug are <m>\dfrac{12}{x}</m> feet and <m>\dfrac{12}{x-2}</m> feet.<ol lanel="a">
+	<li>Write an expression for the area of the rug.</li>
+	<li>Write an expression for the perimeter of the rug.</li></ol></p></statement></exercise>
+
+<exercise number="35"><statement><p>Colonial Airline has a commuter flight between Richmond and Washington, a distance of 100 miles. The plane flies at <m>x</m> miles per hour in still air. Today there is a steady wind from the north at 10 miles per hour.<ol lanel="a">
+	<li>How long will the flight from Richmond to Washington take?</li>
+	<li>How long will the flight from Washington to Richmond take?</li>
+	<li>How long will a round trip take?</li>
+	<li>Evaluate your fractions in parts (a)-(c) for <m>x=150</m>.</li></ol></p></statement>
+<answer></answer></exercise>
+
+<exercise number="36"><statement><p>Francine's cocker spaniel eats a large bag of dog food in <m>d</m> days, and Delbert's sheep dog takes 5 days less to eat the same size bag.<ol lanel="a">
+	<li>What fraction of a bag of dog food does Francine's cocker spaniel eat in one day?</li>
+	<li>What fraction of a bag of dog food does Delbert's sheep dog eat in one day?	</li>
+	<li>If Delbert and Francine get married, what fraction of a bag of dog food will their dogs eat in one day?</li>
+	<li>If <m>d=25</m>, how soon will Delbert and Francine have to buy more dog food?</li></ol></p></statement>
+</exercise>
+</exercisegroup>
+
+</exercises>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Operations-on--Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Operations on Fractions</title>
+
+<subsection><title>Products of Fractions</title>
+
+<p>	To multiply two fractions together, we multiply their numerators together and then multiply their denominators together.</p>
+
+<assemblage><title>Product of Fractions</title>
+	<p>If <m>~b \not= 0~</m> and <m>~d \not= 0~</m>, then
+		<me>\blert{\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}}</me></p></assemblage>
+
+<p>To see why this rule works, consider an example. Suppose you make a chocolate cake for the Math Club bake sale, but at the end of the day  of the cake is left in the pan. The remaining cake is shown in figure (a).</p>
+
+<sidebyside width="65%"><image source="images/fig-8-2-1.png"><description>rectangles</description></image></sidebyside>
+
+<p>You decide to take <m>\dfrac{2}{3}</m> of the remaining cake home, and give the rest to your math teacher. You cut the remaining cake into thirds, as shown in figure (b). How much of the original cake are you taking home?  Your share is 
+	<me> \dfrac{2}{3}~~\text{of}~~\dfrac{4}{5}~~~~~\text{or}~~~~~ \dfrac{2}{3} \times \dfrac{4}{5}</me>
+If you look at figure (b), you can see that you are taking home 8 pieces of cake, and that the original cake would have had 15 pieces of the same size. This means that your share is <m>\dfrac{8}{15}</m> of the original cake.</p>
+
+<p>	We get the same answer if we use the rule above.
+	<md><mrow> \amp \blert{\text{Multiply numerators together.}}</mrow>
+		<mrow>\dfrac{2}{3} \times \dfrac{4}{5} = \dfrac{2 \times 4}{3 \times 5} = \dfrac{8}{15}~~~~~~\amp \blert{\text{Multiply denominators together.}}</mrow></md></p>
+	
+<assemblage><title>Look Closer</title>
+<p>There is a shortcut for multiplying fractions that allows us to reduce the answer before we multiply. We do this by dividing out any common factors in a numerator and a denominator.  For example, consider the product
+	<me>\dfrac{12}{35} \cdot \dfrac{28}{9}</me>
+Notice that 7 divides evenly into one of the denominators (35) and one of the numerators  (28).  We write the fractions with the 7's factored out.  
+	<me>\dfrac{12}{\blert{7} \cdot 5} \cdot \dfrac{\blert{7} \cdot 4}{9}</me>
+Also, 12 and 9 are both divisible by 3, so we write them in factored form as well.  
+	<me>\dfrac{\blert{3} \cdot 4}{\blert{7} \cdot 5} \cdot \dfrac{\blert{7} \cdot 4}{\blert{3} \cdot 3}</me>
+Now we can divide (or "cancel") the common factors from the numerators and denominators.   
+	<me>\dfrac{\cancel{\blert{3}} \cdot 4}{\cancel{\blert{7}} \cdot 5} \cdot \dfrac{\cancel{\blert{7}} \cdot 4}{\cancel{\blert{3}} \cdot 3}</me>
+Finally, we multiply together the remaining factors in the numerator, and multiply the remaining factors in the denominator.  
+	<me>\dfrac{4}{5} \cdot \dfrac{4}{3} = \dfrac{16}{15}</me></p></assemblage>
+
+<reading-questions>
+    <exercise number="1"><statement><p>Use the fundamental principle of fractions to explain why the shortcut 
+	strategy is valid.</p></statement>
+    <answer><p>We can multiply or divide the numerator and denominator of a fraction by the same nonzero factor, and the new fraction will be equivalent to the old one.</p></answer></exercise>
+</reading-questions>
+
+<p>The shortcut strategy also works on algebraic fractions.</p>
+
+<example><statement><p>Multiply <m>~\dfrac{3a}{4} \cdot \dfrac{5}{6a^2}</m></p></statement>
+
+<solution><p>We begin by factoring each numerator and denominator and then canceling any common factors.
+	<me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{\cancel{\blert{3}} \cdot \cancel{\blert{a}}}{4} \cdot \dfrac{5}{\cancel{\blert{3}} \cdot 2 \cdot \cancel{\blert{a}} \cdot a} = \dfrac{5}{8a} ~~~~~~~~ \blert{\text{Cancel before multiplying.}}</me>
+Or we can multiply first, and then reduce the answer.
+	<me>\dfrac{3a}{4} \cdot \dfrac{5}{6a^2} = \dfrac{15a}{24a^2} = \dfrac{\cancel{\blert{3}} \cdot 5 \cdot \cancel{\blert{a}}}{\cancel{\blert{3}} \cdot 8 \cdot \cancel{\blert{a}} \cdot a} = \dfrac{5}{8a} ~~~~~~~~\blert{\text{Cancel after multiplying.}}</me>
+We get the same answer with either method.</p></solution></example>
+
+<assemblage><title>Look Closer</title>
+<p>When we multiply algebraic fractions, it is usually easier to cancel common factors before multiplying.  Otherwise, it may be very difficult to reduce the result!</p></assemblage>
+
+<assemblage><title>To Multiply Algebraic Fractions</title><p><ol label="1">
+	<li>Factor each numerator and denominator completely.</li>
+	<li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
+	<li>Multiply the remaining factors of the numerator and the remaining factors of the denominator.</li>
+	<li>Reduce the product if necessary.</li></ol></p></assemblage>
+
+<p>So far we have considered fractions whose numerators and denominators are monomials. The next example illustrates how to multiply fractions whose numerators and denominators are binomials.</p>
+			
+<example><statement><p>Multiply <m>~\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2}</m></p></statement>
+
+<solution><p>We begin by factoring each numerator and denominator. Then we divide numerator and denominator by any common factors.
+<md><mrow>\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2} = \amp \dfrac{2(x-2)}{\cancel{\blert{3}}(x+2)} \cdot \dfrac{\cancel{\blert{3}}(2x+3)}{x-2} ~~~~~~\blert{\text{Multiply remaining factors of}}</mrow>
+	<mrow> \amp ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \blert{\text{numerators and of denominators.}}</mrow>
+	<mrow>\amp = \dfrac{2(2x+3)}{x+2}~~~ \text{or}~~~ \dfrac{4x+6}{x-2}</mrow></md></p></solution></example>
+
+<warninng><p>In Example 2, it would be incorrect to try to cancel any terms of numerators and denominators before factoring each binomial. For example, we cannot cancel <m>3x</m> into <m>6x</m>, because they are not factors of the fractions.</p></warninng>
+
+<reading-questions>
+    <exercise number="2"><statement><p>What was the first step in multiplying the two fractions in Example 2?</p>
+</statement>
+    <answer><p>Factor each numerator and denominator.</p></answer></exercise>
+</reading-questions>
+
+<p>If we want to multiply a fraction by a whole number, we can write the whole number with a denominator of 1. For example,
+		<me>\dfrac{2x}{3} \cdot \blert{4} = \dfrac{2x}{3} \cdot \blert{\dfrac{4}{1}} = \dfrac{8x}{3}</me></p>
+</subsection>
+
+<subsection><title>Quotients of Fractions</title>
+<p>To divide one fraction by another, we multiply the first fraction by the reciprocal of the second fraction.  For example,
+	<me>\dfrac{m}{2} \blert{\div \dfrac{2p}{3}} = \dfrac{m}{2} \blert{\cdot \dfrac{3}{2p}} = \dfrac{3m}{4p}</me></p>
+
+<assemblage><title>Quotient of Fractions</title>
+<p>	If <m>b,~c,~,d \not= 0</m>,  then
+	<me>\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}</me></p></assemblage>
+
+<p>Why does this rule for division work? Consider a simple example, <m>6 \div \dfrac{1}{3}</m>.  This quotient asks us "how many one-thirds are there in six?" To see the answer, we can draw six whole units as shown below, and split each into thirds.</p>
+
+<sidebyside width="65%"><image source="images/fig-8-2-2.png"><description>rectangles</description></image></sidebyside>
+
+<p>Because there are 3 thirds in each whole unit, we find 63, or 18 thirds in six units. The answer is 18. Now, 3 is the reciprocal of <m>\dfrac{1}{3}</m>, so by using the reciprocal rule, we also find
+	<me>6 \div \dfrac{1}{3} = 6 \times 3 = 18</me></p>
+
+<assemblage><title>Look Closer</title>
+<p>	For a more interesting example, you might try using the figure above to show that 
+	<me>6 \div \dfrac{2}{3} = 6 \times \dfrac{3}{2} = 9</me>
+(Hint:  How many groups of two thirds can you make from six whole units?)</p></assemblage>
+
+<reading-questions>
+    <exercise number="3"><statement><p>Explain why dividing a number by <m>\dfrac{1}{3}</m> is the same as multiplying the number by 3.</p></statement>
+    <answer><p>Dividing by <m>\dfrac{1}{3}</m> asks "how many one-thirds are there in the number?"</p></answer></exercise>
+</reading-questions>
+
+<example><statement><p>Divide: <m>~\dfrac{15u}{4v} \div \dfrac{10u}{8}</m></p></statement>
+
+<solution><p>We replace the second fraction by its reciprocal, and multiply.
+	<md><mrow>\dfrac{15u}{4v} \div \dfrac{10u}{8}  \amp = \dfrac{15u}{4v} \cdot \dfrac{8}{10u} \amp \amp \blert{\text{Factor numerators and denominators.}}</mrow>
+		<mrow>\amp = \dfrac{3 \cdot \blert{5u}}{4 \cdot v} \cdot \dfrac{4 \cdot 2}{2 \cdot 5u} \amp \amp \blert{\text{Cancel common factors.}}</mrow>
+		<mrow>\amp = \dfrac{3 \cdot \cancel{\blert{5u}}}{\cancel{\blert{4}} \cdot v} \cdot \dfrac{\cancel{\blert{4}} \cdot 2}{2 \cdot \cancel{\blert{5u}}} \amp \amp \blert{\text{Multiply numerators; multiply denominators.}}</mrow>
+		<mrow>\amp = \dfrac{3}{v} \cdot \dfrac{2}{2} = \dfrac{3}{v}</mrow></md></p></solution></example>
+
+<p>To divide two algebraic fractions, we take the reciprocal of the divisor and then follow the rules for multiplying algebraic fractions.</p>
+
+<assemblage><title>To Divide One Fraction by Another</title><p><ol label="1">
+	<li>Take the reciprocal of the second fraction and change the division to multiplication.</li>
+	<li>Follow the rules for multiplication of fractions.</li></ol></p></assemblage>
+
+<p>Just as with multiplication, it is important to factor each numerator and denominator before trying to cancel any common factors.</p>
+
+<example><statement><p>Divide: <m>~\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a}</m></p></statement>
+
+<solution><p>First, we change the operation to multiplication by taking the reciprocal of the divisor.
+	<me>\dfrac{a-2}{6a^2} \cdot \dfrac{4a^2-2a}{4-a^2}</me>
+Now, we follow the rules for multiplication. We begin by factoring each numerator and denominator. Once we have finished factoring, we can look for any common factors to cancel. 
+<md><mrow>\dfrac{a-2}{6a^2} \cdot \dfrac{4a^2-2a}{4-a^2} \amp = \dfrac{a-2}{3 \cdot 2 \cdot a \cdot a} \cdot \dfrac{2a(2a-1)}{(2-a)(2+a)}</mrow>
+	<mrow>\amp =\dfrac{-1\cancel{\blert{(2-a)}}}{3 \cdot \cancel{\blert{2}} \cdot \cancel{\blert{a}} \cdot a} \cdot \dfrac{\cancel{\blert{2}} \cancel{\blert{a}}(2a-1)}{\cancel{\blert{(2-a)}}(2+a)}~~~\blert{\text{Multiply remaining factors.}}</mrow>
+	<mrow>\amp = \dfrac{-1(2a-1)}{3a(2+a)} = \dfrac{1-2a}{3a(2+a)}</mrow></md></p></solution></example>
+
+<warning><p>In Example 4, do not try to cancel before factoring the numerators and denominators! For example, it would be incorrect to try to cancel <m>a^2</m> before factoring each binomial.</p></warning>
+
+<p>If a nonfractional expression appears in a quotient, we can write it with a denominator of 1, just as we did for products. For example,
+	<md><mrow>\dfrac{3}{2} \div \blert{6a} \amp = \dfrac{3}{2} \div \blert{\dfrac{6}{1}}</mrow>
+		<mrow> \amp = \dfrac{\cancel{\blert{3}}}{2} \cdot \dfrac{1}{2 \cdot \cancel{\blert{3}}a}=\dfrac{1}{4a}</mrow></md></p>
+</subsection>
+
+<subsection><title>Adding Like Fractions</title>
+
+<assemblage><p>Fractions with the same denominator are called <term>like fractions</term>.</p></assemblage>
+
+<p>Here are some examples of like fractions:
+	<me>\dfrac{5}{8} ~~\text{and}~~\dfrac{9}{8},~~~~~~~\dfrac{4}{5x} ~~\text{and}~~\dfrac{3}{5x},~~~~~~~\dfrac{1}{a-2} ~~\text{and}~~\dfrac{a}{a-2}</me>
+because they have the same denominators. The following pairs are unlike fractions:  
+	<me>\dfrac{2}{3a} ~~\text{and}~~\dfrac{2}{3a^2},~~~~~~~\dfrac{5}{x+1} ~~\text{and}~~\dfrac{2x}{x-1}</me>
+because they have different denominators.</p>
+
+<reading-questions>
+    <exercise number="4"><statement><p>What are like fractions?</p></statement>
+    <answer><p>Fractions with the same denominator</p></answer></exercise>
+</reading-questions>
+
+<p>We can add or subtract two fractions only if they are like fractions, for the same reason that we can add only like terms. For example, 
+	<me>3x+4x=7x</me>
+becuase <m>3x</m> and <m>4x</m> are like terms. Similarly, we can think of the sum <m>\dfrac{3}{5} +\dfrac{4}{5}</m>  as
+	<me>\blert{3}(\dfrac{1}{5})+\blert{4}(\dfrac{1}{5})=\blert{7}(\dfrac{1}{5}) = \dfrac{\blert{7}}{5}</me></p>
+
+<assemblage><title>Look Closer</title>
+<p>In the example above, the denominators of the fractions tell us what kind of quantity we are adding (namely, fifths). We can add only quantities of the same kind. Note that we added the numerators, <m>3+4</m>, but kept the same denominator, <m>5</m>.</p></assemblage>
+
+<assemblage><p>When we add like fractions, we add their numerators and keep the denominator the same.</p></assemblage>
+
+<assemblage><title>Sum or Difference of Like Fractions</title>
+<p>If <m>c \not= 0</m>,  then    
+	<me>\blert{\dfrac{a}{c}+\dfrac{b}{c}= \dfrac{a+b}{c}}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{c}-\dfrac{b}{c}= \dfrac{a-b}{c}}</me></p></assemblage>
+
+<p>The same rules hold true for adding or subtracting algebraic fractions. We can think of the process as combining the numerators over a single denominator. For example,
+	<md><mrow>\dfrac{10}{3x}+\dfrac{4}{3x}=\dfrac{10+4}{3x}=\dfrac{14}{3x}~~~~~~ \amp \blert{\text{Add the numerators.}}</mrow>
+		<mrow>\amp \blert{\text{Keep the same denominator.}}</mrow></md></p>
+
+<warning><p>In the example above, we do not add the denominators of the fractions; only the numerators. It would be incorrect to write <m>6x</m> for the denominator of the sum.</p></warning>
+
+<example><statement><p>Add: <m>~\dfrac{2x-5}{x+2} + \dfrac{x+4}{x+2}</m></p></statement>
+
+<solution><p>We combine the numerators over a single denominator.
+	<md><mrow>\dfrac{2x-5}{x+2} + \dfrac{x+4}{x+2} \amp = \dfrac{(2x-5)+(x+4)}{x+2} \amp \amp \blert{\text{Add like terms in the numerator.}}</mrow>
+	<mrow>\amp = \dfrac{3x-1}{x+2}</mrow></md></p></solution></example>
+    
+<reading-questions>
+    <exercise number="5"><statement><p>How do we add like fractions?</p></statement>
+    <answer><p>Combine the numerators over a single denominator.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Subtracting Like Fractions</title>
+<p>We must be careful when subtracting algebraic fractions: A subtraction sign in front of a fraction applies to the entire numerator.</p>
+
+<example><statement><p>Subtract: <m>~\dfrac{x-3}{x-1} - \dfrac{3x-5}{x-1}</m></p></statement>
+
+<solution><p>We combine the numerators over a single denominator. We use parentheses around <m>3x-5</m> to show that the subtraction applies to the entire numerator.
+	<md><mrow>\dfrac{x-3}{x-1} - \dfrac{3x-5}{x-1} = ~ \amp \dfrac{(x-3)-(3x-5)}{x-1}</mrow>
+		<mrow>\amp \blert{\text{Remove parentheses; distribute negative sign.}}</mrow>
+		<mrow>= ~ \amp  \dfrac{x-3 \alert{-}3x\alert{+}5)}{x-1}</mrow>
+		<mrow>\amp \blert{\text{Combine like terms in the numerator.}}</mrow>
+		<mrow>= ~  \amp \dfrac{-2x+2}{x-1}</mrow></md>
+We should always check to see whether the fraction can be reduced. Factor the numerator to find
+	<me>\dfrac{-2x+2}{x-1} = \dfrac{-2 \cancel{\blert{(x-1)}}}{\cancel{\blert{(x-1)}}} = -2</me>
+</p></solution></example>
+
+<warning><p>In Example 4, be careful to subtract each term of the numerator of the second fraction. The following calculation is incorrect:
+	<me>\dfrac{x-3}{x-1} - \dfrac{3x-5}{x-1} = \dfrac{x-3-3x-5}{x-1}~~~~~~\alert{\text{Incorrect!}}</me>
+We must change the sign of each term of the second numerator, to get <m>-3x+5</m>.</p></warning>
+
+<assemblage><title>To Add or Subtract Like Fractions</title><p><ol label="1">
+	<li>Add or subtract the numerators.</li>
+	<li>Keep the same denominator.</li>
+	<li>Reduce the sum or difference if necessary.</li></ol></p></assemblage>
+
+<reading-questions>
+    <exercise number="6"><statement><p>When we subtract like fractions, how do we apply the subtraction sign?</p></statement>
+    <answer><p>To each term of the numerator of the subtracted fraction.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Polynomial Division</title>
+<p>Not every fraction can be reduced. Consider three improper fractions: 
+	<me>\dfrac{8}{6},~~~~ \dfrac{8}{4},~~~\text{and} ~~~\dfrac{8}{3}</me> 
+Can these fractions be simplified?<ul>
+	<li>We can reduce the first fraction: <m>~~\dfrac{8}{6}=\dfrac{4}{3}</m></li>   
+	<li>The second fraction reduces to a whole number:  <m>~~\dfrac{8}{4}= \dfrac{2}{1}=2</m></li>   
+	<li>The third fraction does not reduce, but by dividing the denominator into the numerator, we can write it as a whole number plus a proper fraction:  <m>~~\dfrac{8}{3}= 2\dfrac{2}{3}</m></li></ul></p>
+
+<p>If an algebraic fraction cannot be reduced, we can simplify it by dividing the denominator into the numerator, just as we do with arithmetic fractions. The quotient will be the sum of a polynomial and a simpler algebraic fraction.</p>
+
+<p>If the denominator is a monomial, we can simply divide the monomial into each term of the numerator.</p>
+ 
+<example><statement><p>Divide <m>~~\dfrac{9x^3-6x^2+4}{3x}</m></p></statement>
+
+<solution><p>We divide <m>3x</m> into each term of the numerator.
+	<md><mrow>\dfrac{9x^3-6x^2+4}{3x} \amp = \dfrac{9x^3}{3x}-\dfrac{6x^2}{3x}+\dfrac{4}{3x}</mrow>
+		<mrow> \amp = 3x^3-2x+\dfrac{4}{3x}</mrow></md>
+The quotient is the sum of a polynomial, <m>3x^3-2x</m>, and an algebraic fraction, <m>\dfrac{4}{3x}</m>.</p></solution></example>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+
+<exercisegroup cols="3"><introduction><p>Write each expression as a single fraction in lowest terms.
+</p></introduction>
+
+<exercise number="1"><statement><m>6 \cdot \dfrac{3}{4}</m></statement>
+<answer><m>\dfrac{9}{2}</m></answer></exercise>
+
+<exercise number="2"><statement><m>6 \div \dfrac{3}{4}</m></statement>
+<answer><m>8</m></answer></exercise>
+
+<exercise number="3"><statement><m>\dfrac{3}{4} \div 6</m></statement>
+<answer><m>\dfrac{1}{8}</m></answer></exercise>
+
+<exercise number="4"><statement><m>6 + \dfrac{3}{4}</m></statement>
+<answer><m>\dfrac{27}{4}</m></answer></exercise>
+
+<exercise number="5"><statement><m>6 - \dfrac{3}{4}</m></statement>
+<answer><m>\dfrac{21}{4}</m></answer></exercise>
+
+<exercise number="6"><statement><m>6 \dfrac{3}{4}</m></statement>
+<answer><m>\dfrac{27}{4}</m></answer></exercise>
+</exercisegroup>
+
+<exercise number="7"><statement><p>Simplify <m>~~(x+2)-(2x-3)</m></p></statement>
+<answer><m>5-x</m></answer></exercise>
+
+<exercise number="8"><statement><p>Reduce <m>~~\dfrac{2x-4}{3x-6}</m></p></statement>
+<answer><m>\dfrac{2}{3}</m></answer></exercise>
+</exercises>
+
+</subsection>
+</section>  

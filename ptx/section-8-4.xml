@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Equations-with-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Equations with Fractions</title>
+
+<subsection><title>"Clearing" Fractions</title>
+<p>How can we solve an equation that involves algebraic fractions?  Recall that to solve the equation
+	<me>\dfrac{3x}{4} = 9</me>
+ we multiply both sides by 4 (the denominator of the fraction) to "clear" the fraction.
+ 	<md><mrow>\cancel{\blert{4}}(\dfrac{3x}{\cancel{4}}) \amp = (9)\blert{4}</mrow>
+ 		<mrow>3x \amp = 36</mrow></md>
+ We can now finish the solution to get <m>x=12</m>.</p>
+	
+<p>We use the same idea to solve an equation with algebraic fractions.</p>
+
+<example><statement><p>Solve  <m>~~\dfrac{5000+50x}{x} = 75</m></p></statement>
+
+<solution><p>We multiply both sides of the equation by <m>x</m>, the denominator of the fraction, to get
+	<md><mrow>\cancel{\blert{x}}(\dfrac{5000+50x}{\cancel{x}}) \amp = (75)\blert{x}</mrow>
+ 		<mrow>5000+50x \amp = 75x</mrow></md>
+Then we proceed as usual to finish the solution. We subtract <m>50x</m> from both sides to find
+  	<md><mrow>5000 \amp = 25x</mrow>
+  		<mrow>200 \amp = x</mrow></md>
+You can check that <m>x=200</m> does satisfy the equation.</p></solution></example>
+</subsection>
+
+<subsection><title>Using an LCD to Clear Fractions</title>
+<p>If an equation contains more than one fraction, we multiply both sides of the equation by the LCD of all the fractions. This will clear all the denominators at once.</p>
+   
+<example><statement><p>Solve  <m>~~\dfrac{x}{3} -2 = \dfrac{4}{5} + \dfrac{x}{5}</m></p></statement>
+
+<solution><p>The LCD of <m>~\dfrac{x}{3},~ \dfrac{4}{5}</m> and <m>~\dfrac{x}{5}</m> is 15. We multiply both sides of the equation by 15.
+	<md><mrow>\blert{15}(\dfrac{x}{3} -2)  \amp = (\dfrac{4}{5} + \dfrac{x}{5})\blert{15} \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
+		<mrow>\blert{15}(\dfrac{x}{3})- \blert{15}(2)  \amp = \blert{15}(\dfrac{4}{5}) + \blert{15}(\dfrac{x}{5}) \amp \amp \blert{\text{Simplify each product.}}</mrow>
+		<mrow>5x-30 \amp = 12+3x</mrow></md>
+Now we can proceed as usual to complete the solution.
+	<md><mrow>5x-30 \amp = 12+3x \amp \amp  \blert{\text{Subtract}~3x~\text{from both sides;}}</mrow>
+		<mrow>\amp \amp\amp  \blert{\text{add 30 to both sides.}}</mrow>
+		<mrow>2x \amp = 42 \amp\amp   \blert{\text{Divide both sides by 2.}}</mrow>
+		<mrow>x \amp = 21</mrow></md></p></solution></example>
+
+<warning><p>In Example 2, note that we multiplied each term by the LCD, 15, including terms that are not fractions, namely 2 in this example. Be sure to multiply each term of the equation by the LCD.</p></warning>  
+
+<reading-questions>
+    <exercise number="1"><statement><p>When clearing fractions, which terms of the equation should we multiply 
+	by the LCD?</p></statement>
+    <answer><p>Every term</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Variables in the Denominator</title>
+<p>Equations that involve algebraic fractions can also be solved using an LCD.</p>
+
+<example><statement><p>Solve  <m>~~\dfrac{3}{4} = 8- \dfrac{2x+11}{x-5}</m></p></statement>
+
+<solution><p>The LCD for the two fractions in the equation is <m>\blert{4(x-5)}</m>. We multiply both sides of the equation by the LCD.
+	<md><mrow>\blert{4(x-5)}(\dfrac{3}{4})  \amp = (8- \dfrac{2x+11}{x-5}) \cdot \blert{4(x-5)} ~~~~~~~~  \blert{\text{Apply the distributive law.}}</mrow>
+		<mrow>\blert{\cancel{4}(x-5)}(\dfrac{3}{\cancel{4}})  \amp = \blert{4(x-5)}(8)- \blert{4\cancel{(x-5)}}(\dfrac{2x+11}{x-5})</mrow>
+		<mrow>3(x-5) \amp = 32(x-5)-4(2x+11)</mrow></md>
+We proceed as usual to complete the solution. First we use the distributive law to remove parentheses.
+	<md><mrow>3x-15 \amp = 32x-160-8x-44 \amp \amp \blert{\text{Combine like terms.}}</mrow>
+		<mrow>3x-15 \amp = 24x-204</mrow>
+		<mrow>-21x \amp = -189</mrow>
+		<mrow>x \amp = 9</mrow></md>
+The solution is <m>x=9</m>. You can check that <m>x=9</m> satisfies the original equation.</p></solution></example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>How do we "clear" the fractions from an equation?</p></statement>
+    <answer><p>Multiply both sides by the LCD.</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Look Ahead</title>
+<p>	Remember that we do not obtain an equivalent equation if we multiply both sides of an equation by zero. In Example 3 we multiplied by <m>4(x-5)</m>. Is it possible that <m>4(x-5)</m> equals zero? After solving, we found that <m>x=9</m>, so <m>4(x-5) = 16</m>, which is not zero, and the multiplication step was valid. The next example illustrates what can go wrong if we multiply by zero.</p></assemblage>
+</subsection>
+
+<subsection><title>Extraneous Solutions</title>
+
+<example><statement><p>Solve  <m>~~6 +\dfrac{4}{x-3} = \dfrac{x+1}{x-3}</m></p></statement>
+
+<solution><p>We multiply both sides of the equation by the LCD, <m>x-3</m>, to clear the fractions.
+	<md><mrow>\blert{(x-3)}(6+\dfrac{4}{x-3}) \amp = (\dfrac{x+1}{x-3}) \cdot \blert{(x-3)} ~~~~~  \blert{\text{Apply the distributive law.}}</mrow>
+		<mrow>\blert{(x-3)}(6)+\blert{\cancel{(x-3)}}(\dfrac{4}{\cancel{x-3}}) \amp = (\dfrac{x+1}{x-3})\blert{\cancel{(x-3)}}</mrow>
+		<mrow>6(x-3) + 4 \amp = x+1</mrow></md>
+We complete the solution as usual.
+	<md><mrow>6x-18 +4 \amp = x+1</mrow>
+		<mrow>6x-14 \amp = x+1</mrow>
+		<mrow>5x \amp = 15</mrow>
+		<mrow>x \amp = 3</mrow></md>
+The solution appears to be <m>x=3</m>. But we have a problem, because the LCD, <m>x-3</m>, equals zero when <m>x=3</m>. We have multiplied both sides of the equation by zero. When we try to check the solution we find
+	<md><mrow> 6 + \dfrac{4}{3-3} \amp = \dfrac{3+1}{3-3} ~~~~~~\blert{\text{Simplify each term.}}</mrow>
+		<mrow> 6 + \dfrac{4}{0} \amp = \dfrac{3+1}{0}</mrow></md>
+Because division by zero is undefined, 3 is not a solution after all. The original equation does not have a solution.</p></solution></example>
+
+<p>In Example 4, when we multiplied both sides of the equation by zero we found a false solution for the equation.  Such solutions are called <term>extraneous solutions</term>. There is always a danger that an extraneous solution may be introduced when we multiply by an expression that contains the variable.</p>  
+
+<reading-questions>
+    <exercise number="3"><statement><p>When might an extraneous solution be introduced?</p></statement>
+    <answer><p>When we multiply by an expression that contains the variable.</p></answer></exercise>
+</reading-questions>
+
+<assemblage><p>We should always check for extraneous solutions when solving equations that involve algebraic fractions.</p></assemblage>
+
+<p>To check a solution, we substitute it into the original equation. If a possible solution causes any of the denominators in the equation to equal zero, then that solution is extraneous.</p>
+
+<reading-questions>
+    <exercise number="4"><statement><p>How do we check for extraneous solutions?</p></statement>
+    <answer><p>See if it causes any of the denominators in the equation to equal zero.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Formulas</title>
+<p>	We can also solve formulas that involve algebraic fractions.</p>
+
+<example><statement><p>Solve for <m>P</m>: <m>~~\dfrac{1}{T} = \dfrac{PR}{A-P}</m></p></statement>
+
+<solution><p>The LCD for the two fractions in the equation is <m>\blert{T(A-P)}</m>. We multiply both sides of the equation by the LCD to obtain
+	<md><mrow>\blert{\cancel{T}(A-P)} \dfrac{1}{\cancel{T}} \amp = \dfrac{PR}{\cancel{A-P}}\blert{T\cancel{(A-P)}}</mrow>
+		<mrow>A-P \amp = PRT</mrow></md>
+Next, we get all the terms containing the desired variable, <m>P</m>, on one side of the equation. We add <m>P</m>to both sides to get
+	<me>A=P+PRT</me>
+We now have two unlike terms that contain the desired variable. To proceed, we factor out this variable, and then divide both sides by the remaining factor.
+<md><mrow>A \amp = P(1+RT)~~~~~~~~~\blert{\text{Divide both sides by}~1+RT.}</mrow>
+		<mrow>\dfrac{A}{\blert{1+RT}} \amp = \dfrac{P\cancel{(1+RT)}}{\blert{\cancel{1+RT}}}</mrow></md>
+Thus, the new version of the formula is
+	<me>P=\dfrac{A}{1+RT}</me></p></solution></example>
+
+<reading-questions>
+    <exercise number="5"><statement><p>When solving a formula, what should we do if there are two terms that 
+	contain the variable?</p></statement>
+    <answer><p>Factor out the variable.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Applications</title>
+<p>	Recall the formula <m>d=rt</m>, which is useful in solving problems about motion. By solving for <m>r</m> or <m>t</m>, we can write the equation in the forms
+	<me>r = \dfrac{d}{t}~~~~~~\text{or}~~~~~~t = \dfrac{d}{r}</me>
+if either of these is more useful for the problem.</p>
+
+<example><statement><p>A cruise boat travels 18 miles downstream and back in <m>4\dfrac{1}{2}</m> hours. If the speed of the current is 3 miles per hour, what is the speed of the boat in still water?</p></statement>
+
+<solution><p>We let <m>x</m> stand for unknown quantity, the speed of the boat in still water. Then we make a table showing the distance, rate, and time for each part of the trip. We begin by filling in the information given in the problem.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>Distance</cell>
+                        <cell>Rate</cell>
+                        <cell>Time</cell></row>
+                    <row> 
+             			<cell>Downstream trip</cell>
+                        <cell><m>18</m></cell>
+                        <cell><m>x+3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Upstream trip</cell>
+                        <cell><m>18</m></cell>
+                        <cell><m>x-3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+<p>We use the formula <m>t = \dfrac{d}{r}</m> to fill in the last column of the table.</p>
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>Distance</cell>
+                        <cell>Rate</cell>
+                        <cell>Time</cell></row>
+                    <row> 
+             			<cell>Downstream trip</cell>
+                        <cell><m>18</m></cell>
+                        <cell><m>x+3</m></cell>
+                        <cell><m>\blert{\dfrac{18}{x+3}}</m></cell></row>
+                    <row> 
+                        <cell>Upstream trip</cell>
+                        <cell><m>18</m></cell>
+                        <cell><m>x-3</m></cell>
+                        <cell><m>\blert{\dfrac{18}{x-3}}</m></cell></row>
+                    </tabular></sidebyside>
+
+<p>Notice that we did not use the <m>4\dfrac{1}{2}</m> hours in the table, because it was not the trip upstream or the trip downstream that took <m>4\dfrac{1}{2}</m> hours, but the total trip. We use the <m>4\dfrac{1}{2}</m> to write an equation. The sum of the times for the upstream and downstream trips was <m>4\dfrac{1}{2}</m> or <m>\dfrac{9}{2}</m> hours.
+	<me> \dfrac{18}{x+3}+\dfrac{18}{x-3} = \dfrac{9}{2}</me>
+To solve the equation, we multiply both sides by the LCD, <m>2(x-3)(x+3)</m>. 
+	<me> \blert{2(x-3)(x+3)}(\dfrac{18}{x+3}+\dfrac{18}{x-3}) = (\dfrac{9}{2})\blert{2(x-3)(x+3)}</me>
+Next, we apply the distributive law to multiply each term of the equation by the LCD.
+	<md><mrow> \blert{2(x-3)\cancel{(x+3)}}(\dfrac{18}{\cancel{x+3}})+\blert{2\cancel{(x-3)}(x+3)}(\dfrac{18}{\cancel{x-3}}) \amp = (\dfrac{9}{\cancel{2}})\blert{\cancel{2}(x-3)(x+3)}</mrow>
+	<mrow>36(x-3)+36(x+3) \amp = 9(x-3)(x+3)</mrow></md>
+We simplify each side of the equation and write it in standard form.
+	<md><mrow>36x-108+36x+108 \amp = 9x^2-81~~~~~~~~\blert{\text{Combine like terms.}}</mrow>
+		<mrow>9x^2-72x-81 \amp =0</mrow></md>
+The equation is quadratic, and we can solve it by factoring.
+	<md><mrow>9(x^2-8x-9) \amp = 0</mrow>
+		<mrow>9(x-9)(x+1) \amp = 0~~~~~~~~\blert{\text{Set each factor equal to zero.}}</mrow>
+		<mrow>x-9=0~~~~x+1 \amp = 0</mrow>
+		<mrow>x=9~~~~~~~~~~x \amp =-1</mrow></md>
+Finally, we check each solution by substituting into the original equation. Neither solution is extraneous. However, the speed of the boat is not a negative number, so we discard the solution <m>x=-1</m>. The boat travels at 9 miles per hour in still water.</p></solution></example>
+
+<p>Problems involving other types of rates can be solved with similar techniques. Suppose it takes you 8 hours to type a term paper for your history class. If you work at a constant rate, in 1 hour you would complete <m>\dfrac{1}{8}</m> of your task. The rate at which you work, or your work rate, is one-eighth job per hour. In 3 hours you would complete  
+	<me>3 \cdot \dfrac{1}{8} = \dfrac{3}{8}</me>
+of the job. In <m>t</m> hours you would complete    
+	<me>t \cdot \dfrac{1}{8} = \dfrac{t}{8}</me>
+of the job. In general, the amount of work done, expressed as a fraction of 1 whole job, is given by the following  formula.</p>
+
+<assemblage><title>Work Formula</title>
+<p><md><mrow>\blert{\text{work rate} \times \text{time}} \amp \blert{= \text{work completed}}</mrow>
+		<mrow>\blert{rt} \amp \blert{= w}</mrow></md></p></assemblage>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+
+<exercisegroup cols="2"><introduction><p>Write each expression as a single fraction in simplest form.</p>
+</introduction>
+
+<exercise number="1"><statement><m>\dfrac{1}{x-2} + \dfrac{2}{x}</m></statement>
+<answer><m>\dfrac{3x-4}{x^2-2x}</m></answer></exercise>
+
+<exercise number="2"><statement><m>\dfrac{1}{x-2} - \dfrac{2}{x}</m></statement>
+<answer><m>\dfrac{4-x}{x^2-2x}</m></answer></exercise>
+
+<exercise number="3"><statement><m>\dfrac{1}{x-2} \cdot \dfrac{2}{x}</m></statement>
+<answer><m>\dfrac{2}{x^2-2x}</m></answer></exercise>
+
+<exercise number="4"><statement><m>\dfrac{1}{x-2} \div \dfrac{2}{x}</m></statement>
+<answer><m>\dfrac{x}{2x-4}</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>
