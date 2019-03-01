@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 8.4</title>
+
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>10, solve the equation.</p></introduction>
+
+<exercise number="1"><statement><p><m>\dfrac{5x}{2}-1=x+\dfrac{1}{2}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><p><m>\dfrac{t}{6}-\dfrac{7}{3}=\dfrac{2t}{9}-\dfrac{t}{4}</m></p></statement></exercise>
+
+<exercise number="3"><statement><p><m>\dfrac{5x}{2}(x-1)+x=6</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="4"><statement><p><m>\dfrac{3x^2}{2}-\dfrac{x}{4}=\dfrac{1}{2}</m></p></statement></exercise>
+
+<exercise number="5"><statement><p><m>2+\dfrac{5}{2x}=\dfrac{3}{x}+\dfrac{3}{2}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><p><m>1+\dfrac{1}{x(x-1)}=\dfrac{3}{x}</m></p></statement></exercise>
+
+<exercise number="7"><statement><p><m>\dfrac{4}{x-1}-\dfrac{4}{x-2}=\dfrac{3}{7}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><p><m>\dfrac{1}{x-2}+\dfrac{1}{x+2}=\dfrac{4}{x^2-4}</m></p></statement></exercise>
+
+<exercise number="9"><statement><p><m>\dfrac{15x}{1+x^2}=6</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><p><m>\dfrac{3x+2}{x}=\dfrac{x+9}{x+6}</m></p></statement></exercise>
+</exercisegroup>
+
+ <exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>18, solve the formula for the specified variable.</p></introduction>
+
+<exercise number="11"><statement><p><m>V=\dfrac{hT}{P}~~~~</m>for <m>~T</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p><m>m=\dfrac{2E}{v^2}~~~~</m>for <m>~E</m></p></statement></exercise>
+
+<exercise number="13"><statement><p><m>m=\dfrac{y-k}{x-h}~~~~</m>for <m>~x</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><p><m>a=\dfrac{F}{m+M}~~~~</m>for <m>~m</m></p></statement></exercise>
+
+<exercise number="15"><statement><p><m>\dfrac{1}{R}=\dfrac{1}{A}+\dfrac{1}{B}~~~~</m>for <m>~A</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p><m>I=\dfrac{E}{R+\dfrac{r}{n}}~~~~</m>for <m>~R</m></p></statement></exercise>
+
+<exercise number="17"><statement><p><m>r=\dfrac{dc}{1-ec}~~~~</m>for <m>~e</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><m>w=0.622\dfrac{e}{P-e}~~~~~~</m>for <m>~e</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, solve the proportion.</p></introduction>
+
+<exercise number="19"><statement><p><m>\dfrac{p-3}{2}=\dfrac{7}{p+2}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p><m>\dfrac{m-4}{2m+1}=\dfrac{m+1}{2m-1}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="21"><statement><p>A small lake in a state park has become polluted by runoff from a factory upstream. The cost for removing  percent of the pollution from the lake is given, in thousands of dollars, by
+	<me>C=\dfrac{25p}{100-p}</me>
+How much of the pollution can be removed for $25,000?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p>During the baseball season so far this year, Pete got hits 44 times out of 164 times at bat.<ol label="a">
+	<li>What is Pete's batting average so far? (Batting average is the fraction of at-bats that resulted in hits.)</li>
+	<li>If Pete gets hits on every one of his next <m>x</m> at-bats, write an expression for his new batting average.</li>
+	<li>How many consecutive hits does Pete need to raise his batting average to <m>0.350</m>?</li></ol>
+</p></statement></exercise>
+
+<exercise number="23"><statement><p>The rectangle <m>ABCD</m> in the figure is divided into a square and a smaller rectangle, <m>CDEF</m>. The two rectangles <m>ABCD</m> and <m>CDEF</m> are <term>similar</term>, which means that their corresponding sides are proportional. </p>
+<sidebyside width="25%"><image source="images/hp-8-4-23.png"><description>rectangle</description></image></sidebyside>
+<p>A rectangle with this property is called a golden rectangle, and the ratio of its length to its width is called the golden ratio. The golden ratio appears frequently in art and nature, and is considered to give the most pleasing proportions to many figures. We'll compute the golden ratio as follows.<ol label="a">
+	<li>Let <m>AB=1</m> and <m>AD=x</m>. What are the lengths of <m>AE,~ ED,</m> and <m>CD</m>?</li>
+	<li>Write a proportion in terms of <m>x</m> for the similarity of rectangles <m>ABCD</m> and <m>CDEF</m>. Be careful to match up the corresponding sides.</li>
+	<li>Solve your proportion for <m>x</m>. Find the golden ratio, <m>\dfrac{AD}{AB} = \dfrac{x}{1}.</m></li></ol>
+</p></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p>Compare the procedures for adding fractions and for solving fractional equations in the problems below. Explain how the LCD is used differently for adding and for solving equations.
+<ol label="a" cols="2">
+	<li>Add:  <m>~~\dfrac{x-1}{4}+\dfrac{3x}{5}</m></li>
+	<li>Solve:  <m>~~\dfrac{x-1}{4}+\dfrac{3x}{5}=1</m></li></ol></p></statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 25<ndash/>28, <ol label="a"> 
+	<li>Write an equation to model the problem.</li>
+	<li>Solve your equation and answer the question posed in the problem.</li></ol></p></introduction>
+
+<exercise number="25"><statement><p>An express train travels 180 miles in the same time that a freight train travels 120 miles. If the express train travels 20 miles per hour faster than the freight train, find the speed of each.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p>Sam Scholarship and Reginald Privilege each travel the 360 miles to Fort Lauderdale on spring break, but Reginald drives his Porsche while Sam hitches a ride on a vegetable truck.  Reginald travels 20 miles per hour faster than Sam does and arrives in 3 hours less time. How fast did each travel?
+</p></statement></exercise>
+
+<exercise number="27"><statement><p>Periwinkle Publishing can print the first run of a volume of poems in 10 hours on their new press; the same job takes 18 hours on their old machine. The new press is finishing another job, so the press manager starts the old machine 4 hours ahead of the new one. How many hours are needed with both presses running to finish the printing?</p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p>It takes 30 minutes to fill a large water tank. However, the tank has a small leak that would completely drain it in 4 hours. How long will it take to fill the tank if the leak is not plugged?
+</p></statement></exercise>
+</exercisegroup>
+
+<exercise number="29"><statement><p>Find the <m>\alert{\text{error}}</m> in the following "proof" that <m>1=0</m>:
+	Start by letting  <m>x=1</m>.
+	<md><mrow>x \amp = 1  \amp \amp \blert{\text{Multiply both sides by}~x.}</mrow>
+		<mrow>x^2 \amp = x  \amp \amp \blert{\text{Subtract 1 from both sides.}}</mrow>
+		<mrow>x^2-1 \amp = x-1  \amp \amp \blert{\text{Factor the left side.}}</mrow>
+		<mrow>(x-1)(x+1) \amp = x-1  \amp \amp \blert{\text{Divide both sides by}~x-1.}</mrow>
+		<mrow>\dfrac{(x-1)(x+1)}{x-1} \amp = \dfrac{x-1}{x-1}  \amp \amp \blert{\text{Simplify both sides.}}</mrow>
+		<mrow>x+1 \amp = 1 \amp \amp \blert{\text{Subtract 1 from both sides.}}</mrow>
+		<mrow>x \amp = 0</mrow></md>
+	Because <m>x=1</m> and <m>x=0</m>, we have "proved" that <m>1=0</m>.</p></statement>
+<answer></answer></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 30<ndash/>31, find the error in the "solution" and correct it.</p></introduction>
+
+<exercise number="30"><statement><p>
+	<md><mrow>\dfrac{a}{2} - \dfrac{a}{3} \amp = 1  </mrow>
+		<mrow>6(\dfrac{a}{2} - \dfrac{a}{3}) \amp = 1 </mrow>
+		<mrow>3a-2a \amp = 1</mrow>
+		<mrow>a \amp = 1  </mrow></md></p></statement></exercise>
+
+<exercise number="31"><statement><p><md><mrow>\dfrac{a}{2} - \dfrac{a}{3} \amp = 1  </mrow>
+		<mrow>m^2-6m \amp = 0 </mrow>
+		<mrow>m^2 \amp = 6m</mrow>
+		<mrow>\dfrac{m^2}{m} \amp = \dfrac{6m}{m}</mrow>
+		<mrow>a \amp = 6  </mrow></md></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercise number="32"><statement><p>If two hens lay two eggs in 2 days, how long will it take six hens to lay six eggs?</p></statement></exercise>
+
+</exercises>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Lowest-Common-Denominator" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Lowest Common Denominator</title>
+
+<subsection><title>Building Fractions</title>
+<p>Let's begin with a quick review of the steps for adding fractions in arithmetic. Recall that we can only simplify a sum of like fractions. To add or subtract fractions with unlike denominators, we must convert the fractions to equivalent forms with the same denominator.</p> 
+
+<p>As an example, we'll compute the sum
+	<me>\dfrac{2}{3} + \dfrac{3}{4}</me>
+<ol label="1">
+	<li><p>We first find the <term>lowest common denominator</term> for the two fractions. The LCD is the smallest number that is a multiple of both 3 and 4, so in this example the LCD is 12.</p></li>  
+	<li><p>	Next, we <term>build</term> each fraction to an equivalent fraction with denominator 12. First, we multiply <m>\dfrac{2}{3}</m> by <m>\dfrac{4}{4}</m>. Because <m>\dfrac{4}{4}</m> is equal to 1, we have not changed the value of the fraction.  4 is called the <term>building factor</term> for <m>\dfrac{2}{3}</m>. Similarly, we multiply <m>\dfrac{3}{4}</m> by <m>\dfrac{3}{3}</m>.
+		<md><mrow>\dfrac{2}{3} \amp = \dfrac{2 \cdot \blert{4}}{3 \cdot \blert{4}} = \dfrac{8}{12} \amp \amp \blert{\text{The building factor is 4.}}</mrow>
+			<mrow>\dfrac{3}{4} \amp = \dfrac{3 \cdot \blert{3}}{4 \cdot \blert{3}} = \dfrac{9}{12} \amp \amp \blert{\text{The building factor is 3.}}</mrow></md></p></li>
+	<li><p>The new fractions, <m>\dfrac{8}{12}</m> and <m>\dfrac{9}{12}</m>, are like fractions, so we add them by combining their numerators.
+		<me>\dfrac{2}{3} + \dfrac{3}{4} = \dfrac{8}{12} + \dfrac{9}{12} = \dfrac{8+9}{12} = \dfrac{17}{12}</me></p>
+	</li></ol></p>
+
+<assemblage><title>Look Closer</title>
+<p>Building is an application of the fundamental principle of fractions,    
+	<me>\blert{ \dfrac{a}{b} = \dfrac{a \cdot c}{b \cdot c}},~~~~~\text{if}  ~~~c \not= 0</me>   
+In words, this says that we can multiply the numerator and denominator of a fraction by the same (nonzero) quantity without changing the value of the fraction.</p></assemblage>
+
+<reading-questions>
+    <exercise number="1"><statement><p>What does it mean to build a fraction?</p></statement>
+    <answer><p>To convert the fraction to an equivalent form with a larger denominator.</p></answer></exercise>
+</reading-questions>
+
+<p>We can visualize the building process with diagrams. Here are pictures of the original fractions in our example, <m>\dfrac{2}{3}</m> and <m>\dfrac{3}{4}</m>.</p>
+
+<sidebyside widths="30% 35%"><image source="images/fig-8-3-1a.png"><description>rectangles</description></image><image source="images/fig-8-3-1b.png"><description>rectangles</description></image></sidebyside>
+
+<p>Thirds and fourths are not like fractions -- they are not pieces of the same size. But if we can break up one-third and one-fourth into smaller pieces that are the same size, then we can combine all the pieces. This is what the LCD is for. We can break up both thirds and fourths into twelfths, as shown below.</p>
+
+<sidebyside widths="35% 35%"><image source="images/fig-8-3-2a.png"><description>rectangles</description></image><image source="images/fig-8-3-2b.png"><description>rectangles</description></image></sidebyside>
+
+<p>We can see from the figure that <m>\dfrac{2}{3} = \dfrac{8}{12}</m> and <m>\dfrac{3}{4} = \dfrac{9}{12}</m>.  Once we have written the fractions with the same denominator, they are like fractions and we can add them. This is what building fractions is all about.</p>
+</subsection>
+
+<subsection><title>Adding and Subtracting Unlike Fractions</title>  	
+<p>We add or subtract algebraic fractions in the same way.</p>
+
+<assemblage><title>To Add or Subtract Algebraic Fractions</title><p><ol label="1">
+	<li>Find the lowest common denominator (LCD) for the fractions.</li>
+	<li>Build each fraction to an equivalent one with the LCD as denominator.</li>
+	<li>Add or subtract the resulting like fractions:  Add or subtract their numerators, and keep the same denominator.</li>
+	<li>Reduce the sum or difference if necessary.</li></ol></p></assemblage>
+
+<example><statement><p>Subtract: <m>~~\dfrac{x+2}{6} - \dfrac{x-1}{15}</m></p></statement>
+
+<solution><p>Step 1 We find the LCD:  The smallest common multiple of 6 and 15 is 30.  
+Step 2	We build each fraction to an equivalent one with denominator 30. The building factor for the first fraction is 5, and for the second fraction the building factor is 2.
+	<md><mrow>\dfrac{x+2}{6} = \dfrac{(x+2) \cdot \blert{5}}{6 \cdot \blert{5}} = \dfrac{5x+10}{30}</mrow>
+		<mrow>\dfrac{x-1}{15} = \dfrac{(x-1) \cdot \blert{2}}{15 \cdot \blert{2}} = \dfrac{2x-2}{30}</mrow></md>
+Step 3	We subtract the resulting like fractions to obtain
+	<md><mrow>\dfrac{x+2}{6} - \dfrac{x-1}{15} =~ \amp \dfrac{5x+10}{30} - \dfrac{2x-2}{30}</mrow>
+		<mrow>\amp \blert{\text{Combine the numerators; keep the same denominator.}}</mrow>
+		<mrow>=~\amp \dfrac{(5x+10)-(2x-2)}{30}~~~~~~\blert{\text{Simplify the numerator.}}</mrow>
+		<mrow> = ~\amp \dfrac{5x+10-2x+2}{30} = \dfrac{3x+12}{30}</mrow>
+Step 4	We reduce the fraction.
+	<me>\dfrac{3x+12}{30} = \dfrac{\cancel{3}(x+4)}{\cancel{3} \cdot 10} = \dfrac{x+4}{10}</me></md></p></solution>
+</example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>What is the first step in adding or subtracting unlike fractions?</p></statement>
+    <answer><p>Find the lowest common denominator (LCD) for the fractions.</p></answer></exercise>
+</reading-questions>
+
+<warning><p>In Example 1, be careful to subtract each term of the numerator in the second fraction.
+	<me>\dfrac{5x+10}{30} - \dfrac{2x-2}{30} = \dfrac{3x\alert{+12}}{30}</me>
+because  <m>~~(5x+10) - (2x-2) = 5x+10 -2x \alert{+2} = 3x+12</m></p></warning>
+</subsection>
+
+<subsection><title>Finding the Lowest Common Denominator</title>
+<p>How can we find an LCD for fractions whose denominators are algebraic expressions?</p>
+
+<assemblage><p>The <term>lowest common denominator</term> for two or more algebraic fractions is the simplest algebraic expression that is a multiple of each denominator.</p></assemblage>
+
+<p>The easiest case occurs when neither denominator can be factored. In that case, their LCD is just the product of the two expressions. For example, the LCD for the fractions <m>\dfrac{6}{x}</m> and <m>\dfrac{x}{x-2}</m> is <m>x(x-2)</m>.</p>
+
+<example><statement><p>Add: <m>~~\dfrac{6}{x} + \dfrac{x}{x-2}</m></p></statement>
+
+<solution><p>Step 1 Find the LCD:  The LCD is <m>x(x-2)</m>.</p>
+<p>Step 2  Build:    We build each fraction to an equivalent one with denominator <m>x(x-2)</m>. To find the building factors, we compare the given denominator with the desired LCD. The building factor for each fraction is the missing factor.</p>  
+<p>Thus, the building factor for <m>\dfrac{6}{x}</m> is <m>x-2,</m> and the building factor for <m>\dfrac{x}{x-2}</m>  is <m>x</m>.
+	<md><mrow>\dfrac{6}{x} = \dfrac{6 \blert{(x-2)}}{x\blert{(x-2)}} = \dfrac{6x-12}{x(x-2)}</mrow>
+		<mrow>\dfrac{x}{x-2} = \dfrac{x\blert{(x)}}{(x-2)\blert{(x)}} = \dfrac{x^2}{x(x-2)}</mrow></md></p>
+<p>Step 3  Combine:   We combine the resulting like fractions.
+	<md><mrow>\dfrac{6}{x} + \dfrac{x}{x-2} =~ \amp \dfrac{6x-12}{x(x-2)} + \dfrac{x^2}{x(x-2)}</mrow>
+		<mrow>\amp \blert{\text{Combine the numerators; keep the same denominator.}}</mrow>
+		<mrow> =~ \amp \dfrac{x^2+6x+12}{x(x-2)}</mrow></md></p>
+<p>Step 4  Reduce:	The numerator of this fraction cannot be factored, so the sum cannot be reduced.</p></solution>
+</example>
+
+<reading-questions>
+    <exercise number="3"><statement><p>When can we multiply two denominators together to find their LCD?</p></statement>
+    <answer><p>When neither denominator factors.</p></answer></exercise>
+    <exercise number="4"><statement><p>How do we find the building factor for each fraction?</p></statement>
+    <answer><p>Compare the given denominator with the desired LCD.</p></answer></exercise>
+</reading-questions>
+
+<p>However, if the denominators contain any common factors, the simplest common denominator is not just the product of the two denominators. In this case we must first factor each denominator to find their LCD.</p>
+
+<example><statement><p>Find the LCD for  <m>~~\dfrac{5}{12a^3} + \dfrac{7}{18a}</m></p></statement>
+
+<solution><p>The LCD is not <m>12a^3(18a) = 216a^4</m>.  It is true that 216 is a multiple of both 12 and 18, but it is not the smallest one! We can find a smaller common denominator by factoring each denominator.
+	<md><mrow>12a^3 = \alert{2} \cdot \alert{2} \cdot 3 \cdot \alert{a} \cdot \alert{a} \cdot \alert{a}</mrow>
+		<mrow>18a = 2 \cdot \alert{3} \cdot \alert{3} \cdot a</mrow></md>
+To find an expression that both <m>12a^3</m> and <m>18a</m> divide into evenly, we need only enough factors to "cover" each of them separately. In this case two 2's, two 3's, and three <m>a</m>'s are sufficient, so the LCD is
+<me>\text{LCD} = \alert{2 \cdot 2 \cdot 3 \cdot 3 \cdot a \cdot a \cdot a} = 36a^3</me>
+You can check that <m>36a^3</m> is a multiple of both <m>12a^3</m> and <m>18a</m>.</p></solution></example>
+
+<assemblage><title>Look Closer</title>
+<p>To find the LCD in Example 3, notice that for each factor, we chose the denominator with the most copies of that factor, and included them in the LCD. For example, <m>12a^3</m> has only one factor of 3, but <m>18a</m> has two factors of 3, so we used two factors of 3 in the LCD.</p></assemblage>
+
+<assemblage><title>To Find the LCD</title><p><ol label="1">
+<li>Factor each denominator completely, and arrange the factors in order.</li>
+<li><p>For each factor,<ol label="a">
+	<li>Which denominator has the most copies of that factor? Circle them. (If there is a tie, either denominator will do.)</li>
+	<li>Include all the circled factors in the LCD.</li></ol></p></li>
+<li>Multiply together the factors of the LCD.</li></ol></p></assemblage>
+
+<reading-questions>
+    <exercise number="5"><statement><p>We would like to add two unlike fractions. If each denominator contains 
+	one factor of <m>x</m>, how many factors of  do we include in the LCD?</p></statement>
+    <answer><p>One</p></answer></exercise>
+</reading-questions>
+
+<p>Now let us see how to incorporate this new skill into the steps for adding fractions.</p>
+
+<example><statement><p>Add: <m>~~\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4}</m></p></statement>
+
+<solution><p>Step 1  To find the LCD, we first factor each denominator completely.
+	<md><mrow>x^2-2x = x(x-2)</mrow>
+		<mrow>x^2-4 = (x-2)(x+2)</mrow></md>
+The LCD is <m>x(x-2)(x+2)</m>.</p>
+<p>Step 2	We build each fraction to an equivalent one with the LCD as its denominator.
+	<md><mrow>\dfrac{x-4}{x(x-2)} \amp = \dfrac{(x-4)\blert{(x+2)}}{x(x-2)\blert{(x+2)}} = \dfrac{x^2-2x-8}{x(x-2)(x+2)}</mrow>
+		<mrow>\dfrac{4}{(x-2)(x+2)} \amp = \dfrac{4\blert{x}}{(x-2)(x+2)\blert{x}}</mrow></md></p>
+<p>Step 3	Because the fractions are now like fractions, we can combine their numerators.
+	<md><mrow>\dfrac{x-4}{x^2-2x} + \dfrac{4}{x^2-4} \amp = \dfrac{x^2-2x-8}{x(x-2)(x+2)} + \dfrac{4x}{x(x-2)(x+2)}</mrow>
+		<mrow> \amp = \dfrac{x^2+2x-8}{x(x-2)(x+2)}</mrow></md></p>
+<p>Step 4  We reduce the fraction by first factoring numerator and denominator, then dividing out any common factors.
+	<me>\dfrac{x^2+2x-8}{x(x-2)(x+2)} = \dfrac{(x+4)\cancel{\blert{(x-2)}}}{x\cancel{\blert{(x-2)}}(x+2)} = \dfrac{x+4}{x(x+2)}</me></p></solution></example>
+
+<reading-questions>
+    <exercise number="6"><statement><p>State the four steps for adding or subtracting fractions.</p></statement>
+    <answer><p>Find the LCD, build, combine, reduce.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+
+<exercisegroup cols="2"><introduction><p>Simplify.</p></introduction>
+
+<exercise number="1"><statement><m>2x+5-(3x+2)</m></statement>
+<answer><m>-x+3</m></answer></exercise>
+
+<exercise number="2"><statement><m>4(x-3)-3(2x-5)</m></statement>
+<answer><m>-2x+3</m></answer></exercise>
+
+<exercise number="3"><statement><m>2(3x-x^2)+x(2x-4)</m></statement>
+<answer><m>2x</m></answer></exercise>
+
+<exercise number="4"><statement><m>(x-3)2x+(x+2)4</m></statement>
+<answer><m>2x^2-2x+8</m></answer></exercise>
+
+<exercise number="5"><statement><m>x^2(x-1)-2x(x+2)</m></statement>
+<answer><m>x^3-3x^2-4x</m></answer></exercise>
+
+<exercise number="6"><statement><m>3x(x-4)-2(x^2-16)-4x</m></statement>
+<answer><m>x^2+8x+32</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>
