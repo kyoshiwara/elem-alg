@@ -21,7 +21,7 @@
 <!--     </website> -->
 
 <!-- rename blocks -->
-        <rename element="warning" lang="en-US">Caution</rename>
+        <rename element="warning">Caution</rename>
 <!-- <rename element="chapter" lang="en-US">Lesson</rename> -->
 
 
