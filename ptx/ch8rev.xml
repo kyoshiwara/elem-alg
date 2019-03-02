@@ -111,7 +111,10 @@
 <exercise number="1"><statement><p><ol label="a">
 	<li>Evaluate the fraction <m>~\dfrac{s^2-s}{s^2+3s-10}~~</m>for <m>~s=-2</m></li>
 	<li>For what value(s) of <m>s</m> is the fraction undefined?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+	<li><p><m>\dfrac{-1}{2} </m></p></li>
+	<li><p><m>-5</m>, <m>~2</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="2"><statement><p>Ed's Diner uses a package of coffee filters every <m>x+5</m> days.<ol label="a">
 	<li>What fraction of a package does Ed use every day?</li>
@@ -120,42 +123,51 @@
 <exercisegroup cols="2"><introduction><p>For Problems 3<ndash/>10, reduce the fraction if possible.</p></introduction>
 
 <exercise number="3"><statement><m>\dfrac{a+3}{b+3}</m></statement>
-<answer></answer></exercise>
+<answer><p>Cannot be reduced</p></answer></exercise>
 
 <exercise number="4"><statement><m>\dfrac{5x+7}{5x}</m></statement></exercise>
 
 <exercise number="5"><statement><m>\dfrac{10+2y}{2y}</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{5+y}{y} </m></p></answer></exercise>
 
 <exercise number="6"><statement><m>\dfrac{3x^2-1}{1-3x^2}</m></statement></exercise>
 
 <exercise number="7"><statement><m>\dfrac{v-2}{v^2-4}</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{1}{v+2} </m></p></answer></exercise>
 
 <exercise number="8"><statement><m>\dfrac{q^5-q^4}{q^4}</m></statement></exercise>
 
 <exercise number="9"><statement><m>\dfrac{-3x}{6x^2+9x}</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{-1}{2x+3} </m></p></answer></exercise>
 
 <exercise number="10"><statement><m>\dfrac{x^2+5x+6}{x^2-4}</m></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>16, <ol label="a">
-	<li>add the fractions,</li>
-	<li>multiply the fractions.</li></ol></p></introduction>
+    <li>add the fractions,</li>
+    <li>multiply the fractions.</li></ol></p></introduction>
 
 <exercise number="11"><statement><m>\dfrac{3}{8},~\dfrac{5}{12}</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>\dfrac{19}{24} </m></p></li>
+    <li><p><m>\dfrac{5}{32} </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="12"><statement><m>\dfrac{2}{x},~\dfrac{1}{x+2}</m></statement></exercise>
 
 <exercise number="13"><statement><m>\dfrac{3x}{2x+2},~\dfrac{x+1}{6x}</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>\dfrac{10x^2+2x+1}{6x(x+1)} </m></p></li>
+    <li><p><m>\dfrac{1}{4} </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="14"><statement><m>\dfrac{x+1}{x-1},~\dfrac{1}{x^2-1}</m></statement></exercise>
 
 <exercise number="15"><statement><m>2,~\dfrac{1}{x}</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>\dfrac{2x+1}{x} </m></p></li>
+    <li><p><m>\dfrac{2}{x} </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="16"><statement><m>x,~\dfrac{1}{x+2}</m></statement></exercise>
 </exercisegroup>
@@ -163,17 +175,17 @@
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>22,  write the expression as a single fraction in lowest terms.</p></introduction>
 
 <exercise number="17"><statement><m>\dfrac{4c^2d}{3}\div(6cd^2)</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{2c}{9d} </m></p></answer></exercise>
 
 <exercise number="18"><statement><m>\dfrac{u^2-2uv}{uv} \div \dfrac{3u-6v}{2uv}</m></statement></exercise>
 
 <exercise number="19"><statement><m>\dfrac{2m^2-m-1}{m+1}-\dfrac{m^2-m}{m+1}</m></statement>
-<answer></answer></exercise>
+<answer><p><m>m-1 </m></p></answer></exercise>
 
 <exercise number="20"><statement><m>\dfrac{3}{2p}+\dfrac{7}{6p^2}</m></statement></exercise>
 
 <exercise number="21"><statement><m>\dfrac{5q}{q-3}-\dfrac{7}{q}+3</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{8q^2-16q+21}{q(q-3)} </m></p></answer></exercise>
 
 <exercise number="22"><statement><m>\dfrac{2w}{w^2-4}+\dfrac{4}{w^2+4w+4}</m></statement></exercise>
 </exercisegroup>
@@ -182,7 +194,11 @@
 	<li>How long does it take Olive to get to the store?</li>
 	<li>How long does the return trip take?</li>
 	<li>How long does the round trip take?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><p><m>\dfrac{5}{x-2} </m></p></li>
+	<li><p><m>\dfrac{5}{x+2} </m></p></li>
+	<li><p><m>\dfrac{10x}{x^2-4} </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>On spring break, Johann and Sebastian both walk from the university to the next town. Johann leaves at noon and Sebastian leaves one hour later, but Sebastian walks 1 mile per hour faster. Let <m>r</m> stand for Johann's walking speed. Write polynomials to answer the following questions.<ol label="a">
 	<li>What is Sebastian's walking speed?</li>
@@ -193,12 +209,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>28, solve the equation.</p></introduction>
 
 <exercise number="25"><statement><m>q-\dfrac{16}{q}=6</m></statement>
-<answer></answer></exercise>
+<answer><p><m>-2, ~8</m></p></answer></exercise>
 
 <exercise number="26"><statement><m>\dfrac{2-x}{5x} =\dfrac{4}{15x}-\dfrac{1}{6}</m></statement></exercise>
 
 <exercise number="27"><statement><m>\dfrac{9}{m+2}+\dfrac{2}{m}=2</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{-1}{2}, ~4 </m></p></answer></exercise>
 
 <exercise number="28"><statement><m>\dfrac{15}{x^2-3x}+\dfrac{4}{x}=\dfrac{5}{x-3}</m></statement></exercise>
 </exercisegroup>
@@ -207,7 +223,7 @@
 </introduction>
 
 <exercise number="29"><statement><p><m>\dfrac{1}{x}+\dfrac{1}{y}=\dfrac{1}{z}~~~~</m>for <m>~z</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{yz}{y-z} </m></p></answer></exercise>
 
 <exercise number="30"><statement><p><m>y=\dfrac{2x+3}{1-x}~~~~</m>for <m>~x</m></p></statement></exercise>
 </exercisegroup>
@@ -217,7 +233,10 @@
 	<li>Solve your equation and answer the question posed in the problem.</li></ol></p></introduction>
 
 <exercise number="31"><statement><p>On a walking tour, Nora walks uphill 5 miles to an inn where she has lunch.  After lunch, she increases her speed by 2 miles per hour and walks for 8 more miles. If she walked for 1 hour longer before lunch than after lunch, what was her speed before lunch?</p></statement>
-<answer></answer></exercise>
+<answer><p><ol>
+	<li><p><m>\dfrac{5}{r}=\dfrac{8}{r+2}+1 </m></p></li>
+	<li><p>1.53 mph</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>Brenda can fill her pool in 30 hours using the normal intake pipe. She can instead fill the pool in 45 hours using the garden hose. How long will it take to fill the empty pool if both the pipe and garden hose are running?</p></statement></exercise>
 </exercisegroup>
