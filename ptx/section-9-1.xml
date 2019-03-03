@@ -9,58 +9,180 @@
 <p>	In Chapter 7 we learned the first and second laws of exponents, which we use to compute products and quotients of powers.</p>
 
 <example><statement><p>Simplify each product or quotient.<ol label="a" cols="3">
+	<li><m>5^2 \cdot 5^6</m></li>
+	<li><m>\dfrac{3^7}{3^2}</m></li>
+	<li><m>\dfrac{2^3}{2^5}</m></li></ol></p></statement>
+<solution><p><ol label="a">
+	<li><p>To multiply two powers with the same base, we add the exponents and leave the base unchanged.
+		<me>5^2 \cdot 5^6 = 5^8</me></p></li>
+	<li><p>To divide two powers with the same base, we subtract the smaller exponent from the larger.  If the larger exponent occurs in the numerator, we put the power in the numerator.
+		<me>\dfrac{3^7}{3^2} = 3^5~~~~~~~~\blert{\text{Larger exponentis in the numerator.}}</me></p></li>
+	<li><p>If the larger exponent occurs in the denominator, we put the power in the denominator.                          		
+		<me>\dfrac{2^3}{2^5} = \dfrac{1}{2^2}~~~~~~~~\blert{\text{Larger exponent is in the denominator.}}</me></p></li>
+</ol></p></solution></example>
 
+<warning><p>In Example 1a, it is not correct to multiply the bases: 
+	<me>5^2 \cdot 5^6 \rightarrow 25^8~~~~~~~~\alert{\text{Incorrect!}}</me>
+The exponents tell us how many copies of the base to multiply together, but the base does not change when we apply the first law of exponents.</p></warning>
 
+<reading-questions>
+    <exercise number="1"><statement><p>Why do we add exponents when we multiply powers with the same base?</p></statement>
+    <answer><p>The exponents tell us how many copies of the base to multiply together.</p></answer></exercise>
+</reading-questions> 
 
+<p>These laws are expressed in symbols below.</p>
 
+<assemblage>
+<p>First Law of Exponents
+	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p>	
+<p>Second Law of Exponents
+	<md><mrow>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(n \lt m)}</mrow>
+		<mrow>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~(n \gt m)}</mrow></md></p></assemblage>	
 
+<p>In this Lesson we'll study three more laws of exponents.</p>
+</subsection>
 
+<subsection><title>Power of a Power</title>
+<p>Consider the expression <m>(x^4)^3</m>, or the cube of <m>x^4</m>. We can simplify this expression as follows.     
+	<me>(x^4)^3 = (x^4)(x^4)(x^4) = x^{4+4+4} = x^{12}~~~~~~\blert{\text{Add exponents.}}</me>
+We wrote <m>(x^4)^3</m> as a repeated product and applied the first law of exponents to add the exponents. Of course, because repeated addition is actually multiplication, we can just multiply the exponents together: <m>3(4)=12</m>. This gives us another rule.</p>
 
+<assemblage><title>Third Law of Exponents</title>
+<p>To raise a power to a power, keep the same base and multiply the exponents. In symbols,
+	<me>\blert{(a^m)^n = a^{mn}}</me></p></assemblage>
 
+<example><statement><p> <ol label="a">
+	<li><p><m>(b^2)^4 = b^{2 \cdot 4} = b^8~~~~~~~~~~~~\blert{\text{Multiply exponents.}}</m></p></li>
+	<li><p><m>(y^2)^5 = y^{2 \cdot 5} = y^{10}</m></p></li></ol></p></statement></example>
 
+<warning><p>Note carefully the difference between the two expressions <m>(x^3)(x^4)</m> and <m>(x^3)^4</m>: 
+  	<md><mrow> ~~~~(x^3)(x^4) = x^{\blert{3+4}} = x^7~~~~~~~~~ \amp \blert{\text{Add the exponents.}}</mrow>        
+  		<mrow>(x^3)^4 = x^{\blert{3\cdot 4}} = x^{12}~~~~~~~\amp\blert{\text{Multiply the exponents.}}</mrow></md>
+  The first expression is a product, so we add the exponents.  The second expression raises a power to a power, so we multiply the exponents.</p></warning>
 
+  <reading-questions>
+    <exercise number="2"><statement><p>Which is larger, <m>(2^3)^3</m> or <m>2^3 \cdot 2^3</m>? Why?</p></statement>
+    <answer><p><m>(2^3)^3</m> is larger because it is a product of three copies of <m>(2^3).</m></p></answer></exercise>
+</reading-questions>
+</subsection>
 
+<subsection><title>Power of a Product</title>
+<p>To simplify the expression <m>(2x)^3</m>, we can use the commutative and associative properties of multiplication to write	
+	<md><mrow>(2x)^3 \amp = (2x)(2x)(2x)</mrow>
+		<mrow> \amp = 2 \cdot 2 \cdot 2 \cdot x \cdot x \cdot x</mrow>
+		<mrow> \amp = 2^3x^3</mrow></md>
+Thus, to raise a product to a power we can raise each factor to the power. This example illustrates the following rule.</p>
 
+<assemblage><title>Fourth Law of Exponents</title>
+<p>To raise a product to a power, raise each factor to the power. In symbols,
+	<me>\blert{(ab)^n = a^nb^n}</me></p></assemblage>
 
+<example><statement><p><ol label="a">
+	<li><p><m>(5ab)^2 = 5^2a^2b^2 = 25a^2b^2~~~~~~~~\blert{\text{Square each factor.}}</m></p></li>
+	<li><p><md><mrow>(-xy^3)^4 \amp = (-x)^4(y^3)^4 \amp \amp \blert{\text{Raise each factor to the fourth power;}}</mrow>
+			<mrow> \amp = x^4y^{12} \amp \amp \blert{\text{apply the third lasw of exponents.}}</mrow></md></p></li>
+</ol></p></statement></example>
 
+<warning><p>Note the difference between the two expressions <m>3a^2</m> and <m>(3a)^2</m>:
+	<md><mrow>  3a^2~~~~\text{cannot be simplified, but}</mrow>
+		<mrow>	(3a)^2 = 3^2a^2 = 9a^2</mrow></md>
+In the expression <m>3a^2</m>, only the factor <m>a</m> is squared, but in <m>(3a)^2</m> both <m>3</m> and <m>a</m> are squared.</p></warning>
 
+<reading-questions>
+    <exercise number="3"><statement><p>Explain why we cannot use the fourth law of exponents to simpify <m>(a+b)^3</m> as <m>a^3+b^3</m>. </p></statement>
+    <answer><p>Because <m>a+b</m> is a sum, not a product.</p></answer></exercise>
+</reading-questions>
+</subsection>
 
+<subsection><title>Power of a Quotient</title>
+<p>To simplify the expression <m>(\dfrac{x}{2})^4</m>, we multiply together four copies of the fraction <m>\dfrac{x}{2}</m>. That is,
+	<md><mrow> = (\dfrac{x}{2})^4 \amp = \dfrac{x}{2} \cdot \dfrac{x}{2} \cdot \dfrac{x}{2} \cdot \dfrac{x}{2} = \dfrac{x \cdot x \cdot x \cdot x}{2 \cdot 2 \cdot 2 \cdot 2}</mrow>
+		<mrow> \amp = \dfrac{x^4}{2^4} = \dfrac{x^4}{16}</mrow></md>
+This example suggests the following rule.</p>
 
+<assemblage><title>Fifth Law of Exponents</title>
+<p>To raise a quotient to a power, raise both the numerator and the denominator to the power. In symbols,
+	<me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></p></assemblage>
 
+<example><statement><p><ol label="a">
+	<li><p><m>(\dfrac{x}{y})^5 = \dfrac{x^5}{y^5} ~~~~~~~~~~ \blert{\text{Raise top and bottom to the fifth power.}}</m></p></li>
+	<li><p><md><mrow>(\dfrac{2}{y^2})^3 \amp = \dfrac{2^3}{(y^2)^3} \amp \amp \blert{\text{Raise top and bottom to the third power.}}</mrow>
+		<mrow> \amp =\dfrac{2^3}{y^{2 \cdot 3}} = \dfrac{8}{y^6} \amp \amp \blert{\text{Apply the third law of exponents to the denominator.}}</mrow></md></p></li></ol></p></statement></example>
+	
+<reading-questions>
+    <exercise number="4"><statement><p>Why does <m>(\dfrac{1}{x})^4 = \dfrac{1}{x^4}</m>?</p></statement>
+    <answer><p>Because <m>1^4=1</m>.</p></answer></exercise>
+</reading-questions>
+</subsection>
 
+<subsection><title>Using the Laws of Exponents</title>
+<p>We can use the laws of exponents along with the order of operations to simplify algebraic expressions. The five laws of exponents are stated together below. All of the laws are valid when the base  is not equal to zero and when the exponents <m>m</m> and <m>n</m> are positive integers.</p>
 
+<assemblage><title>Laws of Exponents</title><p><ol label="1">
+	<li><me>\blert{a^m \cdot a^n = a^{m+n}}</me></li>
+	<li><md><mrow>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(n \lt m)}</mrow>
+		<mrow>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~(n \gt m)}</mrow></md></li>
+	<li><me>\blert{(a^m)^n = a^{mn}}</me></li>
+	<li><me>\blert{(ab)^n = a^nb^n}</me></li>
+	<li><me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></li></ol></p></assemblage>
 
+<example><statement><p>Simplify  <m>~~2x^2y(3xy^2)^4</m></p></statement>
 
+<solution><p>According to the order of operations, we should perform powers before products, so we first simplify the factor <m>(3xy^2)^4</m>.
+	<md><mrow>(3xy^2)^4 \amp = 3^4x^4(y^2)^4 \amp \amp \blert{\text{Fourth law:  raise each factor to the power.}}</mrow>
+	<mrow>\amp = 81x^4y^8 \amp \amp \blert{\text{Third law:}~(y^2)^4=y^{2 \cdot 4}}</mrow></md>
+Now multiply the result by <m>2x^2y</m> and apply the first law to obtain
+	<md><mrow>2x^2y (81x^4y^8)\amp = 2 \cdot 81x^2 \cdot x^4 \cdot y \cdot y^8</mrow>
+	<mrow>\amp = 162x^6y^9</mrow></md></p></solution></example>
 
+<reading-questions>
+    <exercise number="5"><statement><p>In Example 5, why did we start by simplifying <m>(3xy^2)^4</m>?
+</p></statement>
+    <answer><p>Because we should perform powers before products.</p></answer></exercise>
+</reading-questions>
 
+<example><statement><p>Simplify  <m>~~(-x)^4(-xy)^3</m></p></statement>
 
+<solution><p>Each power should be simplified before we compute their product.  Because  4 is an even exponent, <m>(-x)^4</m> is positive, so
+	<me>(-x)^4 = x^4</me>
+To simplify <m>(-xy)^3</m>,  we apply the fourth law of exponents:
+	<md><mrow>(-xy)^3 \amp = (-x)^3y^3 ~~~~\blert{\text{3 is an odd power, so} ~(-x)^3 = -x^3.}</mrow>
+          <mrow>\amp = -x^3y^3</mrow></md>
+Finally, we multiply the powers together to get
+	<md><mrow>(-x)^4(-xy)^3 \amp = x^4(-x^3y^3)~~~~\blert{\text{Apply the first law.}}</mrow>
+		<mrow> \amp = -x^7y^3</mrow></md></p></solution></example>
 
+<reading-questions>
+    <exercise number="6"><statement><p>In the expression <m>-x^3y^3</m>, does the negtive sign apply to both factors, or only one of them?</p></statement>
+    <answer><p>Only one of them.</p></answer></exercise>
+</reading-questions> 
+</subsection>
 
+<subsection><title>Skills Warm-Up</title>                                                 
+<exercises>
 
+<exercisegroup cols="3"><introduction><p>Simplify each expression according to the order of operations.</p>
+</introduction>
 
+<exercise number="1"><statement><m>10-6^2</m></statement>
+<answer><m>-26</m></answer></exercise>
 
+<exercise number="2"><statement><m>10(-6^2)</m></statement>
+<answer><m>360</m></answer></exercise>
 
+<exercise number="3"><statement><m>(10-6)^2</m></statement>
+<answer><m>16</m></answer></exercise>
 
+<exercise number="4"><statement><m>2 \cdot 5^2-3^2</m></statement>
+<answer><m>41</m></answer></exercise>
 
+<exercise number="5"><statement><m>-2 \cdot 5^2(-3^2)</m></statement>
+<answer><m>450</m></answer></exercise>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<exercise number="6"><statement><m>-2^2-(5-3)^2</m></statement>
+<answer><m>-8</m></answer></exercise>
+</exercisegroup>
+</exercises>
 
 </subsection>
 </section>  
