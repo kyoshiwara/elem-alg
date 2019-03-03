@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 9.2</title>
+
+<exercisegroup><introduction><p>For Problems 1<ndash/>2, write without using zero or negative exponents and simplify.
+</p></introduction>
+
+<exercise number="1"><statement><p><ol label="a" cols="4">
+	<li><m>5^{-2}</m></li>
+	<li><m>x^{-6}</m></li>
+	<li><m>(8x)^0</m></li>
+	<li><m>(\dfrac{3}{4})^{-3}</m></li></ol></p></statement>
+<answer><p><ol label="a" cols="4"></ol></p></answer></exercise>
+
+<exercise number="2"><statement><p><ol label="a" cols="4">
+	<li><m>(\dfrac{b}{3})^{-4}</m></li>
+	<li><m>(2q)^{-5}</m></li>
+	<li><m>3 \cdot 4^{-3}</m></li>
+	<li><m>4x^{-2}</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 3<ndash/>4, write each expression using negative exponents.</p></introduction>
+
+<exercise number="3"><statement><p><ol label="a" cols="3">
+	<li><m>\dfrac{1}{2^3}</m></li>
+	<li><m>\dfrac{3}{5^2}</m></li>
+	<li><m>\dfrac{1}{27}</m></li></ol></p></statement>
+<answer><p><ol label="a"></ol></p></answer></exercise>
+
+<exercise number="4"><statement><p><ol label="a" cols="3">
+	<li><m>\dfrac{x}{625}</m></li>
+	<li><m>\dfrac{2}{z^2}</m></li>
+	<li><m>(\dfrac{z}{10})^5</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="5"><statement><p>Find and correct the error in each calculation.<ol label="a" cols="3">
+	<li><m>x^0 \rightarrow 0</m></li>
+	<li><m>w^{-3} \rightarrow w^3</m></li>
+	<li><m>2x^{-4} \rightarrow \dfrac{1}{2x^4}</m></li></ol></p></statement>
+<answer><p><ol label="a"></ol></p></answer></exercise>
+
+<exercise number="6"><statement><p>Simplify by using the first law of exponents.<ol label="a" cols="3">
+	<li><m>x^{-3} \cdot x^8</m></li>
+	<li><m>5^{-4} \cdot 5^{-3}</m></li>
+	<li><m>(3b^{-5})(5b^2)</m></li></ol></p></statement></exercise>
+
+<exercise number="7"><statement>Simplify by using the second law of exponents.<p><ol label="a" cols="3">
+	<li><m>\dfrac{c^{-7}}{c^{-4}}</m></li>
+	<li><m>\dfrac{8b^{-4}}{4b^{-8}}</m></li>
+	<li><m>\dfrac{6^6}{6^{-2}}</m></li></ol></p></statement>
+<answer><p><ol label="a"></ol></p></answer></exercise>
+
+<exercise number="8"><statement><p>Simplify.<ol label="a" cols="3">
+	<li><m>\dfrac{1}{6^{-3}}</m></li>
+	<li><m>\dfrac{3}{2^{-6}}</m></li>
+	<li><m>\dfrac{8x^3}{y^{-5}}</m></li></ol></p></statement></exercise>
+
+<exercise number="9"><statement><p>Simplify by using the third law of exponents.<ol label="a" cols="3">
+	<li><m>(8^{-2})^5</m></li>
+	<li><m>(w^{-6})^{-3}</m></li>
+	<li><m>(d^6)^{-4}</m></li></ol></p></statement>
+<answer><p><ol label="a"></ol></p></answer></exercise>
+
+<exercise number="10"><statement><p>Simplify by using the fourth law of exponents.<ol label="a" cols="3">
+	<li><m>(pq)^{-5}</m></li>
+	<li><m>(3x)^{-2}</m></li>
+	<li><m>5(2r)^{-3}</m></li></ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>14, simplify.</p></introduction>
+
+<exercise number="11"><statement><m>(a^{-4}c^2)^{-3}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><m>(2u^2)^{-3}(u^{-4})^2</m></statement></exercise>
+
+<exercise number="13"><statement><m>\dfrac{5k^{-3}(k^4)^{-3}}{6k^{-5}}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="14"><statement><m>(\dfrac{2p^{-3}}{p^2})^{-2}</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Mental Exercise: For Problems 15<ndash/>16, simplify each quotient without using pencil, paper, or calculator.  Write your answer as a power of 10.</p></introduction>
+
+<exercise number="15"><statement><p><ol label="a" cols="3">
+	<li><m>\dfrac{10^3}{10^{-2}}</m></li>
+	<li><m>\dfrac{10^{-5}}{10^{-3}}</m></li>
+	<li><m>\dfrac{10}{10^{-1}}</m></li></ol></p></statement>
+<answer><p><ol label="a"></ol></p></answer></exercise>
+
+<exercise number="16"><statement><p><ol label="a" cols="2">
+	<li><m>\dfrac{10^{-3}\times 10^{-2}}{10^{-6}}</m></li>
+	<li><m>\dfrac{10^{-5}}{10^{-4} \times 10^7}</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="17"><statement><p>Compute each product.<ol label="a" cols="3">
+	<li><m>4.3 \times 10^4</m></li>
+	<li><m>8 \times 10^{-6}</m></li>
+	<li><m>0.002 \times 10^{-2}</m></li></ol></p></statement>
+<answer><p><ol label="a"></ol></p></answer></exercise>
+
+<exercise number="18"><statement><p>Complete each factored form.<ol label="a" cols="2">
+	<li><m>234 = 2.34 \times <fillin characters="6"/></m></li>
+	<li><m>0.92 = 9.2 \times <fillin characters="6"/></m></li>
+	<li><m>1,720,000 = 1.72 \times <fillin characters="6"/></m></li></ol></p></statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 19<ndash/>20, write in scientific notation.</p></introduction>
+
+<exercise number="19"><statement><p>Compute each product.<ol label="a" cols="3">
+	<li><m>4834</m></li>
+	<li><m>0.072</m></li>
+	<li><m>0.000~007</m></li></ol></p></statement>
+<answer><p><ol label="a"></ol></p></answer></exercise>
+
+<exercise number="20"><statement><p>Complete each factored form.<ol label="a" cols="3">
+	<li><m>685,000,000</m></li>
+	<li><m>56.74 \times 10^4</m></li>
+	<li><m>385 \times 10^{-3}</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>24, use scientific notation to compute.</p></introduction>
+
+<exercise number="21"><statement><m>(2,000,000)(0.000~07)</m></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><m>0.000~036 \div 0.000~9</m></statement></exercise>
+
+<exercise number="23"><statement><m>\dfrac{(80,000,000,000)(0.000~6)}{20,000}</m></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><m>\dfrac{(0.000~000~25)(90,000,000)}{(1,500,000)(0.000~000~2)}</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>For Problems 25<ndash/>28, suppose that each of the following numbers is written in scientific notation. Decide whether the exponent on 10 is positive or negative.</p></introduction>
+
+<exercise number="25"><statement><p>The population of Los Angeles County.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p>The length of a football field in miles.</p></statement></exercise>
+
+<exercise number="27"><statement><p>The number of seconds in a year.</p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p>The speed at which your hair grows in miles per hour.</p></statement></exercise>
+</exercisegroup>
+
+<exercise number="29"><statement><p>Write each number in scientific notation.<ol label="a">
+	<li>The height of Mount Everest is 29,141 feet.</li> 
+	<li>The wavelength of red light is 0.000 076 centimeters.</li></ol></p></statement>
+<answer><p><ol label="a"></ol></p></answer></exercise>
+
+<exercise number="30"><statement><p>Write each number in standard notation.<ol label="a">
+	<li>An amoeba weighs about <m>5 \times 10^{-6}</m> gram.</li>
+	<li>Our solar system has existed for about <m>5 \times 10^9</m> years.</li></ol></p></statement></exercise>
+
+<exercisegroup><introduction><p>For Problems 31<ndash/>34, give your answers in scientific notation rounded to two decimal places.</p></introduction>
+
+<exercise number="31"><statement><p>A light year is the distance that light can travel in one year. Light travels at approximately <m>1.86 \times 10^5</m> miles per second. How many miles are there in one light year? (One year is approximately <m>3.16 \times 10^7</m> seconds.)</p></statement>
+<answer></answer></exercise>
+
+<exercise number="32"><statement><p>A 1-foot high stack of dollar bills contains 3.610 bills.<ol label="a">
+	<li>In January, 2018 the U. S. federal debt was <m>2.152 \times 10^{13}</m> dollars. How tall a stack of one-dollar bills, in feet, would be needed to pay off the federal debt?</li>
+	<li>Express the height of the stack of bills in part (a) in miles. (One mile equals 5280 feet.)</li></ol></p></statement></exercise>
+
+<exercise number="33"><statement><p>There are about 200 million insects for every person on earth.  In 2018, the world's population is about 7.6 billion people.<ol label="a">
+	<li>How many insects are there on earth?</li>
+	<li>If the average insect weighs 310 gram, how much do all the insects on earth weigh?</li></ol></p></statement>
+<answer><p>Note: figures updated</p></answer></exercise>
+
+<exercise number="34"><statement><p>There are 5,800,000 cubic miles of fresh water on earth. Each cubic mile is equal to 110,000,000,000 gallons of water. If the population of earth was about 7.6 billion people in 2018, how many gallons of fresh water were there for each person?</p></statement></exercise>
+</exercisegroup>
+
+</exercises>

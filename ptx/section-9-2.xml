@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Negative-Exponents-and-Scientific-Notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Negative Exponents and Scientific Notation</title>
+
+<subsection><title>Zero as an Exponent</title>
+
+<p>Negative exponents simplify many calculations and give us a useful form for writing very large or very small numbers.</p>
+<p>But first, what do negative exponents mean? In order for them to be useful, their properties must fit with what we already know about exponents.</p>
+<p>	We know that <m>a^n</m> means the product of <m>n</m> factors of <m>a</m>. For example, <m>a^3</m> means <m>a \cdot a \cdot a</m>. Is there a reasonable meaning for the power <m>a^0</m>?</p>  
+<p>Consider the quotient <m>\dfrac{a^4}{a^4}</m>. If <m>a</m> is not zero, this quotient equals 1, because any nonzero number divided by itself is 1. On the other hand, we can also think of <m>\dfrac{a^4}{a^4}</m> as a quotient of powers and subtract the exponents. If we extend the second law of exponents to include the case <m>m=n</m>, we have
+	<me>\dfrac{a^4}{a^4} = a^{4-4} = a^0</me>
+Thus, it seems reasonable to make the following definition.</p>
+
+<assemblage><title>Zero as an Exponent</title>
+<p><me>\blert{a^0=1,~~~~\text{if}~~~~a \not= 0}</me></p></assemblage>
+
+<p>For example,
+	<me>3^0=1,~~~~(-427)^0=1,~~~~\text{and} ~~~~(5xy)^0=1~~~\text{if}~~x,y \not= 0</me></p>
+
+<reading-questions>
+    <exercise number="1"><statement><p>Why does it make sense that <m>a^0=1</m> (as long as <m>a \not= 0</m>)?
+</p></statement>
+    <answer><p>Because <m>\dfrac{a^n}{a^n}=1</m>.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Negative Exponents</title>
+<p>We can also use the second law of exponents to give meaning to negative exponents. Consider the quotient <m>\dfrac{a^4}{a^7}</m>. According to the second law of exponents,
+	<me>\dfrac{a^4}{a^7} = \dfrac{1}{a^{7-4}} = \dfrac{1}{a^3}</me>
+However, if we allow negative numbers as exponents, we can apply the first half of the second law to obtain
+	<me>\dfrac{a^4}{a^7} = a^{4-7} = a^{-3}</me>
+We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for <m>a \not= 0</m>, we make the following definition.</p>
+ 
+<assemblage><title>Negative Exponents</title>
+<p><me>\blert{a^{-n} = \dfrac{1}{a^n}~~~~\text{if}~~~~a \not= 0}</me></p></assemblage>
+
+<p>For example,
+		<me>2^{-4} = \dfrac{1}{2^4} ~~~~~~\text{and}~~~~~~x^{-5} = \dfrac{1}{x^5}</me></p>
+
+<assemblage><p>A negative exponent indicates the reciprocal of the power with the positive exponent.</p></assemblage>
+
+<example><statement><p>Write each expression without exponents.<ol label="a" cols="3">
+	<li><m>10^{-4}</m></li>
+	<li><m>(\dfrac{1}{4})^{-3}</m></li>
+	<li><m>(\dfrac{3}{5})^{-2}</m></li></ol></p></statement>
+<solution><p><ol label="a">
+	<li><m>10^{-4} = \dfrac{1}{10^4} = \dfrac{1}{10,000},</m> or 0.0001</li>
+	<li><p>To compute a negative power of a fraction, we compute the corresponding positive power of its reciprocal. (This is because of the fifth law of exponents.) 
+		<me>(\dfrac{1}{4})^{-3} = 4^3 = 64</me></p></li>
+	<li><p>As in part (b), we compute the corresponding positive power of the reciprocal of <m>\dfrac{3}{5}</m>.
+		<me>(\dfrac{3}{5})^{-2}=(\dfrac{5}{3})^2 = \dfrac{25}{9}</me></p></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>What does a negative exponent mean?</p></statement>
+    <answer><p>The reciprocal of the power with the corresponding positive exponent.</p></answer></exercise>
+</reading-questions>
+
+<warning><p>A negative exponent does not mean that the power is negative. For example,
+	<me>2^{-4} \not= -2^4</me></p></warning>
+
+<p>We can also rewrite fractions using negative exponents.</p>
+
+<example><statement><p>Write each expression using negative exponents.<ol label="a" cols="3">
+	<li><m>\dfrac{1}{3^4}</m></li>
+	<li><m>\dfrac{7}{10^2}</m></li>
+	<li><m>\dfrac{8}{x}</m></li></ol></p></statement>
+<solution><p><ol label="a">
+	<li><m>\dfrac{1}{3^4} = 3^{-4}</m></li>
+	<li><m>\dfrac{7}{10^2} = 7 \cdot \dfrac{1}{10^2} = 7 \cdot 10^{-2}</m></li>
+	<li><m>\dfrac{8}{x} = 8 \cdot \dfrac{1}{x} = 8x^{-1}</m></li></ol></p></solution></example>
+
+<warning><p>An exponent applies only to its base. For example, the exponent <m>-2</m> in the expression <m>3x^{-2}</m> applies only to <m>x</m>, but in <m>(3x)^{-2}</m>, the exponent applies to <m>3x</m>. Thus,
+	<me>3x^{-2} = 3 \cdot \dfrac{1}{x^2} = \dfrac{3}{x^2}~~~~~~\text{but}~~~~~~(3x)^{-2} = \dfrac{1}{(3x)^2} = \dfrac{1}{9x^2}</me></p></warning>
+</subsection>
+
+<subsection><title>Laws of Exponents</title>
+<p>The laws of exponents apply to negative exponents. In particular, if we allow negative exponents, we can write the second law as a single rule.</p>
+
+<assemblage><title>Laws of Exponents</title><p><ol label="1" cols="2">
+	<li><me>\blert{a^m \cdot a^n = a^{m+n}}</me></li>
+	<li><me>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(a \not= 0)}</me></li>
+	<li><me>\blert{(a^m)^n = a^{mn}}</me></li>
+	<li><me>\blert{(ab)^n = a^nb^n}</me></li>
+	<li><me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></li></ol></p></assemblage>
+
+<example><statement><p>Simplify by using the first or second law of exponents.<ol label="a" cols="2">
+	<li><m>x^5 \cdot x^{-8}</m></li>
+	<li><m>\dfrac{5^2}{5^{-6}}</m></li></ol></p></statement>
+<solution><p><ol label="a">
+	<li><p>Apply the first law:  add the exponents.
+		<me>x^5 \cdot x^{-8} = x^{5-8} = x^{-3}</me></p></li>
+	<li><p>Apply the second law:  subtract the exponents.
+		<me>\dfrac{5^2}{5^{-6}} = 5^{2-(-6)} = 5^8</me></p></li></ol></p></solution></example>
+
+<assemblage><title>Look Closer</title>
+<p>As a special case of the second law, note that <m>1=a^0</m>, so we can write
+	<me>\dfrac{1}{a^{-n}} = \dfrac{a^0}{a^{-n}} = a^{0-(-n)} = a^n</me></p></assemblage>
+
+<p>Thus,</p>
+
+<assemblage><p><me>\blert{\dfrac{1}{a^{-n}} = a^n}~~~~\text{and}~~~~\blert{\dfrac{b}{a^{-n}} = ba^n,~~a \not= 0}</me></p></assemblage>
+
+<example><statement><p><ol label="a" cols="2">
+	<li><m>\dfrac{1}{2^{-3}} = 2^3</m></li>
+	<li><m>\dfrac{8}{x^{-5}} = 8x^5</m></li></ol></p></statement></example>
+
+<p>Here are some examples using the laws of exponents.</p>
+
+<example><statement><p>Simplify by using the third or fourth law of exponents.<ol label="a" cols="2">
+	<li><m>(2^{-3})^{-3}</m></li>
+	<li><m>(ab)^{-3}</m></li></ol></p></statement>
+<solution><p><ol label="a">
+	<li><p>Apply the third law:  multiply the exponents.
+		<me>(2^{-3})^{-3} = x^{5-8} = 2^{-3(-3)}=2^9</me></p></li>
+	<li><p>Apply the fourth law:  raise each factor to the power.
+		<me>(ab)^{-3} = a^{-3}b^{-3} </me></p></li></ol></p></solution></example>
+
+<reading-questions>
+    <exercise number="3"><statement><p>What is the difference between <m>2^{-3}</m> and <m>-2^3</m>?</p></statement>
+    <answer><p><m>2^{-3}</m> is the reciprocal of <m>2^3</m> and <m>-2^3</m> is the opposite of <m>2^3</m>.</p>
+</answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Powers of Ten</title>
+<p>Scientists and engineers often encounter very large numbers such as
+	<me>5,980,000,000,000,000,000,000,000</me>
+(the mass of the earth in kilograms) and very small numbers such as
+	<me>0.000~ 000~ 000~ 000~ 000~ 000~ 000~ 00167</me>
+(the mass of a hydrogen atom in grams) in their work. These numbers can be written in a more compact and useful form using powers of 10.</p>
+<p>Recall the following facts about our base-10 number system.</p>
+
+<assemblage><title>Multiplying by Powers of Ten</title><p><ul>
+<li><p>Multiplying a number by a positive power of 10 has the effect of moving the decimal point <m>k</m> places to the right, where <m>k</m> is the exponent on 10. For example,
+	<me>2.358 \times 10^2 = 235.8~~~~~~\text{and}~~~~~~17 \times 10^4 = 170,000</me></p></li>
+<li><p>Multiplying a number by a negative power of 10 has the effect of moving the decimal point to the left. For example,
+		<me>5452 \times 10^{-3} = 5.452~~~~~~\text{and}~~~~~~2.3 \times 10^{-5} = 0.000~ 023</me></p></li>
+</ul></p></assemblage>
+
+<reading-questions>
+    <exercise number="4"><statement><p>What happens to a number when we multiply it by a power of 10?</p>
+</statement>
+    <answer><p>The decimal point moves to the left or the right.</p></answer></exercise>
+</reading-questions>
+
+<p>We can also reverse the process above to write a number in factored form, where one factor is a power of 10.</p>
+
+<example><statement><p>Fill in the correct power of 10 for each factored form.<ol label="a" cols="2">
+	<li><m>38,400 = 3.84 \times <fillin characters="6"/></m></li>
+	<li><m>0.0057 = 5.7 \times <fillin characters="6"/></m></li></ol></p></statement>
+<solution><p><ol label="a">
+	<li><p>To recover <m>38,400</m> from <m>3.84</m>, we must move the decimal point four places to the right, so we multiply by <m>10^4</m>. Thus,
+		<me>38,400 = 3.84 \times 10^4</me></p></li>
+	<li><p>To recover <m>0.0057</m> from <m>5.7</m>, we must move the decimal point three places to the left, so we multiply by <m>10^{-3}</m>. Thus,
+		<me>0.0057 = 5.7 \times 10^{-3}</me></p></li></ol></p></solution></example>
+</subsection>
+
+<subsection><title>Scientific Notation</title>
+<p>	If there is just one digit to the left of the decimal point in the factored form, we say that the number is written in <term>scientific notation</term>.</p>
+
+<assemblage><p>A number is in <term>scientific notation</term> if it is expressed as the product of a number 
+	between 1 and 10 and a power of 10. </p></assemblage>
+
+<p>For example,
+	<me>4.18 \times 10^{12},~~~~  2.9 \times 10^{-8},~~~~\text{and}~~~~ 4 \times 10^1</me>
+are written in scientific notation.</p>
+
+<p>	To write a number in scientific notation, we first position the decimal point and then determine the correct power of 10.</p>
+  
+<assemblage><title>To Write a Number in Scientific Notation</title><p><ol label="1">
+	<li>Locate the decimal point so that there is exactly one nonzero digit to its left.</li>
+	<li><p>Count the number of places you moved the decimal point:  this determines the power of 10.<ol label="a">
+		<li>If the original number is greater than 10, the exponent is positive.</li>
+		<li>If the original number is less than 1, the exponent is negative.</li></ol></p></li>
+	</ol></p></assemblage>
+
+<example><statement><p>Write each number in scientific notation.<ol label="a" cols="2">
+	<li><m>62,000,000</m></li>
+	<li><m>0.000431</m></li></ol></p></statement>
+<solution><p><ol label="a">
+	<li><p>We position the decimal point so that there is just one nonzero digit to the left of the decimal.
+		<me>62,000,000 = 6.2 \times <fillin characters="6"/></me>
+	To recover 62,000,000 from 6.2, we move the decimal point seven places to the right. Therefore, we multiply 6.2 by <m>10^7</m>.
+		<me>62,000,000 = 6.2 \times 10^7</me></p></li>
+	<li><p>We position the decimal point so that there is just one nonzero digit to the left of the decimal.                        
+		<me>0.000431 = 4.31 \times <fillin characters="6"/></me>
+	To recover 0.000431 from 4.31, we move the decimal point four places to the left. Therefore, we multiply 4.31 by <m>10^{-4}</m>.
+		<me>0.000431 = 4.31 \times 10^{-4}</me></p></li></ol></p></solution></example>
+
+<assemblage><title>Look Closer</title>
+<p>The easiest way to remember which way to move the decimal point is to note whether the number is large (greater than 10) or small (less than 1). For example,<ul> 
+	<li>62,000,000 is a large number, so the exponent on 10 in its scientific form is positive. On the other hand,</li> 
+	<li>0.000431 is a decimal fraction less than 1, so the exponent on 10 in its scientific form is negative.</li>
+</ul></p></assemblage>
+
+<reading-questions>
+    <exercise number="5"><statement><p>How can you tell whether the exponent in scientific notation should be 
+	positive or negative?</p></statement>
+    <answer><p>Note whether the number is large (greater than 10) or small (less than 1).</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Calculators and Scientific Notation</title>
+<p>	Your calculator displays numbers in scientific notation if they have too many digits to fit in the display screen.</p>  
+
+<example><statement><p>Use a calculator to compute the square of 12,345,678.</p></statement>
+
+<solution><p>We enter
+	<me>12345678~~\boxed{~x^2~}</me>
+(and press enter on a graphing calculator.)  A scientific calculator displays the result as
+	<me>\boxed{1.524157653~~~~14}</me>
+and a graphing calculator displays
+	<me>1.524157653~~\text{E}~~14</me>
+(Some calculators may round the result to fewer decimal places.) Both of these displays represent the number <m>1.524157653 \times 10^{14}</m>.</p></solution></example> 
+
+<assemblage><title>Look Closer</title>
+<p>Because scientific notation always involves a power of 10, most calculators do not display the 10, but only its exponent.  If you now press the <m>\boxed{~\dfrac{1}{x}~}</m> key, your calculator will display the reciprocal of  <m>1.524157653 \times 10^{14}</m> as 
+	<me>\boxed{6.56100108~~~~-15}~~~~~~\text{or}~~~~~~ 6.56100108~~\text{E}~~-15</me>
+This is how your calculator displays the number  <m>6.56100108 \times 10^{-15}</m>.</p></assemblage>
+
+<warning><p>Do not use your calculator's notation when giving an answer in scientific notation. For example, if your calculator reports a result as  3.47 E 8,  you should write <m>3.47 \times 10^8</m>.</p></warning>
+
+<reading-questions>
+    <exercise number="6"><statement><p>How does your calculator display scientific notation?</p></statement>
+    <answer><p>It does not display the 10, but only its exponent.</p></answer></exercise>
+</reading-questions>
+
+<p>Your calculator has a special key for entering numbers in scientific notation.</p>
+
+<assemblage><p>To enter a number in scientific notation into the calculator, we use the key marked either <m>\boxed{\text{EXP}}</m> or  <m>\boxed{\text{EE}}</m>.</p></assemblage>
+
+<p>For instance, to enter <m>6.02 \times 10^{23}</m>, we key in the sequence
+	<me>6.02~~\boxed{\text{EXP}}~~23</me>
+To enter a number with a negative exponent, such as <m>1.66 \times 10^{-27}</m>, on a scientific calculator we key in
+	<me>1.66~~  \boxed{\text{EXP}}~~ 27~~ \boxed{~\pm~}</me>
+On a graphing calculator we key in
+	<me>1.66~~\boxed{\text{EE}}~~\boxed{~(-)~}~~ 27</me></p>
+
+<example><statement><p>The People's Republic of China encompasses about 2,317,400,000 acres of land and has a population of 1,335,300,000 people. How many acres of land per person are there in China?</p></statement>
+
+<solution><p>We divide the number of acres of land by the number of people. To do this, we first write each number in scientific notation.
+		<md><mrow>2,317,400,000 = 2.3174 \times 10^9</mrow>
+			<mrow>1,335,300,000 = 1.3353 \times 10^9</mrow></md>
+We enter the division into the calculator as follows.
+	<me>2.3174~~\boxed{\text{EXP}}~~9~~\boxed{~\div ~}~~1.3353\boxed{\text{EXP}}~~9~~\boxed{~= ~}</me>
+The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres of land per person in China.</p></solution></example>
+</subsection>
+
+<subsection><title>Mental Calculation with Scientific Notation</title>
+<p>We can often obtain a quick estimate for a calculation by converting each figure to scientific notation and rounding to just one or two digits.</p>
+
+<example><statement><p>Use scientific notation to find the product
+	<me>(6,200,000,000)(0.000 000 3)</me></p></statement>
+<solution><p>We can use a calculator (if necessary) to combine the decimal numbers, and the first law of exponents to combine the powers of 10.
+	<md><mrow>(6,200,000,000)(0.000 000 3) \amp = (6.2 \times 10^9)(3 \times 10^{-7})~~~~~~\blert{\text{Rearrange the factors.}}</mrow>
+		<mrow>\amp = (6.2 \times 3) \times (10^9 \times 10^{-7})~~~~~~ \blert{10^{9-7} = 10^2}</mrow>
+		<mrow> \amp = 18.6 \times 10^2 = 1860</mrow></md></p></solution></example>
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
+<exercises>
+
+<exercisegroup cols="2"><introduction><p>Decide whether each statement is true or false.</p></introduction>
+
+<exercise number="1"><statement>The reciprocal of <m>x+2</m> is <m>\dfrac{1}{x} + \dfrac{1}{2}</m>.</statement>
+<answer>False</answer></exercise>
+
+<exercise number="2"><statement>The reciprocal of <m>\dfrac{1}{3} + \dfrac{1}{4}</m> is 7.</statement>
+<answer>False</answer></exercise>
+
+<exercise number="3"><statement><m>\dfrac{3}{\dfrac{1}{5}} = 15</m></statement>
+<answer>True</answer></exercise>
+
+<exercise number="4"><statement><m>\dfrac{3}{\dfrac{1}{5}+\dfrac{1}{2}} = 15+6</m>.</statement>
+<answer>False</answer></exercise>
+
+<exercise number="5"><statement>The reciprocal of <m>\dfrac{1}{x}</m> is <m>x</m>.</statement>
+<answer>True</answer></exercise>
+
+<exercise number="6"><statement>The reciprocal of <m>\dfrac{1}{x+y}</m> is <m>x+y</m>.</statement>
+<answer>True</answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>
