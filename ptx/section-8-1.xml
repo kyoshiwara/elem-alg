@@ -57,7 +57,7 @@ This expression is an algebraic fraction. </p>
 <example><statement><p>Sketch a graph of the equation  <m>~~A=\dfrac{5000+50x}{x}</m></p></statement>
 
 <solution><p>We evaluate the average cost for various production levels, <m>x</m>, and make a table of values. We plot the points and connect them with a smooth curve to obtain the graph shown below.</p>
-<sidebyside widths="25% 60%"><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+<sidebyside widths="25% 60%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>A</m></cell></row>
@@ -86,7 +86,30 @@ This expression is an algebraic fraction. </p>
                         <cell><m>2000</m></cell>
                         <cell><m>52.50</m></cell></row>                     
                 </tabular>
-    <image source="images/fig-8-1-ex3.png"><description>graph</description></image></sidebyside>
+    <!--<image source="images/fig-8-1-ex3.png"><description>graph</description></image>-->
+    <image xml:id="fig-8-1-ex3">
+        <description>curve</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.4]
+		\draw[cyan] (0,0) grid (20,15);
+		\draw[black, very thick, ->, >=stealth'] (0,0)--(21,0) node[right]{$x$};
+		\draw[black, very thick, ->, >=stealth'] (0,0)--++(0,16) node[left, xshift=2]{$A$};
+		\foreach \x [evaluate=\x as \xi using int(100*\x)] in  {5,10,15,20} {
+		 \draw[cyan, very thick] ({\x},0) --++(0,15);
+		 \draw[black] ({\x},.2) --++(0,-.4) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(10*\x)] in  {5,10,15} {
+		 \draw[cyan, very thick] (0,\x) --++(20,0);
+		 \draw[black] ({.2},\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[samples=65,domain=1/2:20,smooth,variable=\x,red, very thick,<->, >=stealth'] plot ({\x},{(5 + 5*\x) / \x});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </solution></example>
 </subsection>
 
@@ -223,7 +246,7 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-8-1"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="3"><introduction><p>Factor completely.</p></introduction>
 
@@ -246,7 +269,10 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 <answer><m>(2x+1)^2</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-8-1">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-8-1.xml" />
 </section>
 

@@ -206,7 +206,7 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 		<mrow>\blert{rt} \amp \blert{= w}</mrow></md></p></assemblage>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-8-4"><title>Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Write each expression as a single fraction in simplest form.</p>
@@ -225,6 +225,9 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 <answer><m>\dfrac{x}{2x-4}</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-8-4">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-8-4.xml" />
 </section>

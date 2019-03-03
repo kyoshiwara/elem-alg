@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+    <chapter xml:id="chap8"  xmlns:xi="http://www.w3.org/2001/XInclude">
+        <title>Algebraic Fractions</title>
+
+
+    <xi:include href="./section-8-1.xml" />             
+    <xi:include href="./section-8-2.xml" />            
+    <xi:include href="./section-8-3.xml" />            
+    <xi:include href="./section-8-4.xml" />            
+                     
+    <xi:include href="./ch8rev.xml" />  
+       
+</chapter>
+<!-- </book>  </mathbook> -->

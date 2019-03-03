@@ -30,11 +30,63 @@ In words, this says that we can multiply the numerator and denominator of a frac
 
 <p>We can visualize the building process with diagrams. Here are pictures of the original fractions in our example, <m>\dfrac{2}{3}</m> and <m>\dfrac{3}{4}</m>.</p>
 
-<sidebyside widths="30% 35%"><image source="images/fig-8-3-1a.png"><description>rectangles</description></image><image source="images/fig-8-3-1b.png"><description>rectangles</description></image></sidebyside>
+<sidebyside widths="35% 35%"><!--<image source="images/fig-8-3-1a.png"><description>rectangles</description></image><image source="images/fig-8-3-1b.png"><description>rectangles</description></image>-->
+    <image xml:id="fig-8-3-1a">
+        <description>rectangle for 2/3</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} 
+		\foreach \x in {1,2} {
+		 \draw[black, fill=cyan!20!white, very thick, opacity=.5] (0,\x) rectangle ++(4,1);
+		}
+		\draw[black, very thick] (0,0) rectangle ++(4,1);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    <image xml:id="fig-8-3-1b">
+        <description>rectangle for 3/4</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} 
+		\foreach \x in {0,1,2} {
+		 \draw[black, fill=cyan!50!white, very thick, opacity=.5] (\x,0) rectangle ++(1,3);
+		}
+		\draw[black, very thick] (3,0) rectangle ++(1,3);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <p>Thirds and fourths are not like fractions -- they are not pieces of the same size. But if we can break up one-third and one-fourth into smaller pieces that are the same size, then we can combine all the pieces. This is what the LCD is for. We can break up both thirds and fourths into twelfths, as shown below.</p>
 
-<sidebyside widths="35% 35%"><image source="images/fig-8-3-2a.png"><description>rectangles</description></image><image source="images/fig-8-3-2b.png"><description>rectangles</description></image></sidebyside>
+<sidebyside widths="35% 35%"><!--<image source="images/fig-8-3-2a.png"><description>rectangles</description></image><image source="images/fig-8-3-2b.png"><description>rectangles</description></image>-->
+    <image xml:id="fig-8-3-2a">
+        <description>rectangle for 8/12</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[auto, thick]
+
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    <image xml:id="fig-8-3-2b">
+        <description>rectangle for 9/12</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[auto, thick]
+
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 
 <p>We can see from the figure that <m>\dfrac{2}{3} = \dfrac{8}{12}</m> and <m>\dfrac{3}{4} = \dfrac{9}{12}</m>.  Once we have written the fractions with the same denominator, they are like fractions and we can add them. This is what building fractions is all about.</p>
 </subsection>
@@ -151,7 +203,7 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
 </reading-questions>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-8-3"><title>Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Simplify.</p></introduction>
@@ -175,6 +227,9 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
 <answer><m>x^2+8x+32</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-8-3">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-8-3.xml" />
 </section>
