@@ -95,22 +95,22 @@ In the expression <m>3a^2</m>, only the factor <m>a</m> is squared, but in <m>(3
 </subsection>
 
 <subsection><title>Power of a Quotient</title>
-<p>To simplify the expression <m>(\dfrac{x}{2})^4</m>, we multiply together four copies of the fraction <m>\dfrac{x}{2}</m>. That is,
-	<md><mrow> = (\dfrac{x}{2})^4 \amp = \dfrac{x}{2} \cdot \dfrac{x}{2} \cdot \dfrac{x}{2} \cdot \dfrac{x}{2} = \dfrac{x \cdot x \cdot x \cdot x}{2 \cdot 2 \cdot 2 \cdot 2}</mrow>
+<p>To simplify the expression <m>\left(\dfrac{x}{2}\right)^4</m>, we multiply together four copies of the fraction <m>\dfrac{x}{2}</m>. That is,
+	<md><mrow>  \left(\dfrac{x}{2}\right)^4 \amp = \dfrac{x}{2} \cdot \dfrac{x}{2} \cdot \dfrac{x}{2} \cdot \dfrac{x}{2} = \dfrac{x \cdot x \cdot x \cdot x}{2 \cdot 2 \cdot 2 \cdot 2}</mrow>
 		<mrow> \amp = \dfrac{x^4}{2^4} = \dfrac{x^4}{16}</mrow></md>
 This example suggests the following rule.</p>
 
 <assemblage><title>Fifth Law of Exponents</title>
 <p>To raise a quotient to a power, raise both the numerator and the denominator to the power. In symbols,
-	<me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></p></assemblage>
+	<me>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</me></p></assemblage>
 
 <example><statement><p><ol label="a">
-	<li><p><m>(\dfrac{x}{y})^5 = \dfrac{x^5}{y^5} ~~~~~~~~~~ \blert{\text{Raise top and bottom to the fifth power.}}</m></p></li>
-	<li><p><md><mrow>(\dfrac{2}{y^2})^3 \amp = \dfrac{2^3}{(y^2)^3} \amp \amp \blert{\text{Raise top and bottom to the third power.}}</mrow>
+	<li><p><m>\left(\dfrac{x}{y}\right)^5 = \dfrac{x^5}{y^5} ~~~~~~~~~~ \blert{\text{Raise top and bottom to the fifth power.}}</m></p></li>
+	<li><p><md><mrow>\left(\dfrac{2}{y^2}\right)^3 \amp = \dfrac{2^3}{(y^2)^3} \amp \amp \blert{\text{Raise top and bottom to the third power.}}</mrow>
 		<mrow> \amp =\dfrac{2^3}{y^{2 \cdot 3}} = \dfrac{8}{y^6} \amp \amp \blert{\text{Apply the third law of exponents to the denominator.}}</mrow></md></p></li></ol></p></statement></example>
 	
 <reading-questions>
-    <exercise number="4"><statement><p>Why does <m>(\dfrac{1}{x})^4 = \dfrac{1}{x^4}</m>?</p></statement>
+    <exercise number="4"><statement><p>Why does <m>\left(\dfrac{1}{x}\right)^4 = \dfrac{1}{x^4}</m>?</p></statement>
     <answer><p>Because <m>1^4=1</m>.</p></answer></exercise>
 </reading-questions>
 </subsection>
@@ -158,7 +158,7 @@ Finally, we multiply the powers together to get
 </reading-questions> 
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>                                                 
+<subsection xml:id="Skills-Warm-Up-9-1"><title>Skills Warm-Up</title>                                                 
 <exercises>
 
 <exercisegroup cols="3"><introduction><p>Simplify each expression according to the order of operations.</p>
@@ -183,6 +183,9 @@ Finally, we multiply the powers together to get
 <answer><m>-8</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-9-1">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-9-1.xml" />
 </section>  
