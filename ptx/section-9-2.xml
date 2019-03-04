@@ -81,9 +81,9 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 <assemblage><title>Laws of Exponents</title><p><ol label="1" cols="2">
 	<li><me>\blert{a^m \cdot a^n = a^{m+n}}</me></li>
 	<li><me>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(a \not= 0)}</me></li>
-	<li><me>\blert{(a^m)^n = a^{mn}}</me></li>
+	<li><me>\blert{\left(a^m\right)^n = a^{mn}}</me></li>
 	<li><me>\blert{(ab)^n = a^nb^n}</me></li>
-	<li><me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></li></ol></p></assemblage>
+	<li><me>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</me></li></ol></p></assemblage>
 
 <example><statement><p>Simplify by using the first or second law of exponents.<ol label="a" cols="2">
 	<li><m>x^5 \cdot x^{-8}</m></li>
@@ -109,11 +109,11 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 <p>Here are some examples using the laws of exponents.</p>
 
 <example><statement><p>Simplify by using the third or fourth law of exponents.<ol label="a" cols="2">
-	<li><m>(2^{-3})^{-3}</m></li>
+	<li><m>\left(2^{-3}\right)^{-3}</m></li>
 	<li><m>(ab)^{-3}</m></li></ol></p></statement>
 <solution><p><ol label="a">
 	<li><p>Apply the third law:  multiply the exponents.
-		<me>(2^{-3})^{-3} = x^{5-8} = 2^{-3(-3)}=2^9</me></p></li>
+		<me>\left(2^{-3}\right)^{-3} = x^{5-8} = 2^{-3(-3)}=2^9</me></p></li>
 	<li><p>Apply the fourth law:  raise each factor to the power.
 		<me>(ab)^{-3} = a^{-3}b^{-3} </me></p></li></ol></p></solution></example>
 
@@ -259,7 +259,7 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
 		<mrow> \amp = 18.6 \times 10^2 = 1860</mrow></md></p></solution></example>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-9-2"><title>Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Decide whether each statement is true or false.</p></introduction>
@@ -283,6 +283,9 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
 <answer>True</answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-9-2">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-9-2.xml" />
 </section>
