@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Operations-on-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Operations on Radicals</title>
+
+<subsection><title>Products</title>
+<p>We have used the product rule for radicals,
+	<me>\sqrt{ab} = \sqrt{a} \sqrt{b}</me>
+to simplify square roots. We can also use the product rule to multiply radicals together.</p>
+
+<assemblage><title>Product Rule</title>
+	<p><me>\text{If}~~a, ~b \ge 0,~~\text{then}~~~~\blert{\sqrt{a} \sqrt{b}=\sqrt{ab}}</me></p></assemblage>
+
+<p>For example,
+	<me>\sqrt{2} \cdot \sqrt{3}=\sqrt{6}~~~~~~\text{and}~~~~~ \sqrt{5} \cdot \sqrt{x}=\sqrt{5x}</me></p>
+
+<example><statement><p>Find the product and simplify <m>\sqrt{2x}\sqrt{10xy}</m></p></statement>
+
+<solution><p>First, we apply the product rule.
+	<md><mrow>\sqrt{2x}\sqrt{10xy} \amp =\sqrt{20x^2y}~~~~~~~~~~\blert{\text{Factor out perfect squares.}}</mrow>
+		<mrow> \amp = \sqrt{4x^2}\sqrt{5y} = 2x\sqrt{5y}</mrow></md></p></solution></example>
+
+<reading-questions>
+    <exercise number="1"><statement><p>Which of these statements is correct:<ol label="a" cols="2">
+    	<li><m>\sqrt{x^2+4} = \sqrt{x^2}+\sqrt{4}</m></li>
+    	<li><m>\sqrt{4x^2} = \sqrt{4}\sqrt{x^2}</m></li>
+    	<li><m>\sqrt{x^2-4} = \sqrt{x^2}-\sqrt{4}</m></li>
+    	<li><m>\sqrt{\dfrac{x^2}{4}} = \dfrac{\sqrt{x^2}}{\sqrt{4}}</m></li></ol></p></statement>
+    <answer><p>(b) and (d)</p></answer></exercise>
+</reading-questions>
+
+<p>We use the distributive law to remove parentheses from products involving radicals. Compare the product involving radicals on the left with the more familiar use of the distributive law on the right.
+	<me>6(\sqrt{3} + \sqrt{2}) = 6\sqrt{3} + 6\sqrt{2}~~~~~~~~6(x+y)=6x+6y</me></p>
+
+<example><statement><p>Multiply  <m>~~5(3x+4\sqrt{2})</m></p></statement>
+
+<solution><p>Apply the distributive law to find
+	<me>\blert{5}(3x+4\sqrt{2}) = \blert{5} \cdot 3x + \blert{5} \cdot 4\sqrt{2} = 15x + 20\sqrt{2}</me></p></solution></example>
+
+<reading-questions>
+    <exercise number="2"><statement><p>Explain why this statement is incorrect:  <m>5 \cdot 4\sqrt{2} = 20 \cdot 5 \sqrt{2}</m></p></statement>
+    <answer><p>Because <m>4\sqrt{2}</m> is only one term.</p></answer></exercise>
+</reading-questions>
+
+<p>In the next example, we use the distributive law along with the product rule to simplify the product.</p>
+
+<example><statement><p>Multiply  <m>~~2\sqrt{5}(3+\sqrt{3})</m></p></statement>
+
+<solution><p>Apply the distributive law to obtain
+	<md><mrow>\blert{2\sqrt{5}}(3+\sqrt{3}) \amp =\blert{2\sqrt{5}} \cdot 3 + \blert{2\sqrt{5}} \cdot \sqrt{3}</mrow>
+		<mrow> \amp ~~~~~~~~~~\blert{\text{Apply the product rule to the second term.}}</mrow>
+	 	<mrow>\amp =  6\sqrt{5} + 2\sqrt{15}</mrow></md></p></solution></example>
+
+<warning><p>Note the difference between the products
+	<me>\sqrt{5} \cdot 3 = 3\sqrt{5} ~~~~~\text{and}~~~~~ \sqrt{5} \cdot \sqrt{3} = \sqrt{15}</me>
+The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but not the first.</p></warning>
+
+<reading-questions>
+    <exercise number="3"><statement><p>Explain how to multiply  <m>(3\sqrt{2})(4\sqrt{2})</m></p></statement>
+    <answer><p>Multiply <m>3 \cdot 4</m> to get <m>12</m>, multiply <m>\sqrt{2}\sqrt{2}</m> to get <m>\sqrt{10}</m>, write the product <m>12\sqrt{10}</m>.</p></answer></exercise>
+</reading-questions>
+
+<p>To multiply binomials, we use the FOIL method.</p>
+
+<example><statement><p>Multiply  <m>~~(2+\sqrt{3})(1-2\sqrt{3})</m>, then simplify.</p></statement>
+
+<solution><p>
+	<md><mrow>(2+\sqrt{3})(1-2\sqrt{3}) \amp = 2 \cdot 1-2 \cdot 2\sqrt{3}+\sqrt{3} \cdot 1-\sqrt{3}\cdot 2\sqrt{3}</mrow>
+	<mrow> \amp ~~~~~~~~~~\blert{\text{F}~~~~~~~~~~~~~~\text{O}~~~~~~~~~~~~~~~~~~\text{I}~~~~~~~~~~~~~~~~~~\text{L}}</mrow>
+	<mrow> \amp = 2-4\sqrt{3}+\sqrt{3}-2\cdot 3 ~~~~~~~~\blert{\text{Note that}~~\sqrt{3} \cdot \sqrt{3} = 3}</mrow>
+	<mrow> \amp = 2-4\sqrt{3}+\sqrt{3}-6 ~~~~~~~~~~~~~~\blert{\text{Combine like terms.}}</mrow>
+	<mrow> \amp = -4-3\sqrt{3}</mrow></md></p></solution></example>
+
+<reading-questions>
+    <exercise number="4"><statement><p>Explain why <m>\sqrt{b}\sqrt{b}=b</m></p></statement>
+    <answer><p>The square root of <m>b</m> is a number that, when multiplied by itself, gives <m>b</m>.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Quotients</title>
+<p>We use the quotient rule to simplify square roots of fractions by writing <m>\sqrt{\dfrac{a}{b}} = \dfrac{\sqrt{a}}{\sqrt{b}}</m>. We can also use the quotient rule to simplify quotients of square roots.</p>
+
+<assemblage><title>Quotient Rule</title>
+	<p><me>\text{If}~~a \ge 0~~\text{and}~~b \gt 0,~~\text{then}~~~~\blert{ \dfrac{\sqrt{a}}{\sqrt{b}}=\sqrt{\dfrac{a}{b}} }</me></p></assemblage>
+
+<example><statement><p>Simplify  <m>~~\dfrac{2\sqrt{30a}}{\sqrt{6a}}</m></p></statement>
+
+<solution><p>We use the quotient rule to write the expression as a single radical. Then we simplify the fraction inside the radical.
+		<md><mrow> \dfrac{2\sqrt{30a}}{\sqrt{6a}} \amp = 2\sqrt{\dfrac{30a}{6a}}~~~~~~~~\blert{\text{Reduce the fraction.}}</mrow>
+		<mrow> \amp = 2\sqrt{5}</mrow></md></p></solution></example>
+
+<reading-questions>
+    <exercise number="5"><statement><p>Is it true that we can only simplify a product or quotient of radicals if they are like radicals?</p></statement>
+    <answer><p>No.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title>Fractions</title>
+<p>	When we solve quadratic equations, the solutions are often fractions that involve square roots. Many such fractions can be simplified using properties of radicals.</p>
+
+<example><statement><p>One of the solutions of the equation <m>4x^2-8x=1</m> is <m>\dfrac{8+\sqrt{80}}{8}</m>. Simplify this radical expression.</p></statement>
+
+<solution><p>First, simplify the square root: <m>\sqrt{80}=\sqrt{16 \cdot 5} = 4\sqrt{5}</m>. Thus,
+	<md><mrow> \dfrac{8+\sqrt{80}}{8} \amp = \dfrac{8+4\sqrt{5}}{8} \amp \amp \blert{\text{Factor numerator and denominator.}}</mrow>
+	<mrow> \amp = \dfrac{\cancel{\blert{4}}(2+\sqrt{5})}{\cancel{\blert{4}} \cdot 2} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
+	<mrow> \amp = \dfrac{2+\sqrt{5}}{2}</mrow></md></p></solution></example>
+
+<warning><p>In Example 6, note that
+	<me>8+4\sqrt{5} \not= 12\sqrt{5}</me>
+because <m>8</m> and <m>4\sqrt{5}</m> are not like terms. Also note that
+	<me>\dfrac{8+\sqrt{80}}{8} \not= \sqrt{80}</me>
+Because 8 is a term of the numerator, not a factor, we cannot cancel the 8's.</p></warning>
+
+<reading-questions>
+    <exercise number="6"><statement><p>Which of these cannot be reduced: <m>~~\dfrac{4+\sqrt{6}}{2}~~</m> or <m>~~\dfrac{4\sqrt{6}}{2}~~</m> Why?</p></statement>
+    <answer><p><m>~~\dfrac{4+\sqrt{6}}{2}~~</m>.  The numerator cannot be factored.</p></answer></exercise>
+</reading-questions>
+
+<p>We can add or subtract fractions involving radicals.</p>
+
+ <example><statement><p>Subtract  <m>~~\dfrac{1}{2}-\dfrac{\sqrt{3}}{3}</m></p></statement>
+
+ <solution><p>The LCD for the two fractions is 6. We build each fraction to an equivalent one with denominator 6, then combine the numerators.
+ 	<md><mrow>\dfrac{1}{2}-\dfrac{\sqrt{3}}{3} \amp = \dfrac{1 \cdot \blert{3}}{2\cdot \blert{3}}-\dfrac{\sqrt{3}\cdot \blert{2}}{3\cdot \blert{2}}</mrow>
+ 		<mrow>\amp = \dfrac{3}{6}-\dfrac{2\sqrt{3}}{6} = \dfrac{3-2\sqrt{3}}{6}</mrow></md></p></solution></example>
+ </subsection>
+
+ <subsection><title>Rationalizing the Denominator</title>
+<p>For some applications, it is easier to work with expressions that do not have radicals in the denominators of fractions.  For example, the fraction <m>~\dfrac{\sqrt{2}}{\sqrt{3}}~</m> is equivalent to
+	<me>\dfrac{\sqrt{2}\cdot \blert{\sqrt{3}}}{\sqrt{3}\cdot \blert{\sqrt{3}}} = \dfrac{\sqrt{6}}{3}</me>
+We multiplied the numerator and denominator by <m>\sqrt{3}</m>, the same root that appeared in the denominator originally, and thus eliminated the radical from the denominator. This process is called <term>rationalizing the denominator</term>.</p>
+
+<example><statement><p>Rationalize the denominator of <m>~~\dfrac{10}{\sqrt{50}}</m></p></statement>
+
+<solution><p>We simplify the radical before attempting to rationalize the denominator.
+	<me>\dfrac{10}{\sqrt{50}} = \dfrac{10}{5\sqrt{2}}=\dfrac{2}{\sqrt{2}}</me>
+Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
+	<me>\dfrac{2 \cdot \blert{\sqrt{2}}}{\sqrt{2}\cdot \blert{\sqrt{2}}} = \dfrac{2\sqrt{2}}{2} = \sqrt{2}</me>
+</p></solution></example>
+
+<reading-questions>
+    <exercise number="7"><statement><p>What does it mean to rationalize the denominator?</p></statement>
+    <answer><p>To eliminate radicals from the denominator.</p></answer></exercise>
+    <exercise number="8"><statement><p>What should you do before trying to rationalize a denominator?</p>
+	</statement>
+    <answer><p>Simplify the radicals.</p></answer></exercise>
+</reading-questions>
+</subsection>
+
+<subsection><title> Skills Warm-Up</title>
+<exercises>
+
+<exercisegroup cols="2"><introduction><p>Each simplification is incorrect. Give the correct simplification, or write c.b.s. if the expression cannot be simplified.</p></introduction>
+
+<exercise number="1"><statement><p><m>2+4\sqrt{5} \rightarrow 6\sqrt{5}</m></p></statement>
+<answer><p>c.b.s.</p></answer></exercise>
+
+<exercise number="2"><statement><p><m>\dfrac{2+3\sqrt{5}}{2} \rightarrow 3\sqrt{5}</m></p></statement>
+<answer><p>c.b.s.</p></answer></exercise>
+
+<exercise number="3"><statement><p><m>3\sqrt{5}+3\sqrt{2} \rightarrow 3\sqrt{7}</m></p></statement>
+<answer><p>c.b.s.</p></answer></exercise>
+
+<exercise number="4"><statement><p><m>\dfrac{4+\sqrt{6}}{2} \rightarrow 2+\sqrt{3}</m></p></statement>
+<answer><p>c.b.s.</p></answer></exercise>
+
+<exercise number="5"><statement><p><m>2(3\sqrt{5}) \rightarrow 6\sqrt{10}</m></p></statement>
+<answer><m>6\sqrt{5}</m></answer></exercise>
+
+<exercise number="6"><statement><p><m>2(3+\sqrt{5}) \rightarrow 6+\sqrt{10}</m></p></statement>
+<answer><m>6+2\sqrt{5}</m></answer></exercise>
+
+<exercise number="7"><statement><p><m>(3\sqrt{5})(4\sqrt{5}) \rightarrow 12\sqrt{5}</m></p></statement>
+<answer><m>60</m></answer></exercise>
+
+<exercise number="8"><statement><p><m>3\sqrt{5}+4\sqrt{5} \rightarrow 7\sqrt{10}</m></p></statement>
+<answer><m>7\sqrt{5}</m></answer></exercise>
+</exercisegroup>
+</exercises>
+
+</subsection>
+</section>
