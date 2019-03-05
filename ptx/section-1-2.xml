@@ -85,7 +85,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <assemblage><title>Commutative Law for Addition</title>
     <p>If <m>a</m> and <m>b</m> are numbers, then
-        <me>a+b = b+a</me></p>
+        <me>\blert{a+b = b+a}</me></p>
 </assemblage>
 </subsection>
 
@@ -156,7 +156,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <assemblage><title>Commutative Law for Multiplication</title>
 <p>If <m>a</m> and <m>b</m> are numbers, then
-        <me>a \cdot b = b \cdot a</me></p>
+        <me>\blert{a \cdot b = b \cdot a}</me></p>
 </assemblage>
 
 <p>In algebra, we usually write products with the numeral first. Thus, we write <m>10z</m> for "<m>10</m> times <m>z</m>”.</p>
@@ -295,7 +295,7 @@ Fernando's share of the rent is $135.</p></statement></example>
 <p>Here are some examples of common formulas. Formulas may involve several different variables.</p>
 
 <assemblage><p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
-	<me>\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt</me></p></assemblage>
+	<me>\blert{\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt}</me></p></assemblage>
 
 <example><statement><p>How far will a train moving at 80 miles per hour travel in three hours?</p></statement>
 <solution><p>We evaluate the formula with <m>r=\alert{80}</m> and <m>t=\alert{3}</m> to find
@@ -306,7 +306,7 @@ Fernando's share of the rent is $135.</p></statement></example>
 The train will travel 240 miles.</p></solution></example>
 
 <assemblage><p>To find the <term>profit</term> earned by a company we subtract the costs from the revenue.
-	<me>\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C</me></p></assemblage>
+	<me>\blert{\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C}</me></p></assemblage>
 
 <example><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies. She received $1150 in revenue.  What was her profit?</p></statement>
 <solution><p>We evaluate the formula with <m>R=\alert{1150}</m> and <m>C=\alert{800}</m> to find
@@ -317,7 +317,7 @@ The train will travel 240 miles.</p></solution></example>
 The owner's profit was $350.</p></solution></example>
 
 <assemblage><p>To find the <term>interest</term> earned on an investment we multiply the amount invested (the principal) by the interest rate and the length of the investment.
-	<me>\text{interest} = \text{principal} \times \text{interest rate} \times \text{time}~~~~~~~~~~~~~I=Prt</me></p></assemblage>
+	<me>\blert{\text{interest} = \text{principal} \times \text{interest rate} \times \text{time}~~~~~~~~~~~~~I=Prt}</me></p></assemblage>
 
 <example><statement><p>How much interest will be earned on $800 invested for 3 years in a savings account that pays <m>5\dfrac{1}{2}</m>% interest?</p></statement>
 <solution><p>We evaluate the formula with <m>P=\alert{800}</m>, <m>r=\alert{0.055}</m>, and <m>t=\alert{3}</m> to find
@@ -328,7 +328,7 @@ The owner's profit was $350.</p></solution></example>
 The account will earn $132 in interest.</p></solution></example>
 
 <assemblage><p>To find a percentage or <term>part</term> of a given amount, we multiply the whole amount by the percentage rate.
-	<me>\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW</me></p></assemblage>
+	<me>\blert{\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW}</me></p></assemblage>
 
 <example><statement><p>How much ginger ale do you need to make 60 gallons of a fruit punch that is 20% ginger ale?</p></statement>
 <solution><p>We evaluate the formula with <m>r=\alert{0.20}</m> and <m>W=\alert{60}</m> to find
@@ -339,7 +339,7 @@ The account will earn $132 in interest.</p></solution></example>
 You would need 12 gallons of ginger ale.</p></solution></example>
 
 <assemblage><p>To find the <term>average</term> of a collection of scores, we divide the sum of the scores by the number of scores.
-	<me>\text{average score} = \dfrac{\text{sum of scores}}{\text{number of scores}} ~~~~~~~~~~~~~A=\dfrac{S}{n}</me></p></assemblage>
+	<me>\blert{\text{average score} = \dfrac{\text{sum of scores}}{\text{number of scores}} ~~~~~~~~~~~~~A=\dfrac{S}{n}}</me></p></assemblage>
 
 <example><statement><p>Bert's quiz scores in chemistry are 15, 16, 18, 18, and 12.  What is his average score?</p></statement>
 <solution><p>We evaluate the formula with <m>S=\alert{15+16+18+18+12}</m> and <m>n=\alert{5}</m> to find
@@ -363,7 +363,7 @@ Bert's average score is 15.8.</p></solution></example>
 <subsection xml:id="Skills-Warm-Up-1-2"><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
-	<me>A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w</me></p></introduction>
+	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
 
 <exercise number="1"><statement><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></statement>
 <answer><p>64 ft</p></answer></exercise>
