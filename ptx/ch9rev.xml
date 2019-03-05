@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
+
+<section xml:id="Ch9-Summary-and-Review"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Chapter 9 Summary and Review</title>
+
+<subsection><title>Section 9.1 Laws of Exponents</title><p><ul>
+
+<li><assemblage>
+<p>First Law of Exponents
+	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p>	
+<p>Second Law of Exponents
+	<md><mrow>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(n \lt m)}</mrow>
+		<mrow>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~(n \gt m)}</mrow></md></p></assemblage></li>
+
+<li><assemblage><title>Third Law of Exponents</title>
+<p>To raise a power to a power, keep the same base and multiply the exponents. In symbols,
+	<me>\blert{(a^m)^n = a^{mn}}</me></p></assemblage></li>
+
+<li><assemblage><title>Fourth Law of Exponents</title>
+<p>To raise a product to a power, raise each factor to the power. In symbols,
+	<me>\blert{(ab)^n = a^nb^n}</me></p></assemblage></li>
+
+<li><assemblage><title>Fifth Law of Exponents</title>
+<p>To raise a quotient to a power, raise both the numerator and the denominator to the power. In symbols,
+	<me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></p></assemblage></li></ul></p>
+</subsection>
+
+<subsection><title>Section 9.2 Negative Exponents and Scientific Notation</title><p><ul>
+
+<li><assemblage><title>Zero as an Exponent</title>
+<p><me>\blert{a^0=1,~~~~\text{if}~~~~a \not= 0}</me></p></assemblage></li>
+
+<li><assemblage><title>Negative Exponents</title>
+<p><me>\blert{a^{-n} = \dfrac{1}{a^n}~~~~\text{if}~~~~a \not= 0}</me></p></assemblage></li>
+
+<li>A negative power is the reciprocal of the corresponding positive power. A negative exponent does not mean that the power is negative.</li>
+<li><p>The laws of exponents apply to negative exponents. In particular, if we allow negative exponents, we can write the second law as a single rule.
+	<me>\dfrac{a^m}{a^n} = a^{m-n},~~~~a \not=0</me></p></li>
+<li>A number is in <term>scientific notation</term> if it is expressed as the product of a number 
+between 1 and 10 and a power of 10.</li>
+<li>To write a number in scientific notation, we first position the decimal point and then determine the correct power of 10.</li>
+<li>We can often obtain a quick estimate for a calculation by converting each figure to scientific notation and rounding to just one or two digits.</li></ul></p>
+</subsection>
+
+<subsection><title>Section 9.3 Properties of Radicals</title><p><ul>
+
+<li><assemblage>
+	<p>Product Rule for Radicals
+		<me>  \text{If}~~a,~b \ge 0,~~~\text{then}~~~~\blert{\sqrt{ab}=\sqrt{a}\sqrt{b}}</me></p>
+	<p>Quotient Rule for Radicals
+		<me>  \text{If}~~a \ge 0,~b \gt 0~~~\text{then}~~~~\blert{\sqrt{\dfrac{a}{b}}=\dfrac{\sqrt{a}}{\sqrt{b}}}</me></p></assemblage></li>
+
+<li><p>It is just as important to remember that we do not have a sum or difference rule for radicals. That is, in general,
+	<md><mrow>\sqrt{a+b} \not= \sqrt{a}+\sqrt{b}</mrow>
+			<mrow>\sqrt{a-b} \not= \sqrt{a}-\sqrt{b}</mrow></md></p></li>
+
+<li><assemblage><title>To Simplify a Square Root</title><p><ol label="1">
+	<li>Factor any perfect squares from the radicand.</li>
+	<li>Use the product rule to write the radical as a product of two square roots.</li>
+	<li>Simplify the square root of the perfect square.</li></ol></p></assemblage></li>
+
+<li>Finding a decimal approximation for a radical is not the same as simplifying the radical</li>  
+<li>To take the square root of an even power we divide the exponent by 2.</li>
+<li>Square roots with identical radicands are called <term>like radicals</term>.</li>  
+<li>We can add or subtract like radicals in the same way that we add or subtract like terms, namely by adding or subtracting their coefficients.</li></ul></p>
+</subsection>
+
+<subsection><title>Section 9.4 Operations on Radicals</title><p><ul>
+
+<li><p>We can use the product rule to multiply radicals together: <m>\sqrt{a} \sqrt{b} = \sqrt{ab}</m></p></li>
+<li><p>We can use the quotient rule to simplify quotients of square roots: <m>\dfrac{\sqrt{a}}{\sqrt{b}} = \sqrt{\dfrac{a}{b}}</m></p></li> 
+<li>We can multiply numerator and denominator of a fraction by  the same root that appears in the denominator to eliminate the radical from the denominator. This process is called <term>rationalizing the denominator</term>.</li>
+</ul></p></subsection>
+
+<subsection><title>Section 9.5 Equations with Radicals</title><p><ul>
+
+<li>A <term>radical equation</term> is one in which the variable appears under a radical.</li>
+
+<li><assemblage><title>To Solve a Radical Equation</title><p><ol label="1">
+	<li>Isolate the radical on one side of the equation.</li>
+	<li>Square both sides of the equation.</li>
+	<li>Continue as usual to solve for the variable.</li></ol></p></assemblage></li>
+
+<li>The technique of squaring both sides may introduce <term>extraneous solutions</term>.</li>
+<li>If a radical equation involves several terms, it is easiest to isolate the radical term on one side of the equation before squaring both sides.</li>
+<li>To solve an equation in which the variable appears under a cube root, we isolate the cube root, then cube both sides of the equation.</li>
+<li>We do not have to check for extraneous solutions when we cube both sides of an equation.</li></ul></p>
+</subsection>
+
+<subsection><title>Review Questions</title>
+
+<p>Use complete sentences to answer the questions.<ol label = "1">
+
+<li>State the third law of exponents, and compare with the first law.</li>
+<li>State the fourth and fifth laws of exponents and give examples.</li>
+<li>Give the definition of <m>a^{-n}</m> and give an example.</li>
+<li>State the second law of exponents.</li>
+<li>Explain how the quotient <m>\dfrac{2^5}{2^5}</m> illustrates the definition of <m>a^0</m>.</li>
+<li>Describe the form of a number written in scientific notation.</li>
+<li>State two properties of radicals that are useful in simplifying radical expressions.</li>
+<li>State two similar "rules" for radicals that are false. </li>
+<li>Explain how to simplify a square root to a classmate who was absent that day.</li>
+<li>When can you simplify a sum or difference of square roots?  How?</li>
+<li>Explain how to rationalize the denominator of a fraction.</li>
+<li>How do we solve a radical equation?</li></ol></p>
+</subsection>
+
+<subsection><title>Review Problems</title>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</subsection>
+</section>

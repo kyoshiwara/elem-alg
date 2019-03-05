@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+
+<exercises xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Homework 9.4</title>
+
+<exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, simplify the product.</p></introduction>
+
+<exercise number="1"><statement><p><m>\sqrt{8}\sqrt{2}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="2"><statement><p><m>\sqrt{2x}\sqrt{3x}</m></p></statement></exercise>
+
+<exercise number="3"><statement><p><m>(3\sqrt{8a})(a\sqrt{18a})</m></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 4<ndash/>6, multiply.</p></introduction>
+
+<exercise number="4"><statement><p><m>\sqrt{2}(3+\sqrt{3})</m></p></statement></exercise>
+
+<exercise number="5"><statement><p><m>\sqrt{5}(4+2\sqrt{15})</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="6"><statement><p><m>(2\sqrt{p})(\sqrt{2p}-p\sqrt{2})</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>10, multiply.</p></introduction>
+
+<exercise number="7"><statement><p><m>(3+\sqrt{2})(1-\sqrt{2})</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="8"><statement><p><m>(4-\sqrt{a})(4+\sqrt{a})</m></p></statement></exercise>
+
+<exercise number="9"><statement><p><m>(2+\sqrt{3})^2</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="10"><statement><p><m>(2\sqrt{w}+\sqrt{5})(\sqrt{w}-2\sqrt{5})</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 11<ndash/>13, simplify the quotient.</p></introduction>
+
+<exercise number="11"><statement><p><m>\dfrac{\sqrt{18}}{\sqrt{2}}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="12"><statement><p><m>\dfrac{\sqrt{75x^3}}{\sqrt{3x}}</m></p></statement></exercise>
+
+<exercise number="13"><statement><p><m>\dfrac{\sqrt{48b}}{\sqrt{27b}}</m></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+<exercisegroup cols="3"><introduction><p>For Problems 14<ndash/>16, reduce if possible.</p></introduction>
+
+<exercise number="14"><statement><p><m>\dfrac{9-3\sqrt{5}}{3}</m></p></statement></exercise>
+
+<exercise number="15"><statement><p><m>\dfrac{-8+\sqrt{8}}{4}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="16"><statement><p><m>\dfrac{6a-\sqrt{18}}{6a}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, write the expression as a single fraction in simplest form.</p></introduction>
+
+<exercise number="17"><statement><p><m>\dfrac{5}{4}+\dfrac{3\sqrt{2}}{2}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="18"><statement><p><m>\dfrac{3}{2a}+\dfrac{\sqrt{3}}{6a}</m></p></statement></exercise>
+
+<exercise number="19"><statement><p><m>\dfrac{3\sqrt{3}}{2}+3</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="20"><statement><p><m>\dfrac{3}{4}-2\sqrt{y}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>24, find and correct the error in the calculation.
+</p></introduction>
+
+<exercise number="21"><statement><p><m>8\sqrt{7}-2\sqrt{5} \rightarrow 6\sqrt{2}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="22"><statement><p><m>6\sqrt{8} \rightarrow \sqrt{48}</m></p></statement></exercise>
+
+<exercise number="23"><statement><p><m>\dfrac{5-10\sqrt{3}}{5} \rightarrow -10\sqrt{3}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="24"><statement><p><m>\sqrt{x^2+16} \rightarrow x+4</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>28, rationalize the denominator.</p></introduction>
+
+<exercise number="25"><statement><p><m>\dfrac{5}{\sqrt{2}}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p><m>\dfrac{a\sqrt{2}}{\sqrt{a}}</m></p></statement></exercise>
+
+<exercise number="27"><statement><p><m>\dfrac{b\sqrt{21}}{\sqrt{3b}}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="28"><statement><p><m>\sqrt{\dfrac{7x}{12}}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise number="29"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p><ol label="a">
+	<li>Write an expression for the height of an equilateral triangle of side <m>w</m>. (See the figure at right.)</li>
+	<li>Write an expression for the area of the triangle in part (a).</li></ol></p>
+	<image source="images/hp-9-4-29.png"><description>triangle</description></image></sidebyside></statement>
+<answer></answer></exercise>
+
+<exercise number="30"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p><ol label="a">
+	<li>Write an expression in terms of <m>k</m> for the height of the pyramid shown at right. </li>
+	<li>Write an expressionin terms of <m>k</m> for the area of the pyramid.</li></ol></p>
+	<image source="images/hp-9-4-30.png"><description>pyramid</description></image></sidebyside></statement>
+</exercise>
+
+<exercisegroup><introduction><p>For Problems 31<ndash/>33, verify by substitution that the given value is a solution of the equation.</p></introduction>
+
+<exercise number="25"><statement><p><m>t^2-2\sqrt{3}t+3=0,~~~~~~~~t=\sqrt{3}</m></p></statement>
+<answer></answer></exercise>
+
+<exercise number="26"><statement><p><m>s^2+1=4s,~~~~~~~~s=\sqrt{3}+2</m></p></statement></exercise>
+
+<exercise number="27"><statement><p><m>x^2+3x+1=0,~~~~~~~~x=\dfrac{-3+\sqrt{5}}{2}</m></p></statement>
+<answer></answer></exercise>
+</exercisegroup>
+
+</exercises>
