@@ -7,13 +7,13 @@
 	<li>Evaluate the fraction for the given values of the variable.</li>
 	<li>For what values of the variable is the fraction undefined?</li></ol></p></introduction>
 
-<exercise number="1"><statement><p><m>\dfrac{x+1}{x-3},~~~~~x=\dfrac{1}{2},~-4</m></p></statement>
+<exercise number="1"><statement><p><m>\dfrac{x+1}{x-3},~~~~~x=\dfrac{1}{2},~{-4}</m></p></statement>
 <answer><p><ol label="a">
 	<li><p><m>\dfrac{-3}{5} </m>, <m>\dfrac{3}{7} </m></p></li>
 	<li><p><m>3 </m></p></li>
 </ol></p></answer></exercise>
 
-<exercise number="2"><statement><p><m>\dfrac{2a-a^2}{a^2+1},~~~~~a=3,~-1</m></p></statement></exercise>
+<exercise number="2"><statement><p><m>\dfrac{2a-a^2}{a^2+1},~~~~~a=3,~{-1}</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="3"><statement><p><ol label="a">
