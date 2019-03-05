@@ -63,14 +63,14 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 
 <p>To multiply binomials, we use the FOIL method.</p>
 
-<example><statement><p>Multiply  <m>~~(2+\sqrt{3})(1-2\sqrt{3})</m>, then simplify.</p></statement>
+<example><statement><p>Multiply  <m>~~\left(2+\sqrt{3}\right)\left(1-2\sqrt{3}\right)</m>, then simplify.</p></statement>
 
 <solution><p>
-	<md><mrow>(2+\sqrt{3})(1-2\sqrt{3}) \amp = 2 \cdot 1-2 \cdot 2\sqrt{3}+\sqrt{3} \cdot 1-\sqrt{3}\cdot 2\sqrt{3}</mrow>
-	<mrow> \amp ~~~~~~~~~~\blert{\text{F}~~~~~~~~~~~~~~\text{O}~~~~~~~~~~~~~~~~~~\text{I}~~~~~~~~~~~~~~~~~~\text{L}}</mrow>
-	<mrow> \amp = 2-4\sqrt{3}+\sqrt{3}-2\cdot 3 ~~~~~~~~\blert{\text{Note that}~~\sqrt{3} \cdot \sqrt{3} = 3}</mrow>
-	<mrow> \amp = 2-4\sqrt{3}+\sqrt{3}-6 ~~~~~~~~~~~~~~\blert{\text{Combine like terms.}}</mrow>
-	<mrow> \amp = -4-3\sqrt{3}</mrow></md></p></solution></example>
+    <md><mrow>\left(2+\sqrt{3}\right)\left(1-2\sqrt{3}\right) \amp = 2 \cdot 1-2 \cdot 2\sqrt{3}+\sqrt{3} \cdot 1-\sqrt{3}\cdot 2\sqrt{3}</mrow>
+    <mrow> \amp ~~~~~~~~~~\blert{\text{F}~~~~~~~~~~~~~~\text{O}~~~~~~~~~~~~~~~~~~\text{I}~~~~~~~~~~~~~~~~~~\text{L}}</mrow>
+    <mrow> \amp = 2-4\sqrt{3}+\sqrt{3}-2\cdot 3 ~~~~~~~~\blert{\text{Note that}~~\sqrt{3} \cdot \sqrt{3} = 3}</mrow>
+    <mrow> \amp = 2-4\sqrt{3}+\sqrt{3}-6 ~~~~~~~~~~~~~~\blert{\text{Combine like terms.}}</mrow>
+    <mrow> \amp = -4-3\sqrt{3}</mrow></md></p></solution></example>
 
 <reading-questions>
     <exercise number="4"><statement><p>Explain why <m>\sqrt{b}\sqrt{b}=b</m></p></statement>
