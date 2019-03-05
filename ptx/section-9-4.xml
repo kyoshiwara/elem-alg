@@ -148,7 +148,7 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 </reading-questions>
 </subsection>
 
-<subsection><title> Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-9-4"><title> Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Each simplification is incorrect. Give the correct simplification, or write c.b.s. if the expression cannot be simplified.</p></introduction>
@@ -178,6 +178,9 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 <answer><m>7\sqrt{5}</m></answer></exercise>
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-9-4">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-9-4.xml" />
 </section>

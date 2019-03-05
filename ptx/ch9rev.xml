@@ -329,10 +329,46 @@ between 1 and 10 and a power of 10.</li>
 
 <exercisegroup cols="2"><introduction><p>For Problems 65<ndash/>66, find the length of the third side of the right triangle.</p></introduction>
 
-<exercise number="65"><statement><sidebyside width="75%"><image source="images/cr9-65.png"><description>triangles</description></image></sidebyside></statement>
+<exercise number="65"><statement><sidebyside width="80%"><!--<image source="images/cr9-65.png"><description>triangles</description></image>-->
+    <image xml:id="cr9-65">
+        <description>right triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate (A) at (0,0);
+        \coordinate (B) at (4.5,0);
+        \coordinate (C) at (0,1.5);
+        \draw[cyan, thick] (A) rectangle ++(.25,.25);
+        \draw[magenta!95!black,  line width=.8mm] (A)--(B)--(C)--cycle;
+        \node [left, xshift=-2] at (0,.75) {$2\sqrt{a}$};
+        \node [below] at (2.25,0) {$6\sqrt{a}$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer></answer></exercise>
 
-<exercise number="66"><statement><sidebyside width="40%"><image source="images/cr9-66.png"><description>triangles</description></image></sidebyside></statement></exercise>
+<exercise number="66"><statement><sidebyside width="30%"><!--<image source="images/cr9-66.png"><description>triangles</description></image>-->
+    <image xml:id="cr9-66">
+        <description>right triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate (A) at (0,0);
+        \coordinate (B) at (2,0);
+        \coordinate (C) at (60:4);
+        \draw[cyan, thick] (B) rectangle ++(-.25,.25);
+        \draw[magenta!95!black,  line width=.8mm] (A)--(B)--(C)--cycle;
+        \node [left, xshift=-2] at (60:2) {$4b$};
+        \node [below] at (1,0) {$2b$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 67<ndash/>72, solve.</p></introduction>

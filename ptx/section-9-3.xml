@@ -7,7 +7,7 @@
 <subsection><title>Product and Quotient Rules</title>
 
 <p>Radicals with the same value may be written in different forms. Consider the following calculation:
-	<md><mrow>(2\sqrt{2})^2 \amp = 2^2(\sqrt{2})^2~~~~~~~~\blert{\text{By the fourth law of exponents.}}</mrow>
+	<md><mrow>\left(2\sqrt{2}\right)^2 \amp = 2^2\left(\sqrt{2}\right)^2~~~~~~~~\blert{\text{By the fourth law of exponents.}}</mrow>
 		<mrow> \amp = 4(2)=8</mrow></md>
 This calculation shows that <m>2\sqrt{2}</m> is equal to <m>\sqrt{8}</m>, because the square of <m>2\sqrt{2}</m> is 8.  You can verify on your calculator that <m>2\sqrt{2}</m> and <m>\sqrt{8}</m> have the same decimal approximation, 2.828.</p>
 
@@ -71,7 +71,7 @@ but 6.708 is not the exact value for <m>\sqrt{45}</m>. For long calculations, to
 
 <subsection><title>Square Root of a Variable Expression</title>
 <p>To square a power of a variable we double the exponent.  For example, the square of <m>x^5</m> is
-	<me>(x^5)^2 = x^{5 \cdot 2} = x^{10}</me>
+	<me>\left(x^5\right)^2 = x^{5 \cdot 2} = x^{10}</me>
 Because taking the square root of a number is the opposite of squaring a number, to take the square root of an even power we divide the exponent by 2.</p>
 
 <example><statement><p>If <m>x</m> is a nonnegative number,
@@ -181,7 +181,7 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and<m>6\sqrt{5}</m>to get
 	<me>\sqrt{20} - 3\sqrt{50} + 2\sqrt{45} = 8\sqrt{5} - 15\sqrt{2}</me></p></solution></example>
 </subsection>
 
-<subsection><title>Skills Warm-Up</title>
+<subsection xml:id="Skills-Warm-Up-9-3"><title>Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Find the missing factor.</p></introduction>
@@ -206,6 +206,9 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and<m>6\sqrt{5}</m>to get
 
 </exercisegroup>
 </exercises>
-
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-9-3">
+    <title>Answers to Skills Warm-Up</title>
+</solutions>
 </subsection>
+<xi:include href="./hmwk-9-3.xml" />
 </section>
