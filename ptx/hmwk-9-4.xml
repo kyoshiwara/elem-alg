@@ -101,13 +101,32 @@
 <exercise number="29"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p><ol label="a">
 	<li>Write an expression for the height of an equilateral triangle of side <m>w</m>. (See the figure at right.)</li>
 	<li>Write an expression for the area of the triangle in part (a).</li></ol></p>
-	<image source="images/hp-9-4-29.png"><description>triangle</description></image></sidebyside></statement>
+	<!--<image source="images/hp-9-4-29.png"><description>triangle</description></image>-->
+    <image xml:id="hp-9-4-29">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture} 
+		\coordinate (A) at (0,0);
+		\coordinate (B) at (3,0);
+		\coordinate (C) at (60:3);
+		\coordinate (F) at (3/2,0);
+		\draw[cyan, thick] (F) rectangle ++(.2,.2);
+		\draw[magenta!95!black,  line width=.8mm] (A)--(B)--(C)--cycle;
+		\draw[gray, thick, densely dashed] (C)--(F);
+		\node [above right] at ($ (B)+(120:1.5)$) {$w$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="30"><statement><sidebyside widths="65% 25%" valigns="middle middle"><p><ol label="a">
 	<li>Write an expression in terms of <m>k</m> for the height of the pyramid shown at right. </li>
 	<li>Write an expressionin terms of <m>k</m> for the area of the pyramid.</li></ol></p>
-	<image source="images/hp-9-4-30.png"><description>pyramid</description></image></sidebyside></statement>
+	<image source="images/hp-9-4-30"><description>pyramid</description></image></sidebyside></statement>
 </exercise>
 
 <exercisegroup><introduction><p>For Problems 31<ndash/>33, verify by substitution that the given value is a solution of the equation.</p></introduction>

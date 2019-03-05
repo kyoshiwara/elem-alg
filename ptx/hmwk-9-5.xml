@@ -20,7 +20,30 @@
 </exercisegroup>
 
 <exercise number="6"><statement><p>Use the graph of <m>y=\sqrt{x}</m> shown below to solve the equations. (You may have to estimate some of the solutions.) Check your answers algebraically.</p>
-<sidebyside width="45%"><image source="images/hp-9-5-6.png"><description>graph</description></image></sidebyside>
+<sidebyside width="45%"><!--<image source="images/hp-9-5-6.png"><description>graph</description></image>-->
+    <image xml:id="hp-9-5-6">
+        <description>square root graph</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.4]
+        \draw[cyan] (0,0) grid (15,12);
+        \draw[black, very thick, ->, >=stealth'] (0,0)--(16,0) node[right]{$x$};
+        \draw[black, very thick, ->, >=stealth'] (0,0)--(0,13) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {5,10,15} {
+         \draw[cyan,  thick] ({\x},0) --++(0,12);
+         \draw[black] ({\x},.2) --++(0,-.4) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(\x /2)] in  {4,8,12} {
+         \draw[cyan,  thick] (0,\x) --++(15,0);
+         \draw[black] ({.2},\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[samples=65,domain=0:15,smooth,variable=\x,magenta!90!black, very thick,->, >=stealth'] plot ({\x},{ sqrt(8)*sqrt(\x)});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 <p><ol label ="a" cols="2">
 	<li><m>\sqrt{x} = 4</m></li>
 	<li><m>\sqrt{x} = 2.5</m></li>
@@ -30,7 +53,30 @@
 <exercise number="7"><statement><p>The equation for the semicircle shown is  
 	<me>y=\sqrt{9-x^2}</me>
 Find the <m>x</m>-coordinates of two different points on the semicircle that have <m>y</m>-coordinate 2.</p>
-<sidebyside width="40%"><image source="images/hp-9-5-7.png"><description>graph</description></image></sidebyside>
+<sidebyside width="40%"><!--<image source="images/hp-9-5-7.png"><description>graph</description></image>-->
+    <image xml:id="hp-9-5-7">
+        <description>semicircle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.6]
+        \draw[cyan] (-5,0) grid (5,5);
+        \draw[black, very thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black, very thick, ->, >=stealth'] (0,0)--(0,6) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5,5} {
+         \draw[cyan,  thick] ({\x},0) --++(0,5);
+         \draw[black] ({\x},.2) --++(0,-.4) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x  in  {5} {
+         \draw[cyan,  thick] (-5,\x) --++(10,0);
+         \draw[black] ({.2},\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain=0:180,smooth,variable=\x,magenta!90!black, very thick] plot ({3*cos(\x)},{3*sin(\x)});
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside>
 </statement>
 <answer></answer></exercise>
 
@@ -81,8 +127,8 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
 </exercisegroup>
 
 <exercise number="21"><statement><p><ol label="a">
-	<li><p>Complete the table of values and graph <m>y=\sqrt{x-4}</m>.</p><sidebyside widths="50% 50%">
-		<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+    <li><p>Complete the table of values and graph <m>y=\sqrt{x-4}</m>.</p><sidebyside widths="45% 55%" valigns="middle middle">
+        <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell></row>
@@ -106,15 +152,65 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
                         <cell><m>\hphantom{0000}</m></cell></row>
                     <row>
                         <cell><m>24</m></cell>
-                    	<cell><m>\hphantom{0000}</m></cell></row>                      
+                        <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular>
-	 <image source="images/hp-9-5-21.png"><description>grid</description></image></sidebyside></li>
-	 <li>Solve <m>~\sqrt{x-4}=3~</m> graphically and algebraically. Do your answers agree?</li></ol></p></statement>
-<answer></answer></exercise>
+    <!-- <image source="images/hp-9-5-21.png"><description>grid</description></image>-->
+    <image xml:id="hp-9-5-21">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.6]
+        \draw[cyan] (0,0) grid (12,6);
+        \draw[black, very thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$x$};
+        \draw[black, very thick, ->, >=stealth'] (0,0)--(0,7) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {5,10} {
+         \draw[cyan,  thick] ({\x},0) --++(0,6);
+         \draw[black] ({\x},.2) --++(0,-.4) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x  in  {5} {
+         \draw[cyan,  thick] (0,\x) --++(12,0);
+         \draw[black] ({.2},\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></li>
+     <li>Solve <m>~\sqrt{x-4}=3~</m> graphically and algebraically. Do your answers agree?</li></ol></p></statement>
+<answer><p><ol>
+    <li><sidebyside width="55%" margins="0% 45%">
+    <image xml:id="hp-9-5-21ans">
+        <description>square root graph</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.6]
+        \draw[cyan] (0,0) grid (12,6);
+        \draw[black, very thick, ->, >=stealth'] (0,0)--(13,0) node[right]{$x$};
+        \draw[black, very thick, ->, >=stealth'] (0,0)--(0,7) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {5,10} {
+         \draw[cyan,  thick] ({\x},0) --++(0,6);
+         \draw[black] ({\x},.2) --++(0,-.4) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x  in  {5} {
+         \draw[cyan,  thick] (0,\x) --++(12,0);
+         \draw[black] ({.2},\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[samples=65,domain=2:12,smooth,variable=\x,magenta!90!black, very thick,->, >=stealth'] plot ({\x},{ sqrt(2*\x-4)});
+        \foreach \x in {4,5,6,10,16,19,24} {
+         \filldraw[blue] ({\x/2}, {sqrt(\x-4)}) circle (1.1mm);
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+</ol></p></answer></exercise>
 
 <exercise number="22"><statement><p><ol label="a">
-	<li><p>Complete the table of values and graph <m>y=4-\sqrt{x+3}</m>.</p><sidebyside widths="50% 45%">
-		<tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+    <li><p>Complete the table of values and graph <m>y=4-\sqrt{x+3}</m>.</p><sidebyside widths="45% 50%" valigns="middle middle">
+        <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell></row>
@@ -138,10 +234,32 @@ Find the <m>x</m>-coordinates of two different points on the semicircle that hav
                         <cell><m>\hphantom{0000}</m></cell></row>
                     <row>
                         <cell><m>16</m></cell>
-                    	<cell><m>\hphantom{0000}</m></cell></row>                      
+                        <cell><m>\hphantom{0000}</m></cell></row>                      
                 </tabular>
-	 <image source="images/hp-9-5-22.png"><description>grid</description></image></sidebyside></li>
-	 <li>Solve <m>~4-\sqrt{x+3}=1~</m> graphically and algebraically. Do your answers agree?</li></ol></p></statement></exercise>
+    <!-- <image source="images/hp-9-5-22.png"><description>grid</description></image>-->
+    <image xml:id="hp-9-5-22">
+        <description>grid</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}[scale=.6]
+        \draw[cyan] (-2,-4) grid (10,6);
+        \draw[black, very thick, ->, >=stealth'] (-2,0)--(11,0) node[right]{$x$};
+        \draw[black, very thick, ->, >=stealth'] (0,-4)--(0,7) node[left, xshift=2]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(2*\x)] in  {5,10} {
+         \draw[cyan,  thick] ({\x},-4) --++(0,10);
+         \draw[black] ({\x},.2) --++(0,-.4) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \foreach \x  in  {-3,5} {
+         \draw[cyan,  thick] (-2,\x) --++(12,0);
+         \draw[black] ({.2},\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></li>
+     <li>Solve <m>~4-\sqrt{x+3}=1~</m> graphically and algebraically. Do your answers agree?</li></ol></p></statement></exercise>
 
 <exercise number="23"><statement><p>The higher your altitude, the farther you can see to the horizon, if nothing blocks your line of sight. From a height of <m>h</m> meters, the distance <m>d</m> to the horizon in kilometers is given by
 	<me>d=\sqrt{12h}</me>

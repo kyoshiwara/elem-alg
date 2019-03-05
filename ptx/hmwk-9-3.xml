@@ -6,12 +6,12 @@
 <exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, decide whether the statement is true or false.  Then use a calculator to verify your answer.</p></introduction>
 
 <exercise number="1"><statement><p><m>\sqrt{6}=\sqrt{2}\sqrt{3}</m></p></statement>
-<answer></answer></exercise>
+<answer><p>True</p></answer></exercise>
 
 <exercise number="2"><statement><p><m>\sqrt{16}=\sqrt{18}-\sqrt{2}</m></p></statement></exercise>
 
 <exercise number="3"><statement><p><m>\sqrt{5}+\sqrt{5}=\sqrt{10}</m></p></statement>
-<answer></answer></exercise>
+<answer><p>False</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 4<ndash/>9, find the square root.</p></introduction>
@@ -19,17 +19,17 @@
 <exercise number="4"><statement><p><m>\sqrt{y^8}</m></p></statement>></exercise>
 
 <exercise number="5"><statement><p><m>\sqrt{n^{36}}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>n^{18} </m></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>\pm \sqrt{16x^4}</m></p></statement></exercise>
 
 <exercise number="7"><statement><p><m>-\sqrt{121a^2b^6}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-11ab^3 </m></p></answer></exercise>
 
 <exercise number="8"><statement><p><m>\sqrt{9(x+y)^2}</m></p></statement></exercise>
 
 <exercise number="9"><statement><p><m>-\sqrt{\dfrac{64}{b^6}}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{-8}{b^3} </m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 10<ndash/>15, simplify the square root.</p></introduction>
@@ -37,40 +37,40 @@
 <exercise number="10"><statement><p><m>\sqrt{8}</m></p></statement>></exercise>
 
 <exercise number="11"><statement><p><m>-\sqrt{20}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-2\sqrt{5} </m></p></answer></exercise>
 
 <exercise number="12"><statement><p><m>\sqrt{125}</m></p></statement></exercise>
 
 <exercise number="13"><statement><p><m>\sqrt{x^3}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>x\sqrt{x} </m></p></answer></exercise>
 
 <exercise number="14"><statement><p><m>-\sqrt{b^{11}}</m></p></statement></exercise>
 
 <exercise number="15"><statement><p><m>\sqrt{p^{25}}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>p^{12}\sqrt{p} </m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 16<ndash/>24, simplify the square root.</p></introduction>
 
-<exercise number="16"><statement><p><m>\sqrt{8a^3}</m></p></statement>></exercise>
+<exercise number="16"><statement><p><m>\sqrt{8a^3}</m></p></statement></exercise>
 
 <exercise number="17"><statement><p><m>\pm \sqrt{72m^9}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>\pm 6m^4\sqrt{2m} </m></p></answer></exercise>
 
 <exercise number="18"><statement><p><m>\sqrt{\dfrac{x^8}{27}}</m></p></statement></exercise>
 
 <exercise number="19"><statement><p><m>\sqrt{48c^6d}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>4c^3 \sqrt{3d} </m></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>-\sqrt{\dfrac{45}{4}b^2d^3}</m></p></statement></exercise>
 
 <exercise number="21"><statement><p><m>\sqrt{\dfrac{9w^3}{28z}}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{3w\sqrt{w}}{2\sqrt{7z}} </m></p></answer></exercise>
 
 <exercise number="22"><statement><p><m>3\sqrt{4x^3}</m></p></statement></exercise>
 
 <exercise number="23"><statement><p><m>-2a\sqrt{50a^3b^2}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-10a^2b\sqrt{2a} </m></p></answer></exercise>
 
 <exercise number="24"><statement><p><m>-\dfrac{2}{3k}\sqrt{9b^3k^5}</m></p></statement></exercise>
 </exercisegroup>
@@ -78,22 +78,22 @@
 <exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>31, simplify if possible.</p></introduction>
 
 <exercise number="25"><statement><p><m>\sqrt{3}+2\sqrt{3}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>3\sqrt{3} </m></p></answer></exercise>
 
 <exercise number="26"><statement><p><m>3\sqrt{5}-5\sqrt{7}</m></p></statement></exercise>
 
 <exercise number="27"><statement><p><m>2\sqrt{6}-9\sqrt{6}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-7\sqrt{6} </m></p></answer></exercise>
 
 <exercise number="28"><statement><p><m>\sqrt{20}+\sqrt{45}-2\sqrt{80}</m></p></statement></exercise>
 
 <exercise number="29"><statement><p><m>\sqrt{3}-2\sqrt{12}-\sqrt{18}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-3\sqrt{3}-3\sqrt{2} </m></p></answer></exercise>
 
 <exercise number="30"><statement><p><m>\sqrt{8a}+\sqrt{18a}-7\sqrt{2a}</m></p></statement></exercise>
 
 <exercise number="31"><statement><p><m>2\sqrt{5x^3}-x\sqrt{125x}-3\sqrt{20x^2}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>-3x\sqrt{5x}-6x\sqrt{5} </m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 32<ndash/>34, find and correct the error.</p></introduction>
@@ -101,7 +101,7 @@
 <exercise number="32"><statement><p><m>\sqrt{36+64} \rightarrow 6+8</m></p></statement></exercise>
 
 <exercise number="33"><statement><p><m>\sqrt{3}+\sqrt{3} \rightarrow \sqrt{6}</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>\sqrt{3}+\sqrt{3}=2\sqrt{3} </m></p></answer></exercise>
 
 <exercise number="34"><statement><p><m>\sqrt{9+x^2} \rightarrow 3+x</m></p></statement></exercise>
 </exercisegroup>
@@ -113,7 +113,7 @@
 	<li><m>6.5</m></li>
 	<li><m>3.5</m></li>
 	<li><m>4</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p>c</p></answer></exercise>
 
 <exercise number="36"><statement><p><m>\sqrt{72}</m><ol label="a" cols="4">
 	<li><m>64</m></li>
@@ -126,7 +126,7 @@
 	<li><m>12</m></li>
 	<li><m>15</m></li>
 	<li><m>25</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p>a</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 38<ndash/>40, write the expression as the square root of an integer. Hint: square the expression.</p></introduction>
