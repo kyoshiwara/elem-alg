@@ -1,43 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<!-- <mathbook><book> -->
 
-<!--********************************************************************
-Copyright 2019 Katherine Yoshiwara
+<section xml:id="Preface"   xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Preface</title>
 
-
-Elementary Algebra
-
-
-
-You should have received a copy of the GNU General Public License
-along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
-*********************************************************************-->
-
-
-<frontmatter xml:id="index" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <titlepage>
-        <author>
-            <personname>Katherine Yoshiwara</personname>
-            <department>Department of Mathematics</department>
-            <institution>Los Angeles Pierce College</institution>
-<!--            <email>kyoshiwara@hotmail.com</email>  -->
-        </author>
-
-        <date><today /></date>
-
-    </titlepage>
-
-    <colophon>
-        <copyright>
-            <year>2019</year>
-            <holder>Katherine Yoshiwara</holder>
-            <minilicense>GFDL License</minilicense>
-            <shortlicense>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.  A copy of the license is included in the appendix entitled <q>GNU Free Documentation License.</q>  All trademarks<trademark /> are the registered<registered /> marks of their respective owners.</shortlicense>
-        </copyright>
-    </colophon>
-
-
-
-    <preface>
 <p>Elementary Algebra: Equations and Graphs was written with two goals in mind: to present the skills of algebra in the context of modeling and problem solving, and to engage students in an activity-based course.</p> 
 
 <p>Throughout the book, we use applications to motivate new topics.  We present ideas using verbal, numerical, and graphical tools. We use graphs extensively to illustrate algebraic techniques and to help students visualize relationships between variables. In the Homework Problems we break up skills practice into smaller sets of exercises and combine them with conceptual questions, graphing, and applications of various types.</p>
@@ -50,10 +16,5 @@ students, the text includes labeled grids for most of the graphing exercises. Re
 <p>The textbook is accompanied by an Activities Workbook that provides a Lesson for each section in the book.  These Lessons consist of Activities for students to complete in groups or with guidance from the instructor; or they can be used as support for a lecture format. Each Lesson ends with a Wrap-Up and a set of Homework Preview exercises.</p>
 
 <p>Chapter Reviews include a Summary, Review Questions, and a set of Review Problems. Answers to odd-numbered Homework problems are provided, as well as a Glossary of mathematical terms. A Review of Arithmetic Skills, with Exercises, appears in Appendix A.</p>
-        <attribution><line>Katherine Yoshiwara</line> <line>Atascadero, CA 2019</line></attribution>
 
-    </preface>
-
-
-
-</frontmatter>
+</section>
