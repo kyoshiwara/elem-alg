@@ -80,7 +80,7 @@ From the table, we see that the value of <m>F</m> is always 4 more than the valu
 		<answer><p>horizontal</p></answer></exercise></reading-questions>
 
 <assemblage><title>Look Closer</title>
-<p>How does the graph illustrate the equation <m>F=D+4</m>?  The coordinates of each point on the graph are values for <m>D</m> and <m>F</m> that make the equation true. The coordinates of the point <m>P</m>, namely <m>D=3</m> and <m>F=7</m>, represent the fact that when Delbert was 3 years old, Francine was 7 years old. If we substitute these values into our equation we get
+<p>How does the graph illustrate the equation <m>F=D+4</m>?  The coordinates of each point on the graph are values for <m>D</m> and <m>F</m> that make the equation true. The coordinates of the point <m>P</m>, namely <m>D=\alert{3}</m> and <m>F=\alert{7}</m>, represent the fact that when Delbert was 3 years old, Francine was 7 years old. If we substitute these values into our equation we get
 	<me>\begin{aligned}
                 F \amp = D+4\\
                 \alert{7} \amp = \alert{3}+4
@@ -209,7 +209,7 @@ which is true.</p></assemblage>
 
 <warning><p>It is important that the scales on the axes be evenly spaced. Each tick mark must represent the same interval. The scales on the graph below are incorrectly labeled.</p>
 
-	<sidebyside widths="30% 30%" margins="25% 15%" valigns="middle middle"><p><m>\blert{\text{Incorrect!}~~~ \rightarrow}</m></p><!--<image source="images/fig-1-3-1.png"/>-->
+	<sidebyside widths="30% 30%" margins="25% 15%" valigns="middle middle"><p><m>\alert{\text{Incorrect!}~~~ \rightarrow}</m></p><!--<image source="images/fig-1-3-1.png"/>-->
     <image xml:id="fig-1-3-1">
         <description>inappropriately labeled grid</description>
         <latex-image>
@@ -259,12 +259,12 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 	<li><p>We locate <m>D=7</m> on the horizontal axis, as shown at left below.  Then we move vertically to point on the graph with <m>D</m>-coordinate 7.  Finally, we move horizontally from point <m>A</m> to the vertical axis to find the <m>F</m>-coordinate.  The coordinates of point <m>A</m> are <m>(7,11)</m>, which tells us that when <m>D=7,~F=11</m>. Our answer is 11.</p>
 	<p>To verify the answer algebraically, we <term>evaluate</term> the expression for <m>D=7</m>:  we substitute <m>\alert{7}</m> for <m>D</m> into the equation:
 		<me>F=D+4=\alert{7}+4=11</me></p>
-	<sidebyside widths="40% 40%"><image source="images/fig-1-3-ex4a.png"/><image source="images/fig-1-3-ex4b.png"/></sidebyside></li>
-	<li><p>We locate <m>F=13</m> on the vertical axis. We move horizontally to point <m>B</m> on the graph shown above right, with <m>F</m>-coordinate 13. From point <m>B</m>, we move vertically to the horizontal axis to find the <m>D</m>-coordinate. The coordinates of point <m>B</m> are <m>(9,13)</m>, which tells us that when <m>F=13,~D=9</m>.  Our answer is 9.</p>
+	<sidebyside widths="35% 35%"><image source="images/fig-1-3-ex4a.png"/><image source="images/fig-1-3-ex4b.png"/></sidebyside></li>
+	<li><p>We locate <m>F=\alert{13}</m> on the vertical axis. We move horizontally to point <m>B</m> on the graph shown above right, with <m>F</m>-coordinate 13. From point <m>B</m>, we move vertically to the horizontal axis to find the <m>D</m>-coordinate. The coordinates of point <m>B</m> are <m>(9,13)</m>, which tells us that when <m>F=13,~D=9</m>.  Our answer is 9.</p>
 	<p>To verify the answer algebraically, we <term>solve</term> the equation when <m>F=13</m>: we subtract 4 from both sides of the equation:
 		<me>\begin{aligned}
                 13 \amp = D+4  \amp\amp \blert{\text{Subtract 4 from both sides.}}\\
-                \blert{-4} \amp	~~~~~~~~~\blert{-4}\\
+                \underline{\blert{-4}} \amp	~~~~~\underline{~~~~\blert{-4}}\\
                 9 \amp = D
                 \end{aligned}</me></p></li></ol></p></solution></example>
 
@@ -278,7 +278,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=1.2]
-        \draw[green] (0,0) grid[xstep=1/2, ystep=1/4] (4,5);
+        \draw[cyan] (0,0) grid[xstep=1/2, ystep=1/4] (4,5);
         \draw[black,thick, ->, >=stealth'] (0,0)--(4.3,0) node[right]{$x$};
         \draw[black,thick, ->, >=stealth'] (0,0)--(0,5.3) node[above]{$y$};
         \foreach \x in  {1,2,3,4} {

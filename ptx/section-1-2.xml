@@ -361,18 +361,18 @@ Bert's average score is 15.8.</p></solution></example>
 </subsection>
 
 <subsection xml:id="Skills-Warm-Up-1-2"><title>Skills Warm-Up</title>
-<exercises>
-<exercisegroup><introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
-	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
+
+<p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
+	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p>
 
 <exercise number="1"><statement><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></statement>
 <answer><p>64 ft</p></answer></exercise>
 
 <exercise number="2"><statement><p>How much wood parquet tiling must he buy to cover the floor?</p></statement>
 <answer><p>240 sq ft</p></answer></exercise>
-</exercisegroup>
 
-<exercisegroup><introduction><p>Which of the following phrases describe a perimeter, and which describe an area?</p></introduction>
+
+<p>Which of the following phrases describe a perimeter, and which describe an area?</p>
 
 <exercise number="3"><statement><p>The distance you jog around the shore of a small lake</p></statement>
 <answer><p>perimeter</p></answer></exercise>
@@ -385,11 +385,11 @@ Bert's average score is 15.8.</p></solution></example>
 
 <exercise number="6"><statement><p>The number of tulip bulbs needed to border a patio</p></statement>
 <answer><p>perimeter</p></answer></exercise>
-</exercisegroup>
 
-<exercisegroup cols="2"><introduction><p>Find the perimeter and area of each figure. All angles are right angles.</p></introduction>
 
-<exercise number="7"><statement><sidebyside width="70%"><!--<image source="images/sw-1-2-7.png"/>-->
+<p>Find the perimeter and area of each figure. All angles are right angles.</p>
+
+<exercise number="7"><statement><sidebyside width="35%"><!--<image source="images/sw-1-2-7.png"/>-->
     <image xml:id="sw-1-2-7">
         <description>stacks of squares</description>
         <latex-image>
@@ -412,7 +412,7 @@ Bert's average score is 15.8.</p></solution></example>
 </sidebyside></statement>
 <answer><p>32 cm; 23 sq cm</p></answer></exercise>
 
-<exercise number="8"><statement><sidebyside width="70%"><!--<image source="images/sw-1-2-8.png"/>-->
+<exercise number="8"><statement><sidebyside width="35%"><!--<image source="images/sw-1-2-8.png"/>-->
     <image xml:id="sw-1-2-8">
         <description>polygonal region with right angles</description>
         <latex-image>
@@ -433,8 +433,8 @@ Bert's average score is 15.8.</p></solution></example>
     </image>
 </sidebyside></statement>
 <answer><p>44 ft; 90 sq ft</p></answer></exercise>
-</exercisegroup>
-</exercises>
+
+
 <solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-2">
     <title>Answers to Skills Warm-Up</title>
     <idx><h>answers</h><h>for Section 1.2 skills</h></idx>

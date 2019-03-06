@@ -14,9 +14,9 @@
 	<li>An <term>algebraic expression</term> is any meaningful combination of numbers, variables, and operation symbols.</li>
 	<li><assemblage><title>Commutative Laws</title>
 	<p>Addition:  If <m>a</m> and <m>b</m> are numbers, then
-        <me>a+b = b+a</me></p>
+        <me>\blert{a+b = b+a}</me></p>
     <p>Multiplication:  If <m>a</m> and <m>b</m> are numbers, then
-        <me>a \cdot b = b \cdot a</me></p></assemblage></li>
+        <me>\blert{a \cdot b = b \cdot a}</me></p></assemblage></li>
 
     <li>Subtraction and division are not commutative; the order of the numbers matters in a difference or a quotient.</li>
     <li><assemblage><title>To write an algebraic expression</title><p><ol label="1">
@@ -27,11 +27,11 @@
    	<li>The process of substituting a specific value for the variable into an expression is called <term>evaluating</term> the expression.</li>
 	<li>An equation is a mathematical statement that two algebraic expressions are equal. A <term>formula</term> is an equation that relates two or more variables.</li>
 	<li><assemblage><title>Some Useful Algebraic Formulas</title><p><ol label="1">
-		<li>distance <m>=</m> rate <m>\times</m> time  <m>~~~~~~d=rt</m></li>
-		<li>profit <m>=</m> revenue <m>-</m> cost     <m>~~~~~~P=R-C</m></li>
-		<li>interest <m>=</m> principal <m>\times</m> interest rate <m>\times</m> time <m>~~~~~~I=Prt</m></li>
-		<li>part <m>=</m> percentage rate <m>\times</m> whole   <m>~~~~~~P=rW</m></li>
-		<li>average score <m>= \dfrac{\text{sum of scores}}{\text{number of scores}}</m>   <m>~~~~~~A=\dfrac{S}{n}</m></li>
+		<li>distance <m>=</m> rate <m>\times</m> time  <m>~~~~~~\blert{d=rt}</m></li>
+		<li>profit <m>=</m> revenue <m>-</m> cost     <m>~~~~~~\blert{P=R-C}</m></li>
+		<li>interest <m>=</m> principal <m>\times</m> interest rate <m>\times</m> time <m>~~~~~~\blert{I=Prt}</m></li>
+		<li>part <m>=</m> percentage rate <m>\times</m> whole   <m>~~~~~~\blert{P=rW}</m></li>
+		<li>average score <m>= \dfrac{\text{sum of scores}}{\text{number of scores}}</m>   <m>~~~~~~\blert{A=\dfrac{S}{n}}</m></li>
 	</ol></p></assemblage></li>
 </ul></p></subsection>
 
@@ -59,9 +59,9 @@
 		that number is not zero.</li></ol></p></assemblage></li>
 	<li><assemblage><title>Properties of Equality</title><p><ul>
 		<li>If the same quantity is added to or subtracted from both sides of an equation, the solution is unchanged. In symbols,
-			<me>\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c</me></li> 
+			<me>\blert{\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c}</me></li> 
 		<li>If both sides of an equation are multiplied or divided by the same nonzero quantity, the solution is unchanged. In symbols,
-			<me>\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0</me></li></ul></p></assemblage></li>
+			<me>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</me></li></ul></p></assemblage></li>
 	<li>Many practical problems can be solved by first writing an equation that describes or <term>models</term> the problem, and then solving the equation.</li>
 	<li><assemblage><title>Steps for solving an applied problem:</title><p><ol label="1">
 		<li>Identify the unknown quantity and choose a variable to represent it.</li>
@@ -72,9 +72,9 @@
 <subsection><title>Lesson 1.5 Order of Operations</title><p><ul>
 	<li><assemblage><title>Associative Laws</title><p><ul>
 		<li>Addition:  If <m>a, b</m> and <m>c</m> are any numbers, then
-			<me>(a+b)+c = a+(b+c)</me></li>
+			<me>\blert{(a+b)+c = a+(b+c)}</me></li>
 		<li>Multiplication:  If <m>a, b</m> and <m>c</m> are any numbers, then
-			<me>(a \cdot b) \cdot c = a \cdot (b \cdot c)</me></li></ul></p></assemblage></li>
+			<me>\blert{(a \cdot b) \cdot c = a \cdot (b \cdot c)}</me></li></ul></p></assemblage></li>
 	<li>The associative laws do not hold for subtraction or division.</li>
 	<li><assemblage><title>Order of Operations</title><p><ol label="1">
 		<li>First, perform any operations that appear inside parentheses, or above or below a fraction bar.</li>
@@ -579,7 +579,7 @@
     <li><m>(2,8)</m></li>
     <li><m>(8,3)</m></li>
     <li><m>(6,8)</m></li></ol></p>
-<sidebyside width="40%"><!--<image source="images/cr1-22.png"><description>graphs</description></image>-->
+<sidebyside width="35%"><!--<image source="images/cr1-22.png"><description>graphs</description></image>-->
     <image xml:id="cr1-22">
         <description>parabola</description>
         <latex-image>
@@ -645,7 +645,7 @@
 <exercise number="31"><statement><p>The graph of <m>y=1.25x</m> is shown below. Use the graph to solve each equation.<ol label="a" cols="2">
 	<li><m>1.25x=40</m></li>
 	<li><m>30=1.25x</m></li></ol></p>
-<sidebyside width="35%"><!--<image source="images/cr1-31.png"><description>graph</description></image>-->
+<sidebyside width="40%"><!--<image source="images/cr1-31.png"><description>graph</description></image>-->
     <image xml:id="cr1-31">
         <description>line</description>
         <latex-image>
