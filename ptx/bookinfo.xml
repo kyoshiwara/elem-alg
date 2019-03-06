@@ -22,6 +22,7 @@
 
 <!-- rename blocks -->
         <rename element="warning">Caution</rename>
+        <rename element="inlineexercise">Exercise</rename>
 <!-- <rename element="chapter" lang="en-US">Lesson</rename> -->
 
 
