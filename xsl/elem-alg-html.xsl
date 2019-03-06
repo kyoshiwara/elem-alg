@@ -36,5 +36,15 @@
 <xsl:param name="exercise.divisional.answer" select="'no'" />
 <xsl:param name="exercise.divisional.solution" select="'no'" />
 
+<!-- reading questions
+
+<xsl:param name="html.knowl.exercise.readingquestion" select="'no'" />
+<xsl:template match="reading-questions//exercise" mode="is-hidden">
+    <xsl:value-of select="$html.knowl.exercise.readingquestion = 'yes'" />
+</xsl:template>
+-->
+
+<xsl:param name="exercise.reading.answer" select="'no'" />
+
 
 </xsl:stylesheet>
