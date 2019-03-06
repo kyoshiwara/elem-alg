@@ -26,11 +26,11 @@ it doesn't matter which addition you do first; you will get the same answer eith
 
 <assemblage><title>Associative Law for Addition</title>
 <p>If <m>a, b</m> and <m>c</m> are any numbers, then
-	<me>(a+b)+c = a+(b+c)</me></p></assemblage>
+	<me>\blert{(a+b)+c = a+(b+c)}</me></p></assemblage>
 
 <assemblage><title>Associative Law for Multiplication</title>
 <p>If <m>a, b</m> and <m>c</m> are any numbers, then
-	<me>(a \cdot b) \cdot c = a \cdot (b \cdot c)</me></p></assemblage>
+	<me>\blert{(a \cdot b) \cdot c = a \cdot (b \cdot c)}</me></p></assemblage>
 </subsection>
 
 <subsection><title>Subtraction and Division</title>
@@ -172,7 +172,7 @@ According to the order of operations, we must simplify the numerator and denomin
 <subsection><title>Algebraic Expressions</title>
 <p>The order of operations applies to variables as well as constants.  For example, the expression
 	<me>5+2x</me>
-tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate the expression for <m>x=8</m> for example, we write
+tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate the expression for <m>x=\alert{8}</m> for example, we write
 	<me>\begin{aligned}
                 \text{For }x=\alert{8},~~~~~~~~~~5+2x \amp = 5+2(\alert{8}) \amp \amp \blert{\text{Multiply first.}}\\
                 \amp = 5+16=21

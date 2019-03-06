@@ -68,9 +68,9 @@ Now we have an equation in just one variable. We would like to find the value of
 <p>Instead of relying on trial and error to solve equations, we will use <term>inverse operations</term>. Try the Exercise below.</p>
 <exercise><statement><p>
 	<me>\begin{aligned}
-                \amp \text{Choose any number for}~x: \amp x \amp = ~\rule{1cm}{0.15mm}\\
-                \amp \text{Multiply your number by 5}: \amp 5x \amp = ~\rule{1cm}{0.15mm}\\
-                \amp \text{Divide the result by 5}:  \amp \dfrac{5x}{5} \amp = ~\rule{1cm}{0.15mm}
+                \amp \blert{\text{Choose any number for}~x:} \amp x \amp = ~\rule{1cm}{0.15mm}\\
+                \amp \blert{\text{Multiply your number by 5}:} \amp 5x \amp = ~\rule{1cm}{0.15mm}\\
+                \amp \blert{\text{Divide the result by 5}:}  \amp \dfrac{5x}{5} \amp = ~\rule{1cm}{0.15mm}
         \end{aligned}</me>
 
    	Did you end up with your original number?  
@@ -81,9 +81,9 @@ Now we have an equation in just one variable. We would like to find the value of
 
 <exercise><statement><p>
 	<me>\begin{aligned}
-                \amp \text{Choose any number for}~x: \amp x \amp = ~\rule{1cm}{0.15mm}\\
-                \amp \text{Add 4 to your number}: \amp x+4 \amp = ~\rule{1cm}{0.15mm}\\
-                \amp \text{Subtract 4 from the result}:  \amp x+4-4 \amp = ~\rule{1cm}{0.15mm}
+                \amp \blert{\text{Choose any number for}~x:} \amp x \amp = ~\rule{1cm}{0.15mm}\\
+                \amp \blert{\text{Add 4 to your number}:} \amp x+4 \amp = ~\rule{1cm}{0.15mm}\\
+                \amp \blert{\text{Subtract 4 from the result}:}  \amp x+4-4 \amp = ~\rule{1cm}{0.15mm}
         \end{aligned}</me>
 
    	Did you end up with your original number?  
@@ -120,10 +120,10 @@ The solution is 9. Liz worked for 9 hours.</p></solution></example>
 
 <assemblage><title>Addition and Subtraction Properties of Equality</title>
 <p>If the same quantity is added to or subtracted from both sides of an equation, the solution is unchanged. In symbols,
-	<me>\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c</me></p></assemblage> 
+	<me>\blert{\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c}</me></p></assemblage> 
 <assemblage><title>Multiplication and Division Properties of Equality</title>
 <p>If both sides of an equation are multiplied or divided by the same nonzero quantity, the solution is unchanged. In symbols,
-	<me>\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0</me></p></assemblage>
+	<me>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</me></p></assemblage>
 
 <p>Applying any one of these properties to an equation produces an <term>equivalent equation</term>: one with the same solutions as the original equation.</p>
 </subsection>
@@ -141,10 +141,10 @@ We see that 4 has been added to the variable, <m>D</m>. To isolate <m>D</m> on o
                     \underline{\blert{-4}} \amp = \underline{~~~\,\blert{-4}} \amp \amp \blert{\text{Note that} ~D+4-4=D}\\
                 15 \amp = D
         \end{aligned}</me>
-The solution to this equation is 15. You can check that substituting <m>\blert{15}</m> for <m>D</m> does make the equation true.
+The solution to this equation is 15. You can check that substituting <m>\alert{15}</m> for <m>D</m> does make the equation true.
 <me>\begin{aligned}
     \blert{\text{Check:}}\amp \amp 19 \amp = D+4   \amp \amp \blert{\text{Substitute}~ 15~ \text{for}~D.}\\
-                    \amp \amp 19 \amp =\blert{15} +4 \amp \amp \blert{\text{True:  the solution checks.}}
+                    \amp \amp 19 \amp =\alert{15} +4 \amp \amp \blert{\text{True:  the solution checks.}}
         \end{aligned}</me></p></solution></example>
 
 <assemblage><title>Look Ahead</title>
@@ -172,11 +172,11 @@ The solution to this equation is 15. You can check that substituting <m>\blert{1
 <me>\blert{I=Prt}</me> 
 Next, we list the values of the variables. (Which variable is unknown?)
 	<me>\begin{aligned}
-		I \amp = \blert{42.50} \amp  r \amp = \blert{0.05}\\
-		P \amp = \text{unknown}	\amp  t \amp = \blert{1} 
+		I \amp = \alert{42.50} \amp  r \amp = \alert{0.05}\\
+		P \amp = \text{unknown}	\amp  t \amp = \alert{1} 
 		\end{aligned}</me>
 We substitute the values into the formula:
-<me>\blert{42.50=P(0.05)(1)}</me>
+<me>\alert{42.50}=P(\alert{0.05})(\alert{1})</me>
 Then we solve the equation:
 	<me>\begin{aligned}
 		\dfrac{42.50}{0.05} \amp =\dfrac{P(0.05)}{0.05} \amp \amp \blert{\text{Divide both sides by}~0.05.}\\
