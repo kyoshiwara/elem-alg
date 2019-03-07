@@ -59,7 +59,7 @@ We can also write the equation as  <m>H=0.4t+70</m>.</p></solution></example>
 
 <assemblage><title>Slope-Intercept Form</title>
 <p>A linear equation written in the form
-		<me>y=mx+b</me>
+		<me>\blert{y=mx+b}</me>
 is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and<m>b</m> is the <m>y</m>-intercept.</p></assemblage>
 
 <reading-questions>
@@ -165,7 +165,7 @@ Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units do
                 \end{aligned}</me>
 The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>b=-2</m>. Thus, the slope of the graph is <m>\dfrac{3}{4}</m> and the <m>y</m>-intercept is the point <m>(0,-2)</m>.</p></solution></example>
 
-<warning><p>Do not confuse solving for <m>y</m> with finding the <m>y</m>-intercept. In Example 3, we do not set <m>x=0</m> before solving for <m>y</m>. <ul> 
+<warning><p>Do not confuse solving for <m>y</m> with finding the <m>y</m>-intercept. In the Example above, we do not set <m>x=0</m> before solving for <m>y</m>. <ul> 
 	<li>When we find the <m>y</m>-intercept, we are looking for a specific point, namely, the point with <m>x</m>-coordinate zero, so we replace <m>x</m> by 0.</li>
 	<li> When we "solve for <m>y</m>," we are writing the equation in another form, so both variables, <m>x</m> and <m>y</m>, still appear in the equation.</li></ul></p></warning>
 

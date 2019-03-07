@@ -8,7 +8,7 @@
 
 <assemblage><p>A <term>rate of change</term> is a type of ratio that measures how one variable changes with respect to another.</p></assemblage>
 
-<example xml:id="example-pottery-oven"><statement><p>In order to fire a particular kind of pottery, the pieces must first be cured by raising the temperature slowly and evenly.  Sonia checks the temperature in the drying oven at ten-minute intervals, and records the following data.
+<example xml:id="example-pottery-oven"><statement><p>In order to fire a particular kind of pottery, the pieces must first be cured by raising the temperature slowly and evenly.  Sonia checks the temperature in the drying oven at ten-minute intervals, and records the following data.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Time, <m>x</m></cell>
@@ -29,7 +29,7 @@
                         <cell>90</cell>
                         <cell>94</cell></row>
                     </tabular></sidebyside>
-The heat in the oven should not increase any faster than 0.5 degree per minute. Is the temperature in the oven within the safe limits?</p></statement>
+<p>The heat in the oven should not increase any faster than 0.5 degree per minute. Is the temperature in the oven within the safe limits?</p></statement>
 <solution><sidebyside widths="65% 35%" valigns="middle middle" margins="0% 0%"><stack><p>A graph of the data is shown at right. </p>
 <p>Sonia calculates the rate at which the temperature is rising by finding the following ratio:
     <me>\dfrac{\text{change in temperature}}{\text{change in time}}</me>
@@ -128,7 +128,7 @@ as we move from one point to another on the line. In symbols,
 <p>The slope of a line measures how fast the <m>y</m>-coordinate changes as we increase the <m>x</m>-coordinate of points on the line.  More specifically, when we move one unit in the <m>x</m>-direction, how many units should we move in the <m>y</m>-direction to get back to the line?</p></assemblage>
 
 <example><statement><p>Use the points <m>A</m> and <m>B</m> to compute the slope of the line shown.</p>
-	<sidebyside width="40%"><!--<image source="images/fig-3-3-ex2.png"><description>graph</description></image>-->
+	<sidebyside width="35%"><!--<image source="images/fig-3-3-ex2.png"><description>graph</description></image>-->
     <image xml:id="fig-3-3-ex2">
         <description>lgraph of line with slope</description>
         <latex-image>
@@ -164,7 +164,7 @@ as we move from one point to another on the line. In symbols,
 	<me>\dfrac{\Delta y}{\Delta x}=\dfrac{3}{4}</me>
 The slope tells us that if we start at any point on the line and move 1 unit in the <m>x</m>-direction, we must move <m>\dfrac{3}{4}</m> unit in the <m>y</m>-direction to return to the line.</p></solution></example>
 
-<warning><p>Note the difference between the statements <m>y=3</m> and <m>\Delta y = 3</m>; they are not the same.  When we discuss a graph,<ul> 
+<warning><p>Note the difference between the statements <m>y=3</m> and <m>\Delta y = 3</m>; they are not the same!  When we discuss a graph,<ul> 
 	<li><m>y=3~~</m> means that the <m>y</m>-coordinate of a particular point is 3, but</li>
 	<li><m> \Delta y = 3~~</m> means that the <m>y</m>-coordinate changes by 3 units when we move from one point to another.</li></ul></p></warning>
 
@@ -188,7 +188,7 @@ The slope gives us the rate of change of the temperature with respect to time:  
 <p>In different situations, this rate might be interpreted as a rate of growth or a speed.  The slope of a graph can give us valuable information about the variables involved. </p> 
 
 <example><statement><p>The graph shows the distance traveled by a driver for a cross-country trucking firm in terms of the number of hours she has been on the road.
-    <sidebyside width="33%"><!--<image source="images/fig-3-3-ex3.png"><description>graph</description></image>-->
+    <sidebyside width="28%"><!--<image source="images/fig-3-3-ex3.png"><description>graph</description></image>-->
     <image xml:id="fig-3-3-ex3">
         <description>graph</description>
         <latex-image>

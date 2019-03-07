@@ -82,7 +82,7 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 <example><statement><p>Solve the system in Example 1 by graphing.</p></statement>
 
 <solution><p>The graph of the two equations is shown below. The graph of <m>S</m> has a smaller initial value than <m>E</m>, but it increases more rapidly because its slope is greater. The two graphs intersect at the point labeled <m>P</m>.</p>  
-	<sidebyside width="40%"><!--<image source="images/fig-4-2-ex3.png"><description>graph</description></image>-->
+	<sidebyside width="35%"><!--<image source="images/fig-4-2-ex3.png"><description>graph</description></image>-->
     <image xml:id="fig-4-2-ex3">
         <description>graph of two lines</description>
         <latex-image>

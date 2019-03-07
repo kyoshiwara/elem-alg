@@ -132,7 +132,7 @@
 </exercisegroup>
 
 <exercise number="30"><statement><p>The figure shows the wholesale cost, <m>C</m>, in dollars, of <m>p</m> pounds of dry-roasted peanuts.</p>
-	<sidebyside width="40%"><!--<image source="images/hp-3-5-30.png"><description>graph</description></image>-->
+	<sidebyside width="35%"><!--<image source="images/hp-3-5-30.png"><description>graph</description></image>-->
     <image xml:id="hp-3-5-30">
         <description>graph of line</description>
         <latex-image>
@@ -162,7 +162,7 @@
 	<li>If the Lone Star Barbecue increases its weekly order of peanuts from 100 to 120 pounds, how much will the cost increase?</li></ol></p></statement></exercise>
 
 <exercise number="31"><statement><p>Roy is traveling home by train. The figure shows his distance <m>d</m> from home in miles <m>h</m> hours after the train started.</p>
-	<sidebyside width="40%"><!--<image source="images/hp-3-5-31.png"><description>graph</description></image>-->
+	<sidebyside width="35%"><!--<image source="images/hp-3-5-31.png"><description>graph</description></image>-->
     <image xml:id="hp-3-5-31">
         <description>graph of line</description>
         <latex-image>

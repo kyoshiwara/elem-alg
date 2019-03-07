@@ -14,7 +14,7 @@ This is, in fact, an equation for the line.</p>
 	<li>Find an equation for the line that passes through the point <m>(1,3)</m> and has slope <m>-2</m>.</li></ol></p></statement>
 <solution><p><ol label="a">
 	<li><p>We plot the point <m>(1,3)</m>, then use the slope, <m>-2</m>, to find another point on the line. From the point <m>(1,3)</m>, we move 2 units down and 1 unit to the right, arriving at <m>(2,1)</m>. We draw the line through these two points.  The graph is shown below.</p>
-	<sidebyside width="50%"><!--<image source="images/fig-4-5-ex1.png"><description>graph</description></image>-->
+	<sidebyside width="40%"><!--<image source="images/fig-4-5-ex1.png"><description>graph</description></image>-->
     <image xml:id="ig-4-5-ex1">
         <description>graph of line</description>
         <latex-image>
@@ -91,7 +91,7 @@ Now we can use the point-slope formula with <m>~m_1=\dfrac{-1}{2}</m> and <m>(x_
                 y \amp = -\dfrac{-1}{2}x + \dfrac{9}{2}  \amp\amp \blert{\dfrac{1}{2}+4=\dfrac{1}{2}+\dfrac{8}{2}= \dfrac{9}{2}}        
                 \end{aligned}</me>
 The given line and the perpendicular line are shown in the figure.
-<sidebyside width="45%"><!--<image source="images/fig-4-5-ex2.png"><description>graph</description></image>-->
+<sidebyside width="40%"><!--<image source="images/fig-4-5-ex2.png"><description>graph</description></image>-->
     <image xml:id="fig-4-5-ex2">
         <description>perpendicular lines</description>
         <latex-image>
@@ -141,7 +141,7 @@ We cross-multiply to find
                 y \amp = \dfrac{-4}{3}x+\dfrac{5}{3}        
                 \end{aligned}</me>
 The graph of the line is shown in the figure.</p>
-<sidebyside width="40%"><!--<image source="images/fig-4-5-ex3.png"><description>graph</description></image>-->
+<sidebyside width="35%"><!--<image source="images/fig-4-5-ex3.png"><description>graph</description></image>-->
     <image xml:id="fig-4-5-ex3">
         <description>line through two points</description>
         <latex-image>

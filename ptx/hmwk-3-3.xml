@@ -162,7 +162,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>6, find the slope of the line. Illustrate <m>\Delta x</m> and <m>\Delta y</m> on the graph.</p></introduction>
  
 <exercise number="5"><statement><p><m>x+2y=6</m></p>
-<sidebyside width="100%"><!--<image source="images/hp-3-3-5.png"><description>graph</description></image>-->
+<sidebyside width="90%"><!--<image source="images/hp-3-3-5.png"><description>graph</description></image>-->
     <image xml:id="hp-3-3-5">
         <description>graph of line</description>
         <latex-image>
@@ -189,7 +189,7 @@
 </sidebyside></statement><answer></answer></exercise>
 
 <exercise number="6"><statement><p><m>3x-2y=0</m></p>
-<sidebyside width="100%"><!--<image source="images/hp-3-3-6.png"><description>graph</description></image>-->
+<sidebyside width="90%"><!--<image source="images/hp-3-3-6.png"><description>graph</description></image>-->
     <image xml:id="hp-3-3-6">
         <description>graph of line</description>
         <latex-image>
@@ -290,7 +290,7 @@
 </li></ol></p></introduction>
 
 <exercise number="17"><statement><p>Audrey can drive 150 miles on 6 gallons of gas, and 225 miles on 9 gallons of gas.  Write an equation for the distance, <m>d</m>, that Audrey can drive on <m>g</m> gallons of gas.</p>
-<sidebyside width="40%"><!--<image source="images/hp-3-3-17.png"><description>graph</description></image>-->
+<sidebyside width="35%"><!--<image source="images/hp-3-3-17.png"><description>graph</description></image>-->
     <image xml:id="hp-3-3-17">
         <description>graph</description>
         <latex-image>
@@ -318,7 +318,7 @@
 <answer></answer></exercise>
 
 <exercise number="18"><statement><p>The sales tax on a $15 purchase is 60 cents, and 80 cents on a $20 purchase. Write an equation for the tax <m>T</m>, in cents, on a purchase of <m>p</m> dollars.</p>
-<sidebyside width="40%"><!--<image source="images/hp-3-3-18.png"><description>segment</description></image>-->
+<sidebyside width="35%"><!--<image source="images/hp-3-3-18.png"><description>segment</description></image>-->
     <image xml:id="hp-3-3-18">
         <description>line on grid</description>
         <latex-image>
@@ -468,7 +468,7 @@
 <exercise number="25"><statement><p><ol label="a">
     <li>Which of the two graphs in the figure below appears steeper?</li>
     <li>Compute the slopes of the two graphs.  Which has the greater slope?</li></ol></p>
-    <sidebyside widths="38% 45%" margins="10% 0%" valigns="bottom bottom"><!--<image source="images/hp-3-3-25a.png"><description>graph</description></image>
+    <sidebyside widths="32% 40%" margins="10% 0%" valigns="bottom bottom"><!--<image source="images/hp-3-3-25a.png"><description>graph</description></image>
     <image source="images/hp-3-3-25b.png"><description>graph</description></image>-->
     <image xml:id="hp-3-3-25a">
         <description>graph of line</description>
@@ -524,7 +524,7 @@
 <answer></answer></exercise>
 
 <exercise number="26"><statement><p>Kira buys granola in bulk at the health food store. There are two standard containers customers can use.  The size of each container in ounces and its price in dollars are shown in the graph.</p>
-<sidebyside width="45%"><!--<image source="images/hp-3-3-26.png"><description>graph</description></image>-->
+<sidebyside width="40%"><!--<image source="images/hp-3-3-26.png"><description>graph</description></image>-->
     <image xml:id="hp-3-3-26">
         <description>graph of line on grid</description>
         <latex-image>

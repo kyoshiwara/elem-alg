@@ -8,7 +8,7 @@
 <li>The <term>intercepts</term> of a line are the points where the graph crosses the axes.</li>
 <li>The intercepts of a graph often represent the starting or ending values for a particular variable.</li>
 
-<li><assemblage><p><ul>
+<li><assemblage><title>To find the intercepts of a graph</title><p><ul>
 	<li><p>To find the <m>x</m>-intercept of a graph:</p>
 	<p>Substitute <m>0</m> for <m>y</m> in the equation and solve for <m>x</m>.</p></li>
 
@@ -33,7 +33,7 @@
 <li>We use cross-multiplying to solve proportions.</li>
 
 <li><assemblage><title>Property of Proportions</title>
-<p><me>\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.</me></p></assemblage></li>
+<p><me>\blert{\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.}</me></p></assemblage></li>
 
 <li>Two variables are said to be <term>proportional</term> if their ratios are always the same.</li></ul></p></subsection>
 
@@ -53,7 +53,7 @@ as we move from one point to another on the line. In symbols,
 
 <li><assemblage><title>Slope-Intercept Form</title>
 <p>A linear equation written in the form
-		<me>y=mx+b</me>
+		<me>\blert{y=mx+b}</me>
 is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and<m>b</m> is the <m>y</m>-intercept.</p></assemblage></li>
 
 <li>The constant term in the slope-intercept form tells us the initial value of <m>y</m>, and the coefficient of <m>x</m> tells us the rate of change of <m>y</m> with respect to <m>x</m>.</li>
@@ -73,10 +73,10 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 <li><assemblage><title>Parallel and Perpendicular Lines</title>
 <p><ol label="1">
 	<li><p>Two lines are parallel if their slopes are equal, that is, if
-		<me>m_1 = m_2</me>		
+		<me>\blert{m_1 = m_2}</me>		
 	or if both lines are vertical.</p></li>
 	<li><p>Two lines are perpendicular if the product of their slopes is <m>-1</m>, that is, if 
-		<me>m_1 m_2 = -1</me>
+		<me>\blert{m_1 m_2 = -1}</me>
 	or if one of the lines is horizontal and one is vertical.</p></li></ol></p></assemblage></li>
 
 <li><assemblage><title>Horizontal and Vertical Lines</title>

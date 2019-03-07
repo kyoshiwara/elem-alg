@@ -6,7 +6,7 @@
 
 <subsection>
 	<p>In the previous Lesson, we compared the costs of operating two different refrigerators, a standard model and an energy-efficient model. We wrote a system of equations for this problem,</p>  
-<sidebyside widths="60% 35%"><p>
+<sidebyside widths="60% 30%"><p>
 	<md><mrow>y=6x+1000</mrow>
 		<mrow>y=2x+1200</mrow></md> 
 where <m>x</m> is the number of months the refrigerator has been running. We looked for a point on the graphs where the two <m>y</m>-values, which represent the costs, are equal. This point is the intersection point of the graphs, as shown in the figure. The <m>x</m>-coordinate of the intersection point shows that the costs are equal after 50 months.</p>
@@ -241,7 +241,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 
 <solution><p><ol label="a">
     <li>
-        <sidebyside widths="57% 40%" valigns="middle middle" margins="0% 0%">
+        <sidebyside widths="57% 30%" valigns="middle middle" margins="0% 0%">
          <p>To eliminate the <m>y</m>-terms, we multiply the first equation by 2 and add:   <me>\begin{aligned}[t]
                 6x-2y \amp = 4 \\
                \underline{-6x+2y}\amp\underline{{}= 3\vphantom{y}}\\
@@ -273,7 +273,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
     </sidebyside>
     <p>Both variables are eliminated, and we are left with the false statement <m>0=7</m>. There are no values of <m>x</m> or <m>y</m> that will make this equation true, so the system has no solutions. The graph shows that the system is inconsistent.</p></li>
     <li>
-    <sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%"><p>To eliminate the <m>x</m>-terms, we multiply the first equation by <m>-2</m> and add:
+    <sidebyside widths="55% 30%" valigns="middle middle" margins="0% 0%"><p>To eliminate the <m>x</m>-terms, we multiply the first equation by <m>-2</m> and add:
             <me>\begin{aligned}
                 -2x+4y \amp = -6 \\
                \underline{2x-4y}\amp \underline{{}= \hphantom{-}6\vphantom{y}} \\

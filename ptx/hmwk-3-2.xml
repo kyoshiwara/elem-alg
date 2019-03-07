@@ -136,7 +136,7 @@
     <li>Use your equation to answer the question.</li></ol></p></introduction>
 
 <exercise number="23"><statement><p>Megan's wages, <m>w</m>, are proportional to the time, <m>h</m>, she works.  Megan made $60 for 8 hours work as a lab assistant.  How long will it take her to make $500?</p>
-<sidebyside widths="20% 50%" margins="10% 10%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<sidebyside widths="20% 45%" margins="10% 10%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>h</m></cell>
                         <cell><m>w</m></cell></row>
@@ -177,7 +177,7 @@
 <answer></answer></exercise>
 
 <exercise number="24"><statement><p>The amount of pure copper, <m>c</m>, produced by Copperfield Mine is proportional to the amount of ore extracted, <m>g</m>.  A new lode produced 24 grams of copper from 800  grams of ore.  How many grams of copper will one kilogram of ore yield?</p>
-<sidebyside widths= "20% 50%" margins="10% 10%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<sidebyside widths= "20% 45%" margins="10% 10%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>g</m></cell>
                         <cell><m>c</m></cell></row>
@@ -223,16 +223,16 @@
 <answer></answer></exercise>
 
 <exercise number="26"><statement><p>Everett can bicycle 16 miles in 2 hours and 24 miles in 3 hours.  The distance <m>d</m> that Everett travels is proportional to the time <m>t</m> that he bicycles.<ol label="a"> 
-	<li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
-	<li>Graph your equation.
-	<sidebyside width="32%"><!--<image source="images/hp-3-2-26.png"><description>grid</description></image>-->
+    <li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
+    <li>Graph your equation.
+    <sidebyside width="30%"><!--<image source="images/hp-3-2-26.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-26">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [[xscale=.8, yscale=.7]
+        \begin{tikzpicture} [xscale=.6, yscale=.55]
         \coordinate (O) at (0,0);
         \draw[cyan] (O) grid (5,10);
         \draw[black,very thick, ->, >=stealth'] (O)--(5.5,0) node[right]{$t$};
@@ -249,7 +249,7 @@
     </latex-image>
     </image>
     </sidebyside></li>
-	<li>Complete the tables, and use them to answer the question below.
+    <li>Complete the tables, and use them to answer the question below.
 
 <sidebyside widths="20% 20%" margins="30% 30%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -266,7 +266,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular>
 
-		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>d</m></cell></row>
@@ -287,7 +287,7 @@
 <exercise number="27"><statement><p>The sales tax on $12 is 72 cents, and the sales tax on $15 is 90 cents.  The tax <m>T</m> is proportional to the price <m>P</m>.
 <ol label="a"> 
 	<li>Write an equation for <m>T</m> in terms of <m>P</m>.</li>
-	<li>Graph your equation.
+	<li><p>Graph your equation.</p>
 	<sidebyside width="50%"><!--<image source="images/hp-3-2-27.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-27">
         <description>grid</description>
@@ -312,7 +312,7 @@
     </latex-image>
     </image>
     </sidebyside></li>
-	<li>Complete the tables, and use them to answer the question below.
+	<li><p>Complete the tables, and use them to answer the question below.</p>
 
 <sidebyside widths="20% 20%" margins="30% 30%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -344,11 +344,11 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
 
-    What happens to the sales tax when the price is cut in half?</li></ol></p></statement>
+    <p>What happens to the sales tax when the price is cut in half?</p></li></ol></p></statement>
 <answer></answer></exercise>
 
 <exercise number="28"><statement><p>The cost of tuition at Walden College is given by the formula <m>T=500+40u</m>,  where <m>u</m> is the number of units you take.  <ol label="a">
-	<li>Fill in the tables. 
+	<li><p>Fill in the tables.</p> 
 		<sidebyside widths="25% 25%" margins="25% 25%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell>Units</cell>
@@ -384,7 +384,7 @@
 
 <exercise number="29"><statement><p><ol label="a">
     <li>State a formula for the circumference of a circle in terms of its radius.</li>
-    <li>Complete the table. 
+    <li><p>Complete the table.</p> 
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>r</m></cell>
@@ -399,7 +399,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
-    <li>Graph your equation, using the values in your table.
+    <li><p>Graph your equation, using the values in your table.</p>
         <sidebyside width="50%"><!--<image source="images/hp-3-2-29.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-29">
         <description>grid</description>
@@ -429,7 +429,7 @@
 
 <exercise number="30"><statement><p><ol label="a">
 	<li>State a formula for the area of a square in terms of the length of its side.</li>
-	<li>Complete the table. 
+	<li><p>Complete the table.</p> 
 		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>s</m></cell>
@@ -444,7 +444,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></li>
-	<li>Graph your equation, using the values in your table.
+	<li><p>Graph your equation, using the values in your table.</p>
 		<sidebyside width="50%"><!--<image source="images/hp-3-2-30.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-30">
         <description>grid</description>

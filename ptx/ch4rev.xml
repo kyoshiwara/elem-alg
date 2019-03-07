@@ -353,13 +353,13 @@ or
 <exercise number="43"><statement><p><ol label="a">
 	<li>Graph the line of slope <m>\dfrac{-5}{3}</m> that passes through the point <m>(-2,1)</m>.</li>
 	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
-<sidebyside width="50%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="40%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercise number="44"><statement><p><ol label="a">
 	<li>Graph the line of slope <m>\dfrac{6}{5}</m> that passes through the point <m>(-3,-4)</m>.</li>
 	<li>Find an equation in point-slope form for the line in part (a).</li></ol></p> 
-<sidebyside width="50%"><image source="imageshp-2-3-12"><description>grid</description></image></sidebyside></statement>
+<sidebyside width="40%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer></answer></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 45<ndash/>46, find an equation for the line passing through the two points.</p></introduction>

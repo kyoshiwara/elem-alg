@@ -144,9 +144,9 @@ We can also remove parentheses when we add like terms. Thus,
 	<me>(5x-2)-(7x-4)</me>
 the minus sign preceding <m>(7x-4)</m> applies to each term inside the parentheses. Therefore, when we remove the parentheses we must change the sign of <m>7x</m> from <m>+</m> to <m>-</m> and we must change the sign of <m>-4</m> from <m>-</m> to <m>+</m>. Thus,
 	<me>\begin{aligned}
-                (5x-2)-(7x-4)\amp = 5x-2-7x+4 \amp \amp \blert{\text{Change each sign inside parentheses.}}\\
-                			\amp =5x-7x-2+4    \amp \amp \blert{\text{Combine like terms.}}\\
-                			\amp =-2x+2
+        (5x-2)-(7x-4)\amp = 5x-2\alert{-}7x\alert{+}4 \amp \amp \blert{\text{Change each sign inside parentheses.}}\\
+                \amp =5x-7x-2+4    \amp \amp \blert{\text{Combine like terms.}}\\
+                \amp =-2x+2
                 \end{aligned}</me></p>
 
 <assemblage><title>Removing parentheses that follow a minus sign</title>
@@ -197,13 +197,13 @@ the minus sign preceding <m>(7x-4)</m> applies to each term inside the parenthes
 <solution><p>We first get all terms containing the variable on one side of the equation. For this example, we will subtract <m>2x</m> from both sides of the equation to get
 	<me>\begin{aligned}
                 2x+7\amp = 4x-3 \amp \amp \blert{\text{Subtract 2x from both sides.}}\\
-                \blert{-2x}	\amp = \blert{-2x}    \\
+                \underline{\blert{-2x}}	\amp = \underline{\blert{-2x}}    \\
                 		7	\amp =2x-3
                 \end{aligned}</me>
 Now the equation looks like ones we already know how to solve, and we proceed as usual to isolate the variable.
 	<me>\begin{aligned}
                 7\amp = 2x-3 \amp \amp \blert{\text{Add 3 to both sides.}}\\
-                \blert{+3}	\amp = \blert{+3}    \\
+                \underline{\blert{+3}}	\amp = \underline{\blert{+3}}    \\
                 		10	\amp =2x   \amp \amp \blert{\text{Divide both sides by 2.}}\\
                 \dfrac{10}{\blert{2}} \amp = \dfrac{2x}{\blert{2}}\\
                 5 \amp = x
@@ -225,7 +225,7 @@ The solution is 5.
 Now we continue solving as usual: We want to get all the terms containing <m>x</m> on one side of the inequality, and all the constant terms on the other side.
     <me>\begin{aligned}
                 -2x+14  \amp \lt 5x-7 \amp \amp \blert{\text{Subtract}~ 5x~ \text{from both sides.}}\\
-                \blert{-5x} \amp = \blert{-5x}    \\
+                \underline{\blert{-5x}} \amp = \underline{\blert{-5x}}    \\
                 -7x+14  \amp \lt  -7   \amp \amp \blert{\text{Subtract}~ 14~ \text{from both sides.}}\\
                 \blert{-14} \amp = \blert{-14}\\
                 -7x \amp \lt -21  \amp \amp \blert{\text{Divide both sides by}~-7;}\\
@@ -234,8 +234,8 @@ Now we continue solving as usual: We want to get all the terms containing <m>x</
                 \end{aligned}</me>
 The solution is all <m>x</m>-values greater than 3. You can check the solution by substituting one <m>x</m>-value greater than 3 and one value less than 3 into the original inequality, for instance:
     <me>\begin{aligned}
-        \blert{\text{Check:}}~~~~ \amp x=4:~~2(\blert{4})-4(\blert{4})+14 \lt 5(\blert{4})-10?~~~~\blert{\text{True:}~~6 \lt 13}\\
-        \amp x=2:~~2(\blert{2})-4(\blert{2})+14 \lt 5(\blert{2})-10?~~~~\blert{\text{False:}~~10 \not\lt 3}
+        \blert{\text{Check:}}~~~~ \amp x=4:~~2(\alert{4})-4(\alert{4})+14 \lt 5(\alert{4})-10?~~~~\blert{\text{True:}~~6 \lt 13}\\
+        \amp x=2:~~2(\alert{2})-4(\alert{2})+14 \lt 5(\alert{2})-10?~~~~\blert{\text{False:}~~10 \not\lt 3}
     \end{aligned}</me></p></solution></example>
 
 <reading-questions>
