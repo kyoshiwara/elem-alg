@@ -223,16 +223,16 @@
 <answer></answer></exercise>
 
 <exercise number="26"><statement><p>Everett can bicycle 16 miles in 2 hours and 24 miles in 3 hours.  The distance <m>d</m> that Everett travels is proportional to the time <m>t</m> that he bicycles.<ol label="a"> 
-	<li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
-	<li><p>Graph your equation.</p>
-	<sidebyside width="35%"><!--<image source="images/hp-3-2-26.png"><description>grid</description></image>-->
+    <li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
+    <li>Graph your equation.
+    <sidebyside width="30%"><!--<image source="images/hp-3-2-26.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-26">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.8]
+        \begin{tikzpicture} [xscale=.6, yscale=.55]
         \coordinate (O) at (0,0);
         \draw[cyan] (O) grid (5,10);
         \draw[black,very thick, ->, >=stealth'] (O)--(5.5,0) node[right]{$t$};
@@ -249,7 +249,7 @@
     </latex-image>
     </image>
     </sidebyside></li>
-	<li><p>Complete the tables, and use them to answer the question below.</p>
+    <li>Complete the tables, and use them to answer the question below.
 
 <sidebyside widths="20% 20%" margins="30% 30%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -266,7 +266,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular>
 
-		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>t</m></cell>
                         <cell><m>d</m></cell></row>
@@ -281,7 +281,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside>
 
-    <p>What happens to the distance Everett travels when he doubles the time he bicycles?</p></li></ol></p></statement>
+    What happens to the distance Everett travels when he doubles the time he bicycles?</li></ol></p></statement>
 </exercise>
 
 <exercise number="27"><statement><p>The sales tax on $12 is 72 cents, and the sales tax on $15 is 90 cents.  The tax <m>T</m> is proportional to the price <m>P</m>.

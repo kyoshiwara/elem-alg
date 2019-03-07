@@ -177,7 +177,7 @@ tells us to multiply <m>x</m> by 2, then add 5 to the result. Thus, to evaluate 
                 \text{For }x=\alert{8},~~~~~~~~~~5+2x \amp = 5+2(\alert{8}) \amp \amp \blert{\text{Multiply first.}}\\
                 \amp = 5+16=21
                 \end{aligned}</me></p>
-<p>In Example 8, note how parentheses change the meaning of an expression.</p>
+<p>In the Example below, note how parentheses change the meaning of an expression.</p>
 
 <example><statement><p>Write algebraic expressions for each of the following phrases. Then evaluate each phrase for <m>x=2</m> and <m>y=6</m>.<ol label="a">
 	<li>Three times the sum of <m>x</m> and <m>y</m></li> 	

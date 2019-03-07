@@ -249,7 +249,7 @@
  Make sure that you understand both methods, graphical and algebraic.</p></assemblage>
 
 <assemblage><title>Graphing Tip #1</title>
-<p>If the <term>coefficient</term> of <m>x</m> (the number multiplying <m>x</m>) is a fraction, we can make our work easier by choosing multiples of the denominator for the <m>x</m>-values. That way we won't have to work with fractions to find the <m>y</m>-values. In Example 4, the coefficient of <m>x</m> is <m>\dfrac{-2}{3}</m>, so we choose multiples of 3 for the <m>x</m>-values.</p></assemblage>
+<p>If the <term>coefficient</term> of <m>x</m> (the number multiplying <m>x</m>) is a fraction, we can make our work easier by choosing multiples of the denominator for the <m>x</m>-values. That way we won't have to work with fractions to find the <m>y</m>-values. In the Example below, the coefficient of <m>x</m> is <m>\dfrac{-2}{3}</m>, so we choose multiples of 3 for the <m>x</m>-values.</p></assemblage>
 
 <example><statement><p><ol label="a">
     <li>Graph  <m>~y=\dfrac{-2}{3}x-4</m></li>
