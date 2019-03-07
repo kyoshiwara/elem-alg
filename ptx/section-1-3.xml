@@ -174,7 +174,7 @@ which is true.</p></assemblage>
 <example><statement><p>Graph the equation  <m>y=250+x</m>.</p></statement>
 
 <solution><p>To graph this equation, we choose multiples of 50 for the <m>x</m>-values.</p>
-<sidebyside widths="55% 30%" margins="5% 5%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<sidebyside widths="55% 30%" margins="3% 3%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell>Calculation</cell>
@@ -201,7 +201,30 @@ which is true.</p></assemblage>
                         <cell><m>450</m></cell>
                         <cell><m>(200, 450)</m></cell></row>
                     </tabular>
-        <image source="images/fig-1-3-ex3.png"/> </sidebyside>
+        <!--<image source="images/fig-1-3-ex3.png"/>-->
+    <image xml:id="fig-1-3-ex3">
+        <description>graph of line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale =.6, yscale=0.5]
+        \draw[cyan] (0,0) grid (6,10);
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(6.8,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,0)--(0,10.9) node[left]{$y$};
+        \foreach \x [evaluate=\x as \xi using int(50*\x)] in  {2,4,6} {
+         \draw[cyan, very thick] (\x,0) --++(0,10);
+         \draw[black, thick] (\x,.1) --++(0,-.2)  node[below]   {\xi};
+        }
+        \foreach \y [evaluate=\y as \yi using int(50*\y)] in  {2,4,6,8,10} {
+         \draw[cyan, very thick] (0,\y) --++(6,0);
+         \draw[black, thick] (.1,\y) --++(-.2,0)  node[left]   {\yi};
+        }
+        \draw [red, very thick, ->, >=stealth']  (0,5) -- (5,10);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+         </sidebyside>
         <p>The largest <m>y</m>-value in the table is 450, so we scale the axis to a little larger than 450, say, 500.  We plot the ordered pairs to obtain the graph shown above.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
@@ -308,7 +331,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture} [scale=1.2]
-        \draw[green] (0,0) grid[xstep=1/2, ystep=1/4] (4,5);
+        \draw[cyan] (0,0) grid[xstep=1/2, ystep=1/4] (4,5);
         \draw[black,thick, ->, >=stealth'] (0,0)--(4.3,0) node[right]{$x$};
         \draw[black,thick, ->, >=stealth'] (0,0)--(0,5.3) node[above]{$y$};
         \foreach \x in  {1,2,3,4} {

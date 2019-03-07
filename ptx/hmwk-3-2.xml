@@ -225,14 +225,14 @@
 <exercise number="26"><statement><p>Everett can bicycle 16 miles in 2 hours and 24 miles in 3 hours.  The distance <m>d</m> that Everett travels is proportional to the time <m>t</m> that he bicycles.<ol label="a"> 
 	<li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
 	<li>Graph your equation.
-	<sidebyside width="35%"><!--<image source="images/hp-3-2-26.png"><description>grid</description></image>-->
+	<sidebyside width="32%"><!--<image source="images/hp-3-2-26.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-26">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-        \begin{tikzpicture} [scale=.8]
+        \begin{tikzpicture} [[xscale=.8, yscale=.7]
         \coordinate (O) at (0,0);
         \draw[cyan] (O) grid (5,10);
         \draw[black,very thick, ->, >=stealth'] (O)--(5.5,0) node[right]{$t$};
