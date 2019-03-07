@@ -6,7 +6,7 @@
 
 <subsection><title>Types of Numbers</title>
 
-<p>Numbers greater than zero are called <term>positive numbers</term>, and numbers less than zero are <term>negative numbers</term>. We use a <term>number line</term> to illustrate relationships among numbers.
+<p>Numbers greater than zero are called <term>positive numbers</term>, and numbers less than zero are <term>negative numbers</term>. We use a <term>number line</term> to illustrate relationships among numbers.</p>
 
 <sidebyside width="70%"><!--<image source="images/fig-2-1-1.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-1">
@@ -29,7 +29,7 @@
     </image>
 </sidebyside>
 
-To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced intervals. These numbers are called the <term>natural</term> or <term>counting numbers</term>. The <term>whole numbers</term> include the natural numbers and zero:  0, 1, 2, 3, ... .</p> 
+<p>To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced intervals. These numbers are called the <term>natural</term> or <term>counting numbers</term>. The <term>whole numbers</term> include the natural numbers and zero:  0, 1, 2, 3, ... .</p> 
 
 <assemblage><p>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>:
     <me> \cdots -3,~ {-2},~ {-1},~ 0,~ 1,~ 2,~ 3 \cdots</me></p></assemblage> 
@@ -180,7 +180,7 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 Thus, the sign of the sum is the same as the sign of the two terms. To find the value of the sum, we add the <term>absolute values</term>, or unsigned parts, of the two terms.</p></assemblage>
 
 <example><statement><p>Add  <m>(-4)+(-7)</m></p></statement>
-<solution><p>The sum is negative. We add the absolute values of <m>-4</m> and <m>-7</m> (the numbers 4 and 7 without their signs)to get 11, then make the sum negative:  <m>(-4)+(-7)=-11</m></p></solution></example>
+<solution><p>The sum is negative. We add the absolute values of <m>-4</m> and <m>-7</m> (the numbers 4 and 7 without their signs) to get 11, then make the sum negative:  <m>(-4)+(-7)=-11</m></p></solution></example>
 </subsection>
 
 <subsection><title>Adding Two Numbers with Opposite Signs</title>
@@ -514,7 +514,7 @@ which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe th
 	<li><m>5(-2.6)=-13</m></li></ol></p></statement></example>
 </subsubsection>
 
-<subsubsection><title>Case 1: The product of numbers with the same sign</title>
+<subsubsection><title>Case 2: The product of numbers with the same sign</title>
 <p>You know that the product of two positive numbers is positive. It is also true that the product of two negative numbers is positive.</p>  
 <p>To understand why the product of two negative numbers is positive, you might think of canceling, or subtracting, several debts of the same amount. Or, you could observe the pattern in the lists of products below.  As we move down the list, the product increases by equal amounts. 
 	<me>\begin{aligned}
@@ -574,7 +574,9 @@ Note that the numerator in the division fact becomes the product in the multipli
     	<answer><p><m>DQ=48</m></p></answer></exercise>
 </reading-questions>
 
-<p>Remember that a fraction can be thought of as a division. For example, <m>\dfrac{3}{4}</m> means <m>3 \div 4</m>, or 0.75. What about negative fractions? Because the quotient of two numbers with unlike signs is negative, the fractions <m>\dfrac{-3}{4}</m> and <m>\dfrac{3}{-4}</m> both represent the negative number <m>-\dfrac{3}{4}</m>. On the other hand, <m>\dfrac{-3}{-4}</m> is equal to the positive number <m>\dfrac{3}{4}</m>.</p>
+<p>Remember that a fraction can be thought of as a division. For example, <m>\dfrac{3}{4}</m> means <m>3 \div 4</m>, or 0.75. What about negative fractions? <ul>
+	<li>Because the quotient of two numbers with unlike signs is negative, the fractions <m>\dfrac{-3}{4}</m> and <m>\dfrac{3}{-4}</m> both represent the negative number <m>-\dfrac{3}{4}</m>. </li>
+	<li>On the other hand, <m>\dfrac{-3}{-4}</m> is equal to the positive number <m>\dfrac{3}{4}</m>.</li></ul></p>
 
 <p>For many of the calculations in algebra, it is more convenient to write a negative fraction with the minus sign in the numerator, like this: <m>\dfrac{-3}{4}</m>.</p> 
 
@@ -588,17 +590,17 @@ The standard form for a positive fraction has positive numerator and denominator
 <subsection><title>Quotients Involving Zero</title>
 <p>	What is the meaning of an expression such as <m>\dfrac{0}{2}</m>? We can rewrite this quotient as an equivalent multiplication fact.
 <me>\dfrac{0}{2}=\alert{?}~~~~\text{is equivalent to}~~~~2 \cdot \alert{?} = 0</me> 
-What number can we substitute for the question mark to make <m>2 \cdot \alert{?} = 0</m> a true statement? The only solution for this equation is <m>0</m>. Thus, replacing the question marks by <m>0</m> we have
+What number can we substitute for the question mark to make <m>~2 \cdot \alert{?} = 0~</m> a true statement? The only solution for this equation is <m>0</m>. Thus, replacing the question marks by <m>0</m> we have
 <me>\dfrac{0}{2}=\alert{0}~~~~\text{because}~~~~2 \cdot \alert{0} = 0</me>
 In general, 0 divided by any (non-zero) number is 0.</p>
 
 <p>Now consider a quotient with zero in the denominator, such as <m>\dfrac{2}{0}</m>.
 <me>\dfrac{2}{0}=\alert{?}~~~~\text{is equivalent to}~~~~0 \cdot \alert{?} = 2</me>
-What number can we substitute for the question mark to make <m>0 \cdot \alert{?} = 2</m> a true statement? This equation has no solution, because 0 times any number is 0, not 2.  Thus, there is no answer for the division problem <m>\dfrac{2}{0}</m>. We say that the quotient <m>\dfrac{2}{0}</m> is <term>undefined</term>. In general, we cannot divide any number by zero.</p>
+What number can we substitute for the question mark to make <m>~0 \cdot \alert{?} = 2~</m> a true statement? This equation has no solution, because 0 times any number is 0, not 2.  Thus, there is no answer for the division problem <m>\dfrac{2}{0}</m>. We say that the quotient <m>\dfrac{2}{0}</m> is <term>undefined</term>. In general, we cannot divide any number by zero.</p>
 
 <assemblage><title>Quotients Involving Zero</title>
 <p>If <m>a</m> is any nonzero number, then
-<me>\dfrac{0}{a} = 0~~~~~~\text{and}~~~~~~ \dfrac{a}{0} ~~ \text{is undefined.}</me></p></assemblage>
+<me>\blert{\dfrac{0}{a} = 0}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{0} ~~ \text{is undefined.}}</me></p></assemblage>
 
 <example><statement><p><ol label="a" cols="2">
 	<li><m>6 \div 0~~</m> is undefined.</li>

@@ -29,7 +29,7 @@
 
 <li><assemblage><title>Quotients Involving Zero</title>
 <p>If <m>a</m> is any nonzero number, then
-<me>\dfrac{0}{a} = 0~~~~~~\text{and}~~~~~~ \dfrac{a}{0} ~~ \text{is undefined.}</me></p></assemblage></li></ul></p>
+<me>\blert{\dfrac{0}{a} = 0}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{0} ~~ \text{is undefined.}}</me></p></assemblage></li></ul></p>
 </subsection>
 
 <subsection><title>Section 2.2 Expressions and Equations</title><p><ul>
@@ -82,7 +82,7 @@
 	<li>always false?</li>
 	<li>sometimes true and sometimes false?</li></ol>
 	Make up an example for each case.</p></li>
-<li>In a Cartesian coordinate system, the axes divide the plane into four <fillin characters="6"/>. The point <m>(0,0)</m> is called the <fillin characters="6"/>.</li>
+<li>In a Cartesian coordinate system, the axes divide the plane into four <fillin characters="5"/>. The point <m>(0,0)</m> is called the <fillin characters="6"/>.</li>
 <li>Explain how to add or subtract like terms.</li>
 <li>What is wrong with this statement?  <m>8x-(2x-3)=6x-3)</m></li>  
 <li>When solving an inequality, we must remember to <fillin characters="6"/> if we <fillin characters="6"/> both sides by <fillin characters="6"/>.</li>

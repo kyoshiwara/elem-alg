@@ -48,7 +48,8 @@
 		<mrow>\text{89 cents per pound}~~~~~~\text{means}~~~~~~\dfrac{89~ \text{cents}}{1~ \text{pound}}</mrow></md></p>
 
 <example><statement><p>Sarah traveled 390 miles on 15 gallons of gas. Express her rate of fuel consumption as a ratio, and then as a rate.</p></statement>
-<solution><p>As a ratio, Sarah's rate of fuel consumption was <m>\dfrac{390~ \text{miles}}{15~ \text{gallons}}</m>. We simplify by dividing the denominator into the numerator, to get <m>\dfrac{26~ \text{miles}}{1~ \text{gallon}}</m>, or 26 miles per gallon.</p></solution></example>
+<solution><p>As a ratio, Sarah's rate of fuel consumption was <m>\dfrac{390~ \text{miles}}{15~ \text{gallons}}</m>.</p> 
+<p>We simplify by dividing the denominator into the numerator, to get <m>\dfrac{26~ \text{miles}}{1~ \text{gallon}}</m>, or 26 miles per gallon.</p></solution></example>
 </subsection>
 
 <subsection><title>Proportions</title>
@@ -99,7 +100,7 @@ Then we complete the solution as before.</p></assemblage>
 
 <assemblage><title>Property of Proportions</title>
 <p>We can clear the fractions from a proportion by cross-multiplying.
-	<me>\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.</me></p></assemblage>
+	<me>\blert{\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.}</me></p></assemblage>
 
 <example><statement><p>Solve <m>~~\dfrac{2.4}{1.5}=\dfrac{8.4}{x}</m></p></statement>
 <solution><p>We apply the property of proportions and cross-multiply to get

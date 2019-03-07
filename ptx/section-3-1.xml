@@ -10,7 +10,7 @@
 
 <p>It is easy to recognize the intercepts of a line on a good graph. Here is a graph of the line  
         <me>y=\dfrac{1}{2}x+4</me>
-</p><sidebyside widths="50% 45%" valigns="middle middle" margins="0% 5%"><stack>  
+</p><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 5%"><stack>  
 <p>We can see that its <m>x</m>-intercept is the point <m>(-8,0)</m>, and its <m>y</m>-intercept is <m>(0,4)</m>.</p> 
 <p>If we have an equation for a line we can find the intercepts of its graph algebraically. In Example 1 we'll use algebra to find the intercepts of this line.</p></stack>
 <!--<image source="images/fig-3-1-1.png"><description>graph</description></image>-->
@@ -54,7 +54,7 @@ The <m>y</m>-intercept is <m>(0,4)</m>, as we saw above. To find the <m>x</m>-in
                 \end{aligned}</me>
 The <m>x</m>-intercept is <m>(-8,0)</m>, as expected.</p></solution></example>
 
-<assemblage><p><ul>
+<assemblage><title>To find the intercepts of a graph</title><p><ul>
 	<li><p>To find the <m>x</m>-intercept of a graph:</p>
 	<p>Substitute <m>0</m> for <m>y</m> in the equation and solve for <m>x</m>.</p></li>
 
@@ -101,7 +101,7 @@ The <m>y</m>-intercept is the point <m>(0,3\dfrac{1}{2})</m>.</p>
                 \end{aligned}</me>
 The <m>x</m>-intercept is the point <m>(2\dfrac{1}{3}, 0)</m>.</p>
 <p>Here is a table showing the two intercepts. We plot the intercepts and connect them with a straight line to obtain the graph below.
-	<sidebyside widths="30% 40%" valigns="middle middle" margins="0% 20%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+	<sidebyside widths="30% 35%" valigns="middle middle" margins="0% 20%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>y</m></cell></row>
@@ -141,7 +141,7 @@ The <m>x</m>-intercept is the point <m>(2\dfrac{1}{3}, 0)</m>.</p>
     </latex-image>
     </image>
     </sidebyside></p>
-<p>It is a good idea to find a third point as a check.  We choose <m>x=1</m> and solve for <m>y</m>. 
+<p>It is a good idea to find a third point as a check.  We choose <m>x=\alert{1}</m> and solve for <m>y</m>. 
 		<me>\begin{aligned}
                 3 + 2(\alert{1}) \amp = 7 \amp \amp  \blert{\text{Subtract 3 from both sides.}}\\
                 2y \amp = 4  \amp \amp  \blert{\text{Divide both sides by 2.}}\\
@@ -187,7 +187,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 	<li><p>An equation for the temperature is
 		<me>T=-12+2h</me>
 		A graph of the equation is shown below. 
-		<sidebyside width="50%"><!--<image source="images/fig-3-1-ex3.png"><description>graph</description></image>-->
+		<sidebyside width="45%"><!--<image source="images/fig-3-1-ex3.png"><description>graph</description></image>-->
     <image xml:id="fig-3-1-ex3">
         <description>graph: line and intercepts</description>
         <latex-image>

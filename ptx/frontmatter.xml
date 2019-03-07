@@ -38,19 +38,55 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
 
     <preface>
-<p>Elementary Algebra: Equations and Graphs was written with two goals in mind: to present the skills of algebra in the context of modeling and problem solving, and to engage students in an activity-based course.</p> 
+<p><term>Elementary Algebra: Equations and Graphs</term> was written with two goals in mind: to present the skills of algebra in the context of modeling and problem solving, and to engage students in an activity-based course.</p> 
 
-<p>Throughout the book, we use applications to motivate new topics.  We present ideas using verbal, numerical, and graphical tools. We use graphs extensively to illustrate algebraic techniques and to help students visualize relationships between variables. In the Homework Problems we break up skills practice into smaller sets of exercises and combine them with conceptual questions, graphing, and applications of various types.</p>
+<p>Throughout the book, we use applications to motivate algebraic skills.  We present ideas using verbal, numerical, and graphical tools. We use graphs extensively to illustrate algebraic techniques and to help students visualize relationships between variables. In the Homework Problems we break up skills practice into smaller sets of exercises and combine them with conceptual questions, graphing, and applications of various types.</p>
 
-<p>We have included a number of features to encourage student participation. We want students to learn how to read a math book, so we have included Reading Questions that mirror the content of the lesson.  For example, the first Reading Question is "A numerical quantity that changes over time or in different situations is called a <m><fillin characters="6"/></m>." Ideally, students would answer these questions before class, perhaps through an on-line homework system.  Each section ends with a Skills Warm-Up (with answers) for students to complete on their own. The Skills Warm-Up problems review an arithmetic or algebraic technique needed for the Lesson that follows.</p> 
-
-<p>Because choosing appropriate scales for the axes is a time-consuming task for beginning
-students, the text includes labeled grids for most of the graphing exercises. Ready-made grids allow students to consider a wider range of examples (with "harder" numbers) and to focus on the properties of the graphs, such as intercepts and slope, and on interpreting the information given by the graph. If students are using technology to create graphs, the grids can help them choose an appropriate window.</p>
+<p>We have included a number of features to encourage student participation.<ul>
+<li>The reading is broken into small segments by using boxes around Examples, definitions, and rules, and flags including Caution, Look Closer, and Look Ahead.</li> 
+<li>We want students to learn how to read a math book, so we have included Reading Questions that mirror the content of the lesson.  For example, the first Reading Question is "A numerical quantity that changes over time or in different situations is called a <m><fillin characters="6"/></m>." Ideally, students would answer these questions before class, perhaps through an on-line homework system.</li>  
+<li>Each section ends with a Skills Warm-Up (with answers) for students to complete on their own. The Skills Warm-Up problems review an arithmetic or algebraic technique needed for the Lesson that follows.</li>
+<li>Because choosing appropriate scales for the axes is a time-consuming task for beginning students, the text includes labeled grids for most of the graphing exercises. Ready-made grids allow students to consider a wider range of examples (with "harder" numbers) and to focus on the properties of the graphs, such as intercepts and slope, and on interpreting the information given by the graph. If students are using technology to create graphs, the grids can help them choose an appropriate window.</li></ul></p>
 
 <p>The textbook is accompanied by an Activities Workbook that provides a Lesson for each section in the book.  These Lessons consist of Activities for students to complete in groups or with guidance from the instructor; or they can be used as support for a lecture format. Each Lesson ends with a Wrap-Up and a set of Homework Preview exercises.</p>
 
-<p>Chapter Reviews include a Summary, Review Questions, and a set of Review Problems. Answers to odd-numbered Homework problems are provided, as well as a Glossary of mathematical terms. A Review of Arithmetic Skills, with Exercises, appears in Appendix A.</p>
-        <attribution><line>Katherine Yoshiwara</line> <line>Atascadero, CA 2019</line></attribution>
+<p>Chapter Reviews include a Summary, Review Questions for writing or discussion, and a set of Review Problems. Answers to odd-numbered Homework problems are provided, as well as a Glossary of mathematical terms. A Review of Arithmetic Skills, with Exercises, appears in Appendix A.</p>
+
+<p>The content of the text follows our "guiding principles:"<ul>
+<li>Develop the concepts and skills of algebra in context. Use applications to
+motivate and illustrate techniques. Don't frontload with "theory" or general
+principles.</li>
+<li>Keep reading sections short and keep terminology to a minimum.</li>
+<li>A solid understanding of basic algebra is more important than facility with
+complicated algorithms and procedures.</li>
+<li>Include graphing from the beginning. The ability to read and analyze graphs
+is just as important as mastering algebraic skills. Emphasize the connection
+between equations and their graphs.</li>
+<li>Present material by increasing levels of sophistication, not by taxonomy. In
+other words, don't have one chapter on simplifying expressions, and then a
+separate chapter on solving all kinds of equations, and so on. Instead,
+develop algebraic skills (writing expressions, solving equations, modeling)
+simultaneously and incrementally.</li>
+<li>Review arithmetic skills "just-in-time" as needed (and often).</li>
+<li>Some more advanced topics can be left for later courses, e.g.
+factoring sums of cubes.</li></ul></p>
+
+<p>Consequently, our text may differ in some ways from other treatments of the subject. <ul>
+<li>We begin with writing algebraic expressions instead of manipulating
+expressions. We use tables and graphs to motivate expressions.</li>
+<li>Graphing appears in Chapter 1 and is continued throughout the book.
+Graphs are not restricted to <m>10 \times 10</m> grids.</li>
+<li>We solve equations both algebraically and graphically.</li>
+<li>Standard word problems are de-emphasized in favor of modeling.</li>
+<li>Quadratic expressions and equations are treated before polynomials. We start with quadratic
+equations that can be solved by extracting roots.</li>
+<li>We try to minimize factoring in the study of algebraic fractions.</li>
+</ul></p>
+
+<p>An Instructor's Manual for the text is also available. The Manual contains objectives and teaching notes for each section of the text, as well as suggested concept questions and topics for writing or discussion. The teaching notes include suggestions for using the Activities booklet and how to structure class time.</p>
+
+
+       <attribution><line>Katherine Yoshiwara</line> <line>Atascadero, CA 2019</line></attribution>
 
     </preface>
 

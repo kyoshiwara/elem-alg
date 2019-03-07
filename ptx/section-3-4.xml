@@ -59,7 +59,7 @@ We can also write the equation as  <m>H=0.4t+70</m>.</p></solution></example>
 
 <assemblage><title>Slope-Intercept Form</title>
 <p>A linear equation written in the form
-		<me>y=mx+b</me>
+		<me>\blert{y=mx+b}</me>
 is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and<m>b</m> is the <m>y</m>-intercept.</p></assemblage>
 
 <reading-questions>

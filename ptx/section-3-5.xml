@@ -9,7 +9,7 @@
 <p>Lines that lie in the same plane but never intersect are called <term>parallel</term> lines. It is easy to understand that parallel lines have the same slope.</p>
 
 <exercise><statement>
-    <sidebyside widths="55% 35%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two parallel lines in the figure. (We denote the slope of the first line by <m>m_1</m> and the slope of the second line by <m>m_2</m>.)
+    <sidebyside widths="55% 30%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two parallel lines in the figure. (We denote the slope of the first line by <m>m_1</m> and the slope of the second line by <m>m_2</m>.)
     <md>
         <mrow>m_1 \amp= \dfrac{\Delta y}{\Delta x} =\hphantom{00000} </mrow>
         <mrow>m_2 \amp= \dfrac{\Delta y}{\Delta x} = </mrow></md></p>
@@ -44,7 +44,7 @@
 <p>Lines that intersect at right angles are called <term>perpendicular</term> lines. It is a little harder to see the relationship between the slopes of perpendicular lines.</p>
 
 <exercise><statement>
-	<sidebyside widths="55% 35%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two perpendicular lines in the figure. 
+	<sidebyside widths="55% 30%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two perpendicular lines in the figure. 
     <md>
         <mrow>m_1 \amp= \dfrac{\Delta y}{\Delta x} =\hphantom{00000} </mrow>
         <mrow>m_2 \amp= \dfrac{\Delta y}{\Delta x} = </mrow></md></p>
@@ -80,10 +80,10 @@ This relationship holds for any pair of perpendicular lines.</p>
 <assemblage><title>Parallel and Perpendicular Lines</title>
 <p><ol label="1">
 	<li><p>Two lines are parallel if their slopes are equal, that is, if
-		<me>m_1 = m_2</me>		
+		<me>\blert{m_1 = m_2}</me>		
 	or if both lines are vertical.</p></li>
 	<li><p>Two lines are perpendicular if the product of their slopes is <m>-1</m>, that is, if 
-		<me>m_1 m_2 = -1</me>
+		<me>\blert{m_1 m_2 = -1}</me>
 	or if one of the lines is horizontal and one is vertical.</p></li></ol></p></assemblage>
 
 <reading-questions>
@@ -135,14 +135,14 @@ Because of this relationship, we often say that the slope of one perpendicular l
 <example><statement><p>Find the equation of the horizontal line that passes through <m>(5,3)</m>.</p></statement>
 
 <solution><p>Looking at the graph of the line shown below, we see that the <m>y</m>-coordinate of every point on the line is 3.</p> 
-	<sidebyside width="40%"><image source="images/hp-3-3-23"><description>horizontal line</description></image></sidebyside>
+	<sidebyside width="30%"><image source="images/hp-3-3-23"><description>horizontal line</description></image></sidebyside>
 <p>In particular, the <m>y</m>-intercept of the line is the point <m>(0,3)</m>, so <m>b=3</m>. As we noted above, the slope of the line is <m>m=0</m>. Substituting these values into the slope-intercept form gives us the equation 
 	<me>y= 0 \cdot x + 3</me>
  or just <m>y=3</m>. The fact that <m>x</m> does not appear in the equation means that <m>y=3</m> for every point on the line, no matter what the value of <m>x</m> is.</p></solution></example> 
 
 <assemblage><title>Look Closer</title>
 <p>What about the equation of a vertical line? The slope of a vertical line is undefined; a vertical line does not have a slope. We cannot use the slope-intercept form to write the equation of a vertical line. However, we can use what we learned about horizontal lines in Example 2.</p>
-<sidebyside widths="55% 35%" valigns="middle middle" margins="0% 5%"> 
+<sidebyside widths="60% 30%" valigns="middle middle" margins="0% 5%"> 
 <p>Look at the graph of the vertical line at right. Every point on the line has <m>x</m>-coordinate <m>-2</m>, no matter what the <m>y</m>-coordinate is. An equation for this line is <m>x=-2</m>. The value of <m>x</m> does not depend upon <m>y</m>; it is constant, so <m>y</m> does not appear in the equation.</p>
 <image source="images/hp-3-3-24"><description>vertical line</description></image></sidebyside></assemblage>
 
@@ -316,8 +316,8 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
 
 <solution><p>We'll call <m>D</m> the first point and <m>F</m> the second point. Then their coordinates are 
     <md>
-        <mrow>D:~~~x_1=-6~~~~\text{and}~~~~y_1=-2</mrow>
-        <mrow>F:~~~x_2=9~~~~~\text{and}~~~~y_2=4</mrow></md>
+        <mrow>D:~~~x_1 \amp =-6 \amp \text{and}~~~~y_1=-2</mrow>
+        <mrow>F:~~~x_2 \amp = 9 \amp \text{and}~~~~y_2=4</mrow></md>
 Now we can describe the formula for slope in an organized way. We compute <m>\Delta y</m> and <m>\Delta x</m> as directed distances. First, we observe that the coordinates of point <m>E</m> are <m>(-6,4)</m> or <m>(x_1,y_2)</m>. From the figure, we can see that  
         <me>\Delta y = y_2-y_1 = 4-(-2)=6</me>
 and

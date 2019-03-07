@@ -435,7 +435,7 @@
 </exercisegroup>
 
 <exercise number="21"><statement><p>Robin opened a yogurt smoothie shop near campus. The graph shows Robin's profit <m>P</m> after selling <m>s</m> smoothies.</p>
-<sidebyside width="40%"><!--<image source="images/hp-3-4-21.png"><description>graph</description></image>-->
+<sidebyside width="35%"><!--<image source="images/hp-3-4-21.png"><description>graph</description></image>-->
     <image xml:id="hp-3-4-21">
         <description>graph of line</description>
         <latex-image>
@@ -474,7 +474,7 @@
     <li>Explain what the slope and the vertical intercept tell us about the problem.</li></ol></p></introduction>
 
 <exercise number="22"><statement><p>Serda's score on her driving test is computed by the equation <m>S=120-4n</m>, where <m>n</m> is the number of wrong answers she gives.</p>
-<sidebyside width="50%"><!--<image source="images/hp-3-4-22.png"><description>grid</description></image>-->
+<sidebyside width="40%"><!--<image source="images/hp-3-4-22.png"><description>grid</description></image>-->
     <image xml:id="hp-3-4-22">
         <description>grid</description>
         <latex-image>
@@ -500,7 +500,7 @@
 </statement></exercise>
 
 <exercise number="23"><statement><p>Greg is monitoring the growth of a new variety of string beans. The height of the vine each day is given in inches by <m>h=18+3d</m> where <m>d=0</m> represents today.</p>
-<sidebyside width="50%"><!--<image source="images/hp-3-4-23.png"><description>grid</description></image>-->
+<sidebyside width="40%"><!--<image source="images/hp-3-4-23.png"><description>grid</description></image>-->
     <image xml:id="hp-3-4-23">
         <description>grid</description>
         <latex-image>
@@ -526,7 +526,7 @@
 </statement>
 <answer></answer></exercise>
 
-<exercise number="22"><statement><p>Cliff's score was negative at the end of the first round of College Quiz, but in Double Quiz his score improved according the equation <m>S=-400+20q</m>, where <m>q</m> is the number of questions he answered.</p>
+<exercise number="24"><statement><p>Cliff's score was negative at the end of the first round of College Quiz, but in Double Quiz his score improved according the equation <m>S=-400+20q</m>, where <m>q</m> is the number of questions he answered.</p>
 <sidebyside width="55%"><!--<image source="images/hp-3-4-24.png"><description>grid</description></image>-->
     <image xml:id="hp-3-4-24">
         <description>grid</description>

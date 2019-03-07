@@ -61,7 +61,7 @@
         </tabular></sidebyside></p>
     <p>Step 2: We use the values in the table to help us choose scales for the axes. For this graph, the  input values are less than 10, but the largest output value is 70. We use increments of 1 on the horizontal or <m>h</m>-axis and increments of 10 on the vertical or <m>T</m>-axis.</p>
     <p>Step 3: Each ordered pair gives us a point on the graph. We plot the points on the grid and connect them with a smooth curve. All the points should lie on a straight line.
-    <sidebyside width="50%"><!--<image source="images/fig-2-3-ex1.png"><description>graph</description></image>-->
+    <sidebyside width="45%"><!--<image source="images/fig-2-3-ex1.png"><description>graph</description></image>-->
     <image xml:id="fig-2-3-ex1">
         <description>graph of line</description>
         <latex-image>
@@ -98,7 +98,7 @@
 <subsection><title>Cartesian Coordinate System</title>
 <p>Many graphs include negative values as well as positive values. To make such a graph, we construct a <term>Cartesian coordinate system</term>, named after the French mathematician and philosopher René Descartes.</p>   
 
-<sidebyside widths="60% 38%" valigns="middle middle"><p>We draw two perpendicular number lines for the horizontal and vertical axes. The two axes divide the plane into four <term>quadrants</term>, or regions, as shown at right. We often use <m>x</m> for the input variable and  <m>y</m> for the output variable, so the horizontal axis is called the <term><m>x</m>-axis</term><idx><m>x</m>-axis</idx> and the vertical axis is the <term><m>y</m>-axis</term><idx><m>y</m>-axis</idx>. The axes intersect at the zero point of each number line. The coordinates of this intersection point, called the <term>origin</term><idx>origin</idx>, are <m>(0,0)</m>.</p>
+<sidebyside widths="55% 40%" valigns="middle middle"><p>We draw two perpendicular number lines for the horizontal and vertical axes. The two axes divide the plane into four <term>quadrants</term>, or regions, as shown at right. We often use <m>x</m> for the input variable and  <m>y</m> for the output variable, so the horizontal axis is called the <term><m>x</m>-axis</term><idx><m>x</m>-axis</idx> and the vertical axis is the <term><m>y</m>-axis</term><idx><m>y</m>-axis</idx>. The axes intersect at the zero point of each number line. The coordinates of this intersection point, called the <term>origin</term><idx>origin</idx>, are <m>(0,0)</m>.</p>
  <!--<image source="images/fig-2-3-1.png"><description>grid</description></image>-->
     <image xml:id="fig-2-3-1">
         <description>grud: 5 by 5</description>
@@ -128,7 +128,7 @@
     	<answer><p>True</p></answer></exercise>
 </reading-questions>
 
-<example><statement><sidebyside widths="60% 38%" valigns="middle middle"><stack><p>The figure at right shows how to plot points on a Cartesian grid. Points in the upper right quadrant have both coordinates positive. Points with negative <m>x</m>-coordinates are plotted to the left of the <m>x</m>-axis, and points with negative <m>y</m>-coordinates are plotted below the <m>y</m>-axis.</p>
+<example><statement><sidebyside widths="50% 45%" valigns="middle middle"><stack><p>The figure at right shows how to plot points on a Cartesian grid. Points in the upper right quadrant have both coordinates positive. Points with negative <m>x</m>-coordinates are plotted to the left of the <m>x</m>-axis, and points with negative <m>y</m>-coordinates are plotted below the <m>y</m>-axis.</p>
 <p> For example, the point <m>(-2,1)</m> is plotted 2 units to the left of the <m>x</m>-axis and 1 unit above the <m>y</m>-axis. In which quadrant are both coordinates negative?</p></stack>
 <!--<image source="images/fig-2-3-ex2.png"><description>points</description></image>-->
     <image xml:id="fig-2-3-ex2">
@@ -243,7 +243,10 @@
         <li>We find the point on the graph with <m>T</m>-coordinate <m>-4</m>. Its <m>h</m>-coordinate is 4, so it will be <m>-4 \degree</m>F at 4 pm.</li></ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>We can also answer parts (c) and (d) of Example 3 using algebra. For part (c), we evaluate the expression for <m>T</m>, namely <m>-12+2h</m>, at <m>h=-8</m>. For part (d), we solve the equation <m>T=-12+2h</m> with <m>T=-4</m>. Make sure that you understand both methods, graphical and algebraic.</p></assemblage>
+<p>We can also answer parts (c) and (d) of Example 3 using algebra.<ul>
+    <li> For part (c), we evaluate the expression for <m>T</m>, namely <m>-12+2h</m>, at <m>h=-8</m>.</li>
+    <li> For part (d), we solve the equation <m>T=-12+2h</m> with <m>T=-4</m>.</li></ul>
+ Make sure that you understand both methods, graphical and algebraic.</p></assemblage>
 
 <assemblage><title>Graphing Tip #1</title>
 <p>If the <term>coefficient</term> of <m>x</m> (the number multiplying <m>x</m>) is a fraction, we can make our work easier by choosing multiples of the denominator for the <m>x</m>-values. That way we won't have to work with fractions to find the <m>y</m>-values. In Example 4, the coefficient of <m>x</m> is <m>\dfrac{-2}{3}</m>, so we choose multiples of 3 for the <m>x</m>-values.</p></assemblage>
@@ -330,8 +333,8 @@
     </latex-image>
     </image>
         </sidebyside>
-    Because it lies on the graph, the point <m>P(-3,-2)</m> is a solution of the equation <m>~y=\dfrac{-2}{3}x-4</m>.  When we substitute <m>x=-3</m> and <m>y=-2</m> into the equation, we get a true statement: 
-        <me>-2=\dfrac{-2}{3}(-3)-4</me>
+    Because it lies on the graph, the point <m>P(-3,-2)</m> is a solution of the equation <m>~y=\dfrac{-2}{3}x-4</m>.  When we substitute <m>x=\blert{-3}</m> and <m>y=\alert{-2}</m> into the equation, we get a true statement: 
+        <me>\alert{-2}=\dfrac{-2}{3}(\blert{-3})-4</me>
     But this statement also tells us that <m>-3</m> is a solution of the equation <m>~\dfrac{-2}{3}x-4=-2</m>.</li></ol></p></solution></example> 
 
 <reading-questions>
