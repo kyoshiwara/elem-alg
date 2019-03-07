@@ -3,15 +3,23 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 2.2</title>
 
-<exercise number="1"><statement><p>The perimeter of a rectangle of length <m>l</m> and width <m>w</m> is given by <m>P=2l+2w</m>. Find the perimeter of a rectangular meeting hall with dimensions 8.5 meters by 6.4 meters.</p></statement>
+<exercise number="1"><statement><p>The perimeter of a rectangle of length <m>l</m> and width <m>w</m> is given by 
+	<me>P=2l+2w</me> 
+Find the perimeter of a rectangular meeting hall with dimensions 8.5 meters by 6.4 meters.</p></statement>
 <answer></answer></exercise>
 
-<exercise number="2"><statement><p>The area of a trapezoid with bases <m>B</m> and <m>b</m> and height <m>h</m> is given by <m>A=\dfrac{1}{2}(B+b)h</m>. Find the area of a trapezoid whose bases are 9 centimeters and 7 centimeters and whose height is 3 centimeters.</p></statement></exercise>
+<exercise number="2"><statement><p>The area of a trapezoid with bases <m>B</m> and <m>b</m> and height <m>h</m> is given by 
+	<me>A=\dfrac{1}{2}(B+b)h</me> 
+Find the area of a trapezoid whose bases are 9 centimeters and 7 centimeters and whose height is 3 centimeters.</p></statement></exercise>
 
-<exercise number="3"><statement><p>If a company sells <m>n</m> items at a cost of <m>c</m> dollars each and sells them at a price of <m>p</m> dollars each, the company's profit is given by <m>P=n(p-c)</m>. Find the profit earned by a manufacturer of bicycle equipment by selling 300 bicycle helmets that cost $32 each to produce and sell for $50 apiece.</p></statement>
+<exercise number="3"><statement><p>If a company sells <m>n</m> items at a cost of <m>c</m> dollars each and sells them at a price of <m>p</m> dollars each, the company's profit is given by 
+	<me>P=n(p-c)</me> 
+Find the profit earned by a manufacturer of bicycle equipment by selling 300 bicycle helmets that cost $32 each to produce and sell for $50 apiece.</p></statement>
 <answer></answer></exercise>
 
-<exercise number="4"><statement><p>The temperature in degrees Celsius (<m>\degree</m>C) is given by <m>C=\dfrac{5}{9}(F-32)</m>,  where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F). Find normal body temperature in degrees Celsius if normal temperature is <m>98.6 \degree</m> Fahrenheit.</p></statement></exercise>
+<exercise number="4"><statement><p>The temperature in degrees Celsius (<m>\degree</m>C) is given by 
+	<me>C=\dfrac{5}{9}(F-32)</me>,  
+where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F). Find normal body temperature in degrees Celsius if normal temperature is <m>98.6 \degree</m> Fahrenheit.</p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, simplify by following the order of operations.</p></introduction>
 

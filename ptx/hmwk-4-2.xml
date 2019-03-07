@@ -293,7 +293,7 @@
 	<li>Verify your solution algebraically.</li></ol></p></introduction>
 
 <exercise number="15"><statement><p>A bouquet of 4 roses and 8 carnations costs $14. A bouquet of 6 roses and 9 carnations costs $18. How much do one rose and one carnation cost?</p> 
- 	<sidebyside width="40%"><!--<image source="images/hp-4-2-15.png"><description>grid</description></image>-->
+ 	<sidebyside width="35%"><!--<image source="images/hp-4-2-15.png"><description>grid</description></image>-->
     <image xml:id="hp-4-2-15">
         <description>grid</description>
         <latex-image>

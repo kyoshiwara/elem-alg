@@ -300,7 +300,7 @@
 	<li>Explain what the intercepts mean in terms of the problem situation.</li></ol></p></introduction>
 
 <exercise number="20"><statement><p>The amount of home heating oil (in gallons) in the Olsons' tank is given by the equation <m>G=200-15w</m>, where <m>w</m> is the number of weeks since they turned on the furnace.</p>
-	<sidebyside width="50%"><!--<image source="images/hp-3-1-20.png"><description>graph</description></image>-->
+	<sidebyside width="45%"><!--<image source="images/hp-3-1-20.png"><description>graph</description></image>-->
     <image xml:id="hp-3-1-20">
         <description>grid</description>
         <latex-image>
@@ -327,7 +327,7 @@
 </statement></exercise>
 
 <exercise number="21"><statement><p>Dana joined a savings plan some weeks ago. Her bank balance is growing each week according to the formula <m>B=225+25w</m>, where <m>w=0</m> represents this week.</p>
-	<sidebyside width="50%"><!--<image source="images/hp-3-1-21.png"><description>graph</description></image>-->
+	<sidebyside width="40%"><!--<image source="images/hp-3-1-21.png"><description>graph</description></image>-->
     <image xml:id="hp-3-1-21">
         <description>grid</description>
         <latex-image>
