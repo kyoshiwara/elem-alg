@@ -6,7 +6,7 @@
 <exercise number="1"><statement><p>The perimeter of a rectangle of length <m>l</m> and width <m>w</m> is given by 
 	<me>P=2l+2w</me> 
 Find the perimeter of a rectangular meeting hall with dimensions 8.5 meters by 6.4 meters.</p></statement>
-<answer></answer></exercise>
+<answer>29.8 meters</answer></exercise>
 
 <exercise number="2"><statement><p>The area of a trapezoid with bases <m>B</m> and <m>b</m> and height <m>h</m> is given by 
 	<me>A=\dfrac{1}{2}(B+b)h</me> 
@@ -15,7 +15,7 @@ Find the area of a trapezoid whose bases are 9 centimeters and 7 centimeters and
 <exercise number="3"><statement><p>If a company sells <m>n</m> items at a cost of <m>c</m> dollars each and sells them at a price of <m>p</m> dollars each, the company's profit is given by 
 	<me>P=n(p-c)</me> 
 Find the profit earned by a manufacturer of bicycle equipment by selling 300 bicycle helmets that cost $32 each to produce and sell for $50 apiece.</p></statement>
-<answer></answer></exercise>
+<answer>$5400</answer></exercise>
 
 <exercise number="4"><statement><p>The temperature in degrees Celsius (<m>\degree</m>C) is given by 
 	<me>C=\dfrac{5}{9}(F-32)</me>,  
@@ -24,12 +24,12 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>8, simplify by following the order of operations.</p></introduction>
 
 <exercise number="5"><statement><m>-18-[8-12-(-4)]</m></statement>
-<answer></answer></exercise>
+<answer><m>-18</m></answer></exercise>
 
 <exercise number="6"><statement><m>3-(-6+2)+(-1-4)</m></statement></exercise>
 
 <exercise number="7"><statement><m>-7+[-8-(-2)]-[6+(-4)]</m></statement>
-<answer></answer></exercise>
+<answer><m>-15</m></answer></exercise>
 
 <exercise number="8"><statement><m>0-[5-(-1)]+[-6-3]</m></statement></exercise>
 </exercisegroup>
@@ -41,7 +41,13 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 	<li><m>(-2)(-3)(4)(2)</m></li>
 	<li><m>(-2)(-3)(-4)(2)</m></li>
 	<li><m>(-2)(-3)(-4)(-2)</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+	<li><m>-24</m></li>
+	<li><m>24</m></li>
+	<li><m>-24</m></li>
+	<li><m>48</m></li>
+	<li><m>-48</m></li>
+	<li><m>48</m></li></ol></p></answer></exercise>
 
 <exercise number="10"><statement><p>Use your results from Problem 9 to complete the statements:<ol label="a">
 	<li>The product of an odd number of negative numbers is <fillin characters="6"/>.</li>
@@ -52,7 +58,9 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="11"><statement><p><ol label="a" cols="2">
 	<li><m>-2(-3)-4</m></li>
 	<li><m>5(-4)-3(-6)</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+	<li><m>2</m></li>
+	<li><m>-2</m></li></ol></p></answer></exercise>
 
 <exercise number="12"><statement><p><ol label="a" cols="2">
 	<li><m>(-4-3)(-4+3)</m></li>
@@ -61,7 +69,9 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="13"><statement><p><ol label="a" cols="2">
 	<li><m>\dfrac{15}{-3}-\dfrac{4-8}{8-12}</m></li>
 	<li><m>\dfrac{4-2(-5)}{-4+3(-1)}</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+	<li><m>-6</m></li>
+	<li><m>-2</m></li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><p><ol label="a" cols="2">
 	<li><m>12.6-0.32(0,25)(4.2-8.7)</m></li>
@@ -75,7 +85,13 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 	<li><m>-3-(-4-5)</m></li>
 	<li><m>-3-(-4)(-5)</m></li>
 	<li><m>(-3-4)(-5)</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="3">
+	<li><m>-60</m></li>
+	<li><m>7</m></li>
+	<li><m>27</m></li>
+	<li><m>6</m></li>
+	<li><m>-23</m></li>
+	<li><m>35</m></li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>Simplify each expression.<ol label="a" cols="3">
 	<li><m>24 \div 6-2</m></li>
@@ -89,17 +105,17 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercisegroup><introduction><p>For Problems 17<ndash/>22, evaluate for the given values.</p></introduction>
 
 <exercise number="17"><statement><p><m>15-x-y~~~~</m> for <m>x=-6,~y=8</m></p></statement>
-<answer></answer></exercise>
+<answer><m>13</m></answer></exercise>
 
 <exercise number="18"><statement><p><m>p-(4-m)~~~~</m> for <m>p=-2,~m=-6</m></p></statement></exercise>
 
 <exercise number="19"><statement><p><m>12x-3xy~~~~</m> for <m>x=-3,~y=2</m></p></statement>
-<answer></answer></exercise>
+<answer><m>-18</m></answer></exercise>
 
 <exercise number="20"><statement><p><m>\dfrac{y-3}{x-4}~~~~</m> for <m>x=-9,~y=2</m></p></statement></exercise>
 
 <exercise number="21"><statement><p><m>\dfrac{1}{2}t(t-1)~~~~</m> for <m>t=\dfrac{2}{3}</m></p></statement>
-<answer></answer></exercise>
+<answer><m>-\dfrac{1}{9}</m></answer></exercise>
 
 <exercise number="22"><statement><p><m>\dfrac{x-m}{s}~~~~</m> for <m>x=4,~m=\dfrac{9}{4},~s=\dfrac{3}{2}</m></p></statement></exercise>
 </exercisegroup>
@@ -110,7 +126,12 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 		<li><m>\dfrac{-3x}{4}</m></li>
 		<li><m>-0.75x</m></li></ol></p></li>
 	<li>Does <m>\dfrac{-8}{5}x=\dfrac{-8}{5x}</m>? Support your answer with examples.</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><p><ol label="i" cols="3">
+		<li><m>-\dfrac{15}{4}</m></li>
+		<li><m>-\dfrac{15}{4}</m></li>
+		<li><m>-3.75</m></li></ol></p></li>
+	<li>No</li></ol></p></answer></exercise>
  
 <exercise number="24"><statement><p>Which of the following are equivalent to <m>-\dfrac{4}{9}x</m>?<ol label="a" cols="3">
 	<li><m>\dfrac{4}{9}(-x)</m></li>
@@ -142,7 +163,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer></answer></exercise>
+<answer><m>2x+10</m></answer></exercise>
 
 <exercise number="26"><statement><sidebyside width="85%"><!--<image source="images/hp-2-2-26.png"><description>rectangle</description></image>-->
     <image xml:id="hp-2-2-26">
@@ -193,7 +214,22 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
                         <cell><m>\hphantom{00}</m></cell></row>
                     </tabular></sidebyside></li>
 	<li>Write an equation that gives Salewa's savings, <m>S</m>, after <m>w</m> weeks.</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li>$4400;~ $2600</li>
+	<li>Multiply the number of weeks by $200, then subtract from $5000.</li>
+	<li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Number of weeks</cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell></row>
+                    <row> 
+                        <cell>Savings left</cell>
+                        <cell><m>4600</m></cell>
+                        <cell><m>4200</m></cell>
+                        <cell><m>4000</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><m>S=5000-200w</m></li></ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>To calculate how much state income tax she owes, Francine subtracts $2000 from her income, and then takes 12% of the result.<ol label="a">
 	<li>What is Francine's state income tax if her income is $8000?</li>
@@ -225,7 +261,9 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="29"><statement><p><ol label="a">
 	<li>Three inches less than twice the width</li>
   	<li>The width is 13 inches.</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><m>w=~</m> width (inches);<m>~~2w-3</m></li>
+  	<li>23 inches</li></ol></p></answer></exercise>
 
 <exercise number="30"><statement><p><ol label="a">
 	<li>Twenty dollars more than 40% of the principal</li>
@@ -234,7 +272,9 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercise number="31"><statement><p><ol label="a">
 	<li>$8 times the number of children's tickets subtracted from 150</li>
 	<li>There are 83 children's tickets</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><m>t=~</m> number of children's tickets; <m>8(150-t)</m></li>
+	<li>$536</li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p><ol label="a">
 	<li>One-third of $50 less than the profit</li>
@@ -244,22 +284,22 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercisegroup><introduction><p>For Problems 33<ndash/>40, write an algebraic expression.</p></introduction>
 
 <exercise number="33"><statement><p>The oven temperature started at <m>65 \degree</m> and is rising at <m>30 \degree</m> per minute. Write an expression for the oven temperature after <m>t</m> minutes.</p></statement>
-<answer></answer></exercise>
+<answer><m>65+30t</answer></exercise>
 
 <exercise number="34"><statement><p>Luisa's parents have agreed to pay her tuition ($800 per year) plus half her annual living expenses while she is in school. Write an expression for the amount her parents will pay if Luisa's annual expenses are <m>a</m> dollars.</p></statement></exercise>
 
 <exercise number="35"><statement><p>Mildred canned 80 pints of tomatoes. She kept some for herslf and divided the rest equally among her four daughters.  If Mildred kept <m>M</m> pints, write an expression for the number of pints she gave each daughter.</p></statement>
-<answer></answer></exercise>
+<answer><m>\dfrac{80-M}{4}</m></answer></exercise>
 
 <exercise number="36"><statement><p>Moira's income is $50 more than one-third of her mother's income. Write an expression for Moira's income if her mother's income is <m>I</m>.</p></statement></exercise>
 
 <exercise number="37"><statement><p>Otis buys 200 pounds of dog food and uses 15 pounds a week for his dog Ralph. Write an expression for the amount of dog food Otis has left after <m>w</m> weeks.</p></statement>
-<answer></answer></exercise>
+<answer><m>200-15w</m></answer></exercise>
 
 <exercise number="38"><statement><p>Renee receives $600 for appearing in a cola commercial, plus a residual of $80 each time the commercial is aired. Write an expression for Renee's earnings if the commercial plays <m>t</m> times.</p></statement></exercise>
 
 <exercise number="39"><statement><p>Digby bought scuba diving gear by making a $50 down payment and arranging to pay the balance in ten equal installments. If the total cost of the gear is <m>C</m> dollars, write an expression for the amount of each installment.</p></statement>
-<answer></answer></exercise>
+<answer><m>\dfrac{c-50}{10}</answer></exercise>
 
 <exercise number="40"><statement><p>Each passengers and three crew members on a small airplane is allowed 35 pounds of luggage. Write an expression for the weight of the luggage if there are <m>x</m> passengers.</p></statement></exercise>
 </exercisegroup>
@@ -269,7 +309,9 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 	<li>Make a table for the expression showing at least two positive values for the variable and two negative values.</li></ol></p></introduction>
 
 <exercise number="41"><statement><p>The ratio of a number to 4 more than the number</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><m>\dfrac{x}{4+x}</m></li>
+	<li>Many answers possible</li></ol></p></answer></exercise>
 
 <exercise number="42"><statement><p>The sum of  and 5, times the difference of  and 5</p></statement></exercise>
 </exercisegroup>
