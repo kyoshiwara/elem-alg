@@ -307,10 +307,7 @@
         %\filldraw[blue] (\x, {200+\x/5}) circle (2.5cm);
         \end{tikzpicture}]]>
     </latex-image>
-    </image>
-        </sidebyside></p></li>
-    </ol>
-    </p></answer></exercise>
+    </image></sidebyside></p></li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="8"><statement><p>Darren inherited some money and has been spending it at the rate of $100 per day. Right now he has $2000 left.<ol label="a">
