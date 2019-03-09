@@ -32,7 +32,28 @@ Fill in the middle column first. Then use the table to help you answer the quest
    <p>Consider the equation  <m>y=2x+4</m>.<ol label="a">
    		<li>Let <m>x=3</m>. Explain how to find <m>y</m> in two steps.</li>
    		<li>Let <m>y=14</m>. Explain how to find <m>x</m> in two steps.</li></ol></p></statement>
-   	<answer></answer></exercise>
+   	<answer><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>2x</m></cell>
+                        <cell><m>2x+4</m></cell></row>
+                    <row>
+                        <cell><m>3</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row>    
+                        <cell><m>6</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>16</m></cell></row>
+                    <row>    
+                        <cell><m>5</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>14</m></cell></row>
+                    <row> 
+                        <cell><m>8</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>20</m></cell></row>
+                    </tabular></sidebyside></answer></exercise>
 
  <exercise number="2"><statement>
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -65,42 +86,42 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <exercisegroup cols="3"><introduction><p>For Problems 3<ndash/>17, solve.</p></introduction>
 
 <exercise number="3"><statement><m>6x-13=5</m></statement>
-<answer></answer></exercise>
+<answer><p><m>x=3</m></p></answer></exercise>
 
 <exercise number="4"><statement><m>\dfrac{2a}{5}=8</m></statement></exercise>
 
 <exercise number="5"><statement><m>\dfrac{x}{4}+2=3</m></statement>
-<answer></answer></exercise>
+<answer><p><m>x=4</m></p></answer></exercise>
 
 <exercise number="6"><statement><m>6x+5=5</m></statement></exercise>
 
 <exercise number="7"><statement><m>24=4(p-7)</m></statement>
-<answer></answer></exercise>
+<answer><p><m>p=13</m></p></answer></exercise>
 
 <exercise number="8"><statement><m>0=\dfrac{5z}{7}</m></statement></exercise>
 
 <exercise number="9"><statement><m>\dfrac{k+4}{5}=9</m></statement>
-<answer></answer></exercise>
+<answer><p><m>k=41</m></p></answer></exercise>
 
 <exercise number="10"><statement><m>\dfrac{2x}{3}-5=7</m></statement></exercise>
 
 <exercise number="11"><statement><m>7=\dfrac{4b-3}{3}</m></statement>
-<answer></answer></exercise>
+<answer><p><m>b=6</m></p></answer></exercise>
 
 <exercise number="12"><statement><m>3c-7=-13</m></statement></exercise>
 
 <exercise number="13"><statement><m>-5=-2-3t</m></statement>
-<answer></answer></exercise>
+<answer><p><m>t=1</m></p></answer></exercise>
 
 <exercise number="14"><statement><m>-3(2h-6)=-12</m></statement></exercise>
 
 <exercise number="15"><statement><m>1-\dfrac{b}{3}=-5</m></statement>
-<answer></answer></exercise>
+<answer><p><m>b=18</m></p></answer></exercise>
 
 <exercise number="16"><statement><m>\dfrac{3y}{5}+2=-4</m></statement></exercise>
 
 <exercise number="17"><statement><m>\dfrac{5x}{2}+10=0</m></statement>
-<answer></answer></exercise>
+<answer><p><m>x=-4</m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 18<ndash/>19, solve.</p></introduction>
@@ -108,34 +129,127 @@ Fill in the middle column first. Then use the table to help you answer the quest
 <exercise number="18"><statement><m>11.8w-37.8=120.32</m></statement></exercise>
 
 <exercise number="19"><statement><m>9.7(2.6+v)=58.2</m></statement>
-<answer></answer></exercise>
+<answer><p><m>x=3.4</m></p></answer></exercise>
 </exercisegroup>
 
-<exercisegroup cols="3"><introduction><p>For Problems 20<ndash/>28, <ol label="a">
-	<li>Solve each inequality algebraically.</li>
-	<li>Graph your solutions on a number line.</li>  
-	<li>Give at least one value of the variable that is a solution, and one value 
-		that is not a solution.</li></ol></p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 20<ndash/>28, <ol label="a">
+    <li>Solve each inequality algebraically.</li>
+    <li>Graph your solutions on a number line.</li>  
+    <li>Give at least one value of the variable that is a solution, and one value 
+        that is not a solution.</li></ol></p></introduction>
 
 <exercise number="20"><statement><m>x+10 \le 5</m></statement></exercise>
 
 <exercise number="21"><statement><m>-3y \lt 15</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>y\gt -5</m></p></li>
+    <li><sidebyside width="100%"><image xml:id="hp-2-4-21ans">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-11.8,0)--(11.8,0);
+        \foreach \x in  {-11, -10, ..., 11} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {-10,-5,0,5,10} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below,, yshift=-2] {$\x$};
+        }
+        \draw[red, ultra thick, ->, >=stealth'] (-5,0)--(11.8,0);
+        \draw[red, fill=white] (-5,0) circle (3mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>y=-4.9</m> is a solution, <m>y=-5</m> is not.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="22"><statement><m>\dfrac{x}{3} \le 4</m></statement></exercise>
 
 <exercise number="23"><statement><m>2x+3 \gt 7</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>x\gt 2</m></p></li>
+    <li><sidebyside width="100%"><image xml:id="hp-2-4-23ans">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-11.8,0)--(11.8,0);
+        \foreach \x in  {-11, -10, ..., 11} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {-10,-5,0,5,10} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below,, yshift=-2] {$\x$};
+        }
+        \draw[red, ultra thick, ->, >=stealth'] (2,0)--(11.8,0);
+        \draw[red, fill=white] (2,0) circle (3mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>x=-7</m> is a solution, <m>x=-6</m> is not.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="24"><statement><m>-3x+2 \le 11</m></statement></exercise>
 
 <exercise number="25"><statement><m>-3 \gt \dfrac{2x}{3}+1</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>x \lt -6</m></p></li>
+    <li><sidebyside width="100%"><image xml:id="hp-2-4-25ans">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-11.8,0)--(11.8,0);
+        \foreach \x in  {-11, -10, ..., 11} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {-10,-5,0,5,10} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below,, yshift=-2] {$\x$};
+        }
+        \draw[red, ultra thick, ->, >=stealth'] (-6,0)--(-11.8,0);
+        \draw[red, fill=white] (-6,0) circle (3mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>x=-7</m> is a solution, <m>x=-6</m> is not.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="26"><statement><m>-3 \le 3x \le 12</m></statement></exercise>
 
 <exercise number="27"><statement><m>23 \gt 9-2b \ge 13</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>-7 \lt b \le -2</m></p></li>
+    <li><sidebyside width="100%"><image xml:id="hp-2-4-27ans">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-11.8,0)--(11.8,0);
+        \foreach \x in  {-11, -10, ..., 11} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {-10,-5,0,5,10} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below,, yshift=-2] {$\x$};
+        }
+        \draw[red, ultra thick] (-7,0)--(-2,0);
+        \draw[red, fill=white] (-7,0) circle (3mm);
+        \draw[red, fill=red] (-2,0) circle (3mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>b=-2</m> is a solution, <m>b=-7</m> is not.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="28"><statement><m>-8 \le \dfrac{5w+3}{4} \lt -3</m></statement></exercise>
 </exercisegroup>
@@ -226,7 +340,12 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
 	<li>Estimate the number of minutes Marvin talked if his phone bill is $25.</li>
 	<li>Write an algebraic equation for <m>P</m> in terms of <m>m</m>.</li>
 	<li>Write and solve an equation to verify your answer to part (b).</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>P\approx 20</m></p></li>
+    <li><p><m>m\approx 80</m> minutes</p></li>
+    <li><p><m>P=13+0.15m</m></p></li>
+    <li><p><m>25=13+0.15m</m>; <m>80=m</m></p></li>
+</ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 34<ndash/>38, <ol label="a">
@@ -237,24 +356,32 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
 <exercise number="34"><statement><p>Simona bought a car for $10,200. She paid $1200 down and will pay the rest in 36 monthly installments. How much is each installment? (Hint:  Write an equation about the total amount Simona pays.)</p></statement></exercise>
 
 <exercise number="35"><statement><p>Every school day, each member of the cross-country team runs a certain distance , which is assigned on the basis of ability, plus a half mile around the track. Greta runs 22.5 miles per week. What is her assigned distance? (Hint:  Write an equation about the total distance Greta runs in one school week.)</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>d=</m>Greta's assigned distance (mi)</p></li>
+    <li><p><m>5(d+0.5)=22.5</m></p></li>
+    <li><p>She is assigned 4 miles.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="36"><statement><p>The Tree People planted new trees in an area that was burned by brush fires. 60% of the seeds sprouted, but gophers ate 38 of the new sprouts. That left 112 new saplings.  How many seeds were planted? (Hint:   Write an equation about the number of seeds that survived.)</p></statement></exercise>
 
 <exercise number="37"><statement><p>During a four-day warming trend, the temperature rose from <m>-6 \degree</m> to <m>26 \degree</m>. What was the average change in temperature per day?</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>c=</m>average temperature change per day</p></li>
+    <li><p><m>26=-6+4c</m></p></li>
+    <li><p>The average change was 8 degrees per day.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="38"><statement><p>Eric is on a diet to reduce his current weight of 196 pounds to 162 pounds. If he loses 4 pounds per week, how long will it take him to reach his desired weight?</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>Use one of the formulas below to solve Problems 34<ndash/>38. 
+<exercisegroup><introduction><p>Use one of the formulas below to solve Problems 39<ndash/>40. 
 	<me>\begin{aligned}
                 \text{Perimeter of a rectangle}~~~~P \amp  = 2l+2w\\
                 \text{Area of a triangle}~~~~A \amp = \dfrac{bh}{2}               
                 \end{aligned}</me></p></introduction>
 
 <exercise number="39"><statement><p>A farmer has 500 yards of fencing material to enclose a rectangular pasture. He would like the pasture to be 75 yards wide. How long will it be?</p></statement>
-<answer></answer></exercise>
+<answer><p>175 yards</p></answer></exercise>
 
 <exercise number="40"><statement><p>A triangular sail requires 12 square meters of fabric. If the base of the sail measures 4 meters, how tall is the sail?</p></statement></exercise>
 </exercisegroup>
@@ -286,7 +413,7 @@ shows Marvin's phone bill, <m>P</m>, if he talks for <m>m</m> minutes.
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><m>4x+8=36 </m>; <m>~x=7</m></p></answer></exercise>
 
 <exercise number="42"><statement><sidebyside width="65%"><!--<image source="images/hp-2-4-42.png"><description>triangle</description></image>-->
     <image xml:id="hp-2-4-42">

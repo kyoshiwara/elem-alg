@@ -102,17 +102,17 @@
     	<li><m>\dfrac{x+30}{5}=8</m></li></ol></p></introduction>
 
 <exercise number="1"><statement><p>Ilciar has earned a total of 30 points on the first four quizzes in his biology class.  What must he earn on the fifth quiz to end up with an average of 8?</p></statement>
-<answer></answer></exercise>
+<answer><p>f</p></answer></exercise>
 
 <exercise number="2"><statement><p>Jocelyn ordered five exotic plants from a nursery. She paid a total of $30, including an $8 shipping fee. How much did she pay for each plant?</p></statement></exercise>
 
 <exercise number="3"><statement><p>The five members of the chess team pitched in to buy new equipment. They used $30 from their treasury, and each member donated $8. How much did the new equipment cost?</p></statement>
-<answer></answer></exercise>
+<answer><p>c</p></answer></exercise>
 
 <exercise number="4"><statement><p>Hemman bought 5 tapes on sale, and he cashed in a gift certificate for $8. He then owed the clerk $30.  How much was each tape?</p></statement></exercise>
 
 <exercise number="5"><statement><p>Nirusha and four other people won the office baseball pool. After spending $30 of her share, Nirusha had $8 left. What was the total amount in the pool?</p></statement>
-<answer></answer></exercise>
+<answer><p>b</p></answer></exercise>
 
 <exercise number="6"><statement><p>One-fifth of the members at Sportslife Health Club signed up for a yoga class. Eight of them dropped out, leaving 30 in the class. How many members are in the Club?</p></statement></exercise>
 </exercisegroup>
@@ -120,12 +120,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 7<ndash/>10, solve.</p></introduction>
 
 <exercise number="7"><statement><m>3x-4=1</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{5}{3} </m></p></answer></exercise>
 
 <exercise number="8"><statement><m>1.2+0.4z=3.2</m></statement></exercise>
 
 <exercise number="9"><statement><m>\dfrac{7v}{8}-3=4</m></statement>
-<answer></answer></exercise>
+<answer><p>8</p></answer></exercise>
 
 <exercise number="10"><statement><m>13=\dfrac{2}{7}x+13</m></statement></exercise>
 </exercisegroup>
@@ -159,7 +159,33 @@
     </image>
     </sidebyside>
 </statement>
-<answer></answer></exercise>
+<answer><p><m>V=2000-200t</m></p>
+<sidebyside width="50%">
+    <image xml:id="cr2-11ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.25, yscale=0.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[xstep=2] (24,20);
+        \draw[black,thick, ->, >=stealth'] (O)--(26,0) node[right]{$t$};
+        \draw[black,thick, ->, >=stealth'] (O)--(0,22) node[left, xshift=2]{$V$};
+        \foreach \x in  {10, 20} {
+         \draw[cyan,very thick] (\x,0) --(\x,20); 
+         \draw[black] (\x,.2) --++(0,-.4)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=\x as \xi using int( 100* \x )] in  {5,10,15,20} {
+         \draw[cyan, very thick] (0,\x) --(24,\x); 
+         \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \node[below left, xshift=1] at (O) {0};
+        \draw[magenta!80!black, very thick] (0,20)--(10,0);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></answer></exercise>
 
 <exercise number="12"><statement><p>Ranwa teaches aerobic dance. Her gym pays her $5 for an hour-long class, plus $2 for each paying student in the class. Write and graph an equation that gives Ranwa's pay, <m>P</m>, if there are <m>s</m> students in the class. Use the grid below.</p>
     <sidebyside width="50%"><!--<image source="images/cr2-12.png"><description>grid</description></image>-->
@@ -194,7 +220,7 @@
 
 <exercise number="13"><statement><p>Customers at Sunny Orchard can pick their own fruit. There is a $5.75 entrance fee, and the fruit costs $4.50 a bushel. Bahn spent $19.25 at the orchard. How many bushels of fruit did he pick?</p>
 </statement>
-<answer></answer></exercise>
+<answer><p><m>5.75+4.50b=19.25</m>; 3 bushels</p></answer></exercise>
 
 <exercise number="14"><statement><p>The perimeter of a rectangle is the sum of twice its width and twice its length. If 150 meters of fence enclose a rectangular yard of length 45 meters, what is the width of the yard?</p></statement></exercise>
 </exercisegroup>
@@ -204,7 +230,12 @@
 	<li><m>x-3</m></li>
 	<li><m>3-x</m></li>
 	<li><m>-(-x)</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="4">
+    <li><p>3</p></li>
+    <li><p><m>-6</m></p></li>
+    <li><p>6</p></li>
+    <li><p><m>-3</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="16"><statement><p>Graph each set of numbers on a separate number line.<ol label="a" cols="2">
 	<li><m>1.4,~2\dfrac{1}{2},~-2\dfrac{1}{3},~-3.5</m></li>
@@ -212,36 +243,36 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 17<ndash/>20, replace the comma by the proper symbol; <m>~\gt~,~\lt~,</m> or <m>~=</m>.</p></introduction>
 
-<exercise number="17"><statement><m>-2,~-3</m></statement>
-<answer></answer></exercise>
+<exercise number="17"><statement><m>-2,~{-3}</m></statement>
+<answer><p><m>\gt</m></p></answer></exercise>
 
-<exercise number="18"><statement><m>-2.02,~-2.1</m></statement></exercise>
+<exercise number="18"><statement><m>-2.02,~{-2.1}</m></statement></exercise>
 
-<exercise number="19"><statement><m>-2-(-5),~-7</m></statement>
-<answer></answer></exercise>
+<exercise number="19"><statement><m>-2-(-5),~{-7}</m></statement>
+<answer><p><m>\gt</m></p></answer></exercise>
 
-<exercise number="20"><statement><m>-6(\dfrac{-1}{3}),~-2</m></statement></exercise>
+<exercise number="20"><statement><m>-6(\dfrac{-1}{3}),~{-2}</m></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>28, simplify.</p></introduction>
 
 <exercise number="21"><statement><m>28-14-9+15</m></statement>
-<answer></answer></exercise>
+<answer><p>20</p></answer></exercise>
 
 <exercise number="22"><statement><m>11-14+(-24)-(-18)</m></statement></exercise>
 
 <exercise number="23"><statement><m>12-[6-(-2)-5]</m></statement>
-<answer></answer></exercise>
+<answer><p>9</p></answer></exercise>
 
 <exercise number="24"><statement><m>-2+[-3-(-14)+6]</m></statement></exercise>
 
 <exercise number="25"><statement><m>5-(-4)3-7(-2)</m></statement>
-<answer></answer></exercise>
+<answer><p>31</p></answer></exercise>
 
 <exercise number="26"><statement><m>5-(-4)(3-7)(-2)</m></statement></exercise>
 
 <exercise number="27"><statement><m>\dfrac{6(-3)-8}{-4(-3-5)}</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{-13}{16} </m></p></answer></exercise>
 
 <exercise number="28"><statement><m>\dfrac{6(-2)-8(-9)}{5(2-7)}</m></statement></exercise>
 </exercisegroup>
@@ -249,40 +280,40 @@
 <exercisegroup><introduction><p>For Problems 29<ndash/>32, evaluate.</p></introduction>
 
 <exercise number="29"><statement><m>2-ab-3a,~~</m>for  <m>~~a=-5,~b=-4</m></statement>
-<answer></answer></exercise>
+<answer><p><m>-3</m></p></answer></exercise>
 
 <exercise number="30"><statement><m>(8-6xy)xy,~~</m>for  <m>~~x=-2,~y=2</m></statement></exercise>
 
 <exercise number="31"><statement><m>\dfrac{-3-y}{4-x},~~</m>for  <m>~~x=-1,~y=2</m></statement>
-<answer></answer></exercise>
+<answer><p><m>-1</m></p></answer></exercise>
 
 <exercise number="32"><statement><m>\dfrac{5}{9}(F-32)+273,~~</m>for  <m>~~F=-22</m></statement></exercise>
 </exercisegroup>
 
 <exercise number="33"><statement><p>If the overnight low in Lone Pine was <m>-4 \degree</m>F, what was the temperature after it had warmed by <m>10 \degree</m>F?</p></statement>
-<answer></answer></exercise>
+<answer><p><m>6\degree\text{F}</m></p></answer></exercise>
 
 <exercise number="34"><statement><p>The winter temperature in the city is typically <m>3 \degree</m>F warmer than in the adjoining suburb. If the temperature in the suburb is <m>-7 \degree</m>F, what is the temperature in the city?</p></statement></exercise>
 
 <exercise number="35"><statement><p>Jordan's clothing company is worth 280,000 dollars and Asher's is worth 180,000 dollars. How much more is Jordan's company worth than Asher's?</p></statement>
-<answer></answer></exercise>
+<answer><p>$460,000</p></answer></exercise>
 
 <exercise number="36"><statement><p>A certain arsenic compound has a melting point of <m>-8.5 \degree</m>F. If the melting point is reduced by <m>1.1 \degree</m>F, what is the new melting point?</p></statement></exercise>
 
 <exercise number="37"><statement><p>In his first football game, Bo rushes for three consecutive losses of 4 yards each.  What is his total net yardage for the three plays?</p></statement>
-<answer></answer></exercise>
+<answer><p><m>-12</m> yd</p></answer></exercise>
 
 <exercise number="38"><statement><p>In testing a military aircraft's handling at low altitude, the pilot runs a series of flights over a set course, each at an altitude 150 feet lower than the previous flight. What is the net change in altitude between the first and the sixth flights?</p></statement></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 39<ndash/>42, find three solutions for the inequality.</p></introduction>
 
 <exercise number="39"><statement><m>x-2 \lt 5</m></statement>
-<answer></answer></exercise>
+<answer><p>6.9, 6, 5</p></answer></exercise>
 
 <exercise number="40"><statement><m>4x \ge -12</m></statement></exercise>
 
 <exercise number="41"><statement><m>-9 \le -3x</m></statement>
-<answer></answer></exercise>
+<answer><p>3, 2, 1</p></answer></exercise>
 
 <exercise number="42"><statement><m>-15 \gt 5+x</m></statement></exercise>
 </exercisegroup>
@@ -309,35 +340,87 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></p></li>
-	<li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
-	<li>Graph your equation on the grid.
-		<sidebyside width="45%"><!--<image source="images/cr2-43.png"><description>grid</description></image>-->
+    <li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
+    <li>Graph your equation on the grid.
+        <sidebyside width="45%"><!--<image source="images/cr2-43.png"><description>grid</description></image>-->
     <image xml:id="cr2-43">
         <description>grid</description>
         <latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-		\begin{tikzpicture} [xscale=.35, yscale=0.12]
-		\draw[cyan] (-4,-30) grid[ ystep=3] (14,30);
-		\draw[black,thick, ->, >=stealth'] (-4,0)--(15,0) node[right]{$h$};
-		\draw[black,thick, ->, >=stealth'] (0,-30)--(0,34) node[left, xshift=2]{$T$};
-		\foreach \x in  {5, 10} {
-		 \draw[cyan,very thick] (\x,-30) --(\x,30); 
-		 \draw[black] (\x,.4) --++(0,-.8)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
-		}
-		\foreach \x in {-24,-12,12,24} {
-		 \draw[cyan, very thick] (-4,\x) --(14,\x); 
-		 \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
-		}
+        \begin{tikzpicture} [xscale=.35, yscale=0.12]
+        \draw[cyan] (-4,-30) grid[ ystep=3] (14,30);
+        \draw[black,thick, ->, >=stealth'] (-4,0)--(15,0) node[right]{$h$};
+        \draw[black,thick, ->, >=stealth'] (0,-30)--(0,34) node[left, xshift=2]{$T$};
+        \foreach \x in  {5, 10} {
+         \draw[cyan,very thick] (\x,-30) --(\x,30); 
+         \draw[black] (\x,.4) --++(0,-.8)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in {-24,-12,12,24} {
+         \draw[cyan, very thick] (-4,\x) --(14,\x); 
+         \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-		</sidebyside></li>
-	<li>What was the temperature at 10 am?</li>
-	<li>When will the temperature reach <m>-15 \degree</m>?</li>
-	<li>How much did the temperature drop between 3 pm and 9 pm?</li></ol></p></statement>
-<answer></answer></exercise>
+        </sidebyside></li>
+    <li>What was the temperature at 10 am?</li>
+    <li>When will the temperature reach <m>-15 \degree</m>?</li>
+    <li>How much did the temperature drop between 3 pm and 9 pm?</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><sidebyside width="45%" margins="0% 55%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>h</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell></row>
+                    <row> 
+                        <cell><m>T</m></cell>
+                        <cell><m>30</m></cell>
+                        <cell><m>24</m></cell>
+                        <cell><m>18</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>-6</m></cell></row>
+                    </tabular></sidebyside></li>
+                    <li><p><m>T=18-3h</m></p></li>
+                    <li><sidebyside width="45%" margins="0% 55%">
+    <image xml:id="cr2-43ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.35, yscale=0.12]
+        \draw[cyan] (-4,-30) grid[ ystep=3] (14,30);
+        \draw[black,thick, ->, >=stealth'] (-4,0)--(15,0) node[right]{$h$};
+        \draw[black,thick, ->, >=stealth'] (0,-30)--(0,34) node[left, xshift=2]{$T$};
+        \foreach \x in  {5, 10} {
+         \draw[cyan,very thick] (\x,-30) --(\x,30); 
+         \draw[black] (\x,.4) --++(0,-.8)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x in {-24,-12,12,24} {
+         \draw[cyan, very thick] (-4,\x) --(14,\x); 
+         \draw[black] (.2,\x) --++(-.4,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!80!black, very thick] (-4,30) -- (14,-24);
+        \foreach \x in {-4,-2,0,1,3,5,8} {
+         \filldraw[blue] ((\x,{18-3*\x}) ellipse (2.41mm and 7mm);
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
+        <li><p><m>24\degree\text{F}</m></p></li>
+        <li><p>11 p.m.</p></li>
+        <li><p><m>-18\degree\text{F}</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="44"><statement><p>Graph each pair of points on the grid, then find the distance between them.<ol label = "a" cols="2">
 	<li><m>A(-2,-4)</m> and <m>B(-7,-4)</m></li>
@@ -349,7 +432,29 @@
 
 <exercise number="45"><statement><m>y=-2x+7</m>
 <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><sidebyside width="90%">
+    <image xml:id="cr2-45ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick, <->, >=stealth'] (-1.5,10)--(8.5,-10);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></answer></exercise>
 
 <exercise number="46"><statement><m>y=\dfrac{4}{3}x-2</m>
 <sidebyside width="95%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement></exercise>
@@ -357,8 +462,8 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 47<ndash/>48, simplify the expression.</p></introduction>
 
-<exercise number="47"><statement><m>(4m+2m)-(2m-5m)</m></statement>
-<answer></answer></exercise>
+<exercise number="47"><statement><m>(4m+2n)-(2m-5n)</m></statement>
+<answer><p><m>2m+7n</m></p></answer></exercise>
 
 <exercise number="48"><statement><m>(-5c-6)+(-11c+15)</m></statement></exercise>
 </exercisegroup>
@@ -366,17 +471,17 @@
 <exercisegroup cols="2"><introduction><p>For Problems 49<ndash/>54, solve.</p></introduction>
 
 <exercise number="49"><statement><m>4z-6=-10</m></statement>
-<answer></answer></exercise>
+<answer><p><m>z=-1</m></p></answer></exercise>
 
 <exercise number="50"><statement><m>3-5x=-17</m></statement></exercise>
 
 <exercise number="51"><statement><m>-1=\dfrac{5w}{3}+4</m></statement>
-<answer></answer></exercise>
+<answer><p><m>w=-3</m></p></answer></exercise>
 
 <exercise number="52"><statement><m>4-\dfrac{2z}{5}=8</m></statement></exercise>
 
 <exercise number="53"><statement><m>3h-2=5h+10</m></statement>
-<answer></answer></exercise>
+<answer><p><m>h=-6</m></p></answer></exercise>
 
 <exercise number="54"><statement><m>7-9w=w+7</m></statement></exercise>
 </exercisegroup>
@@ -411,7 +516,10 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>-5</m></p></li>
+    <li><p><m>2</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="56"><statement><p><ol label="a">
     <li><m>24x-1800=-1250</m></li>
@@ -447,7 +555,11 @@
 	<li>If the width of a rectangle is <m>x</m>, what is its length?</li>  
 	<li>Express the perimeter of the rectangle in terms of <m>x</m>.</li>
 	<li>Suppose the perimeter of the rectangle is 48 centimeters. Find the dimensions of the rectangle.</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>3x</m></p></li>
+    <li><p><m>8x</m></p></li>
+    <li><p>6 cm by 18 cm</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="58"><statement><p>In a city council election the winner received 132 votes more than her opponent.
 <ol label="a">
@@ -458,17 +570,81 @@
 <exercisegroup cols="2"><introduction><p>For Problems 59<ndash/>64, For Problems 59-64, solve the inequality algebraically, and graph the solutions on a number line.</p></introduction>
 
 <exercise number="59"><statement><m>2-3x \le -7</m></statement>
-<answer></answer></exercise>
+<answer><sidebyside>
+    <image xml:id="cr2-59ans">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-7.8,0)--(7.8,0);
+        \foreach \x in  {-7,-6, ..., 7} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {-5,0,5} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below,, yshift=-2] {$\x$};
+        }
+        \draw[red, ultra thick, ->, >=stealth'] (3,0)--(7.8,0);
+        \draw[red, fill=red] (3,0) circle (3mm);
+        \node[left] at (-8.5,0) {$z \ge 3$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></answer></exercise>
 
 <exercise number="60"><statement><m>\dfrac{t}{-3}-1.7 \gt 2.8</m></statement></exercise>
 
 <exercise number="61"><statement><m>3k-13 \lt 5+6k</m></statement>
-<answer></answer></exercise>
+<answer><sidebyside>
+    <image xml:id="cr2-61ans">
+        <description>number line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-7.8,0)--(7.8,0);
+        \foreach \x in  {-7,-6, ..., 7} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {-5,0,5} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below,, yshift=-2] {$\x$};
+        }
+        \draw[red, ultra thick, ->, >=stealth'] (-5,0)--(7.8,0);
+        \draw[red, fill=white] (-5,0) circle (3mm);
+        \node[left] at (-8.5,0) {$k > -6$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></answer></exercise>
 
 <exercise number="62"><statement><m>12a-28 \lt -18+2a</m></statement></exercise>
 
 <exercise number="63"><statement><m>-9 \lt 5-2n \le -1</m></statement>
-<answer></answer></exercise>
+<answer><sidebyside>
+    <image xml:id="cr2-63ans">
+        <description>numberline</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[black,thick, ->, >=stealth'] (-2.8,0)--(11.8,0);
+        \foreach \x in  {-2,-1, ..., 11} {
+         \draw[black] (\x,.3) --++(0,-.3);
+        }
+        \foreach \x in  {10,0,5} {
+         \draw[black] (\x,.6) --++(0,-.6)  node[below,, yshift=-2] {$\x$};
+        }
+        \draw[red, ultra thick] (3,0)--(7,0);
+        \draw[red, fill=white] (7,0) circle (3mm);
+        \draw[red, fill=red] (3,0) circle (3mm);
+        \node[left] at (-3.5,0) {$7 > n \ge 3$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></answer></exercise>
 
 <exercise number="64"><statement><m>15 \ge -6+3m \ge -6</m></statement></exercise>
 </exercisegroup>
