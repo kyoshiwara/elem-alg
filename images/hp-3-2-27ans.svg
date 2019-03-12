@@ -228,5 +228,7 @@
   <use xlink:href="#glyph1-5" x="9.33" y="24.02"/>
   <use xlink:href="#glyph1-5" x="15.183168" y="24.02"/>
 </g>
+<path style="fill:none;stroke-width:1.19553;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(100%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M -0.001875 0.00046875 L 168.759844 168.754375 " transform="matrix(1,0,0,-1,26.83,224.27)"/>
+<path style="fill-rule:nonzero;fill:rgb(100%,0%,0%);fill-opacity:1;stroke-width:1.19553;stroke-linecap:butt;stroke-linejoin:round;stroke:rgb(100%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 1.273398 0.000421827 C -0.320316 0.318107 -1.91402 0.956193 -3.825351 2.072129 C -1.911267 0.638553 -1.911303 -0.63753 -3.825468 -2.070997 C -1.914074 -0.955169 -0.317572 -0.319935 1.273398 0.000421827 Z M 1.273398 0.000421827 " transform="matrix(0.7071,-0.70714,-0.70714,-0.7071,195.58816,55.51405)"/>
 </g>
 </svg>

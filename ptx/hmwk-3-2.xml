@@ -3,37 +3,37 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 3.2</title>
 
- <exercisegroup><introduction><p>For Problems 1<ndash/>4, write ratios or rates.</p></introduction>
+<exercisegroup><introduction><p>For Problems 1<ndash/>4, write ratios or rates.</p></introduction>
 
 <exercise number="1"><statement><p>In a survey of 300 employees at a large company, 125 used public transportation to commute to work.  What is the ratio of employees who use public transportation to those who do not?</p></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{5}{7} </m></p></answer></exercise>
 
 <exercise number="2"><statement><p>Erica tutored in the math lab for 6.5 hours last week and made $56.68.  What is Erica's rate of pay in dollars per hour?</p></statement></exercise>
 
 <exercise number="3"><statement><p>The instructions for mixing a rose fertilizer call for <m>\dfrac{3}{4}</m> cup of potash and <m>1\dfrac{3}{8}</m> cups of nitrogen.  What is the ratio of nitrogen to potash?</p></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{11}{6} </m></p></answer></exercise>
 
 <exercise number="4"><statement><p>An orange contains 0.14 milligram of thiamin and 0.6 milligram of niacin.  What is the ratio of niacin to thiamin?</p></statement></exercise>
 </exercisegroup>
 
 <exercise number="5"><statement><p>Which of the following expressions are proportions?<ol label="a" cols="2">
-	<li><m>\dfrac{3}{x}=\dfrac{8}{15}</m></li>	
-	<li><m>\dfrac{v}{9}-\dfrac{12}{5}</m></li>
-	<li><m>\dfrac{w}{6}+\dfrac{2}{5}=\dfrac{3}{2}</m></li>
-	<li><m>\dfrac{2.6}{m}=\dfrac{m}{1.6}</m></li></ol></p></statement>
-<answer></answer></exercise>
+    <li><m>\dfrac{3}{x}=\dfrac{8}{15}</m></li>  
+    <li><m>\dfrac{v}{9}-\dfrac{12}{5}</m></li>
+    <li><m>\dfrac{w}{6}+\dfrac{2}{5}=\dfrac{3}{2}</m></li>
+    <li><m>\dfrac{2.6}{m}=\dfrac{m}{1.6}</m></li></ol></p></statement>
+<answer><p>a and d are proportions.</p></answer></exercise>
 
 <exercisegroup cols="2"><introduction><p>For Problems 6<ndash/>9, solve the proportion.</p></introduction>
 
 <exercise number="6"><statement><m>\dfrac{x}{16}=\dfrac{9}{24}</m></statement></exercise>
 
 <exercise number="7"><statement><m>\dfrac{182}{65}=\dfrac{21}{w}</m></statement>
-<answer></answer></exercise>
+<answer><p><m>w=\dfrac{15}{2} </m></p></answer></exercise>
 
 <exercise number="8"><statement><m>\dfrac{7}{b}=\dfrac{5}{9}</m></statement></exercise>
 
 <exercise number="9"><statement><m>\dfrac{7/3}{3}=\dfrac{z}{9/2}</m></statement>
-<answer></answer></exercise>
+<answer><p><m>z=\dfrac{7}{2} </m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 10<ndash/>12, decide whether the two variables are proportional.</p></introduction>
@@ -75,7 +75,7 @@
                         <cell>10</cell>
                         <cell>100</cell></row>
                     </tabular></sidebyside></p></statement>
-<answer></answer></exercise>
+<answer><p>no</p></answer></exercise>
 
 <exercise number="12"><statement><p>
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -100,34 +100,34 @@
 <exercisegroup><introduction><p>For Problems 13<ndash/>16, decide whether the two quantities are proportional.</p></introduction>
 
 <exercise number="13"><statement><p>A 9-inch pizza costs $6, and a 12-inch pizza costs $10.</p></statement>
-<answer></answer></exercise>
+<answer><p>no</p></answer></exercise>
 
 <exercise number="14"><statement><p>A commuter train travels 10 miles in 20 minutes, and 15 miles in 30 minutes.</p></statement></exercise>
 
 <exercise number="15"><statement><p>It takes <m>4\dfrac{1}{2}</m> cups of flour to make two loaves of bread, and 18 cups to make eight loaves.</p></statement>
-<answer></answer></exercise>
+<answer><p>yes</p></answer></exercise>
 
 <exercise number="16"><statement><p>An 18-foot sailboat sleeps four, and a 32-foot sailboat sleeps six.</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 17<ndash/>22, <ol label="a">
-	<li>Write a proportion.</li>
-	<li>Solve the proportion and answer the question.</li></ol></p></introduction>
+    <li>Write a proportion.</li>
+    <li>Solve the proportion and answer the question.</li></ol></p></introduction>
 
 <exercise number="17"><statement><p>If 3 pounds of coffee makes 225 cups, how many pounds of coffee is needed to make 3000 cups of coffee?</p></statement>
-<answer></answer></exercise>
+<answer><p>40 lbs</p></answer></exercise>
 
 <exercise number="18"><statement><p>Gunther's car uses 32 liters of gas to travel 184 kilometers.  How many liters will he need to travel 575 kilometers?</p></statement></exercise>
 
-<exercise number="19"><statement><p>On a map of Fairfield County, centimeter represents a distance of 10 kilometers.  If Eastlake and Kenwood are 6 centimeters apart on the map, what is the actual distance between the two towns?</p></statement>
-<answer></answer></exercise>
+<exercise number="19"><statement><p>On a map of Fairfield County, <m>\frac{3}{4} </m> centimeter represents a distance of 10 kilometers.  If Eastlake and Kenwood are 6 centimeters apart on the map, what is the actual distance between the two towns?</p></statement>
+<answer><p>80 kilometers</p></answer></exercise>
 
 <exercise number="20"><statement><p>In a survey of 1200 voters, 863 favored the construction of a light rail system.  If 8000 people vote, about how many will vote for the light rail system?</p></statement></exercise>
 
 <exercise number="21"><statement><p>If 1 inch equals 2.54 centimeters, what is the length in inches of a wire 35 centimeters long?</p></statement>
-<answer></answer></exercise>
+<answer>about 13.78 in.</answer></exercise>
 
-<exercise number="22"><statement><p>A cinnamon bread recipe calls for 1tablespoons of cinnamon and 5 cups of flour.  How much cinnamon would be needed with 8 cups of flour?</p></statement></exercise>
+<exercise number="22"><statement><p>A cinnamon bread recipe calls for 1<m>\frac{1}{4} </m> tablespoons of cinnamon and 5 cups of flour.  How much cinnamon would be needed with 8 cups of flour?</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 23<ndash/>24, <ol label="a">
@@ -174,7 +174,35 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>w=7.5h</m></p></li>
+    <li><sidebyside width="45^" margins="0% 55%">
+    <image xml:id="hp-3-2-23ans">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=1.1]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[step=1/2] (5,6);
+        \draw[black,very thick, ->, >=stealth'] (O)--(5.5,0) node[right]{$h$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,6.5) node[left]{$w$};
+        \foreach \x [evaluate=\x as \xi using int(20*\x] in  {1,2,3,4,5} {
+         \draw[cyan, very thick] (\x, 0) --++(0,6);
+         \draw[black] (\x,.1) --++(0,-.2) node[below]   {$\xi$};
+        }
+        \foreach \x [evaluate=\x as \xi using int(100*\x] in  {1,2,3,4,5,6} {
+         \draw[cyan, very thick] (0,\x) --++(5,0);
+         \draw[black] (.1,\x) --++(-.2,0) node[left]   {$\xi$};
+        }
+        \draw[red,very thick, ->, >=stealth'] (0,0)--(4,6);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p>67 hours</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>The amount of pure copper, <m>c</m>, produced by Copperfield Mine is proportional to the amount of ore extracted, <m>g</m>.  A new lode produced 24 grams of copper from 800  grams of ore.  How many grams of copper will one kilogram of ore yield?</p>
 <sidebyside widths= "20% 45%" margins="10% 10%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -218,9 +246,12 @@
 </exercisegroup>
 
 <exercise number="25"><statement><p>Trish's real-estate commission is proportional to the amount of the sale.  She made  $3200 commission on a sale of $80,000.<ol label="a">  
-	<li>Write an equation relating Trish's sales and her commission.</li>
-	<li>What would her commission be on the sale of a $200,000 property?</li></ol></p></statement>
-<answer></answer></exercise>
+    <li>Write an equation relating Trish's sales and her commission.</li>
+    <li>What would her commission be on the sale of a $200,000 property?</li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><p><m>C=0.04S</m></p></li>
+    <li><p>$8000</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="26"><statement><p>Everett can bicycle 16 miles in 2 hours and 24 miles in 3 hours.  The distance <m>d</m> that Everett travels is proportional to the time <m>t</m> that he bicycles.<ol label="a"> 
     <li>Write an equation for <m>d</m> in terms of <m>t</m>.</li>
@@ -286,9 +317,9 @@
 
 <exercise number="27"><statement><p>The sales tax on $12 is 72 cents, and the sales tax on $15 is 90 cents.  The tax <m>T</m> is proportional to the price <m>P</m>.
 <ol label="a"> 
-	<li>Write an equation for <m>T</m> in terms of <m>P</m>.</li>
-	<li><p>Graph your equation.</p>
-	<sidebyside width="50%"><!--<image source="images/hp-3-2-27.png"><description>grid</description></image>-->
+    <li>Write an equation for <m>T</m> in terms of <m>P</m>.</li>
+    <li><p>Graph your equation.</p>
+    <sidebyside width="50%"><!--<image source="images/hp-3-2-27.png"><description>grid</description></image>-->
     <image xml:id="hp-3-2-27">
         <description>grid</description>
         <latex-image>
@@ -299,7 +330,7 @@
         \coordinate (O) at (0,0);
         \draw[cyan] (O) grid[ystep=3/50] (20,1.44);
         \draw[black,very thick, ->, >=stealth'] (O)--(21.5,0) node[right]{$P$};
-        \draw[black,very thick, ->, >=stealth'] (O)--(0,1.55) node[left]{$t$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,1.55) node[left]{$T$};
         \foreach \x in  {5,10,15,20} {
          \draw[cyan, very thick] (\x, 0) --++(0,1.44);
          \draw[black] (\x,.02) --++(0,-.04) node[below]   {$\x$};
@@ -312,7 +343,7 @@
     </latex-image>
     </image>
     </sidebyside></li>
-	<li><p>Complete the tables, and use them to answer the question below.</p>
+    <li><p>Complete the tables, and use them to answer the question below.</p>
 
 <sidebyside widths="20% 20%" margins="30% 30%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -329,7 +360,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular>
 
-		<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>P</m></cell>
                         <cell><m>T</m></cell></row>
@@ -345,7 +376,35 @@
                     </tabular></sidebyside>
 
     <p>What happens to the sales tax when the price is cut in half?</p></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>T=0.06T</m></p></li>
+    <li><sidebyside width="50%" margins="0% 50%">
+    <image xml:id="hp-3-2-27ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.3, yscale=5]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[ystep=3/50] (20,1.44);
+        \draw[black,very thick, ->, >=stealth'] (O)--(21.5,0) node[right]{$P$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,1.55) node[left]{$T$};
+        \foreach \x in  {5,10,15,20} {
+         \draw[cyan, very thick] (\x, 0) --++(0,1.44);
+         \draw[black] (\x,.02) --++(0,-.04) node[below]   {$\x$};
+        }
+        \foreach \x in  {0.12,0.24,0.36,0.48,0.60,0.72,0.84,0.96,1.08,1.20,1.32,1.44} {
+         \draw[cyan, very thick] (0,\x) --++(20,0);
+         \draw[black] (.2,\x) --++(-.4,0) node[left,style={/pgf/number format/.cd,fixed,precision=2}] {$\x$};
+        }
+        \draw[red, very thick, ->, >=stealth'] (0,0)--(20, 1.2);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p>The tax is also cut in half.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>The cost of tuition at Walden College is given by the formula <m>T=500+40u</m>,  where <m>u</m> is the number of units you take.  <ol label="a">
 	<li><p>Fill in the tables.</p> 
@@ -425,7 +484,48 @@
     </image>
         </sidebyside></li>
     <li>Is the circumference of a circle proportional to its radius?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>C=2\pi r</m></p></li>
+    <li><sidebyside width="45%" margins="0% 55%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+        <row bottom="minor">
+            <cell><m>r</m></cell>
+            <cell><m>2</m></cell>
+            <cell><m>5</m></cell>
+            <cell><m>7</m></cell>
+            <cell><m>10</m></cell></row>
+        <row> 
+            <cell><m>C</m></cell>
+            <cell><m>12.6</m></cell>
+            <cell><m>31.4</m></cell>
+            <cell><m>44.0</m></cell>
+            <cell><m>62.8</m></cell></row>
+    </tabular></sidebyside></li>
+    <li><sidebyside width="50%" margins="0% 50%"><image xml:id="hp-3-2-29ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [xscale=.6, yscale=0.07]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (O) grid[ystep=5] (10,65);
+        \draw[black,very thick, ->, >=stealth'] (O)--(11,0) node[right]{$r$};
+        \draw[black,very thick, ->, >=stealth'] (O)--(0,70) node[left]{$C$};
+        \foreach \x in  {5,10} {
+        % \draw[cyan, very thick] (\x, 0) --++(0,65);
+         \draw[black] (\x,2) --++(0,-4) node[below]   {$\x$};
+        }
+        \foreach \x in  {10,20,...,60} {
+        % \draw[cyan, very thick] (0,\x) --++(10,0);
+         \draw[black] (.15,\x) --++(-.3,0) node[left,style={/pgf/number format/.cd,fixed,precision=2}] {$\x$};
+        }
+        \draw[red, very thick, ->, >=stealth'] (0,0)--(10, 20*pi);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
+        <li><p>Yes</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="30"><statement><p><ol label="a">
 	<li>State a formula for the area of a square in terms of the length of its side.</li>
@@ -471,7 +571,7 @@
         </sidebyside></li>
 	<li>Is the area of a square proportional to the length of its side?</li></ol></p></statement></exercise>
 
-<exercise number="30"><statement><p>The following recipe for Cadet Mess Sloppy Joes comes from the West Point Officers Wives' Club Cookbook.</p> 
+<exercise number="31"><statement><p>The following recipe for Cadet Mess Sloppy Joes comes from the West Point Officers Wives' Club Cookbook.</p> 
 
 <p>For 1000 servings:
 <sidebyside><tabular> 
@@ -510,7 +610,12 @@ Cook off turkey and beef in oven; place in pots. Braise off chopped peppers and 
 	<li>What is the ratio of tomato puree to tomato catsup?  How many servings of sloppy joes can you make if you have only 5 cans of tomato catsup?  How many cans of tomato puree will you need?</li>
 	<li>How much chili powder (in ounces) will you need to serve sloppy joes to 50 people?  How many pounds of ground beef?</li>
 	<li>The cookbook also lists the ingredients needed for 4500 servings.  How many cans of mushrooms are required for 4500 servings?  How many pounds of onions?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p>3 to 2</p></li>
+    <li><p><m>416\frac{2}{3} </m> servings; <m>7\frac{1}{2} </m> cans</p></li>
+    <li><p>2.4 oz; 15.5 lb</p></li>
+    <li><p>24.75 cans; 90 lb</p></li>
+</ol></p></answer></exercise>
 
 </exercises>
 

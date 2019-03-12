@@ -38,7 +38,10 @@
     </image>
 </sidebyside>
 </statement>
-<answer></answer></exercise>
+<answer><p><ol>
+    <li><p><m>\dfrac{3}{2} </m></p></li>
+    <li><p><m>-2</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="2"><statement><!--<p><ol label="a" cols="2">
     <li><p><sidebyside width="100%"><image source="images/hp-3-3-2a.png"><description>segment</description></image></sidebyside></p></li>
@@ -116,7 +119,7 @@
     </latex-image>
     </image>
     </sidebyside></p></statement>
- <answer></answer></exercise>  
+ <answer><p><m>15 </m></p></answer></exercise>  
  
  <exercise number="4"><statement><p>Graph the line and compute its slope.
  	<me>y=-12x+32</me>
@@ -186,7 +189,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-</sidebyside></statement><answer></answer></exercise>
+</sidebyside></statement><answer><p><m>\dfrac{-1}{2} </m></p></answer></exercise>
 
 <exercise number="6"><statement><p><m>3x-2y=0</m></p>
 <sidebyside width="90%"><!--<image source="images/hp-3-3-6.png"><description>graph</description></image>-->
@@ -224,7 +227,37 @@
 
 <exercise number="7"><statement><p><m>2x+3y=12</m>
 	<me>(-3,6)~~\text{and}~~(3,2)</me></p>
-<sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement><answer></answer></exercise>
+<sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement><answer><p><ol label="a">
+    <li><p><m>(0,4) </m>, <m>~(6,0) </m></p></li>
+    <li><sidebyside>
+    <image xml:id="hp-3-3-7ans">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, ultra thick, <->, >=stealth'] (-9,10)--(10,-8/3);
+        \filldraw[red!80!black] (0,4) circle (2.5mm);
+        \filldraw[red!80!black] (6,0) circle (2.5mm);
+        \filldraw[red!80!black] (-3,6) circle (2.5mm);
+        \filldraw[red!80!black] (3,2) circle (2.5mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>\dfrac{-2}{3} </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="8"><statement><p><m>5x-2y=10</m>
 	<me>(-2,-10)~~\text{and}~~(4,5)</me></p>
@@ -232,7 +265,37 @@
 
 <exercise number="9"><statement><p><m>x+y=5</m>
 	<me>(-3,8)~~\text{and}~~(8,-3)</me></p>
-<sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement><answer></answer></exercise>
+<sidebyside width="100%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement><answer><p><ol label="a">
+    <li><p><m>(0,5) </m>, <m>~(5,0) </m></p></li>
+    <li><sidebyside>
+    <image xml:id="hp-3-3-9ans">
+        <description>triangle</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, ultra thick, <->, >=stealth'] (-5,10)--(10,-5);
+        \filldraw[red!80!black] (0,5) circle (2.5mm);
+        \filldraw[red!80!black] (5,0) circle (2.5mm);
+        \filldraw[red!80!black] (-3,8) circle (2.5mm);
+        \filldraw[red!80!black] (8,-3) circle (2.5mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>-1 </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="10"><statement><p><m>x-2y=4</m>
 	<me>(6,1)~~\text{and}~~(-4,-4)</me></p>
@@ -240,12 +303,12 @@
 </exercisegroup>
 
 <exercise number="11"><statement><p>A line contains the points <m>(0,0)</m> and <m>(3,2)</m>. What is its slope?</p></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{2}{3} </m></p></answer></exercise>
 
 <exercise number="12"><statement><p>A line contains the points <m>(0,0)</m> and <m>(-30,50)</m>. What is its slope?</p></statement></exercise>
 
 <exercise number="13"><statement><p>Which line is steeper: one with slope <m>\dfrac{3}{5}</m> or one with slope <m>\dfrac{5}{3}</m>?</p></statement>
-<answer></answer></exercise>
+<answer><p>The line with slope <m>\dfrac{5}{3} </m> is steeper.</p></answer></exercise>
 
 <exercise number="14"><statement><p>Which line is decreasing: one with slope <m>\dfrac{1}{4}</m> or one with slope <m>-2</m>?</p></statement></exercise>
 
@@ -257,15 +320,15 @@
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-		\begin{tikzpicture} [scale=1.5]
-		\draw[black,thick](0,0)--(1,0) node[below, midway]{$\Delta x=7$};
-		\draw[black,thick] (1,0)--(1,1.5) node[right, midway]{$\Delta y$};
-		\draw[red,thick, <->, >=stealth'] (-.2, -.3)--(1.2, 1.8);
+        \begin{tikzpicture} [scale=1.5]
+        \draw[black,thick](0,0)--(1,0) node[below, midway]{$\Delta x=7$};
+        \draw[black,thick] (1,0)--(1,1.5) node[right, midway]{$\Delta y$};
+        \draw[red,thick, <->, >=stealth'] (-.2, -.3)--(1.2, 1.8);
         \end{tikzpicture}]]>
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer><p><m>\dfrac{35}{2}</m></p></answer></exercise>
+<answer><p><m>\Delta y = 17.5</m></p></answer></exercise>
 
 <exercise number="16"><statement><p>The line shown below has slope <m>-4</m>. If <m>\Delta y=-6</m>, find <m>\Delta x</m>.</p>
 <sidebyside width="20%"><!--<image source="images/hp-3-3-16.png"><description>segment</description></image>-->
@@ -275,10 +338,10 @@
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
-		\begin{tikzpicture} [scale=.8]
-		\draw[black,thick](0,0)--(1,0) node[below, midway]{$\Delta x$};
-		\draw[black,thick] (0,0)--(0,4) node[left, midway]{$\Delta y=-6$};
-		\draw[red,thick, <->, >=stealth'] (-.1, 4.4)--(1.1, -.4);
+        \begin{tikzpicture} [scale=.8]
+        \draw[black,thick](0,0)--(1,0) node[below, midway]{$\Delta x$};
+        \draw[black,thick] (0,0)--(0,4) node[left, midway]{$\Delta y=-6$};
+        \draw[red,thick, <->, >=stealth'] (-.1, 4.4)--(1.1, -.4);
         \end{tikzpicture}]]>
     </latex-image>
     </image>
@@ -315,7 +378,10 @@
     </latex-image>
     </image>
 </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>d=25g</m></p></li>
+    <li><p><m>\dfrac{25\text{ miles}}{1\text{ gallon}} </m>; the car gets 25 miles per gallon</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="18"><statement><p>The sales tax on a $15 purchase is 60 cents, and 80 cents on a $20 purchase. Write an equation for the tax <m>T</m>, in cents, on a purchase of <m>p</m> dollars.</p>
 <sidebyside width="35%"><!--<image source="images/hp-3-3-18.png"><description>segment</description></image>-->
@@ -371,9 +437,12 @@
 </sidebyside>
 <p><ol label="a">
 	<li>How much does Lynette save each week?</li>
-	<li>Give the coordinates <m>w,A)</m> of any two points on the graph. Use those coordinates to compute the slope of the graph, <m>\dfrac{\Delta A}{\Delta w}</m>.</li> 
+	<li>Give the coordinates <m>(w,A)</m> of any two points on the graph. Use those coordinates to compute the slope of the graph, <m>\dfrac{\Delta A}{\Delta w}</m>.</li> 
 	<li>What are the units of the slope?  What does the slope tell you about the problem?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p>$50</p></li>
+    <li><p><m>(0,200) </m>, <m>(2,300) </m>, <m>~\dfrac{\Delta A}{\Delta w}=50 </m></p></li> 
+    <li><p>dollars/week. She is saving $50 per week.</p></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>Jason is raising a rabbit for the county fair. The figure below shows the rabbit's weight <m>W</m> when it was <m>t</m> weeks old.</p>
 <sidebyside width="40%"><!--<image source="images/hp-3-3-20.png"><description>graph</description></image>-->
@@ -408,7 +477,7 @@
 <exercisegroup><introduction><p>For Problems 21<ndash/>22, draw and label a sketch for the situation. Use the definition of slope to answer the questions.</p></introduction>
 
 <exercise number="21"><statement><p>A sign on the highway says "6% grade, next 3 miles."  This means that the slope of the road ahead is <m>\dfrac{6}{100}</m>. How much will you climb in elevation (in feet) over the next 3 miles?</p></statement>
-<answer></answer></exercise>
+<answer><p>950.4 ft</p></answer></exercise>
 
 <exercise number="22"><statement><p>A wheelchair ramp must have a slope of 0.125. If the ramp must reach a door whose base is 2 feet off the ground, how far from the building should the base of the ramp be placed?</p></statement></exercise>
 </exercisegroup>
@@ -437,7 +506,10 @@
     </latex-image>
     </image>
 	</sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p>0</p></li>
+    <li><p>All the <m>y</m>-coordinates on the line are the same, so the change in <m>y</m> is 0</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="24"><statement><p><ol label="a">
 	<li>Calculate the slope of the line shown below.</li>
@@ -521,7 +593,10 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p>(I) appears steeper.</p></li>
+    <li><p>(I) has <m>m=3</m>; (II) has <m>m=20</m>, so (II) has the larger slope.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="26"><statement><p>Kira buys granola in bulk at the health food store. There are two standard containers customers can use.  The size of each container in ounces and its price in dollars are shown in the graph.</p>
 <sidebyside width="40%"><!--<image source="images/hp-3-3-26.png"><description>graph</description></image>-->
