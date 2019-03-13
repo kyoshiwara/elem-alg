@@ -12,7 +12,7 @@
         \amp 3x+y=10
         \end{aligned}
     </m></p></statement>
-<answer></answer></exercise> 
+<answer><m>(2,4)</m></answer></exercise> 
 
 <exercise number="2"><statement><p>
     <m>\begin{aligned}[t]
@@ -27,7 +27,7 @@
         \amp x+1=3y
         \end{aligned}
     </m></p></statement>
-<answer></answer></exercise>
+<answer><m>(5,2)</m></answer></exercise>
 
 <exercise number="4"><statement><p>
     <m>\begin{aligned}[t]
@@ -42,7 +42,7 @@
         \amp 2r+7s=-8
         \end{aligned}
     </m></p></statement>
-<answer></answer></exercise>
+<answer><m>(\dfrac{2}{3}, \dfrac{-4}{3}</m></answer></exercise>
 
 <exercise number="6"><statement><p>
     <m>\begin{aligned}[t]
@@ -60,7 +60,7 @@
         \amp x-y=1
         \end{aligned}
     </m></p></statement>
-<answer></answer></exercise> 
+<answer><m>(3,2)</m></answer></exercise> 
 
 <exercise number="8"><statement><p>
     <m>\begin{aligned}[t]
@@ -75,7 +75,7 @@
         \amp x+y=3
         \end{aligned}
     </m></p></statement>
-<answer></answer></exercise>
+<answer><m>(1,2)</m></answer></exercise>
 
 <exercise number="10"><statement><p>
     <m>\begin{aligned}[t]
@@ -89,7 +89,7 @@
         \amp 2x+3y=-1\\
         \amp 3x+5y=-2
         \end{aligned}</m></p></statement>
-<answer></answer></exercise>
+<answer><m>(1,-1)</m></answer></exercise>
 
 <exercise number="12"><statement><p>
     <m>\begin{aligned}[t]
@@ -107,7 +107,7 @@
         \amp x-2y=3
         \end{aligned}
     </m></p></statement>
-<answer></answer></exercise> 
+<answer><p>Inconsistent</p></answer></exercise> 
 
 <exercise number="14"><statement><p>
     <m>\begin{aligned}[t]
@@ -122,7 +122,7 @@
         \amp 21q=9p-3
         \end{aligned}
     </m></p></statement>
-<answer></answer></exercise>
+<answer><p>Dependent</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 16<ndash/>17, which method, elimination or substitution, would be easier to apply to the system?</p></introduction>
@@ -138,7 +138,7 @@
         \amp 17a-b=0\\
         \amp 11a+3b=4
         \end{aligned}</m></p></statement>
-<answer></answer></exercise>
+<answer><p>Elimination</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 18<ndash/>21, <ol label="a">
@@ -150,12 +150,20 @@
 </exercise>
 
 <exercise number="19"><statement><p>Darryl is in charge of buying furniture for a new restaurant. Chairs cost $175 and tables cost $250. Darryl's budget allows $11,400 for tables and chairs, and he plans to buy four chairs for each table.  How many of each can he buy?</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p>Number of chairs: <m>x</m>, number of tables: <m>y</m></p></li>
+    <li><md><mrow>175x+250y=11,400</mrow>
+            <mrow>x=4y</mrow></md></li>
+    <li>He can buy 12 tables and 48 chairs.</li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p>The perimeter of a rectangle is 42 meters, and its width is 13 meters less than its length. Find the dimensions of the rectangle.</p></statement></exercise>
 
 <exercise number="21"><statement><p>Three pounds of bacon and 2 pounds of coffee costs $17.80. Two pounds of bacon and 5 pounds of coffee costs $32.40. How much do 1 pound of bacon and 1 pound of coffee cost?</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p>Cost of 1 lb of bacon: <m>x</m>, cost of 1 lb of coffee: <m>y</m></p></li>
+    <li><md><mrow>3x+2y=17.80</mrow>
+            <mrow>2x+5y=32.40</mrow></md></li>
+    <li>One pound of bacon costs $2.20, and one pound of coffee costs $5.60. </li></ol></p></answer></exercise>
 </exercisegroup>
  
 </exercises>

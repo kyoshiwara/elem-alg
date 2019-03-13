@@ -7,12 +7,12 @@
 	<me>(b+c)a=ba+ca</me></p></introduction>
 
  <exercise number="1"><statement><m>5(2y-3)</m></statement>
- <answer></answer></exercise>
+ <answer><m>10y-15</m></answer></exercise>
 
  <exercise number="2"><statement><m>-2(4x+8)</m></statement></exercise>
 
  <exercise number="3"><statement><m>-(5b-3)</m></statement>
- <answer></answer></exercise>
+ <answer><m>-5b+3</m></answer></exercise>
 
  <exercise number="4"><statement><m>(-6+2t))-6)</m></statement></exercise>
 </exercisegroup>
@@ -22,7 +22,9 @@
 <exercise number="5"><statement><p><ol label="a">
 	<li><m>8(4c)</m></li>
 	<li><m>8(4+c)</m></li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a">
+	<li><m>32c</m></li>
+	<li><m>32+8c</m></li></ol></p></answer></exercise>
 
  <exercise number="6"><statement><p><ol label="a">
 	<li><m>2(-8-t)</m></li>
@@ -34,7 +36,7 @@
 	<li><m>5(3+a)=15+a</m></li>
 	<li><m>5(3a)=15(5a)</m></li>
 	<li><m>5(3+a)=15+5a</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p>d</p></answer></exercise>
 
 <exercise number="8"><statement><p>Simplify each expression if possible. Then evaluate for <m>x=3,~y=9</m>.
 <ol label="a" cols="2">
@@ -46,12 +48,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>12, simplify and combine like terms.</p></introduction>
 
 <exercise number="9"><statement><m>-6(x+1)+2x</m></statement>
- <answer></answer></exercise>
+ <answer><m>-4x-6</m></answer></exercise>
 
  <exercise number="10"><statement><m>5-2(4x-9)+9x</m></statement></exercise>
 
  <exercise number="11"><statement><m>-4(3+2z)+2z-3(2z+1)</m></statement>
- <answer></answer></exercise>
+ <answer><m>-12z-15</m></answer></exercise>
 
  <exercise number="12"><statement><m>3(-3a-4)-3a-4(3a-4)</m></statement></exercise>
 </exercisegroup>
@@ -59,22 +61,22 @@
 <exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>20, solve the equation or inequality.</p></introduction>
 
 <exercise number="13"><statement><m>6(3y-4)=-60</m></statement>
- <answer></answer></exercise>
+ <answer><m>y=-2</m></answer></exercise>
 
  <exercise number="14"><statement><m>5w-64=-2(3w-1)</m></statement></exercise>
 
  <exercise number="15"><statement><m>-22c+5(3c+4) \gt -2(4-3t)</m></statement>
- <answer></answer></exercise>
+ <answer><m>c=0</m></answer></exercise>
 
  <exercise number="16"><statement><m>6-4(2a+3) \ge 6a + 2</m></statement></exercise>
 
  <exercise number="17"><statement><m>4-3(2t-4) \gt -2(4-3t)</m></statement>
- <answer></answer></exercise>
+ <answer><m>t \lt 2</m></answer></exercise>
 
  <exercise number="18"><statement><m>0.25(x+3)-0.45(x-3)=0.30</m></statement></exercise>
 
  <exercise number="19"><statement><m>\dfrac{a}{a+2}=\dfrac{2}{3}</m></statement>
- <answer></answer></exercise>
+ <answer><m>a=4</m></answer></exercise>
 
  <exercise number="20"><statement><m>\dfrac{0.3}{0.5} = \dfrac{b+2}{12-b}</m></statement></exercise>
 </exercisegroup>
@@ -82,7 +84,9 @@
 <exercise number="21"><statement><p>Choose a value for the variable and show that the following pairs of expressions are not equivalent.<ol label="a" cols="2">
 	<li><m>5(x+3)</m> and <m>5x+3</m></li>
 	<li><m>-4(c-3)</m> and <m>-4c-12</m></li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a" cols="2">
+	<li><m>x=0</m></li>
+	<li><p><m>5(x+3)=15</m> and <m>5x+3=3</m></p></li></ol></p></answer></exercise>
 
 <exercise number="22"><statement><p><ol label="a">
 	<li>Evaluate the expression <m>(2x+7)-4(4x-2)-(-2x+3)</m> for <m>x=-3</m>.</li>
@@ -94,7 +98,10 @@
 	<li>The length of the rectangle</li>
 	<li>The perimeter of the rectangle</li>
 	<li>The area of the rectangle</li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a">
+ 	<li><m>2w-8</m></li>
+ 	<li><m>6w-16</m></li>
+ 	<li><m>2w^2-8w</m></li></ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>Risa bought a skirt and a sweater that together cost $108. Then she bought a pair of shoes that cost twice as much as the sweater.  Write and simplify expressions in terms of <m>c</m>, the cost of the skirt:
 <ol label="a">
@@ -107,7 +114,11 @@
 	<li>How far Albert drove</li>
 	<li>If they drove in the same direction, how far apart they are now</li>
 	<li>If they drove in opposite directions, how far apart they are now</li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a">
+	<li><m>3s</m></li>
+	<li><m>3s+45</m></li>
+	<li><m>45</m></li>
+	<li><m>6s+45</m></li></ol></p></answer></exercise>
 
  <exercise number="26"><statement><p>A box of AlmondOats contains 15 ounces of cereal made of oat flakes and sliced almonds. Oat flakes cost 15 cents per ounce, and almonds cost 35 cents per ounce. Write and simplify expressions in terms of <m>a</m>, the number of ounces of almonds in the box.<ol label="a">
 	<li>The number of ounces of oat flakes in the box</li>
@@ -120,7 +131,11 @@
 	<li>The number of quarts of pomegranate juice in the Pomajoy</li>
 	<li>The number of quarts of pomegranate juice in the Pomegranate Punch</li>
 	<li>The number of quarts of pomegranate juice in Vera's mixture</li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a">
+	<li><m>8-x</m></li>
+	<li><m>0.6x</m></li>
+	<li><m>2-0.25x</m></li>
+	<li><m>0.35x+2</m></li></ol></p></answer></exercise>
 
  <exercise number="28"><statement><p>Premium ice cream is 12% butterfat, and chocolate syrup is 55% butterfat. A chocolate sundae, without whipped cream and a cherry, weighs 10 ounces. Write and simplify expressions in terms of <m>x</m>, the number of ounces of ice cream in the sundae.<ol label="a">
 	<li>The number of ounces of chocolate syrup in the sundae</li>
@@ -128,7 +143,7 @@
 	<li>The amount of fat in the chocolate syrup</li>
 	<li>The total amount of fat in the sundae</li></ol></p></statement></exercise>
 
-<exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>30, ind an algebraic expression for the area of the rectangle. Use the distributive law to write the expression in two ways.</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 29<ndash/>30, find an algebraic expression for the area of the rectangle. Use the distributive law to write the expression in two ways.</p></introduction>
 
 <exercise number="29"><statement>
     <sidebyside width="50%"><!--<image source="images/hp-4-1-29.png"><description>rectangle</description></image>-->
@@ -148,7 +163,7 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer></answer></exercise>
+<answer><m>5(2x+3):~10x+15</m></answer></exercise>
 
 <exercise number="30"><statement>
     <sidebyside width="65%"><!--<image source="images/hp-4-1-30.png"><description>rectangle</description></image>-->
@@ -173,15 +188,20 @@
 <exercise number="31"><statement><p>The length of a rectangular vegetable garden is 6 yards more than twice its width.<ol label="a">
 	<li>Write an expression for the perimeter of the garden in terms of its width.</li>
 	<li>Ann bought 42 yards of fence to enclose the garden. What are its dimensions?</li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a">
+	<li><m>6w+12</m></li>
+	<li><p>5 by 16 yards</p></li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><p>Revenue from the state lottery is divided between education and administrative costs in the ratio of 4 to 3. If the lottery revenue this year is $24,000,000, how much money will go to education?</p></statement></exercise>
 
  <exercise number="33"><statement><p>An apple and a glass of milk together contain 260 calories.<ol label="a">
-	<li>If an apple contains  calories, how many calories are in a glass of milk?</li>
+	<li>If an apple contains <m>a</m> calories, how many calories are in a glass of milk?</li>
 	<li>Write an expression for the number of calories in two apples and three glasses of milk.</li>
 	<li>If two apples and three glasses of milk contain 660 calories, find the number of calories in an apple.</li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a">
+	<li><m>260-a</m></li>
+	<li><m>780-a</m></li>
+	<li><m>120</m></li></ol></p></answer></exercise>
 
  <exercise number="34"><statement><p>Melody sold 47 tickets to a charity concert. Reserved seats cost $10 and open seating was $6 a ticket. Let <m>x</m> represent the number of reserved seats she sold. Write expressions in terms of <m>x</m> for:
 <ol label="a">
@@ -191,6 +211,6 @@
 	<li>The total amount of money Melody collected</li></ol></p></statement></exercise>
 
  <exercise number="35"><statement><p>Melody from Problem 34 collected $330 from the sale of concert tickets. Write and solve an equation to answer the question:  How many reserved seats did she sell?</p></statement>
- <answer></answer></exercise>
+ <answer><p><m>10x+6(47-x)=330;~</m> 12 reserved seats</p></answer></exercise>
 
 </exercises>
