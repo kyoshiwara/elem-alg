@@ -8,7 +8,9 @@
  <exercise number="1"><statement><p><ol label="a" cols="2">
  	<li><m>4-2\sqrt{64}</m></li>
  	<li><m>\dfrac{4-\sqrt{64}}{2}</m></li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a" cols="2">
+    <li><m>-12</m></li>
+    <li><m>-2</m></li></ol></p>answer></exercise>
 
  <exercise number="2"><statement><p><ol label="a" cols="2">
  	<li><m>\sqrt{9-4(-18)}</m></li>
@@ -17,7 +19,9 @@
  <exercise number="3"><statement><p><ol label="a" cols="2">
  	<li><m>5\sqrt[3]{8}-\dfrac{\sqrt[3]{64}}{8}</m></li>
  	<li><m>\dfrac{3+\sqrt[3]{-729}}{6-\sqrt[3]{-27}}</m></li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a" cols="2">
+    <li><m>\dfrac{19}{2}</m></li>
+    <li><m>\dfrac{-2}{3}</m></li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 4<ndash/>9, give a decimal approximation rounded to thousandths.
@@ -26,17 +30,17 @@
 <exercise number="4"><statement><m>5\sqrt{3}</m></statement></exercise>
 
 <exercise number="5"><statement><m>\dfrac{-2}{3}\sqrt{21}</m></statement>
-<answer></answer></exercise>
+<answer><m>-3.055</m></answer></exercise>
 
 <exercise number="6"><statement><m>-3+2\sqrt{6}</m></statement></exercise>
 
 <exercise number="7"><statement><m>2+6\sqrt[3]{-25}</m></statement>
-<answer></answer></exercise>
+<answer><m>-15.544</m></answer></exercise>
 
 <exercise number="8"><statement><m>\dfrac{8-2\sqrt{2}}{4}</m></statement></exercise>
 
 <exercise number="9"><statement><m>3\sqrt{3}-3\sqrt{5}</m></statement>
-<answer></answer></exercise>
+<answer><m>-1.512</m></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 10<ndash/>12, choose the best approximation. Do not use a calculator!
@@ -55,7 +59,7 @@
 	<li>6.5</li>
 	<li>3.5</li>
 	<li>4</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p>c</p></answer></exercise>
 
 <exercise number="12"><statement><p><m>\sqrt{134}</m>
 <ol label="a" cols="4">
@@ -65,14 +69,17 @@
 	<li>15</li></ol></p></statement></exercise>
 </exercisegroup>
 
-<exercise number="11"><statement><p>Each number below is approximately the square root of a whole number. Find the whole number.
+<exercise number="13"><statement><p>Each number below is approximately the square root of a whole number. Find the whole number.
 <ol label="a" cols="3">
 	<li>9.220</li>
 	<li>12.961</li>
 	<li>63.891</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="3">
+    <li>85</li>
+    <li>168</li>
+    <li>4082</li></ol></p></answer></exercise>
 
-<exercise number="12"><statement><p><ol label="a">
+<exercise number="14"><statement><p><ol label="a">
 	<li>Evaluate  <m>~\sqrt{x^2}~</m> for <m>~x=3, 5, 8,</m> and <m>12</m>.</li>
 	<li>Simplify  <m>~\sqrt{a^2}~</m> if <m>a \ge 0</m>.</li></ol></p></statement></exercise>
 
@@ -82,7 +89,10 @@
 	<li><m>(\sqrt{16})(\sqrt{16})</m></li>
 	<li><m>\sqrt{29}(\sqrt{29})</m></li>
 	<li><m>\sqrt{x}(\sqrt{x})</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="3">
+    <li><m>16</m></li>
+    <li><m>29</m></li>
+    <li><m>x</m></li></ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><ol label="a" cols="3">
 	<li><m>(\sqrt{7})^2</m></li>
@@ -93,7 +103,10 @@
 	<li><m>\dfrac{6}{\sqrt{6}}</m></li>
 	<li><m>\dfrac{-15}{\sqrt{15}}</m></li>
 	<li><m>\dfrac{2m}{\sqrt{m}}</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="3">
+    <li><m>\sqrt{6}</m></li>
+    <li><m>-\sqrt{15}</m></li>
+    <li><m>2\sqrt{m}</m></li></ol></p></answer></exercise>
 
 <exercise number="18"><statement><p><ol label="a" cols="3">
 	<li><m>(\sqrt{2b})(\sqrt{2b})</m></li>
@@ -103,21 +116,21 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>20, put each set of numbers in order from smallest to largest.Try not to use a calculator.</p></introduction>
 
-<exercise number="19"><statement><m>\dfrac{5}{4}, 2, \sqrt{8}, 2.3</m></statement>
-<answer></answer></exercise>
+<exercise number="19"><statement><m>\dfrac{5}{4},~ 2,` \sqrt{8},~ 2.3</m></statement>
+<answer><m>\dfrac{5}{4},~ 2,~ 2.3,~ \sqrt{8}</m></answer></exercise>
 
-<exercise number="20"><statement><m>2\sqrt{3}, 3, \dfrac{23}{6}, \sqrt{6}</m></statement></exercise>
+<exercise number="20"><statement><m>2\sqrt{3},~ 3,~ \dfrac{23}{6},~ \sqrt{6}</m></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 21<ndash/>23, evaluate the expression for the given values of <m>x</m>. Round your answers to three decimal places if necessary.</p></introduction>
 
 <exercise number="21"><statement><m>\sqrt{x^2-4}~~~~~~~~x=3, \sqrt{5}, -2</m></statement>
-<answer></answer></exercise>
+<answer><m>\sqrt{5} \approx 2.236,~1,~0</m></answer></exercise>
 
 <exercise number="22"><statement><m>\sqrt{x}-\sqrt{x-3}~~~~~~~~x=1, 4, 100</m></statement></exercise>
 
 <exercise number="23"><statement><m>2x^2-4x~~~~~~~~x=-3, \sqrt{2}, \dfrac{1}{4}</m></statement>
-<answer></answer></exercise>
+<answer><m>30,~4-4\sqrt{2} \approx -1.657,~\dfrac{-7}{8}</m></answer></exercise>
 </exercisegroup>
 
 <exercise number="24"><statement><p>The distance <m>m</m> in miles that you can see on a clear day from a height of <m>h</m> miles is given by the formula  
@@ -127,12 +140,12 @@
 <exercise number="25"><statement><p>The period of a pendulum (the time it takes to complete one full swing) is given in seconds by the formula   
 <me>T=6.28\sqrt{\dfrac{L}{32}}</me>
  where <m>L</m> is the length of the pendulum in feet. What is the period of the Foucault pendulum in the United Nations Headquarters in New York, whose length is 75 feet?</p></statement>
-<answer></answer></exercise>
+<answer><p>9.61 seconds</p></answer></exercise>
 
 <exercise number="26"><statement><p>What is a rational number? An irrational number? Give examples of each.</p></statement></exercise>
 
 <exercise number="27"><statement><p>Give three examples of square roots that represent rational numbers, and three that are irrational.</p></statement>
-<answer></answer></exercise>
+<answer><m>\sqrt{4},~\sqrt{9},~\sqrt{64};~\sqrt{2},~\sqrt{6},~\sqrt{11}</m></answer></exercise>
 
 <exercise number="28"><statement><p>Identify each number as rational or irrational.<ol label="a" cols="3">
 <li><m>\sqrt{6}</m></li>
@@ -187,7 +200,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
                 </tabular></sidebyside></p></statement>
-<answer></answer></exercise>
+<answer><p>No</p></answer></exercise>
 
 <exercise number="30"><statement><p>Does  <m>~\sqrt{a^2+b^2}=a+b~</m>?
 <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
@@ -276,7 +289,7 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>                                           
                 </tabular></sidebyside></p></statement>
-<answer></answer></exercise>
+<answer><p>No</p></answer></exercise>
 
 <exercise number="32"><statement><p>Does  <m>(\sqrt{a}+\sqrt{b})^2=a+b~</m>?
 <sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">

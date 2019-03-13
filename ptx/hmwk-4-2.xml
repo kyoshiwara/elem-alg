@@ -10,7 +10,7 @@
         x+2y\amp=-8\amp\amp (4,-2)\\
         2x-y\amp=4
     \end{aligned}</m></p></statement>
- <answer></answer></exercise>
+ <answer><p>No</p></answer></exercise>
 
  <exercise number="2"><statement>
     <p><m>\begin{aligned}[t]
@@ -23,12 +23,12 @@
 <exercisegroup cols="3"><introduction><p>For Problems 3<ndash/>5, decide which graphing technique, the intercept method or the slope-intercept method, would be easier to use. Explain why you made the choice you did.</p></introduction>
 
 <exercise number="3"><statement><m>3x-2y=18</m></statement>
-<answer></answer></exercise>
+<answer><p>Intercept method</p></answer></exercise>
 
 <exercise number="4"><statement><m>y=\dfrac{5x}{3}-8</m></statement></exercise>
 
 <exercise number="5"><statement><m>y=\dfrac{-5}{6}x</m></statement>
-<answer></answer></exercise>
+<answer><p>Slope-intercept method</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 6<ndash/>9, solve the system by graphing.</p></introduction>
@@ -47,7 +47,7 @@
         \amp 2y-5x=10
         \end{aligned}</m></p>
     <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><m>(-4,-5)</m></answer></exercise>
 
  <exercise number="8"><statement><p>
     <m>\begin{aligned}[t]
@@ -63,7 +63,7 @@
         \amp y=-2x-1
         \end{aligned}</m></p>
     <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><m>(-2,3)</m></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 10<ndash/>11, decide whether the system is dependent or inconsistent.
@@ -81,7 +81,7 @@
         \amp y=-2x+4\\
         \amp 4x+2y=2
         \end{aligned}</m></p></statement>
- <answer></answer></exercise>
+ <answer><p>Inconsistent</p></answer></exercise>
 </exercisegroup>
 
 <exercise number="12"><statement><p>Without graphing, explain how you can tell that the system has no solution.</p>
@@ -129,7 +129,7 @@
         <tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
-                        <cell>Earnings Under Plan A</cell></row>
+                        <cell>Earnings Under Plan B</cell></row>
                     <row> 
                         <cell><m>0</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
@@ -185,7 +185,52 @@
     </image>
         </sidebyside></li>
 	<li>For what sales amount do the two plans result in equal earnings for Delbert?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p>Plan A: <m>E=0.03x+20,000</m>; Plan B: <m>E=0.05x+15,000</m></p></li>
+    <li><p><sidebyside><tabular top="major" halign="left" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell>Earnings Under Plan A</cell>
+                        <cell>Earnings Under Plan b</cell></row>
+                    <row> 
+                        <cell><m>0</m></cell>
+                        <cell><m>20,000</m></cell>
+                        <cell><m>15,000</m></cell></row>
+                    <row> 
+                        <cell><m>50</m></cell>
+                        <cell><m>21,500</m></cell>
+                        <cell><m>17,500</m></cell></row>
+                    <row> 
+                        <cell><m>100</m></cell>
+                        <cell><m>23,000</m></cell>
+                        <cell><m>20,000</m></cell></row>
+                    <row>
+                        <cell><m>150</m></cell>
+                        <cell><m>24,500</m></cell>
+                        <cell><m>22,500</m></cell></row>  
+                    <row>
+                        <cell><m>200</m></cell>
+                        <cell><m>26,000</m></cell>
+                        <cell><m>25,000</m></cell></row> 
+                    <row>
+                        <cell><m>250</m></cell>
+                        <cell><m>27,500</m></cell>
+                        <cell><m>27,500</m></cell></row>
+                    <row>
+                        <cell><m>300</m></cell>
+                        <cell><m>29,000</m></cell>
+                        <cell><m>30,000</m></cell></row> 
+                    <row>
+                        <cell><m>350</m></cell>
+                        <cell><m>30,500</m></cell>
+                        <cell><m>32,500</m></cell></row>
+                    <row>
+                        <cell><m>400</m></cell>
+                        <cell><m>32,000</m></cell>
+                        <cell><m>35,000</m></cell></row>                      
+                </tabular></sidebyside></p></li>
+    <li></li>
+    <li>$250,000</li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><p>Orpheus Music plans to manufacture clarinets for schools. Their startup costs are $6000, and each clarinet costs $60 to make. They plan to sell the clarinets for $80 each. <ol label="a">
     <li><p>Let <m>x</m> stand for the number of clarinets Orpheus manufactures. Write equations for the total cost, <m>C</m>, of producing <m>x</m> clarinets, and the revenue, <m>R</m>, earned from selling <m>x</m> clarinets.
@@ -314,7 +359,12 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p>Cost of one rose: <m>x</m>, cost of one carnation: <m>y</m></p></li>
+    <li><p><md><mrow>4x+8y=14</mrow>
+            <mrow>6x+9y=18</mrow></md></p></li>
+    <li><m>(1.50, 1.00)</m></li>  
+    <li><m>4(1.5)+8(1)=14;~6(1.5)+9(1)=18</m></li></ol></answer></exercise>
 
 <exercise number="16"><statement><p>The vertex angle of an isosceles triangle is <m>15 \degree</m> less than each base angle. (In an isosceles triangle, the base angles are equal.) Find the measure of each angle of the triangle. (Hint:  For your second equation, recall that the sum of the angles in any triangle is <m>180 \degree</m>.</p> 
  	<sidebyside width="45%"><!--<image source="images/hp-4-2-16.png"><description>grid</description></image>-->

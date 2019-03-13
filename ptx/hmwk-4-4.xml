@@ -10,7 +10,11 @@
 	<li>Write expressions for the interest earned on each account after 1 year.</li>
 	<li>Goodlife earned $12,930 interest in 1 year. Write an equation about that.</li>
 	<li>Solve your system of equations to find out how much Goodlife invested in each account.</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>x+y=150,000</m></li>
+    <li><m>0.65x;~ 0.118y</m></li>
+    <li><m>0.65x+0.118y= $12,930</m></li>
+    <li><p>bonds: $90,000; mutual fund: $60,000</p></li></ol></p></answer></exercise>
 
 <exercise number="2"><statement><p>Mario borrowed $30,000 from two banks to open a print shop. The first loan charges 12% annual interest, and the second charges 15% interest. Mario's annual interest payment on both loans together is $3750. How much did he borrow at each rate?<ol label="a">
 	<li>Assign variables to the unknown quantities and make a table like the one in Example 1.</li>
@@ -18,7 +22,7 @@
 	<li>Solve your system and answer the question in the problem.</li></ol></p></statement></exercise>
 
 <exercise number="3"><statement><p>Stefan borrowed twice as much on his 7% car loan as on his 4% student loan. The annual interest on the car loan is $500 more than the interest on the student loan. How much did Stefan borrow on each loan?</p></statement>
-<answer></answer></exercise>
+<answer><p>student loan: $5000; car loan: $10,000</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>Solve Problems 4<ndash/>5 about mixtures. (No variables are needed!)</p></introduction>
@@ -81,7 +85,33 @@
 	<li>How much acid is in the mixture? How many milliliters of the mixture are there?</li>
 	<li>What percent of the mixture is acid?</li>
 	<li>Fill in the table with your answers to parts (a)-(c).</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li>15 ml, 1.8 ml</li>
+    <li>16.8 ml, 42 ml</li>
+    <li>40%</li>
+    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="17%"></col>             
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><p>Number of Milliliters (<m>W</m>)</p></cell>
+                        <cell><p>Percent Acid (<m>r</m>)</p></cell>
+                        <cell><p>Amount of Acid (<m>P</m>)</p></cell></row>
+                    <row> 
+                        <cell>50% Solution</cell>
+                        <cell><m>30</m></cell>
+                        <cell><m>0.50</m></cell>
+                        <cell><m>15</m></cell></row>
+                    <row> 
+                        <cell>15% Solution</cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>0.15</m></cell>
+                        <cell><m>1.8</m></cell></row>
+                    <row> 
+                        <cell>Mixture</cell>
+                        <cell><m>42</m></cell>
+                        <cell><m>0.40</m></cell>
+                        <cell><m>16.8</m></cell></row>
+                </tabular></sidebyside></li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>Use systems to solve Problems 6<ndash/>7 about mixtures.</p></introduction>
@@ -92,7 +122,7 @@
 	<li>Solve your system and answer the question in the problem.</li></ol></p></statement></exercise>
 
 <exercise number="7"><statement><p>A newspaper poll of 400 people stated that 58% were in favor of a recycling program. It also said that 50% of the men and 70% of the women polled favored the program. How many women were polled?</p></statement>
-<answer></answer></exercise>
+<answer>160</answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>Solve Problems 8<ndash/>9 about motion.</p></introduction>
@@ -138,14 +168,34 @@
                     </tabular></sidebyside></p></li>
 	<li>Use your table to write two equations about the problem.</li>
 	<li>Solve your system. How long did Bonnie drive before Clyde caught up? How far had she driven?</li></ol></p></statement>
-<answer></answer></exercise>
+  <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+<answer><p><ol label="a">
+    <li>(sketch)</li>
+    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>Rate</cell>
+                        <cell>Time</cell>
+                        <cell>Distance</cell></row>
+                    <row><cell>Bonnie</cell>
+                        <cell><m>40</m></cell>
+                        <cell><m>t</m></cell>
+                        <cell><m>d</m></cell></row>
+                    <row><cell>Clyde</cell>
+                        <cell><m>70</m></cell>
+                        <cell><m>t-3</m></cell>
+                        <cell><m>d</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li><m>40t=d;~70(t-3)=d</m></li>
+    <li>7 hours, 280 miles</li></ol></p></answer></exercise>
 </exercisegroup>
+
 <exercisegroup><introduction><p>Use systems to solve Problems 10<ndash/>11.</p></introduction>
 
 <exercise number="10"><statement><p>A yacht leaves San Diego and heads south, traveling at 25 miles per hour. Six hours later a Coast Guard cutter leaves San Diego traveling at 40 miles per hour and pursues the yacht. How long will it take the cutter to catch the yacht? How far will they have traveled?</p></statement></exercise>
 
 <exercise number="11"><statement><p>Byron and Ada conduct sight-seeing tours of New England by bicycle. Byron leads the tour group at an average speed of 10 miles per hour, while Ada goes ahead at a speed of 12 miles per hour to prepare lunch. Ada arrives at the lunch stop 40 minutes (<m>\dfrac{2}{3}</m> of an hour) before the tour group. How far did the tour bicycle that morning?</p></statement>
-<answer></answer></exercise>
+<answer><p>40 miles</p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>Solve by writing a single equation in two variables.</p></introduction>
@@ -155,9 +205,7 @@
 	<li>What will Julio's final grade be if he earns a grade of 65 on the term paper? What if he earns a grade of 80?</li>
 	<li><p>Use the graph below to estimate what grade Julio must make on the term paper in order to earn afinal grade of 80 in the class.</p>
 	<sidebyside width="60%"><!--<image source="images/hp-4-4-12.png"><description>graph</description></image>-->
-    <image xml:id="hp-4-4-12">
-        <description>graph of line</description>
-        <latex-image>
+    <image xml:id="hp-4-4-12"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -173,9 +221,7 @@
         }
         \draw[red, very thick, ->, >=stealth'] (0,{.6*72/5})--(20,{(.6*72 +.4*100)/5});
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+    </latex-image></image></sidebyside></li>
 	<li>Use your equation from part (a) to verify your answer algebraically.</li></ol></p></statement></exercise>
 </exercisegroup>
 </exercises>

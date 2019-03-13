@@ -100,7 +100,11 @@
 	<li><m>3^2(-7^2)</m></li>
 	<li><m>3^2-7^2</m></li>
 	<li><m>(3-7)^2</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+	<li><m>147</m></li>
+	<li><m>-441</m></li>
+	<li><m>-40</m></li>
+	<li><m>16</m></li></ol></p></answer></exercise>
 
 <exercise number="2"><statement><p><ol label="a" cols="2">
 	<li><m>\sqrt{13^2-5^2}</m></li>
@@ -113,7 +117,11 @@
 	<li><m>\sqrt{(\dfrac{4}{5})^2}+\sqrt{(\dfrac{3}{5})^2}</m></li>
 	<li><m>\sqrt{(\dfrac{4}{5})^2}\sqrt{(\dfrac{3}{5})^2}</m></li>
 	<li><m>\sqrt{(\dfrac{4}{5}+\dfrac{3}{5})^2}</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+	<li><m>1</m></li>
+	<li><m>\dfrac{7}{5}</m></li>
+	<li><m>\dfrac{12}{25}</m></li>
+	<li><m>\dfrac{7}{5}</m></li></ol></p></answer></exercise>
 
 <exercise number="4"><statement><p><ol label="a" cols="2">
 	<li><m>2-\sqrt[3]{64}</m></li>
@@ -126,7 +134,11 @@
 	<li><m>\sqrt[3]{8^2}</m></li>
 	<li><m>(\sqrt{9})^3</m></li>
 	<li><m>\sqrt{9^3}</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+	<li><m>4</m></li>
+	<li><m>4</m></li>
+	<li><m>27</m></li>
+	<li><m>27</m></li></ol></p></answer></exercise>
 
 <exercise number="6"><statement><p><ol label="a" cols="2">
 	<li><m>(\sqrt{3x})(\sqrt{3x})</m></li>
@@ -141,7 +153,11 @@
 	<li><m>\sqrt{-5^2}</m></li>
 	<li><m>\sqrt{(-5)^2}</m></li>
 	<li><m>(\sqrt[3]{-5})^2</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="2">
+	<li>irrational</li>
+	<li>undefined</li>
+	<li>rational</li>
+	<li>irrational</li></ol></p>answer></exercise>
 
 <exercise number="8"><statement><p><ol label="a" cols="2">
 	<li><m>-3.1\overline{6}</m></li>
@@ -155,7 +171,9 @@
 <exercise number="9"><statement><p><ol label="a" >
 	<li><m>\sqrt{300}</m></li>
 	<li><m>5+\sqrt[3]{15}</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" >
+	<li><p>irrational, <m>17.32</m></p></li>
+	<li><p>irrational, <m>7.47</m></p></li></ol></p></answer></exercise>
 
 <exercise number="10"><statement><p><ol label="a" >
 	<li><m>\sqrt[3]{512}</m></li>
@@ -165,12 +183,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 11<ndash/>14, simplify.</p></introduction>
 
 <exercise number="11"><statement><p><m>4-2 \cdot 3^2</m></p></statement>
-<answer></answer></exercise>
+<answer><m>-14</m></answer></exercise>
 
 <exercise number="12"><statement><p><m>-2-3(-3)^3-2</m></p></statement></exercise>
 
 <exercise number="13"><statement><p><m>\dfrac{-6-\sqrt{6^2-4(2)(4)}}{2(2)}</m></p></statement>
-<answer></answer></exercise>
+<answer><m>-2</m></answer></exercise>
 
 <exercise number="14"><statement><p><m>18-2\sqrt[3]{\dfrac{4}{3}(48)}</m></p></statement></exercise>
 </exercisegroup>
@@ -179,7 +197,7 @@
 </p></introduction>
 
 <exercise number="15"><statement><p><m>8-5\sqrt{6}</m></p></statement>
-<answer></answer></exercise>
+<answer><m>-20.247</m></answer></exercise>
 
 <exercise number="16"><statement><p><m>\dfrac{3+\sqrt[3]{3}}{3}</m></p></statement></exercise>
 </exercisegroup>
@@ -189,7 +207,9 @@
 <exercise number="17"><statement><p><m>a=3</m><ol label="a">
 	<li><m>5-a^2</m></li>
 	<li><m>(5-a)^2</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><m>-4</m></li>
+	<li><m>4</m></li></ol></p><answer></exercise>
 
 <exercise number="18"><statement><p><m>a=-3</m><ol label="a">
 	<li><m>5-a^2</m></li>
@@ -198,7 +218,9 @@
 <exercise number="19"><statement><p><m>w=-2</m><ol label="a">
 	<li><m>-w^2</m></li>
 	<li><m>(-w)^2</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><m>-4</m></li>
+	<li><m>4</m></li></ol></p></answer></exercise>
 
 <exercise number="20"><statement><p><m>w=-2</m><ol label="a">
 	<li><m>\sqrt{-w}</m></li>
@@ -207,7 +229,9 @@
 <exercise number="21"><statement><p><m>x=-4</m><ol label="a">
 	<li><m>3-x^2</m></li>
 	<li><m>3(-x)^2</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><m>-13</m></li>
+	<li><m>48</m></li></ol></p></answer></exercise>
 
 <exercise number="22"><statement><p><m>a=6,~b=-2</m><ol label="a">
 	<li><m>\dfrac{3b^3}{6}-\dfrac{4-a^2}{8}</m></li>
@@ -216,7 +240,9 @@
 <exercise number="23"><statement><p><m>x=13,~y=-5</m><ol label="a">
 	<li><m>\sqrt{x^2-y^2}</m></li>
 	<li><m>(\sqrt{x}^2)+(\sqrt{-y}^2)</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><m>12</m></li>
+	<li><m>18</m></li></ol></p></answer></exercise>
 
 <exercise number="24"><statement><p><m>a=2,~b=-3,~c=1</m><ol label="a">
 	<li><m>\sqrt{b^2-4ac}</m></li>
@@ -225,7 +251,9 @@
 <exercise number="25"><statement><p><m>x=3,~y=4,~z=5</m><ol label="a">
 	<li><m>\sqrt[3]{x^3+y^3+z^3}</m></li>
 	<li><m>\sqrt[3]{x^3}+\sqrt[3]{y^3}+\sqrt[3]{z^3}</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><m>6</m></li>
+	<li><m>12</m></li></ol></p></answer></exercise>
 
 <exercise number="26"><statement><p><m>m=3,~n=2</m><ol label="a">
 	<li><m>m^3+n^3</m></li>
@@ -233,7 +261,7 @@
 </exercisegroup>
 
 <exercise number="27"><statement><p>What is the smallest positive integer (other than 1) that is both a perfect square and a perfect cube?</p></statement>
-<answer></answer></exercise>
+<answer><m>64</m></answer></exercise>
 
 <exercise number="28"><statement><p>Find the cube root of <m>27^2</m> without using a calculator.</p></statement></exercise>
 
@@ -243,12 +271,18 @@
     <li>Find the area of the triangle.</li></ol></p></introduction>
 
 <exercise number="29"><statement><sidebyside width="27%"><image source="images/cr5-29"><description>triangle</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>17</m></li>
+    <li><m>40</m></li>
+    <li><m>60</m></li></ol></p></answer></exercise>
 
 <exercise number="30"><statement><sidebyside width="40%"><image source="images/cr5-30"><description>triangle</description></image></sidebyside></statement></exercise>
 
 <exercise number="31"><statement><sidebyside width="35%"><image source="images/cr5-31"><description>triangle</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>1</m></li>
+    <li><m>3+\sqrt{3}</m></li>
+    <li><m>\dfrac{\sqrt{3}}{2}</m></li></ol></p></answer></exercise>
 
 <exercise number="32"><statement><sidebyside width="35%"><image source="images/cr5-32"><description>triangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -256,7 +290,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 33<ndash/>34, find the volume and surface area of the box.</p></introduction>
 
 <exercise number="33"><statement><sidebyside width="60%"><image source="images/cr5-33"><description>box</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><m>V=126;~S=30\sqrt{7}+84</m></answer></exercise>
 
 <exercise number="34"><statement><sidebyside width="60%"><image source="images/cr5-34"><description>box</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -264,7 +298,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 35<ndash/>36, write an algebraic expression for the volume of the figure.</p></introduction>
 
 <exercise number="35"><statement><sidebyside width="50%"><image source="images/cr5-35"><description>pyramid</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><m>16b^3</m></answer></exercise>
 
 <exercise number="36"><statement><sidebyside width="40%"><image source="images/cr5-36"><description>cone</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -272,7 +306,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 37<ndash/>38, write expressions for the volume and surface area of the figure.</p></introduction>
 
 <exercise number="37"><statement><sidebyside width="40%"><image source="images/cr5-37"><description>pyramid</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><m>V=150p^3;~S=190p^2</m></answer></exercise>
 
 <exercise number="38"><statement><sidebyside width="60%"><image source="images/cr5-38"><description>cone</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -280,12 +314,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 39<ndash/>42, solve the formula for the indicated variable.</p></introduction>
 
 <exercise number="39"><statement><p><m>s=vt+\dfrac{1}{2}at^2~~~~~~</m> for <m>v</m></p></statement>
-<answer></answer></exercise>
+<answer><m>v=\dfrac{s}{t}-\dfrac{at}{2}</m></answer></exercise>
 
 <exercise number="40"><statement><p><m>A=\dfrac{h}{2}(b+c)~~~~~~</m> for <m>c</m></p></statement></exercise>
 
 <exercise number="41"><statement><p><m>S=\dfrac{n}{2}(a+f)~~~~~~</m> for <m>a</m></p></statement>
-<answer></answer></exercise>
+<answer><m>a=\dfrac{2S}{n}-f</m></answer></exercise>
 
 <exercise number="42"><statement><p><m>s=vt+\dfrac{1}{2}at^2~~~~~~</m> for <m>a</m></p></statement></exercise>
 </exercisegroup>
@@ -293,14 +327,16 @@
 <exercisegroup><introduction><p>For Problems 43<ndash/>50, draw a sketch, write an equation, and solve.  Round your answer to the nearest tenth.</p></introduction>
 
 <exercise number="43"><statement><p>Francine walks along the edge of a rectangular yard from the northwest corner to the southeast corner. Delbert walks diagonally across the same yard. If the yard is 30 yards long and 20 yards wide, how much farther does Francine walk than Delbert?</p></statement>
-<answer></answer></exercise>
+<answer><p>13.9 yd</p></answer></exercise>
 
 <exercise number="44"><statement><p>Rani kayaks due west for 2500 meters, then due south for another 1000 meters. If she now kayaks directly back to her starting point, how long is her total trip?</p></statement></exercise>
 
 <exercise number="45"><statement><p><ol label="a">
 	<li>The volume of a spherical communications satellite is 65.45 cubic feet. What is the radius of the satellite?</li>
 	<li>What is the surface area of the satellite in part (a)?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li>2.5 ft</li>
+	<li>78.54 sq ft</li></ol></p></answer></exercise>
 
 <exercise number="46"><statement><p><ol label="a">
 	<li>Francine's coffee cup is shaped like a cylinder 10 centimeters tall with a radius of 3.36 centimeters. What is its volume in cubic centimeters?</li>
@@ -310,26 +346,25 @@
 
 <exercise number="47"><statement><p>A rectangle is 7 meters wide and 9 meters long. What is the length of its diagonal?
 </p></statement>
-<answer></answer></exercise>
+<answer><p>11.40 m</p></answer></exercise>
 
 <exercise number="48"><statement><p>The size of a TV screen is the length of its diagonal. What is the size of a TV whose screen measures 12 inches by 16 inches?</p></statement></exercise>
 
 <exercise number="49"><statement><p>A 26-meter guy wire is attached to a radio antenna for support. One end of the wire is attached to the antenna 24 meters above the ground, and the other is attached to an iron ring in a cement slab on the ground. How far is the ring from the base of the antenna?</p></statement>
-<answer></answer></exercise>
+<answer><p>10 m</p></answer></exercise>
 
-<exercise number="50"><statement><p>Find the height of an equilateral triangle whose sides are each 8 centimeters long.
-</p></statement></exercise>
+<exercise number="50"><statement><p>Find the height of an equilateral triangle whose sides are each 8 centimeters long.</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 51<ndash/>54, compute the product.</p></introduction>
 
 <exercise number="51"><statement><p><m>-5x(4-3x)</m></p></statement>
-<answer></answer></exercise>
+<answer><m>-20x+15x^2</m></answer></exercise>
 
 <exercise number="52"><statement><p><m>(3xy-4x^2+2)(-2xy)</m></p></statement></exercise>
 
 <exercise number="53"><statement><p><m>3xy(2x-4-y)</m></p></statement>
-<answer></answer></exercise>
+<answer><m>6x^2y-12xy-3xy^2</m></answer></exercise>
 
 <exercise number="54"><statement><p><m>-2a(-a^2-2a+4)</m></p></statement></exercise>
 </exercisegroup>
@@ -340,7 +375,10 @@
 	<li><m>6t^2-8t^2</m></li>
 	<li><m>6t-8t^2</m></li>
 	<li><m>6t(-8t^2)</m></li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a" cols="3">
+	<li><m>-2t^2</m></li>
+	<li>cannot be simplified</li>
+	<li><m>-48t^3</m></li></ol></p></answer></exercise>
 
 <exercise number="56"><statement><p><ol label="a" cols="3">
 	<li><m>w^2+w^2</m></li>
@@ -351,12 +389,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 57<ndash/>60, simplify if possible.</p></introduction>
 
 <exercise number="57"><statement><p><m>6a(2a-1)-(3a^2-3a)</m></p></statement>
-<answer></answer></exercise>
+<answer><m>9a^2-3a</m></answer></exercise>
 
 <exercise number="58"><statement><p><m>4b-2(3-b^2)-b(b-3)</m></p></statement></exercise>
 
 <exercise number="59"><statement><p><m>5a(2a-3)-4(3a^2-2)+6a</m></p></statement>
-<answer></answer></exercise>
+<answer><m>-2a^2-9a+8</m></answer></exercise>
 
 <exercise number="60"><statement><p><m>2x(x-3y)-3y(x-3y)</m></p></statement></exercise>
 </exercisegroup>
@@ -365,7 +403,7 @@
 </p></introduction>
 
 <exercise number="61"><statement><p><m>-2n(3n+?)=-6n^2-2n</m></p></statement>
-<answer></answer></exercise>
+<answer><m>1</m></answer></exercise>
 
 <exercise number="62"><statement><p><m>5b(6+?)=30b-35b^2</m></p></statement></exercise>
 </exercisegroup>
@@ -375,7 +413,9 @@
 	<li>as one large rectangle, using the formula  Area <m>=</m> length <m>\times</m> width.</li></ol></p></introduction>
 
 <exercise number="63"><statement><sidebyside width="45%"><image source="images/cr5-63"><description>rectangle</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><m>5x^2-2x+5x-2</m></li>
+	<li><m>(x+1)(5x-2)</m></li></ol></p>answer></exercise>
 
 <exercise number="64"><statement><sidebyside width="45%"><image source="images/cr5-64"><description>rectangle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -383,39 +423,39 @@
 <exercisegroup cols="2"><introduction><p>For Problems 65<ndash/>76, compute the product.</p></introduction>
 
 <exercise number="65"><statement><p><m>(x-2)(x+4)</m></p></statement>
-<answer></answer></exercise>
+<answer><m>x^3+2x-8</m></answer></exercise>
 
 <exercise number="66"><statement><p><m>(2y+1)(3y-2)</m></p></statement></exercise>
 
 <exercise number="67"><statement><p><m>(5a+1)(5a-1)</m></p></statement>
-<answer></answer></exercise>
+<answer><m>25a^2-1</m></answer></exercise>
 
 <exercise number="68"><statement><p><m>(n-7)(n-7)</m></p></statement></exercise>
 
 <exercise number="69"><statement><p><m>(2q+5)(2q+5)</m></p></statement>
-<answer></answer></exercise>
+<answer><m>4q^2+20q+25</m></answer></exercise>
 
 <exercise number="70"><statement><p><m>(3c-8)(3c+8)</m></p></statement></exercise>
 
 <exercise number="71"><statement><p><m>(u-5)(u-2)</m></p></statement>
-<answer></answer></exercise>
+<answer><m>u^2-7u+10</m></answer></exercise>
 
 <exercise number="72"><statement><p><m>(3r+2)(r-4)</m></p></statement></exercise>
 
 <exercise number="73"><statement><p><m>(a+6)^2</m></p></statement>
-<answer></answer></exercise>
+<answer><m>a^2+12a+36</m></answer></exercise>
 
 <exercise number="74"><statement><p><m>(6y+5)(6y-5)</m></p></statement></exercise>
 
 <exercise number="75"><statement><p><m>(2a-5c)(3a+2c)</m></p></statement>
-<answer></answer></exercise>
+<answer><m>6a^2-11ac-10c^2</m></answer></exercise>
 
 <exercise number="76"><statement><p><m>-3(x-4)(2x+5)</m></p></statement></exercise>
 </exercisegroup>
 
 <exercise number="77"><statement><p>Use the given areas to find the area of the large square shown below.</p>
 	<sidebyside width="20%"><image source="images/cr5-77"><description>rectangle</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><m>18</m></answer></exercise>
 
 <exercise number="78"><statement><p>Use the given areas to find the area of the large semicircle shown below.</p>
 	<sidebyside width="25%"><image source="images/cr5-78"><description>rectangle</description></image></sidebyside></statement></exercise>
