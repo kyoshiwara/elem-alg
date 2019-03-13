@@ -6,7 +6,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, write an expression for the shaded area in the combination of squares and circles.</p></introduction>
 
  <exercise number="1"><statement><sidebyside width="40%"><image source="images/hp-5-3-1"><description>square</description></image></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><m>16w^2-36t^2</m></answer></exercise>
 
  <exercise number="2"><statement><sidebyside width="40%"><image source="images/hp-5-3-2"><description>circle</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -15,7 +15,7 @@
 </p></introduction>
 
  <exercise number="3"><statement><sidebyside width="40%"><image source="images/hp-5-3-3"><description>sphere</description></image></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><m>\dfrac{32 \pi h^3}{3}</m></answer></exercise>
 
  <exercise number="4"><statement><sidebyside width="40%"><image source="images/hp-5-3-4"><description>box</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -23,7 +23,7 @@
 <exercisegroup cols="2"><introduction><p>For Problems 5<ndash/>6, Find an expression for the surface area of each box. (Hint:  Each box has six faces: top and bottom, front and back, left and right. Find the areas of all six faces, then add them.)</p></introduction>
 
  <exercise number="5"><statement><sidebyside width="50%"><image source="images/hp-5-3-5"><description>box</description></image></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><m>22a^2</m></answer></exercise>
 
  <exercise number="6"><statement><sidebyside width="50%"><image source="images/hp-5-3-6"><description>box</description></image></sidebyside></statement></exercise>
 </exercisegroup>
@@ -31,35 +31,33 @@
 <exercisegroup cols="3"><introduction><p>For Problems 7<ndash/>11, find the unknown side or sides of the right triangles.</p></introduction>
 
  <exercise number="7"><statement><sidebyside width="70%"><image source="images/hp-5-3-7"><description>triangle</description></image></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><m>8</m></answer></exercise>
 
  <exercise number="8"><statement><sidebyside width="90%"><image source="images/hp-5-3-8"><description>triangle</description></image></sidebyside></statement></exercise>
 
  <exercise number="9"><statement><sidebyside width="60%"><image source="images/hp-5-3-9"><description>triangle</description></image></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><m>\sqrt{68}</m></answer></exercise>
 
  <exercise number="10"><statement><sidebyside width="75%"><image source="images/hp-5-3-10"><description>triangle</description></image></sidebyside></statement></exercise>
 
  <exercise number="11"><statement><sidebyside width="60%"><image source="images/hp-5-3-11"><description>triangle</description></image></sidebyside></statement>
- <answer></answer></exercise>
+ <answer><m>k=5\sqrt{2},~ 3k=15\sqrt{2}</m></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="3"><introduction><p>For Problems 12<ndash/>14, decide whether a triangle with the given sides is a right triangle.</p></introduction>
 
-<exercise number="10"><statement><p>9 in, 16 in 25 in</p></statement></exercise>
+<exercise number="12"><statement><p>9 in, 16 in 25 in</p></statement></exercise>
 
-<exercise number="11"><statement><p>5 m, 12 m, 13 m</p></statement>
-<answer></answer></exercise>
+<exercise number="13"><statement><p>5 m, 12 m, 13 m</p></statement>
+<answer><p>Yes</p></answer></exercise>
 
-<exercise number="12"><statement><p><m>5^2</m> ft, <m>8^2</m> ft, <m>13^2</m> ft, </p></statement></exercise>
+<exercise number="14"><statement><p><m>5^2</m> ft, <m>8^2</m> ft, <m>13^2</m> ft, </p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 15<ndash/>18, explain why the equation is an incorrect application of the Pythagorean theorem for the figure.</p></introduction>
 
 <exercise number="15"><statement><sidebyside width="50%"><!--<image source="images/hp-5-3-15.png"><description>triangle</description></image>-->
-    <image xml:id="hp-5-3-15">
-        <description>triangle</description>
-        <latex-image>
+    <image xml:id="hp-5-3-15"><description>triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -78,15 +76,12 @@
         \node[above right,  xshift=5, yshift=9] at (0,0) {$45\degree$};
         \draw[magenta!80!black,line width=1mm] (0,0)--(A)--++(B)--(0,0);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
+    </latex-image></image>
 </sidebyside><p><m>3^2+x^2 = 5^2</m></p></statement>
- <answer></answer></exercise>
+ <answer><p>Not a right triangle</p></answer></exercise>
 
  <exercise number="16"><statement><sidebyside width="60%"><!--<image source="images/hp-5-3-16.png"><description>triangle</description></image>-->
-     <image xml:id="hp-5-3-16">
-        <description>right triangle</description>
-        <latex-image>
+     <image xml:id="hp-5-3-16"><description>right triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -107,9 +102,7 @@
  </sidebyside><p><m>8+4=x</m></p></statement></exercise>
 
  <exercise number="17"><statement><sidebyside width="55%"><!--<image source="images/hp-5-3-17.png"><description>triangle</description></image>-->
-    <image xml:id="hp-5-3-17">
-        <description>right triangle</description>
-        <latex-image>
+    <image xml:id="hp-5-3-17"><description>right triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -127,12 +120,10 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image> </sidebyside><p><m>x^2+2^2=11^2</m></p></statement>
- <answer></answer></exercise>
+ <answer><p>The hypotenuse is <m>x</m>, not 11.</p></answer></exercise>
 
  <exercise number="18"><statement><sidebyside width="50%"><!--<image source="images/hp-5-3-18.png"><description>triangle</description></image>-->
-    <image xml:id="hp-5-3-18">
-        <description>right triangle</description>
-        <latex-image>
+    <image xml:id="hp-5-3-18"><description>right triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -154,17 +145,17 @@
 <exercisegroup cols="2"><introduction><p>For Problems 19<ndash/>22, solve the formula for the variable indicated.</p></introduction>
 
 <exercise number="19"><statement><p><m>v=lwh~~~~~~~~</m> for <m>~w~</m></p></statement>
-<answer></answer></exercise>
+<answer><m>w=\dfrac{v}{lh}</m></answer></exercise>
 
 <exercise number="20"><statement><p><m>E=\dfrac{mv^2}{2}~~~~~~~~</m> for <m>~m~</m></p></statement></exercise>
 
 <exercise number="21"><statement><p><m>A=\dfrac{h}{2}(b+c)~~~~~~~~</m> for <m>~h~</m></p></statement>
-<answer></answer></exercise>
+<answer><m>h=\dfrac{2A}{b+c}</m></answer></exercise>
 
 <exercise number="22"><statement><p><m>F=\dfrac{9}{5}C+32~~~~~~~~</m> for <m>~C~</m></p></statement></exercise>
 
 <exercise number="23"><statement><p><m>A=\pi rh + 2\pi r^2~~~~~~~~</m> for <m>~h~</m></p></statement>
-<answer></answer></exercise>
+<answer><m>h=\dfrac{A-2\pi r^2}{\pi r}</m></answer></exercise>
 
 <exercise number="24"><statement><p><m>\dfrac{x}{a}+\dfrac{y}{b}=1~~~~~~~~</m> for <m>~x~</m></p></statement></exercise>
 </exercisegroup>
@@ -175,19 +166,25 @@
 
 <exercise number="25"><statement><sidebyside widths="60% 30%" valigns="top top"><p>Juliet's balcony is 24 feet above the ground, and there is a 10-foot moat at the base of the wall. How long a ladder will Romeo need to reach the balcony?</p>
 <image source="images/hp-5-3-25"><description>ladder</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>10^2+24^2=x^2</m></li> 
+    <li><p>26 ft</p></li></ol></p></answer></exercise>
 
 <exercise number="26"><statement><sidebyside widths="55% 40%" valigns="middle middle"><p>Marlene visited the Quetzalcoatl pyramid near Mexico City last summer. She measured the base and found it is about 1400 feet on each side. She unrolled a ball of string as she climbed the face of the pyramid, and it was about 722 feet to the top. How tall is the pyramid?</p>
 <image source="images/hp-5-3-26"><description>pyramid</description></image></sidebyside></statement></exercise>
 
 <exercise number="27"><statement><p>A baseball diamond is a square whose sides are 90 feet long. What is the straight-line distance from home plate to second base?</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>90^2+90^2=x^2</m></li> 
+    <li><p>127.3 ft</p></li></ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>The light house is 5 miles east of Gravelly Point. The marina is 7 miles south of Gravelly Point. How far is it from the light house to the marina?</p></statement></exercise>
 
 <exercise number="29"><statement><sidebyside widths="60% 40%" valigns="top top"><p>A surveyor would like to know the distance across a lake.  She picks a spot <m>P</m> on a line perpendicular to the width of the lake, and measures the two distances shown in the figure at right. How wide is the lake?</p>
 <image source="images/hp-5-3-29"><description>lake</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><m>28^2+x^2=84^2</m></li> 
+    <li><p>79.2 m</p></li></ol></p></answer></exercise>
 
 <exercise number="30"><statement><sidebyside widths="55% 40%" valigns="top top"><p>Find the length of each hypotenuse in the spiral figure shown at right.</p>
 <image source="images/hp-5-3-30"><description>spiral</description></image></sidebyside></statement></exercise>
@@ -196,12 +193,12 @@
 <exercisegroup><introduction><p>Problems 31<ndash/>33 involve an area, a circumference, or a volume. Decide which measure is appropriate, and then solve the problem.</p></introduction>
 
 <exercise number="31"><statement><p>A circular pizza pan has a diameter of 14 inches. How much pizza dough is needed to cover it?</p></statement>
-<answer></answer></exercise>
+<answer><p>Area; <m>49\pi \approx 153.94</m> sq in</p></answer></exercise>
 
-<exercise number="32"><statement><p>To find the diameter of a large tree in his yard, Delbert wraps a string around the trunk and thenmeasures its length. If the string is 72.25 inches long, what is the diameter of the tree? </p></statement></exercise>
+<exercise number="32"><statement><p>To find the diameter of a large tree in his yard, Delbert wraps a string around the trunk and then measures its length. If the string is 72.25 inches long, what is the diameter of the tree? </p></statement></exercise>
 
 <exercise number="33"><statement><p>The first solo transatlantic balloon crossing was completed in 1984 in a helium-filled balloon called Rosie O'Grady. The diameter of the balloon was 58.7 feet. Assuming that the balloon was approximately spherical, calculate its volume.</p></statement>
-<answer></answer></exercise>
+<answer><p>Volume; <m>\approx 105,904.14</m> cubic feet</p> </answer></exercise>
 
 <exercise number="34"><statement><p>To calculate the area of a large circular fish pond, Graham measures the distance around the edge of the pond as 75.4 feet. Calculate the area of the pond.</p></statement></exercise>
 </exercisegroup>
@@ -212,7 +209,10 @@
 	<li>Draw a sketch of the dome, and label its radius.</li>
 	<li>How much space is enclosed within the dome?</li>
 	<li>What is the surface area of the dome?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">  
+    <li><sidebyside width="35%"><image source="images/hp-3-5-35ans.png"><description>dome</description></image></sidebyside></li>
+    <li><p><m>\dfrac{128,000 \pi}{3}</m> cubic feet</p></li>
+    <li><p><m>3200 \pi</m> square feet</p></li></ol></p></answer></exercise>
 
 <exercise number="36"><statement><p><ol label="a">
 	<li>How much sheet steel is needed to make a cylindrical can with radius 5 centimeters and height 16 centimeters? (Hint:  Should you calculate the volume or the surface area of the can?)</li>

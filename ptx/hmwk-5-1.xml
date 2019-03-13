@@ -243,7 +243,7 @@
 <exercise number="22"><statement><m>6b^3-2b^3-(-8b^3)</m></statement></exercise>
 
 <exercise number="23"><statement><m>(2y^3-4y^2-y)+(6y^2+2y+1)</m></statement>
-<answer></answer></exercise>
+<answer><m>2y^3+2y^2+y+1</m></answer></exercise>
 
 <exercise number="24"><statement><m>(5x^3+3x^2-4x+8)-(2x^3-4x-3)</m></statement></exercise>
 </exercisegroup>
@@ -251,12 +251,12 @@
 <exercisegroup cols="2"><introduction><p>In Problems 25<ndash/>28, explain why the calculation is incorrect, and give the correct answer.</p></introduction>
 
 <exercise number="25"><statement><m>6w^3 + 8w^3 \rightarrow 14w^6</m></statement>
-<answer></answer></exercise>
+<answer><p>The exponents should not be added; <m>14w^3</m></p></answer></exercise>
 
 <exercise number="26"><statement><m>6+3x^2 \rightarrow 9x^2</m></statement></exercise>
 
 <exercise number="27"><statement><m>4t^2+7 - (3t^2-5) \rightarrow t^2+2</m></statement>
-<answer></answer></exercise>
+<answer><m>7-(-5) = 12;~~t^2+12</m></answer></exercise>
 
 <exercise number="28"><statement><m>5b^2-3b \rightarrow 2b</m></statement></exercise>
 </exercisegroup>
@@ -264,25 +264,30 @@
 <exercisegroup><introduction><p>For Problems 29<ndash/>31, translate into an algebraic expression, then simplify. </p></introduction>
 
 <exercise number="29"><statement><p>The square of the sum of 3 and 4</p></statement>
-<answer></answer></exercise>
+<answer><m>49</m></answer></exercise>
 
 <exercise number="30"><statement><p>5 more than <m>x</m> to the third power</p></statement></exercise>
 
 <exercise number="31"><statement><p>25% of the cube of <m>h</m></p></statement>
-<answer></answer></exercise>
+<answer><m>o.25h^3</m></answer></exercise>
 </exercisegroup>
 
-<exercise number="31"><statement><p>Myra sells mugs at the sidewalk fair every week. Her revenue from selling <m>x</m> mugs is <m>12x-0.3x^2</m> dollars, and the cost of producing <m>x</m> mugs is <m>50+3x</m> dollars.<ol label="a">
+<exercise number="32"><statement><p>Myra sells mugs at the sidewalk fair every week. Her revenue from selling <m>x</m> mugs is <m>12x-0.3x^2</m> dollars, and the cost of producing <m>x</m> mugs is <m>50+3x</m> dollars.<ol label="a">
 	<li>Write an expression for the profit Myra earns from selling <m>x</m> mugs.</li>
 	<li>Find Myra's profit from the sale of 10 mugs, from 15 mugs, and from 20 mugs.</li></ol></p></statement>
-<answer></answer></exercise>
+</exercise>
 
-<exercise number="32"><statement><p>The owner of the Koffee Shop pours the remainder of her old house blend, which is 30% Colombian beans, into a 50-pound bin, and fills it up with her new house blend, which is 25% Colombian beans. Let <m>h</m> stand for the number of pounds of the old house blend. Write algebraic expressions to answer the questions below.
+<exercise number="33"><statement><p>The owner of the Koffee Shop pours the remainder of her old house blend, which is 30% Colombian beans, into a 50-pound bin, and fills it up with her new house blend, which is 25% Colombian beans. Let <m>h</m> stand for the number of pounds of the old house blend. Write algebraic expressions to answer the questions below.
 <ol label="a">
 	<li>How many pounds of Colombian beans are in the old house blend?</li>
 	<li>How many pounds of new blend does she pour into the bin?</li>
 	<li>How many pounds of Colombian beans are in this amount of new house blend?</li>
-	<li>How many pounds of Colombian beans are in the 50-pound bin?</li></ol></p></statement></exercise>
+	<li>How many pounds of Colombian beans are in the 50-pound bin?</li></ol></p></statement>
+<answer><p><ol label="a">
+    <li><m>0.3h</m></li>
+    <li><m>50-h</m></li>
+    <li><m>0.25(50-h)</m></li>
+    <li><m>0.3h+0.25(50-h)</m></li></ol></p></answer></exercise>
 
 <exercisegroup><introduction><p>For Problems 34<ndash/>35, recall that two algebraic expressions are called equivalent if they are equal for every value of their variables.</p></introduction>
 
@@ -294,7 +299,10 @@
  	<li>Find two values of <m>x</m> for which <m>2x=x^2</m>.</li>
  	<li>Find four values of <m>x</m> for which <m>2x \not= x^2</m>.</li>
  	<li>Is <m>2x</m> equivalent to <m>x^2</m>?</li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a">
+    <li><m>x=0,~x=2</m></li>
+    <li><p>Any values except <m>x=0,~x=2</m></p></li>
+    <li>No</li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 36<ndash/>39, simplify mentally, without using pencil, paper, or calculator.
@@ -309,7 +317,10 @@
  	<li><m>0.074 \times 10^2</m></li>
  	<li><m>0.074 \times 10^3</m></li>
  	<li><m>0.074 \times 10^4</m></li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a" cols="3">
+    <li><m>7.4</m></li>
+    <li><m>74</m></li>
+    <li><m>740</m></li></ol></p></answer></exercise>
 
 <exercise number="38"><statement><p><ol label="a" cols="3">
  	<li><m>24 \times 10^2</m></li>
@@ -320,14 +331,15 @@
  	<li><m>3 \cdot 10 + 9</m></li>
  	<li><m>2 \cdot 10^2 + 3 \cdot 10 + 4</m></li>
  	<li><m>3 \cdot 10^3 + 4 \cdot 10^2 + 5 \cdot 10 + 6</m></li></ol></p></statement>
- <answer></answer></exercise>
+ <answer><p><ol label="a">
+    <li><m>39</m></li>
+    <li><m>234</m></li>
+    <li><m>3456</m></li></ol></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="40"><statement><p>Find the perimeter of the triangle.</p>
 <sidebyside width="25%"><!--<image source="images/hp-5-1-40.png"><description>triangle</description></image>-->
-    <image xml:id="hp-5-1-40">
-        <description>triangle</description>
-        <latex-image>
+    <image xml:id="hp-5-1-40"><description>triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -340,15 +352,11 @@
         \node[left, yshift=5] at ($ 0.5*(A)$) {$4x$};
         \node[right, yshift=5] at ($ (B) + ({180-acos(3/5)}:{1.5*\x}) $) {$3x$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement></exercise>
+    </latex-image></image></sidebyside></statement></exercise>
 
 <exercise number="41"><statement><p>Find the area of the triangle.</p>
 <sidebyside width="25%"><!--<image source="images/hp-5-1-41.png"><description>triangle</description></image>-->
-    <image xml:id="hp-5-1-41">
-        <description>triangle</description>
-        <latex-image>
+    <image xml:id="hp-5-1-41"><description>triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -362,15 +370,12 @@
         \draw[magenta!80!black,line width=1mm] (0,0)--(B)--(A)--(0,0);
         \node[below] at ({4*\b},0) {$8b$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement></exercise>
+    </latex-image></image></sidebyside></statement>
+<answer><m>60b</m></answer></exercise>
 
 <exercise number="42"><statement><p>Find the area and perimeter of the rectangle.</p>
 <sidebyside width="25%"><!--<image source="images/hp-5-1-42.png"><description>rectangle</description></image>-->
-    <image xml:id="hp-5-1-42">
-        <description>rectangle</description>
-        <latex-image>
+    <image xml:id="hp-5-1-42"><description>rectangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -381,8 +386,6 @@
         \node[below, yshift=-2] at ({4.5*\v},0) {$9v$};
         \node[right, xshift=2] at ({9*\v},{3.5*\v}) {$7v$};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement></exercise>
+    </latex-image></image></sidebyside></statement></exercise>
 
 </exercises>
