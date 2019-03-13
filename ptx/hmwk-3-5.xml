@@ -6,21 +6,21 @@
  <exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, decide whether the lines are parallel perpendicular, or neither.</p></introduction>
 
  <exercise number="1"><statement>
- 	<md>
- 		<mrow>3x-4y=2</mrow>
- 		<mrow>8y-6x=6</mrow></md></statement>
-<answer></answer></exercise>
+    <md>
+        <mrow>3x-4y=2</mrow>
+        <mrow>8y-6x=6</mrow></md></statement>
+<answer><p>Parallel</p></answer></exercise>
 
 <exercise number="2"><statement>
- 	<md>
- 		<mrow>3x-4y=2</mrow>
- 		<mrow>8y-6x=6</mrow></md></statement></exercise>
+    <md>
+        <mrow>3x-4y=2</mrow>
+        <mrow>8y-6x=6</mrow></md></statement></exercise>
 
 <exercise number="3"><statement>
- 	<md>
- 		<mrow>3x-4y=2</mrow>
- 		<mrow>8y-6x=6</mrow></md></statement>
-<answer></answer></exercise>
+    <md>
+        <mrow>2x=4-5y</mrow>
+        <mrow>2y=4x-5</mrow></md></statement>
+<answer><p>Neither</p></answer></exercise>
 </exercisegroup>
 
 <exercise number="4" cols="4"><statement><p>The slopes of several lines are given below. Which of the lines are parallel to the graph of <m>y=0.75x+2</m>, and which are perpendicular to it?<ol label="a"  cols="4">
@@ -34,16 +34,62 @@
 	<li><m>\dfrac{9}{12}</m></li></ol></p></statement></exercise>
 
 <exercisegroup cols="3"><introduction><p>For Problems 5<ndash/>7,<ol label="a">
-	<li>Sketch a rough graph of the equation, and label its intercept.</li>
-	<li>State the slope of the line.</li></ol></p></introduction>
+    <li>Sketch a rough graph of the equation, and label its intercept.</li>
+    <li>State the slope of the line.</li></ol></p></introduction>
 
 <exercise number="5"><statement><m>y=-3</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><sidebyside>
+    <image xml:id="hp-3-5-5ans">
+        <description>horizontal line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[cyan] (-5,-4) grid (5,2);
+        \draw[black,very thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-4)--(0,3) node[left, xshift=2]{$y$};
+        \foreach \x  in  {5,-5} {
+         \draw[cyan, very thick] (\x,-4) --++(0,6);
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[magenta!80!black, ultra thick, <->, >=stealth'] (-5,-3)--(5,-3);
+        \node[left, fill=white, inner sep=2] at (-.2,-3){$-3$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>m=0</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="6"><statement><m>2x=8</m></statement></exercise>
 
 <exercise number="7"><statement><m>x=0</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><sidebyside>
+    <image xml:id="hp-3-5-7ans">
+        <description>horizontal line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.4]
+        \draw[cyan] (-5,-5) grid (5,5);
+        \draw[black, thick, ->, >=stealth'] (-5,0)--(6,0) node[right]{$x$};
+        \draw[magenta!80!black,ultra thick, <->, >=stealth'] (0,-6)--(0,6) node[above,text=black]{$y$};
+        \foreach \x  in  {5,-5} {
+         \draw[cyan, very thick] (\x,-5) --++(0,10);
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[cyan, very thick] (-5,\x) --++(10,0);
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>m</m> is undefined</p></li>
+</ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 8<ndash/>12, give the equation of the line described.</p></introduction>
@@ -51,12 +97,12 @@
 <exercise number="8"><statement><p>Horizontal, passes through <m>(6,-5)</m></p></statement></exercise>
 
 <exercise number="9"><statement><p> <m>m</m> is undefined, passes through <m>(2,1)</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>x=2</m></p></answer></exercise>
 
 <exercise number="10"><statement><p>Parallel to <m>x=4</m>, passes through <m>(-8,3)</m></p></statement></exercise>
 
 <exercise number="11"><statement><p>The <m>x</m>-axis</p></statement>
-<answer></answer></exercise>
+<answer><p><m>y=0</m></p></answer></exercise>
 
 <exercise number="12"><statement><p>Perpendicular to the <m>y</m>-axis, passes through <m>(4,-12)</m></p></statement></exercise>
 </exercisegroup>
@@ -65,12 +111,12 @@
 </p></introduction>
 
 <exercise number="13"><statement><m>y=-6</m></statement>
-<answer></answer></exercise>
+<answer><p><m>m=0</m>, <m>~b=-6</m></p></answer></exercise>
 
 <exercise number="14"><statement><m>y=-6x</m></statement></exercise>
 
 <exercise number="15"><statement><m>x=-6y</m></statement>
-<answer></answer></exercise>
+<answer><p><m>m=\dfrac{-1}{6} </m>, <m>~b=0</m></p></answer></exercise>
 
 <exercise number="16"><statement><m>x=6-y</m></statement></exercise>
 </exercisegroup>
@@ -79,12 +125,12 @@
 </p></introduction>
 
 <exercise number="17"><statement><m>(5,2),~(8,7)</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{5}{3} </m></p></answer></exercise>
 
 <exercise number="18"><statement><m>(3,-2),~(0,1)</m></statement></exercise>
 
 <exercise number="19"><statement><m>(6,-2),~(-3,-3)</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\dfrac{1}{9} </m></p></answer></exercise>
 
 <exercise number="20"><statement><m>(3,-5),~(8,-5)</m></statement></exercise>
 </exercisegroup>
@@ -94,41 +140,56 @@
 	<li>Use the intercepts to compute the slope of the line.</li></ol></p></introduction>
 
 <exercise number="21"><statement><m>\dfrac{x}{5}+\dfrac{y}{7}=1</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><p><m>(5,0) </m>, <m>~(0,7) </m></p></li>
+	<li><p><m>\dfrac{-7}{5} </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="22"><statement><m>\dfrac{-x}{2.4}+\dfrac{y}{1.6}=1</m></statement></exercise>
 
 <exercise number="23"><statement><m>3x+\dfrac{2}{7}y=1</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><p><m>\left(\dfrac{1}{3},0\right) </m>, <m>~\left(0,\dfrac{7}{2}\right) </m></p></li>
+	<li><p><m>\dfrac{-21}{2} </m></p></li>
+</ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 24<ndash/>25, you are given the slope of a line and one point on it. Use the grids to help you find the missing coordinates of the other points on the line.</p></introduction>
 
 <exercise number="24"><statement><p><m>m=2,~~(1,-1)</m><ol label="a" cols="2">
-	<li><m>(0,?)</m></li>
-	<li><m>(?,-7)</m></li></ol></p>
-	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
-	</statement></exercise>
+    <li><m>(0,?)</m></li>
+    <li><m>(?,-7)</m></li></ol></p>
+    <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
+    </statement></exercise>
 
 <exercise number="25"><statement><p><m>m=\dfrac{-1}{2},~~(2,-6)</m><ol label="a" cols="2">
-	<li><m>(6,?)</m></li>
-	<li><m>(?,-3)</m></li></ol></p>
-	<sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
-	</statement>
-<answer></answer></exercise>
+    <li><m>(6,?)</m></li>
+    <li><m>(?,-3)</m></li></ol></p>
+    <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
+    </statement>
+<answer><p><ol label="a">
+    <li><p><m>\left(6,-8\right) </m></p></li>
+    <li><p><m>(-4,-3) </m></p></li>
+</ol></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 26<ndash/>29, you are given the slope of a line and one point on it. Use the grids to help you find the missing coordinates of the other points on the linecalculate the slope of the line described, including units, and explain its meaning for the problem.</p></introduction>
 
-<exercise number="26"><statement><p>It cost Melanie $6.88 to copy and bind her 26-page paper at CopyQuik. It cost Nelson $8.80 to copy and bind his 50-page portfolio. The graph of the cost, <m>C</m>, of producing a document of length <m>p</m> pages at CopyQuik is a straight line.</p></statement></exercise>
+<exercise number="26"><statement><p>Rani and Larry start a college fund for their son, Colby. When Colby is five years old, the fund has $11,000. When he is 10 years old, the fund has grown to $17,000. The graph of the amount, <m>A</m>, in the fund when Colby is <m>n</m> years old is a straight line.</p></statement>
+</exercise>
 
-<exercise number="27"><statement><p>Rani and Larry start a college fund for their son, Colby. When Colby is five years old, the fund has $11,000. When he is 10 years old, the fund has grown to $17,000. The graph of the amount, <m>A</m>, in the fund when Colby is <m>n</m> years old is a straight line.</p></statement>
-<answer></answer></exercise>
+<exercise number="27"><statement><p>It cost Melanie $6.88 to copy and bind her 26-page paper at CopyQuik. It cost Nelson $8.80 to copy and bind his 50-page portfolio. The graph of the cost, <m>C</m>, of producing a document of length <m>p</m> pages at CopyQuik is a straight line.</p></statement><answer><p><ol label="a">
+    <li><p>$0.08/1 page</p></li>
+    <li><p>The cost of making copies is 8 cents per page.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="28"><statement><p>Dean is cycling down Mt. Whitney. After five minutes, his elevation is 9200 feet, and after 21 minutes, his elevation is 1200 feet. The graph of Dean's elevation, <m>h</m>, after cycling for <m>t</m> minutes is approximately a straight line.</p></statement></exercise>
 
 <exercise number="29"><statement><p>At 2 pm the temperature was <m>16 \degree</m>, and by midnight it had dropped to <m>14 \degree</m>. The graph of temperature, <m>T</m>, at <m>h</m> hours after noon is approximately a straight line.</p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>-3\degree/\text{ 1 hour}</m></p></li>
+    <li><p>The temperature dropped at an average rate of <m>3\degree</m> per hour.</p></li>
+</ol></p></answer></exercise>
 </exercisegroup>
 
 <exercise number="30"><statement><p>The figure shows the wholesale cost, <m>C</m>, in dollars, of <m>p</m> pounds of dry-roasted peanuts.</p>
@@ -191,6 +252,10 @@
 	<li>What does the slope tell you about Roy's journey?</li>
 	<li>Find the vertical intercept of the graph. What is its meaning for the problem?</li>
 	<li>Compute the horizontal intercept of the graph. What is its meaning for the problem?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+	<li><p><m>-75 \text{miles/ 1 hour}</m></p></li>
+	<li><p>Roy's distance from home decreases by 75 miles each hour.</p></li>
+	<li><p>800; Roy boarded the train 800 miles away from home.</p></li>
+	<li><p><m>10\frac{2}{3} </m>; Roy will arrive home in about ten hours and 40 minutes.</p></li></ol></p></answer></exercise>
 
 </exercises>
