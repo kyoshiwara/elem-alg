@@ -89,7 +89,7 @@
     <li>15 ml, 1.8 ml</li>
     <li>16.8 ml, 42 ml</li>
     <li>40%</li>
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
     <col width="20%"></col> <col width="20%"></col><col width="20%"></col><col width="17%"></col>             
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
@@ -128,8 +128,8 @@
 <exercisegroup><introduction><p>Solve Problems 8<ndash/>9 about motion.</p></introduction>
 
 <exercise number="8"><statement><p>Delbert and Francine leave Cedar Rapids at the same time and drive in opposite directions for 6 hours.<ol label="a">  
-	<li><p>Choose variables for Delbert and Francine's speeds and fill in the table.  
-		<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+    <li><p>Choose variables for Delbert and Francine's speeds and fill in the table.  
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell>Rate</cell>
@@ -144,13 +144,13 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></sidebyside></p></li>
-	<li>Make a sketch showing Cedar Rapids, Delbert, and Francine. Label your sketch with the distance that each traveled.</li>
-	<li>Francine drove 5 miles per hour slower than Delbert. After 6 hours, they are 570 miles apart.  Write two equations about the problem.</li>
-	<li>Solve your system to find Delbert's and Francine's speeds.</li></ol></p></statement></exercise>
+    <li>Make a sketch showing Cedar Rapids, Delbert, and Francine. Label your sketch with the distance that each traveled.</li>
+    <li>Francine drove 5 miles per hour slower than Delbert. After 6 hours, they are 570 miles apart.  Write two equations about the problem.</li>
+    <li>Solve your system to find Delbert's and Francine's speeds.</li></ol></p></statement></exercise>
 
 <exercise number="9"><statement><p>Bonnie left Dallas and drove north at 40 miles per hour. Three hours later Clyde headed north form Dallas on the same road at 70 miles per hour until he caught up with Bonnie.<ol label="a"> 
-	<li>Make a sketch showing Dallas, Bonnie, and Clyde.</li>  
-	<li><p>Complete the table.
+    <li>Make a sketch showing Dallas, Bonnie, and Clyde.</li>  
+    <li><p>Complete the table.</p>
   <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
@@ -165,13 +165,31 @@
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell><m>\hphantom{0000}</m></cell></row>
-                    </tabular></sidebyside></p></li>
-	<li>Use your table to write two equations about the problem.</li>
-	<li>Solve your system. How long did Bonnie drive before Clyde caught up? How far had she driven?</li></ol></p></statement>
-  <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
-<answer><p><ol label="a">
-    <li>(sketch)</li>
-    <li><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    </tabular></sidebyside></li>
+    <li>Use your table to write two equations about the problem.</li>
+    <li>Solve your system. How long did Bonnie drive before Clyde caught up? How far had she driven?</li></ol></p></statement>
+<answer><p><ol label="a" cols="2">
+    <li><sidebyside width="50%" margins="0% 50%">
+    <image xml:id="hp-4-4-9ans">
+        <description>diagram showing Dallas, Bonnie, and Clyde</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \coordinate (O) at (0,0);
+        \coordinate (B) at (0,3);
+        \coordinate (C) at (0,2);
+        \filldraw[black] (O) circle (.8mm) node[below, yshift=-2] {Dallas};
+        \filldraw[red] (B) circle (.8mm) node[right] {Bonnie};
+        \filldraw[blue] (C) circle (.8mm) node[above right] {Clyde};
+        \draw [red,decorate,decoration={brace,amplitude=5pt}] (O)++(-.2,0) -- ($(B)+(-.2,0)$) node [black, left, xshift=-4,midway] {$40t$};
+        \draw [blue,decorate,decoration={brace,amplitude=5pt}] (C)++(.2,0) -- ($(O)+(.2,0)$) node [black, right, xshift=4,midway] {$70(t-3)$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>\hphantom{0000}</m></cell>
                         <cell>Rate</cell>
@@ -185,7 +203,7 @@
                         <cell><m>70</m></cell>
                         <cell><m>t-3</m></cell>
                         <cell><m>d</m></cell></row>
-                    </tabular></sidebyside></p></li>
+                    </tabular></sidebyside></li>
     <li><m>40t=d;~70(t-3)=d</m></li>
     <li>7 hours, 280 miles</li></ol></p></answer></exercise>
 </exercisegroup>

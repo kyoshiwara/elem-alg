@@ -219,7 +219,7 @@
             <cell  bottom="major" right="major"><p><m>\alert{6x}</m></p></cell>
             <cell  bottom="major" right="major"><p><m>-54</m></p></cell>
         </row>
-    </tabular></sidebyside></li></answer></exercise>
+    </tabular></sidebyside></li></ol></p></answer></exercise>
 
 <exercise number="34"><statement><p><m>(2x-5)(x+4)</m></p>
 	<sidebyside width="50%"><image source="images/hp-5-4-33"><description>rectangle</description></image></sidebyside></statement></exercise>

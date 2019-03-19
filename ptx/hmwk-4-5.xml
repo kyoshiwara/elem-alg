@@ -12,7 +12,30 @@
 <exercise number="1"><statement><m>m=-2,~~(-3,4)</m>
 <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
-    <li></li>
+    <li><sidebyside>
+    <image xml:id="hp-4-5-1ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (-4,10)--(6,-10);
+        \filldraw[red!80!black] (-3,8) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
     <li><m>y=2x+2</m></li>
     <li><m>(1,0)</m></li></ol></p></answer></exercise>
 
@@ -22,7 +45,30 @@
 <exercise number="3"><statement><m>m=\dfrac{-2}{3},~~(-6,2)</m>
 <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
-    <li></li>
+    <li><sidebyside>
+    <image xml:id="hp-4-5-3ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (-10,14/3)--(10,-26/3);
+        \filldraw[red!80!black] (-6,2) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
     <li><m>y=\dfrac{-2}{3}x-2</m></li>
     <li><m>(-3,0)</m></li></ol></p></answer></exercise>
 
@@ -32,7 +78,30 @@
 <exercise number="5"><statement><m>m=\dfrac{-5}{2},~~(6,-10)</m>
 <sidebyside width="90%"><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
 <answer><p><ol label="a">
-    <li></li>
+    <li><sidebyside>
+    <image xml:id="hp-4-5-5ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (6,-10)--(-2,10);
+        \filldraw[red!80!black] (6,-10) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
     <li><m>y=\dfrac{-5}{2}x+5</m></li>
     <li><m>(2,0)</m></li></ol></p></answer></exercise>
 
@@ -179,12 +248,35 @@
         \end{tikzpicture}]]>
     </latex-image></image></sidebyside></li>
     <li>What is the slope of any line that is parallel to <m>2y-3x=5</m>?</li>
-    <li>On your graph for part (a), sketch by hand a line that is parallel to <m>2y-3x=5</m> and passes through the point <m>(-3,2)</m>.</li><m>2y-3x=5</m>
-    <li>Use the point-slope formula to write an equation for the line that is parallel to the graph of <m>2y-3x=5</m> and passes through the point <m>(-3,2)</m>.</li></ol></p></statement>
+    <li>On your graph for part (a), sketch by hand a line that is parallel to <m>2y-3x=5</m> and passes through the point <m>(4,2)</m>.</li><m>2y-3x=5</m>
+    <li>Use the point-slope formula to write an equation for the line that is parallel to the graph of <m>2y-3x=5</m> and passes through the point <m>(4,2)</m>.</li></ol></p></statement>
 <answer><p><ol label="a">
     <li><m>y=\dfrac{3}{2}x+\dfrac{5}{2}</m></li>
     <li><m>\dfrac{3}{2}</m></li>
-    <li></li>
+    <li><sidebyside width="45%" margins="0% 55%">
+    <image xml:id="hp-4-5-17ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.35]
+        \draw[cyan] (-8,-8) grid (8,8);
+        \draw[black,very thick, ->, >=stealth'] (-8,0)--(9,0) node[right]{$x$};
+        \draw[black,very thick, ->, >=stealth'] (0,-8)--(0,9) node[left, xshift=2]{$y$};
+        \foreach \x  in  {-5, 5} {
+         \draw[cyan, very thick] (\x,-8) --++(0,16);
+         \draw[cyan, very thick] (-8,\x) --++(16,0);
+         \draw[black, thick] (\x,.2) --++(0,-.4) node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black,thick] (.2,\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red, very thick,<->, >=stealth'] (11/3,8)--(-7,-8);
+        \draw[blue, very thick,<->, >=stealth'] (8,8)--(-8/3,-8);
+        \filldraw[blue!80!black] (4,2) circle (1.5mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
     <li><m>y=\dfrac{3}{2}x-4</m></li></ol></p></answer></exercise>
 
 <exercise number="18"><statement><p><ol label="a">
@@ -233,10 +325,10 @@ of the course in hours.<ol label="a">
 	<li>What is the slope, including units?  What does it tell you about the problem?</li>
 	<li>How much does a 10-hour course cost?</li>
 	<li>How much is the fixed insurance fee?</li></ol></p></statement>
-<answer><m>C=65h+125</m><p><ol label="a">
-    <li><p>65 dollars/hr.  The hourly rate for lessons is 64 dollars per hour.</li>
+<answer><p><m>C=65h+125</m><ol label="a">
+    <li>65 dollars/hr.  The hourly rate for lessons is 64 dollars per hour.</li>
     <li>$775</li>
-    <li>$125</li></ol></p><answer></exercise>
+    <li>$125</li></ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>On an international flight a passenger may check two bags each weighing 70 kilograms, or 154 pounds, and one carryon bag weighing 50 kilograms, or 110 pounds. Express the weight, <m>p</m>, of a bag in pounds in terms of its weight, <m>k</m>, in kilograms.<ol label="a">
 	<li>What is the slope, including units?  What does it tell you about the problem?</li>
