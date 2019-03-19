@@ -476,7 +476,7 @@
 <exercise number="30"><statement><p><m>y=(3x-4)(x+2)</m></p></statement></exercise>
 
 <exercise number="31"><statement><p><m>y=3x^2+12x</m></p></statement>
-<answer></answer></exercise>
+<answer><p><m>(-4,0) </m>, <m>~(0,0) </m></p></answer></exercise>
 
 <exercise number="32"><statement><p><m>y=-7x-4x^2</m></p></statement></exercise>
 </exercisegroup>
@@ -522,17 +522,31 @@
 
 <exercisegroup cols="2"><introduction><p>For Problems 35<ndash/>36, <m>\alert{\text{find the mistake}}</m> in the steps for solution, then write a correct solution.</p></introduction>
 
-<exercise number="35"><statement>
-	<md><mrow>4x^2 \amp = 12x</mrow>
-		<mrow>\dfrac{4x^2}{4x} \amp = \dfrac{12x}{4x}</mrow>
-		<mrow>x \amp = 3</mrow></md></statement>
-<answer></answer></exercise>
+<exercise number="35"><statement><p>
+    <m>
+        \begin{aligned}[t]
+        4x^2 \amp = 12x\\
+        \dfrac{4x^2}{4x} \amp = \dfrac{12x}{4x}\\
+        x \amp = 3e
+        \end{aligned}
+    </m></p></statement>
+<answer><p><m>
+    \begin{aligned}[t]
+    4x^2 \amp= 12x\amp\amp\blert{\text{Subtract } 12x\text{.}}\\
+    4x^2-12x \amp=0\amp\amp\blert{\text{Factor the left side.}}\\
+    4x(x-3)\amp =0\amp\amp\blert{\text{Set each factor to 0.}}\\
+    x=0\amp ~\text{ or } ~x=3
+    \end{aligned}
+</m></p></answer></exercise>
 
-<exercise number="36"><statement>
-	<md><mrow>9x^2 - 4 \amp = 16</mrow>
-		<mrow>3x-2 \amp = 4</mrow>
-		<mrow>3x \amp = 6</mrow>
-		<mrow>x \amp = 2</mrow>
-	</md></statement></exercise>
+<exercise number="36"><statement><p>
+    <m>
+        \begin{aligned}[t]
+        9x^2 - 4 \amp = 16\\
+        3x-2 \amp = 4\\
+        3x \amp = 6\\
+        x \amp = 2\\
+    \end{aligned}
+    </m></p></statement></exercise>
 </exercisegroup>
 </exercises>
