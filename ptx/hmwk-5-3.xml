@@ -206,18 +206,35 @@
 <exercisegroup><introduction><p>Problems 35<ndash/>36 use the formulas for volume and surface area.</p></introduction>
 
 <exercise number="35"><statement><p>The dome on the new planetarium is a hemisphere (half a sphere) of radius 40 feet.<ol label="a">  
-	<li>Draw a sketch of the dome, and label its radius.</li>
-	<li>How much space is enclosed within the dome?</li>
-	<li>What is the surface area of the dome?</li></ol></p></statement>
+    <li>Draw a sketch of the dome, and label its radius.</li>
+    <li>How much space is enclosed within the dome?</li>
+    <li>What is the surface area of the dome?</li></ol></p></statement>
 <answer><p><ol label="a">  
-    <li><sidebyside width="35%"><image source="images/hp-3-5-35ans.png"><description>dome</description></image></sidebyside></li>
+    <li><sidebyside width="35%" margins="0% 65%"><!--<image source="images/hp-3-5-35ans.png"><description>dome</description></image>-->
+    <image xml:id="hp-5-3-35ans">
+        <description>hemisphere dome</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}
+        \draw[magenta!80!black, ultra thick] (2,0) arc(0:180:2);
+        \draw[domain=0:180,variable=\t, smooth, samples=65, magenta!90!black, thick, dashed] plot ({2*cos(\t)}, {.4*sin(\t)});
+        \draw[domain=0:-180,variable=\t, smooth, samples=65, magenta!80!black, thick] plot ({2*cos(\t)}, {.4*sin(\t)});
+        \filldraw[black] (0,0) circle (0.5mm);
+        \draw[black,thick] (0,0)--(2,0) node[above,midway, yshift=2, fill=white, inner sep = 1] {40 ft};
+
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
     <li><p><m>\dfrac{128,000 \pi}{3}</m> cubic feet</p></li>
     <li><p><m>3200 \pi</m> square feet</p></li></ol></p></answer></exercise>
 
 <exercise number="36"><statement><p><ol label="a">
-	<li>How much sheet steel is needed to make a cylindrical can with radius 5 centimeters and height 16 centimeters? (Hint:  Should you calculate the volume or the surface area of the can?)</li>
-	<li>How long is a cylindrical section of concrete pipe if its diameter is 3 feet and its surface area is approximately 848.25 square feet?</li>
-	<li>Draw a sketch of the pipe in part (b), and label its dimensions.</li></ol></p></statement></exercise>
+    <li>How much sheet steel is needed to make a cylindrical can with radius 5 centimeters and height 16 centimeters? (Hint:  Should you calculate the volume or the surface area of the can?)</li>
+    <li>How long is a cylindrical section of concrete pipe if its diameter is 3 feet and its surface area is approximately 848.25 square feet?</li>
+    <li>Draw a sketch of the pipe in part (b), and label its dimensions.</li></ol></p></statement></exercise>
 </exercisegroup>
 
 </exercises>

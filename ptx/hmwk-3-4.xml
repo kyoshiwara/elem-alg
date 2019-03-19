@@ -3,17 +3,23 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 3.4</title>
 
- <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, <ol label="a">
-	<li>Write the equation in slope-intercept form.</li>  
-	<li>State the slope and <m>y</m>-intercept of the graph.</li></ol></p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, <ol label="a">
+    <li>Write the equation in slope-intercept form.</li>  
+    <li>State the slope and <m>y</m>-intercept of the graph.</li></ol></p></introduction>
 
 <exercise number="1"><statement><m>y=3x+4</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>y=3x+4</m></p></li>
+    <li><p>slope 3 and <m>y</m>-intercept <m>(0,4) </m>.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="2"><statement><m>6x+3y=6</m></statement></exercise>
 
 <exercise number="3"><statement><m>2x-3y=6</m></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>y=\dfrac{2}{3} x-2</m></p></li>
+    <li><p>slope <m>\dfrac{2}{3}</m> and <m>y</m>-intercept <m>(0,-2) </m>.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="4"><statement><m>5x=4y</m></statement></exercise>
 </exercisegroup>
@@ -47,7 +53,10 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>m=3</m>; <m>y</m>-intercept <m>(0,-4) </m></p></li>
+    <li><p><m>y=3x-4 </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="6"><statement>
 	<sidebyside width="90%"><!--<image source="images/hp-3-4-6.png"><description>graph</description></image>-->
@@ -100,7 +109,10 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>m=-\dfrac{8}{5} </m>; <m>y</m>-intercept <m>(0,1) </m></p></li>
+    <li><p><m>y=\dfrac{-8}{5}x+1 </m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="8"><statement>
 	<sidebyside width="90%"><!--<image source="images/hp-3-4-8.png"><description>graph</description></image>-->
@@ -190,7 +202,35 @@
                     </tabular></p></li></ol>
         <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
-    <answer></answer></exercise>
+    <answer><p><ol label="a">
+        <li><sidebyside width="45%" margins="0% 55%">
+    <image xml:id="hp-2-4-9ans">
+        <description>three parallel lines</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (-2,-10)--(8,10) node[right, xshift=2, fill=white, inner sep=1] {I};
+        \draw[blue,very thick] (-5.5,-10)--(4.5,10) node[right, xshift=2, fill=white, inner sep=1] {II};
+        \draw[green!80!black,very thick] (-6.5,-10)--(3.5,10) node[left, xshift=-2, yshift=2, fill=white, inner sep=1] {III};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
+        <li><p>All three lines have the same slope of 1.</p></li>
+        <li><p>I: <m>(0,-6) </m>; II: <m>(0,1) </m>; III: <m>(0,3) </m> </p></li>
+    </ol></p></answer></exercise>
 
 <exercise number="10"><statement>
     <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
@@ -305,7 +345,35 @@
                     </tabular></p></li></ol>
         <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
     <p>All three lines have the same <fillin characters="6"/>.</p></statement>
-    <answer></answer></exercise>
+    <answer><p><ol label="a">
+        <li><sidebyside width="45%" margins="0% 55%">
+    <image xml:id="hp-2-4-11ans">
+        <description>three lines with common y-intercept</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (-10,-1/2)--(10,9/2) node[right, xshift=2, fill=white, inner sep=1] {I};
+        \draw[blue,very thick] (-10,-3)--(10,7) node[right, xshift=2, fill=white, inner sep=1] {II};
+        \draw[green!80!black,very thick] (-10,-8)--(8,10) node[left, xshift=-2, yshift=2, fill=white, inner sep=1] {III};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+        </sidebyside></li>
+        <li><p>I: <m>\dfrac{1}{4} </m>; II: <m>\dfrac{1}{2}  </m>; III: <m>1 </m> </p></li>
+        <li><p>All three lines have the same <m>y</m>-intercept <m>(0,2) </m></p></li>
+    </ol></p></answer></exercise>
 
 <exercise number="12"><statement>
     <sidebyside widths="50% 46%" valigns="middle middle" margins="0% 0%">
@@ -362,8 +430,7 @@
                         <cell><m>\hphantom{0000}</m></cell></row>
                     </tabular></p></li></ol>
         <image source="images/hp-2-3-12"><description>grid</description></image></sidebyside>
-    <p>All three lines have the same <fillin characters="6"/>.</p></statement>
-    <answer></answer></exercise>
+    <p>All three lines have the same <fillin characters="6"/>.</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>14, <ol label="a">  
@@ -383,7 +450,35 @@
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside></p>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>(0,3) </m>, <m>~(4,0) </m></p><sidebyside>
+    <image xml:id="hp-2-4-13ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (10,-9/2)--(-28/3,10);
+        \filldraw[blue] (0,3) circle (2mm);
+        \filldraw[blue] (4,0) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p><m>m=\dfrac{-3}{4} </m></p></li>
+    <li><p><m>y=\dfrac{-3}{4}x+3</m></p></li>
+</ol></p></answer></exercise>
 
 <exercise number="14"><statement><p><m>y+3x-8=0</m>
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -408,7 +503,36 @@
 
 <exercise number="15"><statement><p><m>3x-5y=0</m></p>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>y=\dfrac{3}{5}x </m></p></li>
+    <li><p><m>(0,0) </m>, <m>~\dfrac{3}{5} </m></p></li>
+    <li><sidebyside>
+    <image xml:id="hp-3-4-15ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (-10,-6)--(10,6);
+        \filldraw[blue] (0,0) circle (2mm);
+        \filldraw[blue] (5,3) circle (2mm);
+        \filldraw[blue] (-5,-3) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+</ol></p></answer></exercise>
 
 <exercise number="16"><statement><p><m>5x+4y=0</m></p>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
@@ -419,7 +543,30 @@
 
 <exercise number="17"><statement><p><m>y=3-x</m></p>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><sidebyside>
+    <image xml:id="hp-3-4-17ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (10,-7)--(-7,10);
+        \filldraw[blue] (0,3) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></answer></exercise>
 
 <exercise number="18"><statement><p><m>y=3x-1</m></p>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
@@ -427,7 +574,30 @@
 
 <exercise number="19"><statement><p><m>y=\dfrac{3}{4}x+2</m></p>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
-<answer></answer></exercise>
+<answer><sidebyside>
+    <image xml:id="hp-3-4-19ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.3]
+        \coordinate (O) at (0,0);
+        \draw[cyan] (-10,-10) grid (10,10);
+        \draw[black,thick, ->, >=stealth'] (-10,0)--(11.6,0) node[right]{$x$};
+        \draw[black,thick, ->, >=stealth'] (0,-10)--(0,11.6) node[left, xshift=2]{$y$};
+        \foreach \x in  {-5, 5, -10, 10} {
+         \draw[cyan, very thick] (\x,-10) --++(0,20);
+         \draw[cyan, very thick] (-10,\x) --++(20,0);
+         \draw[black] (\x,.15) --++(0,-.3)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+         \draw[black] (.15,\x) --++(-.3,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \draw[red,very thick] (-10,-11/2)--(10,19/2);
+        \filldraw[blue] (0,2) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></answer></exercise>
 
 <exercise number="20"><statement><p><m>y=-2-\dfrac{4}{3}x</m></p>
 <sidebyside><image source="images/hp-2-3-12"><description>grid</description></image></sidebyside></statement>
@@ -467,7 +637,11 @@
 	<li>Calculate the slope of the line.</li>
 	<li>Write an equation for the line in slope-intercept form.</li>
 	<li>What do the slope and the <m>P</m>-intercept tell us about the problem?</li></ol></p></statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><p><m>(0,-240) </m></p></li>
+    <li><p>3</p></li>
+    <li><p><m>P=-240+3x</m></p></li>
+    <li><p>He spent $240 to open the shop and makes $3 of profit per smoothie.</p></li></ol></p></answer></exercise>
 
 <exercisegroup><introduction><p>For Problems 22<ndash/>24, <ol label="a">  
     <li>Graph the line by the slope-intercept method.</li>  
@@ -524,7 +698,34 @@
     </image>
 </sidebyside>
 </statement>
-<answer></answer></exercise>
+<answer><p><ol label="a">
+    <li><sidebyside width="40%" margins="0% 60%">
+    <image xml:id="hp-3-4-23ans">
+        <description>line</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.5]
+        \draw[cyan] (-6,0) grid (6,16);
+        \draw[black,thick, ->, >=stealth'] (-6,0)--(7,0) node[right]{$d$};
+        \draw[black,thick, ->, >=stealth'] (0,0)--(0,17) node[left, xshift=2]{$h$};
+        \foreach \x in  {-6,-4,-2,2,4,6} {
+         \draw[cyan, very thick] (\x,0) --++(0,16);
+         \draw[black] (\x,.1) --++(0,-.2)  node[below, yshift=-2, fill=white, inner sep=1]   {$\x$};
+        }
+        \foreach \x [evaluate=x as \xi using int(2*\x] in  {2,4,...,16} {
+         \draw[cyan, very thick] (-6,\x) --++(12,0);
+         \draw[black] (.1,\x) --++(-.2,0)  node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+        }
+        \draw[red,very thick] (-6,0)--(14/3,16);
+        \filldraw[blue] (0,9) circle (2mm);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li><p>The slope gives the weekly rate that the beans are growing: 3 inches per week. The <m>h</m>-intercept, <m>(0,18) </m>, means that today, the beans are 18 inches tall.</p></li>
+</ol></p></answer></exercise>
 
 <exercise number="24"><statement><p>Cliff's score was negative at the end of the first round of College Quiz, but in Double Quiz his score improved according the equation <m>S=-400+20q</m>, where <m>q</m> is the number of questions he answered.</p>
 <sidebyside width="55%"><!--<image source="images/hp-3-4-24.png"><description>grid</description></image>-->

@@ -7,12 +7,12 @@
 	<me>(b+c)a=ba+ca</me></p></introduction>
 
  <exercise number="1"><statement><m>5(2y-3)</m></statement>
- <answer><m>10y-15</m></answer></exercise>
+ <answer><p><m>10y-15</m></p></answer></exercise>
 
  <exercise number="2"><statement><m>-2(4x+8)</m></statement></exercise>
 
  <exercise number="3"><statement><m>-(5b-3)</m></statement>
- <answer><m>-5b+3</m></answer></exercise>
+ <answer><p><m>-5b+3</m></p></answer></exercise>
 
  <exercise number="4"><statement><m>(-6+2t))-6)</m></statement></exercise>
 </exercisegroup>
@@ -48,12 +48,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>12, simplify and combine like terms.</p></introduction>
 
 <exercise number="9"><statement><m>-6(x+1)+2x</m></statement>
- <answer><m>-4x-6</m></answer></exercise>
+ <answer><p><m>-4x-6</m></p></answer></exercise>
 
  <exercise number="10"><statement><m>5-2(4x-9)+9x</m></statement></exercise>
 
  <exercise number="11"><statement><m>-4(3+2z)+2z-3(2z+1)</m></statement>
- <answer><m>-12z-15</m></answer></exercise>
+ <answer><p><m>-12z-15</m></p></answer></exercise>
 
  <exercise number="12"><statement><m>3(-3a-4)-3a-4(3a-4)</m></statement></exercise>
 </exercisegroup>
@@ -61,22 +61,22 @@
 <exercisegroup cols="2"><introduction><p>For Problems 13<ndash/>20, solve the equation or inequality.</p></introduction>
 
 <exercise number="13"><statement><m>6(3y-4)=-60</m></statement>
- <answer><m>y=-2</m></answer></exercise>
+ <answer><p><m>y=-2</m></p></answer></exercise>
 
  <exercise number="14"><statement><m>5w-64=-2(3w-1)</m></statement></exercise>
 
  <exercise number="15"><statement><m>-22c+5(3c+4) \gt -2(4-3t)</m></statement>
- <answer><m>c=0</m></answer></exercise>
+ <answer><p><m>c=0</m></p></answer></exercise>
 
  <exercise number="16"><statement><m>6-4(2a+3) \ge 6a + 2</m></statement></exercise>
 
  <exercise number="17"><statement><m>4-3(2t-4) \gt -2(4-3t)</m></statement>
- <answer><m>t \lt 2</m></answer></exercise>
+ <answer><p><m>t \lt 2</m></p></answer></exercise>
 
  <exercise number="18"><statement><m>0.25(x+3)-0.45(x-3)=0.30</m></statement></exercise>
 
  <exercise number="19"><statement><m>\dfrac{a}{a+2}=\dfrac{2}{3}</m></statement>
- <answer><m>a=4</m></answer></exercise>
+ <answer><p><m>a=4</m></p></answer></exercise>
 
  <exercise number="20"><statement><m>\dfrac{0.3}{0.5} = \dfrac{b+2}{12-b}</m></statement></exercise>
 </exercisegroup>
@@ -163,7 +163,7 @@
     </latex-image>
     </image>
     </sidebyside></statement>
-<answer><m>5(2x+3):~10x+15</m></answer></exercise>
+<answer><p><m>5(2x+3):~10x+15</m></p></answer></exercise>
 
 <exercise number="30"><statement>
     <sidebyside width="65%"><!--<image source="images/hp-4-1-30.png"><description>rectangle</description></image>-->

@@ -284,22 +284,22 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 <exercisegroup><introduction><p>For Problems 33<ndash/>40, write an algebraic expression.</p></introduction>
 
 <exercise number="33"><statement><p>The oven temperature started at <m>65 \degree</m> and is rising at <m>30 \degree</m> per minute. Write an expression for the oven temperature after <m>t</m> minutes.</p></statement>
-<answer><m>65+30t</answer></exercise>
+<answer><p><m>65+30t</m></p></answer></exercise>
 
 <exercise number="34"><statement><p>Luisa's parents have agreed to pay her tuition ($800 per year) plus half her annual living expenses while she is in school. Write an expression for the amount her parents will pay if Luisa's annual expenses are <m>a</m> dollars.</p></statement></exercise>
 
 <exercise number="35"><statement><p>Mildred canned 80 pints of tomatoes. She kept some for herslf and divided the rest equally among her four daughters.  If Mildred kept <m>M</m> pints, write an expression for the number of pints she gave each daughter.</p></statement>
-<answer><m>\dfrac{80-M}{4}</m></answer></exercise>
+<answer><p><m>\dfrac{80-M}{4}</m></p></answer></exercise>
 
 <exercise number="36"><statement><p>Moira's income is $50 more than one-third of her mother's income. Write an expression for Moira's income if her mother's income is <m>I</m>.</p></statement></exercise>
 
 <exercise number="37"><statement><p>Otis buys 200 pounds of dog food and uses 15 pounds a week for his dog Ralph. Write an expression for the amount of dog food Otis has left after <m>w</m> weeks.</p></statement>
-<answer><m>200-15w</m></answer></exercise>
+<answer><p><m>200-15w</m></p></answer></exercise>
 
 <exercise number="38"><statement><p>Renee receives $600 for appearing in a cola commercial, plus a residual of $80 each time the commercial is aired. Write an expression for Renee's earnings if the commercial plays <m>t</m> times.</p></statement></exercise>
 
 <exercise number="39"><statement><p>Digby bought scuba diving gear by making a $50 down payment and arranging to pay the balance in ten equal installments. If the total cost of the gear is <m>C</m> dollars, write an expression for the amount of each installment.</p></statement>
-<answer><m>\dfrac{c-50}{10}</answer></exercise>
+<answer><p><m>\dfrac{c-50}{10}</m></p></answer></exercise>
 
 <exercise number="40"><statement><p>Each passengers and three crew members on a small airplane is allowed 35 pounds of luggage. Write an expression for the weight of the luggage if there are <m>x</m> passengers.</p></statement></exercise>
 </exercisegroup>

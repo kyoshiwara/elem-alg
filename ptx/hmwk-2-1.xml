@@ -14,7 +14,7 @@
 	<li><m>2</m></li>
 	<li><m>-2</m></li>
 	<li><m>-8</m></li></ol></p>
-	<answer></exercise>
+	</answer></exercise>
 
 <exercise number="2"><statement><p><ol label="a" cols="3">
 	<li><m>-15+(-20)</m></li>
@@ -42,7 +42,7 @@
 	<li><m>3-(-9)</m></li>
 	<li><m>-8-(-6)</m></li>
 	<li><m>-6-5</m></li></ol></p></statement>
-<answer><ol label="a" cols="2">
+<answer><p><ol label="a" cols="2">
 	<li><m>4+(-8)=-4</m></li>
 	<li><m>3+9=12</m></li>
 	<li><m>-8+6=-2</m></li>
@@ -83,7 +83,7 @@
 	<li><m>15+(-5)</m></li>
 	<li><m>15-5</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="3">
-	<li><m>01</m></li>
+	<li><m>10</m></li>
 	<li><m>10</m></li>
 	<li><m>10</m></li></ol></p></answer></exercise>
 
@@ -124,7 +124,7 @@
 	<li><m>-4+(-7)+(-7)</m></li></ol></p></statement>
 <answer><p><ol label="a">
 	<li><m>-6</m></li>
-	<li><m>-18</m></li></ol></p>/answer></exercise>
+	<li><m>-18</m></li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><p><ol label="a">
 	<li><m>6+(-14)+12+(-17)</m></li>
@@ -166,7 +166,7 @@
 	<li><m>(-2)(-2)(-2)</m></li>
 	<li><m>-30 \div 0</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="3">
-	<li><m>0/m></li>
+	<li><m>0</m></li>
 	<li><m>-8</m></li>
 	<li>undefined</li></ol></p></answer></exercise>
 
