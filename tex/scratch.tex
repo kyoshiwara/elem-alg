@@ -1,0 +1,525 @@
+%**************************************%
+%*    Generated from PreTeXt source   *%
+%*    on 2019-01-04T12:52:00-08:00    *%
+%*                                    *%
+%*      https://pretextbook.org       *%
+%*                                    *%
+%**************************************%
+\documentclass[oneside,10pt,]{article}
+%% Custom Preamble Entries, early (use latex.preamble.early)
+%% Default LaTeX packages
+%%   1.  always employed (or nearly so) for some purpose, or
+%%   2.  a stylewriter may assume their presence
+\usepackage{geometry}
+%% Some aspects of the preamble are conditional,
+%% the LaTeX engine is one such determinant
+\usepackage{ifthen}
+%% etoolbox has a variety of modern conveniences
+\usepackage{etoolbox}
+\usepackage{ifxetex,ifluatex}
+%% Raster graphics inclusion
+\usepackage{graphicx}
+%% Color support, xcolor package
+%% Always loaded, for: add/delete text, author tools
+%% Here, since tcolorbox loads tikz, and tikz loads xcolor
+\PassOptionsToPackage{usenames,dvipsnames,svgnames,table}{xcolor}
+\usepackage{xcolor}
+%% Colored boxes, and much more, though mostly styling
+%% skins library provides "enhanced" skin, employing tikzpicture
+%% boxes may be configured as "breakable" or "unbreakable"
+%% "raster" controls grids of boxes, aka side-by-side
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\tcbuselibrary{breakable}
+\tcbuselibrary{raster}
+%% We load some "stock" tcolorbox styles that we use a lot
+%% Placement here is provisional, there will be some color work also
+%% First, black on white, no border, transparent, but no assumption about titles
+\tcbset{ bwminimalstyle/.style={size=minimal, boxrule=-0.3pt, frame empty,
+colback=white, colbacktitle=white, coltitle=black, opacityfill=0.0} }
+%% Second, bold title, run-in to text/paragraph/heading
+%% Space afterwards will be controlled by environment,
+%% dependent of constructions of the tcb title
+\tcbset{ runintitlestyle/.style={fonttitle=\normalfont\bfseries, attach title to upper} }
+%% Spacing prior to each exercise, anywhere
+\tcbset{ exercisespacingstyle/.style={before skip={1.5ex plus 0.5ex}} }
+%% Spacing prior to each block
+\tcbset{ blockspacingstyle/.style={before skip={2.0ex plus 0.5ex}} }
+%% xparse allows the construction of more robust commands,
+%% this is a necessity for isolating styling and behavior
+%% The tcolorbox library of the same name loads the base library
+\tcbuselibrary{xparse}
+%% Hyperref should be here, but likes to be loaded late
+%%
+%% Inline math delimiters, \(, \), need to be robust
+%% 2016-01-31:  latexrelease.sty  supersedes  fixltx2e.sty
+%% If  latexrelease.sty  exists, bugfix is in kernel
+%% If not, bugfix is in  fixltx2e.sty
+%% See:  https://tug.org/TUGboat/tb36-3/tb114ltnews22.pdf
+%% and read "Fewer fragile commands" in distribution's  latexchanges.pdf
+\IfFileExists{latexrelease.sty}{}{\usepackage{fixltx2e}}
+%% Text height identically 9 inches, text width varies on point size
+%% See Bringhurst 2.1.1 on measure for recommendations
+%% 75 characters per line (count spaces, punctuation) is target
+%% which is the upper limit of Bringhurst's recommendations
+\geometry{letterpaper,total={340pt,9.0in}}
+%% Custom Page Layout Adjustments (use latex.geometry)
+%% This LaTeX file may be compiled with pdflatex, xelatex, or lualatex
+%% The following provides engine-specific capabilities
+%% Generally, xelatex and lualatex will do better languages other than US English
+%% You can pick from the conditional if you will only ever use one engine
+\ifthenelse{\boolean{xetex} \or \boolean{luatex}}{%
+%% begin: xelatex and lualatex-specific configuration
+%% fontspec package will make Latin Modern (lmodern) the default font
+\ifxetex\usepackage{xltxtra}\fi
+\usepackage{fontspec}
+%% realscripts is the only part of xltxtra relevant to lualatex 
+\ifluatex\usepackage{realscripts}\fi
+%% 
+%% Extensive support for other languages
+\usepackage{polyglossia}
+%% Main document language is US English
+\setdefaultlanguage{english}
+%% Spanish
+\setotherlanguage{spanish}
+%% Vietnamese
+\setotherlanguage{vietnamese}
+%% end: xelatex and lualatex-specific configuration
+}{%
+%% begin: pdflatex-specific configuration
+\usepackage[utf8]{inputenc}
+%% PreTeXt will create a UTF-8 encoded file
+%% begin: font setup and configuration for use with pdflatex
+\usepackage{lmodern}
+\usepackage[T1]{fontenc}
+%% end: font setup and configuration for use with pdflatex
+%% end: pdflatex-specific configuration
+}
+%% Symbols, align environment, bracket-matrix
+\usepackage{amsmath}
+\usepackage{amssymb}
+%% allow page breaks within display mathematics anywhere
+%% level 4 is maximally permissive
+%% this is exactly the opposite of AMSmath package philosophy
+%% there are per-display, and per-equation options to control this
+%% split, aligned, gathered, and alignedat are not affected
+\allowdisplaybreaks[4]
+%% allow more columns to a matrix
+%% can make this even bigger by overriding with  latex.preamble.late  processing option
+\setcounter{MaxMatrixCols}{30}
+%%
+%%
+%% Division Titles, and Page Headers/Footers
+%% titlesec package, loading "titleps" package cooperatively
+%% See code comments about the necessity and purpose of "explicit" option
+\usepackage[explicit, pagestyles]{titlesec}
+%% Set global/default page style for document due
+%% to potential re-definitions after documentclass
+\pagestyle{plain}
+%%
+%% Create globally-available macros to be provided for style writers
+%% These are redefined for each occurence of each division
+\newcommand{\divisionnameptx}{\relax}%
+\newcommand{\titleptx}{\relax}%
+\newcommand{\subtitleptx}{\relax}%
+\newcommand{\shortitleptx}{\relax}%
+\newcommand{\authorsptx}{\relax}%
+\newcommand{\epigraphptx}{\relax}%
+%% Create environments for possible occurences of each division
+%% Environment for a PTX "section" at the level of a LaTeX "section"
+\NewDocumentEnvironment{sectionptx}{mmmmmm}
+{%
+\renewcommand{\divisionnameptx}{Section}%
+\renewcommand{\titleptx}{#1}%
+\renewcommand{\subtitleptx}{#2}%
+\renewcommand{\shortitleptx}{#3}%
+\renewcommand{\authorsptx}{#4}%
+\renewcommand{\epigraphptx}{#5}%
+\section[#3]{#1}%
+\label{#6}%
+}{}%
+%% Environment for a PTX "subsection" at the level of a LaTeX "subsection"
+\NewDocumentEnvironment{subsectionptx}{mmmmmm}
+{%
+\renewcommand{\divisionnameptx}{Subsection}%
+\renewcommand{\titleptx}{#1}%
+\renewcommand{\subtitleptx}{#2}%
+\renewcommand{\shortitleptx}{#3}%
+\renewcommand{\authorsptx}{#4}%
+\renewcommand{\epigraphptx}{#5}%
+\subsection[#3]{#1}%
+\label{#6}%
+}{}%
+%% Environment for a PTX "reading-questions" at the level of a LaTeX "subsubsection"
+\NewDocumentEnvironment{reading-questions-subsubsection}{mmmmmm}
+{%
+\renewcommand{\divisionnameptx}{Reading Questions}%
+\renewcommand{\titleptx}{#1}%
+\renewcommand{\subtitleptx}{#2}%
+\renewcommand{\shortitleptx}{#3}%
+\renewcommand{\authorsptx}{#4}%
+\renewcommand{\epigraphptx}{#5}%
+\subsubsection[#3]{#1}%
+\label{#6}%
+}{}%
+%% Environment for a PTX "reading-questions" at the level of a LaTeX "subsubsection"
+\NewDocumentEnvironment{reading-questions-subsubsection-numberless}{mmmmmm}
+{%
+\renewcommand{\divisionnameptx}{Reading Questions}%
+\renewcommand{\titleptx}{#1}%
+\renewcommand{\subtitleptx}{#2}%
+\renewcommand{\shortitleptx}{#3}%
+\renewcommand{\authorsptx}{#4}%
+\renewcommand{\epigraphptx}{#5}%
+\subsubsection*{#1}%
+\addcontentsline{toc}{subsubsection}{#3}
+\label{#6}%
+}{}%
+%%
+%% Styles for the traditional LaTeX divisions
+\titleformat{\chapter}[display]
+{\normalfont\huge\bfseries}{\divisionnameptx\space\thechapter}{20pt}{\Huge#1}
+[{\Large\authorsptx}]
+\titleformat{name=\chapter,numberless}[display]
+{\normalfont\huge\bfseries}{}{0pt}{#1}
+[{\Large\authorsptx}]
+\titlespacing*{\chapter}{0pt}{50pt}{40pt}
+\titleformat{\section}[block]
+{\normalfont\Large\bfseries}{\thesection\space\titleptx}{1em}{}
+[{\large\authorsptx}]
+\titleformat{name=\section,numberless}[block]
+{\normalfont\Large\bfseries}{}{0pt}{#1}
+[{\large\authorsptx}]
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+\titleformat{\subsection}[block]
+{\normalfont\large\bfseries}{\thesubsection\space\titleptx}{1em}{}
+[{\normalsize\authorsptx}]
+\titleformat{name=\subsection,numberless}[block]
+{\normalfont\large\bfseries}{}{0pt}{#1}
+[{\normalsize\authorsptx}]
+\titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titleformat{\subsubsection}[block]
+{\normalfont\normalsize\bfseries}{\thesubsubsection\space\titleptx}{1em}{}
+[{\small\authorsptx}]
+\titleformat{name=\subsubsection,numberless}[block]
+{\normalfont\normalsize\bfseries}{}{0pt}{#1}
+[{\normalsize\authorsptx}]
+\titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+%%
+%% Semantic Macros
+%% To preserve meaning in a LaTeX file
+%% Only defined here if required in this document
+%% Used for inline definitions of terms
+\newcommand{\terminology}[1]{\textbf{#1}}
+%% Used for fillin answer blank
+%% Argument is length in em
+%% Length may compress for output to fit in one line
+\newcommand{\fillin}[1]{\leavevmode\leaders\vrule height -1.2pt depth 1.5pt \hskip #1em minus #1em \null}
+%% Subdivision Numbering, Chapters, Sections, Subsections, etc
+%% Subdivision numbers may be turned off at some level ("depth")
+%% A section *always* has depth 1, contrary to us counting from the document root
+%% The latex default is 3.  If a larger number is present here, then
+%% removing this command may make some cross-references ambiguous
+%% The precursor variable $numbering-maxlevel is checked for consistency in the common XSL file
+\setcounter{secnumdepth}{3}
+%% begin: General AMS environment setup
+%% Environments built with amsthm package
+\usepackage{amsthm}
+%% Numbering for Theorems, Conjectures, Examples, Figures, etc
+%% Controlled by  numbering.theorems.level  processing parameter
+%% Numbering: all theorem-like numbered consecutively
+%% i.e. Corollary 4.3 follows Theorem 4.2
+%% Always need some theorem environment to set base numbering scheme
+%% even if document has no theorems (but has other environments)
+%% Create a never-used style first, always
+%% simply to provide a global counter to use, namely "cthm"
+\newtheorem{cthm}{BadTheoremStringName}[section]
+%% AMS "proof" environment is not used, but we leave previously
+%% implemented \qedhere in place, should the LaTeX be recycled
+\renewcommand{\qedhere}{\relax}
+%% end: General AMS environment setup
+%%
+%% tcolorbox, with styles, for REMARK-LIKE
+%%
+%% remark: fairly simple numbered block/structure
+\tcbset{ remarkstyle/.style={colback=red} }
+\newtcolorbox[use counter*=cthm]{remark}[2]{title={{Remark~\thecthm\notblank{#1}{\space\space#1}{}}}, phantomlabel={#2}, breakable, parbox=false, remarkstyle, }
+%%
+%% tcolorbox, with styles, for EXAMPLE-LIKE
+%%
+%% example: fairly simple numbered block/structure
+\tcbset{ examplestyle/.style={bwminimalstyle, runintitlestyle, blockspacingstyle, after title={\space}, after upper={\space\space\hspace*{\stretch{1}}\(\square\)}, } }
+\newtcolorbox[use counter*=cthm]{example}[2]{title={{Example~\thecthm\notblank{#1}{\space\space#1}{}}}, phantomlabel={#2}, breakable, parbox=false, examplestyle, }
+%%
+%% tcolorbox, with styles, for miscellaneous environments
+%%
+%% assemblage: fairly simple un-numbered block/structure
+\tcbset{ assemblagestyle/.style={size=normal, colback=white, colbacktitle=white, coltitle=black, colframe=black, rounded corners, titlerule=0.0pt, center title, fonttitle=\normalfont\bfseries, blockspacingstyle, } }
+\newtcolorbox{assemblage}[2]{title={\notblank{#1}{#1}{}}, phantomlabel={#2}, breakable, parbox=false, assemblagestyle}
+%% Divisional exercises (and worksheet) as LaTeX environments
+%% Third argument is option for extra workspace in worksheets
+%% Hanging indent occupies a 5ex width slot prior to left margin
+%% Experimentally this seems just barely sufficient for a bold "888."
+%% Division exercises, not in exercise group
+\tcbset{ divisionexercisestyle/.style={bwminimalstyle, runintitlestyle, exercisespacingstyle, left=5ex, breakable, parbox=false } }
+\newtcolorbox{divisionexercise}[4]{divisionexercisestyle, before title={\hspace{-5ex}\makebox[5ex][l]{#1.}}, title={\notblank{#2}{#2\space}{}}, phantom={\hypertarget{#4}{}}, after={\notblank{#3}{\newline\rule{\workspacestrutwidth}{#3\textheight}\newline}{}}}
+%% Localize LaTeX supplied names (possibly none)
+\renewcommand*{\abstractname}{Abstract}
+%% For improved tables
+\usepackage{array}
+%% Some extra height on each row is desirable, especially with horizontal rules
+%% Increment determined experimentally
+\setlength{\extrarowheight}{0.2ex}
+%% Define variable thickness horizontal rules, full and partial
+%% Thicknesses are 0.03, 0.05, 0.08 in the  booktabs  package
+\makeatletter
+\newcommand{\hrulethin}  {\noalign{\hrule height 0.04em}}
+\newcommand{\hrulemedium}{\noalign{\hrule height 0.07em}}
+\newcommand{\hrulethick} {\noalign{\hrule height 0.11em}}
+%% We preserve a copy of the \setlength package before other
+%% packages (extpfeil) get a chance to load packages that redefine it
+\let\oldsetlength\setlength
+\newlength{\Oldarrayrulewidth}
+\newcommand{\crulethin}[1]%
+{\noalign{\global\oldsetlength{\Oldarrayrulewidth}{\arrayrulewidth}}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{0.04em}}\cline{#1}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{\Oldarrayrulewidth}}}%
+\newcommand{\crulemedium}[1]%
+{\noalign{\global\oldsetlength{\Oldarrayrulewidth}{\arrayrulewidth}}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{0.07em}}\cline{#1}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{\Oldarrayrulewidth}}}
+\newcommand{\crulethick}[1]%
+{\noalign{\global\oldsetlength{\Oldarrayrulewidth}{\arrayrulewidth}}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{0.11em}}\cline{#1}%
+\noalign{\global\oldsetlength{\arrayrulewidth}{\Oldarrayrulewidth}}}
+%% Single letter column specifiers defined via array package
+\newcolumntype{A}{!{\vrule width 0.04em}}
+\newcolumntype{B}{!{\vrule width 0.07em}}
+\newcolumntype{C}{!{\vrule width 0.11em}}
+\makeatother
+%% Figures, Tables, Listings, Named Lists, Floats
+%% The [H]ere option of the float package fixes floats in-place,
+%% in deference to web usage, where floats are totally irrelevant
+%% You can remove some of this setup, to restore standard LaTeX behavior
+%% HOWEVER, numbering of figures/tables AND theorems/examples/remarks, etc
+%% may de-synchronize with the numbering in the HTML version
+%% You can remove the "placement={H}" option to allow flotation and
+%% preserve numbering, BUT the numbering may then appear "out-of-order"
+%% Floating environments: http://tex.stackexchange.com/questions/95631/
+\usepackage{float}
+\usepackage{newfloat}
+\usepackage{caption}%% Adjust stock figure environment so that it no longer floats
+\SetupFloatingEnvironment{figure}{fileext=lof,placement={H},within=section,name=Figure}
+\captionsetup[figure]{labelfont=bf}
+%% http://tex.stackexchange.com/questions/16195
+\makeatletter
+\let\c@figure\c@cthm
+\makeatother
+%% More flexible list management, esp. for references
+%% But also for specifying labels (i.e. custom order) on nested lists
+\usepackage{enumitem}
+%% hyperref driver does not need to be specified, it will be detected
+\usepackage{hyperref}
+%% configure hyperref's  \url  to match listings' inline verbatim
+\renewcommand\UrlFont{\small\ttfamily}
+%% Hyperlinking active in PDFs, all links solid and blue
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=blue}
+\hypersetup{pdftitle={Testing Snippets}}
+%% If you manually remove hyperref, leave in this next command
+\providecommand\phantomsection{}
+%% Graphics Preamble Entries
+        \usepackage{tikz}
+        \usetikzlibrary{calc}
+        \usetikzlibrary{arrows}
+        \usetikzlibrary{decorations.pathreplacing}
+        \usetikzlibrary{patterns}
+\usetikzlibrary{calc,intersections,through,backgrounds}
+%% If tikz has been loaded, replace ampersand with \amp macro
+%% tcolorbox styles for sidebyside layout
+\tcbset{ sbsstyle/.style={raster equal height=rows,raster force size=false} }
+\tcbset{ sbsheadingstyle/.style={bwminimalstyle, halign=center, fontupper=\bfseries} }
+\tcbset{ sbspanelstyle/.style={bwminimalstyle} }
+\tcbset{ sbscaptionstyle/.style={bwminimalstyle, halign=center} }
+%% Enviroments for side-by-side and components
+%% Necessary to use \NewTColorBox for boxes of the panels
+%% "newfloat" environment to squash page-breaks within a single sidebyside
+%% \leavevmode necessary when a side-by-side comes first, right after a heading
+%% "xparse" environment for entire sidebyside
+\NewDocumentEnvironment{sidebyside}{mmmm}
+  {\begin{tcbraster}
+    [sbsstyle,raster columns=#1,
+    raster left skip=#2\linewidth,raster right skip=#3\linewidth,raster column skip=#4\linewidth]}
+  {\end{tcbraster}}
+%% "tcolorbox" environments for three components of a panel
+\NewTColorBox{sbsheading}{m}{sbsheadingstyle,width=#1\linewidth}
+\NewTColorBox{sbspanel}{mO{top}}{sbspanelstyle,width=#1\linewidth,valign=#2}
+\NewTColorBox{sbscaption}{m}{sbscaptionstyle,width=#1\linewidth}
+%% extpfeil package for certain extensible arrows,
+%% as also provided by MathJax extension of the same name
+%% NB: this package loads mtools, which loads calc, which redefines
+%%     \setlength, so it can be removed if it seems to be in the 
+%%     way and your math does not use:
+%%     
+%%     \xtwoheadrightarrow, \xtwoheadleftarrow, \xmapsto, \xlongequal, \xtofrom
+%%     
+%%     we have had to be extra careful with variable thickness
+%%     lines in tables, and so also load this package late
+\usepackage{extpfeil}
+%% Custom Preamble Entries, late (use latex.preamble.late)
+%% Begin: Author-provided packages
+%% (From  docinfo/latex-preamble/package  elements)
+%% End: Author-provided packages
+%% Begin: Author-provided macros
+%% (From  docinfo/macros  element)
+%% Plus three from MBX for XML characters
+\newcommand\degree[0]{^{\circ}}
+\newcommand\Ccancel[2][black]{\renewcommand\CancelColor{\color{#1}}\cancel{#2}}
+\newcommand{\alert}[1]{\boldsymbol{\color{magenta}{#1}}}
+\newcommand{\blert}[1]{\boldsymbol{\color{blue}{#1}}}
+\newcommand{\bluetext}[1]{\color{skyblue}{#1}} 
+\delimitershortfall-1sp
+\newcommand\abs[1]{\left|#1\right|}
+\newcommand{\lt}{<}
+\newcommand{\gt}{>}
+\newcommand{\amp}{&}
+%% End: Author-provided macros
+%% Title page information for article
+\title{Testing Snippets\\
+{\large Just checking ptx coding}}
+\author{Kathy Yoshiwara\\
+Department of Retirement\\
+Leisure U\\
+Atascadero, CA\\
+\href{mailto:byoshiwara@gmail.com}{\nolinkurl{byoshiwara@gmail.com}}
+}
+\date{January 4, 2019}
+\begin{document}
+%% Target for xref to top-level element is document start
+\hypertarget{scratch}{}
+\maketitle
+\thispagestyle{empty}
+\begin{abstract}
+\hypertarget{p-1}{}%
+This is a sample of many of the things you can do with PreTeXt.  Sometimes the math makes sense, sometimes it seems to be written in the first person, sort of like this Abstract.%
+\end{abstract}
+%
+%
+\typeout{************************************************}
+\typeout{Section 1 Introduction}
+\typeout{************************************************}
+%
+\begin{sectionptx}{Introduction}{}{Introduction}{}{}{section-1}
+%
+%
+\typeout{************************************************}
+\typeout{Subsection 1.1 What is a Variable?}
+\typeout{************************************************}
+%
+\begin{subsectionptx}{What is a Variable?}{}{What is a Variable?}{}{}{subsection-1}
+\begin{assemblage}{}{assemblage-1}%
+\hypertarget{p-2}{}%
+A \terminology{variable} is a numerical quantity that changes over time or in different situations.%
+\end{assemblage}
+\hypertarget{p-3}{}%
+We can show the values of a variable in a table or a graph.%
+\begin{example}{}{example-1}%
+\hypertarget{p-4}{}%
+Life expectancy is the average age to which people will live.  The table below shows that your life expectancy depends on the year of your birth. Thus, life expectancy is a variable.%
+\begin{sidebyside}{1}{0}{0}{0}%
+\begin{sbspanel}{1}%
+{\centering%
+\begin{tabular}{AcAcA}\hrulethick
+Year Born&Life Expectancy\tabularnewline\hrulethin
+\(1900\)&\(49\)\tabularnewline\hrulethin
+\(1910\)&\(51\)\tabularnewline\hrulethin
+\(1920\)&\(58\)\tabularnewline\hrulethin
+\(1930\)&\(59\)\tabularnewline\hrulethin
+\(1940\)&\(63\)\tabularnewline\hrulethin
+\(1950\)&\(68\)\tabularnewline\hrulethin
+\(1960\)&\(70\)\tabularnewline\hrulethin
+\(1970\)&\(71\)\tabularnewline\hrulethin
+\(1980\)&\(74\)\tabularnewline\hrulethin
+\(1990\)&\(75\)\tabularnewline\hrulethin
+\end{tabular}
+\par}
+\end{sbspanel}%
+\end{sidebyside}%
+\leavevmode%
+\begin{enumerate}[label=\alph*]
+\item\hypertarget{li-1}{}\hypertarget{p-5}{}%
+To what age could people born in 1940 expect to live?%
+\item\hypertarget{li-2}{}\hypertarget{p-6}{}%
+In what year did people's life expectancy reach 70 years of age?%
+.\end{enumerate}
+\par\smallskip%
+\noindent\textbf{Solution}.\hypertarget{solution-1}{}\quad%
+\hypertarget{p-7}{}%
+\leavevmode%
+\begin{enumerate}[label=\alph*]
+\item\hypertarget{li-3}{}\hypertarget{p-8}{}%
+People born in 1940 lived to 63 years of age on average.%
+\item\hypertarget{li-4}{}\hypertarget{p-9}{}%
+Life expectancy reached 70 years of age in 1960.%
+\end{enumerate}
+%
+\end{example}
+\begin{example}{}{example-2}%
+\hypertarget{p-10}{}%
+The graph below shows the average annual salaries of NFL football players, starting in 1940. The average salary of NFL football players is a variable.%
+\begin{sidebyside}{1}{0.275}{0.275}{0}%
+\begin{sbspanel}{0.45}%
+\includegraphics[width=1\linewidth]{images/fig-1-1-ex2.png}
+\end{sbspanel}%
+\end{sidebyside}%
+\leavevmode%
+\begin{enumerate}[label=\alph*]
+\item\hypertarget{li-5}{}\hypertarget{p-11}{}%
+Use the graph to estimate the average annual salary of NFL football players in 1975.%
+\item\hypertarget{li-6}{}\hypertarget{p-12}{}%
+By how much did salaries increase from 1975 to 1980?%
+\end{enumerate}
+\par\smallskip%
+\noindent\textbf{Solution}.\hypertarget{solution-2}{}\quad%
+\hypertarget{p-13}{}%
+\leavevmode%
+\begin{enumerate}[label=\alph*]
+\item\hypertarget{li-7}{}\hypertarget{p-14}{}%
+In 1975, the average NFL player's salary was \textdollar{}40,000.%
+\item\hypertarget{li-8}{}\hypertarget{p-15}{}%
+In 1980, the average salary was \textdollar{}80,000, so salaries had increased from \textdollar{}40,000 to \textdollar{}80,000, or by%
+\begin{equation*}
+$80,000 - $40,000 = $40,000
+\end{equation*}
+%
+\end{enumerate}
+%
+\end{example}
+%
+%
+\typeout{************************************************}
+\typeout{Reading Questions 1.1 Reading Questions}
+\typeout{************************************************}
+%
+\begin{reading-questions-subsubsection-numberless}{Reading Questions}{}{Reading Questions}{}{}{reading-questions-1}
+\begin{divisionexercise}{1}{}{}{exercise-1}%
+\hypertarget{p-16}{}%
+A numerical quantity that changes over time or in different situations is called a \fillin{2.727272727272727}.%
+\textbf{Answer}.\hypertarget{answer-1}{}\quad%
+\hypertarget{p-17}{}%
+variable%
+\end{divisionexercise}%
+\begin{divisionexercise}{2}{}{}{exercise-2}%
+\hypertarget{p-18}{}%
+We can show the values of a variable in a \fillin{2.727272727272727} or a \fillin{2.727272727272727}.%
+\textbf{Answer}.\hypertarget{answer-2}{}\quad%
+\hypertarget{p-19}{}%
+table, graph%
+\end{divisionexercise}%
+\end{reading-questions-subsubsection-numberless}
+\begin{remark}{Junky title for division.}{remark-1}%
+\hypertarget{p-20}{}%
+By displaying the values of a variable in a table or a graph, we sometimes see trends or patterns in those values.  For example, we see that life expectancy has been increasing slowly over time, and that salaries of NFL football players have been increasing ever more rapidly since 1940.%
+\end{remark}
+\end{subsectionptx}
+\end{sectionptx}
+\end{document}

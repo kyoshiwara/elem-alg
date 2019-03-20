@@ -6,12 +6,12 @@
 <exercisegroup cols="3"><introduction><p>For Problems 1<ndash/>3, without graphing, find the <m>x</m>-intercepts of the graph of the equation.</p></introduction>
 
 <exercise number="1"><statement><m>y=(x-3)(2x+5)</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\left(\dfrac{-5}{2},0 \right) </m>, <m>~(3,0) </m></p></answer></exercise>
 
 <exercise number="2"><statement><m>y=2x^2-6x</m></statement></exercise>
 
 <exercise number="3"><statement><m>y=8x-3x^2</m></statement>
-<answer></answer></exercise>
+<answer><p><m>\left(\dfrac{8}{3},0 \right) </m>, <m>~(0,0) </m></p></answer></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2"><introduction><p>For Problems 4<ndash/>5, find the intercepts and graph the two parabolas on the same grid.</p></introduction>
