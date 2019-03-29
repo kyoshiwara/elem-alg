@@ -10,7 +10,7 @@
 	<li><m>5^{-2}</m></li>
 	<li><m>x^{-6}</m></li>
 	<li><m>(8x)^0</m></li>
-	<li><m>(\dfrac{3}{4})^{-3}</m></li></ol></p></statement>
+	<li><m>\left(\dfrac{3}{4}\right)^{-3}</m></li></ol></p></statement>
 <answer><p><ol label="a" cols="4"> 
 	<li><p><m>\dfrac{1}{25} </m></p></li>
 	<li><p><m>\dfrac{1}{x^6} </m></p></li>
@@ -98,7 +98,7 @@
 <exercise number="13"><statement><m>\dfrac{5k^{-3}(k^4)^{-3}}{6k^{-5}}</m></statement>
 <answer><p><m>\dfrac{5}{6k^{10}} </m></p></answer></exercise>
 
-<exercise number="14"><statement><m>(\dfrac{2p^{-3}}{p^2})^{-2}</m></statement></exercise>
+<exercise number="14"><statement><m>\left(\dfrac{2p^{-3}}{p^2}\right)^{-2}</m></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>Mental Exercise: For Problems 15<ndash/>16, simplify each quotient without using pencil, paper, or calculator.  Write your answer as a power of 10.</p></introduction>
