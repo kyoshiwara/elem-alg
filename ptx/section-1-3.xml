@@ -419,6 +419,8 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \draw[black,thick, ->, >=stealth'] (0,0)--(11,0);
          \draw[black, thick] (0,.3) --++(0,-.35)  node[below]   {0};
          \draw[black, thick] (10,.3) --++(0,-.35)  node[below]   {10,000};
+        \foreach \x in {5/2,5,15/2} \draw[black,thick] (\x,.2) --++(0,-.2) ;
+        \foreach \x in {1.25, 3.75, 6.25, 8.75} \draw[black,thick] (\x,.15) --++(0,-.15);
         \end{tikzpicture}]]>
     </latex-image>
     </image>
@@ -496,6 +498,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \foreach \x [evaluate=\x as \xi using int(40*\x)]  in {1,2,...,15} \draw[black,thick] (\x,.15) --++(0,-.15) node[below, yshift=-2, scale=.8]{\xi};
         \filldraw[blue] (6.25,0) circle (1mm) node[above, yshift=4, scale=.9] {250};
         \filldraw[blue] (11.815,0) circle (1mm) node[above, yshift=4, scale=.9] {472.6};
+        \node[scale=0.9] at (8.25,-1) {(thousands)};
         \end{tikzpicture}]]>
     </latex-image>
     </image>
