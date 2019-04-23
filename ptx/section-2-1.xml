@@ -346,7 +346,7 @@ Subtracting a negative number has the same result as adding the positive number 
 <reading-questions>
     <exercise number="4"><statement><p>True or False: <m>-x</m> always represents a negative number.  Give an example to support your answer.</p></statement>
     	<answer><p>False.  If <m>x=-3</m>, then <m>-x=3</m>.</p></answer></exercise>
-    <exercise number="5"><statement><p>Subtracting a negative number is the same as <fillin characters="6"/> their absolute values.</p></statement>
+    <exercise number="5"><statement><p>Subtracting a negative number is the same as <fillin characters="6"/> with the same absolute value.</p></statement>
     	<answer><p>adding a positive number</p></answer></exercise>
 </reading-questions>
 
