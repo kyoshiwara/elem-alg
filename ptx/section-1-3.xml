@@ -284,12 +284,8 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 		<me>F=D+4=\alert{7}+4=11</me></p>
 	<sidebyside widths="35% 35%"><image source="images/fig-1-3-ex4a.png"/><image source="images/fig-1-3-ex4b.png"/></sidebyside></li>
 	<li><p>We locate <m>F=\alert{13}</m> on the vertical axis. We move horizontally to point <m>B</m> on the graph shown above right, with <m>F</m>-coordinate 13. From point <m>B</m>, we move vertically to the horizontal axis to find the <m>D</m>-coordinate. The coordinates of point <m>B</m> are <m>(9,13)</m>, which tells us that when <m>F=13,~D=9</m>.  Our answer is 9.</p>
-	<p>To verify the answer algebraically, we <term>solve</term> the equation when <m>F=13</m>: we subtract 4 from both sides of the equation:
-		<me>\begin{aligned}
-                13 \amp = D+4  \amp\amp \blert{\text{Subtract 4 from both sides.}}\\
-                \underline{\blert{-4}} \amp	~~~~~\underline{~~~~\blert{-4}}\\
-                9 \amp = D
-                \end{aligned}</me></p></li></ol></p></solution></example>
+	<p>To verify the answer algebraically, we can substitute <m>D=9</m> into the equation:
+		<me>F=D+4=\alert{9}+4=13</me></p></li></ol></p></solution></example>
 
 <example><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 5%"><p>Here is a graph of
     <me>y=1.5x</me>
