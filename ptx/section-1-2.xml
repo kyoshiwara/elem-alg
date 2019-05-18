@@ -361,9 +361,9 @@ Bert's average score is 15.8.</p></solution></example>
 </subsection>
 
 <subsection xml:id="Skills-Warm-Up-1-2"><title>Skills Warm-Up</title>
-
-<p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
-	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p>
+<exercises>
+<exercisegroup><introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
+    <me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
 
 <exercise number="1"><statement><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></statement>
 <answer><p>64 ft</p></answer></exercise>
@@ -433,7 +433,7 @@ Bert's average score is 15.8.</p></solution></example>
     </image>
 </sidebyside></statement>
 <answer><p>44 ft; 90 sq ft</p></answer></exercise>
-
+</exercisegroup></exercises>
 
 <solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-2">
     <title>Answers to Skills Warm-Up</title>
