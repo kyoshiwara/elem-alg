@@ -10,7 +10,7 @@
 <p>Study the squares of monomials in Example 1. Do you see a quick way to find the product?</p>
 
 <example><statement><p><ol label="a">
-	<li><m>(w^5)^2 = w^5 \cdot w^5 = w^10</m></li>
+	<li><m>(w^5)^2 = w^5 \cdot w^5 = w^{10}</m></li>
 	<li><m>(4x^3)^2 = 4x^3 \cdot 4x^3 = 4 \cdot 4 \cdot x^3 \cdot x^3 = 16x^6</m></li></ol></p></statement></example>
 
 <assemblage><title>Look Closer</title>

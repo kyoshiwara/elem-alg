@@ -60,7 +60,7 @@ We can also write the equation as  <m>H=0.4t+70</m>.</p></solution></example>
 <assemblage><title>Slope-Intercept Form</title>
 <p>A linear equation written in the form
 		<me>\blert{y=mx+b}</me>
-is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and<m>b</m> is the <m>y</m>-intercept.</p></assemblage>
+is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and <m>b</m> is the <m>y</m>-intercept.</p></assemblage>
 
 <reading-questions>
     <exercise number="3"><statement><p>What does the <m>y</m>-intercept tell us in Example 1?</p></statement>
@@ -151,7 +151,7 @@ Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units do
 </subsection>
 
 <subsection><title>Finding the Slope-Intercept Form</title>
-<p>Not all linear equations appear in slope-intercept form. However, we can write the equation of any non-vertical line in slope-intercept form by solvingthe equation for <m>y</m> in terms of <m>x</m>.</p>
+<p>Not all linear equations appear in slope-intercept form. However, we can write the equation of any non-vertical line in slope-intercept form by solving the equation for <m>y</m> in terms of <m>x</m>.</p>
 
 <example><statement><p>Find the slope and <m>y</m>-intercept of the graph of <m>~3x-4y=8</m></p></statement>
 

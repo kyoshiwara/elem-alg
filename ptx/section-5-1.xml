@@ -4,7 +4,7 @@
 <section xml:id="Exponents" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Exponents</title>
 
-<subsection><title>What is an Exponent</title>
+<subsection><title>What is an Exponent?</title>
 <p>The area of a rectangle is given by the formula <m>A=lw</m>. The variable <m>l</m> stands for the length of the rectangle, and <m>w</m> stands for for its width. The area tells us how many square tiles, one unit on a side, will fit inside the rectangle, as shown below.</p>
 <sidebyside width="90%"><image source="images/fig-5-1-1"><description>box</description></image></sidebyside> 
 
@@ -75,8 +75,8 @@ where <m>n</m> is a positive integer.</p></assemblage>
 
 <assemblage><title>Look Closer</title>
 <p>Because the exponents 2 and 3 are used frequently, they have special names.
-	<md><mrow>5^2~~\text{means}~~5 \cdot 5,~~\text{and is read  5 squared  or  the square of 5}</mrow>
-		<mrow>5^3~~\text{means}~~5 \cdot 5 \cdot 5,~~\text{and is read  5 cubed  or  the cube of 5}</mrow></md>
+	<md><mrow>5^2~~\text{means}~~5 \cdot 5,~~\text{and is read  "5 squared"  or  "the square of 5"}</mrow>
+		<mrow>5^3~~\text{means}~~5 \cdot 5 \cdot 5,~~\text{and is read  "5 cubed"  or  "the cube of 5"}</mrow></md>
 These names come from the formulas for the area, <m>A</m>, of a square with side <m>s</m> and the volume, <m>V</m>, of a cube with edge <m>s</m>:
 	<me>A=s^2~~~~~~\text{and}~~~~~~V=s^3</me></p></assemblage>
 </subsection>
@@ -88,7 +88,7 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 <p>For example, to indicate the square of <m>-5</m>, we write 
 	<me>(-5)^2 = (-5)(-5) = 25~~~~~~\blert{\text{Exponent applies to}~(-5).}</me> 
  If the negative number is not enclosed in parentheses, then the exponent applies only to the positive number, and the negative sign tells us that the power is negative.  For example,  
-	<me>-5^2 = -5 \cdot 5 = -25~~~~~~\blert{\text{Exponent applies only to 5.}}</me></p>
+	<me>-5^2 = -(5 \cdot 5) = -25~~~~~~\blert{\text{Exponent applies only to 5.}}</me></p>
 
 <assemblage><title>Look Closer</title>
 <p>Note how the placement of parentheses changes the meaning of the expressions in Example 2. </p></assemblage>

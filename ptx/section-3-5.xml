@@ -316,8 +316,8 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
 
 <solution><p>We'll call <m>D</m> the first point and <m>F</m> the second point. Then their coordinates are 
     <md>
-        <mrow>D:~~~x_1 \amp =-6 \amp \text{and}~~~~y_1=-2</mrow>
-        <mrow>F:~~~x_2 \amp = 9 \amp \text{and}~~~~y_2=4</mrow></md>
+        <mrow>D:~~~x_1 \amp =-6 \amp\amp \text{and}\amp y_1 \amp =-2</mrow>
+        <mrow>F:~~~x_2 \amp = 9 \amp\amp \text{and}\amp y_2 \amp =4</mrow></md>
 Now we can describe the formula for slope in an organized way. We compute <m>\Delta y</m> and <m>\Delta x</m> as directed distances. First, we observe that the coordinates of point <m>E</m> are <m>(-6,4)</m> or <m>(x_1,y_2)</m>. From the figure, we can see that  
         <me>\Delta y = y_2-y_1 = 4-(-2)=6</me>
 and

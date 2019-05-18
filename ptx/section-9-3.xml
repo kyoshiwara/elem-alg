@@ -93,12 +93,12 @@ Similarly, if <m>a</m> is not negative,
 <assemblage><title>Look Closer</title>
 <p> How can we simplify the square root of an odd power? We write the power as a product of two factors, one having an even exponent and one having exponent 1.</p></assemblage>
 
-<example><statement><p>Simplify  <m>~~\sqrt{7}</m></p></statement>
+<example><statement><p>Simplify  <m>~~\sqrt{x^7}</m></p></statement>
 
 <solution><p>We factor <m>x^7</m> as <m>x^6 \cdot x</m>. Then we use the product rule to write
-	<me>\sqrt{7} = \sqrt{x^6 \cdot x} = \sqrt{x^6} \cdot \sqrt{x}</me>
+	<me>\sqrt{x^7} = \sqrt{x^6 \cdot x} = \sqrt{x^6} \cdot \sqrt{x}</me>
 Finally, we simplify the square root of <m>x^6</m> to get
-	<me> \sqrt{7} =  \sqrt{x^6} \cdot \sqrt{x} = x^3\sqrt{x}</me></p></solution></example>
+	<me> \sqrt{x^7} =  \sqrt{x^6} \cdot \sqrt{x} = x^3\sqrt{x}</me></p></solution></example>
 
 <reading-questions>
     <exercise number="3"><statement><p>How do we simplify the square root of a variable raised to an odd 
@@ -177,7 +177,7 @@ Thus, we may add like radicals by adding their coefficients. The same idea appli
 	<md><mrow>\sqrt{20} - 3\sqrt{50} + 2\sqrt{45} \amp = \sqrt{\blert{4} \cdot 5} - 3\sqrt{\blert{25} \cdot 2} + 2\sqrt{\blert{9} \cdot 5}</mrow>
 		<mrow> \amp = \blert{2}\sqrt{5} - 3 \cdot \blert{5}\sqrt{2} + 2 \cdot \blert{3}\sqrt{5}</mrow>
 		<mrow> \amp = 2\sqrt{5} - 15\sqrt{2} + 6\sqrt{5}</mrow></md>
-Then we combine the like radicals <m>2\sqrt{5}</m> and<m>6\sqrt{5}</m>to get
+Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 	<me>\sqrt{20} - 3\sqrt{50} + 2\sqrt{45} = 8\sqrt{5} - 15\sqrt{2}</me></p></solution></example>
 </subsection>
 

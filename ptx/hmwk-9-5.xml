@@ -277,10 +277,10 @@ where <m>d</m> is the depth of the ocean beneath the wave, in feet. A tsunami tr
 
 <exercise number="25"><statement><p>The height of a cylindrical storage tank is four times its radius. If the tank holds <m>V</m> cubic inches of liquid, its radius in inches is
 	<me>r=\sqrt[3]{\dfrac{V}{12.57}}</me>
-<ol label="a" cols="2">
+<ol label="a">
 	<li>If the tank should hold 340 cubic inches, what must its radius be?</li>
 	<li>If the radius of the tank is 5.5 inches, how much liquid can it hold?</li></ol></p></statement>
-<answer><p><ol label="a" cols="2">
+<answer><p><ol label="a">
     <li><p>3 in</p></li>
     <li><p>2091 <m>\text{in}^3</m></p></li>
 </ol></p></answer></exercise>

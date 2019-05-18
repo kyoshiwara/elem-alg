@@ -6,7 +6,7 @@
 
 <subsection><title>Graphing Equations</title>
 
-<assemblage><p>An equation of the form <m>y=ax+b</m>,  where <m>a</m> and <m>b</m> are constants, is called a <term>linear equation</term> because its graph is a straight line.</p></assemblage>
+<assemblage><p>An equation of the form <m>\blert{y=ax+b}</m>,  where <m>a</m> and <m>b</m> are constants, is called a <term>linear equation</term> because its graph is a straight line.</p></assemblage>
 
 <p>We can graph a linear equation by evaluating the expression <m>ax+b</m> at several values of <m>x</m> and then plotting points.</p>
 
@@ -354,11 +354,12 @@
 
 <subsection xml:id="Skills-Warm-Up-2-3"><title>Skills Warm-Up</title>
 <exercises>
-	<exercisegroup><introduction><p>Choose the correct algebraic expression for each situation.
+	<exercisegroup><introduction><p>Choose the correct algebraic expression for each situation.</p>
+    <assemblage><p>
 		<me>\begin{aligned}
-                \amp 2t+12 \amp\amp 12-2t\\
-                \amp 2(t+12) \amp\amp 2t-12  
-                \end{aligned}</me></p></introduction>
+                \amp 2t+12 \amp\amp\amp\amp 12-2t\\
+                \amp 2(t+12) \amp\amp\amp\amp 2t-12  
+                \end{aligned}</me></p></assemblage></introduction>
 
 <exercise number="1"><statement><p>Janine's history book has 12 chapters. If she studies 2 chapters a week, how many chapters will she have left after <m>t</m> weeks?</p></statement>
 <answer><m>12-2t</m></answer></exercise>

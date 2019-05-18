@@ -49,7 +49,7 @@ The equation has two solutions, <m>8</m> and <m>-8</m>.</p>
 	<md><mrow>\alert{582} \amp = \pi r^2(\alert{10.5}) \amp \amp \blert{\text{Divide both sides by}~\pi.}</mrow>
 		<mrow> 185.256 \amp = r^2(10.5) \amp \amp \blert{\text{Divide both sides by 10.5.}}</mrow>
 		<mrow> 17.643 \amp = r^2 \amp \amp \blert{\text{Take square roots.}}</mrow>
-		<mrow> \pm 4.2 \amp = 4</mrow></md>
+		<mrow> \pm 4.2 \amp = r</mrow></md>
 Because the radius of a soup can cannot be a negative number, we discard the negative solution in this application. The radius of the can is 4.2 centimeters.</p></solution></example>
 
 <p>The equations above, which involve the square of the variable (such as <m>x^2</m> or <m>r^2</m>), are called <term>quadratic equations</term>, and we shall see more about them later.</p>

@@ -43,12 +43,12 @@
 <exercisegroup cols="2"><introduction><p>For Problems 9<ndash/>12, fill in the missing algebraic expressions.
 </p></introduction>
 
-<exercise number="9"><statement><p><m>4x(2x+?)=8x^2-12x</m></p></statement>
+<exercise number="9"><statement><p><m>4x(2x+{?})=8x^2-12x</m></p></statement>
 <answer><p><m>-3</m></p></answer></exercise>
 
 <exercise number="10"><statement><p><m>?(a-3)=2a^2-6a</m></p></statement></exercise>
 
-<exercise number="11"><statement><p><m>6h(?+?)=24h-18h^2</m></p></statement>
+<exercise number="11"><statement><p><m>6h({?}+{?})=24h-18h^2</m></p></statement>
 <answer><p><m>4-3h</m></p></answer></exercise>
 
 <exercise number="12"><statement><p><m>?(4m-9)=-12m^2+27m</m></p></statement></exercise>

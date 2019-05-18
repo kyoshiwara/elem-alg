@@ -109,7 +109,7 @@ Then we complete the solution as before.</p></assemblage>
                 x \amp = \dfrac{1.5(8.4)}{2.4}  \amp \amp  \blert{\text{Simplify the right side.}}\\
                 x \amp = 5.25   
                 \end{aligned}</me>
-We can check the solution by substituting <m>x=2.5</m> into the original proportion.</p></solution></example>
+We can check the solution by substituting <m>x=5.25</m> into the original proportion.</p></solution></example>
 
 <warning><p>Cross-mutiplying works only for solving proportions! Do not try to use cross-multiplying on other types of equations, or for other operations on fractions. In particular, do not use cross-multiplying when multiplying fractions or adding fractions.</p></warning>
 

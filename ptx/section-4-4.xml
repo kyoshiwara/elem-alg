@@ -77,7 +77,7 @@
     <me>\blert{\binom{\text{Total}}{\text{Interest}} = \binom{\text{Interest from}}{\text{stocks}}+\binom{\text{Interest from}}{\text{bonds}}} 
     </me>
     </p></li></ol></statement>
-<answer><p><ol lable="a">
+<answer><p><ol label="a">
     <li><p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
     <col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
@@ -314,7 +314,7 @@ To simplify the system we first multiply the second equation by 100 to clear the
 We solve the system by elimination. Multiply the first equation by <m>-20</m>, and add the equations together.
 	<me>\begin{aligned}
                 -20x-20y \amp = -900  \\
-                20x+50y \amp = 1800 \\
+                \underline{20x+50y} \amp \underline{ {}= 1800\vphantom{y}} \\
                 30y \amp = 900 
                 \end{aligned}</me>
 Solving for <m>y</m>, we find <m>y=30</m>. We substitute <m>y=\alert{30}</m> into the first equation to find
@@ -371,11 +371,11 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
                         <cell>Distance</cell></row>
                     <row><cell> P waves</cell>
                         <cell><m>5.4</m></cell>
-                        <cell>y</cell>
+                        <cell><m>y</m></cell>
                         <cell><m>x</m></cell></row>
                     <row><cell> S waves</cell>
                         <cell><m>3.0</m></cell>
-                        <cell>y+180</cell>
+                        <cell><m>y+180</m></cell>
                         <cell><m>x</m></cell></row>
                     </tabular></sidebyside></p>
 <p>We can now write two equations about the problem, one for the P waves and one for the S waves, using the formula <m>RT=D</m>.	

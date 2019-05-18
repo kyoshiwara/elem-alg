@@ -273,7 +273,7 @@ The exact solutions are thus <m>\sqrt{6}</m> and <m>-\sqrt{6}</m>. (Don't forget
         <me>\alert{0}=20-16t^2</me>
     To solve this equation we use extraction of roots. We first isolate <m>t^2</m> on one side of the equation.
         <md><mrow> 16t^2 \amp = 20  \amp \amp \blert{\text{Divide by 16.}}</mrow>
-        <mrow> t^2 \amp = \dfrac{20}{16} - 1.25  </mrow></md></p>
+        <mrow> t^2 \amp = \dfrac{20}{16} = 1.25  </mrow></md></p>
     <sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%"><p>Next, we take the square root of both sides of the equation to find 
         <me>t= \pm \sqrt{1.25} \approx \pm 1.118</me>
     Only the positive solution makes sense here, so the cat has approximately 1.12 seconds to be in position for landing.  A graph of the cat's height after <m>t</m> seconds is shown at right. The points corresponding to parts (a) and (b) are labeled.</p>

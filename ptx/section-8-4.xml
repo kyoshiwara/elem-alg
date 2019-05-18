@@ -117,7 +117,7 @@ Because division by zero is undefined, 3 is not a solution after all. The origin
 <solution><p>The LCD for the two fractions in the equation is <m>\blert{T(A-P)}</m>. We multiply both sides of the equation by the LCD to obtain
 	<md><mrow>\blert{\cancel{T}(A-P)} \dfrac{1}{\cancel{T}} \amp = \dfrac{PR}{\cancel{A-P}}\blert{T\cancel{(A-P)}}</mrow>
 		<mrow>A-P \amp = PRT</mrow></md>
-Next, we get all the terms containing the desired variable, <m>P</m>, on one side of the equation. We add <m>P</m>to both sides to get
+Next, we get all the terms containing the desired variable, <m>P</m>, on one side of the equation. We add <m>P</m> to both sides to get
 	<me>A=P+PRT</me>
 We now have two unlike terms that contain the desired variable. To proceed, we factor out this variable, and then divide both sides by the remaining factor.
 <md><mrow>A \amp = P(1+RT)~~~~~~~~~\blert{\text{Divide both sides by}~1+RT.}</mrow>

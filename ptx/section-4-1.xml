@@ -54,7 +54,7 @@ This calculation is an application of the associative law for multiplication. We
 					 \amp = \blert{10(12+8)} = 10(20) = 200~\text{square feet}             
                 \end{aligned}</me></p></li>
     <li><p>Method 2: Find the area of each room separately and add the two areas together. This gives us
-    		<me>\blert{10(12) + 10(8)} = 10(20) = 200~\text{square feet}</me></p></li></ul></p>
+    		<me>\blert{10(12) + 10(8)} = 120+80 = 200~\text{square feet}</me></p></li></ul></p>
 
 <p>	Of course, we get the same answer with either method. However, looking at the first step in each calculation, we see that
 		<me>10(12+8)= 10(12) + 10(8)</me>
@@ -147,8 +147,8 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 
 <solution><p><ol label="a">
 	<li>We multiply the number of pounds collected by the price per pound. Delbert made <m>23x</m> dollars, and Francine made <m>47x</m> dollars.</li>
-	<li>We add the amount of money Delbert made to the amount Francine made.
-			<me>23x+47x=70x</me></li></ol></p></solution></example>
+	<li><p>We add the amount of money Delbert made to the amount Francine made.
+			<me>23x+47x=70x</me></p></li></ol></p></solution></example>
 
 <reading-questions>
     <exercise number="4"><statement><p>In Example 5, what does <m>x</m> stand for? What does <m>23x</m> stand for?

@@ -242,7 +242,7 @@ becuase <m>3x</m> and <m>4x</m> are like terms. Similarly, we can think of the s
 <solution><p>We combine the numerators over a single denominator. We use parentheses around <m>3x-5</m> to show that the subtraction applies to the entire numerator.
 	<md><mrow>\dfrac{x-3}{x-1} - \dfrac{3x-5}{x-1} = ~ \amp \dfrac{(x-3)-(3x-5)}{x-1}</mrow>
 		<mrow>\amp \blert{\text{Remove parentheses; distribute negative sign.}}</mrow>
-		<mrow>= ~ \amp  \dfrac{x-3 \alert{-}3x\alert{+}5)}{x-1}</mrow>
+		<mrow>= ~ \amp  \dfrac{x-3 \alert{-}3x\alert{+}5}{x-1}</mrow>
 		<mrow>\amp \blert{\text{Combine like terms in the numerator.}}</mrow>
 		<mrow>= ~  \amp \dfrac{-2x+2}{x-1}</mrow></md>
 We should always check to see whether the fraction can be reduced. Factor the numerator to find

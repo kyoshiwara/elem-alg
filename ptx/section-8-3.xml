@@ -103,16 +103,16 @@ In words, this says that we can multiply the numerator and denominator of a frac
 <example><statement><p>Subtract: <m>~~\dfrac{x+2}{6} - \dfrac{x-1}{15}</m></p></statement>
 
 <solution><p>Step 1 We find the LCD:  The smallest common multiple of 6 and 15 is 30.  
-Step 2	We build each fraction to an equivalent one with denominator 30. The building factor for the first fraction is 5, and for the second fraction the building factor is 2.
-	<md><mrow>\dfrac{x+2}{6} = \dfrac{(x+2) \cdot \blert{5}}{6 \cdot \blert{5}} = \dfrac{5x+10}{30}</mrow>
-		<mrow>\dfrac{x-1}{15} = \dfrac{(x-1) \cdot \blert{2}}{15 \cdot \blert{2}} = \dfrac{2x-2}{30}</mrow></md>
-Step 3	We subtract the resulting like fractions to obtain
-	<md><mrow>\dfrac{x+2}{6} - \dfrac{x-1}{15} =~ \amp \dfrac{5x+10}{30} - \dfrac{2x-2}{30}</mrow>
-		<mrow>\amp \blert{\text{Combine the numerators; keep the same denominator.}}</mrow>
-		<mrow>=~\amp \dfrac{(5x+10)-(2x-2)}{30}~~~~~~\blert{\text{Simplify the numerator.}}</mrow>
-		<mrow> = ~\amp \dfrac{5x+10-2x+2}{30} = \dfrac{3x+12}{30}</mrow>
-Step 4	We reduce the fraction.
-	<me>\dfrac{3x+12}{30} = \dfrac{\cancel{3}(x+4)}{\cancel{3} \cdot 10} = \dfrac{x+4}{10}</me></md></p></solution>
+Step 2  We build each fraction to an equivalent one with denominator 30. The building factor for the first fraction is 5, and for the second fraction the building factor is 2.
+    <md><mrow>\dfrac{x+2}{6} = \dfrac{(x+2) \cdot \blert{5}}{6 \cdot \blert{5}} = \dfrac{5x+10}{30}</mrow>
+        <mrow>\dfrac{x-1}{15} = \dfrac{(x-1) \cdot \blert{2}}{15 \cdot \blert{2}} = \dfrac{2x-2}{30}</mrow></md>
+Step 3  We subtract the resulting like fractions to obtain
+    <md><mrow>\dfrac{x+2}{6} - \dfrac{x-1}{15} =~ \amp \dfrac{5x+10}{30} - \dfrac{2x-2}{30}</mrow>
+        <mrow>\amp \blert{\text{Combine the numerators; keep the same denominator.}}</mrow>
+        <mrow>=~\amp \dfrac{(5x+10)-(2x-2)}{30}~~~~~~\blert{\text{Simplify the numerator.}}</mrow>
+        <mrow> = ~\amp \dfrac{5x+10-2x+2}{30} = \dfrac{3x+12}{30}</mrow></md>
+Step 4  We reduce the fraction.
+    <me>\dfrac{3x+12}{30} = \dfrac{\cancel{3}(x+4)}{\cancel{3} \cdot 10} = \dfrac{x+4}{10}</me></p></solution>
 </example>
 
 <reading-questions>

@@ -166,7 +166,7 @@ which is true.</p></assemblage>
 <subsection><title>Choosing Scales for the Axes</title>
 <p>If the variables in an equation have very large (or very small) values, we must choose scales for the axes that fit these values.</p>
 
-<assemblage><title>To graph an equation:</title><p><ol label="1">
+<assemblage><title>To graph an equation</title><p><ol label="1">
     <li>Make a table of values.</li>
     <li>Choose scales for the axes.</li>
     <li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage>
@@ -228,7 +228,7 @@ which is true.</p></assemblage>
         <p>The largest <m>y</m>-value in the table is 450, so we scale the axis to a little larger than 450, say, 500.  We plot the ordered pairs to obtain the graph shown above.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>How do we know what scales to use on the axes? For most graphs, it is best to have between ten and twenty tick marks on each axis, or the graph will be hard to read. We choose intervals of convenient size for the particular problem, such as 5, 10, 25, 100, or 1000. It is not necessary to use the same scale on both axes</p></assemblage>
+<p>How do we know what scales to use on the axes? For most graphs, it is best to have between ten and twenty tick marks on each axis, or the graph will be hard to read. We choose intervals of convenient size for the particular problem, such as 5, 10, 25, 100, or 1000. It is not necessary to use the same scale on both axes.</p></assemblage>
 
 <warning><p>It is important that the scales on the axes be evenly spaced. Each tick mark must represent the same interval. The scales on the graph below are incorrectly labeled.</p>
 

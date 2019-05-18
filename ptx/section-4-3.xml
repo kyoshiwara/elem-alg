@@ -20,7 +20,7 @@ where <m>x</m> is the number of months the refrigerator has been running. We loo
 
 <solution><p>We are looking for the point where the two <m>y</m>-values are equal. Therefore, we set the two expressions for <m>y</m> equal, which gives us an equation in <m>x</m> to solve: 
 		<me>\begin{aligned}
-            6x+1000 \amp = 2x+1200 \amp\amp \blert{\text{Subtract}~3y~\text{from both sides.}} \\
+            6x+1000 \amp = 2x+1200 \amp\amp \blert{\text{Subtract } 2x \text{ from both sides.}} \\
             4x+1000 \amp = 1200 \amp\amp \blert{\text{Subtract 1000 from both sides.}}\\
             4x \amp = 200   \amp\amp \blert{\text{Divide both sides by 3.}}\\
             x \amp = 50         
@@ -61,7 +61,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
         <md><mrow>y+3x=1</mrow>
         <mrow>2y+5x=5</mrow></md></p></statement>
 
-<solution><p>We first solve one of the equations for <m>y</m> in terms of <m>x</m>. It is easier to solve the first equation for <m>x</m>, by subtracting  from both sides to get: 
+<solution><p>We first solve one of the equations for <m>y</m> in terms of <m>x</m>. It is easier to solve the first equation for <m>x</m>, by subtracting <m>3x</m> from both sides to get: 
         <me>y=1-3x</me>
 We now substitute the expression <m>1-3x</m> for <m>y</m> in the other equation:
 <sidebyside width="30%"><!--<image source="images/fig-4-3-ex2.png"><description>graphic</description></image>-->
@@ -140,7 +140,7 @@ The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. Y
 <p>We add the equations together by adding the left side of the first equation to the left side of the second equation, and then adding the two right sides together, as follows:
         <md><mrow>
             5x-2y \amp = 21</mrow><mrow>
-           3x+2y \amp = 19</mrow><mrow>
+           \underline{3x+2y} \amp \underline{ {}= 19\vphantom{y}}</mrow><mrow>
             8x \amp = 40 </mrow>     
         </md>
 Note that the <m>y</m>-terms canceled, or were eliminated. We are left with an equation in <m>x</m> that is easy to solve:
@@ -168,7 +168,7 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 Note carefully that we must multiply each term by <m>-3</m>, not just the <m>y</m>-term. We can then replace the second equation by its new version to obtain a new system, and we add the equations together:
 		<me>\begin{aligned}
             4x+3y \amp = 7 \\
-           -9x-3y \amp = 3 \\
+           \underline{-9x-3y }\amp \underline{ {}= 3\vphantom{y}} \\
             -5x \amp = 10      
         \end{aligned}</me>
 The <m>y</m>-terms were eliminated, and we solve the resulting equation for <m>x</m> to get <m>x=-2</m>. Finally, we substitute <m>x=-2</m> into either of the equations to find <m>y=5</m>. The solution is <m>(-2,5)</m>.</p></solution></example>
@@ -185,12 +185,12 @@ The <m>y</m>-terms were eliminated, and we solve the resulting equation for <m>x
 
 <solution><p>This time we choose to eliminate the <m>x</m>-terms. We must arrange things so that the coefficients of the <m>x</m>-terms are opposites, so we look for the smallest integer that both 2 and 5 divide into evenly. (This number is called the <term>lowest common multiple</term>, or LCM, of 2 and 5.) The LCM of 2 and 5 is 10.</p>
 <p> We want one of the coefficients of <m>x</m> to be 10, and the other to be <m>-10</m>. To achieve this, we multiply the first equation by 2 and the second equation by <m>-5</m>.
-		<md><mrow>\blert{2}(5x-2y=22)~~\rightarrow ~~ 10x-4y=44</mrow>
-		<mrow>\blert{-5}(2x-5y=13)~~\rightarrow ~~ -10x+25y=-65</mrow></md>
+        <md><mrow>\blert{2}(5x-2y\amp =22)\amp\amp\rightarrow \amp 10x-4y\amp=44</mrow>
+        <mrow>\blert{-5}(2x-5y\amp=13)\amp\amp\rightarrow \amp -10x+25y\amp=-65</mrow></md>
 Adding these new equations eliminates the <m>x</m>-term and yields an equation in <m>y</m>.
 		<me>\begin{aligned}
             	10x-4y \amp = 44 \\
-          	   -10x+25y \amp = -65 \\
+          	   \underline{-10x+25y} \amp \underline{ {}= -65\vphantom{y}} \\
             	21y \amp = -21      
         	\end{aligned}</me>
 We solve for <m>y</m> to find <m>y=-1</m>. Finally, we substitute <m>y=\alert{-1}</m> into the first equation and solve for <m>x</m>.

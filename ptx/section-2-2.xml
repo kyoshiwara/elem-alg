@@ -105,11 +105,12 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 
 <subsection xml:id="Skills-Warm-Up-2-2"><title>Skills Warm-Up</title>
 <exercises>
-<exercisegroup><introduction><p>Choose the correct algebraic expression for each of the following situations.
+<exercisegroup><introduction><p>Choose the correct algebraic expression for each of the following situations.</p>
+<assemblage><p>
 	<me>\begin{aligned}
               \amp n+12  \amp   \amp 12n    \amp  \amp \dfrac{n}{12}\\
               \amp \dfrac{12}{n} \amp \amp 12-n   \amp  \amp n-12          
-                \end{aligned}</me></p></introduction>
+                \end{aligned}</me></p></assemblage></introduction>
 
 <exercise number="1"><statement><p>Helen bought <m>n</m> packages of tulip bulbs. If each package contains 12 bulbs, how many bulbs did she buy?</p></statement>
 <answer><m>12n</m></answer></exercise>
