@@ -91,9 +91,9 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 	<me>-5^2 = -(5 \cdot 5) = -25~~~~~~\blert{\text{Exponent applies only to 5.}}</me></p>
 
 <assemblage><title>Look Closer</title>
-<p>Note how the placement of parentheses changes the meaning of the expressions in Example 2. </p></assemblage>
+<p>Note how the placement of parentheses changes the meaning of the expressions in <xref ref="Example-5-1-2" text="type-global"/>. </p></assemblage>
      
-<example><statement><p>Compute each power. <ol label="a" cols ="4">
+<example xml:id="Example-5-1-2"><statement><p>Compute each power. <ol label="a" cols ="4">
 	<li><m>-4^2</m></li>
 	<li><m>(-4)^2</m></li>
 	<li><m>-(4)^2</m></li>
@@ -160,7 +160,7 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 <subsection><title>Order of Operations</title>
 <p>How do exponents fit into the order of operations? </p>
 
-<example><statement><p>Compare the expressions <m>2x^3</m> and <m>(2x)^3</m>.</p></statement>
+<example xml:id="Example-5-1-5"><statement><p>Compare the expressions <m>2x^3</m> and <m>(2x)^3</m>.</p></statement>
 
 <solution><p>In the first expression, only the <m>x</m> is cubed. Thus,
 	<me>\begin{aligned}
@@ -176,7 +176,7 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 <assemblage><p>An exponent applies only to its base, and not to any other factors in the product. If we want an exponent to apply to more than one factor, we must enclose those factors in parentheses.</p></assemblage>
 
 <assemblage><title>Look Closer</title>
-<p>Think about the operations in Example 5.<ul>
+<p>Think about the operations in <xref ref="Example-5-1-5" text="type-global"/>.<ul>
 	<li>To evaluate <m>2x^3</m>, we compute the power <m>x^3</m> first, and then the product, <m>2 \cdot x^3</m>.</li>
 	<li>To evaluate <m>(2x)^3</m>, we compute the product <m>2 \cdot x</m> inside parentheses first, and then compute the power.</li></ul></p>/</assemblage>
 

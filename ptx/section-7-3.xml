@@ -56,7 +56,7 @@ We first factored the numerator and denominator of the fraction and then cancele
 
 <assemblage><p>The <term>greatest common factor</term> (GCF) is the largest factor that divides evenly into each term of the polynomial: the largest numerical factor and the highest power of each variable.</p></assemblage>
 
-<example><statement><p>Find the greatest common factor for <m>~~4a^3b^2+6ab^3-18a^2b^4</m></p></statement>
+<example xml:id="Example-7-3-3"><statement><p>Find the greatest common factor for <m>~~4a^3b^2+6ab^3-18a^2b^4</m></p></statement>
 
 <solution><p>The largest integer that divides evenly into all three coefficients is 2. The highest power of <m>a</m> is <m>a^1</m>, and the highest power of <m>b</m> is <m>b^2</m>. Thus, the GCF is <m>2ab^2</m>. Note that the exponent on each variable of <m>2ab^2</m> is the smallest exponent that appears on that variable among the terms of the polynomial.</p></solution></example>
 
@@ -75,7 +75,7 @@ We say that we have factored out the greatest common factor from the polynomial.
 
 <example><statement><p>Factor <m>~~4a^3b^2+6ab^3-18a^2b^4</m></p></statement>
 
-<solution><p>The GCF for this polynomial is <m>2ab^2</m>, as we saw in Example 3. We factor out the GCF from each term and write the polynomial as a product,
+<solution><p>The GCF for this polynomial is <m>2ab^2</m>, as we saw in <xref ref="Example-7-3-3" text="type-global"/>. We factor out the GCF from each term and write the polynomial as a product,
 	<me>2ab^2(\hphantom{0000000000})</me>
 To find the factor inside parentheses, we divide each term of the polynomial by the GCF.
 	<me>\dfrac{4a^3b^2}{2ab^2}=\blert{2a^2},~~~~\dfrac{6ab^3}{2ab^2}=\blert{3b},~~~\dfrac{-18a^2b^4}{2ab^2}=\blert{-9ab^2}</me>

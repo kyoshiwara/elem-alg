@@ -18,7 +18,7 @@ This is the same connection we saw between the <m>x</m>-intercepts of a line and
 we set <m>y=0</m> and solve the equation
 	<me>ax^2+bx+c=0</me></p></assemblage>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-6-4-1"><statement><p><ol label="a">
 	<li>Find the  intercepts of the graph of <m>y=4x-x^2</m>.</li>
 	<li>Sketch the graph.</li></ol></p></statement>
 
@@ -89,7 +89,7 @@ we set <m>y=0</m> and solve the equation
 	
 	<assemblage><p>The high or low point of a parabola is called its <term>vertex</term>.</p></assemblage> 
 
-<sidebyside widths="60% 30%" valigns="middle middle" margins="0% 0%"><p>Look again at the graph of <m>y=4x-x^2</m> from Example 1, shown at right. Notice that the graph is symmetric about a vertical line (called the <term>axis of symmetry</term>) that passes through the vertex. All the parabolas we'll study have a vertical axis of symmetry.</p>   
+<sidebyside widths="60% 30%" valigns="middle middle" margins="0% 0%"><p>Look again at the graph of <m>y=4x-x^2</m> from <xref ref="Example-6-4-1" text="type-global"/>, shown at right. Notice that the graph is symmetric about a vertical line (called the <term>axis of symmetry</term>) that passes through the vertex. All the parabolas we'll study have a vertical axis of symmetry.</p>   
 <!--	<image source="images/fig-6-4-1.png"><description>parabola</description></image>-->
     <image xml:id="fig-6-4-1">
         <description>parabola</description>

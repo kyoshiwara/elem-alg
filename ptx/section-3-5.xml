@@ -132,7 +132,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
 
 <p>In Lesson 3.3 we learned that the slope of a horizontal line is zero. What does this tell us about the equation of a horizontal line that passes through a particular point?</p>
 
-<example><statement><p>Find the equation of the horizontal line that passes through <m>(5,3)</m>.</p></statement>
+<example xml:id="Example-3-5-2"><statement><p>Find the equation of the horizontal line that passes through <m>(5,3)</m>.</p></statement>
 
 <solution><p>Looking at the graph of the line shown below, we see that the <m>y</m>-coordinate of every point on the line is 3.</p> 
 	<sidebyside width="30%"><image source="images/hp-3-3-23"><description>horizontal line</description></image></sidebyside>
@@ -141,7 +141,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
  or just <m>y=3</m>. The fact that <m>x</m> does not appear in the equation means that <m>y=3</m> for every point on the line, no matter what the value of <m>x</m> is.</p></solution></example> 
 
 <assemblage><title>Look Closer</title>
-<p>What about the equation of a vertical line? The slope of a vertical line is undefined; a vertical line does not have a slope. We cannot use the slope-intercept form to write the equation of a vertical line. However, we can use what we learned about horizontal lines in Example 2.</p>
+<p>What about the equation of a vertical line? The slope of a vertical line is undefined; a vertical line does not have a slope. We cannot use the slope-intercept form to write the equation of a vertical line. However, we can use what we learned about horizontal lines in <xref ref="Example-3-5-2" text="type-global"/>.</p>
 <sidebyside widths="60% 30%" valigns="middle middle" margins="0% 5%"> 
 <p>Look at the graph of the vertical line at right. Every point on the line has <m>x</m>-coordinate <m>-2</m>, no matter what the <m>y</m>-coordinate is. An equation for this line is <m>x=-2</m>. The value of <m>x</m> does not depend upon <m>y</m>; it is constant, so <m>y</m> does not appear in the equation.</p>
 <image source="images/hp-3-3-24"><description>vertical line</description></image></sidebyside></assemblage>
@@ -285,7 +285,7 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
 
 <assemblage><p>We denote the coordinates of a particular point by <m>(x_1,y_1)</m> and the coordinates of a second point by <m>(x_2,y_2)</m>.</p></assemblage>
 
-<example><statement><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%"><p>Compute the slope between point <m>D</m> and <m>F</m> in the figure.</p><!--<image source="images/fig-3-5-ex5.png"><description>graph</description></image>-->
+<example xml:id="Example-3-5-5"><statement><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%"><p>Compute the slope between point <m>D</m> and <m>F</m> in the figure.</p><!--<image source="images/fig-3-5-ex5.png"><description>graph</description></image>-->
     <image xml:id="fig-3-5-ex5">
         <description>graph</description>
         <latex-image>
@@ -336,7 +336,7 @@ Thus, the slope of the line segment joining <m>D</m> and <m>F</m> is
 </subsection>
 
 <subsection><title>A New Formula for Slope</title>
-<p>The method described in Example 5 gives us a new formula for computing slope.</p>
+<p>The method described in <xref ref="Example-3-5-5" text="type-global"/> gives us a new formula for computing slope.</p>
 
 <assemblage><title>Two-Point Formula for Slope</title>
 <p>The slope of the line joining points <m>P_1(x_1,y_1)</m> and <m>P_2(x_2,y_2)</m> is
@@ -344,7 +344,7 @@ Thus, the slope of the line segment joining <m>D</m> and <m>F</m> is
 
 <p>We don't need a graph in order to use this formula, just the coordinates of two points on the line.</p>
 
-<example><statement><p>Compute the slope of the line joining the points <m>(6,-2)</m> and <m>(3,-1)</m>.</p></statement>
+<example xml:id="Example-3-5-6"><statement><p>Compute the slope of the line joining the points <m>(6,-2)</m> and <m>(3,-1)</m>.</p></statement>
 
 <solution><p>It doesn't matter which point is <m>P_1</m> and which is <m>P_2</m>, so we choose <m>P_1</m> to be <m>(6,-2)</m>. Then <m>(x_1,y_1)=(6,-2)</m> and <m>(x_2,y_2)=(3,-1)</m>. Thus,
 		<me>\begin{aligned}
@@ -352,7 +352,7 @@ Thus, the slope of the line segment joining <m>D</m> and <m>F</m> is
                  \amp = \dfrac{-1-2}{3-(-6)} = \dfrac{-3}{9} = \dfrac{-1}{3}
                 \end{aligned}</me></p></solution></example>
 
-<warning><p>In Example 6, we can reverse the order of both subtractions to find
+<warning><p>In <xref ref="Example-3-5-6" text="type-global"/>, we can reverse the order of both subtractions to find
 		<me>\begin{aligned}
                 m \amp = \dfrac{y_1-y_2}{x_1-x_2} \\
                  \amp = \dfrac{2-(-1)}{-6-3)} = \dfrac{3}{-9} = \dfrac{-1}{3}

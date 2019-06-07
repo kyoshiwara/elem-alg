@@ -166,7 +166,7 @@
 
 <p>Now we can graph an equation that includes negative values.</p>
 
-<example><statement><p>The temperature in Nome was <m>-12 \degree</m>F at noon. It has been rising at a rate of <m>2 \degree</m>F per hour all day.<ol label="a">  
+<example xml:id="Example-2-3-3"><statement><p>The temperature in Nome was <m>-12 \degree</m>F at noon. It has been rising at a rate of <m>2 \degree</m>F per hour all day.<ol label="a">  
     <li>Write an equation for the temperature, <m>T</m>, after <m>h</m> hours.</li>
     <li>Fill in the table and graph your equation. (Negative values of <m>h</m> represent hours before noon.)
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -243,7 +243,7 @@
         <li>We find the point on the graph with <m>T</m>-coordinate <m>-4</m>. Its <m>h</m>-coordinate is 4, so it will be <m>-4 \degree</m>F at 4 pm.</li></ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>We can also answer parts (c) and (d) of Example 3 using algebra.<ul>
+<p>We can also answer parts (c) and (d) of <xref ref="Example-2-3-3" text="type-global"/> using algebra.<ul>
     <li> For part (c), we evaluate the expression for <m>T</m>, namely <m>-12+2h</m>, at <m>h=-8</m>.</li>
     <li> For part (d), we solve the equation <m>T=-12+2h</m> with <m>T=-4</m>.</li></ul>
  Make sure that you understand both methods, graphical and algebraic.</p></assemblage>
@@ -355,11 +355,13 @@
 <subsection xml:id="Skills-Warm-Up-2-3"><title>Skills Warm-Up</title>
 <exercises>
 	<exercisegroup><introduction><p>Choose the correct algebraic expression for each situation.</p>
-    <assemblage><p>
-		<me>\begin{aligned}
-                \amp 2t+12 \amp\amp\amp\amp 12-2t\\
-                \amp 2(t+12) \amp\amp\amp\amp 2t-12  
-                \end{aligned}</me></p></assemblage></introduction>
+        <assemblage><p>
+        <ul cols="2"><li><m>2t+12</m></li>
+        <li><m>12-25</m></li>
+        <li><m>2(t+12)</m></li>
+        <li><m>2t-12</m></li>
+    </ul>
+    </p></assemblage></introduction>
 
 <exercise number="1"><statement><p>Janine's history book has 12 chapters. If she studies 2 chapters a week, how many chapters will she have left after <m>t</m> weeks?</p></statement>
 <answer><m>12-2t</m></answer></exercise>

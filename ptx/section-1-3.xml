@@ -11,7 +11,7 @@
 
 <p>The graph itself shows how the two variables are related.</p>
 
-<example><statement><p>The graph below shows the relationship between Delbert's age, <m>D</m>, and Francine's age, <m>F</m>.  Write an equation for Francine's age in terms of Delbert's age.</p>
+<example xml:id="Example-1-3-1"><statement><p>The graph below shows the relationship between Delbert's age, <m>D</m>, and Francine's age, <m>F</m>.  Write an equation for Francine's age in terms of Delbert's age.</p>
 	<sidebyside width="35%"><!--<image source="images/fig-1-3-ex1.png"/>-->
     <image xml:id="fig-1-3-ex1">
         <description>Relationship between Delbert's and Francine's ages</description>
@@ -67,9 +67,9 @@ From the table, we see that the value of <m>F</m> is always 4 more than the valu
 	<exercise number="3"><statement><p>The input variable is located on the <fillin characters="6"/> axis.</p></statement>
 		<answer><p>horizontal</p></answer></exercise></reading-questions>
 
-<p>Each point on a graph has two coordinates, which designate the position of the point. For example, the point labeled <m>P</m> in Example 1 has horizontal coordinate 3 and vertical coordinate 7.</p>
+<p>Each point on a graph has two coordinates, which designate the position of the point. For example, the point labeled <m>P</m> in <xref ref="Example-1-3-1" text="type-global"/> has horizontal coordinate 3 and vertical coordinate 7.</p>
 
-<assemblage><p>In Example 1 above,  we write the coordinates of point <m>P</m> inside parentheses as an <term>ordered pair</term>: <m>(3,7)</m>. The order of the coordinates makes a difference.  We always list the horizontal coordinate first, then the vertical coordinate.</p></assemblage>
+<assemblage><p>In <xref ref="Example-1-3-1" text="type-global"/> above,  we write the coordinates of point <m>P</m> inside parentheses as an <term>ordered pair</term>: <m>(3,7)</m>. The order of the coordinates makes a difference.  We always list the horizontal coordinate first, then the vertical coordinate.</p></assemblage>
 
 <reading-questions>
 	<exercise number="4"><statement><p>The position of a point on the graph is given by its <fillin characters="6"/>.</p></statement>

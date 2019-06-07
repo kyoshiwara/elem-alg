@@ -7,7 +7,7 @@
 <subsection><title>What is a System of Equations?</title>
 <p>In many applications it is useful to write two or more linear equations.</p>
 
-<example><statement><p>Delbert and Francine are buying appliances for their new home. They have a choice of two different refrigerators:  a standard model that sells for $1000, or an energy-efficient model at a price of $1200. The standard model costs $6 per month to run, and the energy-efficient model costs $2 per month. Write linear equations for the total cost of each refrigerator after <m>t</m> months.</p></statement>
+<example xml:id="Example-4-2-1"><statement><p>Delbert and Francine are buying appliances for their new home. They have a choice of two different refrigerators:  a standard model that sells for $1000, or an energy-efficient model at a price of $1200. The standard model costs $6 per month to run, and the energy-efficient model costs $2 per month. Write linear equations for the total cost of each refrigerator after <m>t</m> months.</p></statement>
 
 <solution><p>Let <m>S</m> stand for the total cost of running the standard refrigerator for <m>t</m> months, so <m>S=mt+b</m>.  The initial cost of the standard model is $1000, so <m>b=1000</m>. The cost increases at a rate of $6 per month, so <m>m=6</m>. Thus,
 	<me>S=6t+1000</me>   
@@ -23,9 +23,9 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
 <assemblage><p>A pair of linear equations with the same variables is called a <term>system of linear equations</term>.</p>
 </assemblage> 
 
-<p>In Example 1, the standard refrigerator costs less initially, but costs more to run each month. Delbert and Francine want to know when the energy-efficient model will begin to pay for itself, or in other words, when the total cost of running the standard model will exceed the total cost of the energy-efficient model.</p>  
+<p>In <xref ref="Example-4-2-1" text="type-global"/>, the standard refrigerator costs less initially, but costs more to run each month. Delbert and Francine want to know when the energy-efficient model will begin to pay for itself, or in other words, when the total cost of running the standard model will exceed the total cost of the energy-efficient model.</p>  
 
-<example><statement><p>When is the total cost of running the two refrigerators in Example 1 equal?</p></statement>
+<example xml:id="Example-4-2-2"><statement><p>When is the total cost of running the two refrigerators in <xref ref="Example-4-2-1" text="type-global"/> equal?</p></statement>
 
 <solution><p>We would like to know the value of <m>t</m> when <m>S=E</m>. We could use trial-and-error by evaluating both <m>S</m> and <m>E</m> for various values of <m>t</m>. The results of such a search are given in the table below.</p>
 
@@ -55,7 +55,7 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
 
 <p>We see that when <m>t=50</m>, the total cost of both models is $1300. Thus, at the end of 50 months, or 4 years 2 months, the cost of the standard model equals the cost of the energy-efficient model.</p></solution></example>  
 
-<p>In Example 2 we found an ordered pair, <m>(50,1300)</m>,that makes both equations true.</p>
+<p>In <xref ref="Example-4-2-2" text="type-global"/> we found an ordered pair, <m>(50,1300)</m>,that makes both equations true.</p>
 
 <assemblage><p>A <term>solution</term> to a system of equations is an ordered pair <m>(x,y)</m> that satisfies each equation in the system.</p></assemblage>
 
@@ -64,7 +64,7 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
             S \amp = 6t+1000 \amp\amp \text{Does}~~~ \alert{1300} = 6(\alert{50})+1000?~~~~~~\blert{\text{True}}\\
             E \amp = 2t+1000 \amp\amp \text{Does}~~~\alert{1300} = 2(\alert{50})+1200?~~~~~~\blert{\text{True}}            
         \end{aligned}</me>
-We have verified that the ordered pair <m>(50,1300)</m> is a solution to the system in Example 1.</p>  
+We have verified that the ordered pair <m>(50,1300)</m> is a solution to the system in <xref ref="Example-4-2-1" text="type-global"/>.</p>  
 
 <reading-questions>
     <exercise number="1"><statement><p>What is a solution to a system of equations?</p></statement>
@@ -79,7 +79,7 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 <subsection><title>Solving a System of Equations by Graphing</title>
 <p>The solution of a system satisfies both equations in the system, so the point that represents the solution must lie on both graphs. It is the intersection point of the two lines described by the system. Thus, we can solve a system of equations by graphing the equations and looking for the point (or points) where the graphs intersect.</p>
 
-<example><statement><p>Solve the system in Example 1 by graphing.</p></statement>
+<example xml:id="Example-4-2-3"><statement><p>Solve the system in <xref ref="Example-4-2-1" text="type-global"/> by graphing.</p></statement>
 
 <solution><p>The graph of the two equations is shown below. The graph of <m>S</m> has a smaller initial value than <m>E</m>, but it increases more rapidly because its slope is greater. The two graphs intersect at the point labeled <m>P</m>.</p>  
 	<sidebyside width="35%"><!--<image source="images/fig-4-2-ex3.png"><description>graph</description></image>-->
@@ -120,9 +120,9 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 
 <subsection><title>Inconsistent and Dependent Systems</title>
 
-<example><statement><p>Delbert and Francine are also shopping for homeowners insurance. HomeLife offers a policy for semiannual premiums of $408, or they can join a co-op for $50 and pay just $68 per month for comparable coverage. Which option is less expensive in the long run?</p></statement>
+<example xml:id="Example-4-2-4"><statement><p>Delbert and Francine are also shopping for homeowners insurance. HomeLife offers a policy for semiannual premiums of $408, or they can join a co-op for $50 and pay just $68 per month for comparable coverage. Which option is less expensive in the long run?</p></statement>
 
-<solution><p>We'll write a system of equations and graph them, as we did in Example 3. If <m>t</m> stands for the number of months, then the total cost of the co-op insurance is
+<solution><p>We'll write a system of equations and graph them, as we did in <xref ref="Example-4-2-3" text="type-global"/>. If <m>t</m> stands for the number of months, then the total cost of the co-op insurance is
         <me>C=50+68t</me>
 and the HomeLife policy costs
         <me>H=\dfrac{408}{6}t=68t</me>
@@ -155,9 +155,9 @@ because a semiannual premium covers 6 months. The solution of the system represe
 
 <p>As you can see, the two lines are parallel, so the graphs do not intersect. This system has no solution. There is no point where the two policies cost the same amount; the HomeLife policy is always less expensive.</p></solution></example>
 
-<p>In Example 4, the two graphs never intersect, so the system has no solution. Such a system is called <term>inconsistent</term>. There is a third possibility:  Both equations may have the same graph.</p>   
+<p>In <xref ref="Example-4-2-4" text="type-global"/>, the two graphs never intersect, so the system has no solution. Such a system is called <term>inconsistent</term>. There is a third possibility:  Both equations may have the same graph.</p>   
 
-<example><statement><p>Solve the system
+<example xml:id="Example-4-2-5"><statement><p>Solve the system
 		<md><mrow>y=2x+2</mrow>
 				<mrow>6x-3y=-6</mrow></md></p></statement>
 
@@ -190,7 +190,7 @@ Its graph is shown below.</p>
 <p>The second equation, which has the form <m>Ax+By=C</m>, is easier to graph by the intercept method. You can verify that its intercepts are <m>(0,2)</m> and <m>(-1,0)</m>. The graph of the second line is identical to the first graph.</p>
 <p> Every solution to the first equation is also a solution to the second equation, so every point on the line is a solution of the system as well. The system has infinitely many solutions.</p></solution></example>
 
-<p>We can verify that the two equations in Example 5 are actually equivalent by solving the second equation for <m>y</m> in terms of <m>x</m>.
+<p>We can verify that the two equations in <xref ref="Example-4-2-5" text="type-global"/> are actually equivalent by solving the second equation for <m>y</m> in terms of <m>x</m>.
 	<me>\begin{aligned}
             6x-3y \amp = -6 \amp\amp \blert{\text{Add}~3y~\text{and 6 to both sides.}} \\
             6x+6 \amp = 3y \amp\amp \blert{\text{Divide both sides by 3.}}\\

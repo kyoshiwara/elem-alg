@@ -7,14 +7,14 @@
 <subsection><title>Squares of Monomials</title>
 <p>A few special binomial products occur so frequently that it is useful to recognize their forms. This will enable you to write their factored forms directly, without trial and error. To prepare for these special products, we first consider the squares of monomials.</p>
 
-<p>Study the squares of monomials in Example 1. Do you see a quick way to find the product?</p>
+<p>Study the squares of monomials in <xref ref="Example-7-4-1" text="type-global"/>. Do you see a quick way to find the product?</p>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-7-4-1"><statement><p><ol label="a">
 	<li><m>(w^5)^2 = w^5 \cdot w^5 = w^{10}</m></li>
 	<li><m>(4x^3)^2 = 4x^3 \cdot 4x^3 = 4 \cdot 4 \cdot x^3 \cdot x^3 = 16x^6</m></li></ol></p></statement></example>
 
 <assemblage><title>Look Closer</title>
-<p>In Example 1a, we doubled the exponent and kept the same base. In Example 1b, we squared the numerical coefficient and doubled the exponent.</p></assemblage>
+<p>In <xref ref="Example-7-4-1" text="type-global"/>a, we doubled the exponent and kept the same base. In <xref ref="Example-7-4-1" text="type-global"/>b, we squared the numerical coefficient and doubled the exponent.</p></assemblage>
 
 <reading-questions>
     <exercise number="1"><statement><p>Why do we double the exponent when we square a power?</p></statement>
@@ -45,7 +45,7 @@
 
 <p>We can use these results as formulas to compute the square of any binomial.</p>  
 
-<example><statement><p>  Expand <m>~(2x+3)^2~</m> as a polynomial.</p></statement>
+<example xml:id="Example-7-4-3"><statement><p>  Expand <m>~(2x+3)^2~</m> as a polynomial.</p></statement>
 
 <solution><p>The formula for the square of a sum says to square the first term, add twice the product of the two terms, then add the square of the second term. We replace <m>a</m> by <m>2x</m> and <m>b</m> by <m>3</m> in the formula.
 	<md><mrow>(a+b)^2 \amp = a^2 ~~~~~~ + ~~~~~~ 2 a b~~~~~~ + ~~~~~~b^2</mrow>
@@ -54,7 +54,7 @@
 		<mrow>\amp ~~\blert{\text{first term}} ~~~~~~~ \blert{\text{product}} ~~~~~ \blert{\text{second term}}</mrow>
 		<mrow> \amp = 4x^2 ~~~~ + ~~~~~~ 12x ~~~~~ + ~~~~~ 9</mrow></md></p></solution></example>
 
-<p>Of course, you can verify that you will get the same answer for Example 3 if you compute the square by multiplying <m>(2x+3)(2x+3)</m>.</p>
+<p>Of course, you can verify that you will get the same answer for <xref ref="Example-7-4-3" text="type-global"/> if you compute the square by multiplying <m>(2x+3)(2x+3)</m>.</p>
 
 <warning><p>We cannot square a binomial by squaring each term separately! For example, it is NOT true that
 	<me>(2x+3)^2 = 4x^2+9~~~~~~\alert{\text{Incorrect!}}</me> 

@@ -8,7 +8,7 @@
 
 <p>When we write an algebraic expression, we use the same operations on a variable that we would use to calculate with a specific number. Writing down the expression for a specific numerical value can help us write an algebraic expression.</p>
 
-<example><statement><p>Alida keeps $100 in cash from her weekly paycheck, and deposits 40% of the remainder in her savings account. If Alida's paycheck is <m>p</m>, write an expression for the amount she deposits in savings.</p></statement>
+<example xml:id="Example-2-2-1"><statement><p>Alida keeps $100 in cash from her weekly paycheck, and deposits 40% of the remainder in her savings account. If Alida's paycheck is <m>p</m>, write an expression for the amount she deposits in savings.</p></statement>
 
 <solution><p>How would we calculate Alida's deposit if we knew her paycheck? Suppose Alida's paycheck is $500. First she subtracts $100 from that amount to get <m>500-100</m>, and then she takes 40% of the remainder for savings:
 	<me>0.40(\alert{500}-100)~~~~~\blert{\text{Perform operations inside parentheses first.}}</me>
@@ -18,7 +18,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <reading-questions>
     <exercise number="1"><statement><p>We write an expression with variables using the same operations we would use to calculate with a <fillin characters="6"/>.</p></statement>
     	<answer><p>specific number</p></answer></exercise>
-    <exercise number="2"><statement><p>In Example 1, how does Alida calculate the amount to deposit in savings? How do we write that in an algebraic expression?</p></statement>
+    <exercise number="2"><statement><p>In <xref ref="Example-2-2-1" text="type-global"/>, how does Alida calculate the amount to deposit in savings? How do we write that in an algebraic expression?</p></statement>
     	<answer><p>Subtract 100 from her paycheck, then multiply the result by 0.40. <m>0.40(p-100)</m></p></answer></exercise>
 </reading-questions>
 </subsection>
@@ -26,7 +26,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <subsection><title>Evaluating Algebraic Expressions</title>
 <p>When we evaluate an algebraic expression, we must follow the order of operations.</p>
 
-<example><statement><p>Four students bought concert tickets with their $20 student-discount coupons.<ol label="a">
+<example xml:id="Example-2-2-2"><statement><p>Four students bought concert tickets with their $20 student-discount coupons.<ol label="a">
 	<li>If the regular price of a ticket is <m>t</m> dollars, write an expression for the total amount the four students paid.</li>
 	<li>How much did the students pay if the regular price of a ticket is $38?</li></ol></p></statement>
 <solution><p><ol label="a">
@@ -40,7 +40,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 		The students paid $72 for the tickets.</p></li></ol></p></solution></example>
 
 <reading-questions>
-    <exercise number="3"><statement><p>Explain why we need parentheses in Example 2.</p></statement>
+    <exercise number="3"><statement><p>Explain why we need parentheses in <xref ref="Example-2-2-2" text="type-global"/>.</p></statement>
     	<answer><p>We need to subtract before we multiply.</p></answer></exercise>
     <exercise number="4"><statement><p>How should we write "3 times the sum of <m>x</m> and 12"?</p></statement>
     	<answer><p><m>3(x+12)</m></p></answer></exercise>
@@ -67,9 +67,9 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
     	<answer><p>Subtract <m>x</m> from 18</p></answer></exercise>
 </reading-questions>
 
-<warning><p>When using negative numbers, we must be careful to distinguish between products and sums.  In Example 4, note how the parentheses and minus signs are used in each expression.</p></warning>
+<warning><p>When using negative numbers, we must be careful to distinguish between products and sums.  In <xref ref="Example-2-2-4" text="type-global"/>, note how the parentheses and minus signs are used in each expression.</p></warning>
 
-<example><statement><p>Simplify each expression.<ol label="a" cols="4">
+<example xml:id="Example-2-2-4"><statement><p>Simplify each expression.<ol label="a" cols="4">
 	<li><m>3(-8)</m></li>
 	<li><m>3-(-8)</m></li>
 	<li><m>3-8</m></li>

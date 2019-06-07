@@ -14,7 +14,7 @@ where <m>x</m> is the number of months the refrigerator has been running. We loo
 	
 <p>We can also solve the system using algebra.</p>
 
-<example><statement><p>Solve the system algebraically.
+<example xml:id="Example-4-3-1"><statement><p>Solve the system algebraically.
 		<md><mrow>y=6x+1000</mrow>
 		<mrow>y=2x+1200</mrow></md></p></statement>
 
@@ -29,7 +29,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
 </subsection>
 
 <subsection><title>Substitution Method</title>
-<p>In Example 1, we solved the system by equating the two expressions for <m>y</m>. We can think of this procedure as substituting the expression for <m>y</m> from one equation into the other equation, like this:</p>
+<p>In <xref ref="Example-4-3-1" text="type-global"/>, we solved the system by equating the two expressions for <m>y</m>. We can think of this procedure as substituting the expression for <m>y</m> from one equation into the other equation, like this:</p>
 <sidebyside width="83%"><!--<image source="images/fig-4-3-1.png"><description>graphic</description></image>-->
     <image xml:id="fig-4-3-1">
         <description>substitution</description>
@@ -159,7 +159,7 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 <assemblage><title>Look Ahead</title>
 <p>You may have noticed that this method worked because the coefficients of <m>y</m> in the two equations were opposites, <m>2</m> and <m>-2</m>. This caused the <m>y</m>-terms to cancel out when we added the two equations together. What if the coefficients of neither <m>x</m> nor <m>y</m> are opposites? Then we must multiply one or both of the equations in the system by a suitable constant.</p></assemblage>
 
-<example><statement><p>Solve the system
+<example xml:id="Example-4-3-4"><statement><p>Solve the system
 		<md><mrow>4x+3y=7</mrow>
 		<mrow>3x+y=-1</mrow></md></p></statement>
 
@@ -173,7 +173,7 @@ Note carefully that we must multiply each term by <m>-3</m>, not just the <m>y</
         \end{aligned}</me>
 The <m>y</m>-terms were eliminated, and we solve the resulting equation for <m>x</m> to get <m>x=-2</m>. Finally, we substitute <m>x=-2</m> into either of the equations to find <m>y=5</m>. The solution is <m>(-2,5)</m>.</p></solution></example>
 
-<warning><p>In Example 4, we multiplied both sides of the equation <m>3x+y=-1</m> by <m>-3</m>. (This is an application of the Multiplication Property of Equality.) We must be careful to multiply every term on both sides of the equation by the same constant. Otherwise, we won't have an equivalent equation -- its solutions will not be the same.</p></warning> 
+<warning><p>In <xref ref="Example-4-3-4" text="type-global"/>, we multiplied both sides of the equation <m>3x+y=-1</m> by <m>-3</m>. (This is an application of the Multiplication Property of Equality.) We must be careful to multiply every term on both sides of the equation by the same constant. Otherwise, we won't have an equivalent equation -- its solutions will not be the same.</p></warning> 
 
 <assemblage><p>When we add a multiple of one equation to the other we are making a <term>linear combination</term> of the equations.</p></assemblage>
 
@@ -231,7 +231,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 <subsection><title>Inconsistent and Dependent Systems</title>
 <p>Recall that a system of two parallel lines has no solution and is called inconsistent. If the two equations in a system have the same graph, then every point on the graph is a solution and the system is called dependent. The elimination method will reveal whether the system falls into one of these two cases.</p>
 
-<example><statement><p>Solve each system by elimination.<ol label="a" cols="2">
+<example xml:id="Example-4-3-6"><statement><p>Solve each system by elimination.<ol label="a" cols="2">
         <li><p><m>\begin{aligned}[t]
             3x-y=2\\
                 -6x+2y=3\end{aligned}</m></p></li>
@@ -305,7 +305,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 </sidebyside>
 <p>We are left with the true but unhelpful equation <m>0=0</m>. The two equations are in fact equivalent (one is a constant multiple of the other), so the system is dependent. The graph of both equations is shown in the figure.</p></li></ol></p></solution></example>
 
-<p>Example 5 illustrates a rule for identifying inconsistent and dependent systems.</p>
+<p><xref ref="Example-4-3-6" text="type-global"/> illustrates a rule for identifying inconsistent and dependent systems.</p>
 
 <assemblage><title>When Using Elimination to Solve a System</title>
 <p><ol label="1">

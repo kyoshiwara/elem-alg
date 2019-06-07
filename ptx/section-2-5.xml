@@ -78,7 +78,7 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 <assemblage><title>To add like terms</title>
 <p>Add the numerical coefficients of the terms. Do not change the variable factors of the terms.</p></assemblage>
 
-<example><statement><p>Add like terms.<ol label="a"  cols="3">
+<example xml:id="Example-2-5-3"><statement><p>Add like terms.<ol label="a"  cols="3">
 	<li><m>5n+3n</m></li>
 	<li><m>-4y-3y</m></li>
 	<li><m>-6st+9st</m></li></ol></p></statement>
@@ -88,7 +88,7 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 	<li><m>-6st+9st = (-6+9)st = 3st~~~~~~~~ \blert{\text{Add the coefficients,}~ -6 ~\text{and} ~9.}</m></li></ol></p></solution></example>
 
 <assemblage><title>Look Ahead</title>
-<p>In Example 3, we replaced each expression by a simpler but equivalent expression. In other words, <m>-7y</m> is equivalent to <m>-4y-3y</m>, and <m>3st</m> is equivalent to <m>-6st+9st</m>.</p></assemblage>
+<p>In <xref ref="Example-2-5-3" text="type-global"/>, we replaced each expression by a simpler but equivalent expression. In other words, <m>-7y</m> is equivalent to <m>-4y-3y</m>, and <m>3st</m> is equivalent to <m>-6st+9st</m>.</p></assemblage>
 
 <assemblage><p>Replacing an expression by a simpler equivalent one is called <term>simplifying</term> the expression.</p></assemblage>
 

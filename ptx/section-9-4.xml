@@ -99,14 +99,14 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 <subsection><title>Fractions</title>
 <p>	When we solve quadratic equations, the solutions are often fractions that involve square roots. Many such fractions can be simplified using properties of radicals.</p>
 
-<example><statement><p>One of the solutions of the equation <m>4x^2-8x=1</m> is <m>\dfrac{8+\sqrt{80}}{8}</m>. Simplify this radical expression.</p></statement>
+<example xml:id="Example-9-4-6"><statement><p>One of the solutions of the equation <m>4x^2-8x=1</m> is <m>\dfrac{8+\sqrt{80}}{8}</m>. Simplify this radical expression.</p></statement>
 
 <solution><p>First, simplify the square root: <m>\sqrt{80}=\sqrt{16 \cdot 5} = 4\sqrt{5}</m>. Thus,
 	<md><mrow> \dfrac{8+\sqrt{80}}{8} \amp = \dfrac{8+4\sqrt{5}}{8} \amp \amp \blert{\text{Factor numerator and denominator.}}</mrow>
 	<mrow> \amp = \dfrac{\cancel{\blert{4}}(2+\sqrt{5})}{\cancel{\blert{4}} \cdot 2} \amp \amp \blert{\text{Divide out common factors.}}</mrow>
 	<mrow> \amp = \dfrac{2+\sqrt{5}}{2}</mrow></md></p></solution></example>
 
-<warning><p>In Example 6, note that
+<warning><p>In <xref ref="Example-9-4-6" text="type-global"/>, note that
 	<me>8+4\sqrt{5} \not= 12\sqrt{5}</me>
 because <m>8</m> and <m>4\sqrt{5}</m> are not like terms. Also note that
 	<me>\dfrac{8+\sqrt{80}}{8} \not= \sqrt{80}</me>

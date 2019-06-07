@@ -51,14 +51,14 @@ Because the square of <m>3\sqrt{5}</m> is equal to 45, it is the case that <m>3\
 	<li>Use the product rule to write the radical as a product of two square roots.</li>
 	<li>Simplify the square root of the perfect square.</li></ol></p></assemblage>
 
-<example><statement><p>Simplify <m>~\sqrt{45}</m>.</p></statement>
+<example xml:id="Example-9-3-3"><statement><p>Simplify <m>~\sqrt{45}</m>.</p></statement>
 
-<solution><p>We look for a perfect square that divides evenly into 45. The largest perfect square that divides 45is 9, so we factor 45 as <m>9 \cdot 5</m>  Then we use the product rule to write
+<solution><p>We look for a perfect square that divides evenly into 45. The largest perfect square that divides 45 is 9, so we factor 45 as <m>9 \cdot 5</m>  Then we use the product rule to write
 	<me>\sqrt{45}=\sqrt{9 \cdot 5} = \sqrt{9}\sqrt{5}</me>
 Finally, we simplify <m>\sqrt{9}</m> to get
 	<me>\sqrt{45}= \sqrt{9}\sqrt{5} =3\sqrt{5}</me></p></solution></example>
 
-<warning><p>Finding a decimal approximation for a radical is not the same as simplifying the radical. In Example 1, we can use a calculator to find	
+<warning><p>Finding a decimal approximation for a radical is not the same as simplifying the radical. In <xref ref="Example-9-3-3" text="type-global"/>, we can use a calculator to find	
 	<me>\sqrt{45} \approx 6.708</me>
 but 6.708 is not the exact value for <m>\sqrt{45}</m>. For long calculations, too much accuracy may be lost by approximating each radical. However, <m>3\sqrt{5}</m> is equivalent to <m>\sqrt{45}</m>, which means that their values are exactly the same. We can replace one expression by the other without losing accuracy.</p></warning>
 
@@ -108,7 +108,7 @@ Finally, we simplify the square root of <m>x^6</m> to get
 
 <p>If the radicand contains more than one variable or a coefficient, we consider the constants and each variable separately. We try to remove the largest factors possible from the radicand.</p>
 
-<example><statement><p>Simplify  <m>~~\sqrt{20x^2y^3}</m></p></statement>
+<example xml:id="Example-9-3-6"><statement><p>Simplify  <m>~~\sqrt{20x^2y^3}</m></p></statement>
 
 <solution><p>We look for the largest perfect square that divides 20; it is 4. We write the radicand as the product of two factors, one of which contains the perfect square and even powers of the variables. That is,     
 	<me>20x^2y^3 = 4x^2y^2 \cdot 5y~~~~~\blert{\text{Factor into perfect squares and "leftovers."}}</me>
@@ -119,7 +119,7 @@ Finally, we simplify the square root of <m>x^6</m> to get
  		<mrow> \amp = 2xy\sqrt{5y}</mrow></md></p></solution></example>
 
 <reading-questions>
-    <exercise number="4"><statement><p>In Example 6, what will we get if we square <m>2xy\sqrt{5y}</m>?
+    <exercise number="4"><statement><p>In <xref ref="Example-9-3-6" text="type-global"/>, what will we get if we square <m>2xy\sqrt{5y}</m>?
 </p></statement>
     <answer><p><m>20x^2y^3</m></p></answer></exercise>
 </reading-questions>                                                                       

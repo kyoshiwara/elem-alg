@@ -7,7 +7,7 @@
 <subsection><title>Solving Equations</title>
 <p>We solve an equation by isolating the variable on one side of the equation. If an equation involves two or more operations, we must undo those operations in reverse order.</p>
 
-<example><statement><p>The equation 
+<example xml:id="Example-2-4-1"><statement><p>The equation 
     <me>T=50+15u</me> 
 describes college tuition consisting of a $50 registration fee plus $15 per unit. How many units can you take if you have $290 saved for tuition?</p></statement>
 
@@ -41,7 +41,7 @@ You can enroll in 16 units. We can check the solution by substituting 16 for <m>
 Because a true statement results, the solution checks.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>In Example 1, notice how we reversed the operations used in the equation.
+<p>In <xref ref="Example-2-4-1" text="type-global"/>, notice how we reversed the operations used in the equation.
 		<me>\begin{aligned}
                 \amp \blert{\text{Operations performed on}~u} \amp \amp \blert{\text{Steps for solution}}\\
                 \amp 1.~~~\text{Multiply by 15}  \amp \amp 1.~~~\text{Subtract 50}\\
@@ -51,7 +51,7 @@ Because a true statement results, the solution checks.</p></solution></example>
 <assemblage><title>Strategy for solving equations</title>
 <p>To solve an equation that involves two or more operations, we undo those operations in reverse order.</p></assemblage>
 
-<example><statement><p>Solve <m>~8-3x=-10</m></p></statement>
+<example xml:id="Example-2-4-2"><statement><p>Solve <m>~8-3x=-10</m></p></statement>
 
 <solution><p>The left side of the equation has two terms: <m>8</m> and <m>-3x</m>. We want to isolate the term containing the variable, so we subtract 8 from both sides.
 		<me>\begin{aligned}
@@ -67,7 +67,7 @@ Next, we divide both sides by <m>-3</m> to get
 The solutions is 6.
 	<me>\blert{\text{Check:}}~~~~~~~~8-3(\alert{6})=8-18=-10</me></p></solution></example>   
 
-<warning><p>In Example 2, the term <m>-3x</m> means "<m>-3</m> times <m>x</m>," so we divide both sides by <m>-3</m>. Do not try to add 3 to both sides.</p></warning>
+<warning><p>In <xref ref="Example-2-4-2" text="type-global"/>, the term <m>-3x</m> means "<m>-3</m> times <m>x</m>," so we divide both sides by <m>-3</m>. Do not try to add 3 to both sides.</p></warning>
 
 <reading-questions>
     <exercise number="1"><statement><p>If an equation involves more than one operation, how must we undo those 

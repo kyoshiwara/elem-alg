@@ -93,17 +93,17 @@ We get the same answer with either method.</p></solution></example>
 
 <p>So far we have considered fractions whose numerators and denominators are monomials. The next example illustrates how to multiply fractions whose numerators and denominators are binomials.</p>
 			
-<example><statement><p>Multiply <m>~\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2}</m></p></statement>
+<example xml:id="Example-8-2-2"><statement><p>Multiply <m>~\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2}</m></p></statement>
 
 <solution><p>We begin by factoring each numerator and denominator. Then we divide numerator and denominator by any common factors.
 <md><mrow>\dfrac{2x-4}{3x+6} \cdot \dfrac{6x+9}{x-2} = \amp \dfrac{2(x-2)}{\cancel{\blert{3}}(x+2)} \cdot \dfrac{\cancel{\blert{3}}(2x+3)}{x-2} ~~~~~~\blert{\text{Multiply remaining factors of}}</mrow>
 	<mrow> \amp ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ \blert{\text{numerators and of denominators.}}</mrow>
 	<mrow>\amp = \dfrac{2(2x+3)}{x+2}~~~ \text{or}~~~ \dfrac{4x+6}{x-2}</mrow></md></p></solution></example>
 
-<warninng><p>In Example 2, it would be incorrect to try to cancel any terms of numerators and denominators before factoring each binomial. For example, we cannot cancel <m>3x</m> into <m>6x</m>, because they are not factors of the fractions.</p></warninng>
+<warning><p>In <xref ref="Example-8-2-2" text="type-global"/>, it would be incorrect to try to cancel any terms of numerators and denominators before factoring each binomial. For example, we cannot cancel <m>3x</m> into <m>6x</m>, because they are not factors of the fractions.</p></warning>
 
 <reading-questions>
-    <exercise number="2"><statement><p>What was the first step in multiplying the two fractions in Example 2?</p>
+    <exercise number="2"><statement><p>What was the first step in multiplying the two fractions in <xref ref="Example-8-2-2" text="type-global"/>?</p>
 </statement>
     <answer><p>Factor each numerator and denominator.</p></answer></exercise>
 </reading-questions>
@@ -171,7 +171,7 @@ We get the same answer with either method.</p></solution></example>
 
 <p>Just as with multiplication, it is important to factor each numerator and denominator before trying to cancel any common factors.</p>
 
-<example><statement><p>Divide: <m>~\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a}</m></p></statement>
+<example xml:id="Example-8-2-4"><statement><p>Divide: <m>~\dfrac{a-2}{6a^2} \div \dfrac{4-a^2}{4a^2-2a}</m></p></statement>
 
 <solution><p>First, we change the operation to multiplication by taking the reciprocal of the divisor.
 	<me>\dfrac{a-2}{6a^2} \cdot \dfrac{4a^2-2a}{4-a^2}</me>
@@ -180,7 +180,7 @@ Now, we follow the rules for multiplication. We begin by factoring each numerato
 	<mrow>\amp =\dfrac{-1\cancel{\blert{(2-a)}}}{3 \cdot \cancel{\blert{2}} \cdot \cancel{\blert{a}} \cdot a} \cdot \dfrac{\cancel{\blert{2}} \cancel{\blert{a}}(2a-1)}{\cancel{\blert{(2-a)}}(2+a)}~~~\blert{\text{Multiply remaining factors.}}</mrow>
 	<mrow>\amp = \dfrac{-1(2a-1)}{3a(2+a)} = \dfrac{1-2a}{3a(2+a)}</mrow></md></p></solution></example>
 
-<warning><p>In Example 4, do not try to cancel before factoring the numerators and denominators! For example, it would be incorrect to try to cancel <m>a^2</m> before factoring each binomial.</p></warning>
+<warning><p>In <xref ref="Example-8-2-4" text="type-global"/>, do not try to cancel before factoring the numerators and denominators! For example, it would be incorrect to try to cancel <m>a^2</m> before factoring each binomial.</p></warning>
 
 <p>If a nonfractional expression appears in a quotient, we can write it with a denominator of 1, just as we did for products. For example,
 	<md><mrow>\dfrac{3}{2} \div \blert{6a} \amp = \dfrac{3}{2} \div \blert{\dfrac{6}{1}}</mrow>
@@ -237,7 +237,7 @@ becuase <m>3x</m> and <m>4x</m> are like terms. Similarly, we can think of the s
 <subsection><title>Subtracting Like Fractions</title>
 <p>We must be careful when subtracting algebraic fractions: A subtraction sign in front of a fraction applies to the entire numerator.</p>
 
-<example><statement><p>Subtract: <m>~\dfrac{x-3}{x-1} - \dfrac{3x-5}{x-1}</m></p></statement>
+<example xml:id="Example-8-2-6"><statement><p>Subtract: <m>~\dfrac{x-3}{x-1} - \dfrac{3x-5}{x-1}</m></p></statement>
 
 <solution><p>We combine the numerators over a single denominator. We use parentheses around <m>3x-5</m> to show that the subtraction applies to the entire numerator.
 	<md><mrow>\dfrac{x-3}{x-1} - \dfrac{3x-5}{x-1} = ~ \amp \dfrac{(x-3)-(3x-5)}{x-1}</mrow>
@@ -249,7 +249,7 @@ We should always check to see whether the fraction can be reduced. Factor the nu
 	<me>\dfrac{-2x+2}{x-1} = \dfrac{-2 \cancel{\blert{(x-1)}}}{\cancel{\blert{(x-1)}}} = -2</me>
 </p></solution></example>
 
-<warning><p>In Example 4, be careful to subtract each term of the numerator of the second fraction. The following calculation is incorrect:
+<warning><p>In <xref ref="Example-8-2-6" text="type-global"/>, be careful to subtract each term of the numerator of the second fraction. The following calculation is incorrect:
 	<me>\dfrac{x-3}{x-1} - \dfrac{3x-5}{x-1} = \dfrac{x-3-3x-5}{x-1}~~~~~~\alert{\text{Incorrect!}}</me>
 We must change the sign of each term of the second numerator, to get <m>-3x+5</m>.</p></warning>
 
