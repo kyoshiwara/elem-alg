@@ -84,7 +84,7 @@
 
 <assemblage><title>Look Closer</title>
 <p>In <xref ref="Example-6-2-1" text="type-global"/> we found a quadratic equation for the revenue Rick earns as a personal trainer. The equation was
-	<me>R=p(40-p)=(40p-p^2)</me>
+	<me>R=p(40-p)=40p-p^2</me>
 The graph of this equation is shown again below. </p>
 <sidebyside widths="55% 40%"><p>If Rick charges <m>p=0</m> dollars per hour, he will not earn any revenue, so <m>R=0</m>. You can see this fact in the graph, which passes through the point <m>p=0,~R=0</m>. But there is another point on the graph where <m>R=0</m>;  it has <m>p</m>-coordinate <m>40</m>. If Rick charges 40 dollars an hour, he will not earn any revenue. (Why does this happen?)</p>
 <image source="images/fig-6-2-ex1"><description>parabola</description></image></sidebyside></assemblage>
