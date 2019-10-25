@@ -96,7 +96,7 @@ We apply the distributive law to factor <m>2ab^2</m> from each term.
 <p>So far, we can factor quadratic trinomials of the form <m>x^2+bx+c=0</m>, where <m>a=1</m>. Recall that the factored form of <m>x^2+bx+c=0</m> looks like
 	<me>(x+p)(x+q)~~~~~~ \text{where}~~~pq=c ~~~ \text{and} ~~~p+q=b</me></p>
 
-<p>You may want to review the FOIL method discussed in Lesson 6.3.</p>
+<p>You may want to review the FOIL method discussed in <xref ref="Solving-Quadratic-Equations-by-Factoring">Lesson</xref>.</p>
 
 <p>What if the coefficient of <m>a</m> is not 1? Sometimes, if the coefficients are small, we can factor a quadratic expression by the <term>guess-and-check</term> method.</p>
 

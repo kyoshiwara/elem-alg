@@ -6,7 +6,7 @@
 
 <subsection><title><m>x</m>-Intercepts of a Parabola</title>
 <p>So far we have graphed quadratic equations by plotting points. But we can use some algebraic techniques to make the process easier.</p>
-<p>In Lesson 6.2 we saw that the solutions of the equation
+<p>In <xref ref="Some-Quadratic-Models">Lesson</xref> we saw that the solutions of the equation
 	<me>40p-p^2=0</me>
 namely, <m>p=0</m> and <m>p=40</m>, are also the horizontal intercepts of the graph of  
 	<me>R=40p-p^2</me>

@@ -5,7 +5,7 @@
     <title>Solving Quadratic Equations by Factoring</title>
 
 <subsection><title>The Zero-Factor Principle</title>
-<p>	In Lesson 6.2 we applied the Zero-Factor Principle to solve quadratic equations of the form  <m>ax^2+bx+c=0</m>.  For reference, here is the statement of the Zero-Factor Principle.</p>  
+<p>	In <xref ref="Some-Quadratic-Models">Lesson</xref> we applied the Zero-Factor Principle to solve quadratic equations of the form  <m>ax^2+bx+c=0</m>.  For reference, here is the statement of the Zero-Factor Principle.</p>  
 
 	<assemblage><title>Zero-Factor Principle</title>
 <p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero.  Using symbols,
@@ -38,7 +38,7 @@
 </subsection>
 
 <subsection><title>Factoring Quadratic Trinomials</title>
-<p>In Lesson 6.2 we learned to factor quadratic expressions of the form <m>ax^2+bx</m>. Now we consider quadratic trinomials of the form <m>x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
+<p>In <xref ref="Some-Quadratic-Models">Lesson</xref> we learned to factor quadratic expressions of the form <m>ax^2+bx</m>. Now we consider quadratic trinomials of the form <m>x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
 	<me>x^2+7x+12=(x+3)(x+4)</me></p>
 <p>How can we come up with the factors of the quadratic trinomial? Let's recall how the product is obtained. We apply the distributive law and multiply each term of the first binomial by each term of the second binomial. We use the word "FOIL" to label the four terms of the product: First, Outside, Inside, and Last.</p>
 <sidebyside widths ="60% 23%" valigns="middle middle"><p>

@@ -6,7 +6,7 @@
 
 <subsection><title>Writing a Linear Equation</title>
 
-<p>In Lesson 3.3, we plotted data for the temperature inside an oven used to cure pottery.</p>
+<p>In <xref ref="Slope">Lesson</xref>, we plotted data for the temperature inside an oven used to cure pottery.</p>
     <sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%"><stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
         <row bottom="minor">
             <cell>Time, <m>x</m></cell>

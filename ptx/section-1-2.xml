@@ -291,7 +291,7 @@ Fernando's share of the rent is $135.</p></statement></example>
 <p>In <xref ref="Example-1-2-5" text="type-global"/>, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
 </subsection>
 
-<subsection><title>Some Useful Algebraic Formulas</title>
+<subsection xml:id="useful-formulas"><title>Some Useful Algebraic Formulas</title>
 <p>Here are some examples of common formulas. Formulas may involve several different variables.</p>
 
 <assemblage><p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
