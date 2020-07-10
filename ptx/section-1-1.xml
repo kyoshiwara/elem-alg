@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Variables"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Variables</title>
-    <subsection><title>What is a Variable?</title>   
+<section xml:id="Variables"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Variables</title>
+    
+<subsection><title>What is a Variable?</title>   
                    
-    <assemblage><p>A <term>variable</term> is a numerical quantity that changes over time or in different situations.</p></assemblage>
+<assemblage><title>Variable</title>
+    <p>A <term>variable</term> is a numerical quantity that changes over time or in different situations.</p></assemblage>
 
     <p>We can show the values of a variable in a table or a graph.</p>
                  
-    <example><statement>
-    <p>Life expectancy is the average age to which people will live.  The table below shows that your life expectancy depends on the year of your birth. Thus, life expectancy is a variable.</p>
+<example><statement><p>Life expectancy is the average age to which people will live.  The table below shows that your life expectancy depends on the year of your birth. Thus, life expectancy is a variable.</p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell>Year Born</cell>
@@ -50,7 +50,8 @@
             <li><p>To what age could people born in 1940 expect to live?</p></li>
             <li><p>In what year did people's life expectancy reach 70 years of age?</p></li>
         </ol></p></statement>
-    <solution><p><ol label="a">
+
+<solution><p><ol label="a">
         <li><p>People born in 1940 lived to 63 years of age on average.</p></li>
         <li><p>Life expectancy reached 70 years of age in 1960.</p></li>
     </ol></p></solution></example>
@@ -62,6 +63,7 @@
         <li><p>Use the graph to estimate the average annual salary of NFL football players in 1975.</p></li>
         <li><p>By how much did salaries increase from 1975 to 1980?</p></li>
     </ol></p></statement>
+
 <solution><p><ol label="a">
         <li><p>In 1975, the average NFL player's salary was $40,000.</p></li>
         <li><p>In 1980, the average salary was $80,000, so salaries had increased from $40,000 to $80,000, or by 
@@ -303,8 +305,349 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
 <answer><p>Multiply the cost of the luxury car by 0.63.</p></answer></exercise>
 </exercisegroup>
 </exercises>
+
+</subsection>
+
+<subsection><title>Lesson</title>
+
+<activity><title>Reading a Graph</title>
+
+<p>The graph shows the U.S. unemployment rate as a precent of the labor force during the years surrounding the Great Depression.</p>
+<sidebyside width="80%"><image source="images/act1-1-1.png"><description>graph</description></image></sidebyside>
+<p><ol label="a">
+    <li>What was the unemployment rate in 1930?</li>
+
+    <li>When did the unemployment rate first reach 15%?</li>
+
+    <li>When did the unemplyment rate reach its highest value? What was the unemployment rate at that time?</li>
+
+
+    <li>After 1930, when was the first time the unemployment rate fell below 10%?</li>
+ 
+    <li>During which year did the unemployment rate show the greatest increase? During which year did it show the greatest decrease?</li>
+
+    <li>Complete the table:
+
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor">Year</cell>
+                        <cell bottom="minor"><line>Unemployment</line><line>Rate</line></cell>
+                        <cell bottom="minor"><line>Labor Force</line><line>(Millions)</line></cell>
+                        <cell bottom="minor"><line>Number</line><line>Unemployed</line></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1929</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>48.0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>1930</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>48.8</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1931</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>49.6</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1932</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>50.3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1933</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>51.1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1934</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>51.9</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1935</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>52.6</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1936</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>53.3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1937</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>54.1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1938</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>54.9</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1939</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>55.6</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1940</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>56.2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1941</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>57.5</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>1942</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>60.4</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+        <li>During which year did the number of unemployed workers increase the most?</li></ol></p></activity>
+
+<activity><title>Writing Mathematical Sentences</title>
+
+<p><ol label="1">
+    <li><p>Barry lives with his aunt while he attends college. Every week he gives her $20 from his paycheck to help pay for groceries. Fill in the table:</p>
+
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Barry's paycheck</cell>
+                        <cell><m>45</m></cell>
+                        <cell><m>60</m></cell>
+                        <cell><m>75</m></cell>
+                        <cell><m>100</m></cell>
+                        <cell><m>125</m></cell>
+                        <cell><m>p</m></cell></row>
+                    <row> 
+                        <cell>Calculation</cell>
+                        <cell><m>\blert{45-20}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Amount he keeps</cell>
+                        <cell><m>\blert{25}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+
+    <p><ol label="a">
+        <li>Explain in words how to find the amount Barry keeps from his paycheck.</li>
+        <li><p>Write your explanation as a mathematical sentence:</p>
+
+                <p>Amount he keeps <m>~=</m> </p></li>   
+               
+    <li>Let <m>p</m> stand for the amount of Barry's paycheck and <m>k</m> for the amount he keeps. Write an equation for <m>k</m> in terms of <m>p</m>.</li>
+    <li><p>Plot the points from the table and connect them with a smooth curve.</p>
+        <sidebyside width="50%"><image source="images/act1-1-2.png"><description>graph</description></image></sidebyside></li>
+    </ol></p></li>
+
+<li><p>Liz makes $6 an hour as a tutor in the Math Lab. Her wages for the week depend on the number of hours she works.  Fill in the table:</p>
+
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Hours worked</cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>h</m></cell></row>
+                    <row> 
+                        <cell>Calculation</cell>
+                        <cell><m>\blert{6 \times 3}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Wages</cell>
+                        <cell><m>\blert{18}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+
+                    <p><ol label="a">
+        <li>Explain in words how to find the Liz's wages for the week.</li>
+        <li><p>Write your explanation as a mathematical sentence:</p>
+
+                <p>Wages <m>~=</m> </p></li>   
+               
+    <li>Let <m>h</m> stand for the number of hours Liz worked and <m>w</m> for her wages. Write an equation for <m>w</m> in terms of <m>h</m>.</li>
+    <li><p>Plot the points from the table and connect them with a smooth curve.</p>
+        <sidebyside width="50%"><image source="images/act1-1-3.png"><description>graph</description></image></sidebyside></li>
+    </ol></p></li></ol></p></activity>
+
+<assemblage><title>Wrap-Up</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Reading values from a graph</li>
+    <li>Plotting points from a table of values</li>
+    <li>Describing a relationship between two variables</li>
+    <li>Writing an equation relating two variables</li></ul></p>
+<p><ol label="1">
+    <li>In Activity 1e, how do we calculate the increase in unemployment rate?</li>
+    <li>In Activity 1f, were more people unemployed in 1931 or in 1940?</li>
+    <li>In Activity 2, is the first row of the table plotted on the horizontal axis or the vertical axis?</li></ol></p>
+</assemblage>
+</subsection>
+
+<subsection xml:id="HomeworkPreview-1-1"><title>Homework Preview</title>
+
+<exercises>
+<exercisegroup cols="2"><introduction><p>Write an equation for <m>y</m> in terms of <m>x</m>.</p></introduction>
+
+<exercise number="1"><statement><p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>9</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>13</m></cell>
+                        <cell><m>16</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+<answer><m>y=x+8</m></answer></exercise>
+
+<exercise number="2"><statement><p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>24</m></cell>
+                        <cell><m>30</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+<answer><m>y=x \div 6</m></answer></exercise>
+
+<exercise number="3"><statement><p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+<answer><m>y=x-2</m></answer></exercise>
+
+<exercise number="4"><statement><p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>7</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>20</m></cell>
+                        <cell><m>28</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+<answer><m>y=4 \times x</m></answer></exercise>
+
+<exercise number="5"><statement><p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>9</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>3</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+<answer><m>y=12-x</m></answer></exercise>
+
+<exercise number="6"><statement><p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>12</m></cell>
+                        <cell><m>20</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>15</m></cell></row>
+                    </tabular></sidebyside></p></statement>
+<answer><m>y=\dfrac{3}{4} \times x</m></answer></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Matt wants to travel 240 miles to visit a friend over spring break. He is deciding whether to ride his bike or drive. If he travels at an average speed of <m>r</m> miles per hour, then the trip will take <m>t</m> hours. Use the graph to answer the questions.</p>
+    <sidebyside width="70%"><image source="images/act1-1-4.png"><description>graph</description></image></sidebyside>
+</introduction>
+
+<exercise number="7"><statement><p>If Matt can ride at an average speed of 15 miles per hour, how long will the trip take?</p></statement>
+<answer>16 hrs</answer></exercise>
+
+<exercise number="8"><statement><p>If Matt wants to arrive in 8 hours, what average speed will he need to maintain?</p></statement>
+<answer>30 mph</answer></exercise>
+
+<exercise number="9"><statement><p>How long will the trip take if Matt drives at 60 miles per hour?</p></statement>
+<answer>4 hrs</answer></exercise>
+
+<exercise number="10"><statement><p>If Matt doubles his speed , what happens to his travel time?</p></statement>
+<answer>Travel time is cut in half</answer></exercise>
+</exercisegroup>
+</exercises>
+
+
+
 <solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-1">
     <title>Answers to Skills Warm-Up</title>
+    <idx><h>answers</h><h>for Section 1.1 skills</h></idx>
+
+<!--                    <introduction>
+                        <p>This is an introduction, where you might explain that this division of this subsection contains various hints, answers, solutions of inline exercises, divisional exercises, and/or project-like blocks.  See the source to see just how this solutions division was built.</p>
+                    </introduction> -->
+
+                    <!-- content will happen here automatically -->
+
+<!--                    <conclusion permid="deF">
+                        <p>And a conclusion to this solutions division, which may not be readily apparent as distinct from the final division's worth of solutions, but since it is not prefixed with a number, it may be different enough.</p>
+                    </conclusion>-->
+</solutions>
+
+<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="HomeworkPreview-1-1">
+    <title>Answers to Homework Preview</title>
     <idx><h>answers</h><h>for Section 1.1 skills</h></idx>
 
 <!--                    <introduction>

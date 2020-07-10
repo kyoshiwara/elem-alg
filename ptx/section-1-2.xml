@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Algebraic-Expressions"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Algebraic Expressions</title>
+<section xml:id="Algebraic-Expressions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Expressions</title>
 
 <subsection><title>Writing an Algebraic Expression</title>
 
-<assemblage><p>An <term>algebraic expression</term>, or simply an <term>expression</term>, is any meaningful combination of numbers, variables, and operation symbols.</p></assemblage>
+<assemblage><title>Algebraic expression</title>
+    <p>An <term>algebraic expression</term>, or simply an <term>expression</term>, is any meaningful combination of numbers, variables, and operation symbols.</p></assemblage>
 
 <p>For example,
 	<me>4 \times g,~~~~~~3 \times c + p,~~~~~~\text{and}~~~~~~\dfrac{n-7}{w}</me>
@@ -15,6 +15,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 <example><statement><p>Write an algebraic expression for each quantity.<ol label="a">
 	<li>30% of the money invested in stocks</li>
 	<li>The cost of the dinner split three ways</li></ol></p></statement>
+
 <solution><p><ol label="a">
 	<li><p>The amount invested is unknown, so we choose a variable to represent it.
 			<me>\blert{\text{Amount invested in stocks:}~~~s}</me>
@@ -39,6 +40,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 </subsection>
 
 <subsection><title>Sums</title>
+
 <p>When we add two numbers <m>a</m> and <m>b</m>, the result is called the <term>sum</term> of <m>a</m> and <m>b</m>. We call the numbers <m>a</m> and <m>b</m> the <term>terms</term> of the sum.</p>
 <!--    <sidebyside width="50%"><image source="images/fig-1-2-1.png"/></sidebyside> -->
     <sidebyside width="42%">
@@ -76,6 +78,7 @@ are algebraic expressions. An important part of algebra involves translating wor
     <li><p>Six more than <m>x</m></p></li>
     <li><p>Fifteen greater than <m>r</m></p></li>
 </ol></p></statement>
+
 <solution><p><ol label="a" cols="2">
     <li><p><m>6+x</m> or <m>x+6</m></p></li>
     <li><p><m>15+r</m> or <m>r+15</m></p></li>
@@ -90,6 +93,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 </subsection>
 
 <subsection><title>Products</title>
+
 <p>When we multiply two numbers <m>a</m> and <m>b</m>, the result is called the <term>product</term> of <m>a</m> and <m>b</m>.  The numbers <m>a</m> and <m>b</m> are the <term>factors</term> of the product.</p>
 
 <assemblage><title>Look Closer</title>
@@ -131,24 +135,23 @@ are algebraic expressions. An important part of algebra involves translating wor
         \draw[blue, <-, >=stealth'] (Ea)--(E);
         \draw [blue,decorate,decoration={brace,amplitude=3pt}] (7.3,-0.2)--(F)  node [below,midway,yshift=-4pt] {product};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+    </latex-image></image></sidebyside>
+
 <p>If one of the factors is a variable, we can just write the factors side by side. For example,
-    <me>\begin{aligned}
-            ab~~~~\amp \text{means} \amp\amp \text{the product of}~~ a~~ \text{times}~~ b\\ 
-            3x~~~~\amp \text{means} \amp\amp \text{the product of}~~ 3~~ \text{times}~~ x\\
-    \end{aligned}</me></p></assemblage>
+    <md><mrow>ab~~~~\amp \text{means} \amp\amp \text{the product of}~~ a~~ \text{times}~~ b</mrow> 
+        <mrow>3x~~~~\amp \text{means} \amp\amp \text{the product of}~~ 3~~ \text{times}~~ x</mrow></md>
+</p></assemblage>
 
 <example><statement><p>Write products to represent the following phrases.<ol label="a">
     <li>Ten times <m>z</m></li>
     <li>Two-thirds of <m>y</m></li>
     <li>The product of <m>x</m> and <m>y</m></li>
 </ol></p></statement>
+
 <solution><p><ol label="a" cols="3">
     <li><m>10z</m></li>
     <li><m>\dfrac{2}{3}y</m></li>
-    <li><m>xy</m> or <m>yx</m></li>
+    <li><m>xy~~</m> or <m>~~yx</m></li>
 </ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
@@ -170,6 +173,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 </subsection>
 
 <subsection><title>Differences</title>
+
 <p>When we subtract <m>b</m> from <m>a</m> the result is called the <term>difference</term> of <m>a</m> and <m>b</m>. As with addition, <m>a</m> and <m>b</m> are called <term>terms</term>.</p>
 <!--    <sidebyside width="70%"><image source="images/fig-1-2-3.png"/></sidebyside>-->
     <sidebyside width="60%">
@@ -222,6 +226,7 @@ The operation of subtraction is not commutative.</p></warning>
 </subsection>
 
 <subsection><title>Quotients</title>
+
 <p>When we divide <m>a</m> by <m>b</m> the result is called the <term>quotient</term> of <m>a</m> and <m>b</m>.  We call <m>a</m> the <term>dividend</term> and <m>b</m> the <term>divisor</term>.  In algebra we indicate division by using the division symbol, <m>\div</m>, or a fraction bar.</p>
 <!--    <sidebyside width="80%"><image source="images/fig-1-2-4.png"/></sidebyside>-->
     <sidebyside width="60%">
@@ -264,6 +269,7 @@ The operation of subtraction is not commutative.</p></warning>
     <li><m>z</m> subtracted from <m>13</m></li>
     <li><m>25</m> divided by <m>R</m></li>
 </ol></p></statement>
+
 <solution><p><ol label="a" cols ="2">
     <li><m>13-z</m></li>
     <li><m>\dfrac{25}{R}</m></li>
@@ -280,9 +286,11 @@ The operation of subtraction is not commutative.</p></warning>
 </subsection>
 
 <subsection><title>Evaluating an Algebraic Expression</title>
+
 <p>An algebraic expression is a pattern or rule for different versions of the situation it describes. We can replace the variable by specific numbers to fit a particular situation.</p>
 
-<assemblage><p>Substituting a specific value into an expression and calculating the result is called <term>evaluating</term> the expression.</p></assemblage>
+<assemblage><title>Evaluation</title>
+<p>Substituting a specific value into an expression and calculating the result is called <term>evaluating</term> the expression.</p></assemblage>
 
 <example><statement><p>Fernando has three roommates, and his share of the rent is <m>\dfrac{R}{4}</m>, where <m>R</m> is a variable representing the total rent on the apartment. If Fernando and his roommates find an apartment whose rent is $540, we can find Fernando's share of the rent by replacing <m>R</m> by <m>\alert{540}</m>.
 	<me>\dfrac{R}{4} = \alert{540} \div 4 = 135</me>
@@ -292,50 +300,47 @@ Fernando's share of the rent is $135.</p></statement></example>
 </subsection>
 
 <subsection><title>Some Useful Algebraic Formulas</title>
+
 <p>Here are some examples of common formulas. Formulas may involve several different variables.</p>
 
 <assemblage><p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
 	<me>\blert{\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt}</me></p></assemblage>
 
 <example><statement><p>How far will a train moving at 80 miles per hour travel in three hours?</p></statement>
+
 <solution><p>We evaluate the formula with <m>r=\alert{80}</m> and <m>t=\alert{3}</m> to find
-	<me>\begin{aligned}
-		d \amp = rt\\
-			\amp = (\alert{80})(\alert{3}) = 240
-	\end{aligned}</me>
+	<md><mrow>d \amp = rt</mrow>
+		<mrow>\amp = (\alert{80})(\alert{3}) = 240</mrow></md>
 The train will travel 240 miles.</p></solution></example>
 
 <assemblage><p>To find the <term>profit</term> earned by a company we subtract the costs from the revenue.
 	<me>\blert{\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C}</me></p></assemblage>
 
 <example><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies. She received $1150 in revenue.  What was her profit?</p></statement>
+
 <solution><p>We evaluate the formula with <m>R=\alert{1150}</m> and <m>C=\alert{800}</m> to find
-	<me>\begin{aligned}
-		P \amp = R-C\\
-			\amp = \alert{1150}-\alert{350} = 350
-	\end{aligned}</me>
+	<md><mrow>P \amp = R-C</mrow>
+		<mrow>\amp = \alert{1150}-\alert{350} = 350</mrow></md>
 The owner's profit was $350.</p></solution></example>
 
 <assemblage><p>To find the <term>interest</term> earned on an investment we multiply the amount invested (the principal) by the interest rate and the length of the investment.
 	<me>\blert{\text{interest} = \text{principal} \times \text{interest rate} \times \text{time}~~~~~~~~~~~~~I=Prt}</me></p></assemblage>
 
 <example><statement><p>How much interest will be earned on $800 invested for 3 years in a savings account that pays <m>5\dfrac{1}{2}</m>% interest?</p></statement>
+
 <solution><p>We evaluate the formula with <m>P=\alert{800}</m>, <m>r=\alert{0.055}</m>, and <m>t=\alert{3}</m> to find
-	<me>\begin{aligned}
-		I \amp = Prt\\
-			\amp = \alert{800} \times \alert{0.055} \times \alert{3} = 132
-	\end{aligned}</me>
+	<md><mrow>I \amp = Prt</mrow>
+		<mrow>\amp = \alert{800} \times \alert{0.055} \times \alert{3} = 132</mrow></md>
 The account will earn $132 in interest.</p></solution></example>
 
 <assemblage><p>To find a percentage or <term>part</term> of a given amount, we multiply the whole amount by the percentage rate.
 	<me>\blert{\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW}</me></p></assemblage>
 
 <example><statement><p>How much ginger ale do you need to make 60 gallons of a fruit punch that is 20% ginger ale?</p></statement>
+
 <solution><p>We evaluate the formula with <m>r=\alert{0.20}</m> and <m>W=\alert{60}</m> to find
-	<me>\begin{aligned}
-		P \amp = rW\\
-			\amp = \alert{0.20} \times \alert{60} = 12
-	\end{aligned}</me>
+	<md><mrow>P \amp = rW</mrow>
+		<mrow>\amp = \alert{0.20} \times \alert{60} = 12</mrow></md>
 You would need 12 gallons of ginger ale.</p></solution></example>
 
 <assemblage><p>To find the <term>average</term> of a collection of scores, we divide the sum of the scores by the number of scores.
@@ -343,10 +348,8 @@ You would need 12 gallons of ginger ale.</p></solution></example>
 
 <example><statement><p>Bert's quiz scores in chemistry are 15, 16, 18, 18, and 12.  What is his average score?</p></statement>
 <solution><p>We evaluate the formula with <m>S=\alert{15+16+18+18+12}</m> and <m>n=\alert{5}</m> to find
-	<me>\begin{aligned}
-		A \amp = \dfrac{S}{n}\\
-			\amp = \dfrac{\alert{15+16+18+18+12}} {\alert{5}} = 15.8
-	\end{aligned}</me>
+	<md><mrow>A \amp = \dfrac{S}{n}</mrow>
+		<mrow>\amp = \dfrac{\alert{15+16+18+18+12}} {\alert{5}} = 15.8</mrow></md>
 Bert's average score is 15.8.</p></solution></example>
 
 <reading-questions>
@@ -371,7 +374,6 @@ Bert's average score is 15.8.</p></solution></example>
 <exercise number="2"><statement><p>How much wood parquet tiling must he buy to cover the floor?</p></statement>
 <answer><p>240 sq ft</p></answer></exercise>
 
-
 <p>Which of the following phrases describe a perimeter, and which describe an area?</p>
 
 <exercise number="3"><statement><p>The distance you jog around the shore of a small lake</p></statement>
@@ -385,7 +387,6 @@ Bert's average score is 15.8.</p></solution></example>
 
 <exercise number="6"><statement><p>The number of tulip bulbs needed to border a patio</p></statement>
 <answer><p>perimeter</p></answer></exercise>
-
 
 <p>Find the perimeter and area of each figure. All angles are right angles.</p>
 
@@ -433,7 +434,6 @@ Bert's average score is 15.8.</p></solution></example>
     </image>
 </sidebyside></statement>
 <answer><p>44 ft; 90 sq ft</p></answer></exercise>
-
 
 <solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-2">
     <title>Answers to Skills Warm-Up</title>
