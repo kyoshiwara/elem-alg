@@ -303,7 +303,8 @@ Fernando's share of the rent is $135.</p></statement></example>
 
 <p>Here are some examples of common formulas. Formulas may involve several different variables.</p>
 
-<assemblage><p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
+<assemblage><title>Distance</title>
+    <p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
 	<me>\blert{\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt}</me></p></assemblage>
 
 <example><statement><p>How far will a train moving at 80 miles per hour travel in three hours?</p></statement>
@@ -313,7 +314,8 @@ Fernando's share of the rent is $135.</p></statement></example>
 		<mrow>\amp = (\alert{80})(\alert{3}) = 240</mrow></md>
 The train will travel 240 miles.</p></solution></example>
 
-<assemblage><p>To find the <term>profit</term> earned by a company we subtract the costs from the revenue.
+<assemblage><title>Profit</title>
+    <p>To find the <term>profit</term> earned by a company we subtract the costs from the revenue.
 	<me>\blert{\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C}</me></p></assemblage>
 
 <example><statement><p>The owner of a sandwich shop spent $800 last week for labor and supplies. She received $1150 in revenue.  What was her profit?</p></statement>
@@ -323,7 +325,8 @@ The train will travel 240 miles.</p></solution></example>
 		<mrow>\amp = \alert{1150}-\alert{350} = 350</mrow></md>
 The owner's profit was $350.</p></solution></example>
 
-<assemblage><p>To find the <term>interest</term> earned on an investment we multiply the amount invested (the principal) by the interest rate and the length of the investment.
+<assemblage><title>Interest</title>
+    <p>To find the <term>interest</term> earned on an investment we multiply the amount invested (the principal) by the interest rate and the length of the investment.
 	<me>\blert{\text{interest} = \text{principal} \times \text{interest rate} \times \text{time}~~~~~~~~~~~~~I=Prt}</me></p></assemblage>
 
 <example><statement><p>How much interest will be earned on $800 invested for 3 years in a savings account that pays <m>5\dfrac{1}{2}</m>% interest?</p></statement>
@@ -333,7 +336,8 @@ The owner's profit was $350.</p></solution></example>
 		<mrow>\amp = \alert{800} \times \alert{0.055} \times \alert{3} = 132</mrow></md>
 The account will earn $132 in interest.</p></solution></example>
 
-<assemblage><p>To find a percentage or <term>part</term> of a given amount, we multiply the whole amount by the percentage rate.
+<assemblage><title>Percent</title>
+    <p>To find a percentage or <term>part</term> of a given amount, we multiply the whole amount by the percentage rate.
 	<me>\blert{\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW}</me></p></assemblage>
 
 <example><statement><p>How much ginger ale do you need to make 60 gallons of a fruit punch that is 20% ginger ale?</p></statement>
@@ -343,7 +347,8 @@ The account will earn $132 in interest.</p></solution></example>
 		<mrow>\amp = \alert{0.20} \times \alert{60} = 12</mrow></md>
 You would need 12 gallons of ginger ale.</p></solution></example>
 
-<assemblage><p>To find the <term>average</term> of a collection of scores, we divide the sum of the scores by the number of scores.
+<assemblage><title>Average</title>
+    <p>To find the <term>average</term> of a collection of scores, we divide the sum of the scores by the number of scores.
 	<me>\blert{\text{average score} = \dfrac{\text{sum of scores}}{\text{number of scores}} ~~~~~~~~~~~~~A=\dfrac{S}{n}}</me></p></assemblage>
 
 <example><statement><p>Bert's quiz scores in chemistry are 15, 16, 18, 18, and 12.  What is his average score?</p></statement>
@@ -430,10 +435,75 @@ Bert's average score is 15.8.</p></solution></example>
         \draw[red,very thick] (3,-2)--++(9,0) node[below, midway, text=black]{9 ft};
         \draw[red, very thick](12,8)--++(0,-10);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
+    </latex-image></image></sidebyside></statement>
 <answer><p>44 ft; 90 sq ft</p></answer></exercise>
+</subsection>
+
+<subsection><title>Lesson</title>
+
+<activity><title>Writing Algebraic Expressions</title>
+
+<assemblage><title>To write an algebraic expression</title>
+<p><ol label="1">
+    <li>Identify the unknown quantity and write a short phrase to describe it.</li>
+    <li>Choose a variable to represent the unknown quantity.</li>
+    <li>Use mathematical symbols to represent the relationship described.</li></ol></p></assemblage>
+
+<p>Study the Example below, then write an expression for each Exercise.</p>
+
+<example><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+    <li>3 feet more than the length of the rug</li>
+    <li>Twice the age of the building</li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><p>The length of the rug is unknown.
+        <me>\blert{\text{Length of the rug:}~~~l}</me>
+    The words "more than" indicate addition:  
+        <me>\blert{l+3}</me></p></li>
+    <li><p>The age of the building is unknown.
+            <me>\blert{\text{Age of the building:}~~~a}</me>
+    "Twice" means two times:
+        <me>\blert{2a}</me></p></li></ol></p></solution></example>
+
+<exercise><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+    <li>Ten more than the number of students</li>
+    <li>Five times the height of the triangle</li>
+    <li>4% of the original price</li>
+    <li>Two and a quarter inches taller than last year's height</li></ol></p></statement></exercise>
+
+<p>The next example involves subtraction and division.</p>
+
+<example><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+    <li>5 square feet less than the area of the circle</li>
+    <li>The ratio of your quiz score to 20</li></ol></p></statement>
+
+<solution><p><ol label="a">
+    <li><p>The area of the circle is unknown
+        <me>\blert{\text{Area of circle:}~~~a}</me>
+    The words "less than" indicate subtraction:  
+        <me>\blert{A-5}</me></p></li>
+    <li><p>Your quiz score is unknown.
+            <me>\blert{\text{Quiz score:}~~~s}</me>
+    "Twice" means two times:
+        <me>\blert{\dfrac{s}{20}}</me></p></li></ol></p></solution></example>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</activity>
 
 <solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-2">
     <title>Answers to Skills Warm-Up</title>
@@ -449,6 +519,7 @@ Bert's average score is 15.8.</p></solution></example>
                         <p>And a conclusion to this solutions division, which may not be readily apparent as distinct from the final division's worth of solutions, but since it is not prefixed with a number, it may be different enough.</p>
                     </conclusion>-->
 </solutions>
+
 </subsection>
 <xi:include href="./hmwk-1-2.xml" />
 
