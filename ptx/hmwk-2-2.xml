@@ -74,7 +74,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 	<li><m>-2</m></li></ol></p></answer></exercise>
 
 <exercise number="14"><statement><p><ol label="a" cols="2">
-	<li><m>12.6-0.32(0,25)(4.2-8.7)</m></li>
+	<li><m>12.6-0.32(0.25)(4.2-8.7)</m></li>
 	<li><m>(5.8-2.6)(-2.5)(-0.6+3)</m></li></ol></p></statement></exercise>
 </exercisegroup>
 
@@ -142,7 +142,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 
 <exercisegroup cols="2"><introduction><p>For Problems 25<ndash/>26, write an algebraic expression for area or perimeter.</p></introduction>
 
-<exercise number="25"><statement><sidebyside width="65%"><!--<image source="images/hp-2-2-25.png"><description>rectangle</description></image>-->
+<exercise number="25"><statement><sidebyside width="55%"><!--<image source="images/hp-2-2-25.png"><description>rectangle</description></image>-->
     <image xml:id="hp-2-2-25">
         <description>rectngle</description>
         <latex-image>
@@ -165,7 +165,7 @@ where <m>F</m> stands for the temperature in degrees Fahrenheit (<m>\degree</m>F
 </sidebyside></statement>
 <answer><m>2x+10</m></answer></exercise>
 
-<exercise number="26"><statement><sidebyside width="85%"><!--<image source="images/hp-2-2-26.png"><description>rectangle</description></image>-->
+<exercise number="26"><statement><sidebyside width="75%"><!--<image source="images/hp-2-2-26.png"><description>rectangle</description></image>-->
     <image xml:id="hp-2-2-26">
         <description>rectangles</description>
         <latex-image>

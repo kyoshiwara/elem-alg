@@ -4,7 +4,7 @@
 <section xml:id="Ch9-Summary-and-Review"   xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Chapter 9 Summary and Review</title>
 
-<subsection><title>Section 9.1 Laws of Exponents</title><p><ul>
+<subsection><title>Lesson 9.1 Laws of Exponents</title><p><ul>
 
 <li><assemblage>
 <p>First Law of Exponents
@@ -26,7 +26,7 @@
 	<me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></p></assemblage></li></ul></p>
 </subsection>
 
-<subsection><title>Section 9.2 Negative Exponents and Scientific Notation</title><p><ul>
+<subsection><title>Lesson 9.2 Negative Exponents and Scientific Notation</title><p><ul>
 
 <li><assemblage><title>Zero as an Exponent</title>
 <p><me>\blert{a^0=1,~~~~\text{if}~~~~a \not= 0}</me></p></assemblage></li>
@@ -43,7 +43,7 @@ between 1 and 10 and a power of 10.</li>
 <li>We can often obtain a quick estimate for a calculation by converting each figure to scientific notation and rounding to just one or two digits.</li></ul></p>
 </subsection>
 
-<subsection><title>Section 9.3 Properties of Radicals</title><p><ul>
+<subsection><title>Lesson 9.3 Properties of Radicals</title><p><ul>
 
 <li><assemblage>
 	<p>Product Rule for Radicals
@@ -66,14 +66,14 @@ between 1 and 10 and a power of 10.</li>
 <li>We can add or subtract like radicals in the same way that we add or subtract like terms, namely by adding or subtracting their coefficients.</li></ul></p>
 </subsection>
 
-<subsection><title>Section 9.4 Operations on Radicals</title><p><ul>
+<subsection><title>Lesson 9.4 Operations on Radicals</title><p><ul>
 
 <li><p>We can use the product rule to multiply radicals together: <m>\sqrt{a} \sqrt{b} = \sqrt{ab}</m></p></li>
 <li><p>We can use the quotient rule to simplify quotients of square roots: <m>\dfrac{\sqrt{a}}{\sqrt{b}} = \sqrt{\dfrac{a}{b}}</m></p></li> 
 <li>We can multiply numerator and denominator of a fraction by  the same root that appears in the denominator to eliminate the radical from the denominator. This process is called <term>rationalizing the denominator</term>.</li>
 </ul></p></subsection>
 
-<subsection><title>Section 9.5 Equations with Radicals</title><p><ul>
+<subsection><title>Lesson 9.5 Equations with Radicals</title><p><ul>
 
 <li>A <term>radical equation</term> is one in which the variable appears under a radical.</li>
 

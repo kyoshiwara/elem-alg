@@ -8,7 +8,7 @@
 
 <p>	In Chapter 7 we learned the first and second laws of exponents, which we use to compute products and quotients of powers.</p>
 
-<example><statement><p>Simplify each product or quotient.<ol label="a" cols="3">
+<example xml:id="Example-9-1-1"><statement><p>Simplify each product or quotient.<ol label="a" cols="3">
 	<li><m>5^2 \cdot 5^6</m></li>
 	<li><m>\dfrac{3^7}{3^2}</m></li>
 	<li><m>\dfrac{2^3}{2^5}</m></li></ol></p></statement>
@@ -21,7 +21,7 @@
 		<me>\dfrac{2^3}{2^5} = \dfrac{1}{2^2}~~~~~~~~\blert{\text{Larger exponent is in the denominator.}}</me></p></li>
 </ol></p></solution></example>
 
-<warning><p>In Example 1a, it is not correct to multiply the bases: 
+<warning><p>In <xref ref="Example-9-1-1" text="type-global"/>a, it is not correct to multiply the bases: 
 	<me>5^2 \cdot 5^6 \rightarrow 25^8~~~~~~~~\alert{\text{Incorrect!}}</me>
 The exponents tell us how many copies of the base to multiply together, but the base does not change when we apply the first law of exponents.</p></warning>
 
@@ -126,7 +126,7 @@ This example suggests the following rule.</p>
 	<li><me>\blert{(ab)^n = a^nb^n}</me></li>
 	<li><me>\blert{(\dfrac{a}{b})^n = \dfrac{a^n}{b^n}}</me></li></ol></p></assemblage>
 
-<example><statement><p>Simplify  <m>~~2x^2y(3xy^2)^4</m></p></statement>
+<example xml:id="Example-9-1-5"><statement><p>Simplify  <m>~~2x^2y(3xy^2)^4</m></p></statement>
 
 <solution><p>According to the order of operations, we should perform powers before products, so we first simplify the factor <m>(3xy^2)^4</m>.
 	<md><mrow>(3xy^2)^4 \amp = 3^4x^4(y^2)^4 \amp \amp \blert{\text{Fourth law:  raise each factor to the power.}}</mrow>
@@ -136,7 +136,7 @@ Now multiply the result by <m>2x^2y</m> and apply the first law to obtain
 	<mrow>\amp = 162x^6y^9</mrow></md></p></solution></example>
 
 <reading-questions>
-    <exercise number="5"><statement><p>In Example 5, why did we start by simplifying <m>(3xy^2)^4</m>?
+    <exercise number="5"><statement><p>In <xref ref="Example-9-1-5" text="type-global"/>, why did we start by simplifying <m>(3xy^2)^4</m>?
 </p></statement>
     <answer><p>Because we should perform powers before products.</p></answer></exercise>
 </reading-questions>

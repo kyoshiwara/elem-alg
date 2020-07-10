@@ -100,19 +100,19 @@ In words, this says that we can multiply the numerator and denominator of a frac
 	<li>Add or subtract the resulting like fractions:  Add or subtract their numerators, and keep the same denominator.</li>
 	<li>Reduce the sum or difference if necessary.</li></ol></p></assemblage>
 
-<example><statement><p>Subtract: <m>~~\dfrac{x+2}{6} - \dfrac{x-1}{15}</m></p></statement>
+<example xml:id="Example-8-3-1"><statement><p>Subtract: <m>~~\dfrac{x+2}{6} - \dfrac{x-1}{15}</m></p></statement>
 
 <solution><p>Step 1 We find the LCD:  The smallest common multiple of 6 and 15 is 30.  
-Step 2	We build each fraction to an equivalent one with denominator 30. The building factor for the first fraction is 5, and for the second fraction the building factor is 2.
-	<md><mrow>\dfrac{x+2}{6} = \dfrac{(x+2) \cdot \blert{5}}{6 \cdot \blert{5}} = \dfrac{5x+10}{30}</mrow>
-		<mrow>\dfrac{x-1}{15} = \dfrac{(x-1) \cdot \blert{2}}{15 \cdot \blert{2}} = \dfrac{2x-2}{30}</mrow></md>
-Step 3	We subtract the resulting like fractions to obtain
-	<md><mrow>\dfrac{x+2}{6} - \dfrac{x-1}{15} =~ \amp \dfrac{5x+10}{30} - \dfrac{2x-2}{30}</mrow>
-		<mrow>\amp \blert{\text{Combine the numerators; keep the same denominator.}}</mrow>
-		<mrow>=~\amp \dfrac{(5x+10)-(2x-2)}{30}~~~~~~\blert{\text{Simplify the numerator.}}</mrow>
-		<mrow> = ~\amp \dfrac{5x+10-2x+2}{30} = \dfrac{3x+12}{30}</mrow>
-Step 4	We reduce the fraction.
-	<me>\dfrac{3x+12}{30} = \dfrac{\cancel{3}(x+4)}{\cancel{3} \cdot 10} = \dfrac{x+4}{10}</me></md></p></solution>
+Step 2  We build each fraction to an equivalent one with denominator 30. The building factor for the first fraction is 5, and for the second fraction the building factor is 2.
+    <md><mrow>\dfrac{x+2}{6} = \dfrac{(x+2) \cdot \blert{5}}{6 \cdot \blert{5}} = \dfrac{5x+10}{30}</mrow>
+        <mrow>\dfrac{x-1}{15} = \dfrac{(x-1) \cdot \blert{2}}{15 \cdot \blert{2}} = \dfrac{2x-2}{30}</mrow></md>
+Step 3  We subtract the resulting like fractions to obtain
+    <md><mrow>\dfrac{x+2}{6} - \dfrac{x-1}{15} =~ \amp \dfrac{5x+10}{30} - \dfrac{2x-2}{30}</mrow>
+        <mrow>\amp \blert{\text{Combine the numerators; keep the same denominator.}}</mrow>
+        <mrow>=~\amp \dfrac{(5x+10)-(2x-2)}{30}~~~~~~\blert{\text{Simplify the numerator.}}</mrow>
+        <mrow> = ~\amp \dfrac{5x+10-2x+2}{30} = \dfrac{3x+12}{30}</mrow></md>
+Step 4  We reduce the fraction.
+    <me>\dfrac{3x+12}{30} = \dfrac{\cancel{3}(x+4)}{\cancel{3} \cdot 10} = \dfrac{x+4}{10}</me></p></solution>
 </example>
 
 <reading-questions>
@@ -120,7 +120,7 @@ Step 4	We reduce the fraction.
     <answer><p>Find the lowest common denominator (LCD) for the fractions.</p></answer></exercise>
 </reading-questions>
 
-<warning><p>In Example 1, be careful to subtract each term of the numerator in the second fraction.
+<warning><p>In <xref ref="Example-8-3-1" text="type-global"/>, be careful to subtract each term of the numerator in the second fraction.
 	<me>\dfrac{5x+10}{30} - \dfrac{2x-2}{30} = \dfrac{3x\alert{+12}}{30}</me>
 because  <m>~~(5x+10) - (2x-2) = 5x+10 -2x \alert{+2} = 3x+12</m></p></warning>
 </subsection>
@@ -155,7 +155,7 @@ because  <m>~~(5x+10) - (2x-2) = 5x+10 -2x \alert{+2} = 3x+12</m></p></warning>
 
 <p>However, if the denominators contain any common factors, the simplest common denominator is not just the product of the two denominators. In this case we must first factor each denominator to find their LCD.</p>
 
-<example><statement><p>Find the LCD for  <m>~~\dfrac{5}{12a^3} + \dfrac{7}{18a}</m></p></statement>
+<example xml:id="Example-8-3-3"><statement><p>Find the LCD for  <m>~~\dfrac{5}{12a^3} + \dfrac{7}{18a}</m></p></statement>
 
 <solution><p>The LCD is not <m>12a^3(18a) = 216a^4</m>.  It is true that 216 is a multiple of both 12 and 18, but it is not the smallest one! We can find a smaller common denominator by factoring each denominator.
 	<md><mrow>12a^3 = \alert{2} \cdot \alert{2} \cdot 3 \cdot \alert{a} \cdot \alert{a} \cdot \alert{a}</mrow>
@@ -165,7 +165,7 @@ To find an expression that both <m>12a^3</m> and <m>18a</m> divide into evenly, 
 You can check that <m>36a^3</m> is a multiple of both <m>12a^3</m> and <m>18a</m>.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>To find the LCD in Example 3, notice that for each factor, we chose the denominator with the most copies of that factor, and included them in the LCD. For example, <m>12a^3</m> has only one factor of 3, but <m>18a</m> has two factors of 3, so we used two factors of 3 in the LCD.</p></assemblage>
+<p>To find the LCD in <xref ref="Example-8-3-3" text="type-global"/>, notice that for each factor, we chose the denominator with the most copies of that factor, and included them in the LCD. For example, <m>12a^3</m> has only one factor of 3, but <m>18a</m> has two factors of 3, so we used two factors of 3 in the LCD.</p></assemblage>
 
 <assemblage><title>To Find the LCD</title><p><ol label="1">
 <li>Factor each denominator completely, and arrange the factors in order.</li>

@@ -36,9 +36,9 @@ it doesn't matter which addition you do first; you will get the same answer eith
 <subsection><title>Subtraction and Division</title>
 <p>What about a string of subtractions or a string of divisions, such as
 	<me>20-8-5~~~~~~~~~~\text{or}~~~~~~~~~~36 \div 6 \div 2</me>
-In these calculations, we get different answers, depending on which operations we perform first, as you can see in Example 2.</p>
+In these calculations, we get different answers, depending on which operations we perform first, as you can see in <xref ref="Example-1-5-2" text="type-global"/>.</p>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-1-5-2"><statement><p><ol label="a">
 	<li>Subtraction:
 		<me>(\blert{20-8})-5=\blert{12}-5=7 ~~~~~~\text{but}~~~~~~ 20-(\blert{8-5})=20-\blert(3)=17</me></li>
 	<li>Division:
@@ -91,7 +91,7 @@ If we do the multiplication first, we get
 <assemblage><title>Look Closer</title>
 <p>In longer expressions, it can be helpful to group the expression into its terms before beginning. <term>Terms</term> are expressions separated by addition or subtraction symbols. We simplify each term before combining them.</p></assemblage>
 
-<example><statement><p>Simplify <m>6 + 2 \cdot 5 - 12 \div 3 \cdot 2</m></p></statement>
+<example xml:id="Example-1-5-5"><statement><p>Simplify <m>6 + 2 \cdot 5 - 12 \div 3 \cdot 2</m></p></statement>
 
 <solution><p>We start by underlining each term of the expression separately. Then we simplify each term.
     <me>\begin{aligned}
@@ -101,7 +101,7 @@ If we do the multiplication first, we get
                 \end{aligned}</me></p></solution></example>
 
 <warning><p><ol label="1">
-	<li>In Example 5, we do not start by adding <m>6+2</m>.  We must perform multiplications before additions.</li>  
+	<li>In <xref ref="Example-1-5-5" text="type-global"/>, we do not start by adding <m>6+2</m>.  We must perform multiplications before additions.</li>  
 	<li>We simplify  <m>12 \div 3 \cdot 2</m> by performing the operations from left to right:
 		<me>\blert{12 \div 3} \cdot 2 = \blert{4} \cdot 2 = 8</me></li></ol></p></warning> 
 </subsection>
@@ -141,12 +141,12 @@ If we do the multiplication first, we get
 
 <assemblage><p>Expressions that appear above or below a fraction bar should be simplified first.</p></assemblage>
 
-<example><statement><p>Simplify <m>\dfrac{24+6}{12+6}</m></p></statement>
+<example xml:id="Example-1-5-7"><statement><p>Simplify <m>\dfrac{24+6}{12+6}</m></p></statement>
 
 <solution><p>We begin by computing the sums above and below the fraction bar. Then we can reduce the fraction. Thus,
 	<me>\dfrac{24+6}{12+6} = \dfrac{30}{18}=\dfrac{5}{3}</me></p></solution></example>
 
-<warning><p>Do not be tempted to "cancel" the terms in Example 7. For example, it would be incorrect to write 
+<warning><p>Do not be tempted to "cancel" the terms in <xref ref="Example-1-5-7" text="type-global"/>. For example, it would be incorrect to write 
     <me>\dfrac{24+6}{12+6} = \dfrac{\Ccancel[blue]{24} +6}{\Ccancel[blue]{12} +6} = \dfrac{2+6}{1+6}~~~~~~~~\alert {\leftarrow \text{Incorrect!}}</me>
 According to the order of operations, we must simplify the numerator and denominator first, before dividing.
 </p></warning>

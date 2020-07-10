@@ -5,15 +5,15 @@
     <title>Solving Quadratic Equations by Factoring</title>
 
 <subsection><title>The Zero-Factor Principle</title>
-<p>	In Section 6.2 we applied the Zero-Factor Principle to solve quadratic equations of the form  .  For reference, here is the statement of the Zero-Factor Principle.</p>  
+<p>	In <xref ref="Some-Quadratic-Models">Lesson</xref> we applied the Zero-Factor Principle to solve quadratic equations of the form  <m>ax^2+bx+c=0</m>.  For reference, here is the statement of the Zero-Factor Principle.</p>  
 
 	<assemblage><title>Zero-Factor Principle</title>
 <p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero.  Using symbols,
 	<me>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</me></p></assemblage>
 
-<p>In order to solve more general quadratic equations, of the form we will need to factor quadratic trinomials.  Here is an example of how we can use the principle to solve a quadratic equation.</p>
+<p>In order to solve more general quadratic equations, of the form <m>ax^2+bx+c=0</m> we will need to factor quadratic trinomials.  Here is an example of how we can use the principle to solve a quadratic equation.</p>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-6-3-1"><statement><p><ol label="a">
 	<li>Compute the product  <m>~(x+5)(x-4).</m></li>
 	<li>Solve the equation  <m>~x^2+x-20=0.</m></li></ol></p></statement>
 
@@ -31,14 +31,14 @@
 </example>
 
 <reading-questions>
-    <exercise number="1"><statement><p>Why can't we solve the equation <m>~x^2+x-20=0</m> in Example 1 by extraction 
+    <exercise number="1"><statement><p>Why can't we solve the equation <m>~x^2+x-20=0</m> in <xref ref="Example-6-3-1" text="type-global"/> by extraction 
 	of roots?</p></statement>
     	<answer><p>Because of the linear term, <m>x</m>.</p></answer></exercise>
 </reading-questions>
 </subsection>
 
 <subsection><title>Factoring Quadratic Trinomials</title>
-<p>In Section 6.2 we learned to factor quadratic expressions of the form <m>ax^2+bx</m>. Now we consider quadratic trinomials of the form <m>x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
+<p>In <xref ref="Some-Quadratic-Models">Lesson</xref> we learned to factor quadratic expressions of the form <m>ax^2+bx</m>. Now we consider quadratic trinomials of the form <m>x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
 	<me>x^2+7x+12=(x+3)(x+4)</me></p>
 <p>How can we come up with the factors of the quadratic trinomial? Let's recall how the product is obtained. We apply the distributive law and multiply each term of the first binomial by each term of the second binomial. We use the word "FOIL" to label the four terms of the product: First, Outside, Inside, and Last.</p>
 <sidebyside widths ="60% 23%" valigns="middle middle"><p>
@@ -157,7 +157,7 @@ You can check the factorization by multiplying the two binomials to see that the
 <subsection><title>Solving a Quadratic Equation</title>
 <p>	Now we can use factoring to solve a quadratic equation.</p>
 
-<example><statement><p>Solve the equation <m>~x^2+3x=18</m></p></statement>
+<example xml:id="Example-6-3-4"><statement><p>Solve the equation <m>~x^2+3x=18</m></p></statement>
 <solution><p>We must have the right side equal to zero if we want to apply the Zero-Factor Principle, so we begin by subtracting 18 from both sides to get
 	<md><mrow>x^2+3x-18 \amp =0 \amp \amp \blert{\text{Factor the left side.}}</mrow>
 		<mrow>(x+6)(x-3) \amp =0 \amp \amp \blert{\text{Apply the zero-factor principle:}}</mrow>
@@ -187,16 +187,16 @@ We cannot apply the Zero-Factor principle to this equation.</p></warning>
 
 <example><statement><p>Solve the equation <m>~2x^2+6x=36</m></p></statement>
 
-<solution><p>You may notice that each term of this equation is twice the corresponding term of the equation in Example 4.  We can factor out a common factor of 2 from the left side of the standard form of this equation.
+<solution><p>You may notice that each term of this equation is twice the corresponding term of the equation in <xref ref="Example-6-3-4" text="type-global"/>.  We can factor out a common factor of 2 from the left side of the standard form of this equation.
 	<md><mrow>2x^2+6x-36 \amp =0 \amp \amp \blert{\text{Factor out 2 from the left side.}}</mrow>
 		<mrow>2(x^2+3x-18) \amp = 0</mrow></md>
 Then we can divide both sides of the equation by 2.  
 	<md><mrow>\dfrac{2(x^2+3x-18)}{\blert{2}} \amp = \dfrac{0}{\blert{2}}</mrow>
 		<mrow>x^2+3x-18 \amp = 0</mrow></md>
-This new equation is the same as the equation in Example 3. Thus, the solutions are the same as the solutions in Example 3, namely, <m>-6</m> and <m>3</m>.</p></solution></example>
+This new equation is the same as the equation in <xref ref="Example-6-3-4" text="type-global"/>. Thus, the solutions are the same as the solutions in <xref ref="Example-6-3-4" text="type-global"/>, namely, <m>-6</m> and <m>3</m>.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>Multiplying the equation in Example 4 by a factor of 2 does not affect the solutions of the equation. We can divide both sides of a quadratic (or any) equation by a nonzero constant factor while solving.</p></assemblage>
+<p>Multiplying the equation in <xref ref="Example-6-3-4" text="type-global"/> by a factor of 2 does not affect the solutions of the equation. We can divide both sides of a quadratic (or any) equation by a nonzero constant factor while solving.</p></assemblage>
 </subsection>
 
 <subsection><title>Application</title>
@@ -233,7 +233,7 @@ where <m>h</m> is in feet. The figure below shows a graph of the equation.</p>
 	<me>0=-16t^2+32t+240</me>
 Can we solve this equation algebraically, without using a graph?</p>
 
-<example><statement><p> The equation 
+<example xml:id="Example-6-3-6"><statement><p> The equation 
 	<me>h=-16t^2+32t+240</me>
 gives the height of a book above the ground <m>t</m> seconds after being thrown off a cliff. How long will it take the book to reach the ground?</p></statement>
 
@@ -250,7 +250,7 @@ Applying the Zero-Factor Principle yields
 The solutions are <m>-3</m> and <m>5</m>. Because a negative time does not make sense for this problem, we discard that solution. The book takes 5 seconds to reach the ground.</p></solution></example>
 
 <reading-questions>
-    <exercise number="6"><statement><p>In Example 6, why did we set <m>h=0</m>?</p></statement>
+    <exercise number="6"><statement><p>In <xref ref="Example-6-3-6" text="type-global"/>, why did we set <m>h=0</m>?</p></statement>
     <answer><p>When the book reaches the ground, its height is zero.</p></answer></exercise>
 </reading-questions>
 </subsection>

@@ -9,7 +9,7 @@
 	<me>\blert{\dfrac{y-y_1}{x-x_1} = m}</me>
 This is, in fact, an equation for the line.</p>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-4-5-1"><statement><p><ol label="a">
 	<li>Graph the line that passes through the point <m>(1,3)</m> and has slope <m>-2</m>.</li> 
 	<li>Find an equation for the line that passes through the point <m>(1,3)</m> and has slope <m>-2</m>.</li></ol></p></statement>
 <solution><p><ol label="a">
@@ -50,7 +50,7 @@ This is, in fact, an equation for the line.</p>
                 \end{aligned}</me>
     You can verify on the graph that <m>y=-2x+5</m> is an equation for the line.</p></li></ol></p></solution></example>
 
-<p>In Example 1 we used the slope formula in a new way: to find the equation of a line. We can simplify the formula by clearing the denominator.
+<p>In <xref ref="Example-4-5-1" text="type-global"/> we used the slope formula in a new way: to find the equation of a line. We can simplify the formula by clearing the denominator.
 	<me>\blert{(x-x_1)}\dfrac{y-y_1}{x-x_1} = m\blert{(x-x_1)}</me>
 to get  
 	<me>y-y_1 = m(x-x_1)</me>
