@@ -14,18 +14,18 @@
 <warning><p>This ratio does not mean that there are exactly 10 pupils and 3 computers at the school. There could be 40 pupils and 12 computers or 200 pupils and 60 computers (or many other combinations) because
 	<me>\dfrac{40}{12}=\dfrac{200}{60}=\dfrac{10}{3}</me></p></warning>
 
-<example><statement><p>In a survey of 100 of his classmates, Greg found that 68 students supported a strict gun control law, while 32 students did not. What is the ratio of survey respondents who support gun control to those opposed?</p></statement>
+<example xml:id="Example-3-2-1"><statement><p>In a survey of 100 of his classmates, Greg found that 68 students supported a strict gun control law, while 32 students did not. What is the ratio of survey respondents who support gun control to those opposed?</p></statement>
 <solution><p>The ratio of those supporting gun control to those opposed is 68 to 32, or <m>\dfrac{68}{32}</m>. This ratio reduces to <m>\dfrac{17}{8}</m>, or 17 to 8.</p></solution></example>
 
 <warning><p> When we write a ratio, it is important to notice which number is the numerator, and which is the denominator.  When we write "the ratio of <m>a</m> to <m>b</m>" as a fraction, <m>a</m> is the numerator and <m>b</m> is the denominator.</p></warning>
 
-<p>In Example 1, we could also compute the ratio of opponents to supporters of the gun control law. In that case, the answer would be <m>\dfrac{32}{68}</m> or <m>\dfrac{8}{17}</m>, the reciprocal of the answer to Example 1.</p>
+<p>In <xref ref="Example-3-2-1" text="type-global"/>, we could also compute the ratio of opponents to supporters of the gun control law. In that case, the answer would be <m>\dfrac{32}{68}</m> or <m>\dfrac{8}{17}</m>, the reciprocal of the answer to Example 1.</p>
 
 <assemblage><title>Ratio</title>
 <p>A <term>ratio</term> is a type of quotient used to compare two numerical quantities. The ratio of <m>a</m> to <m>b</m> is written <m>\dfrac{a}{b}</m>.</p></assemblage>
 
 <assemblage><title>Look Closer</title>
-<p>A ratio can be expressed as a decimal instead of a common fraction. Because <m>\dfrac{17}{8}</m> is equal to 2.125, we can write the ratio in Example 1 as 2.125 to 1.  We usually express a ratio as a decimal fraction if the numbers being compared are decimal numbers.</p></assemblage>
+<p>A ratio can be expressed as a decimal instead of a common fraction. Because <m>\dfrac{17}{8}</m> is equal to 2.125, we can write the ratio in <xref ref="Example-3-2-1" text="type-global"/> as 2.125 to 1.  We usually express a ratio as a decimal fraction if the numbers being compared are decimal numbers.</p></assemblage>
 
 <example><statement><p>A small circuit board measures 4.2 centimeters long by 2.4 centimeters wide. What is the ratio of its length to its width?</p></statement>
 <solution><p>The ratio of length to width is <m>\dfrac{4.2~ \text{cm}}{2.4~ \text{cm}}</m>, or 1.75, as you can verify with your calculator.  (Can you express this ratio as a common fraction?)</p></solution></example>
@@ -109,7 +109,7 @@ Then we complete the solution as before.</p></assemblage>
                 x \amp = \dfrac{1.5(8.4)}{2.4}  \amp \amp  \blert{\text{Simplify the right side.}}\\
                 x \amp = 5.25   
                 \end{aligned}</me>
-We can check the solution by substituting <m>x=2.5</m> into the original proportion.</p></solution></example>
+We can check the solution by substituting <m>x=5.25</m> into the original proportion.</p></solution></example>
 
 <warning><p>Cross-mutiplying works only for solving proportions! Do not try to use cross-multiplying on other types of equations, or for other operations on fractions. In particular, do not use cross-multiplying when multiplying fractions or adding fractions.</p></warning>
 

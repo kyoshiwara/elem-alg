@@ -14,13 +14,13 @@ where <m>x</m> is the number of months the refrigerator has been running. We loo
 	
 <p>We can also solve the system using algebra.</p>
 
-<example><statement><p>Solve the system algebraically.
+<example xml:id="Example-4-3-1"><statement><p>Solve the system algebraically.
 		<md><mrow>y=6x+1000</mrow>
 		<mrow>y=2x+1200</mrow></md></p></statement>
 
 <solution><p>We are looking for the point where the two <m>y</m>-values are equal. Therefore, we set the two expressions for <m>y</m> equal, which gives us an equation in <m>x</m> to solve: 
 		<me>\begin{aligned}
-            6x+1000 \amp = 2x+1200 \amp\amp \blert{\text{Subtract}~3y~\text{from both sides.}} \\
+            6x+1000 \amp = 2x+1200 \amp\amp \blert{\text{Subtract } 2x \text{ from both sides.}} \\
             4x+1000 \amp = 1200 \amp\amp \blert{\text{Subtract 1000 from both sides.}}\\
             4x \amp = 200   \amp\amp \blert{\text{Divide both sides by 3.}}\\
             x \amp = 50         
@@ -29,7 +29,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
 </subsection>
 
 <subsection><title>Substitution Method</title>
-<p>In Example 1, we solved the system by equating the two expressions for <m>y</m>. We can think of this procedure as substituting the expression for <m>y</m> from one equation into the other equation, like this:</p>
+<p>In <xref ref="Example-4-3-1" text="type-global"/>, we solved the system by equating the two expressions for <m>y</m>. We can think of this procedure as substituting the expression for <m>y</m> from one equation into the other equation, like this:</p>
 <sidebyside width="83%"><!--<image source="images/fig-4-3-1.png"><description>graphic</description></image>-->
     <image xml:id="fig-4-3-1">
         <description>substitution</description>
@@ -61,7 +61,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
         <md><mrow>y+3x=1</mrow>
         <mrow>2y+5x=5</mrow></md></p></statement>
 
-<solution><p>We first solve one of the equations for <m>y</m> in terms of <m>x</m>. It is easier to solve the first equation for <m>x</m>, by subtracting  from both sides to get: 
+<solution><p>We first solve one of the equations for <m>y</m> in terms of <m>x</m>. It is easier to solve the first equation for <m>x</m>, by subtracting <m>3x</m> from both sides to get: 
         <me>y=1-3x</me>
 We now substitute the expression <m>1-3x</m> for <m>y</m> in the other equation:
 <sidebyside width="30%"><!--<image source="images/fig-4-3-ex2.png"><description>graphic</description></image>-->
@@ -140,7 +140,7 @@ The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. Y
 <p>We add the equations together by adding the left side of the first equation to the left side of the second equation, and then adding the two right sides together, as follows:
         <md><mrow>
             5x-2y \amp = 21</mrow><mrow>
-           3x+2y \amp = 19</mrow><mrow>
+           \underline{3x+2y} \amp \underline{ {}= 19\vphantom{y}}</mrow><mrow>
             8x \amp = 40 </mrow>     
         </md>
 Note that the <m>y</m>-terms canceled, or were eliminated. We are left with an equation in <m>x</m> that is easy to solve:
@@ -159,7 +159,7 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 <assemblage><title>Look Ahead</title>
 <p>You may have noticed that this method worked because the coefficients of <m>y</m> in the two equations were opposites, <m>2</m> and <m>-2</m>. This caused the <m>y</m>-terms to cancel out when we added the two equations together. What if the coefficients of neither <m>x</m> nor <m>y</m> are opposites? Then we must multiply one or both of the equations in the system by a suitable constant.</p></assemblage>
 
-<example><statement><p>Solve the system
+<example xml:id="Example-4-3-4"><statement><p>Solve the system
 		<md><mrow>4x+3y=7</mrow>
 		<mrow>3x+y=-1</mrow></md></p></statement>
 
@@ -168,12 +168,12 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 Note carefully that we must multiply each term by <m>-3</m>, not just the <m>y</m>-term. We can then replace the second equation by its new version to obtain a new system, and we add the equations together:
 		<me>\begin{aligned}
             4x+3y \amp = 7 \\
-           -9x-3y \amp = 3 \\
+           \underline{-9x-3y }\amp \underline{ {}= 3\vphantom{y}} \\
             -5x \amp = 10      
         \end{aligned}</me>
 The <m>y</m>-terms were eliminated, and we solve the resulting equation for <m>x</m> to get <m>x=-2</m>. Finally, we substitute <m>x=-2</m> into either of the equations to find <m>y=5</m>. The solution is <m>(-2,5)</m>.</p></solution></example>
 
-<warning><p>In Example 4, we multiplied both sides of the equation <m>3x+y=-1</m> by <m>-3</m>. (This is an application of the Multiplication Property of Equality.) We must be careful to multiply every term on both sides of the equation by the same constant. Otherwise, we won't have an equivalent equation -- its solutions will not be the same.</p></warning> 
+<warning><p>In <xref ref="Example-4-3-4" text="type-global"/>, we multiplied both sides of the equation <m>3x+y=-1</m> by <m>-3</m>. (This is an application of the Multiplication Property of Equality.) We must be careful to multiply every term on both sides of the equation by the same constant. Otherwise, we won't have an equivalent equation -- its solutions will not be the same.</p></warning> 
 
 <assemblage><p>When we add a multiple of one equation to the other we are making a <term>linear combination</term> of the equations.</p></assemblage>
 
@@ -185,12 +185,12 @@ The <m>y</m>-terms were eliminated, and we solve the resulting equation for <m>x
 
 <solution><p>This time we choose to eliminate the <m>x</m>-terms. We must arrange things so that the coefficients of the <m>x</m>-terms are opposites, so we look for the smallest integer that both 2 and 5 divide into evenly. (This number is called the <term>lowest common multiple</term>, or LCM, of 2 and 5.) The LCM of 2 and 5 is 10.</p>
 <p> We want one of the coefficients of <m>x</m> to be 10, and the other to be <m>-10</m>. To achieve this, we multiply the first equation by 2 and the second equation by <m>-5</m>.
-		<md><mrow>\blert{2}(5x-2y=22)~~\rightarrow ~~ 10x-4y=44</mrow>
-		<mrow>\blert{-5}(2x-5y=13)~~\rightarrow ~~ -10x+25y=-65</mrow></md>
+        <md><mrow>\blert{2}(5x-2y\amp =22)\amp\amp\rightarrow \amp 10x-4y\amp=44</mrow>
+        <mrow>\blert{-5}(2x-5y\amp=13)\amp\amp\rightarrow \amp -10x+25y\amp=-65</mrow></md>
 Adding these new equations eliminates the <m>x</m>-term and yields an equation in <m>y</m>.
 		<me>\begin{aligned}
             	10x-4y \amp = 44 \\
-          	   -10x+25y \amp = -65 \\
+          	   \underline{-10x+25y} \amp \underline{ {}= -65\vphantom{y}} \\
             	21y \amp = -21      
         	\end{aligned}</me>
 We solve for <m>y</m> to find <m>y=-1</m>. Finally, we substitute <m>y=\alert{-1}</m> into the first equation and solve for <m>x</m>.
@@ -231,7 +231,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 <subsection><title>Inconsistent and Dependent Systems</title>
 <p>Recall that a system of two parallel lines has no solution and is called inconsistent. If the two equations in a system have the same graph, then every point on the graph is a solution and the system is called dependent. The elimination method will reveal whether the system falls into one of these two cases.</p>
 
-<example><statement><p>Solve each system by elimination.<ol label="a" cols="2">
+<example xml:id="Example-4-3-6"><statement><p>Solve each system by elimination.<ol label="a" cols="2">
         <li><p><m>\begin{aligned}[t]
             3x-y=2\\
                 -6x+2y=3\end{aligned}</m></p></li>
@@ -305,7 +305,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 </sidebyside>
 <p>We are left with the true but unhelpful equation <m>0=0</m>. The two equations are in fact equivalent (one is a constant multiple of the other), so the system is dependent. The graph of both equations is shown in the figure.</p></li></ol></p></solution></example>
 
-<p>Example 5 illustrates a rule for identifying inconsistent and dependent systems.</p>
+<p><xref ref="Example-4-3-6" text="type-global"/> illustrates a rule for identifying inconsistent and dependent systems.</p>
 
 <assemblage><title>When Using Elimination to Solve a System</title>
 <p><ol label="1">

@@ -41,7 +41,7 @@
     <answer><p>The natural numbers, zero, and the negatives of the natural numbers.</p></answer></exercise>
 </reading-questions>
 
-<p>	As we move from left to right on a number line, the numbers increase. In the figure below, the graph of 6 lies to the left of the graph of 2. Therefore, 6 is less than 2, or, equivalently, 2 is greater than 6.</p> 
+<p>	As we move from left to right on a number line, the numbers increase. In the figure below, the graph of <m>-6</m> lies to the left of the graph of <m>-2</m>. Therefore, <m>-6</m> is less than <m>-2</m>, or, equivalently, <m>-2</m> is greater than <m>-6</m>.</p> 
 
 <sidebyside width="80%"><!--<image source="images/fig-2-1-2.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-2">
@@ -250,11 +250,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 	<li>Plot <m>9</m> on the number line.</li>  
 	<li>Move <m>5</m> units in the negative direction, or to the left.</li>  
 	<li>The sum is <m>4</m>.</li></ol></p>
- <p>Illustrate the sum <m>9-(+5)</m> on a number line.<ol label="1">
-	<li>Plot <m>9</m> on the number line.</li>  
-	<li>Move <m>5</m> units to the left, to indicate subtraction.</li>  
-	<li>The result is <m>4</m>. The picture is identical to the graph above. </li></ol></p>
-<sidebyside width="75%"><!--<image source="images/fig-2-1-7.png"><description>number line</description></image>-->
+ <sidebyside width="75%"><!--<image source="images/fig-2-1-7.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-7">
         <description>number line</description>
         <latex-image>
@@ -276,6 +272,12 @@ where debts are represented by negative numbers and assets by positive numbers. 
         \end{tikzpicture}]]>
     </latex-image>
     </image>
+</sidebyside>
+<p>Illustrate the sum <m>9-(+5)</m> on a number line.<ol label="1">
+	<li>Plot <m>9</m> on the number line.</li>  
+	<li>Move <m>5</m> units to the left, to indicate subtraction.</li>  
+	<li>The result is <m>4</m>. The picture is identical to the graph above. </li></ol></p>
+<sidebyside width="75%"><image source="images/fig-2-1-7"><description>number line</description></image>
 </sidebyside>
 </assemblage>
 
@@ -346,7 +348,7 @@ Subtracting a negative number has the same result as adding the positive number 
 <reading-questions>
     <exercise number="4"><statement><p>True or False: <m>-x</m> always represents a negative number.  Give an example to support your answer.</p></statement>
     	<answer><p>False.  If <m>x=-3</m>, then <m>-x=3</m>.</p></answer></exercise>
-    <exercise number="5"><statement><p>Subtracting a negative number is the same as <fillin characters="6"/> their absolute values.</p></statement>
+    <exercise number="5"><statement><p>Subtracting a negative number is the same as <fillin characters="6"/> with the same absolute value.</p></statement>
     	<answer><p>adding a positive number</p></answer></exercise>
 </reading-questions>
 
@@ -517,12 +519,12 @@ which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe th
 <subsubsection><title>Case 2: The product of numbers with the same sign</title>
 <p>You know that the product of two positive numbers is positive. It is also true that the product of two negative numbers is positive.</p>  
 <p>To understand why the product of two negative numbers is positive, you might think of canceling, or subtracting, several debts of the same amount. Or, you could observe the pattern in the lists of products below.  As we move down the list, the product increases by equal amounts. 
-	<me>\begin{aligned}
+    <me>\begin{aligned}
                3(-2) \amp =-6 \amp  3(-5) \amp =-15\\
                2(-2) \amp =-4 \amp  2(-5) \amp =-10\\
-               1(-2) \amp =-2 \amp  1(-5) \amp =-5~~\amp \leftarrow \text{Positive times negative is negative.}\\
+               1(-2) \amp =-2 \amp  1(-5) \amp =-5~~\amp \blert{\leftarrow \text{Positive times negative is negative.}}\\
                0(-2) \amp =-0 \amp  0(-5) \amp =0\\
-               -1(-2) \amp =2 \amp  -1(-5) \amp =5~~\amp \leftarrow \text{Negative times negative is positive.}\\
+               -1(-2) \amp =2 \amp  -1(-5) \amp =5~~\amp \blert{\leftarrow \text{Negative times negative is positive.}}\\
                -2(-2) \amp =4 \amp  -2(-5) \amp =10\\
                -3(-2) \amp =6 \amp  -3(-5) \amp =15                 
                 \end{aligned}</me>
@@ -531,7 +533,7 @@ Based on the pattern in these calculations, the following rule seems reasonable.
 <assemblage><p>The product of two negative numbers is a positive number.</p></assemblage>
 
 <example><statement><p>You can use your calculator to verify the following products.<ol label="a" cols="2">
-	<li><m>(-6)(-3)=-28</m></li>
+	<li><m>(-6)(-3)=18</m></li>
 	<li><m>(-2.1)(-3.4)=7.14</m></li></ol></p></statement></example>
 
 <p>Now we have a pair of rules about the products of signed numbers.</p>

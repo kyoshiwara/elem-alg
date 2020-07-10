@@ -77,7 +77,7 @@
     <me>\blert{\binom{\text{Total}}{\text{Interest}} = \binom{\text{Interest from}}{\text{stocks}}+\binom{\text{Interest from}}{\text{bonds}}} 
     </me>
     </p></li></ol></statement>
-<answer><p><ol lable="a">
+<answer><p><ol label="a">
     <li><p>
     <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
     <col width="15%"></col> <col width="15%"></col><col width="15%"></col><col width="15%"></col><col width="15%"></col>             
@@ -122,7 +122,7 @@
     	<answer><p>Principal is the amount invested; interest is the amount earned.</p></answer></exercise>
 </reading-questions>
 
-<example><statement><p>Mort invested money in two accounts, a savings plan that pays 8% interest and a mutual fund that pays 7% interest. He put twice as much money in the savings plan as in the mutual fund. At the end of the year Mort's total interest income was $345. How much did he invest in each account?</p></statement>
+<example xml:id="Example-4-4-1"><statement><p>Mort invested money in two accounts, a savings plan that pays 8% interest and a mutual fund that pays 7% interest. He put twice as much money in the savings plan as in the mutual fund. At the end of the year Mort's total interest income was $345. How much did he invest in each account?</p></statement>
 
 <solution><p>The unknown quantities are the amounts Mort invested in his two accounts.
         <md><mrow>\amp\text{Amount invested in savings:}\amp\amp x</mrow>    
@@ -172,9 +172,9 @@ Finally, we substitute <m>y=\alert{1500}</m> into the first equation to find
 Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p></solution></example>
 
 <reading-questions>
-    <exercise number="3"><statement><p>What were the two equation in Example 1 about?</p></statement>
+    <exercise number="3"><statement><p>What were the two equation in <xref ref="Example-4-4-1" text="type-global"/> about?</p></statement>
     	<answer><p>Principal and interest</p></answer></exercise>
-    <exercise number="4"><statement><p>Which method did we use to solve the system in Example 1?</p></statement>
+    <exercise number="4"><statement><p>Which method did we use to solve the system in <xref ref="Example-4-4-1" text="type-global"/>?</p></statement>
     	<answer><p>Substitution</p></answer></exercise>
 </reading-questions>
 </subsection>
@@ -247,7 +247,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 
 <p>So far we have considered mixture problems involving discrete objects, such as marbles or votes.  The same methods apply to mixtures of liquids.</p>
 
-<example><statement><p>A chemist wants to produce 45 milliliters of a 40% solution of carbolic acid by mixing a 20% solution with a 50% solution. How many milliliters of each should he use?</p>
+<example xml:id="Example-4-4-2"><statement><p>A chemist wants to produce 45 milliliters of a 40% solution of carbolic acid by mixing a 20% solution with a 50% solution. How many milliliters of each should he use?</p>
 <sidebyside width="55%"><image source="images/fig-4-4-2"><description>picture</description></image></sidebyside>
 </statement>
 <solution><p>We let <m>x</m> represent the number of milliliters of the 20% solution he needs and <m>y</m> the number of milliliters of the 50% solution. We use a table to organize the information. The first two columns contain the variables and information given in the problem: the number of milliliters of each solution and its strength as a percent.  
@@ -314,7 +314,7 @@ To simplify the system we first multiply the second equation by 100 to clear the
 We solve the system by elimination. Multiply the first equation by <m>-20</m>, and add the equations together.
 	<me>\begin{aligned}
                 -20x-20y \amp = -900  \\
-                20x+50y \amp = 1800 \\
+                \underline{20x+50y} \amp \underline{ {}= 1800\vphantom{y}} \\
                 30y \amp = 900 
                 \end{aligned}</me>
 Solving for <m>y</m>, we find <m>y=30</m>. We substitute <m>y=\alert{30}</m> into the first equation to find
@@ -322,12 +322,12 @@ Solving for <m>y</m>, we find <m>y=30</m>. We substitute <m>y=\alert{30}</m> int
 or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 milliliters of the 50% solution for the mixture.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p> Notice that, in Example 2, once we have completed the table, it is easy to write a system of equations;  we simply add down the first and third columns of the table. (Remember that we cannot add down the middle column, because percents don't add!)</p></assemblage>
+<p> Notice that, in <xref ref="Example-4-4-2" text="type-global"/>, once we have completed the table, it is easy to write a system of equations;  we simply add down the first and third columns of the table. (Remember that we cannot add down the middle column, because percents don't add!)</p></assemblage>
 
 <reading-questions>
-    <exercise number="7"><statement><p>What were the two equations in Example 2 about?</p></statement>
+    <exercise number="7"><statement><p>What were the two equations in In <xref ref="Example-4-4-2" text="type-global"/> about?</p></statement>
     	<answer><p>Total amount of mixture and amount of acid</p></answer></exercise>
-    <exercise number="8"><statement><p>Which method did we use to solve the system in Example 2?</p></statement>
+    <exercise number="8"><statement><p>Which method did we use to solve the system in <xref ref="Example-4-4-2" text="type-global"/>?</p></statement>
     	<answer><p>Elimination</p></answer></exercise>
 </reading-questions>
 
@@ -360,7 +360,7 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
 <subsection><title>Motion</title>
 <p>We can also use systems of equations to solve problems involving motion at a constant speed.  We'll need the formula <m>\blert{D=RT}</m>.</p>
 
-<example><statement><p>Geologists can calculate the distance from their seismograph to the epicenter of an earthquake by timing the arrival of the P and S waves. They know that P waves travel at about 5.4 miles per second and S waves travel at 3.0 miles per second. If the P waves arrived 3 minutes before the S waves, how far away is the epicenter of the quake?</p></statement>
+<example xml:id="Example-4-4-3"><statement><p>Geologists can calculate the distance from their seismograph to the epicenter of an earthquake by timing the arrival of the P and S waves. They know that P waves travel at about 5.4 miles per second and S waves travel at 3.0 miles per second. If the P waves arrived 3 minutes before the S waves, how far away is the epicenter of the quake?</p></statement>
 <solution><p>Let <m>x</m> represent the distance from the seismograph to the epicenter. The time it took for the waves to arrive is also unknown, so we'll let <m>y</m> be the travel time for the P waves, in seconds. The travel time for the S waves is then <m>y+180</m> seconds.</p>  
 <p>We organize all this information in a table.
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -371,11 +371,11 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
                         <cell>Distance</cell></row>
                     <row><cell> P waves</cell>
                         <cell><m>5.4</m></cell>
-                        <cell>y</cell>
+                        <cell><m>y</m></cell>
                         <cell><m>x</m></cell></row>
                     <row><cell> S waves</cell>
                         <cell><m>3.0</m></cell>
-                        <cell>y+180</cell>
+                        <cell><m>y+180</m></cell>
                         <cell><m>x</m></cell></row>
                     </tabular></sidebyside></p>
 <p>We can now write two equations about the problem, one for the P waves and one for the S waves, using the formula <m>RT=D</m>.	
@@ -393,9 +393,9 @@ Thus, it took the P waves 225 seconds to arrive at the seismograph. To solve for
 The epicenter is located 1215 miles from the seismograph.</p></solution></example>
 
 <reading-questions>
-    <exercise number="7"><statement><p>What formula do we need for motion problems?</p></statement>
+    <exercise number="9"><statement><p>What formula do we need for motion problems?</p></statement>
     	<answer><m>D=RT</m></answer></exercise>
-    <exercise number="8"><statement><p>What did  and  represent in Example 3?</p></statement>
+    <exercise number="10"><statement><p>What did <m>x</m> and <m>y</m> represent in In <xref ref="Example-4-4-3" text="type-global"/>?</p></statement>
     	<answer><p><m>x</m> represented the distance from the seismograph to the epicenter, and <m>y</m> represented the travel time for the P waves</p></answer></exercise>
 </reading-questions>
 </subsection>

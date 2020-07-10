@@ -163,7 +163,7 @@ We see that 4 is a factor of the numerator, so we can divide top and bottom of t
 	<li>Factor numerator and denominator completely.</li>
 	<li>Divide numerator and denominator by any common factors.</li></ol></p></assemblage>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-8-1-6"><statement><p><ol label="a">
 	<li>Reduce  <m>~~\dfrac{3x^2+12x}{6x+24}</m></li>
 	<li>Evaluate the fraction for <m>x=4</m>.</li></ol></p></statement>
 
@@ -177,12 +177,12 @@ We see that 4 is a factor of the numerator, so we can divide top and bottom of t
 	However, the reduced fraction, <m>\dfrac{x}{2}</m>, is equivalent to the original one, so we should get the same answer if we substitute <m>x=\alert{4}</m> into the reduced fraction:
 		<me>\dfrac{x}{2} = \dfrac{\alert{4}}{2} = 2</me></p></li></ol></p></solution></example>
 
-<warning><p>In Example 6, it would be incorrect to "cancel" terms of the numerator and denominator separately, as shown below:
+<warning><p>In <xref ref="Example-8-1-6" text="type-global"/>, it would be incorrect to "cancel" terms of the numerator and denominator separately, as shown below:
 	<me>\dfrac{\cancel{3x^2}+\bcancel{12x}}{\cancel{6x}+\bcancel{24}} \rightarrow\dfrac{x+x}{2+2}~~~~~~~\alert{\text{Incorrect!}}</me>  
 We must always factor the numerator and denominator before attempting to cancel.</p></warning>
 
 <assemblage><title>Look Closer</title>
-<p>	Suppose we'd like to evaluate the fraction in Example 6 for <m>x=478</m>. Instead of substituting 478 into the original fraction, it is much simpler to use the reduced fraction, and get
+<p>	Suppose we'd like to evaluate the fraction in <xref ref="Example-8-1-6" text="type-global"/> for <m>x=478</m>. Instead of substituting 478 into the original fraction, it is much simpler to use the reduced fraction, and get
 	<me>\dfrac{x}{2}=\dfrac{\alert{478}}{2} = 239</me>
 This the whole point of reducing a fraction: to get a simpler but equivalent expression.</p></assemblage>
 

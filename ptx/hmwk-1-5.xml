@@ -30,7 +30,8 @@
 <answer><p>4</p></answer></exercise>
 
 <exercise number="10"><statement><p><m>\dfrac{3(3)+5}{6-2(2)}+\dfrac{2(5)-4}{9-4-2}</m></p></statement></exercise>
-
+</exercisegroup>
+<exercisegroup>
 <exercise number="11"><statement><p><m>7[15-24 \div 2]-9[5(4+2)-4(6+1)]</m></p></statement>
 <answer><p>3</p></answer></exercise>
 
@@ -44,7 +45,8 @@
 <answer><p>0.859</p></answer></exercise>
 
 <exercise number="14"><statement><p><m>\dfrac{14.6-6.8}{7.3+3.4}</m></p></statement></exercise>
-
+</exercisegroup>
+<exercisegroup>
 <exercise number="15"><statement><p><m>\dfrac{26.2-9.1}{8.4 \div 7.7}+ 5.1(6.9-1.6)</m></p></statement>
 <answer><p>42.705</p></answer></exercise>
 
@@ -192,11 +194,14 @@
 <exercise number="34"><statement><p>Without performing the calculations, write down the steps you would use to simplify the expression:		<m>~~825-32(12)\div 4+2</m></p></statement></exercise>
 
 <exercisegroup>
-    <introduction><p>For Problems 35<ndash/>38, choose the correct algebraic expression for each English phrase.
-    	<me>\begin{aligned}
-                \amp  \dfrac{m}{12}-3~~~~~~\amp  \amp \dfrac{m-3}{12}\\
-                \amp  \dfrac{12}{m-3}~~~~~~\amp  \amp 3-\dfrac{12}{m}
-        \end{aligned}</me></p></introduction>
+    <introduction><p>For Problems 35<ndash/>38, choose the correct algebraic expression for each English phrase.</p>
+    <assemblage><p>
+        <md>
+            <mrow>\amp  \dfrac{m}{12}-3 \amp\amp\amp \amp \dfrac{m-3}{12}</mrow>
+            <mrow>\amp  \dfrac{12}{m-3} \amp\amp\amp\amp 3-\dfrac{12}{m}</mrow>
+        </md>
+    </p></assemblage>
+    </introduction>
 
 <exercise number="35"><statement><p>Twelve divided by 3 less than <m>m</m>.</p></statement>
 <answer><m>\dfrac{12}{m-3}</m></answer></exercise>

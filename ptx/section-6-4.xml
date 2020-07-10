@@ -6,8 +6,8 @@
 
 <subsection><title><m>x</m>-Intercepts of a Parabola</title>
 <p>So far we have graphed quadratic equations by plotting points. But we can use some algebraic techniques to make the process easier.</p>
-<p>In Lesson 6.2 we saw that the solutions of the equation
-	<me>40p=p^2=0</me>
+<p>In <xref ref="Some-Quadratic-Models">Lesson</xref> we saw that the solutions of the equation
+	<me>40p-p^2=0</me>
 namely, <m>p=0</m> and <m>p=40</m>, are also the horizontal intercepts of the graph of  
 	<me>R=40p-p^2</me>
 This is the same connection we saw between the <m>x</m>-intercepts of a line and the solutions of its equation. Recall that the <m>x</m>-intercept of the line <m>y=mx+b</m> is the point where the graph crosses the <m>x</m>-axis. To find the <m>x</m>-intercepts of a line, we set <m>y=0</m> and solve for <m>x</m>. The same strategy applies to quadratic equations.</p>
@@ -18,7 +18,7 @@ This is the same connection we saw between the <m>x</m>-intercepts of a line and
 we set <m>y=0</m> and solve the equation
 	<me>ax^2+bx+c=0</me></p></assemblage>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-6-4-1"><statement><p><ol label="a">
 	<li>Find the  intercepts of the graph of <m>y=4x-x^2</m>.</li>
 	<li>Sketch the graph.</li></ol></p></statement>
 
@@ -89,7 +89,7 @@ we set <m>y=0</m> and solve the equation
 	
 	<assemblage><p>The high or low point of a parabola is called its <term>vertex</term>.</p></assemblage> 
 
-<sidebyside widths="60% 30%" valigns="middle middle" margins="0% 0%"><p>Look again at the graph of <m>y=4x-x^2</m> from Example 1, shown at right. Notice that the graph is symmetric about a vertical line (called the <term>axis of symmetry</term>) that passes through the vertex. All the parabolas we'll study have a vertical axis of symmetry.</p>   
+<sidebyside widths="60% 30%" valigns="middle middle" margins="0% 0%"><p>Look again at the graph of <m>y=4x-x^2</m> from <xref ref="Example-6-4-1" text="type-global"/>, shown at right. Notice that the graph is symmetric about a vertical line (called the <term>axis of symmetry</term>) that passes through the vertex. All the parabolas we'll study have a vertical axis of symmetry.</p>   
 <!--	<image source="images/fig-6-4-1.png"><description>parabola</description></image>-->
     <image xml:id="fig-6-4-1">
         <description>parabola</description>
@@ -164,7 +164,7 @@ You can check that <m>x=4</m> is halfway between the two <m>x</m>-intercepts of 
 			<mrow> \amp = 16-32+7=-9</mrow></md></p>
 <sidebyside widths="50% 40%"><p>The vertex of the parabola is the point <m>(4,-9)</m>. We can also find the <m>y</m>-intercept of the graph by substituting <m>x=\alert{0}</m> into the equation. 
 	<me>\alert{0}^2-8(\alert{0})+7=7</me>
-The <m>y</m>-intercept is the point <m>0,7</m>. We plot the vertex and the intercepts and draw a smooth curve through them. The completed graph is shown above.</p>
+The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the intercepts and draw a smooth curve through them. The completed graph is shown at right.</p>
 	<image source="images/fig-6-4-ex3"><description>parabola</description></image></sidebyside></solution></example> 
 
 <reading-questions>

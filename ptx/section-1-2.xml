@@ -12,7 +12,7 @@
 	<me>4 \times g,~~~~~~3 \times c + p,~~~~~~\text{and}~~~~~~\dfrac{n-7}{w}</me>
 are algebraic expressions. An important part of algebra involves translating word phrases into algebraic expressions.</p> 
 
-<example><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+<example xml:id="Example-1-2-1"><statement><p>Write an algebraic expression for each quantity.<ol label="a">
 	<li>30% of the money invested in stocks</li>
 	<li>The cost of the dinner split three ways</li></ol></p></statement>
 <solution><p><ol label="a">
@@ -26,10 +26,10 @@ are algebraic expressions. An important part of algebra involves translating wor
 			<me>\text{The expression is} ~~~~\blert{\dfrac{C}{3}}</me></p></li>
 </ol></p></solution></example>
 
-<p>In Example 1, we used three steps to write an algebraic expression.</p>
+<p>In In <xref ref="Example-1-2-1" text="type-global"/>, we used three steps to write an algebraic expression.</p>
 
 <assemblage><title>To write an algebraic expression</title><p><ol label="1">
-    <li>Identify the unknown quantity and write a short phrase to describe it</li>
+    <li>Identify the unknown quantity and write a short phrase to describe it.</li>
     <li>Choose a variable to represent the unknown quantity.</li>
     <li>Use mathematical symbols to represent the relationship.</li></ol></p></assemblage>
 
@@ -140,7 +140,7 @@ are algebraic expressions. An important part of algebra involves translating wor
             3x~~~~\amp \text{means} \amp\amp \text{the product of}~~ 3~~ \text{times}~~ x\\
     \end{aligned}</me></p></assemblage>
 
-<example><statement><p>Write products to represent the following phrases.<ol label="a">
+<example xml:id="Example-1-2-3"><statement><p>Write products to represent the following phrases.<ol label="a">
     <li>Ten times <m>z</m></li>
     <li>Two-thirds of <m>y</m></li>
     <li>The product of <m>x</m> and <m>y</m></li>
@@ -152,7 +152,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 </ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>In Example 3a, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
+<p>In <xref ref="Example-1-2-3" text="type-global"/>a, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
 
 <assemblage><title>Commutative Law for Multiplication</title>
 <p>If <m>a</m> and <m>b</m> are numbers, then
@@ -284,14 +284,14 @@ The operation of subtraction is not commutative.</p></warning>
 
 <assemblage><p>Substituting a specific value into an expression and calculating the result is called <term>evaluating</term> the expression.</p></assemblage>
 
-<example><statement><p>Fernando has three roommates, and his share of the rent is <m>\dfrac{R}{4}</m>, where <m>R</m> is a variable representing the total rent on the apartment. If Fernando and his roommates find an apartment whose rent is $540, we can find Fernando's share of the rent by replacing <m>R</m> by <m>\alert{540}</m>.
+<example xml:id="Example-1-2-5"><statement><p>Fernando has three roommates, and his share of the rent is <m>\dfrac{R}{4}</m>, where <m>R</m> is a variable representing the total rent on the apartment. If Fernando and his roommates find an apartment whose rent is $540, we can find Fernando's share of the rent by replacing <m>R</m> by <m>\alert{540}</m>.
 	<me>\dfrac{R}{4} = \alert{540} \div 4 = 135</me>
 Fernando's share of the rent is $135.</p></statement></example>
 
-<p>In Example 5, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
+<p>In <xref ref="Example-1-2-5" text="type-global"/>, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
 </subsection>
 
-<subsection><title>Some Useful Algebraic Formulas</title>
+<subsection xml:id="useful-formulas"><title>Some Useful Algebraic Formulas</title>
 <p>Here are some examples of common formulas. Formulas may involve several different variables.</p>
 
 <assemblage><p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
@@ -361,9 +361,9 @@ Bert's average score is 15.8.</p></solution></example>
 </subsection>
 
 <subsection xml:id="Skills-Warm-Up-1-2"><title>Skills Warm-Up</title>
-
-<p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
-	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p>
+<exercises>
+<exercisegroup><introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
+    <me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
 
 <exercise number="1"><statement><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></statement>
 <answer><p>64 ft</p></answer></exercise>
@@ -433,7 +433,7 @@ Bert's average score is 15.8.</p></solution></example>
     </image>
 </sidebyside></statement>
 <answer><p>44 ft; 90 sq ft</p></answer></exercise>
-
+</exercisegroup></exercises>
 
 <solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-2">
     <title>Answers to Skills Warm-Up</title>

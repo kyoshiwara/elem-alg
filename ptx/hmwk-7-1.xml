@@ -121,7 +121,7 @@
     <li><p>22,100</p></li>
     <li><p>1140</p></li></ol></p></answer></exercise>
 
-<exercise number="24"><statement><p>After you apply the brakes, a small car traveling at <m>s</m> miles per hour can stop in approximately <m>0..04s^2+0.6s</m> feet. Will a car traveling at 50 miles per hour on the freeway avoid hitting a stalled car in the same lane 100 feet ahead?</p></statement></exercise>
+<exercise number="24"><statement><p>After you apply the brakes, a small car traveling at <m>s</m> miles per hour can stop in approximately <m>0.04s^2+0.6s</m> feet. Will a car traveling at 50 miles per hour on the freeway avoid hitting a stalled car in the same lane 100 feet ahead?</p></statement></exercise>
 
 <exercise number="25"><statement><p>Evaluate each polynomial for <m>n=10</m>. Try to do the calculations mentally.  What do you notice?<ol label="a" cols="2">
 	<li><m>5n^2+6n+7</m></li>

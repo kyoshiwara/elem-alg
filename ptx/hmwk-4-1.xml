@@ -4,7 +4,7 @@
     <title>Homework 4.1</title>
 
  <exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>4, use the distributive law to remove parentheses. For some of these exercises you will use the distributive law in the form
-	<me>(b+c)a=ba+ca</me></p></introduction>
+	<me>\blert{(b+c)a=ba+ca}</me></p></introduction>
 
  <exercise number="1"><statement><m>5(2y-3)</m></statement>
  <answer><p><m>10y-15</m></p></answer></exercise>

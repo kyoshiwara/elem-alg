@@ -268,11 +268,12 @@
 <exercise number="40"><statement><p>The temperature on the ice planet Hoth dropped <m>115 \degree</m> in just 4 hours. What was the average temperature change per hour?</p></statement></exercise>
 </exercisegroup>
 
-<exercisegroup><introduction><p>Choose the correct equation to model Problems 41<ndash/>44.
+<exercisegroup><introduction><p>Choose the correct equation to model Problems 41<ndash/>44.</p>
+<assemblage><p>
 	<me>\begin{aligned}
                 -12+n \amp = -5 \amp           -12+n \amp =5\\
                 n+12 \amp = -5 \amp           n+12 \amp =5                
-                \end{aligned}</me></p></introduction>
+                \end{aligned}</me></p></assemblage></introduction>
 
 <exercise number="41"><statement><p>Last night the temperature rose <m>12 \degree</m> and this morning the temperature is <m>5 \degree</m>. What was the temperature yesterday?</p></statement>
 <answer><m>n+12=5</m></answer></exercise>

@@ -16,7 +16,7 @@
 <assemblage><title>Look Ahead</title>
 <p>Usually, the number of items that consumers will buy depends on the price of the item: the higher a company sets the price, the fewer items it is likely to sell. How does a company's revenue depend upon the price it charges? A good way to study such a problem is to consider the graph of the equation for revenue.</p></assemblage>
 
-<example><statement><p>Rick works as a personal trainer at his gym. By experimenting with his fee, he discovers that if he charges <m>p</m> dollars per hour, he attracts <m>40-p</m> clients.<ol label="a">
+<example xml:id="Example-6-2-1"><statement><p>Rick works as a personal trainer at his gym. By experimenting with his fee, he discovers that if he charges <m>p</m> dollars per hour, he attracts <m>40-p</m> clients.<ol label="a">
     <li>Write a quadratic equation for Rick's revenue, <m>R</m>, in terms of his fee, <m>p</m>.</li>
     <li>Graph your equation for <m>R</m>.</li>
     <li>What should Rick charge if he wants to make $300 revenue? How many clients will he attract?</li>
@@ -83,8 +83,8 @@
 </reading-questions>
 
 <assemblage><title>Look Closer</title>
-<p>In Example 1 we found a quadratic equation for the revenue Rick earns as a personal trainer. The equation was
-	<me>R=p(40-p)=(40p-p^2)</me>
+<p>In <xref ref="Example-6-2-1" text="type-global"/> we found a quadratic equation for the revenue Rick earns as a personal trainer. The equation was
+	<me>R=p(40-p)=40p-p^2</me>
 The graph of this equation is shown again below. </p>
 <sidebyside widths="55% 40%"><p>If Rick charges <m>p=0</m> dollars per hour, he will not earn any revenue, so <m>R=0</m>. You can see this fact in the graph, which passes through the point <m>p=0,~R=0</m>. But there is another point on the graph where <m>R=0</m>;  it has <m>p</m>-coordinate <m>40</m>. If Rick charges 40 dollars an hour, he will not earn any revenue. (Why does this happen?)</p>
 <image source="images/fig-6-2-ex1"><description>parabola</description></image></sidebyside></assemblage>
@@ -163,7 +163,7 @@ We fill in these factors for the question marks to obtain the factored form,
 
 <assemblage><p>First, we must arrange the terms so that one side of the equation is zero; the zero-factor principle applies only to zero products. </p></assemblage>  
 
-<example><statement><p>Solve  <m>~~2x^2=4x</m></p></statement>
+<example xml:id="Example-6-2-4"><statement><p>Solve  <m>~~2x^2=4x</m></p></statement>
 
 <solution><p>First, we write the equation in standard form by subtracting <m>4x</m> from both sides.
 	<me>2x^2-4x=0</me>
@@ -179,7 +179,7 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
     	<answer><p>Arrange the terms so that one side of the equation is zero</p></answer></exercise>
 </reading-questions>
 
-<warning><p>We cannot solve the equation in Example 4 by dividing both sides by <m>2x</m>. If we do that, we get the equation <m>x=2</m>. This is one of the solutions, but we have lost the second solution, <m>x=0</m>. We should never divide both sides of an equation by the variable, because we risk losing one of the solutions. Instead, we follow the steps below to solve the equation by factoring.</p></warning>
+<warning><p>We cannot solve the equation in <xref ref="Example-6-2-4" text="type-global"/> by dividing both sides by <m>2x</m>. If we do that, we get the equation <m>x=2</m>. This is one of the solutions, but we have lost the second solution, <m>x=0</m>. We should never divide both sides of an equation by the variable, because we risk losing one of the solutions. Instead, we follow the steps below to solve the equation by factoring.</p></warning>
 
 <assemblage><title>To Solve a Quadratic Equation by Factoring</title><p><ol label="1">
 	<li>Write the equation with zero isolated on the right side.</li>       

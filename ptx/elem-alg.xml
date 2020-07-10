@@ -11,7 +11,7 @@ Elementary Algebra
 *********************************************************************-->
 
 
-<mathbook xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
 
 <xi:include href="./bookinfo.xml" />   <!-- ISBN, website, other metadata -->
 
@@ -46,4 +46,4 @@ Elementary Algebra
     </colophon>
 
     </book>
-</mathbook>
+</pretext>
