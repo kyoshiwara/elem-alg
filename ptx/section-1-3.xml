@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Equations-and-Graphs"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Equations and Graphs</title>
-    <subsection><title>Anatomy of a Graph</title>
+<section xml:id="Equations-and-Graphs"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations and Graphs</title>
+    
+<subsection><title>Anatomy of a Graph</title>
 
 <p>We use equations to express the relationship between two variabes. A graph is a way of visualizing an equation.</p>
 
-<assemblage><p>A graph has two <term>axes</term>, horizontal and vertical, and the values for the variables are displayed along the axes. The first, or <term>input</term>, variable is displayed on the horizontal axis. The second, or <term>output</term>, variable is displayed on the vertical axis.</p></assemblage>
+<assemblage><title>Graph of an Equation</title>
+<p>A graph has two <term>axes</term>, horizontal and vertical, and the values for the variables are displayed along the axes. The first, or <term>input</term>, variable is displayed on the horizontal axis. The second, or <term>output</term>, variable is displayed on the vertical axis.</p></assemblage>
 
 <p>The graph itself shows how the two variables are related.</p>
 
@@ -34,10 +35,8 @@
         \filldraw[red] (3,7) circle (0.15cm) node[above left, xshift=-1, yshift=1, fill=white, inner sep = 1, text=black] {$P$};
         \draw [red, very thick, ->, >=stealth']  (0,4) -- (10,14) node[below right, xshift=3, yshift=-3, midway, fill=white, inner sep=1] {$F=D+4$};
         \node[below left] at (0,0) {0};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></statement>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></statement>
+
 <solution><p>In this graph, <m>D</m> is the input variable and <m>F</m> is the output variable. We make a table of values by reading points on the graph. 
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -69,7 +68,8 @@ From the table, we see that the value of <m>F</m> is always 4 more than the valu
 
 <p>Each point on a graph has two coordinates, which designate the position of the point. For example, the point labeled <m>P</m> in <xref ref="Example-1-3-1" text="type-global"/> has horizontal coordinate 3 and vertical coordinate 7.</p>
 
-<assemblage><p>In <xref ref="Example-1-3-1" text="type-global"/> above,  we write the coordinates of point <m>P</m> inside parentheses as an <term>ordered pair</term>: <m>(3,7)</m>. The order of the coordinates makes a difference.  We always list the horizontal coordinate first, then the vertical coordinate.</p></assemblage>
+<assemblage><title>Ordered pair</title>
+<p>In the Example above, we write the coordinates of point <m>P</m> inside parentheses as an <term>ordered pair</term>: <m>(3,7)</m>. The order of the coordinates makes a difference.  We always list the horizontal coordinate first, then the vertical coordinate.</p></assemblage>
 
 <reading-questions>
 	<exercise number="4"><statement><p>The position of a point on the graph is given by its <fillin characters="6"/>.</p></statement>
@@ -81,13 +81,12 @@ From the table, we see that the value of <m>F</m> is always 4 more than the valu
 
 <assemblage><title>Look Closer</title>
 <p>How does the graph illustrate the equation <m>F=D+4</m>?  The coordinates of each point on the graph are values for <m>D</m> and <m>F</m> that make the equation true. The coordinates of the point <m>P</m>, namely <m>D=\alert{3}</m> and <m>F=\alert{7}</m>, represent the fact that when Delbert was 3 years old, Francine was 7 years old. If we substitute these values into our equation we get
-	<me>\begin{aligned}
-                F \amp = D+4\\
-                \alert{7} \amp = \alert{3}+4
-                \end{aligned}</me>
+	<md><mrow>F \amp = D+4</mrow>
+        <mrow>\alert{7} \amp = \alert{3}+4</mrow></md>
 which is true.</p></assemblage>
 
-<assemblage><p>An ordered pair that makes an equation true is called a <term>solution</term> of the equation. Each point on the graph represents a solution of the equation.</p></assemblage>
+<assemblage><title>Solution of an equation</title>
+<p>An ordered pair that makes an equation true is called a <term>solution</term> of the equation. Each point on the graph represents a solution of the equation.</p></assemblage>
 
 <exercise><p><ol label="a">
 	<li>Locate on the graph each of the ordered pairs listed in the table above, and make a dot there. Label each point with its coordinates.</li>
@@ -104,7 +103,7 @@ which is true.</p></assemblage>
 
 <example><statement><p>Graph the equation  <m>y=8-x</m>.</p></statement>
 
-<solution><p>In this equation, <m>x</m> is the input variable and <m>y</m> is the output variable. We choose several values for <m>x</m> and use the equation to find the corresponding values for <m>y</m>.
+<solution><p>In this equation, <m>x</m> is the input variable and <m>y</m> is the output variable. We choose several values for <m>x</m> and use the equation to find the corresponding values for <m>y</m>.</p>
     <sidebyside widths="55% 30%" margins="0% 10%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -133,9 +132,7 @@ which is true.</p></assemblage>
                         <cell><m>(8,0)</m></cell></row>
                     </tabular>
         <!--<image source="images/fig-1-3-ex2.png"/>-->
-    <image xml:id="ig-1-3-ex2">
-        <description>points on line</description>
-        <latex-image>
+    <image xml:id="ig-1-3-ex2"><description>points on line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -157,10 +154,9 @@ which is true.</p></assemblage>
         \filldraw[magenta] (2,6) circle (0.2cm);
         \filldraw[magenta] (5,3) circle (0.2cm);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-        </sidebyside>
-        Each ordered pair <m>(x,y)</m> represents a point on the graph of the equation. We plot the points on the grid and connect them with a smooth curve, as shown above.</p></solution></example>
+    </latex-image></image></sidebyside>
+
+<p>Each ordered pair <m>(x,y)</m> represents a point on the graph of the equation. We plot the points on the grid and connect them with a smooth curve, as shown above.</p></solution></example>
 </subsection>
 
 <subsection><title>Choosing Scales for the Axes</title>
@@ -171,7 +167,7 @@ which is true.</p></assemblage>
     <li>Choose scales for the axes.</li>
     <li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage>
 
-<example><statement><p>Graph the equation  <m>y=250+x</m>.</p></statement>
+<example><statement><p>Graph the equation  <m>~y=250+x</m>.</p></statement>
 
 <solution><p>To graph this equation, we choose multiples of 50 for the <m>x</m>-values.</p>
 <sidebyside widths="55% 30%" margins="3% 3%" valigns="middle middle"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -202,9 +198,7 @@ which is true.</p></assemblage>
                         <cell><m>(200, 450)</m></cell></row>
                     </tabular>
         <!--<image source="images/fig-1-3-ex3.png"/>-->
-    <image xml:id="fig-1-3-ex3">
-        <description>graph of line</description>
-        <latex-image>
+    <image xml:id="fig-1-3-ex3"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -221,11 +215,8 @@ which is true.</p></assemblage>
          \draw[black, thick] (.1,\y) --++(-.2,0)  node[left]   {\yi};
         }
         \draw [red, very thick, ->, >=stealth']  (0,5) -- (5,10);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-         </sidebyside>
-        <p>The largest <m>y</m>-value in the table is 450, so we scale the axis to a little larger than 450, say, 500.  We plot the ordered pairs to obtain the graph shown above.</p></solution></example>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+<p>The largest <m>y</m>-value in the table is 450, so we scale the axis to a little larger than 450, say, 500.  We plot the ordered pairs to obtain the graph shown above.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
 <p>How do we know what scales to use on the axes? For most graphs, it is best to have between ten and twenty tick marks on each axis, or the graph will be hard to read. We choose intervals of convenient size for the particular problem, such as 5, 10, 25, 100, or 1000. It is not necessary to use the same scale on both axes.</p></assemblage>
@@ -233,9 +224,7 @@ which is true.</p></assemblage>
 <warning><p>It is important that the scales on the axes be evenly spaced. Each tick mark must represent the same interval. The scales on the graph below are incorrectly labeled.</p>
 
 	<sidebyside widths="30% 30%" margins="25% 15%" valigns="middle middle"><p><m>\alert{\text{Incorrect!}~~~ \rightarrow}</m></p><!--<image source="images/fig-1-3-1.png"/>-->
-    <image xml:id="fig-1-3-1">
-        <description>inappropriately labeled grid</description>
-        <latex-image>
+    <image xml:id="fig-1-3-1"><description>inappropriately labeled grid</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -256,15 +245,12 @@ which is true.</p></assemblage>
         \node[below] at (5,0) {50};
         \node[left] at (0,1) {100};
         \node[left] at (0,5) {200};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-     </sidebyside>
-</warning>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></warning>
 </subsection>
 
 <subsection><title>Solving Equations with Graphs</title>
-<p>In Example 1 we showed a graph of the equation 
+
+<p>In the first Example we showed a graph of the equation 
 	<me>F=D+4</me>
 which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We can use the graph to answer two types of questions about the equation <m>F=D+4</m>:
 <ol label="1">
@@ -284,15 +270,20 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 		<me>F=D+4=\alert{7}+4=11</me></p>
 	<sidebyside widths="35% 35%"><image source="images/fig-1-3-ex4a.png"/><image source="images/fig-1-3-ex4b.png"/></sidebyside></li>
 	<li><p>We locate <m>F=\alert{13}</m> on the vertical axis. We move horizontally to point <m>B</m> on the graph shown above right, with <m>F</m>-coordinate 13. From point <m>B</m>, we move vertically to the horizontal axis to find the <m>D</m>-coordinate. The coordinates of point <m>B</m> are <m>(9,13)</m>, which tells us that when <m>F=13,~D=9</m>.  Our answer is 9.</p>
+<<<<<<< HEAD
+	<p>To verify the answer algebraically, we <term>solve</term> the equation when <m>F=13</m>: we subtract 4 from both sides of the equation:
+		<md><mrow>13 \amp = D+4  \amp\amp \blert{\text{Subtract 4 from both sides.}}</mrow>
+            <mrow>\underline{\blert{-4}} \amp	~~~~~\underline{~~~~\blert{-4}}</mrow>
+            <mrow>9 \amp = D</mrow></md></p></li></ol></p></solution></example>
+=======
 	<p>To verify the answer algebraically, we can substitute <m>D=9</m> into the equation:
 		<me>F=D+4=\alert{9}+4=13</me></p></li></ol></p></solution></example>
+>>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 
 <example><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 5%"><p>Here is a graph of
     <me>y=1.5x</me>
    Use the graph to solve the equation <m>1.5x=3.75</m>.</p>
-    <image xml:id="fig-1-3-ex5">
-        <description>y=1.5x</description>
-        <latex-image>
+    <image xml:id="fig-1-3-ex5"><description>y=1.5x</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -307,22 +298,15 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
          \draw[black, thick] (.1,\y) --++(-.2,0)  node[left]   {\y};
         }
         \draw [red, very thick]  (0,0) -- (10/3,5);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></statement>
 
  <solution><p>By comparing the equation of the graph with the equation we want to solve, we see that <m>y</m> has been replaced by <m>\alert{3.75}</m>. 
-    <me>\begin{aligned}
-                y \amp = 1.5x\\
-                \downarrow \amp \\
-                \alert{3.75} \amp   = 1.5x
-                \end{aligned}</me>
+    <md><mrow>y \amp = 1.5x</mrow>
+        <mrow>\downarrow \amp </mrow>
+        <mrow>\alert{3.75} \amp   = 1.5x</mrow></md>
  We locate 3.75 on the <m>y</m>-axis, then find the point on the graph with <m>y</m>-coordinate 3.75. 
     <sidebyside width="40%"><!--<image source="images/fig-1-3-ex5.png"/>-->
-    <image xml:id="fig-1-3-ex5ans">
-        <description>y=1.5x</description>
-        <latex-image>
+    <image xml:id="fig-1-3-ex5ans"><description>y=1.5x</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -340,10 +324,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \draw[line width=0.8mm, cyan, dashed, dash pattern=on 9pt off 4pt] (2.5,3.75) -- (2.5,0) node[below, text=red, scale=0.9] {2.5};
         \draw[line width=0.8mm, cyan, dashed, dash pattern=on 9pt off 4pt] (2.5,3.75) -- (0,3.75) node[left, yshift=-2pt, text=cyan, scale=0.9] {3.75};
         \draw[cyan, fill=cyan] (2.5,3.75) circle(.75mm);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
  The <m>x</m>-coordinate of this point is 2.5, so the ordered pair <m>(2.5, 3.75)</m> is a solution of the equation <m>y=1.5x</m>, and <m>x=2.5</m> is the solution of the equation <m>1.5x=3.75</m>.</p></solution></example>
   
 <reading-questions>
@@ -351,18 +332,19 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 		<answer><p>solutions</p></answer></exercise>
 	<exercise number="9"><statement><p>To solve an equation using a graph, we start on the <fillin characters="6"/> axis.</p></statement>
 		<answer><p>vertical</p></answer></exercise></reading-questions>
+
+<p>This is the end of the Reading portion of Section 1.3.  Now try the Skills Warm-Up before the next class meeting.</p>
+
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-1-3"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 
 <exercises>
 <exercisegroup>
     <introduction><p>In Exercises 1<ndash/>2, what value corresponds to each labeled point?</p></introduction>
 
 <exercise number="1"><statement><sidebyside width="65%" margins="5% 30%"><!--<image source="images/sw-1-3-1.png"/>-->
-    <image xml:id="sw-1-3-1">
-        <description>numberline</description>
-        <latex-image>
+    <image xml:id="sw-1-3-1"><description>numberline</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -375,16 +357,10 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \foreach \x in {1,2,...,13} \draw[black,thick] ({\x-1/2},.12) --++(0,-.12);
         \filldraw[blue] (3.5,0) circle (1mm) node[above, yshift=2] {A};
         \filldraw[blue] (8.25,0) circle (1mm) node[above, yshift=2] {B};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
-    <answer><m>A: 350;~~B: 825</m></answer></exercise>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></statement></exercise>
 
 <exercise number="2"><statement><sidebyside width="70%" margins="5% 25%"><!--<image source="images/sw-1-3-2.png"/>-->
-    <image xml:id="sw-1-3-2"> 
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="sw-1-3-2"> <description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -396,18 +372,12 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \foreach \x in {2,4,...,20} \draw[black,thick] (\x,.2) --++(0,-.2);
         \filldraw[blue] (7,0) circle (1mm) node[above, yshift=2] {C};
         \filldraw[blue] (14,0) circle (1mm) node[above, yshift=2] {D};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
-    <answer><m>700;~~1400</m></answer></exercise>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></statement></exercise>
 </exercisegroup>
 
 <exercise number="3"><statement><p><ol label="a">
     <li>Label the axis. <sidebyside width="65%"><!--<image source="images/sw-1-3-3.png"/>-->
-    <image xml:id="sw-1-3-3">
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="sw-1-3-3"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -415,6 +385,40 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \draw[black,thick, ->, >=stealth'] (0,0)--(11,0);
          \draw[black, thick] (0,.3) --++(0,-.35)  node[below]   {0};
          \draw[black, thick] (10,.3) --++(0,-.35)  node[below]   {10,000};
+<<<<<<< HEAD
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
+    <li>On the axis in part (a), plot 1400 and 8350.</li></ol></p></statement></exercise>
+
+<exercise number="4"><statement><p><ol label="a">
+    <li>Label the axis below with 16 tick marks (not counting zero), the highest being 800.
+        <sidebyside width="70%"><!--<image source="images/sw-1-3-4.png"/>-->
+    <image xml:id="sw-1-3-4"><description>number line</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture}  [scale=.7]
+        \draw[black,thick, ->, >=stealth'] (0,0)--(16.5,0);
+        \draw[black, thick] (0,.3) --++(0,-.35)  node[below]   {0};
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
+    <li>On the axis in part (a), plot 132 and 614.</li></ol></p></statement></exercise>
+
+<exercise number="5"><statement><p><ol label="a">
+    <li>Label an axis in increments of 40,000 from 0 to 600,000.
+        <sidebyside width="70%"><image source="images/sw-1-3-4"/></sidebyside></li>
+    <li>On your axis, plot 250,000 and 472,600.</li></ol></p></statement></exercise>
+
+<exercise number="6"><statement><p><ol label="a">
+    <li>Label an axis in increments of 0.5 from 0 to 5.
+        <sidebyside width="70%"><image source="images/sw-1-3-4"/></sidebyside></li>
+    <li>On the axis in part (a), plot 1.3 and 3.77.</li></ol></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1">
+    <li><m>A: 350;~~B: 825</m></li>
+    <li><m>700;~~1400</m></li>
+    <li><sidebyside width="60%"><!--<image source="images/sw-1-3-3ans.png"/>-->
+    <image xml:id="sw-1-3-3ans"><description>number line</description><latex-image>
+=======
         \foreach \x in {5/2,5,15/2} \draw[black,thick] (\x,.2) --++(0,-.2) ;
         \foreach \x in {1.25, 3.75, 6.25, 8.75} \draw[black,thick] (\x,.15) --++(0,-.15);
         \end{tikzpicture}]]>
@@ -426,6 +430,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
     <image xml:id="sw-1-3-3ans">
         <description>number line</description>
         <latex-image>
+>>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -437,32 +442,9 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \foreach \x [evaluate=\x as \xi using int(1000*\x)]  in {1.25, 3.75, 6.25, 8.75} \draw[black,thick] (\x,.15) --++(0,-.15) node[below, yshift=-2, scale=.8]{\xi};
         \filldraw[blue] (1.4,0) circle (1mm) node[above, yshift=4, scale=.9] {1400};
         \filldraw[blue] (8.35,0) circle (1mm) node[above, yshift=4, scale=.9] {8350};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></answer></exercise>
-
-<exercise number="4"><statement><p><ol label="a">
-    <li>Label the axis below with 16 tick marks (not counting zero), the highest being 800.
-        <sidebyside width="70%"><!--<image source="images/sw-1-3-4.png"/>-->
-    <image xml:id="sw-1-3-4">
-        <description>number line</description>
-        <latex-image>
-        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
-        <![CDATA[\tikzset{%
-        }
-        \begin{tikzpicture}  [scale=.7]
-        \draw[black,thick, ->, >=stealth'] (0,0)--(16.5,0);
-        \draw[black, thick] (0,.3) --++(0,-.35)  node[below]   {0};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-        </sidebyside></li>
-    <li>On the axis in part (a), plot 132 and 614.</li></ol></p></statement>
-    <answer><sidebyside width="70%"><!--<image source="images/sw-1-3-4ans.png"/>-->
-    <image xml:id="sw-1-3-4ans">
-        <description>number line</description>
-        <latex-image>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
+    <li><sidebyside width="70%"><!--<image source="images/sw-1-3-4ans.png"/>-->
+    <image xml:id="sw-1-3-4ans"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -472,19 +454,9 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \foreach \x [evaluate=\x as \xi using int(50*\x)]  in {1,2,...,16} \draw[black,thick] (\x,.15) --++(0,-.15) node[below, yshift=-2, scale=.8]{\xi};
         \filldraw[blue] (2.64,0) circle (1mm) node[above, yshift=4, scale=.9] {132};
         \filldraw[blue] (12.28,0) circle (1mm) node[above, yshift=4, scale=.9] {614};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></answer></exercise>
-
-<exercise number="5"><statement><p><ol label="a">
-    <li>Label an axis in increments of 40,000 from 0 to 600,000.
-        <sidebyside width="70%"><image source="images/sw-1-3-4"/></sidebyside></li>
-    <li>On your axis, plot 250,000 and 472,600.</li></ol></p></statement>
-    <answer><sidebyside width="70%"><!--<image source="images/sw-1-3-5ans.png"/>-->
-    <image xml:id="sw-1-3-5ans">
-        <description>number line</description>
-        <latex-image>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
+    <li><sidebyside width="70%"><!--<image source="images/sw-1-3-5ans.png"/>-->
+    <image xml:id="sw-1-3-5ans"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -494,6 +466,11 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \foreach \x [evaluate=\x as \xi using int(40*\x)]  in {1,2,...,15} \draw[black,thick] (\x,.15) --++(0,-.15) node[below, yshift=-2, scale=.8]{\xi};
         \filldraw[blue] (6.25,0) circle (1mm) node[above, yshift=4, scale=.9] {250};
         \filldraw[blue] (11.815,0) circle (1mm) node[above, yshift=4, scale=.9] {472.6};
+<<<<<<< HEAD
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
+    <li><sidebyside width="70%"><!--<image source="images/sw-1-3-6ans.png"/>-->
+    <image xml:id="sw-1-3-6ans"><description>number line</description><latex-image>
+=======
         \node[scale=0.9] at (8.25,-1) {(thousands)};
         \end{tikzpicture}]]>
     </latex-image>
@@ -508,6 +485,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
     <image xml:id="sw-1-3-6ans">
         <description>number line</description>
         <latex-image>
+>>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -518,15 +496,198 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \foreach \x [evaluate=\x as \xi using int(\x/3)]  in {1.5,4.5,...,13.5} \draw[black,thick] (\x,.15) --++(0,-.15) node[below, yshift=-2, scale=.8]{\xi.5};
         \filldraw[blue] (3.9,0) circle (1mm) node[above, yshift=4, scale=.9] {1.3};
         \filldraw[blue] (11.31,0) circle (1mm) node[above, yshift=4, scale=.9] {3.77};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></answer></exercise>
-</exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-3">
-    <title>Answers to Skills Warm-Up</title>
-    <idx><h>answers</h><h>for Section 1.3 skills</h></idx>
-</solutions>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1:  Making a Graph</title>
+
+<assemblage><title>To graph an equation</title>
+<p><ol label="1">
+    <li>Make a table of values.</li>
+    <li>Choose scales for the axes.</li>
+    <li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage>
+
+<p><ol label="1">
+<li><p>Laura takes her daughter Stefanie berry-picking at a local strawberry farm. Laura can pick three baskets of strawberries in the same time that Stefanie picks one basket.</p>
+<p><ol label="a">  
+    <li>Let <m>L</m> stand for the number of baskets Laura has picked and <m>S</m> for the number of baskets that Stefanie has picked.  Write an equation relating the variables.</li>
+    <li><p>Graph the equation.</p>
+    <p>Step 1: Make a table of values. Choose some reasonable values for <m>S</m>, such as:
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>S</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>10</m></cell></row>
+                    <row> 
+                        <cell><m>L</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p>
+        <p>Use the equation to find the corresponding values of <m>L</m>.
+        For example, when <m>S=\alert{1}</m>,
+            <me>L=\hphantom{0000000000000000}</me>
+        amd when <m>S=\alert{2}</m>,
+            <me>L=\hphantom{0000000000000000}</me></p>
+        <p>Complete the table.</p>
+    <p>Step 2: Label the horizontal axis with the input variable, and the vertical axis with the output variable. Then label the scales on the axes.</p>
+    <p>Step 3: Plot the points in the table and connect them with a smooth curve. The points on this graph lie on a straight line.</p>
+    <sidebyside width="55%"><image source="images/act-1-3-1.png"><description>grid</description></image></sidebyside>
+    </li></ol></p></li>
+
+<li><p>Emily and Megan pledged to walk a total of 12 miles for their school's fundraising walkathon. Let <m>E</m> stand for the number of miles Emily walks, and <m>M</m> for the number of miles Megan walks.<ol label="a">
+    <li>Write an equation for <m>E</m> in terms of <m>M</m>.</li> 
+    <li><p>Make a table of values and graph the equation.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>M</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>E</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p>
+    <sidebyside width="55%"><image source="images/act-1-3-2.png"><description>grid</description></image></sidebyside>
+    </li></ol></p></li>
+</ol></p></subsubsection>
+
+<subsubsection><title>Activity 2:  Choosing Scales for the Axes</title>
+
+<p><ol label="1">
+<li><p>Corey's truck holds 20 gallons of gasoline and gets 18 miles to the gallon.<ol label="a"> 
+    <li>Write an equation that relates the distance, <m>d</m>, that Corey can travel to the number of gallons of gas, <m>g</m>, in his truck.</li>  
+    <li><p>Graph the equation.</p>
+        <p>Step 1: Make a table of values. Choose values of <m>g</m> between 0 and 20, because Corey's truck holds 20 gallons of gas. Use the equation to calculate the values of <m>d</m>.
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>g</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>15</m></cell>
+                        <cell><m>20</m></cell></row>
+                    <row> 
+                        <cell><m>d</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p>
+        <p>Step 2: Choose scales for the axes: Use 10 grid lines on the horizontal axis. The length of each interval is 
+            <me>20 \div 10 = <fillin characters="6"/> \text{units}</me>            
+        so we scale the horizontal axis in intervals of 2. On the vertical axis, we use increments of 25 from 0 to 400, which gives us 16 grid lines.</p>
+        <p>Step 3: Plot the points from the table of values. You will need to estimate the location of some of the points between tick marks.</p>
+        <sidebyside width="55%"><image source="images/act-1-3-3.png"><description>grid</description></image></sidebyside>
+    </li></ol></p></li>
+
+<li><p>The Harris Aircraft company gave all its employees a 5% raise.<ol label="a">
+    <li>Write an equation that expresses each employee's raise, <m>R</m>, in terms of his or her present salary, <m>S</m>.</li>
+    <li><p>Graph the equation.</p>
+        <p>Step 1: Complete a table of values.
+            <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>S</m></cell>
+                        <cell><m>18,000</m></cell>
+                        <cell><m>24,000</m></cell>
+                        <cell><m>32,000</m></cell>
+                        <cell><m>36,000</m></cell></row>
+                    <row> 
+                        <cell><m>R</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p>
+        <p>Step 2: Choose scales for the axes and label them. (What are the largest values of <m>S</m> and <m>R</m> in your table?)</p>
+        <p>Step 3: Plot the points and draw the graph.</p>
+        <sidebyside width="60%"><image source="images/act-1-3-4.png"><description>grid</description></image></sidebyside>
+    </li></ol></p></li></ol></p>
+</subsubsection>  
+ 
+<subsubsection><title>Activity 3:  Using a Graph</title>
+
+<p>The Reedville City Council voted that 35% of the town's budget should be allotted to education.<ol label="a">
+    <li><p>Write an equation for the amount budgeted for education, <m>s</m>, in terms of the total budget, <m>b</m>.</p>
+        <p>Use your equation to answer the following questions:</p></li>
+
+    <li>If Reedville's total budget for next year is $1,800,000, how much will be allotted for education?</li>
+    <li>If Reedville spent $875,000 on education last year, what was its total budget?</li></ol></p>
+
+<p>Here is a graph of the equation from part (a).  Both axes of the graph are scaled in thousands of dollars.  Use the graph to estimate the answers to the parts (b) and (c).  Show directly on the graph how you obtained your estimates.</p>
+    <sidebyside width="55%"><image source="images/act-1-3-5.png"><description>grid</description></image></sidebyside>
+
+<p>Estimates:  (b) <fillin characters="18"/></p>
+<p> <m>\hphantom{000000000}</m> (c) <fillin characters="18"/></p>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Making a table of values</li>
+    <li>Choosing scales for the axes</li>
+    <li>Plotting points and drawing a curve</li>
+    <li>Using a graph to evaluate an expression or solve an equation</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>If you graph the equation <m>Q=M+12</m>, which variable goes on the horizontal axis?</li>
+    <li>If the output values range from 0 to 6000, what would be a good interval to use for the scale on the vertical axis?</li>
+    <li>In Activity 3b, did we evaluate an expression or solve an equation?</li></ol></p>
+</assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercise number="1"><statement><p>Draw axes and label both scales by 5's, from 0 to 30.</p></statement></exercise>
+
+<exercise number="2"><statement><p>Draw axes and label the horizontal scale by 25's, fom 0 to 200, and the vertical 
+scale by 200's, from 0 to 3000.</p></statement></exercise>
+
+<exercise number="3"><statement><sidebyside widths="55% 40%">
+        <p><ol label="a">
+    <li>What interval does each grid line represent on the horizontal axis? On the vertical axis?</li>
+    <li><p>Plot the followng points on the grid:
+        <me>(0,500),~(20,1750),~(40,250)</me></p></li></ol></p>
+        <image source="images/pre-1-3-1.png"><description>grid</description></image></sidebyside>
+    </statement></exercise>
+
+<exercise number="4"><statement><sidebyside widths="55% 35%">
+    <p><ol label="a">
+    <li>What interval does each grid line represent on the horizontal axis? On the vertical axis?</li>
+    <li>Find the coordinates of each point.</li></ol></p>
+    <image source="images/pre-1-3-2.png"><description>grid</description></image></sidebyside>
+    </statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1">
+    <li><sidebyside width="30%"><image source="images/pre-1-3-3.png"><description>grid</description></image></sidebyside></li>
+    <li><sidebyside width="30%"><image source="images/pre-1-3-4.png"><description>grid</description></image></sidebyside></li>
+    <li><p>a.  horizontal: 5; vertical: 250</p>
+        <sidebyside width="35%"><image source="images/pre-1-3-5.png"><description>grid</description></image></sidebyside></li>
+    <li><p>a. horizontal: 0.2; vertical: 20</p>
+        <p>b. <m>A(0.2,160),~B(0.6,60),~C(1.4,120)</m></p></li>
+</ol></p>
+</subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-1-3.xml" />
 </section>
