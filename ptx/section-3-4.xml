@@ -6,7 +6,7 @@
 
 <subsection><title>Writing a Linear Equation</title>
 
-<p>In Lesson 3.3, we plotted data for the temperature inside an oven used to cure pottery.</p>
+<p>In <xref ref="Slope">Lesson</xref>, we plotted data for the temperature inside an oven used to cure pottery.</p>
     <sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%"><stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            
         <row bottom="minor">
             <cell>Time, <m>x</m></cell>
@@ -38,7 +38,7 @@
 <assemblage><title>Look Ahead</title>
 <p>If we know two pieces of information about a line: its slope and its initial value or <m>y</m>-intercept, we can write its equation.</p></assemblage>
 
-<example><statement><p>Write an equation for the temperature, <m>H</m>, inside the pottery drying oven <m>t</m> minutes after the oven is turned on.</p></statement>
+<example xml:id="Example-3-4-1"><statement><p>Write an equation for the temperature, <m>H</m>, inside the pottery drying oven <m>t</m> minutes after the oven is turned on.</p></statement>
 
 <solution><p>The initial temperature in the oven was 70 degrees, so <m>H=70</m> when <m>t=0</m>. The temperature rose at a rate of 0.4 degrees per minute, so we add 0.4 degrees to <m>H</m> for each minute that passes. After <m>t</m> minutes, we have added <m>0.4t</m> degrees, giving us a temperature of
 	<me>H = 70 + 0.4t</me>
@@ -51,7 +51,7 @@ We can also write the equation as  <m>H=0.4t+70</m>.</p></solution></example>
     	<answer><p>The slope of the graph</p></answer></exercise>
 </reading-questions>
 
-<p>From Example 1, we see that the coefficients of a linear equation tell us something about its graph.</p>
+<p>From <xref ref="Example-3-4-1" text="type-global"/>, we see that the coefficients of a linear equation tell us something about its graph.</p>
 
 <assemblage><p><ol label="1">
 	<li>The constant term tells us the vertical intercept of the graph.</li> 
@@ -60,10 +60,10 @@ We can also write the equation as  <m>H=0.4t+70</m>.</p></solution></example>
 <assemblage><title>Slope-Intercept Form</title>
 <p>A linear equation written in the form
 		<me>\blert{y=mx+b}</me>
-is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and<m>b</m> is the <m>y</m>-intercept.</p></assemblage>
+is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and <m>b</m> is the <m>y</m>-intercept.</p></assemblage>
 
 <reading-questions>
-    <exercise number="3"><statement><p>What does the <m>y</m>-intercept tell us in Example 1?</p></statement>
+    <exercise number="3"><statement><p>What does the <m>y</m>-intercept tell us in <xref ref="Example-3-4-1" text="type-global"/>?</p></statement>
     	<answer><p>The initial temperature inside the oven</p></answer></exercise>
     <exercise number="4"><statement><p>What is the slope-intercept form of an equation?</p></statement>
     	<answer><p><m>y=mx+b</m></p></answer></exercise>
@@ -77,7 +77,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 
 <p>There is a third graphing method that makes use of the slope of the line. We can use the slope-intercept form to sketch a graph quickly, without having to plot a lot of points.</p>
 
-<example><statement><p>Graph the equation <m>~y=\dfrac{3}{4}x-2</m></p></statement>
+<example xml:id="Example-3-4-2"><statement><p>Graph the equation <m>~y=\dfrac{3}{4}x-2</m></p></statement>
 
 <solution><p>The slope of the line is <m>\dfrac{3}{4}</m> and its <m>y</m>-intercept is the point <m>(0,-2)</m>. We begin by plotting the <m>y</m>-intercept, as shown in the figure. Next, we use the slope to find another point on the line. 
 	<sidebyside width="40%"><!--<image source="images/fig-3-4-ex2.png"><description>graph</description></image>-->
@@ -124,7 +124,7 @@ gives the ratio of the change in <m>y</m>-coordinate to the change in <m>x</m>-c
 to locate another point on the line. The coordinates of this new point are <m>(4,1)</m>. Finally,we draw a line through the two points, as shown in the figure.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>To improve the accuracy of the graph in Example 2, we can find a third point on the line by writing the slope in an equivalent form. We change the sign of both numerator and denominator of the slope to get  
+<p>To improve the accuracy of the graph in <xref ref="Example-3-4-2" text="type-global"/>, we can find a third point on the line by writing the slope in an equivalent form. We change the sign of both numerator and denominator of the slope to get  
 	<me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{-3}{-4}</me>
 Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units down and 4 units left, and find the point <m>(-4,-5)</m> on the graph.</p></assemblage>
 
@@ -151,7 +151,7 @@ Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units do
 </subsection>
 
 <subsection><title>Finding the Slope-Intercept Form</title>
-<p>Not all linear equations appear in slope-intercept form. However, we can write the equation of any non-vertical line in slope-intercept form by solvingthe equation for <m>y</m> in terms of <m>x</m>.</p>
+<p>Not all linear equations appear in slope-intercept form. However, we can write the equation of any non-vertical line in slope-intercept form by solving the equation for <m>y</m> in terms of <m>x</m>.</p>
 
 <example><statement><p>Find the slope and <m>y</m>-intercept of the graph of <m>~3x-4y=8</m></p></statement>
 

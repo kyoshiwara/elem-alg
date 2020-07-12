@@ -7,7 +7,7 @@
 <subsection><title>A Property of Binomial Products</title>
 <p>If the coefficients in a quadratic trinomial <m>ax^2+bx+c</m> are not prime numbers, the guess-and-check method may be time-consuming. In that case, we can use another technique that depends upon the following property of binomial products.</p>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-7-3A-1"><statement><p><ol label="a">
 	<li>Compute the product <m>(3t+2)(t+3)</m> using the area of a rectangle.</li>
 	<li>Verify that the products of the diagonal entries are equal.</li></ol></p></statement>
 
@@ -45,7 +45,7 @@
 <p>When we represent the product of two binomials by the area of a rectangle, the products of the entries on the two diagonals are equal.</p></assemblage>
 
 <reading-questions>
-    <exercise number="1"><statement><p>In Example 1, why are the products on the two diagonals equal?</p></statement>
+    <exercise number="1"><statement><p>In <xref ref="Example-7-3A-1" text="type-global"/>, why are the products on the two diagonals equal?</p></statement>
     <answer><p>Each is the product of all four terms of the binomials.</p></answer></exercise>
 </reading-questions>
 

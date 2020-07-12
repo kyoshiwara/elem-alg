@@ -898,7 +898,7 @@
                         <cell><m>4</m></cell>
                         <cell><m>0</m></cell></row>
                     </tabular></sidebyside>
-        <sidebyside width="80%"><!--<image source="images/hp-1-1-17a.png"/>-->
+        <sidebyside width="100%"><!--<image source="images/hp-1-1-17a.png"/>-->
     <image xml:id="hp-1-1-17a">
         <description>grid</description>
         <latex-image>
@@ -940,7 +940,7 @@
                         <cell><m>3</m></cell>
                         <cell><m>2</m></cell></row>
                     </tabular></sidebyside>
-        <sidebyside width="80%"><!--<image source="images/hp-1-1-17b.png"/>-->
+        <sidebyside width="100%"><!--<image source="images/hp-1-1-17b.png"/>-->
     <image xml:id="hp-1-1-17b">
         <description>grid</description>
         <latex-image>
@@ -1024,8 +1024,8 @@
             </sidebyside></li>
 </ol></p></answer></exercise>
 
-<exercise number="18"><statement><p><ol label="a">
-    <li><p>Read the graph below to fill in the table.</p>
+<exercise number="18"><statement><sidebyside cols="2" widths="50% 35%" margins="0% 10%"><p><ol label="a">
+    <li><p>Read the graph at right to fill in the table.</p>
         <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -1044,7 +1044,9 @@
                         <cell></cell>
                         <cell></cell></row>
                     </tabular></sidebyside>
-        <sidebyside width="40%"><!--<image source="images/hp-1-1-18.png"/>-->
+</li>
+    <li>Find a formula expressing <m>y</m> in terms of <m>x</m>.</li>
+</ol></p>
     <image xml:id="hp-1-1-18">
         <description>line</description>
         <latex-image>
@@ -1066,9 +1068,7 @@
         \end{tikzpicture}]]>
     </latex-image>
     </image>
-        </sidebyside></li>
-    <li>Find a formula expressing <m>y</m> in terms of <m>x</m>.</li>
-</ol></p></statement></exercise>
+        </sidebyside></statement></exercise>
 
 <exercisegroup cols="2">
     <introduction><p>For Problems 19<ndash/>20, 

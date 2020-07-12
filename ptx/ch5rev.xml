@@ -19,7 +19,7 @@
 <li>We can add or subtract like powers of the same variable by combining their coefficients; the exponent does not change.</li>
 </ul></p></subsection>
 
-<subsection><title>Section 5.2  Square Roots and Cube Roots</title><p><ul>
+<subsection><title>Lesson 5.2  Square Roots and Cube Roots</title><p><ul>
 <li><assemblage><title>Square Root</title>
 <p>The number <m>s</m> is called a <term>square root</term> of a number <m>b</m> if <m>s^2=b</m>.</p></assemblage></li>
 
@@ -46,7 +46,7 @@
 <li>Perform additions and subtractions in order from left to right.</li></ol></p></assemblage></li></ul></p>
 </subsection>
 
-<subsection><title>Section 5.3  Using Formulas</title><p><ul>
+<subsection><title>Lesson 5.3  Using Formulas</title><p><ul>
 <li><term>Volume</term> is the amount of space contained within a three-dimensional object, and is measured in cubic units, such as cubic feet or cubic centimeters. <term>Surface area</term> is the sum of the areas of all the faces or surfaces that contain a solid, and is measured in square units.</li>
 
 <li><sidebyside width="100%"><image source="images/fig-5-3-1"><description>solids</description></image></sidebyside></li>
@@ -61,7 +61,7 @@
 <li>If we plan to use a formula more than once with different values for the variables, it may be faster in the long run to solve for one of the variables in terms of the others.</li></ul></p>
 </subsection>
 
-<subsection><title>Section 5.4 Products of Binomials</title><p><ul>
+<subsection><title>Lesson 5.4 Products of Binomials</title><p><ul>
 <li>When we add like terms, we do not change the variable in the terms; we combine the coefficients.  When we multiply expressions, we multiply the coefficients and we multiply the variables.</li>
 <li>An algebraic expression with only one term is called a <term>monomial</term>.  An expression with two terms is called a <term>binomial</term>, and an expression with three terms is a <term>trinomial</term>. The expression <m>ax^2+bx+c</m> is thus called a <term>quadratic trinomial</term>.</li>
 
@@ -83,7 +83,7 @@
 <li>Explain the difference between a coefficient and an exponent. Use the expressions <m>2x^3</m> and <m>3x^2</m> to illustrate your explanation.</li>
 <li>Is the statement <m>\sqrt{81}=\sqrt{9}=3</m> correct? Explain why or why not.</li>
 <li>When asked to state the Pythagorean theorem, a classmate says, "<m>a^2+b^2=c^2</m> when the sides of a triangle are <m>a, b,</m> and <m>c</m>." Another student claims that the formula does not work for all triangles. Do you agree with either student?  What necessary part or parts of the theorem are not mentioned by either of the two classmates?</li>
-<li>A classmate says that <m>\sqrt[3]{2}</m> must be a rational number because it can be written as <m>\dfrac{\sqrt[3]{2}{1}</m>. Do you agree or disagree? Explain.</li>
+<li>A classmate says that <m>\sqrt[3]{2}</m> must be a rational number because it can be written as <m>\dfrac{\sqrt[3]{2}}{1}</m>. Do you agree or disagree? Explain.</li>
 <li>Give an example of a negative irrational number.</li>
 <li>What do you get if you square <m>\sqrt[3]{5}</m> and then multiply the result by <m>\sqrt[3]{5}</m>? Explain how to get the correct answer without using a calculator.</li>
 <li>What do volume and surface area measure? What are the units of each?</li>

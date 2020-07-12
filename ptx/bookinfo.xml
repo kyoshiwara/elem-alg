@@ -22,16 +22,15 @@
 
 <!-- rename blocks -->
         <rename element="warning">Caution</rename>
-        <rename element="inlineexercise">Exercise</rename>
+        <rename element="inlineexercise">Reading Question</rename>
+        <rename element="problem">Wrap-Up</rename>
 <!-- <rename element="chapter" lang="en-US">Lesson</rename> -->
 
 
-    <!-- Prefix to enhance Sage notebook contents -->
     <initialism>Elementary Algebra</initialism>
 
       <latex-preamble>
         <package>cancel</package>
-<!--            \usepackage{gensymb}-->
       </latex-preamble>
 
     <!-- tikz package and libraries for images -->

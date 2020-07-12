@@ -78,7 +78,7 @@ The value <m>x=7</m> is a solution to the squared equation, but not to the origi
 
 <p>If a radical equation involves several terms, it is easiest to isolate the radical term on one side of the equation before squaring both sides.</p>
 
-<example><statement><p>Solve  <m>~~4+\sqrt{8-2x} = x</m></p></statement>
+<example xml:id="Example-9-5-3"><statement><p>Solve  <m>~~4+\sqrt{8-2x} = x</m></p></statement>
 
 <solution><p>We first isolate the radical by subtracting  from both sides to get
 	<me>\sqrt{8-2x} = x-4</me>
@@ -100,7 +100,7 @@ For <m>x=\blert{2}</m>,
 Thus, <m>x=2</m> is an extraneous solution. The only solution to the original equation is <m>x=4</m>.</p></solution>
 </example>
  
-<warning><p>When squaring both sides of an equation, we must be careful to square the entire expression on either side of the equal sign. It is incorrect to square each term separately. Thus, in Example 1, it would not be correct to write
+<warning><p>When squaring both sides of an equation, we must be careful to square the entire expression on either side of the equal sign. It is incorrect to square each term separately. Thus, in <xref ref="Example-9-5-3" text="type-global"/>, it would not be correct to write
 	<me> ( \sqrt{8-2x})^2 = x^2-4^2 ~~~~~~~~~~~~\alert{\text{Incorrect!}}</me></p></warning>
 
 <reading-questions>

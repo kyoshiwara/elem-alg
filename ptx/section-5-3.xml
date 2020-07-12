@@ -49,7 +49,7 @@ The equation has two solutions, <m>8</m> and <m>-8</m>.</p>
 	<md><mrow>\alert{582} \amp = \pi r^2(\alert{10.5}) \amp \amp \blert{\text{Divide both sides by}~\pi.}</mrow>
 		<mrow> 185.256 \amp = r^2(10.5) \amp \amp \blert{\text{Divide both sides by 10.5.}}</mrow>
 		<mrow> 17.643 \amp = r^2 \amp \amp \blert{\text{Take square roots.}}</mrow>
-		<mrow> \pm 4.2 \amp = 4</mrow></md>
+		<mrow> \pm 4.2 \amp = r</mrow></md>
 Because the radius of a soup can cannot be a negative number, we discard the negative solution in this application. The radius of the can is 4.2 centimeters.</p></solution></example>
 
 <p>The equations above, which involve the square of the variable (such as <m>x^2</m> or <m>r^2</m>), are called <term>quadratic equations</term>, and we shall see more about them later.</p>
@@ -110,9 +110,9 @@ We use a calculator to evaluate the square root and find that the width of the r
 </subsection>
 
 <subsection><title>Solving for One Variable</title>
-<p>In the formula in Example 4, the variable <m>P</m> occurs more than once.  We substitute the value for <m>P</m> each time it occurs.</p>
+<p>In the formula in <xref ref="Example-5-3-4" text="type-global"/>, the variable <m>P</m> occurs more than once.  We substitute the value for <m>P</m> each time it occurs.</p>
 
-<example><statement><p>If a principal of <m>P</m> dollars is invested at interest rate <m>r</m>, the formula 
+<example xml:id="Example-5-3-4"><statement><p>If a principal of <m>P</m> dollars is invested at interest rate <m>r</m>, the formula 
 <me>A = P + Prt</me>   
 gives the amount of money in an account after <m>t</m> years. (The "amount," <m>A</m>, is the original principal plus the interest earned.) How long will it take an investment of $5000 to grow to $7000 in an account that pays 6% interest?</p></statement>
 
@@ -129,7 +129,7 @@ it is not correct to add the two 5000's and write <m>7000 = 10,000(0.065)t</m>. 
 
 <p>If we plan to use a formula more than once with different values for the variables, it may be faster in the long run to solve for one of the variables in terms of the others. We have already done something like this when we put a linear equation into slope-intercept form:  in that situation we solved for <m>y</m> in terms of <m>x</m>.</p>
 
-<example><statement><p>Solve the formula <m>~~A=P+Prt~~</m> for <m>t</m>.</p></statement>
+<example xml:id="Example-5-3-5"><statement><p>Solve the formula <m>~~A=P+Prt~~</m> for <m>t</m>.</p></statement>
 
 <solution><p>For this problem, we treat <m>t</m> as the unknown and treat all the other variables as if they were constants. We begin by isolating the term containing <m>t</m> on one side of the equation.
 	<md><mrow>A \amp = P+Prt \amp \amp \blert{\text{Subtract} ~P~ \text{from both sides.}}</mrow>
@@ -138,7 +138,7 @@ it is not correct to add the two 5000's and write <m>7000 = 10,000(0.065)t</m>. 
 		<mrow>\dfrac{A-P}{Pr} \amp = t</mrow></md>
 We now have a new formula for <m>t</m> in terms of the other variables.</p></solution></example>
 
-<warning><p>In the expression <m>P+Prt</m> in Example 5, the terms <m>P</m> and <m>Prt</m> are not like terms. They cannot be combined.</p></warning>
+<warning><p>In the expression <m>P+Prt</m> in <xref ref="Example-5-3-5" text="type-global"/>, the terms <m>P</m> and <m>Prt</m> are not like terms. They cannot be combined.</p></warning>
 </subsection>
 
 <subsection xml:id="Skills-Warm-Up-5-3"><title>Skills Warm-Up</title>

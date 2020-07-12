@@ -12,7 +12,7 @@
 	<me>4 \times g,~~~~~~3 \times c + p,~~~~~~\text{and}~~~~~~\dfrac{n-7}{w}</me>
 are algebraic expressions. An important part of algebra involves translating word phrases into algebraic expressions.</p> 
 
-<example><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+<example xml:id="Example-1-2-1"><statement><p>Write an algebraic expression for each quantity.<ol label="a">
 	<li>30% of the money invested in stocks</li>
 	<li>The cost of the dinner split three ways</li></ol></p></statement>
 
@@ -30,7 +30,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 <p>In the previous Example, we used three steps to write an algebraic expression.</p>
 
 <assemblage><title>To write an algebraic expression</title><p><ol label="1">
-    <li>Identify the unknown quantity and write a short phrase to describe it</li>
+    <li>Identify the unknown quantity and write a short phrase to describe it.</li>
     <li>Choose a variable to represent the unknown quantity.</li>
     <li>Use mathematical symbols to represent the relationship.</li></ol></p></assemblage>
 
@@ -142,7 +142,7 @@ are algebraic expressions. An important part of algebra involves translating wor
         <mrow>3x~~~~\amp \text{means} \amp\amp \text{the product of}~~ 3~~ \text{times}~~ x</mrow></md>
 </p></assemblage>
 
-<example><statement><p>Write products to represent the following phrases.<ol label="a">
+<example xml:id="Example-1-2-3"><statement><p>Write products to represent the following phrases.<ol label="a">
     <li>Ten times <m>z</m></li>
     <li>Two-thirds of <m>y</m></li>
     <li>The product of <m>x</m> and <m>y</m></li>
@@ -155,7 +155,11 @@ are algebraic expressions. An important part of algebra involves translating wor
 </ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
+<<<<<<< HEAD
 <p>In the previous Example, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
+=======
+<p>In <xref ref="Example-1-2-3" text="type-global"/>a, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
+>>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 
 <assemblage><title>Commutative Law for Multiplication</title>
 <p>If <m>a</m> and <m>b</m> are numbers, then
@@ -288,15 +292,18 @@ The operation of subtraction is not commutative.</p></warning>
 <assemblage><title>Evaluation</title>
 <p>Substituting a specific value into an expression and calculating the result is called <term>evaluating</term> the expression.</p></assemblage>
 
-<example><statement><p>Fernando has three roommates, and his share of the rent is <m>\dfrac{R}{4}</m>, where <m>R</m> is a variable representing the total rent on the apartment. If Fernando and his roommates find an apartment whose rent is $540, we can find Fernando's share of the rent by replacing <m>R</m> by <m>\alert{540}</m>.
+<example xml:id="Example-1-2-5"><statement><p>Fernando has three roommates, and his share of the rent is <m>\dfrac{R}{4}</m>, where <m>R</m> is a variable representing the total rent on the apartment. If Fernando and his roommates find an apartment whose rent is $540, we can find Fernando's share of the rent by replacing <m>R</m> by <m>\alert{540}</m>.
 	<me>\dfrac{R}{4} = \alert{540} \div 4 = 135</me>
 Fernando's share of the rent is $135.</p></statement></example>
 
+<<<<<<< HEAD
 <p>In the previous Example, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
+=======
+<p>In <xref ref="Example-1-2-5" text="type-global"/>, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
+>>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 </subsection>
 
-<subsection><title>Some Useful Algebraic Formulas</title>
-
+<subsection xml:id="useful-formulas"><title>Some Useful Algebraic Formulas</title>
 <p>Here are some examples of common formulas. Formulas may involve several different variables.</p>
 
 <assemblage><title>Distance</title>
@@ -367,10 +374,17 @@ Bert's average score is 15.8.</p></solution></example>
 
 </subsection>
 
+<<<<<<< HEAD
 <subsection><title>Skills Warm-Up</title>
 
 <introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
 	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
+=======
+<subsection xml:id="Skills-Warm-Up-1-2"><title>Skills Warm-Up</title>
+<exercises>
+<exercisegroup><introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
+    <me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
+>>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 
 <exercises>
 

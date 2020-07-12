@@ -260,7 +260,7 @@
     <li><p><m>n+4</m></p></li>
     <li><p><m>n^3+6n^2+8n</m></p></li></ol></p></answer></exercise>
 
-<exercisegroup cols="3"><introduction><p>In Lesson 7.3 we'll use rectangles to factor quadratic trinomials.  Problems 36-38 review representing a product as the area of a rectangle.<ol label="a">
+<exercisegroup cols="3"><introduction><p>In <xref ref="More-About-Factoring">Lesson</xref> we'll use rectangles to factor quadratic trinomials.  Problems 36-38 review representing a product as the area of a rectangle.<ol label="a">
 	<li>Compute each product.</li>
 	<li>Illustrate each product as the area of a rectangle.</li></ol></p></introduction>
 

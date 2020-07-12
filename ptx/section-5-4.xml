@@ -92,13 +92,13 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 		<mrow>\amp = 240</mrow></md></p>
 <p><m>\blert{\text{One large rectangle:}}</m>
 	<md><mrow>\text{Area} \amp =(8+4)(5+15)~~~~~~~~</mrow>
-		<mrow> \amp = (21)(20)</mrow>
+		<mrow> \amp = (12)(20)</mrow>
 		<mrow>\amp = 240</mrow></md></p></sidebyside>
 
 <assemblage><title>Look Ahead</title>
 <p>Our goal in this Lesson is to understand products of binomials. We can use rectangles to illustrate, or model, the product of two binomials. The rectangles do not have to be drawn exactly to scale; they are merely tools for visualizing products. With a small stretch of the imagination, we can use rectangles to represent negative numbers as well.</p></assemblage>
 
-<example><statement><p><ol label="a">
+<example xml:id="Example-5-4-3"><statement><p><ol label="a">
 	<li>Use a rectangle to represent the product <m>(x-4)(x+6)</m>.</li>
 	<li>Write the product as a quadratic trinomial.</li></ol></p></statement>
 
@@ -119,10 +119,10 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 </subsection>
 
 <subsection><title>The Four Terms in a Binomial Product</title>	
-<p>	Using a rectangle to multiply binomials illustrates how the distributive law works. Analyzing the rectangle method will help us in the next Lesson, when we reverse the process to factor a quadratic trinomial. Let us take a closer look at the example above.</p>
+<p>	Using a rectangle to multiply binomials illustrates how the distributive law works. Analyzing the rectangle method will help us in a later Lesson, when we reverse the process to factor a quadratic trinomial. Let us take a closer look at the example above.</p>
 
 <assemblage><title>Look Closer</title>
-<sidebyside widths="50% 30%" valigns="middle middle"><p>In Example 3 we computed the product <m>(x-4)(x+6)</m>. The top row of the rectangle corresponds to
+<sidebyside widths="50% 30%" valigns="middle middle"><p>In <xref ref="Example-5-4-3" text="type-global"/> we computed the product <m>(x-4)(x+6)</m>. The top row of the rectangle corresponds to
     <me>x(x+6)=x^2+6x</me>
 and the bottom row corresponds to
     <me>-4(x+6)=-4x-24</me></p>

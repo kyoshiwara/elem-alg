@@ -93,13 +93,14 @@
 <subsection><title>Review Problems</title>
 <exercises>
 
-<exercisegroup><introduction><p>For Problems 1<ndash/>6, choose the appropriate equation.<ol label="a" cols="3">
+<exercisegroup><introduction><p>For Problems 1<ndash/>6, choose the appropriate equation.</p>
+<assemblage><p><ol label="a" cols="3">
     	<li><m>5x-8=30</m></li>
     	<li><m>\dfrac{x}{5}-30=8</m></li>
     	<li><m>\dfrac{x-30}{5}=8</m></li>
     	<li><m>5x+8=30</m></li>
     	<li><m>\dfrac{x}{5}-8=30</m></li>
-    	<li><m>\dfrac{x+30}{5}=8</m></li></ol></p></introduction>
+    	<li><m>\dfrac{x+30}{5}=8</m></li></ol></p></assemblage></introduction>
 
 <exercise number="1"><statement><p>Ilciar has earned a total of 30 points on the first four quizzes in his biology class.  What must he earn on the fifth quiz to end up with an average of 8?</p></statement>
 <answer><p>f</p></answer></exercise>

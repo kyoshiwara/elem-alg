@@ -12,7 +12,7 @@
 
 <p>The graph itself shows how the two variables are related.</p>
 
-<example><statement><p>The graph below shows the relationship between Delbert's age, <m>D</m>, and Francine's age, <m>F</m>.  Write an equation for Francine's age in terms of Delbert's age.</p>
+<example xml:id="Example-1-3-1"><statement><p>The graph below shows the relationship between Delbert's age, <m>D</m>, and Francine's age, <m>F</m>.  Write an equation for Francine's age in terms of Delbert's age.</p>
 	<sidebyside width="35%"><!--<image source="images/fig-1-3-ex1.png"/>-->
     <image xml:id="fig-1-3-ex1">
         <description>Relationship between Delbert's and Francine's ages</description>
@@ -66,7 +66,7 @@ From the table, we see that the value of <m>F</m> is always 4 more than the valu
 	<exercise number="3"><statement><p>The input variable is located on the <fillin characters="6"/> axis.</p></statement>
 		<answer><p>horizontal</p></answer></exercise></reading-questions>
 
-<p>Each point on a graph has two coordinates, which designate the position of the point. For example, the point labeled <m>P</m> in Example 1 has horizontal coordinate 3 and vertical coordinate 7.</p>
+<p>Each point on a graph has two coordinates, which designate the position of the point. For example, the point labeled <m>P</m> in <xref ref="Example-1-3-1" text="type-global"/> has horizontal coordinate 3 and vertical coordinate 7.</p>
 
 <assemblage><title>Ordered pair</title>
 <p>In the Example above, we write the coordinates of point <m>P</m> inside parentheses as an <term>ordered pair</term>: <m>(3,7)</m>. The order of the coordinates makes a difference.  We always list the horizontal coordinate first, then the vertical coordinate.</p></assemblage>
@@ -162,7 +162,7 @@ which is true.</p></assemblage>
 <subsection><title>Choosing Scales for the Axes</title>
 <p>If the variables in an equation have very large (or very small) values, we must choose scales for the axes that fit these values.</p>
 
-<assemblage><title>To graph an equation:</title><p><ol label="1">
+<assemblage><title>To graph an equation</title><p><ol label="1">
     <li>Make a table of values.</li>
     <li>Choose scales for the axes.</li>
     <li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage>
@@ -219,7 +219,7 @@ which is true.</p></assemblage>
 <p>The largest <m>y</m>-value in the table is 450, so we scale the axis to a little larger than 450, say, 500.  We plot the ordered pairs to obtain the graph shown above.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>How do we know what scales to use on the axes? For most graphs, it is best to have between ten and twenty tick marks on each axis, or the graph will be hard to read. We choose intervals of convenient size for the particular problem, such as 5, 10, 25, 100, or 1000. It is not necessary to use the same scale on both axes</p></assemblage>
+<p>How do we know what scales to use on the axes? For most graphs, it is best to have between ten and twenty tick marks on each axis, or the graph will be hard to read. We choose intervals of convenient size for the particular problem, such as 5, 10, 25, 100, or 1000. It is not necessary to use the same scale on both axes.</p></assemblage>
 
 <warning><p>It is important that the scales on the axes be evenly spaced. Each tick mark must represent the same interval. The scales on the graph below are incorrectly labeled.</p>
 
@@ -270,10 +270,15 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 		<me>F=D+4=\alert{7}+4=11</me></p>
 	<sidebyside widths="35% 35%"><image source="images/fig-1-3-ex4a.png"/><image source="images/fig-1-3-ex4b.png"/></sidebyside></li>
 	<li><p>We locate <m>F=\alert{13}</m> on the vertical axis. We move horizontally to point <m>B</m> on the graph shown above right, with <m>F</m>-coordinate 13. From point <m>B</m>, we move vertically to the horizontal axis to find the <m>D</m>-coordinate. The coordinates of point <m>B</m> are <m>(9,13)</m>, which tells us that when <m>F=13,~D=9</m>.  Our answer is 9.</p>
+<<<<<<< HEAD
 	<p>To verify the answer algebraically, we <term>solve</term> the equation when <m>F=13</m>: we subtract 4 from both sides of the equation:
 		<md><mrow>13 \amp = D+4  \amp\amp \blert{\text{Subtract 4 from both sides.}}</mrow>
             <mrow>\underline{\blert{-4}} \amp	~~~~~\underline{~~~~\blert{-4}}</mrow>
             <mrow>9 \amp = D</mrow></md></p></li></ol></p></solution></example>
+=======
+	<p>To verify the answer algebraically, we can substitute <m>D=9</m> into the equation:
+		<me>F=D+4=\alert{9}+4=13</me></p></li></ol></p></solution></example>
+>>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 
 <example><statement><sidebyside widths="50% 35%" valigns="middle middle" margins="0% 5%"><p>Here is a graph of
     <me>y=1.5x</me>
@@ -380,6 +385,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \draw[black,thick, ->, >=stealth'] (0,0)--(11,0);
          \draw[black, thick] (0,.3) --++(0,-.35)  node[below]   {0};
          \draw[black, thick] (10,.3) --++(0,-.35)  node[below]   {10,000};
+<<<<<<< HEAD
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
     <li>On the axis in part (a), plot 1400 and 8350.</li></ol></p></statement></exercise>
 
@@ -412,6 +418,19 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
     <li><m>700;~~1400</m></li>
     <li><sidebyside width="60%"><!--<image source="images/sw-1-3-3ans.png"/>-->
     <image xml:id="sw-1-3-3ans"><description>number line</description><latex-image>
+=======
+        \foreach \x in {5/2,5,15/2} \draw[black,thick] (\x,.2) --++(0,-.2) ;
+        \foreach \x in {1.25, 3.75, 6.25, 8.75} \draw[black,thick] (\x,.15) --++(0,-.15);
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></li>
+    <li>On the axis in part (a), plot 1400 and 8350.</li></ol></p></statement>
+    <answer><sidebyside width="60%"><!--<image source="images/sw-1-3-3ans.png"/>-->
+    <image xml:id="sw-1-3-3ans">
+        <description>number line</description>
+        <latex-image>
+>>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -447,9 +466,26 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
         \foreach \x [evaluate=\x as \xi using int(40*\x)]  in {1,2,...,15} \draw[black,thick] (\x,.15) --++(0,-.15) node[below, yshift=-2, scale=.8]{\xi};
         \filldraw[blue] (6.25,0) circle (1mm) node[above, yshift=4, scale=.9] {250};
         \filldraw[blue] (11.815,0) circle (1mm) node[above, yshift=4, scale=.9] {472.6};
+<<<<<<< HEAD
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>
     <li><sidebyside width="70%"><!--<image source="images/sw-1-3-6ans.png"/>-->
     <image xml:id="sw-1-3-6ans"><description>number line</description><latex-image>
+=======
+        \node[scale=0.9] at (8.25,-1) {(thousands)};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+    </sidebyside></answer></exercise>
+
+<exercise number="6"><statement><p><ol label="a">
+    <li>Label an axis in increments of 0.5 from 0 to 5.
+        <sidebyside width="70%"><image source="images/sw-1-3-4"/></sidebyside></li>
+    <li>On the axis in part (a), plot 1.3 and 3.77.</li></ol></p></statement>
+    <answer><sidebyside width="70%"><!--<image source="images/sw-1-3-6ans.png"/>-->
+    <image xml:id="sw-1-3-6ans">
+        <description>number line</description>
+        <latex-image>
+>>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
