@@ -14,11 +14,7 @@ If we know the value of <m>h</m>, we can evaluate the expression <m>6h</m> to fi
 	<me>w=6(\alert{7})=42</me>
 Liz makes $42 for 7 hours of work. </p></statement></example>
 
-<<<<<<< HEAD
 <p>In the previous Example we used evaluation to find the value of <m>w</m> when we knew the value of <m>h</m>. What if we know the value of <m>w</m> and want to find <m>h</m>? Suppose Liz earned $54 last week. How many hours did she work? To answer this question we substitute <m>\alert{54}</m> for <m>w</m>, so that the equation becomes
-=======
-<p>In <xref ref="Example-1-4-1" text="type-global"/> we used evaluation to find the value of <m>w</m> when we knew the value of <m>h</m>. What if we know the value of <m>w</m> and want to find <m>h</m>? Suppose Liz earned $54 last week. How many hours did she work? To answer this question we substitute <m>\alert{54}</m> for <m>w</m>, so that the equation becomes
->>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 	<me>\alert{54} = 6h</me> 
 Now we have an equation in just one variable. We would like to find the value of <m>h</m> that makes this equation true.</p>
 
@@ -98,11 +94,7 @@ Now we have an equation in just one variable. We would like to find the value of
 
 <p>We see that the opposite operation for multiplication is division, and the opposite operation for addition is subtraction. Now we can solve the equation in <xref ref="Example-1-4-1" text="type-global"/>.</p>
 
-<<<<<<< HEAD
 <example><statement><p>Solve the equation <m>~54=6h</m>.</p></statement>
-=======
-<example xml:id="Example-1-4-2"><statement><p>Solve the equation <m>54=6h</m>.</p></statement>
->>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 
 <solution><p>We will transform this equation into a new one of the form <m>h=k</m> (or <m>k=h</m>), where the number <m>k</m> is the solution.</p>
 <p> To do this, we must isolate the variable <m>h</m> on one side of the equals sign. Because <m>h</m> is multiplied by 6 in this equation, we divide both sides by 6, like this:
@@ -113,11 +105,7 @@ The solution is 9. Liz worked for 9 hours.</p></solution></example>
 <assemblage><title>Look Closer</title>
 <p>Note that the expression <m>\dfrac{6h}{6}</m> says "multiply <m>h</m> by 6, then divide the result by 6," so we end up with <m>h</m> again.</p></assemblage>
 
-<<<<<<< HEAD
 <p>In the previous Example, we transformed the equation into a simpler one (namely, <m>h=9</m>) which tells us the solution. We can use the following operations to transform an equation:</p>
-=======
-<p>In <xref ref="Example-1-4-2" text="type-global"/>, we transformed the equation into a simpler one (namely, <m>h=9</m>) which tells us the solution. We can use the following operations to transform an equation:</p>
->>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 
 <assemblage><title>To solve an equation algebraically</title>
 <p><ol label="1">
@@ -139,12 +127,8 @@ The solution is 9. Liz worked for 9 hours.</p></solution></example>
 </subsection>
 
 <subsection><title>Solving Equations</title>
-<<<<<<< HEAD
 
 <p>Now we can solve equations algebraically. We'll start with the simple Example from Section 1.3 about Delbert's and Francine's ages.</p>
-=======
-<p>Now we can solve equations algebraically. We'll start with the simple <xref ref="Example-1-3-1" text="type-global"/> from Section 1.3 about Delbert's and Francine's ages.</p>
->>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 
 <example><statement><p>Francine is exactly four years older than Delbert, so an equation relating their ages is <m>F=D+4</m>.  How old is Delbert when Francine is 19?</p></statement>
 
