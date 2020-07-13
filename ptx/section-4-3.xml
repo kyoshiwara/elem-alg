@@ -152,7 +152,7 @@ We are not finished yet, because we must still find the value of <m>y</m>. We ca
         <md><mrow>
             3(\alert{5})+2y \amp = 19 \amp\amp \blert{\text{Subtract 15 from both sides.}}</mrow><mrow>
            2y \amp = 4 \amp\amp \blert{\text{Divide by 2.}}</mrow><mrow>
-            y \amp = 4     
+            y \amp = 2     
         </mrow></md>
 Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 

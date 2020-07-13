@@ -155,11 +155,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 </ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<<<<<<< HEAD
 <p>In the previous Example, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
-=======
-<p>In <xref ref="Example-1-2-3" text="type-global"/>a, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
->>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 
 <assemblage><title>Commutative Law for Multiplication</title>
 <p>If <m>a</m> and <m>b</m> are numbers, then
@@ -296,11 +292,7 @@ The operation of subtraction is not commutative.</p></warning>
 	<me>\dfrac{R}{4} = \alert{540} \div 4 = 135</me>
 Fernando's share of the rent is $135.</p></statement></example>
 
-<<<<<<< HEAD
 <p>In the previous Example, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
-=======
-<p>In <xref ref="Example-1-2-5" text="type-global"/>, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
->>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 </subsection>
 
 <subsection xml:id="useful-formulas"><title>Some Useful Algebraic Formulas</title>
@@ -374,17 +366,10 @@ Bert's average score is 15.8.</p></solution></example>
 
 </subsection>
 
-<<<<<<< HEAD
 <subsection><title>Skills Warm-Up</title>
 
 <introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
 	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
-=======
-<subsection xml:id="Skills-Warm-Up-1-2"><title>Skills Warm-Up</title>
-<exercises>
-<exercisegroup><introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
-    <me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
->>>>>>> 257eb681be86edb25c0f080b2cf41d50226f8cce
 
 <exercises>
 
