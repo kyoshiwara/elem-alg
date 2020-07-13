@@ -9,7 +9,7 @@
 <!--
  Assumes current file is in elem-alg/xsl and that the mathbook repository is adjacent 
 -->
-<xsl:import href="../../mathbook/xsl/pretext-html.xsl"/>
+<xsl:import href="../../mathbook/xsl/pretext-latex.xsl"/>
 <!--
  Or make a thin customization layer and use 'select' to provide overrides 
 -->
@@ -23,29 +23,19 @@
 <xsl:template match="exercises//exercise" mode="xref-number">
     <xsl:apply-templates select="." mode="serial-number" />
 </xsl:template>
-<!-- Knowls -->
-<xsl:param name="html.knowl.example" select="'no'" />
-<xsl:param name="html.knowl.exercise.inline" select="'no'" />
-<xsl:param name="html.knowl.example.solution" select="'yes'" />
-<xsl:param name="html.knowl.warning" select="'no'" />
-<xsl:param name="html.knowl.technology" select="'no'" />
+
 <!-- color theme -->
 <!--<xsl:param name="html.css.colorfile" select="'colors_default.css'" />
 -->
+
+
 <xsl:param name="exercise.divisional.hint" select="'yes'" />
 <xsl:param name="exercise.divisional.answer" select="'no'" />
-<xsl:param name="exercise.worksheet.answer" select="'no'" />
 <xsl:param name="exercise.divisional.solution" select="'no'" />
+<xsl:param name="exercise.worksheet.answer" select="'no'" />
 
-<!-- reading questions
 
-<xsl:param name="html.knowl.exercise.readingquestion" select="'no'" />
-<xsl:template match="reading-questions//exercise" mode="is-hidden">
-    <xsl:value-of select="$html.knowl.exercise.readingquestion = 'yes'" />
-</xsl:template>
--->
 
-<xsl:param name="exercise.reading.answer" select="'no'" />
-
+<xsl:param name="latex.print" select="'yes'"/>
 
 </xsl:stylesheet>
