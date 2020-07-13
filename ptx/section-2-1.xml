@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Signed-Numbers"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Signed Numbers</title>
+<section xml:id="Signed-Numbers"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Signed Numbers</title>
 
 <subsection><title>Types of Numbers</title>
 
 <p>Numbers greater than zero are called <term>positive numbers</term>, and numbers less than zero are <term>negative numbers</term>. We use a <term>number line</term> to illustrate relationships among numbers.</p>
 
 <sidebyside width="70%"><!--<image source="images/fig-2-1-1.png"><description>number line</description></image>-->
-    <image xml:id="fig-2-1-1">
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="fig-2-1-1"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -24,14 +21,12 @@
          \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below]   {$\x$};
         }
         \node[below,text=bold] at (0,-1.3) {\textbf{A Number Line}};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced intervals. These numbers are called the <term>natural</term> or <term>counting numbers</term>. The <term>whole numbers</term> include the natural numbers and zero:  0, 1, 2, 3, ... .</p> 
 
-<assemblage><p>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>:
+<assemblage><title>Integers</title> 
+	<p>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>:
     <me> \cdots -3,~ {-2},~ {-1},~ 0,~ 1,~ 2,~ 3 \cdots</me></p></assemblage> 
 
 <p>Fractions, such as <m>\dfrac{2}{3}, -\dfrac{5}{4}</m> and <m>3.6</m>, lie between the integers on the number line.</p>
@@ -44,9 +39,7 @@
 <p>	As we move from left to right on a number line, the numbers increase. In the figure below, the graph of <m>-6</m> lies to the left of the graph of <m>-2</m>. Therefore, <m>-6</m> is less than <m>-2</m>, or, equivalently, <m>-2</m> is greater than <m>-6</m>.</p> 
 
 <sidebyside width="80%"><!--<image source="images/fig-2-1-2.png"><description>number line</description></image>-->
-    <image xml:id="fig-2-1-2">
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="fig-2-1-2"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -61,28 +54,20 @@
 		\foreach \x in {-6,-2} {
 		 \filldraw[blue] (\x,0) circle (.2);
 		}
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
-<assemblage><p>We use special symbols to indicate order:
-	<me>\begin{aligned}
-                \blert{\lt} \amp ~~~~ \text{means}~~~~  \blert{\text{is less than}}\\
-                \blert{\gt} \amp ~~~~ \text{means}~~~~  \blert{\text{is greater than}}               
-                \end{aligned}</me></p></assemblage>
+<assemblage><title> Order Symbols</title>
+<p>We use special symbols to indicate order:
+	<md><mrow>\blert{\lt} \amp ~~~~ \text{means}~~~~  \blert{\text{is less than}}</mrow>
+        <mrow>\blert{\gt} \amp ~~~~ \text{means}~~~~  \blert{\text{is greater than}}</mrow></md></p></assemblage>
 
 <p>For example,
-    <md>
-        <mrow>-6 \lt -2 \amp ~~~~ \text{means}~~~~  {-6}~~ \text{is less than}~~ {-2}</mrow>
-        <mrow>-2 \gt -6 \amp ~~~~ \text{means}~~~~  {-2}~~ \text{is greater than}~~ {-6}</mrow>             
-    </md>
+    <md><mrow>-6 \lt -2 \amp ~~~~ \text{means}~~~~  {-6}~~ \text{is less than}~~ {-2}</mrow>
+        <mrow>-2 \gt -6 \amp ~~~~ \text{means}~~~~  {-2}~~ \text{is greater than}~~ {-6}</mrow></md>
 The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smaller number.</p>
 
 <sidebyside width="65%"><!--<image source="images/fig-2-1-3.png"><description>graphic</description></image>-->
-    <image xml:id="fig-2-1-3">
-        <description>graphic with inequality symbols</description>
-        <latex-image>
+    <image xml:id="fig-2-1-3"><description>graphic with inequality symbols</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -94,14 +79,12 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 		\coordinate (O) at (3,0);
 		\node at (O) {$5 > 3$};
 		\draw[blue, <-, >=stealth'] (O)++(0,-.25)--++(0,-.6)--++(1,0) node[right, scale=.9, align=left]{points to \\ smaller number};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <example><statement><p><ol label="a">
 	<li>Which is the lower altitude, <m>-81</m> feet or <m>-94</m> feet?</li>
 	<li>Express the relationship using one of the order symbols.</li></ol></p></statement>
+
 <solution><p><ol label="a">
 	<li>Negative altitudes correspond to feet below sea level, and 94 feet is farther below sea level than 81 feet.  Therefore, <m>-91</m> feet is the lower altitude.</li>
 	<li><p><m>-94 \lt -81</m>, or <m>-81 \gt -94</m></p></li></ol></p></solution></example>
@@ -117,9 +100,7 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 	<li>Move <m>3</m> units in the positive direction, or to the right.</li>  
 	<li>This brings us to the sum, which is <m>+8</m>.  Thus, <m>5+3=8</m>.</li></ol></p> 
 <sidebyside width="75%"><!--<image source="images/fig-2-1-4.png"><description>number line</description></image>-->
-    <image xml:id="fig-2-1-4">
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="fig-2-1-4"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -135,11 +116,7 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 		 \filldraw[red] (\x,0) circle (.2);
 		}
 		\draw[cyan, ->, >=stealth'] (5,.53)--++(0,.3)--++(3,0) node[above, midway, scale=.9]{$+3$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
-</assemblage> 
+        \end{tikzpicture}]]></latex-image></image></sidebyside></assemblage> 
 
 <assemblage><title>Case 2: The sum of two negative numbers</title>
 <p>Illustrate the sum <m>(-5)+(-3)</m> on a number line.<ol label="1">
@@ -147,9 +124,7 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 	<li>Move <m>3</m> units in the negative direction, or to the left.</li>  
 	<li>This brings us to the sum, <m>-8</m>, as expected.  Thus, <m>(-5)+(-3)=-8</m>.</li></ol></p> 
 <sidebyside width="75%"><!--<image source="images/fig-2-1-5.png"><description>number line</description></image>-->
-    <image xml:id="fig-2-1-5">
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="fig-2-1-5"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -165,37 +140,32 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 		 \filldraw[red] (\x,0) circle (.2);
 		}
 		\draw[cyan, ->, >=stealth'] (-5,.53)--++(0,.3)--++(-3,0) node[above, midway, scale=.9]{$-3$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
-</assemblage> 
+        \end{tikzpicture}]]></latex-image></image></sidebyside></assemblage> 
 
 <assemblage><title>Look Closer</title>
 <p>In the examples above, we see that:
-	<me>\begin{aligned}
-                \amp \blert{\text{The sum of two positive numbers is positive.}}\\
-                \amp \blert{\text{The sum of two negative numbers is negative.}}               
-                \end{aligned}</me>
+	<md><mrow>\amp \blert{\text{The sum of two positive numbers is positive.}}</mrow>
+        <mrow>\amp \blert{\text{The sum of two negative numbers is negative.}}</mrow></md>               
 Thus, the sign of the sum is the same as the sign of the two terms. To find the value of the sum, we add the <term>absolute values</term>, or unsigned parts, of the two terms.</p></assemblage>
 
 <example><statement><p>Add  <m>(-4)+(-7)</m></p></statement>
+
 <solution><p>The sum is negative. We add the absolute values of <m>-4</m> and <m>-7</m> (the numbers 4 and 7 without their signs) to get 11, then make the sum negative:  <m>(-4)+(-7)=-11</m></p></solution></example>
 </subsection>
 
 <subsection><title>Adding Two Numbers with Opposite Signs</title>
+
 <p>Suppose you have debts of $9, and assets of $6. (Your "assets" are your possessions.) What is your net worth?  We can model this situation by the sum
 	<me>-9+(+6)</me>
 where debts are represented by negative numbers and assets by positive numbers. If you use your $6 to pay off part of your debt, you will still owe $3, so your net worth is <m>-$3</m>. It makes sense that if your debts are greater than your assets, your net worth is negative.</p> 
 
-<assemblage><p>Illustrate the sum <m>(-9)+(+6)</m> on a number line.<ol label="1">
+<assemblage><title>The sum of two numbers with opposite signs</title>
+	<p>Illustrate the sum <m>(-9)+(+6)</m> on a number line.<ol label="1">
 	<li>Graph the first number, <m>-9</m>, as shown below.</li>  
 	<li>Move <m>6</m> units in the positive direction, or to the right.</li>  
 	<li>This brings us to the sum, <m>-3</m>.  Thus, <m>(-9)+(+6)=-3</m>.</li></ol></p> 
 <sidebyside width="75%"><!--<image source="images/fig-2-1-6.png"><description>number line</description></image>-->
-    <image xml:id="fig-2-1-6">
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="fig-2-1-6"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -212,11 +182,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 		 \filldraw[red] (\x,0) circle (.2) node[below, yshift=-3, scale=.8] {$\x$};
 		}
 		\draw[cyan, ->, >=stealth'] (-9,.43)--++(0,.3)--++(6,0) node[above, midway, scale=.9]{$+6$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
-</assemblage> 
+        \end{tikzpicture}]]></latex-image></image></sidebyside></assemblage> 
 
 <assemblage><title>Look Closer</title>
 <p>In the example above, we see that the sum has the same sign as the number with the larger absolute value. (Can you explain this in terms of debts and assets?) When the two numbers have opposite signs, we find the value of the sum by subtracting the absolute values of the two numbers.</p></assemblage>
@@ -224,6 +190,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
  <example><statement><p><ol label="a" cols="2">
  	<li>Add <m>(-5)+(+9)</m></li>
  	<li>Add <m>(+5)+(-9)</m></li></ol></p></statement>
+ 
  <solution><p><ol label="a">
  	<li>The two numbers have opposite signs, so we subtract 5 from 9 to get 4, then make the answer positive, because <m>+9</m> has a larger absolute value than <m>-5</m>. Thus, <m>(-5)+(+9)=4.</m></li>
 	<li>We subtract 5 from 9 to get 4, then make the answer negative, because <m>-9 </m> has a larger absolute value than <m>+5</m>. Thus,<m>(+5)+(-9)=-4.</m></li></ol></p></solution></example>
@@ -243,17 +210,17 @@ where debts are represented by negative numbers and assets by positive numbers. 
 </subsection>
 
 <subsection><title>Subtracting a Positive Number</title>
+
 <p>Let's compare the two problems:
 	<me>9+(-5)~~~~\text{and}~~~~9-(+5)</me></p>
 
-<assemblage><p>Illustrate the sum <m>9+(-5)</m> on a number line.<ol label="1">
+<assemblage><title>Subtracting a positive number</title>
+	<p>Illustrate the sum <m>9+(-5)</m> on a number line.<ol label="1">
 	<li>Plot <m>9</m> on the number line.</li>  
 	<li>Move <m>5</m> units in the negative direction, or to the left.</li>  
 	<li>The sum is <m>4</m>.</li></ol></p>
  <sidebyside width="75%"><!--<image source="images/fig-2-1-7.png"><description>number line</description></image>-->
-    <image xml:id="fig-2-1-7">
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="fig-2-1-7"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -269,11 +236,9 @@ where debts are represented by negative numbers and assets by positive numbers. 
 		 \filldraw[red] (\x,0) circle (.2) node[below, yshift=-3, scale=.8] {$\x$};
 		}
 		\draw[cyan, ->, >=stealth'] (9,.43)--++(0,.3)--++(-5,0) node[above, midway, scale=.9]{$-5$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
-<p>Illustrate the sum <m>9-(+5)</m> on a number line.<ol label="1">
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+
+<p>Illustrate the subtraction problem <m>9-(+5)</m> on a number line.<ol label="1">
 	<li>Plot <m>9</m> on the number line.</li>  
 	<li>Move <m>5</m> units to the left, to indicate subtraction.</li>  
 	<li>The result is <m>4</m>. The picture is identical to the graph above. </li></ol></p>
@@ -286,14 +251,14 @@ where debts are represented by negative numbers and assets by positive numbers. 
 </subsection>
 
 <subsection><title>Subtracting a Negative Number</title>
+
 <p>When we add a negative number we move to the left on the number line. There are only two directions we can move on a number line, so when we subtract a negative number we must move to the right.</p>
 
-<assemblage><p>Compare the graphs for adding <m>-3</m> and subtracting <m>-3</m><ul>
+<assemblage><title>Subtracting a negative number</title>
+	<p>Compare the graphs for adding <m>-3</m> and subtracting <m>-3</m><ul>
 	<li>Addition:	<m>~~~~5+(-3)~~~~</m>   Move 3 units to the left, to get 2.
 		<sidebyside width="75%"><!--<image source="images/fig-2-1-8.png"><description>number line</description></image>-->
-    <image xml:id="fig-2-1-8">
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="fig-2-1-8"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -310,15 +275,10 @@ where debts are represented by negative numbers and assets by positive numbers. 
 		}
 		\filldraw[red] (5,0) circle (.2);
 		\draw[cyan, ->, >=stealth'] (5,.53)--++(0,.3)--++(-3,0) node[above, midway, scale=.9]{$-3$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-		</sidebyside></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
 	<li>Subtraction:  <m>~~~~5-(-3)~~~~</m>   Move 3 units to the right, to get 8. 
 		<sidebyside width="75%"><!--<image source="images/fig-2-1-9.png"><description>number line</description></image>-->
-    <image xml:id="fig-2-1-9">
-        <description>number line</description>
-        <latex-image>
+    <image xml:id="fig-2-1-9"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -335,10 +295,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 		}
 		\filldraw[red] (5,0) circle (.2);
 		\draw[cyan, ->, >=stealth'] (5,.53)--++(0,.3)--++(3,0) node[above, midway, scale=.9]{$-(-3)$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-		</sidebyside></li></ul></p></assemblage>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li></ul></p></assemblage>
 
 <assemblage><title>Look Closer</title>
 <p>Notice that
@@ -364,9 +321,7 @@ Subtracting a negative number has the same result as adding the positive number 
 
 <example><statement><p>Rewrite each subtraction problem as an addition, then compute the answer.<ol label="a" cols="2">
     <li><sidebyside width="95%"><!--<image source="images/fig-2-1-ex4a.png"><description>graphic</description></image>-->
-    <image xml:id="fig-2-1-ex4a">
-        <description>subtracting positive from positive</description>
-        <latex-image>
+    <image xml:id="fig-2-1-ex4a"><description>subtracting positive from positive</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -385,14 +340,9 @@ Subtracting a negative number has the same result as adding the positive number 
         \coordinate(A) at (.6,-0.8);
         \coordinate(B) at (.8,-.25);
         \draw[blue, ->, >=stealth'] (A) to [out=0, in=270, looseness=2] (B);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
     <li><sidebyside width="95%"><!--<image source="images/fig-2-1-ex4b.png"><description>graphic</description></image>-->
-    <image xml:id="fig-2-1-ex4b">
-        <description>subtracting positive from negative</description>
-        <latex-image>
+    <image xml:id="fig-2-1-ex4b"><description>subtracting positive from negative</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -411,14 +361,9 @@ Subtracting a negative number has the same result as adding the positive number 
         \coordinate(A) at (.8,-0.8);
         \coordinate(B) at (1,-.25);
         \draw[blue, ->, >=stealth'] (A) to [out=0, in=270, looseness=2] (B);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
     <li><sidebyside width="80%"><!--<image source="images/fig-2-1-ex4c.png"><description>graphic</description></image>-->
-    <image xml:id="fig-2-1-ex4c">
-        <description>subtracing negative from positive</description>
-        <latex-image>
+    <image xml:id="fig-2-1-ex4c"><description>subtracing negative from positive</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -437,14 +382,9 @@ Subtracting a negative number has the same result as adding the positive number 
         \coordinate(A) at (.85,-0.8);
         \coordinate(B) at (.9,-.25);
         \draw[blue, ->, >=stealth'] (A) to [out=0, in=270, looseness=2] (B);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
     <li><sidebyside width="95%"><!--<image source="images/fig-2-1-ex4d.png"><description>graphic</description></image>-->
-    <image xml:id="fig-2-1-ex4d">
-        <description>subtracting negative from negative</description>
-        <latex-image>
+    <image xml:id="fig-2-1-ex4d"><description>subtracting negative from negative</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -463,10 +403,7 @@ Subtracting a negative number has the same result as adding the positive number 
         \coordinate(A) at (.8,-0.8);
         \coordinate(B) at (1,-.25);
         \draw[blue, ->, >=stealth'] (A) to [out=0, in=270, looseness=2] (B);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li></ol></p></statement></example>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li></ol></p></statement></example>
 
 <assemblage><title>Look Closer</title>
 <p>At first it may be difficult to understand why subtracting a negative number is the same as adding a positive number.  Try thinking in terms of debts and assets. For example, suppose you have $25 in your wallet, and you have $5 in your hand to pay off a debt you owe a friend. If your friend now cancels (or subtracts) the debt, you are actually $5 richer: 
@@ -487,11 +424,11 @@ However, if the subtraction involves negative numbers, it is usually easier to u
  <p>Remember that additions should be performed in order from left to right.</p>
 
  <example><statement><p>Simplify <m>~~7-9+12-6</m></p></statement>
+ 
  <solution><p>We add the signed numbers <m>7</m> and <m>-9</m> and <m>12</m> and <m>-6</m>, in order from left to right.
- 	<me>\begin{aligned}
-               \blert{7-9}+12-6 \amp =\blert{-2}+12-6 \amp \amp \blert{\text{The sum of} ~7~ \text{and}~-9~\text{is}~-2.}\\
-                \amp =10-6=4 \amp \amp \blert{\text{The sum of}~-2~\text{and}~12~\text{is}~10.}               
-                \end{aligned}</me></p></solution></example>
+ 	<md><mrow>\blert{7-9}+12-6 \amp =\blert{-2}+12-6 \amp \amp \blert{\text{The sum of} ~7~ \text{and}~-9~\text{is}~-2.}</mrow>
+        <mrow>\amp =10-6=4 \amp \amp \blert{\text{The sum of}~-2~\text{and}~12~\text{is}~10.}</mrow></md>               
+</p></solution></example>
 
 <warning><p>The following calculation is incorrect:
 	<me>16-\blert{9-4}+3~=~16-\blert{5}+3~=~11+3~=~14~~~~~~\alert {\leftarrow \text{Incorrect!}}</me>
@@ -509,7 +446,8 @@ Similarly,
 which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe three different people 2 dollars each, then you are 6 dollars in debt.</p>
 <p>Because multiplication is commutative, it is also true that <m>-2(3)=-6</m>. This example illustrates the following fact.</p>
 
-<assemblage><p>The product of a positive number and a negative number is a negative number.</p></assemblage> 
+<assemblage><title>Products</title>
+	<p>The product of a positive number and a negative number is a negative number.</p></assemblage> 
 
 <example><statement><p>You can use your calculator to verify the following products.<ol label="a" cols="2">
 	<li><m>(-4)(7)=-28</m></li>
@@ -519,18 +457,17 @@ which is <m>-6</m>, so <m>3(-2)=-6</m>.  Think in terms of money:  if you owe th
 <subsubsection><title>Case 2: The product of numbers with the same sign</title>
 <p>You know that the product of two positive numbers is positive. It is also true that the product of two negative numbers is positive.</p>  
 <p>To understand why the product of two negative numbers is positive, you might think of canceling, or subtracting, several debts of the same amount. Or, you could observe the pattern in the lists of products below.  As we move down the list, the product increases by equal amounts. 
-    <me>\begin{aligned}
-               3(-2) \amp =-6 \amp  3(-5) \amp =-15\\
-               2(-2) \amp =-4 \amp  2(-5) \amp =-10\\
-               1(-2) \amp =-2 \amp  1(-5) \amp =-5~~\amp \blert{\leftarrow \text{Positive times negative is negative.}}\\
-               0(-2) \amp =-0 \amp  0(-5) \amp =0\\
-               -1(-2) \amp =2 \amp  -1(-5) \amp =5~~\amp \blert{\leftarrow \text{Negative times negative is positive.}}\\
-               -2(-2) \amp =4 \amp  -2(-5) \amp =10\\
-               -3(-2) \amp =6 \amp  -3(-5) \amp =15                 
-                \end{aligned}</me>
+    <md><mrow>3(-2) \amp =-6 \amp  3(-5) \amp =-15</mrow>
+        <mrow>2(-2) \amp =-4 \amp  2(-5) \amp =-10</mrow>
+        <mrow>1(-2) \amp =-2 \amp  1(-5) \amp =-5~~\amp \blert{\leftarrow \text{Positive times negative is negative.}}</mrow>
+        <mrow>0(-2) \amp =-0 \amp  0(-5) \amp =0</mrow>
+        <mrow>-1(-2) \amp =2 \amp  -1(-5) \amp =5~~\amp \blert{\leftarrow \text{Negative times negative is positive.}}</mrow>
+        <mrow>-2(-2) \amp =4 \amp  -2(-5) \amp =10</mrow>
+        <mrow>-3(-2) \amp =6 \amp  -3(-5) \amp =15</mrow></md>                 
 Based on the pattern in these calculations, the following rule seems reasonable.</p>
 
-<assemblage><p>The product of two negative numbers is a positive number.</p></assemblage>
+<assemblage><title>More Products</title>
+	<p>The product of two negative numbers is a positive number.</p></assemblage>
 
 <example><statement><p>You can use your calculator to verify the following products.<ol label="a" cols="2">
 	<li><m>(-6)(-3)=18</m></li>
@@ -545,6 +482,7 @@ Based on the pattern in these calculations, the following rule seems reasonable.
 </subsection>
 
 <subsection><title>Dividing Signed Numbers</title>
+
 <p>Division is the inverse operation for multiplication. For example, we know that
 	<me>\dfrac{12}{3}=\alert{4}~~~~~~\text{because}~~~~~~3 \cdot \alert{4} = 12</me>
 Thus, every division fact can be converted into an equivalent multiplication fact. For example,
@@ -554,6 +492,7 @@ Note that the numerator in the division fact becomes the product in the multipli
 <example><statement><p>Rewrite each division fact as a multiplication fact.<ol label="a" cols="2">
 	<li><m>\dfrac{-144}{64}=-2.25</m></li>
 	<li><m>-36 \div \dfrac{-3}{8}=96</m></li></ol></p></statement>
+
 <solution><p>The numerator in each division fact becomes the product in the multiplication fact.<ol label="a" cols="2">
 	<li><m>-144=-2.25(64)</m></li>
 	<li><m>-36= \dfrac{-3}{8}(96)</m></li></ol></p></solution></example>
@@ -584,20 +523,21 @@ Note that the numerator in the division fact becomes the product in the multipli
 
 <assemblage><title>Standard Form for Fractions</title>
 <p>A negative fraction is written in <term>standard form</term> when the minus sign is in the numerator:  <m>\dfrac{-a}{b}</m>.
-<me>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</me>
+	<me>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</me>
 The standard form for a positive fraction has positive numerator and denominator.
-<me>\blert{\dfrac{a}{b}}=\dfrac{-a}{-b}</me></p></assemblage>
+	<me>\blert{\dfrac{a}{b}}=\dfrac{-a}{-b}</me></p></assemblage>
 </subsection>
 
 <subsection><title>Quotients Involving Zero</title>
+
 <p>	What is the meaning of an expression such as <m>\dfrac{0}{2}</m>? We can rewrite this quotient as an equivalent multiplication fact.
-<me>\dfrac{0}{2}=\alert{?}~~~~\text{is equivalent to}~~~~2 \cdot \alert{?} = 0</me> 
+	<me>\dfrac{0}{2}=\alert{?}~~~~\text{is equivalent to}~~~~2 \cdot \alert{?} = 0</me> 
 What number can we substitute for the question mark to make <m>~2 \cdot \alert{?} = 0~</m> a true statement? The only solution for this equation is <m>0</m>. Thus, replacing the question marks by <m>0</m> we have
-<me>\dfrac{0}{2}=\alert{0}~~~~\text{because}~~~~2 \cdot \alert{0} = 0</me>
+	<me>\dfrac{0}{2}=\alert{0}~~~~\text{because}~~~~2 \cdot \alert{0} = 0</me>
 In general, 0 divided by any (non-zero) number is 0.</p>
 
 <p>Now consider a quotient with zero in the denominator, such as <m>\dfrac{2}{0}</m>.
-<me>\dfrac{2}{0}=\alert{?}~~~~\text{is equivalent to}~~~~0 \cdot \alert{?} = 2</me>
+	<me>\dfrac{2}{0}=\alert{?}~~~~\text{is equivalent to}~~~~0 \cdot \alert{?} = 2</me>
 What number can we substitute for the question mark to make <m>~0 \cdot \alert{?} = 2~</m> a true statement? This equation has no solution, because 0 times any number is 0, not 2.  Thus, there is no answer for the division problem <m>\dfrac{2}{0}</m>. We say that the quotient <m>\dfrac{2}{0}</m> is <term>undefined</term>. In general, we cannot divide any number by zero.</p>
 
 <assemblage><title>Quotients Involving Zero</title>
@@ -614,12 +554,12 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-2-1"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
-<exercise number="1"><statement><p>Graph the numbers on the number line:  <m>0,~-3,~3,~\dfrac{1}{2},~\dfrac{-5}{3},~5\dfrac{1}{4}</m></p><sidebyside width="70%"><!--<image source="images/sw-2-1-1.png"><description>number line</description></image>-->
-    <image xml:id="sw-2-1-1">
-        <description>number line</description>
-        <latex-image>
+
+<exercise number="1"><statement><p>Graph the numbers on the number line:  <m>0,~-3,~3,~\dfrac{1}{2},~\dfrac{-5}{3},~5\dfrac{1}{4}</m></p>
+<sidebyside width="70%"><!--<image source="images/sw-2-1-1.png"><description>number line</description></image>-->
+    <image xml:id="sw-2-1-1"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -631,13 +571,30 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
         \foreach \x in  {-10, -5, ..., 10} {
          \draw[black, thick] (\x,.45) --++(0,-0.45)  node[below]   {$\x$};
         }
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
-<answer><sidebyside width="70%"><image xml:id="sw-2-1-1ans">
-        <description>number line</description>
-        <latex-image>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></statement></exercise>
+
+<exercise number="2"><statement><p>Graph the numbers on the number line:  <m>-4.5,~-2,~-1.4,~0.6,~2</m></p>
+<sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></statement>
+</exercise>
+
+<exercisegroup><introduction><p>Replace the comma in each pair by the proper symbol, <m>\lt,~\gt,~</m> or <m>=</m>.</p></introduction>
+
+<exercise number="3"><statement><p><ol label="a" cols="2">
+	<li><m>0,~-4</m></li>
+	<li><m>-5,~-9</m></li>
+	<li><m>-2\frac{5}{8}~,-2\frac{1}{8}</m></li>
+	<li><m>13.6,~13.66</m></li></ol></p></statement></exercise>
+
+<exercise number="4"><statement><p><ol label="a" cols="2">
+	<li><m>3,~-7</m></li>
+	<li><m>-1,~-6</m></li>
+	<li><m>-3~,-3\frac{3}{4}</m></li>
+	<li><m>-18.4,~-19.6</m></li></ol></p></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1">
+	<li><sidebyside width="70%"><image xml:id="sw-2-1-1ans"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -657,15 +614,8 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
          \filldraw[red] (0,0) circle (.15);
         \filldraw[red] (21/4,0) circle (.15) node[above, yshift=3, scale=.9] {$5\frac{1}{4}$};
          \end{tikzpicture}
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></answer></exercise>
-
-<exercise number="2"><statement><p>Graph the numbers on the number line:  <m>-4.5,~-2,~-1.4,~0.6,~2</m></p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></statement>
-<answer><sidebyside width="70%"><image xml:id="sw-2-1-2ans">
-        <description>number line</description>
-        <latex-image>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
+    <li><sidebyside width="70%"><image xml:id="sw-2-1-2ans"><description>number line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -681,40 +631,181 @@ What number can we substitute for the question mark to make <m>~0 \cdot \alert{?
          \filldraw[red] (\x,0) circle (.15) node[above, yshift=3, scale=.9] {$\x$};
         }
         \filldraw[red] (-2,0) circle (.15) node[below, yshift=-3, scale=.9] {$-2$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></answer></exercise>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
+    <li><p><ol label="a" cols="4">
+		<li><m>\gt</m></li>
+		<li><m>\gt</m></li>
+		<li><m>\lt</m></li>
+		<li><m>\lt</m></li></ol></p></li>
+	<li><p><ol label="a" cols="4">
+		<li><m>\gt</m></li>
+		<li><m>\gt</m></li>
+		<li><m>\gt</m></li>
+		<li><m>\gt</m></li></ol></p></li></ol></p>
+</subsubsection>
+</subsection>
 
-<exercisegroup><introduction><p>Replace the comma in each pair by the proper symbol, <m>\lt,~\gt,~</m> or <m>=</m>.</p></introduction>
+<subsection><title>Lesson</title>
 
-<exercise number="3"><statement><p><ol label="a" cols="2">
-	<li><m>0,~-4</m></li>
-	<li><m>-5,~-9</m></li>
-	<li><m>-2\frac{5}{8}~,-2\frac{1}{8}</m></li>
-	<li><m>13.6,~13.66</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="4">
-	<li><m>\gt</m></li>
-	<li><m>\gt</m></li>
-	<li><m>\lt</m></li>
-	<li><m>\lt</m></li></ol></p></answer></exercise>
+<subsubsection><title>Activity 1: Sums and Differences</title>
+<exercises>
 
-<exercise number="4"><statement><p><ol label="a" cols="2">
-	<li><m>3,~-7</m></li>
-	<li><m>-1,~-6</m></li>
-	<li><m>-3~,-3\frac{3}{4}</m></li>
-	<li><m>-18.4,~-19.6</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="4">
-	<li><m>\gt</m></li>
-	<li><m>\gt</m></li>
-	<li><m>\gt</m></li>
-	<li><m>\gt</m></li></ol></p></answer></exercise>
+<exercise><statement><p>Illustrate each sum on a number line, then give the answer.<ol label="a">
+	<li><p><m>2+4=</m></p>
+	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<li><p><m>(-4)+(-7)=</m></p>
+	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<li><p><m>(-6)+(-3)=</m></p>
+	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Illustrate each sum on a number line, then give the answer.<ol label="a">
+	<li><p><m>(+5)+(-3)=</m></p>
+	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<li><p><m>(-7)+(+2)=</m></p>
+	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<li><p><m>(-5)+(+9)=</m></p>
+	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Fill in the blanks.<ol label="a">
+	<li>The sum of two positive numbers is <fillin characters="12"/>.</li>                                      .
+	<li>The sum of two negative numbers is <fillin characters="12"/>.</li>                                       .
+	<li>To add two numbers with opposite signs, <fillin characters="12"/> their absolute values. The sum has the same sign as the number with the <fillin characters="12"/> absolute value.</li></ol></p></statement></exercise>
+
+<exercise><statement><p>Find the following sums.<ol label="a" cols="2">
+	<li><m>(-9)+(-9)</m></li>
+	<li><m>(-14)+(-11)</m></li>
+	<li><m>4+(-12)</m></li>
+	<li><m>15+(-9)</m></li>
+	<li><m>-6+(-3)</m></li>
+	<li><m>-8+(+3)</m></li>
+	<li><m>-7+19</m></li>
+	<li><m>18+(-10)</m></li>
+	<li><m>5+(-5)</m></li>
+	<li><m>-5+(-5)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Illustrate each sum on a number line, then give the answer.<ol label="a">
+	<li><p><m>2-(-6)=</m></p>
+	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<li><p><m>-7-(-4)=</m></p>
+	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li>
+	<li><p><m>-3-(-7)=</m></p>
+	<p><sidebyside width="70%"><image source="images/sw-2-1-1"><description>number line</description></image></sidebyside></p></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Rewrite each subtraction problem as an addition, then compute the answer.<ol label="a">
+	<li><m>3-(-9)=</m></li>
+	<li><m>-4-(-7)=</m></li>
+	<li><m>-8-(-2)=</m></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Products and Quotients</title>
+<exercises>
+
+<exercise><statement><p>Write the product <m>5(-4)</m> as a repeated addition, and compute the product.</p></statement></exercise>
+
+<exercise><statement><p>Compute the products.<ol label="a" cols="2">
+	<li><m>5(-4)</m></li>
+	<li><m>\dfrac{-3}{4} \cdot \dfrac{1}{2}</m></li>
+	<li><m>(-3)(-3)</m></li>
+	<li><m>\dfrac{-5}{3} \cdot \dfrac{-3}{10}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Use the relationship between products and quotients to complete each statement. No calculation is necessary!<ol label="a">
+	<li><p><m>\dfrac{8190}{26} = <fillin characters="6"/>~~</m> because <m>~~26 \cdot 315 = 8190</m></p></li>
+	<li><p><m>62 \cdot <fillin characters="6"/>=83.7~~</m> because <m>~~\dfrac{83.7}{62} = 1.35</m></p></li>
+</ol></p></statement></exercise>
+
+<exercise><statement><p>Find each quotient by rewriting the division as an equivalent multiplication fact.<ol label="a" cols="2">
+	<li><m>\dfrac{6}{3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
+	<li><m>\dfrac{6}{-3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
+	<li><m>\dfrac{-6}{3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
+	<li><m>\dfrac{-6}{-3} = \boxed{\hphantom{00}\vphantom{0000}}~~</m> because <fillin characters="8"/></li>
+</ol></p></statement></exercise>
+
+<exercise><statement><p>Compute the quotients.<ol label="a" cols="2">
+	<li><m>\dfrac{-25}{-5}</m></li>
+	<li><m>\dfrac{32}{-8}</m></li>
+	<li><m>-27 \div 9</m></li>
+	<li><m>-42 \div (-7)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Fill in the blanks.<ol label="a">
+	<li>The product or quotient of two numbers with the same sign is <fillin characters="8"/>.</li>
+	<li>The product or quotient of two numbers with opposite signs is <fillin characters="8"/>.</li></ol></p>
+</statement></exercise>
+
+<exercise><statement><p>Find the quotient if it exists.<ol label="a" cols="2">
+	<li><m>\dfrac{0}{18}</m></li>
+	<li><m>\dfrac{13}{0}</m></li>
+	<li><m>-9 \div 0</m></li>
+	<li><m>0 \div (-2)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+	<li><p>Use your calculator to verify that  <m>-\dfrac{2}{5} = \dfrac{-2}{5} = \dfrac{2}{-5}</m></p></li>
+	<li><p>Does <m>-\dfrac{2}{5} = \dfrac{-2}{-5}</m> ?</p></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Illustrating sums and differences on a number line</li>
+    <li>Performing operations on signed numbers</li>
+	<li>Writing a subtraction as an equivalent addition</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>Delbert says that "two negatives make a positive." For which operations is he correct, and for which is he incorrect?</li>
+	<li>How do we convert a subtraction of signed numbers into an addition? Give an example.</li>
+	<li><p>True or false:<ol label="a" cols="2"> 
+		<li><m>\dfrac{2}{-2} = 0</m></li>
+		<li><m>\dfrac{2}{0} = 0</m></li>
+		<li><m>-2-2 = 0</m></li>
+		<li><m>-2(-2) = 0</m></li></ol></p></li>	
+	<li>Does the negative sign in a fraction such as <m>~-\dfrac{5}{2}~</m> apply to the numerator, the denominator, or both?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercisegroup><introduction><p>Perform the operations.</p></introduction>
+
+<exercise><statement><p><ol lable="a" cols="2">
+	<li><m>8+(-4)</m></li>
+	<li><m>8-(-4)</m></li>
+	<li><m>-8-4</m></li>
+	<li><m>-8-(-4)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol lable="a" cols="2">
+	<li><m>8(-4)</m></li>
+	<li><m>-8(-4)</m></li>
+	<li><m>\dfrac{-8}{-4}</m></li>
+	<li><m>\dfrac{8}{-4}</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>Solve.</p></introduction>
+
+<exercise><statement><m>7+x=-8</m></statement></exercise>
+
+<exercise><statement><m>-2x=12</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-2-1">
-    <title>Answers to Skills Warm-Up</title>
-    <idx><h>answers</h><h>for Section 1.2 skills</h></idx>
-</solutions>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1">
+<li><p><ol label="a" cols="4">
+	<li><m>4</m></li>
+	<li><m>12</m></li>
+	<li><m>-12</m></li>
+	<li><m>-4</m></li></ol></p></li>
+<li><p><ol label="a" cols="4">
+	<li><m>-32</m></li>
+	<li><m>32</m></li>
+	<li><m>2</m></li>
+	<li><m>-2</m></li></ol></p></li>
+<li><m>-15</m></li>
+<li><m>-6</m></li></ol></p></subsubsection>
 </subsection>
+
+
 <xi:include href="./hmwk-2-1.xml" />
 </section>
