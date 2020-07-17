@@ -17,7 +17,7 @@
 
 <solution><p>The ratio of those supporting gun control to those opposed is 68 to 32, or <m>\dfrac{68}{32}</m>. This ratio reduces to <m>\dfrac{17}{8}</m>, or 17 to 8.</p></solution></example>
 
-<warning><p> When we write a ratio, it is important to notice which number is the numerator, and which is the denominator.  When we write "the ratio of <m>a</m> to <m>b</m>" as a fraction, <m>a</m> is the numerator and <m>b</m> is the denominator.</p></warning>
+<warning><p> When we write a ratio, it is important to notice which number is the numerator, and which number is the denominator.  When we write "the ratio of <m>a</m> to <m>b</m>" as a fraction, <m>a</m> is the numerator and <m>b</m> is the denominator.</p></warning>
 
 <p>In <xref ref="Example-3-2-1" text="type-global"/>, we could also compute the ratio of opponents to supporters of the gun control law. In that case, the answer would be <m>\dfrac{32}{68}</m> or <m>\dfrac{8}{17}</m>, the reciprocal of the answer to Example 1.</p>
 
@@ -260,7 +260,7 @@ where <m>k</m> is the <term>constant of proportionality</term>.</p></assemblage>
    <li>What was the ratio of smokers to nonsmokers?</li>
     <li> Write the ratio in simplest form.</li></ol></p></statement></exercise>
 
-<exercise><statement><p>Major Motors budgeted $5.6 million for research and development (R&D) next year and $3.5 million for advertising.  What is the ratio of the amount budgeted for advertising to the amount budgeted for R&D</p></statement></exercise>
+<exercise><statement><p>Major Motors budgeted $5.6 million for research and development (R&amp;D) next year and $3.5 million for advertising.  What is the ratio of the amount budgeted for advertising to the amount budgeted for R&amp;D</p></statement></exercise>
 
 <exercise><statement><p>Bita made $240 for 25 hours of work last week.  Express her rate of pay as a ratio, and then as a rate.</p></statement></exercise>
 </exercises>
@@ -282,8 +282,198 @@ where <m>k</m> is the <term>constant of proportionality</term>.</p></assemblage>
 <subsubsection><title>Activity 3: Proportional Variables</title>
 
 <exercises>
-<exercise><statement><p>
+<exercise><statement><sidebyside widths = "55% 40%"><p>The table below shows the price, <m>p</m>, for <m>q</m> quarts of SereniTea. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{Price}}{\text{Quarts}}</m> for each data point.
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Quarts</cell>
+                        <cell>Total Price</cell>
+                        <cell><m>\dfrac{\text{Price}}{\text{Quarts}}</m></cell></row>
+                    <row> 
+                        <cell><m>4</m></cell>
+                        <cell>$6.00</cell>
+                        <cell><m>\dfrac{6.00}{4} = ?</m></cell></row>
+                    <row>
+                        <cell><m>6</m></cell>
+                         <cell>$9.00</cell>
+                         <cell><m>\dfrac{9.00}{6} = ?</m></cell></row>
+                    <row>     
+                        <cell><m>9</m></cell>
+                        <cell>$13.50</cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>12</m></cell>
+                        <cell>$18.00</cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>    
+                        <cell><m>15</m></cell>
+                        <cell>$22.50</cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p>
+        <image source="images/act-3-2-1.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
 
+<exercise><statement><sidebyside widths = "55% 40%"><p>The table below shows the population, <m>P</m>, of a new suburb <m>t</m> years after it was built. Plot the data on the grid. Then compute the ratio <m>\dfrac{\text{People}}{\text{Year}}</m> for each data point.
+
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Years</cell>
+                        <cell>Population</cell>
+                        <cell><m>\dfrac{\text{People}}{\text{Year}}</m></cell></row>
+                    <row> 
+                        <cell><m>1</m></cell>
+                        <cell>10</cell>
+                        <cell><m>\dfrac{10}{1} = ?</m></cell></row>
+                    <row>
+                        <cell><m>2</m></cell>
+                         <cell>20</cell>
+                         <cell><m>\dfrac{20}{2} = ?</m></cell></row>
+                    <row>     
+                        <cell><m>3</m></cell>
+                        <cell>40</cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>4</m></cell>
+                        <cell>80</cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>    
+                        <cell><m>5</m></cell>
+                        <cell>160</cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p>
+        <image source="images/act-3-2-2.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+
+<exercise><statement><p>At this point, can you make a conjecture (educated guess) about the graphs of proportional variables? To help you decide if your conjecture is true, continue with the graphs in parts 4 and 5.</p>
+<p><m>\blert{\text{Conjecture:}}</m></p></statement></exercise>
+
+<exercise><statement><p>Tuition at Woodrow University is $400 plus $30 per unit.</p>
+<sidebyside widths = "50% 45%" valigns="middle middle"><stack><p><ol label="a">
+    <li><p>Write an equation for tuition, <m>T</m>, in terms of the number of units, <m>u</m>.
+        <me>T=\hphantom{0000}</me></p></li>
+    <li><p>Use your equation to fill in the second column of the table.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Units</cell>
+                        <cell>Tuition</cell>
+                        <cell><m>\dfrac{\text{Tuition}}{\text{Units}}</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>5</m></cell>
+                         <cell><m>\hphantom{0000}</m></cell>
+                         <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>     
+                        <cell><m>8</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>    
+                        <cell><m>12</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li>Graph the equation on the grid.</li>
+    <li>Are the variables proportional? Compute their ratios to decide.</li></ol></p></stack>
+    <image source="images/act-3-2-3.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+
+<exercise><statement><p>Anouk is traveling by train across Alaska at 60 miles per hour.</p>
+<sidebyside widths = "50% 45%" valigns="middle middle"><stack><p><ol label="a">
+    <li><p>Write an equation for the distance, <m>D</m>, Anouk has traveled in terms of hours, <m>h</m>.
+        <me>D=\hphantom{0000}</me></p></li>
+    <li><p>Use your equation to fill in the second column of the table.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell>Hours</cell>
+                        <cell>Distance</cell>
+                        <cell><m>\dfrac{\text{Distance}}{\text{Hours}}</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>5</m></cell>
+                         <cell><m>\hphantom{0000}</m></cell>
+                         <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>     
+                        <cell><m>8</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row>    
+                        <cell><m>16</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li>Graph the equation on the grid.</li>
+    <li>Are the variables proportional? Compute their ratios to decide.</li></ol></p></stack>
+    <image source="images/act-3-2-4.png"><description>grid</description></image></sidebyside>
+</statement></exercise>
+
+<exercise><statement><p>Revise your conjecture about the graphs of proportional variables so that it applies to the graphs on this page as well.</p>
+<p> Hint: Look at the two graphs of proportional variables. What is the <m>y</m>-intercept of both graphs?</p>
+<p><m>\blert{\text{Revised Conjecture:}}</m></p></statement></exercise>
+
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Comparing two quantities with a ratio or rate</li>
+    <li>Solving a proportion</li>
+    <li>Writing a proportion to model a problem</li>
+    <li>Recognizing proportional variables</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, Problem 2, did you express the ratio as a common fraction or as a decimal fraction?  Why?</li>
+    <li>In Activity 2, Problem 3, did you use miles or gallons in the numerators of your ratios?  Could you have used the other unit?</li>
+    <li>In Activity 3, what did you learn about the graphs of proportional variables?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+
+<subsection><title>Homework Preview</title>
+<exercises>
+
+<exercise><statement><p>A cake recipe asks for <m>2\frac{1}{2}</m> cups of flour and <m>\frac{3}{4}</m> cup of brown sugar. What is the ratio of flour to brown sugar?</p></statement></exercise>
+
+<exercise><statement><p>Decide whether the two variables are proportional: 
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>16</m></cell></row>
+                    <row> 
+                        <cell><m>y</m></cell>
+                        <cell><m>3.2</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>16</m></cell>
+                        <cell><m>25.6</m></cell></row>
+                    </tabular></sidebyside></p></statement></exercise>
+
+<exercise><statement><p>Write and solve a proportion to answer the question:</p>
+
+<p>On a map of Chesterfield County, 1 inch represents <m>4\frac{1}{2}</m> miles. If Richmond and Petersburg are <m>6\frac{2}{3}</m> inches apart on the map, what is the actual distance between the two towns?</p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="3">
+    <li><m>\dfrac{10}{3}</m></li>
+    <li>Yes</li>
+    <li><m>\dfrac{1}{9/2} = \dfrac{20/3}{x};~~</m> 30 mi</li></ol></p>
+</subsubsection>
 
 </subsection>
 <xi:include href="./hmwk-3-2.xml" />
