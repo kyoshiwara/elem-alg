@@ -471,27 +471,178 @@ Be sure to include units with your ratios!</p>
 
 <assemblage><p>An increasing quantity has a positive rate of change, or slope, and a decreasing quantity has a negative rate of change. </p></assemblage>
 
-<assemblage><p>When we move to the right on a graph, <m>\Delta x</m> is positive.</p>
-    <p>When we move to the left, <m>\Delta x</m> is negative.</p>
-    <p>When we move up on a graph, <m>\Delta y</m> is positive.</p>           
-    <p>When we move down, <m>\Delta y</m> is negative.</p></assemblage>
+<assemblage><p><ul>
+    <li>When we move to the right on a graph, <m>\Delta x</m> is positive.</li>
+    <li>When we move to the left, <m>\Delta x</m> is negative.</li>
+    <li>When we move up on a graph, <m>\Delta y</m> is positive.</li>           
+    <li>When we move down, <m>\Delta y</m> is negative.</li></ul></p></assemblage>
 
 <exercises>
 
 <exercise><statement><p>The value of new office equipment decreases, or depreciates, over time. The graph shows the value, <m>V</m>, in thousands of dollars, of a large copy machine <m>t</m> years after it was purchased.<ol label="a">
     <li><p>Compute the slope of the line by moving from point <m>A</m> to point <m>B</m>.</p>
-    <sidebyside widths = "40% 40%" ><image source="images/act-3-3-2.png"><description>grid</description></image>
+    <sidebyside widths = "47% 50%" ><image source="images/act-3-3-2.png"><description>grid</description></image>
         <image source="images/act-3-3-3.png"><description>grid</description></image></sidebyside></li>
     <li>What does the slope tell you about the value of the machine?</li>
-    <li>Compute the slope of the line by moving from point <m>B</m> to point <m>A</m>.</li></ol></p>
-<sidebyside widths = "40% 40%" ><image source="images/act-3-3-2.png"><description>grid</description></image>
-        <image source="images/act-3-3-3.png"><description>grid</description></image></sidebyside></statement>
+    <li>Compute the slope of the line by moving from point <m>B</m> to point <m>A</m>.</li></ol></p></statement>
 </exercise>
 
+<exercise><statement><p>Find the slope of each line segment. Verify that you get the same answer if you move in the opposite direction. (Each square counts for one unit.)</p>
+    <sidebyside><image source="images/act-3-3-4.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+
+<assemblage><p>It doesn't matter which direction we move along a line to compute its slope; the answer will be the same.</p></assemblage>
 </exercises>
 </subsubsection>
 
+<subsubsection><title>Activity 2: Negative Slopes</title>
 
+<p>How do we know which two points to choose when we want to compute the slope of a line? It turns out that any two points on the line will do.</p>
+
+<exercises>
+<exercise><statement><p>Calculate the slope of the line <m>~y=\dfrac{2}{3}x-2~</m> shown in the figure:</p>
+    <sidebyside width="45%"><image source="images/act-3-3-5.png"><description>grid</description></image></sidebyside>
+<p><ol label="a">
+    <li>By using the points <m>P(-3,-4)</m> and <m>Q(3,0)</m>.</li>
+    <li>By using the points <m>R(6,2)</m> and <m>S(0,-2)</m>.</li>
+    <li>Do you get the same value for the slope in each case?</li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+    <li><sidebyside widths="45% 40%" valigns="middle middle"><p>Graph the line 
+        <me>4x-2y=8</me>    
+        by finding the <m>x</m>- and <m>y</m>-intercepts.
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>y</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>0</m></cell></row>
+        </tabular></p>
+        <image source="images/act-3-3-6.png"><description>grid</description></image></sidebyside></li>
+    <li><p>Compute the slope of the line using the <m>x</m>- and <m>y</m>-intercepts.
+        <me>m = \dfrac{\Delta y}{\Delta x} = \hphantom{0000}</me></p></li>
+    <li><p>Compute the slope of the line using the points <m>(4,4)</m> and <m>(1,-2)</m>
+        <me>m = \dfrac{\Delta y}{\Delta x} = \hphantom{0000}</me></p></li></ol></p></statement></exercise>
+</exercises>
+
+<assemblage><p>No matter which two points we use to calculate the slope of a line, we will always get the same result.</p>
+</assemblage>
+</subsubsection> 
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Computing the slope of a line</li>
+    <li>Interpreting the slope as a rate of change</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, which of the four graphs was not a straight line?</li>
+    <li>What does the sign of the slope tell you about the graph?</li>
+    <li>Delbert says that if both intercepts of a line are positive, then the slope is positive also. Is he correct?  Explain why or why not.</li></ol></p></assemblage>
+</subsubsection>
 </subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+
+<exercisegroup cols="2"><introduction><p>Use the intercepts to find the slope of the line. Illustrate the slope on the graph.</p></introduction>
+
+<exercise><statement><p><m>5x-3y=15</m></p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+
+                    <row><cell bottom="minor"><m>y</m></cell>
+                    <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                    <cell bottom="minor"><m>0</m></cell></row>
+        </tabular></sidebyside>
+        <p><m>m=\hphantom{0000}</m></p>
+    <sidebyside><image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+
+<exercise><statement><p><m>y=\dfrac{3}{4}x-6</m></p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+
+                    <row><cell bottom="minor"><m>y</m></cell>
+                    <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                    <cell bottom="minor"><m>0</m></cell></row>
+        </tabular></sidebyside>
+        <p><m>m=\hphantom{0000}</m></p>
+    <sidebyside><image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+
+<exercise><statement><p><m>\dfrac{x}{6}+\dfrac{y}{8} = 1</m></p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+
+                    <row><cell bottom="minor"><m>y</m></cell>
+                    <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                    <cell bottom="minor"><m>0</m></cell></row>
+        </tabular></sidebyside>
+        <p><m>m=\hphantom{0000}</m></p>
+    <sidebyside><image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+
+<exercise><statement><p><m>x+\dfrac{2}{3}y+4=0</m></p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">      
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+
+                    <row><cell bottom="minor"><m>y</m></cell>
+                    <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                    <cell bottom="minor"><m>0</m></cell></row>
+        </tabular></sidebyside>
+        <p><m>m=\hphantom{0000}</m></p>
+    <sidebyside><image source="images/hp-4-5-17.png"><description>grid</description></image></sidebyside></statement>
+</exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>Plot the points and find the slope of the line between them.</p></introduction>
+
+<exercise><statement><p><m>(-2,8)</m> and <m>(4,-6)</m></p>
+    <sidebyside><image source="images/cr2-44.png"><description>grid</description></image></sidebyside>
+<p><m>m=\hphantom{0000}</m></p></statement>
+</exercise>
+
+<exercise><statement><p><m>(-7,-3)</m> and <m>(5,9)</m></p>
+    <sidebyside><image source="images/cr2-44.png"><description>grid</description></image></sidebyside>
+<p><m>m=\hphantom{0000}</m></p></statement>
+</exercise>
+</exercisegroup>
+
+<exercise><statement><p>If <m>m=\dfrac{4}{5}</m>, and <m>\Delta x = -6</m>, find <m>\Delta y</m>.</p></statement></exercise>
+
+<exercise><statement><p>If <m>m=\dfrac{-3}{2}</m>, and <m>\Delta y = 6</m>, find <m>\Delta x</m>.</p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="3">
+    <li><m>m=\dfrac{5}{3}</m></li>
+    <li><m>m=\dfrac{3}{4}</m></li>
+    <li><m>m=\dfrac{-4}{3}</m></li>
+    <li><m>m=\dfrac{-3}{2}</m></li>
+    <li><m>m=\dfrac{-7}{3}</m></li>
+    <li><m>m=1</m></li>
+    <li><m>\Delta y = \dfrac{-24}{5}</m></li>
+    <li><m>\Delta x=-4</m></li></ol></p>
+</subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-3-3.xml" />
 </section>
