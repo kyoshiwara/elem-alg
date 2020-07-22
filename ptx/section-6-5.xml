@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="The-Quadratic-Formula" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>The Quadratic Formula</title>
+<section xml:id="The-Quadratic-Formula" xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Quadratic Formula</title>
 
 <subsection>
 <sidebyside widths="65% 30%" valigns="middle middle"><p>The graph of the equation
@@ -10,9 +9,7 @@
 is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at approximately 1.5 and 3.5. To find their exact values, we must solve the equation
 	<me>x^2+2x-5=0</me></p>
 <!--<image source="images/fig-6-5-1.png"><description>parabola</description></image>-->
-    <image xml:id="ig-6-5-1">
-        <description>triangle</description>
-        <latex-image>
+    <image xml:id="ig-6-5-1"><description>triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -29,18 +26,16 @@ is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at 
 	\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
 	}
 	\draw[samples=65,domain=-5:3,smooth,variable=\x,red!80!black, very thick, <->, >=stealth'] plot ({\x},{((\x)^2 +2*\x-5)/2});
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 	
 <p>But, as you can check, the trinomial <m>x^2+2x-5</m> cannot be factored.</p>	
 <p>So far we know two methods for solving quadratic equations:  extracting roots and factoring. Neither of these methods applies to every quadratic equation. In this Lesson we consider a technique that works on all quadratic equations.</p>
 </subsection>
 
 <subsection><title>Using the Quadratic Formula</title>
+
 <p>The graph of the quadratic equation  
-<me>y=ax^2+bx+c</me>
+	<me>y=ax^2+bx+c</me>
 depends upon its coefficients, <m>a,~b,</m> and <m>c</m>. In particular, the <m>x</m>-intercepts of the graph are determined by the values of these coefficients. In fact, there is a formula that uses the coefficients to calculate the solutions of the equation <m>ax^2+bx+c=0</m>.  It is called the <term>quadratic formula</term>.</p>
 
 <assemblage><title>The Quadratic Formula</title>
@@ -55,6 +50,7 @@ are given by the formula
 
 <example><statement><p> Use the quadratic formula to solve the equation 
 		<me>x^2+2x-5=0</me></p></statement>
+
 <solution><p>We first identify the coefficients <m>a,~b,</m> and <m>c</m>:
 	<me>a=1,~~b=2,~~c=-5</me>
 We substitute the values of <m>a,~b,</m> and <m>c</m> into the quadratic formula, and simplify according to the order of operations. We start with the expression under the radical.
@@ -111,14 +107,13 @@ These values are very close to our estimates from the graph.</p></solution></exa
 </subsection>
 
 <subsection><title>Non-Real Solutions</title>
+
 <sidebyside widths="60% 30%"><p>The graph of 
 	<me>y=x^2-4x+5</me>
 has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, we can use the quadratic formula to solve the equation
 	<me>x^2-4x+5=0</me></p>
 <!--<image source="images/fig-6-5-2.png"><description>parabola</description></image>-->
-    <image xml:id="fig-6-5-2">
-        <description>parabola with no x-intercepts</description>
-        <latex-image>
+    <image xml:id="fig-6-5-2"><description>parabola with no x-intercepts</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -135,10 +130,7 @@ has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, 
 		\draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
 		}
 		\draw[samples=65,domain={2-sqrt(5)}:{2+sqrt(5)},smooth,variable=\x,red!80!black, very thick, <->, >=stealth'] plot (\x,{((\x-2)^2 +1});
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>Applying the formula with <m>a=1,~b=-4,</m> and <m>c=5</m>, we find
 	<md><mrow>x =\dfrac{-b \pm \sqrt{b^2-4ac}}{2a} \amp = \dfrac{-(-4) \pm \sqrt{(-4)^2-4(1)(5)}}{2(1)}</mrow>
@@ -187,32 +179,128 @@ We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-6-5"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Solve each equation by the easiest method.</p></introduction>
 
-<exercise number="1"><statement><m>x^2=36</m></statement>
-<answer><p><m>6,~-6</m></p></answer></exercise>
+<exercise number="1"><statement><m>x^2=36</m></statement></exercise>
 
-<exercise number="2"><statement><m>x^2-9x=36</m></statement>
-<answer><p><m>12,~-3</m></p></answer></exercise>
+<exercise number="2"><statement><m>x^2-9x=36</m></statement></exercise>
 
-<exercise number="3"><statement><m>x^2-9x=0</m></statement>
-<answer><p><m>0,~9</m></p></answer></exercise>
+<exercise number="3"><statement><m>x^2-9x=0</m></statement></exercise>
 
-<exercise number="4"><statement><m>9x^2-36=0</m></statement>
-<answer><p><m>2,~-2</m></p></answer></exercise>
+<exercise number="4"><statement><m>9x^2-36=0</m></statement></exercise>
 
-<exercise number="5"><statement><m>3x^2-24x-36=0</m></statement>
-<answer><p><m>2,~6</m></p></answer></exercise>
+<exercise number="5"><statement><m>3x^2-24x-36=0</m></statement></exercise>
 
-<exercise number="6"><statement><m>3x^2=31x-36</m></statement>
-<answer><p><m>\dfrac{4}{3},~9</m></p></answer></exercise>
+<exercise number="6"><statement><m>3x^2=31x-36</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-6-5">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+	<li><m>6,~-6</m></li>
+	<li><m>12,~-3</m></li>
+	<li><m>0,~9</m></li>
+	<li><m>2,~-2</m></li>
+	<li><m>2,~6</m></li>
+	<li><m>\dfrac{4}{3},~9</m></li></ol></p></subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Using the Quadratic Formula</title>
+<exercises>
+
+<exercise><statement><p><ol label="a">
+	<li><p>Use the quadratic formula to solve <m>~~2x^2=7-4x</m></p>
+
+	<p><m>\blert{\text{Write the equation in standard form. }}</m></p>
+
+	<p><m>\blert{\text{Identify the coefficients.}~~a =<fillin characters="6"/>,~~b=<fillin characters="6"/>,~~c=<fillin characters="6"/>}</m></p>
+
+	<p><m>\blert{\text{Substitute the values of} ~a,~b,~\text{and}~c~\text{into the quadratic formula:}}</m>
+		<me>x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}=\hphantom{000000000000000000000000000000}</me></p>
+
+	<p><m>\blert{\text{Simplify the expression.}}</m></p></li>
+	
+	<li><p>Find decimal approximations to two decimal places for the solutions.</p>
+	
+	<p><m>\blert{\text{Use a calculator to approximate each solution.}}</m></p></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+	<li><p>Solve the equation <m>~~x^2-\dfrac{x}{3} = \dfrac{4}{3}~~</m>  by factoring. (Hint:  Clear the fractions first!)</p></li>
+	<li>Solve the same equation using the quadratic formula.</li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Application to Graphing</title>
+<exercises>
+
+<exercise><statement><p><ol label="a">
+	<li><p>Here are equations for three parabolas.  Factor each formula if possible.<ol label="i">
+		<li><m>y=x^2-4x+3</m></li>
+		<li><m>y=x^2-4x+4</m></li>
+		<li><m>y=x^2-4x+5</m></li></ol></p></li>
+	<li><sidebyside widths="50% 30%"><p>Match each equation from part (a) with one of the graphs shown.  Explain your reasoning.</p>
+	<image source="images/act-6-5-1.png"><description>grid</description></image></sidebyside></li></ol></p>
+</statement></exercise>
+
+<exercise><statement><p>Find the <m>x</m>-intercepts of each parabola.<ol label="a" cols="2">
+	<li><m>y=-x^2+2x-1</m></li>
+	<li><m>y=2x^2+4x+3</m></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Using the quadratic formula to solve equations</li>
+	<li>Solving applied problems using the quadratic formula</li>
+	<li>Using the quadratic formula to find the <m>x</m>-intercepts of a parabola</li>
+	<li>Determining how many <m>x</m>-intercepts the graph has</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, can we simplify <m>\sqrt{b^2-4ac}</m> to <m>\sqrt{b^2} - \sqrt{4ac}</m>?</li>
+	<li>In Activity 1, Problem 2, why is it helpful to clear fractions from the equation before applying the quadratic formula?</li>
+	<li>In Activity 2, Problem 2, how can we find the <m>x</m>-intercepts if the equation does not factor?</li>
+</ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p>Solve. Give your answers as:<ol label="a">
+	<li>exact values.</li>
+	<li>approximations to three decimal places.</li></ol></p></introduction>
+
+<exercise><statement><m>x^2+2x-2=0</m></statement></exercise>
+
+<exercise><statement><m>2x^2-3x=1</m></statement></exercise>
+
+<exercise><statement><m>\dfrac{x^2}{4} - \dfrac{2x}{3} + \dfrac{1}{3} = 0</m></statement></exercise>
+
+<exercise><statement><m>3x^2+8x+6=0</m></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1" cols="2">
+	<li><p><ol label="a">
+		<li><m>\dfrac{-2 \pm \sqrt{12}}{2}</m></li>
+		<li><m>-2.732,~0.732</m></li></ol></p></li>
+	<li><p><ol label="a">
+		<li><m>\dfrac{3 \pm \sqrt{17}}{4}</m></li>
+		<li><m>-0.281,~1.781</m></li></ol></p></li>
+	<li><p><ol label="a">
+		<li><m>2, ~\dfrac{2}{3}</m></li>
+		<li><m>2,~0.667</m></li></ol></p></li>
+	<li><p><ol label="a">
+		<li>No real solutions</li></ol></p></li></ol></p></subsubsection>
+</subsection>
+
+
 <xi:include href="./hmwk-6-5.xml" />
 </section>
