@@ -413,7 +413,7 @@ the same answer as before. The order of the points does not matter, but we must 
 <subsubsection><title>Activity 3: Slope</title>
 
 <exercises>
-<exercise><statement><sidebyside widths="40% 40%" valigns = "middle middle>"><p>Compute the slope of the line segment joining <m>A</m> and <m>C</m> in two ways:</p>
+<exercise><statement><sidebyside widths="40% 40%" valigns = "middle middle"><p>Compute the slope of the line segment joining <m>A</m> and <m>C</m> in two ways:</p>
 <image source="images/act-3-5-2.png"><description>line segment</description></image></sidebyside>
 <p><ol label="a">
     <li><p>Using the graph.</p>
@@ -430,7 +430,7 @@ the same answer as before. The order of the points does not matter, but we must 
         <p>Do you get the same answers for parts (a) and (b)?  You should!</p></li></ul></p></li></ol></p></statement>
 </exercise>
 
-<exercise><statement><sidebyside widths="40% 40%" valigns = "middle middle>"><p>Follow the steps to compute the slope of the line segment joining <m>H</m> and <m>K</m>.</p>
+<exercise><statement><sidebyside widths="40% 40%" valigns = "middle middle"><p>Follow the steps to compute the slope of the line segment joining <m>H</m> and <m>K</m>.</p>
 <image source="images/act-3-5-3.png"><description>line segment</description></image></sidebyside>
 <p><ol label="a">
     <li><p>Step 1 Let <m>H</m> be the first point and <m>K</m> the second point. Write down their coordinates.
