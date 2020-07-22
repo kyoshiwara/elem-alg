@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Using-Formulas" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Using Formulas</title>
+<section xml:id="Using-Formulas" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Using Formulas</title>
 
 <subsection><title>Volume and Surface Area</title>
 <p>In Section 5.1 we used exponents to calculate the area of a square and the volume of a cube.</p>
 
-<assemblage><p><ul>
+<assemblage><title>Volume and Surface Area</title><p><ul>
 	<li><term>Volume</term> is the amount of space contained within a three-dimensional object. It is measured in cubic units, such as cubic feet or cubic centimeters.</li>  
 	<li><term>Surface area</term> is the sum of the areas of all the faces or surfaces that contain a solid. It is measured in square units.</li></ul></p></assemblage>
 
@@ -35,6 +34,7 @@ The tank holds approximately 33.5 cubic feet of beer, or about 251 gallons.</p><
 </subsection>
 
 <subsection><title>Solving Equations with <m>x^2</m></title>
+
 <p>Taking a square root is the opposite of squaring a number. Thus, we can undo the squaring operation by taking square roots.  For example, to solve the equation
 	<me>x^2=64</me>
 we take the square root of each side. Saying that <m>x^2</m> equals 64 is the same as saying that <m>x</m> is a square root of 64. Remember that every positive number has two square roots, so we write
@@ -61,6 +61,7 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 </subsection>
 
 <subsection><title>Pythagorean Theorem</title>
+
 <p>A triangle in which one of the angles is a right angle, or <m>90 \degree</m>, is called a <term>right triangle</term>.  The side opposite the right angle is the longest side of the triangle, and is called the <term>hypotenuse</term>. The other two sides of the triangle are called the <term>legs</term>.</p> 		
 	
 <p>If we know the lengths of any two sides of a right triangle, we can find the third side using a formula called the Pythagorean Theorem. We use the variable <m>c</m> for the length of the hypotenuse, and the lengths of the legs are denoted by <m>a</m> and <m>b</m> (it doesn't matter which is which).</p>
@@ -69,9 +70,7 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 <sidebyside widths="60% 25%"><p>If <m>c</m> stands for the length of the hypotenuse of a right triangle, and the lengths of the two legs are represented by <m>a</m> and <m>b</m>, then
 <me>a^2 + b^2 = c^2</me></p><!--                  
 <image source="images/fig-5-3-2.png"><description>triangle</description></image>-->
-    <image xml:id="fig-5-3-2">
-        <description>right triangle</description>
-        <latex-image>
+    <image xml:id="fig-5-3-2"><description>right triangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -82,10 +81,7 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 		\node[below, yshift=-3] at ({\a/2},0) {$a$};
 		\node[right, xshift=3] at (\a,{\b/2}) {$b$};
 		\node[above left] at ({\a/2},{\b/2}) {$c$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></assemblage>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></assemblage>
 
 <p>The Pythagorean theorem says that the square of the hypotenuse of a right triangle is equal to the sum of the squares of the two legs.</p>
 
@@ -110,10 +106,11 @@ We use a calculator to evaluate the square root and find that the width of the r
 </subsection>
 
 <subsection><title>Solving for One Variable</title>
+
 <p>In the formula in <xref ref="Example-5-3-4" text="type-global"/>, the variable <m>P</m> occurs more than once.  We substitute the value for <m>P</m> each time it occurs.</p>
 
 <example xml:id="Example-5-3-4"><statement><p>If a principal of <m>P</m> dollars is invested at interest rate <m>r</m>, the formula 
-<me>A = P + Prt</me>   
+	<me>A = P + Prt</me>   
 gives the amount of money in an account after <m>t</m> years. (The "amount," <m>A</m>, is the original principal plus the interest earned.) How long will it take an investment of $5000 to grow to $7000 in an account that pays 6% interest?</p></statement>
 
 <solution><p>We substitute <m>\alert{7000}</m> for <m>A</m>, <m>\alert{5000}</m> for <m>P</m>, and <m>\alert{0.065}</m> for <m>r</m> in the formula, and then solve the resulting equation for <m>t</m>. 
@@ -141,51 +138,160 @@ We now have a new formula for <m>t</m> in terms of the other variables.</p></sol
 <warning><p>In the expression <m>P+Prt</m> in <xref ref="Example-5-3-5" text="type-global"/>, the terms <m>P</m> and <m>Prt</m> are not like terms. They cannot be combined.</p></warning>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-5-3"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Follow the order of operations to simplify.</p></introduction>
 
-<exercise number="1"><statement><m>3(-5)^2-2^3</m></statement>
-<answer><m>-23</m></answer></exercise>
+<exercise number="1"><statement><m>3(-5)^2-2^3</m></statement></exercise>
 
-<exercise number="2"><statement><m>6(7-4)^2</m></statement>
-<answer><m>54</m></answer></exercise>
+<exercise number="2"><statement><m>6(7-4)^2</m></statement></exercise>
 
-<exercise number="3"><statement><m>-6-2 \cdot 4^2</m></statement>
-<answer><m>-38</m></answer></exercise>
+<exercise number="3"><statement><m>-6-2 \cdot 4^2</m></statement></exercise>
 
-<exercise number="4"><statement><m>(5-3)^4(3-6)^3</m></statement>
-<answer><m>-432</m></answer></exercise>
+<exercise number="4"><statement><m>(5-3)^4(3-6)^3</m></statement></exercise>
 
-<exercise number="5"><statement><m>4(4-4^2)</m></statement>
-<answer><m>-48</m></answer></exercise>
+<exercise number="5"><statement><m>4(4-4^2)</m></statement></exercise>
 
-<exercise number="6"><statement><m>-3(-2)^2-5</m></statement>
-<answer><m>-17</m></answer></exercise>
+<exercise number="6"><statement><m>-3(-2)^2-5</m></statement></exercise>
 
-<exercise number="7"><statement><m>-(3 \cdot 2)^2-5</m></statement>
-<answer><m>-41</m></answer></exercise>
+<exercise number="7"><statement><m>-(3 \cdot 2)^2-5</m></statement></exercise>
 
-<exercise number="8"><statement><m>3-4(-2)^3(-3)</m></statement>
-<answer><m>-93</m></answer></exercise>
+<exercise number="8"><statement><m>3-4(-2)^3(-3)</m></statement></exercise>
 
-<exercise number="9"><statement><m>\dfrac{-5^2+1}{4}+\dfrac{2(-3)^3}{-6}</m></statement>
-<answer><m>3</m></answer></exercise>
+<exercise number="9"><statement><m>\dfrac{-5^2+1}{4}+\dfrac{2(-3)^3}{-6}</m></statement></exercise>
 
-<exercise number="10"><statement><m>\dfrac{2^2(-3^2)}{1-3^2}-\dfrac{7^2-6^2}{(1-3)^2}</m></statement>
-<answer><m></m>\dfrac{5}{4}</answer></exercise>
+<exercise number="10"><statement><m>\dfrac{2^2(-3^2)}{1-3^2}-\dfrac{7^2-6^2}{(1-3)^2}</m></statement></exercise>
 
-<exercise number="11"><statement><m>\dfrac{3^3-3}{(3-5)^3}-\dfrac{2(-2)^2-8}{-2^2(8-2^2)}</m></statement>
-<answer><m>\dfrac{-9}{2}</m></answer></exercise>
+<exercise number="11"><statement><m>\dfrac{3^3-3}{(3-5)^3}-\dfrac{2(-2)^2-8}{-2^2(8-2^2)}</m></statement></exercise>
 
 <exercise number="12"><statement><m>3 \cdot \dfrac{5^3-(-10)^2}{3^2-3(5)} \cdot \dfrac{2^5+4}{3^2-2^2}</m></statement>
-<answer><m>-90</m></answer></exercise>
+</exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-5-3">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="4">
+    <li><m>-23</m></li>
+    <li><m>54</m></li>
+    <li><m>-38</m></li>
+    <li><m>-432</m></li>
+    <li><m>-48</m></li>
+    <li><m>-17</m></li>
+    <li><m>-41</m></li>
+    <li><m>-93</m></li>
+    <li><m>3</m></li>
+    <li><m>\dfrac{5}{4}</m></li>
+	<li><m>\dfrac{-9}{2}</m></li>
+	<li><m>-90</m></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Volume and Surface Area</title>
+<exercises>
+<exercisegroup><introduction><p>Illustrate each problem with a sketch.</p></introduction>
+
+<exercise><statement><p><ol label="a">
+	<li>Find the area of a square that measures 8 inches on a side.</li>
+	<li>Find the volume of a cube whose base is the square in part (a).</li></ol></p></statement></exercise>	
+
+<exercise><statement><p><ol label="a">
+	<li>Find the area of a square that measures 0.1 meter on a side.</li>
+	<li>Find the volume of a cube whose base is the square in part (a).</li></ol></p></statement></exercise>
+
+<exercise><statement><p>How many one-centimeter cubes will fit inside a box that measures 16 centimeters by 20 
+centimeters by 8 centimeters?</p></statement></exercise>
+
+<exercise><statement><p>How many cubic feet of dirt came out of a hole that is 12.5 feet wide, 15 feet long, and 8.2 feet 
+deep?</p></statement></exercise>
+
+<exercise><statement><p>The side of a cube is 20 centimeters long.<ol label="a">
+	<li>Find the area of one face of the cube.</li>
+	<li>How many faces does the cube have? Find the total surface area (the sum of the areas of all the faces) of the cube.</li>
+	<li>Find the volume of the cube.</li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+	<li>How many square feet are in a square yard?</li>
+	<li>How many square inches are in a square foot?</li>
+	<li>How many cubic feet are in a cubic yard?</li>
+	<li>How many cubic inches are in a cubic foot?</li></ol></p></statement></exercise>
+</exercisegroup>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Pythagorean Theorem</title>
+<exercises>
+
+<exercise><statement><p>The two short sides of a right triangle are 9 meters and 40 meters.<ol label="a">
+	<li>Sketch and label a figure.</li>
+	<li>What is the hypotenuse?</li></ol></p></statement></exercise>
+
+<exercise><statement><p>A baseball diamond is a square whose sides are 90 feet.<ol label="a">
+	<li>Sketch and label a figure.</li>
+	<li>How far is it from first base to third base (which are on opposite corners of the square)?</li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Formulas</title>
+<exercises>
+
+<exercise><statement><p><ol label="a">
+	<li><sidebyside widths="60% 25%"><p>The box at right has length <m>l</m>, and its width and height are both <m>w</m>. The box has 6 sides. Write expressions for the area of each face of the box.</p>
+	<image source="images/act-5-3-1.png"><description>box</description></image></sidebyside>
+	<p><m>\blert{\text{Top:}}</m></p>
+	<p><m>\blert{\text{Bottom:}}</m></p>
+	<p><m>\blert{\text{Front:}}</m></p>
+	<p><m>\blert{\text{Back:}}</m></p>
+	<p><m>\blert{\text{Left end:}}</m></p>
+	<p><m>\blert{\text{Right end:}}</m></p></li>
+	<li>Add the six areas together to get a formula for the surface area of the box.
+		<me>S=\hphantom{000000000000000000000000000000000000000}</me></li>
+	<li>Francine would like to wrap a package that is 4 feet long and whose width and height are both 1.5 feet. She has 24 square feet of wrapping paper. Is that enough paper?</li></ol></p></statement></exercise>
+
+<exercise><statement><p>Delbert would like to build a box whose width and height are both 1.5 feet, and whose surface area is no more than 24 square feet. What is the longest box that Delbert can build? (Use the formula you found in Problem 1.)</p></statement></exercise>
+
+<exercise><statement><p>Solve the formula <m>~~S=2w^2+4lw~~</m> for <m>l</m>.</p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Using formulas to compute volume and surface area</li>
+	<li>Using the Pythagorean theorem</li>
+	<li>Solving a formula for one variable in terms of the others</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>Why are the units of area called square units?  Why are the units of volume called cubic units?</li>
+	<li>What is the Pythagorean theorem used for?</li>
+	<li>Explain how to find the surface area of a box.</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercise><statement><p>Find the volume of a spherical bubble with diameter 5 cm.</p></statement></exercise>
+
+<exercise><statement><p>A 6-foot tall conical tank has volume 14.137 cubic feet. What is the radius of the base of the cone?</p></statement></exercise>
+
+<exercise><statement><p>The hypotenuse of a right triangle is 4.5 miles, and one leg is 1.8 miles long. How long is the other leg?</p></statement></exercise>
+
+<exercise><statement><p>Solve for <m>h</m>:  <m>~~V=\pi r^2h+\pi r^3</m></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p> <ol label = "1" cols="4">
+	<li>65.45 cm<m>^3</m></li>
+	<li>1.5 ft</li>
+	<li>4.12 mi</li>
+	<li><m>h=\dfrac{V-\pi r^3}{\pi r^2}</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-5-3.xml" />
 </section>  
 

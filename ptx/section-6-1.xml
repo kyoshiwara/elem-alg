@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Extracting-Roots" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Extracting Roots</title>
+<section xml:id="Extracting-Roots" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Extracting Roots</title>
 
 <subsection><title>Quadratic Equations</title>
+
 <p>So far you have learned how to solve linear equations. In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term>. In this chapter we'll consider second-degree equations, or <term>quadratic equations</term>.</p>
 
 <assemblage><title>Quadratic Equations</title>
@@ -29,6 +29,7 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
 </subsection> 
 
 <subsection><title>Graphs of Quadratic Equations</title>
+
 <sidebyside widths="60% 25%" valigns="middle middle" margins="0% 0%"><stack><p>Quadratic equations appear in a variety of applications. A quadratic equation in two variables has the form
 	<me>y=ax^2+bx+c,~~a \not= 0</me>
  Its graph is not a straight line, but a curve called a <term>parabola</term>. The simplest, or basic, parabola is the graph of <m>y=x^2</m>, shown in the figure. </p>
@@ -53,6 +54,7 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
                         <cell><m>9</m></cell></row>
                     </tabular></stack>
 <image source="images/fig-6-1-1"><description>parabola</description></image></sidebyside>
+
 <assemblage><title>Look Ahead</title>
 <p>In the equation for the basic parabola, <m>y=x^2</m>, we have <m>a=1,~b=0,</m> and <m>c=0</m>. If the parameters have different values, the appearance or location of the graph will be altered. <xref ref="Example-6-1-2" text="type-global"/> illustrates a parabola that is shifted downward by 4 units.</p></assemblage>
 
@@ -81,9 +83,7 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
                     </tabular>
     Note that in this equation, <m>c=-4</m>.</p>
     <!--<image source="images/fig-6-1-ex2.png"><description>parabola</description></image>-->
-    <image xml:id="fig-6-1-ex2">
-        <description>parabola</description>
-        <latex-image>
+    <image xml:id="fig-6-1-ex2"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -101,10 +101,7 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
         \draw[samples=65,domain={-sqrt(10)}:{sqrt(10)},smooth,variable=\x,red, very thick,<->, >=stealth'] plot ({\x},{(\x)^2-4});
         \end{tikzpicture}
         \newline
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></solution></example>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></solution></example>
 
 <reading-questions>
     <exercise number="2"><statement><p>The basic parabola is the graph of what equation?</p></statement>
@@ -113,6 +110,7 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
 </subsection>
 
 <subsection><title>Solving Quadratic Equations</title>
+
 <p>Consider a simple quadratic equation,
 	<me>x^2=16</me>
 This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x</m> must be a square root of 16. Now, 16 has two square roots, <m>4</m> and <m>-4</m>, so these are the solutions of the equation.</p>
@@ -125,9 +123,7 @@ This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x<
 <assemblage><title>Look Closer</title>
 <sidebyside widths="60% 38%" valigns="middle middle" margins="0% 0%"><p>Remember that every positive number has two square roots, so the equation has two solutions, <m>x=4</m> and <m>x=-4</m>.  We can also see the two solutions on a graph.  The figure at right shows the graph of <m>y=x^2</m> and a horizontal line at <m>y=16</m>. There are two points on the graph with <m>y</m>-coordinate <m>16</m>, and their <m>y</m>-coordinates are <m>4</m> and <m>-4</m>.</p>
 <!--<image source="images/fig-6-1-2.png"><description>parabola</description></image>-->
-    <image xml:id="fig-6-1-2">
-        <description>parabola</description>
-        <latex-image>
+    <image xml:id="fig-6-1-2"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -142,16 +138,14 @@ This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x<
         \draw[black, thick] (.15,10) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$10$};
         \draw[samples=65,domain={-sqrt(18)}:{sqrt(18)},smooth,variable=\x,red, very thick,<->, >=stealth'] plot ({\x},{(\x)^2}) node[above] {$y=x^2$};;
         \draw[green!80!black, very thick, <->, >=stealth'] (-5,16)--(5,16) node[right] {$y=16$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></assemblage>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></assemblage>
 
 <example xml:id="Example-6-1-3"><statement><p>Solve each equation without using a calculator.<ol label="a" cols="2">
 	<li><m>t^2=10,000</m></li>
 	<li><m>b^2=\dfrac{4}{9}</m></li>
 	<li><m>h^2=0.04</m></li>
 	<li><m>m^2=(-17)^2</m></li></ol></p></statement>
+
 <solution><p>For each equation, we find the square root of the right side. (That is, we find a number whose square gives the right side.) Remember that every positive number has two square roots.<ol label="a">
 	<li>Because <m>~~100^2=10,000,~~t=\pm 100</m></li>
 	<li>Because <m>~~(\dfrac{2}{3})^2=\dfrac{4}{9},~~b=\pm \dfrac{2}{3}</m></li>
@@ -165,6 +159,7 @@ This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x<
 </subsection>
 
 <subsection><title>Extraction of Roots</title>
+
 <sidebyside widths="55% 35%"><stack><p>The figure at right shows a graph of the quadratic equation <m>y=2x^2-5</m>.</p><p> 
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
@@ -188,9 +183,7 @@ This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x<
                     </tabular></p>
     <p>You can see that there are two points on the graph for each <m>y</m>-value greater than <m>-5</m>. For example, the two points with <m>y</m>-coordinate 7 are shown.</p></stack> 
     <!--<image source="images/fig-6-1-3.png"><description>parabola</description></image>-->
-    <image xml:id="fig-6-1-3">
-        <description>parabola</description>
-        <latex-image>
+    <image xml:id="fig-6-1-3"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -213,10 +206,8 @@ This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x<
         \filldraw[red] ({-sqrt(6)},7) ellipse (1.5mm and 3mm);
         \filldraw[red] ({sqrt(6)},0) ellipse (1.5mm and 3mm);
         \filldraw[red] ({-sqrt(6)},0) ellipse (1.5mm and 3mm);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+
     <p>To solve the quadratic equation
     	<me>2x^2-5=7</me>
    	we need only find the <m>x</m>-coordinates of these points. From the graph, the solutions appear to be about <m>2.5</m> and <m>-2.5</m>.</p>
@@ -262,6 +253,7 @@ The exact solutions are thus <m>\sqrt{6}</m> and <m>-\sqrt{6}</m>. (Don't forget
 <example xml:id="Example-6-1-5"><statement><p>A cat falls off a tree branch 20 feet above the ground. Its height <m>t</m> seconds later is given by  <m>h=20-16t^2</m>.<ol label="a"> 
     <li>What is the height of the cat <m>0.5</m> second later?</li>
     <li>How long does the cat have to get in position to land on its feet before it reaches the ground?</li></ol></p></statement>
+
 <solution><p><ol label="a"> 
     <li><p>In this question, we are given the value of <m>t</m> and asked to find the corresponding value of <m>h</m>. To do this we evaluate the formula for <m>t=0.5</m>. We substitute <m>\alert{0.5}</m> for <m>t</m> into the formula, and simplify.
         <md><mrow> h \amp = 20-16(\alert{0.5})^2    \amp \amp \blert{\text{Compute the power.}}</mrow>
@@ -278,9 +270,7 @@ The exact solutions are thus <m>\sqrt{6}</m> and <m>-\sqrt{6}</m>. (Don't forget
         <me>t= \pm \sqrt{1.25} \approx \pm 1.118</me>
     Only the positive solution makes sense here, so the cat has approximately 1.12 seconds to be in position for landing.  A graph of the cat's height after <m>t</m> seconds is shown at right. The points corresponding to parts (a) and (b) are labeled.</p>
     <!--<image source="images/fig-6-1-ex5.png"><description>parabola</description></image>-->
-    <image xml:id="fig-6-1-ex5">
-        <description>parabola</description>
-        <latex-image>
+    <image xml:id="fig-6-1-ex5"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -300,10 +290,7 @@ The exact solutions are thus <m>\sqrt{6}</m> and <m>-\sqrt{6}</m>. (Don't forget
         \node[right, text=red, fill=white, inner sep=1] at (0.25,21) {$h=20-16t^2$};
         \filldraw[red] (0.5,16) ellipse (.4mm and 4mm) node[above right, xshift=2, yshift=2, fill=white, inner sep=1, text=black] {a};
         \filldraw[red] ({sqrt(1.25)},0) ellipse (.4mm and 4mm) node[above right, xshift=2, yshift=2, fill=white, inner sep=1, text=black] {b};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></stack></li></ol></p></solution></example>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></stack></li></ol></p></solution></example>
 
 <reading-questions>
     <exercise number="7"><statement><p>In <xref ref="Example-6-1-5" text="type-global"/>a, did we solve an equation or evaluate an expression?</p></statement>
@@ -312,6 +299,7 @@ The exact solutions are thus <m>\sqrt{6}</m> and <m>-\sqrt{6}</m>. (Don't forget
 </subsection>
 
 <subsection><title>Solving Formulas</title>
+
 <p>Extraction of roots can be used to solve some formulas with a quadratic term.</p>
 
 <example><statement><p>The formula <m>V=\dfrac{1}{3}\pi r^2h</m>  gives the volume of a cone in terms of its height and radius.  Solve the formula for <m>r</m> in terms of <m>V</m> and <m>h</m>.</p></statement>
@@ -323,50 +311,222 @@ The exact solutions are thus <m>\sqrt{6}</m> and <m>-\sqrt{6}</m>. (Don't forget
 Because the radius of a cone must be a positive number, we use only the positive square root: <m>r=\sqrt{\dfrac{3V}{\pi h}}</m>.</p></solution></example>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-6-1"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Evaluate each expression if possible.</p></introduction>
 
 <exercise number="1"><statement><p><ol label="a" cols="3">
 	<li><m>\sqrt{16}</m></li>
 	<li><m>-\sqrt{16}</m></li>
-	<li><m>\sqrt{-16}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="3">
-	<li><m>4</m></li>
-	<li><m>-4</m></li>
-	<li>not a real number</li></ol></p></answer></exercise>
+	<li><m>\sqrt{-16}</m></li></ol></p></statement></exercise>
 
 <exercise number="2"><statement><p><ol label="a" cols="3">
 	<li><m>\sqrt{16^2}</m></li>
 	<li><m>\sqrt{(-16)^2}</m></li>
-	<li><m>\sqrt{-16^2}</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="3">
-	<li><m>16</m></li>
-	<li><m>16</m></li>
-	<li>not a real number</li></ol></p></answer></exercise>
+	<li><m>\sqrt{-16^2}</m></li></ol></p></statement></exercise>
 
 <exercise number="3"><statement><p><ol label="a" cols="3">
 	<li><m>(\sqrt{16})^2</m></li>
 	<li><m>(-\sqrt{16})^2</m></li>
-	<li><m>(\sqrt{-16})^2</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="3">
-	<li><m>16</m></li>
-	<li><m>16</m></li>
-	<li>not a real number</li></ol></p></answer></exercise>
+	<li><m>(\sqrt{-16})^2</m></li></ol></p></statement></exercise>
 
 <exercise number="4"><statement><p><ol label="a" cols="3">
 	<li><m>16^2</m></li>
 	<li><m>-16^2</m></li>
-	<li><m>(-16)^2</m></li></ol></p></statement>
-<answer><p><ol label="a" cols="3">
-	<li><m>256</m></li>
-	<li><m>-256</m></li>
-	<li><m>256</m></li></ol></p></answer></exercise>
+	<li><m>(-16)^2</m></li></ol></p></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-6-1">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1">
+    <li><p><ol label="a" cols="3">
+        <li><m>4</m></li>
+        <li><m>-4</m></li>
+        <li>not a real number</li></ol></p></li>
+    <li><p><ol label="a" cols="3">
+        <li><m>16</m></li>
+        <li><m>16</m></li>
+        <li>not a real number</li></ol></p></li>
+    <li><p><ol label="a" cols="3">
+        <li><m>16</m></li>
+        <li><m>16</m></li>
+        <li>not a real number</li></ol></p></li>
+    <li><p><ol label="a" cols="3">
+        <li><m>256</m></li>
+        <li><m>-256</m></li>
+        <li><m>256</m></li></ol></p></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Quadratic Equations</title>
+<exercises>
+
+<exercise><statement><p>Which of the following equations are quadratic?<ol label="a" cols="2">
+    <li><m>3x+2x^2=1</m></li>
+    <li><m>4z^2-2z^3+2=0</m></li>
+    <li><m>36y-16=0</m></li>  
+    <li><m>v^2=6v</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+    <li><p>Make a table and graph <m>y=9-x^2</m>.</p>
+<sidebyside width="40%"><image source="images/act-6-1-1.png"><description>grid</description></image></sidebyside></li>
+    <li><p>Use your graph to solve the equation <m>9-x^2=-7</m>.</p></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection> 
+
+<subsubsection><title>Activity 2: Extracting Roots</title>
+<exercises>
+
+<exercise><statement><p>Solve each equation without using a calculator.
+<ol label="a" cols="2">
+    <li><m>p^2=625</m></li>
+    <li><m>u^2=\dfrac{16}{49}</m></li>
+    <li><m>n^2=0.25</m></li>  
+    <li><m>t^2=(\sqrt{7})^2</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Solve by extracting roots. <ol label="a">
+    <li><p><m>4a^2+25 = 169</m></p>
+
+    <p><m>\blert{\text{First isolate} ~ a^2.}</m></p>
+    <p><m>\blert{\text{Take the square root of both sides.}}</m></p></li>
+
+    <li><p><m>\dfrac{3x^2-8}{4} = 10</m></p>
+
+    <p><m>\blert{\text{First isolate} ~ x^2.}</m></p>
+    <p><m>\blert{\text{Take the square root of both sides.}}</m></p></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Solve by extracting roots. Round your answers to tenths. <ol label="a">
+    <li><p><m>3b^2-18 = 42</m></p>
+
+    <p><m>\blert{\text{First isolate} ~ b^2.}</m></p>
+    <p><m>\blert{\text{Take the square root of both sides.}}</m></p>
+    <p><m>\blert{\text{Use your calculator to find decimal approximations for the solutions.}}</m></p></li>
+
+    <li><p><m>4 \pi r^2 = 90</m></p>
+
+    <p><m>\blert{\text{First isolate} ~ r^2.}</m></p>
+    <p><m>\blert{\text{Take the square root of both sides.}}</m></p>
+    <p><m>\blert{\text{Use your calculator to find decimal approximations for the solutions.}}</m></p></li></ol></p>
+</statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Identifying a quadratic equation</li>
+    <li>Graphing a parabola by plotting points</li>
+    <li>Using a graph to solve a quadratic equation</li>
+    <li>Solving a quadratic equation by extracting roots</li>
+    <li>Solving a quadratic formula for one variable</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, Problem 2, Delbert evaluated <m>4-x^2</m> for <m>x=-1</m> by entering <m>4-(-1^2)</m> into his calculator and getting 5.  What did he do wrong?</li>
+    <li>In Activity 2, Problem 1b, explain how to take the square root of a fraction.</li>
+    <li>Explain the difference between an exact solution and a decimal approximation.</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+<exercisegroup><introduction><p><ol label="a">
+    <li>Complete the table of values and sketch the graph.</li>
+    <li>Use the graph to solve the equation.</li></ol></p></introduction>
+
+<exercise><statement><p><ol label="a">
+    <li><m>y=2x^2</m></li>
+    <li><m>2x^2=8</m></li></ol></p>
+<sidebyside widths="30% 45%" valigns="top top">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>y</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular> 
+        <image source="images/act-6-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+    <li><m>y=8-x^2</m></li>
+    <li><m>-1=8-x^2</m></li></ol></p>
+<sidebyside widths="30% 45%" valigns="top top">
+    <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>y</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-1</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-3</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular> 
+        <image source="images/act-6-1-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>Solve.  Give exact values for your answers. </p></introduction>
+
+<exercise><statement><p><m>x^2-8=4</m></p></statement></exercise>
+
+<exercise><statement><p><m>3x^2-4=11</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>Solve. Round your answers to hundredths. </p></introduction>
+
+<exercise><statement><p><m>2.1x^2+3.8=23.2</m></p></statement></exercise>
+
+<exercise><statement><p><m>5x^2-6=2x^2+9</m></p></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p> <ol label = "1" cols="3">
+    <li><m>\pm 2</m></li>
+    <li><m>\pm 3</m></li>
+    <li><m>\pm \sqrt{12}</m></li>
+    <li><m>\pm \sqrt{5}</m></li>
+    <li><m>\pm 3.04</m></li>
+    <li><m>\pm 2.24</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-6-1.xml" />
 </section>
