@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Some-Quadratic-Models" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Some Quadratic Models</title>
+<section xml:id="Some-Quadratic-Models" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Some Quadratic Models</title>
 
 <subsection><title>Revenue</title>
+
 <p>In this section we consider some applications that lead to quadratic equations. The first application involves revenue.</p>
 <p><term>Revenue</term> is the amount of money a company takes in from selling a product. To find the total revenue from the sale of a product, we multiply the price of one item by the number of items sold.</p>
 
-<assemblage><p>Revenue <m>=</m> (price per item) <m>\cdot</m> (number of items sold)</p></assemblage>
+<assemblage><titel>Revenue</titel>
+<p>Revenue <m>=</m> (price per item) <m>\cdot</m> (number of items sold)</p></assemblage>
 
 <p>For example, if a snack bar sells 30 sandwiches at $4.25 each, their revenue from sandwiches is 
 	<me>\text{Revenue} = ($4.25~ \text{per sandwich}) \cdot (30~ \text{sandwiches}) = $127.50</me></p>
@@ -51,9 +52,7 @@
                         <cell><m>40(\alert{40})-\alert{40}^2</m></cell></row>                      
                 </tabular></stack>
         <!--<image source="images/fig-6-2-ex1.png"><description>parabola</description></image>-->
-    <image xml:id="fig-6-2-ex1">
-        <description>parabola</description>
-        <latex-image>
+    <image xml:id="fig-6-2-ex1"><description>parabola</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -70,10 +69,7 @@
         \draw[black, thick] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
         }
         \draw[samples=65,domain=0:8,smooth,variable=\x,magenta!80!black, ultra thick] plot ({\x},{8-.5*(\x-4)^2});
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
     <li>There are two points on the graph with <m>p</m>-coordinate 300. Those points have <m>p</m>-coordinates 10 and 30.  If he charges $10 per hour, he will attract <m>40-10=30</m> clients, and if he charges $30 per hour, he will attract <m>40-30=10</m> clients. In either case, his revenue will be $300.</li> 
     <li>The largest value of <m>R</m> that appears on the graph occurs at the point <m>(20, 400)</m>, so when <m>p=20,~ R=400</m>. If Rick charges $20 per hour, he will make $400 in revenue. He will attract <m>40-20=20</m> clients at that price.</li></ol></p></solution></example>
 
@@ -91,6 +87,7 @@ The graph of this equation is shown again below. </p>
 </subsection>
 
 <subsection><title>The Zero Factor Principle</title>
+
 <p>Look again at the equation for revenue in Example 1,
 	<me>R=p(40-p)</me>
 The expression for revenue has two factors. The first factor is <m>p</m>, and when <m>p=\alert{0}</m> we have
@@ -120,6 +117,7 @@ A quadratic equation has a solution when either of its factors is equal to zero.
 </subsection>
 
 <subsection><title>Factoring</title>
+
 <p>In order to use the zero-factor principle to solve quadratic equations, we must be able to write quadratic expressions in <term>factored form</term>. This process is called <term>factoring</term>, and it is the reverse of multiplying factors together. Here are some examples comparing multiplying and factoring.</p>
 
 <assemblage><p>
@@ -159,6 +157,7 @@ We fill in these factors for the question marks to obtain the factored form,
 </subsection>
 
 <subsection><title>Solving Quadratic Equations by Factoring</title>
+
 <p>Now let's see how to solve a quadratic equation using factoring.</p>
 
 <assemblage><p>First, we must arrange the terms so that one side of the equation is zero; the zero-factor principle applies only to zero products. </p></assemblage>  
@@ -175,8 +174,8 @@ Now, we apply the zero-factor principle: In order for the product to be zero, on
 Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that both of these values satisfy the original equation.</p></solution></example>
 
 <reading-questions>
-    <exercise number="6"><statement><p>What is the first step in solving a quadratic equation by factoring?</p></statement>
-    	<answer><p>Arrange the terms so that one side of the equation is zero</p></answer></exercise>
+<exercise number="6"><statement><p>What is the first step in solving a quadratic equation by factoring?</p></statement>
+    <answer><p>Arrange the terms so that one side of the equation is zero</p></answer></exercise>
 </reading-questions>
 
 <warning><p>We cannot solve the equation in <xref ref="Example-6-2-4" text="type-global"/> by dividing both sides by <m>2x</m>. If we do that, we get the equation <m>x=2</m>. This is one of the solutions, but we have lost the second solution, <m>x=0</m>. We should never divide both sides of an equation by the variable, because we risk losing one of the solutions. Instead, we follow the steps below to solve the equation by factoring.</p></warning>
@@ -190,30 +189,254 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 <reading-questions>
     <exercise number="7"><statement><p>Why is it wrong to divide both sides of the equation <m>2x(x-2)=0</m> by <m>2x</m>?
 </p></statement>
-    	<answer><p>We lose one of the soutions.</p></answer></exercise>
+    <answer><p>We lose one of the soutions.</p></answer></exercise>
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-6-2"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Mental Exercise: Evaluate each expression for the given values of the variable. Try not to use pencil, paper, or calculator.</p></introduction>
 
-<exercise number="1"><statement><m>2x(x-3),~~~~x=0,~1,~2,~3</m></statement>
-<answer><m></m></answer></exercise>
+<exercise number="1"><statement><m>2x(x-3),~~~~x=0,~1,~2,~3</m></statement></exercise>
 
-<exercise number="2"><statement><m>(x+1)(x-6),~~~~x=-1,~3,~6,~9</m></statement>
-<answer><m></m></answer></exercise>
+<exercise number="2"><statement><m>(x+1)(x-6),~~~~x=-1,~3,~6,~9</m></statement></exercise>
 
-<exercise number="3"><statement><m>2(x+2)(x+4),~~~~x=-4,~-2,~0,~2</m></statement>
-<answer><m></m></answer></exercise>
+<exercise number="3"><statement><m>2(x+2)(x+4),~~~~x=-4,~-2,~0,~2</m></statement></exercise>
 
-<exercise number="4"><statement><m>3n(2n-1),~~~~n=-1,~0,~\dfrac{1}{2},~1</m></statement>
-<answer><m></m></answer></exercise>
+<exercise number="4"><statement><m>3n(2n-1),~~~~n=-1,~0,~\dfrac{1}{2},~1</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-6-2">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="2">
+    <li><m>0,~4,~-4,~0</m></li>
+    <li><m>0,~-12,~0,~30</m></li>
+    <li><m>0,~0,~16,~48</m></li>
+    <li><m>9,~0,~0,~3</m></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Revenue</title>
+
+<p>Raingear manufactures and sells umbrellas. They would like to know how the price they charge for an umbrella affects their revenue. They conduct some market research, and discover that if they charge <m>p</m> dollars per umbrella, they will sell <m>150-5p</m> umbrellas per month.</p>
+
+<exercises>
+<exercise><statement><p><ol label="a">
+    <li><p>Complete the table showing Raingear's revenue at various prices, <m>p</m>.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><line>Price per umbrella</line><line><m>p</m></line></cell>
+                        <cell bottom="minor"><line>No. of umbrellas sold</line><line><m>150-5p</m></line></cell>
+                        <cell bottom="minor"><line>Revenue</line><line><m>R</m></line></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>6</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>8</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>10</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>12</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>14</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li><p>Use the formula for revenue to write an equation that gives Raingear's monthly revenue from umbrellas, <m>R</m>, in terms of <m>p</m>.
+            <me>R=\hphantom{00000000000000000000000}</me></p>
+
+        <p>Simplify your equation by applying the distributive law:
+            <me>R=\hphantom{00000000000000000000000}</me></p></li>
+
+    <li>Write an equation to answer the question: How much should Raingear charge for each umbrella if they would like to make $1000 monthly revenue?</li>
+
+    <li>Can you use extraction of roots to solve the equation in part (c)?  Why or why not?</li>
+    <li>Use the table in part (a) to look for a solution to the equation in part (c).</li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+    <li><p>Extend your table of values for Raingear's revenue by completing the table below.
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><line>Price per umbrella</line><line><m>p</m></line></cell>
+                        <cell bottom="minor"><line>No. of umbrellas sold</line><line><m>150-5p</m></line></cell>
+                        <cell bottom="minor"><line>Revenue</line><line><m>R</m></line></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>14</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>16</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>18</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>20</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>22</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>24</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>26</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>28</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>30</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li>On the grid below, plot the values of  and from your tables and draw a smooth graph of the equation for revenue, <m>R</m>, in terms of <m>p</m>.
+    <sidebyside width="50%"><image source="images/act-6-2-1.png"><description>grid</description></image></sidebyside></li>  
+    <li>Locate the point on your graph that corresponds to a monthly revenue of $1000.  What are its coordinates?</li>
+    <li>Find another point on the graph that corresponds to $1000 monthly revenue.  What price per umbrella produces this revenue?  How many umbrellas will be sold at this price?</li>
+    <li>What is the maximum monthly revenue that Raingear can earn from umbrellas?</li>
+    <li>What price per umbrella should Raingear charge in order to earn the maximum revenue?</li></ol></p>
+</statement></exercise>
+
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Factoring Out a Common Factor</title>
+
+<exercises>
+<exercise><statement><p>Factor out the largest common factor from each expression.<ol label="a">
+    <li><m>2x^2+8x = <fillin characters="5"/>~(~ <fillin characters="10"/>~+~<fillin characters="10"/>~)</m></li>
+    <li><m>-3n^2+18n = <fillin characters="5"/>~(~ <fillin characters="10"/>~+~<fillin characters="10"/>~)</m></li>
+</ol></p></statement></exercise>
+
+<exercise><statement><p>Solve each quadratic equation by factoring.<ol label="a" cols ="2">
+    <li><m>2x^2+8x = 0</m></li>
+    <li><m>-3n^2+18n=0</m></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Zero-Factor Principle</title>
+<exercises>
+<exercise><statement><p>Find the solutions of each quadratic equation.<ol label="a" cols ="2">
+    <li><m>(x-2)(x+5)=0</m></li>
+    <li><m>y(y-4)=0</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Explain why each solution is incorrect.<ol label="a" cols ="2">
+    <li><md><mrow>(n-3)(n+5)\amp=3</mrow>
+            <mrow>n-3=3,~n+5\amp=3</mrow>
+            <mrow>n=6,~n\amp=-2</mrow></md></li>
+    <li><md><mrow>x^2+4x\amp=0</mrow>
+            <mrow>x^2\amp=-4x</mrow>
+            <mrow>x\amp=-4</mrow></md></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Plotting points to graph a parabola</li>
+    <li>Using the formula for revenue</li>
+    <li>Factoring out a common factor</li>
+    <li>Using the Zero-Factor Principle to solve quadratic equations</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>Factoring is the opposite of which operation on algebraic expressions?</li>
+    <li>In Activity 2, Problem 2b, did you factor out a positive factor or a negative factor?  Does it make a difference to the solutions of the equation?</li>
+    <li>What is the difference between solving a quadratic equation and factoring a quadratic trinomial?</li>    
+</ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+<exercise><statement><p><ol label="a">
+    <li><p>Complete the table of values and sketch a graph of 
+            <me>y = \dfrac{1}{2}x^2-4x</me>
+    <sidebyside widths="30% 50%"><p>
+        <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>x</m></cell>
+                        <cell bottom="minor"><m>y</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>-2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>2</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>4</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>6</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>8</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>10</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></p>
+        <image source="images/cr2-44.png"><description>graph</description></image></sidebyside></p></li>
+    <li>Use the graph to solve the equation
+        <me>\dfrac{1}{2}x^2-4x = -\dfrac{7}{2}</me></li>
+    <li>Use the graph to solve the equation
+        <me>\dfrac{1}{2}x^2-4x = \dfrac{9}{2}</me></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Find the largest common factor for the monomials.<ol label="a" cols="2">
+    <li><m>6x,~3x^2,~9xy</m></li>
+    <li><m>12ab^2,~4ab,~6a^2b</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Factor out the largest common factor.<ol label="a" cols="2">
+    <li><m>25t^2-15t</m></li>
+    <li><m>-12k^2-9k</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Solve the equation.<ol label="a" cols="2">
+    <li><m>18w^2+24w=0</m></li>
+    <li><m>21z^2=35z</m></li></ol></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p> <ol label = "1">
+    <li>b. <m>1,~7~~~~~~~~</m> c. <m>-1,~9</m></li>
+    <li><p><ol label = "a" cols="2">
+        <li><m>3x</m></li>
+        <li><m>2ab</m></li></ol></p></li>
+    <li><p><ol label = "a" cols="2">
+        <li><m>5t(5t-3)</m></li>
+        <li><m>-3k(4k+3)</m> or <m>3k(-4k-3)</m></li></ol></p></li>
+    <li><p><ol label = "a" cols="2">
+        <li><m>-\dfrac{3}{4},~0</m></li>
+        <li><m>0,~\dfrac{5}{7}</m></li></ol></p></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-6-2.xml" />
 </section> 

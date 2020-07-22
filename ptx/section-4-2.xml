@@ -334,7 +334,160 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
 
 <subsubsection><title>Activity 1: Solving Systems by Graphing</title>
 
+<p>A biologist wants to know the average weights of two species of birds in a wildlife preserve. She sets up a feeder whose platform is actually a scale, and mounts a camera to monitor the feeder. She waits until the feeder is occupied only by members of the two species she is studying, robins and thrushes. Then she takes a picture, which records the number of each species on the scale, and the total weight registered.</p>  
+
+<p>From her two best pictures, she obtains the following information. <ul>
+    <li>The total weight of three thrushes and six robins is 48 ounces, and</li>
+    <li>The total weight of five thrushes and two robins is 32 ounces.</li></ul></p> 
+<p><ol label="a">
+    <li><p>Begin by assigning variables to the two unknown quantities:
+        <md><mrow>\blert{\text{Average weight of a thrush:}~~t}</mrow>
+            <mrow>\blert{\text{Average weight of a robin:}~~r}</mrow></md></p>
+    <p>Write two equations about the weights of the birds: 
+        <md><mrow>\amp~~~~\blert{\text{(weight of thrushes)}}~+~\blert{\text{(weight of robins)}}~=~\blert{\text{total weight}}</mrow>
+        <mrow>(1)\amp</mrow>
+        <mrow>(2)\amp</mrow></md></p></li>
+    <li><sidebyside widths="50% 50%"><stack><p>Use the intercept method to graph each equation on the grid at right.</p>
+        <p>Equation (1):  <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+                    <row>
+                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>r</m></cell> 
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>0</m></cell></row>
+                    </tabular></sidebyside></p>
+        <p>Equation (2):  <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>r</m></cell> 
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>0</m></cell></row>
+                    </tabular></sidebyside></p></stack>
+    <image source="images/act-4-2-1.png"><description>graph</description></image></sidebyside></li>
+    <li><p>Locate the point where the two graphs intersect.  What are its coordinates?</p>
+        <p>Answer the question posed by the biologist.</p></li></ol></p>
+</subsubsection>
+ 
+<subsubsection><title>Activity 2: Problem Solving</title>
+
+<p>The manager for Books for Cooks plans to spend $300 stocking a new diet cookbook. The paperback version costs her $5, and the hardback costs $10. She finds that she will sell three times as many paperbacks as hardbacks. How many of each should she buy?</p>
+<p>Let <m>x</m> represent the number of hardbacks and <m>y</m> the number of paperbacks she should buy.</p>
+<sidebyside widths="55% 40%"><p><ol label="a">
+    <li>Write an equation about the cost of the books.</li>
+    <li>Write a second equation about the number of each type of book.</li>
+    <li>Graph both equations on the grid and solve the system. Then answer the question in the problem.</li></ol></p> 
+    <image source="images/act-4-2-2.png"><description>graph</description></image></sidebyside>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Inconsistent and Dependent Systems</title>
+
+<p>Robert and Ruth are moving from Los Angeles to Baltimore. Robert is driving a rental truck at an average speed of 50 miles per hour. Ruth leaves one day later in their car, and averages 65 miles per hour. When Ruth set out, Robert had already traveled 300 miles. When will Ruth catch up with Robert?</p>
+
 <exercises>
+<exercise><statement><p>Let <m>t</m> stand for the number of hours that Ruth has traveled. When she catches up with Robert, they will both have traveled the same distance, so we begin by writing equations for the distance, <m>d</m>, each has traveled after <m>t</m> hours.<ol label="a">  
+    <li>Ruth travels at 65 miles per hour, so an equation for the distance she has traveled is
+        <me>\blert{\text{Ruth's distance:}}~~~d = </me></li>                              
+    <li>Robert's speed is 50 miles per hour, but he has already traveled 300 miles when Ruth starts, so his distance is given by
+        <me>\blert{\text{Robert's distance:}}~~~d = </me></li>                          
+    <li>Together, the two equations form a system:</li></ol></p></statement></exercise>
+
+<exercise><statement><p>Next, we graph both equations on the same axes.</p>
+    <sidebyside widths="50% 50%"><p><ol label="a">
+    <li><p>To graph the equation for Ruth's distance, plot a few points.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+                    <row>
+                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>10</m></cell>
+                        <cell bottom="minor"><m>20</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>d</m></cell> 
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li>To graph the equation for Robert's distance, use the vertical intercept and the slope.</li>
+    <li>Locate the point where the two graphs intersect. What are its coordinates?</li></ol></p>
+    <image source="images/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><p>Finally, we interpret the solution.<ol label="a">
+    <li>What does the <m>t</m>-coordinate of the intersection point tell you about the problem?</li>
+    <li>What does the <m>d</m>-coordinate of the point tell you?</li>
+    <li>Verify that the intersection point is a solution of both equations in the system.</li></ol></p></statement>
+</exercise>
+
+<exercise><statement><sidebyside widths="50% 50%"><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.<ol label="a">  
+    <li><p>Write a system of equations for this problem:</p>        
+        <p>Robert:  <m>~~~d=</m></p>       
+        <p>Ruth:    <m>~~~~d=</m></p></li>                                      
+    <li>Graph the equations on the grid.</li>  
+    <li>What is the solution of this system? What is this type of system called?</li></ol></p>
+    <image source="images/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol label="a">
+    <li><p>Graph the system of equations.
+        <md><mrow>3x \amp = 2y+6</mrow>
+            <mrow>y \amp = \dfrac{3}{2}x-3</mrow></md>      
+    Hint:  Use the intercept method to graph the first equation, and the slope-intercept method to graph the second equation.</p></li>
+    <li>Is the system inconsistent or dependent?</li></ol></p>
+    <image source="images/grid8k.bmp"><description>grid</description></image></sidebyside></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Deciding whether an ordered pair is a solution of a system</li>
+    <li>Solving a system of equations by graphing</li>
+    <li>Identifing a system as consistent, inconsistent, or dependent</li>
+    <li>Writing a system of equations to solve an applied problem</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, how far has Robert traveled at <m>t=0</m>?</li>
+    <li>In Activity 2, Problem 1, explain why it makes sense that the system has no solution.</li>
+    <li>In Activity 3, which equation is correct: <m>x=3y</m> or  <m>y=3x</m>?  Why?</li>
+    <li>In Activity 3, how much did the manager spend on hardback books?  How much on paperback books?</li>
+</ol></p></assemblage>
+</subsubsection>
 </subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercise><statement><p>Is <m>(-3,5)</m> a solution of the system?
+    <md><mrow>2x+3y \amp = 9</mrow>
+        <mrow>2x-y \amp = 1</mrow></md>
+Explain how you know.</p></statement></exercise>
+
+<exercise><statement><sidebyside widths="50% 45%" valigns="middle middle"><p>Solve the system by graphing.
+    <md><mrow>y = \dfrac{2}{3}x - 4</mrow>
+        <mrow>2x-3y=12</mrow></md>
+Hint:  Graph the first equation by the slope-intercept method, and the second equation by the intercept method.</p>
+    <image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><p>Write a system of equations for the problem:</p>
+    <p>Kathy has two cats, Miso and Nori. Together they weigh 18 pounds. Miso's weight is 3 pounds more than half of Nori's weight. How much does each cat weigh?</p></statement></exercise>
+
+<exercise><statement><p>Decide whether the system is inconsistent or dependent.
+    <md><mrow>6x-4y \amp = 8</mrow>
+        <mrow>x \amp = \dfrac{2}{3}y+2</mrow></md></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+    <li>No</li>
+    <li><m>(3,-2)</m></li>
+    <li><md><mrow>x \amp +y  = 18</mrow>
+        <mrow>y \amp = \dfrac{1}{2}x+3</mrow></md></li>
+    <li>Inconsistent</li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-4-2.xml" />
 </section>

@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Problem-Solving-with-Systems"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Problem Solving with Systems</title>
+<section xml:id="Problem-Solving-with-Systems"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Solving with Systems</title>
 
 <subsection><p>In this section we explore some applications of systems of equations.  We begin by reviewing some familiar formulas. </p></subsection>
 
@@ -16,21 +15,20 @@
 
  <p>If we make two or more investments at the same time, then the total interest we earn is the sum of the interests earned on each investment separately.</p>
 
-<exercise><title>Warm-Up 1</title>
+<subsubsection><title>Warm-Up 1</title>
 <statement><p>Harvey deposited $1200 in two accounts. He put $700 in a savings account that pays 6% annual interest rate, and the rest in his credit union, which pays 7% annual interest rate. How much will Harvey's investments earn in two years?</p>
 
 <p>Step 1 Calculate the interest earned by each account.
         <md><mrow>\amp\blert{\text{Savings}}\amp\amp \blert{I=Prt=}</mrow>
             <mrow>\amp\blert{\text{Credit Union}}\amp\amp \blert{I=Prt=}</mrow></md></p>
 <p>Step 2 Add the earnings from the two investments.
-<me>\blert{\binom{\text{Total}}{\text{<E></E>arnings}} = \binom{\text{Earnings from}}{\text{Savings}}+\binom{\text{Earnings from}}{\text{Credit Union}}} 
-</me>
+    <me>\blert{\binom{\text{Total}}{\text{<E></E>arnings}} = \binom{\text{Earnings from}}{\text{Savings}}+\binom{\text{Earnings from}}{\text{Credit Union}}} </me>
     </p></statement>
-<answer><p>$154</p></answer></exercise>
+<answer><p>$154</p></answer></subsubsection>
 
 <p>Here is a similar example with variables.</p>
 
-<exercise><title>Warm-Up 2</title>
+<subsubsection><title>Warm-Up 2</title>
 <statement><p>You have $5000 to invest for one year. You want to put part of the money into bonds that pay 7% interest rate and the rest of the money into stocks, which involve some risk but will pay 12% if the investment is successful.</p>
 <ol label="a">
     <li><p>Fill in the table.
@@ -74,8 +72,7 @@
                 <mrow>\blert{\text{Interest earned on the bonds:}~~~~~~I=Prt=}</mrow></md></p></li>
     <li><p>Finally, suppose that you earned a total of $345 in interest from your two investments.  
     Write an equation about this, using your expressions from part (b).   
-    <me>\blert{\binom{\text{Total}}{\text{Interest}} = \binom{\text{Interest from}}{\text{stocks}}+\binom{\text{Interest from}}{\text{bonds}}} 
-    </me>
+        <me>\blert{\binom{\text{Total}}{\text{Interest}} = \binom{\text{Interest from}}{\text{stocks}}+\binom{\text{Interest from}}{\text{bonds}}} </me>
     </p></li></ol></statement>
 <answer><p><ol label="a">
     <li><p>
@@ -113,7 +110,7 @@
                         <cell>$400</cell></row>
                     </tabular></sidebyside></p></li>
     <li>$5000; <m>0.07x;~0.12y</m></li>
-    <li><m>0.07x+0.12y = 345</m></li></ol></p></answer></exercise>
+    <li><m>0.07x+0.12y = 345</m></li></ol></p></answer></subsubsection>
 
 <reading-questions>
     <exercise number="1"><statement><p>What formula do we need for interest problems?</p></statement>
@@ -147,26 +144,22 @@
     <li><p>Equation about Principal: From the statement "He put twice as much money in the savings plan as in the mutual fund," we write the equation
     <md alignment="alignat">
         <mrow>\amp\amp\blert{\binom{\small\text{Amount invested}}{\small\text{in savings plan}}} \amp\blert{{}= 2\cdot\binom{\small\text{Amount invested}} {\small\text{in mutual fund}}} </mrow>
-        <mrow>\amp\blert{\text{Equation about principal:}}\amp x\qquad\quad~\amp = 2y</mrow>
-    </md>
+        <mrow>\amp\blert{\text{Equation about principal:}}\amp x\qquad\quad~\amp = 2y</mrow></md>
 </p></li>
     <li><p>Equation about Interest: From the statement "Mort's total interest income was $345," we write the equation
     <md alignment="alignat">
         <mrow>\amp\amp\blert{\binom{\small\text{Interest from}}{\small\text{savings plan}}+\binom{\small\text{Interest from}}{\small\text{mutual fund}}} \amp\blert{{}= \binom{\small\text{Total}}{\small\text{interest}}}  </mrow>
-        <mrow>\amp\blert{\text{Equation about interest:}}\amp 0.08x~~\quad +\qquad 0.07y\quad~~\amp = 345</mrow>
-    </md>
+        <mrow>\amp\blert{\text{Equation about interest:}}\amp 0.08x~~\quad +\qquad 0.07y\quad~~\amp = 345</mrow></md>
     </p></li></ul></p>
 
 <p>This gives us a system of equations.
     <md><mrow>x=2y</mrow>     
         <mrow>0.08x+0.07y=345</mrow></md>
 Because the first equation is already solved for <m>x</m> in terms of <m>y</m>, we'll use the substitution method to solve the system. We substitute <m>2y</m> for <m>x</m> in the second equation and solve for <m>y</m>.  
-    <me>\begin{aligned}
-            0.08(\alert{2y})+0.07y \amp = 345  \\
-            0.16y+0.07y \amp = 345 \amp\amp \blert{\text{Combine like terms.}}\\
-            0.23y \amp = 345   \amp\amp \blert{\text{Divide both sides by 0.23.}}\\
-            y \amp = 1500         
-        \end{aligned}</me> 
+    <md><mrow>0.08(\alert{2y})+0.07y \amp = 345</mrow>
+        <mrow>0.16y+0.07y \amp = 345 \amp\amp \blert{\text{Combine like terms.}}</mrow>
+        <mrow>0.23y \amp = 345   \amp\amp \blert{\text{Divide both sides by 0.23.}}</mrow>
+        <mrow>y \amp = 1500</mrow></md>         
 Finally, we substitute <m>y=\alert{1500}</m> into the first equation to find 
     <me>x=2y=2(\alert{1500})=3000</me>
 Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p></solution></example>
@@ -180,13 +173,14 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 </subsection>
 
 <subsection><title>Mixtures</title>
+
 <p>A pharmacist has on hand 20 ounces of a certain drug at 40% strength, but she needs a small quantity of the drug at 75% strength for a prescription. She decides to add a pure form of the drug to the 40% solution. How much should she add to make a mixture of 75% strength?</p>
 
 <p>To solve such problems, we review some properties of percent. We will need the percent formula,
 	<me>\blert{P=rW}</me>
 <m>P</m> stands for the part obtained when we take <m>r</m> percent of a whole amount, <m>W</m>.</p>
 
-<exercise><title>Warm-Up 3</title>
+<subsubsection><title>Warm-Up 3</title>
 <statement><p>You have two jars of marbles. The first contains 40 marbles, of which 10 are red, and the second contains 60 marbles, of which 30 are red.<ol label="a">
 <li><p>What percent of the marbles in the first jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
 	<p>What percent of the marbles in the second jar are red?<m>~~~~~~\blert{r=\dfrac{P}{W} = }</m></p>	
@@ -198,7 +192,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 <li>Can we add the percents for the first two jars to get the percent red marbles in the mixture?</li></ol></p></statement><answer><p><ol label="a" cols="3">
 <li>25%, 50%</li>
 <li>100, 40, 40%</li>
-<li>No</li></ol></p></answer></exercise>
+<li>No</li></ol></p></answer></subsubsection>
 	 	
 <warning><p>In Warm-Up 3, you should find that adding the percent of red marbles in the first two jars does not give the percent of red marbles in the mixture. That is,
 	<me>25\% + 50\% \not= 40\%</me></p></warning>
@@ -212,7 +206,7 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
     	<answer><p>Only if they are percents of the same whole amount</p></answer></exercise>
 </reading-questions>
 
-<exercise><title>Warm-Up 4</title>
+<subsubsection><title>Warm-Up 4</title>
 <statement><p>In a local city council election, your favored candidate, Justine Honest, ran in a small district with two precincts. Ms. Honest won 30% of the 500 votes cast in Precinct 1 and 70% of the 300 votes cast in Precinct 2. Did Candidate Honest win a majority (more than 50%) of the votes in her district?</p>
 
 <p>Step 1 Fill in the first two rows of the table, using information from the problem and the formula <m>P=rW</m>.
@@ -243,13 +237,14 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 <p>Step 2 Add down to complete the first and third columns of the table.</p>
 <p>Step 3 Fill in the last entry in the table to answer the question in the problem. Use the formula <m>P=rW</m> again.</p>
 </statement>
-<answer><p>No; 45%</p></answer></exercise>
+<answer><p>No; 45%</p></answer></subsubsection>
 
 <p>So far we have considered mixture problems involving discrete objects, such as marbles or votes.  The same methods apply to mixtures of liquids.</p>
 
 <example xml:id="Example-4-4-2"><statement><p>A chemist wants to produce 45 milliliters of a 40% solution of carbolic acid by mixing a 20% solution with a 50% solution. How many milliliters of each should he use?</p>
 <sidebyside width="55%"><image source="images/fig-4-4-2"><description>picture</description></image></sidebyside>
 </statement>
+
 <solution><p>We let <m>x</m> represent the number of milliliters of the 20% solution he needs and <m>y</m> the number of milliliters of the 50% solution. We use a table to organize the information. The first two columns contain the variables and information given in the problem: the number of milliliters of each solution and its strength as a percent.  
 	
 <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
@@ -312,11 +307,9 @@ To simplify the system we first multiply the second equation by 100 to clear the
 	<md><mrow>x+y=45</mrow>
 		<mrow>20x+50y=1800</mrow></md>
 We solve the system by elimination. Multiply the first equation by <m>-20</m>, and add the equations together.
-	<me>\begin{aligned}
-                -20x-20y \amp = -900  \\
-                \underline{20x+50y} \amp \underline{ {}= 1800\vphantom{y}} \\
-                30y \amp = 900 
-                \end{aligned}</me>
+	<md><mrow>-20x-20y \amp = -900</mrow>
+        <mrow>\underline{20x+50y} \amp \underline{ {}= 1800\vphantom{y}}</mrow>
+        <mrow>30y \amp = 900</mrow></md> 
 Solving for <m>y</m>, we find <m>y=30</m>. We substitute <m>y=\alert{30}</m> into the first equation to find
 	<me>x+\alert{30}=45</me>
 or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 milliliters of the 50% solution for the mixture.</p></solution></example>
@@ -325,7 +318,7 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
 <p> Notice that, in <xref ref="Example-4-4-2" text="type-global"/>, once we have completed the table, it is easy to write a system of equations;  we simply add down the first and third columns of the table. (Remember that we cannot add down the middle column, because percents don't add!)</p></assemblage>
 
 <reading-questions>
-    <exercise number="7"><statement><p>What were the two equations in In <xref ref="Example-4-4-2" text="type-global"/> about?</p></statement>
+    <exercise number="7"><statement><p>What were the two equations in <xref ref="Example-4-4-2" text="type-global"/> about?</p></statement>
     	<answer><p>Total amount of mixture and amount of acid</p></answer></exercise>
     <exercise number="8"><statement><p>Which method did we use to solve the system in <xref ref="Example-4-4-2" text="type-global"/>?</p></statement>
     	<answer><p>Elimination</p></answer></exercise>
@@ -358,9 +351,11 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
 </subsection>
 
 <subsection><title>Motion</title>
+
 <p>We can also use systems of equations to solve problems involving motion at a constant speed.  We'll need the formula <m>\blert{D=RT}</m>.</p>
 
 <example xml:id="Example-4-4-3"><statement><p>Geologists can calculate the distance from their seismograph to the epicenter of an earthquake by timing the arrival of the P and S waves. They know that P waves travel at about 5.4 miles per second and S waves travel at 3.0 miles per second. If the P waves arrived 3 minutes before the S waves, how far away is the epicenter of the quake?</p></statement>
+
 <solution><p>Let <m>x</m> represent the distance from the seismograph to the epicenter. The time it took for the waves to arrive is also unknown, so we'll let <m>y</m> be the travel time for the P waves, in seconds. The travel time for the S waves is then <m>y+180</m> seconds.</p>  
 <p>We organize all this information in a table.
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -382,12 +377,10 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
 		<md><mrow>5.4y=x</mrow>
 		<mrow>3.0(y+180)=x</mrow></md>
 We solve the system by substitution. We substitute <m>\alert{5.4y}</m> for <m>x</m> in the second equation, and then solve for <m>y</m>.
-	<me>\begin{aligned}
-            3.0(y+180) \amp = \alert{5.4y} \amp\amp \blert{\text{Apply the distributive law.}} \\
-            3y+540 \amp = 5.4y \amp\amp \blert{\text{Subtract}~3y~ \text{from both sides.}}\\
-            540\amp = 2.4y  \amp\amp \blert{\text{Divide both sides by 2.4.}}\\
-            225 \amp = y    
-        \end{aligned}</me>
+	<md><mrow>3.0(y+180) \amp = \alert{5.4y} \amp\amp \blert{\text{Apply the distributive law.}}</mrow>
+        <mrow>3y+540 \amp = 5.4y \amp\amp \blert{\text{Subtract}~3y~ \text{from both sides.}}</mrow>
+        <mrow>540\amp = 2.4y  \amp\amp \blert{\text{Divide both sides by 2.4.}}</mrow>
+        <mrow>225 \amp = y</mrow></md>    
 Thus, it took the P waves 225 seconds to arrive at the seismograph. To solve for the distance <m>x</m>, we substitute <m>y=\alert{225}</m> into the first equation to find
 	<me>x=5.4(\alert{225})=1215</me>
 The epicenter is located 1215 miles from the seismograph.</p></solution></example>
@@ -400,7 +393,7 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-4-4"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>For part (b) of each problem, write an algebraic expression in two variables.</p>
 </introduction>
@@ -435,9 +428,174 @@ The epicenter is located 1215 miles from the seismograph.</p></solution></exampl
 	<li><m>0.06x+0.60y</m></li></ol></p></answer></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-4">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="2">
+    <li><p><ol label="a">
+        <li>$218.40</li>
+        <li><m>0.075x+0.048y</m></li></ol></p></li>
+    <li><p><ol label="a">
+        <li>8.5 miles</li>
+        <li><m>\dfrac{2}{3}x +\dfrac{1}{2}y</m></li></ol></p></li>
+    <li><p><ol label="a">
+        <li>3.75 hours</li>
+        <li><m>\dfrac{180}{x} + \dfrac{30}{y}</m></li></ol></p></li>
+    <li><p><ol label="a">
+        <li>3 lbs</li>
+        <li><m>0.06x+0.60y</m></li></ol></p></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Interest</title>
+
+<p>Jerry invested $2000, part at 4% interest and the remainder at 9%. His yearly income from the 9% investment is $37 more than his income from the 4% investment. How much did he invest at each rate?<ol label="a">
+    <li><p>Choose variables for the unknown quantities.</p>
+
+        <p>Fill in the table.</p>
+
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>Principal</cell>
+                        <cell>Interest Rate</cell>
+                        <cell>Interest</cell></row>
+                    <row> 
+                        <cell>First investment</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Second investment</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><p>Write two equations; one about the principal, and one about the interest.</p>
+
+        <p><m>\blert{\text{Principal:}}</m></p>
+
+        <p><m>\blert{\text{Interest:}}</m></p></li>
+
+    <li>Solve the system. (Which method seems easiest?)</li>
+    <li>Write your answer to the question in the problem in a sentence.</li></ol></p></subsubsection>
+
+<subsubsection><title>Activity 2: Mixtures</title>
+
+<p>Polls conducted by Senator Quagmire's campaign manager show that he can win 60% of the rural vote in his state but only 45% of the urban vote. If 1,200,000 citizens vote, how many voters from rural areas and how many from urban areas must vote in order for the Senator to win 50% of the votes?<ol label="a">
+
+<li><p>Let <m>x</m> represent the number of rural voters and <m>y</m> the number of urban voters. Fill in the table.</p>
+
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>Number of Voters <m>(W)</m></cell>
+                        <cell>Percent for Quagmire <m>(r)</m></cell>
+                        <cell>Number for Quagmire <m>(P)</m></cell></row>
+                    <row> 
+                        <cell>Rural</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Urban</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Total</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+
+    <li><p>Add down the first and third columns to write a system of equations.</p>
+
+        <p><m>\blert{\text{Number of voters:}}</m></p>
+
+        <p><m>\blert{\text{Number for Quagmire:}}</m></p></li>
+
+    <li>Solve the system.</li>
+    <li>Write your answer to the question in the problem in a sentence.</li></ol></p></subsubsection>
+
+<subsubsection><title>Activity 2: Motion</title>
+
+<p>A river steamer requires 3 hours to travel 24 miles upstream and 2 hours for the return trip downstream. Find the speed of the current and the speed of the steamer in still water.<ol label="a">
+
+<li><p>Choose variables:</p>
+        <p>Speed of the steamer:</p>
+        <p>Speed of the current:</p>
+
+        <p>Fill in the table about the steamer. Hint: When you are traveling downstream, the current adds to the speed of the boat. When you are traveling upstream, the current subtracts from the speed of the boat.</p>
+
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>Rate</cell>
+                        <cell>Time</cell>
+                        <cell>Distance</cell></row>
+                    <row> 
+                        <cell>Upstream</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Downstream</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><p>Write two equations about the steamer.</p></li>
+
+    <li>Solve the system. </li>
+    <li>Write your answer to the question in the problem in a sentence.</li></ol></p></subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Using a system to solve problems about interest</li>
+    <li>Using a system to solve problems about mixtures</li>
+    <li>Using a system to solve problems about motion</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, is $2000 part of the equation about the principal or the equation about the interest?</li>
+    <li>In Activity 2, what did <m>x</m> and <m>y</m> represent?</li>
+    <li>In Activity 3, what did <m>x+y</m> and <m>x-y</m> represent?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercisegroup><introduction><p><ol label="a">
+    <li>State the unknown quantities in each problem.</li>
+    <li>Write a system of equations for the problem.</li></ol></p></introduction>
+
+<exercise><statement><p>Mischa invested $2000 in two accounts:  a CD that earns 4% interest, and a savings account that earns 2.5% interest. At the end of the year, he had earned $72.50 in interest. How much did he invest in each account?</p>
+</statement></exercise>
+
+<exercise><statement><p>Bran flakes cost $1.40 per cup, and raisins cost $2.20 per cup. A 3-cup box of raisin bran costs $4.60.  How many cups of raisins and how many cups of bran flakes are in the box?</p></statement></exercise>
+
+<exercise><statement><p>EnergyBurst powdered lemonade is 50% sugar by weight. LemonLite is 20% sugar. How much of each powder should you use to make 12 ounces of a mixture that is 30% sugar?</p></statement></exercise>
+
+<exercise><statement><p>Jada and Charee participate in Walk for the Cure. Jada walks at 4 miles per hour, and Charee jogs at 6 miles per hour.  It takes Jada <m>2\frac{1}{2}</m> hours longer than Charee to complete the course. How long is the course?</p></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+    <li><md><mrow>x+y \amp =2000</mrow>
+            <mrow>0.04x+0.025y \amp = 72.50</mrow></md></li>
+    <li><md><mrow>x+y \amp =3</mrow>
+            <mrow>1.4x+2.2y \amp = 4.6</mrow></md></li>
+    <li><md><mrow>x+y \amp =12</mrow>
+            <mrow>0.5x+0.2y \amp =0.3(12)</mrow></md></li>
+    <li><md><mrow>4x \amp =6y</mrow>
+            <mrow>x \amp =y+2.5</mrow></md></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-4-4.xml" />
 </section>
