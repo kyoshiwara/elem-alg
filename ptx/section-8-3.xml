@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Lowest-Common-Denominator" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Lowest Common Denominator</title>
+<section xml:id="Lowest-Common-Denominator" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Lowest Common Denominator</title>
 
 <subsection><title>Building Fractions</title>
+
 <p>Let's begin with a quick review of the steps for adding fractions in arithmetic. Recall that we can only simplify a sum of like fractions. To add or subtract fractions with unlike denominators, we must convert the fractions to equivalent forms with the same denominator.</p> 
 
 <p>As an example, we'll compute the sum
@@ -31,9 +31,7 @@ In words, this says that we can multiply the numerator and denominator of a frac
 <p>We can visualize the building process with diagrams. Here are pictures of the original fractions in our example, <m>\dfrac{2}{3}</m> and <m>\dfrac{3}{4}</m>.</p>
 
 <sidebyside widths="35% 35%"><!--<image source="images/fig-8-3-1a.png"><description>rectangles</description></image><image source="images/fig-8-3-1b.png"><description>rectangles</description></image>-->
-    <image xml:id="fig-8-3-1a">
-        <description>rectangle for 2/3</description>
-        <latex-image>
+    <image xml:id="fig-8-3-1a"><description>rectangle for 2/3</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -42,12 +40,8 @@ In words, this says that we can multiply the numerator and denominator of a frac
 		 \draw[black, fill=cyan!20!white, very thick, opacity=.5] (0,\x) rectangle ++(4,1);
 		}
 		\draw[black, very thick] (0,0) rectangle ++(4,1);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    <image xml:id="fig-8-3-1b">
-        <description>rectangle for 3/4</description>
-        <latex-image>
+        \end{tikzpicture}]]></latex-image></image>
+    <image xml:id="fig-8-3-1b"><description>rectangle for 3/4</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -56,42 +50,31 @@ In words, this says that we can multiply the numerator and denominator of a frac
 		 \draw[black, fill=cyan!50!white, very thick, opacity=.5] (\x,0) rectangle ++(1,3);
 		}
 		\draw[black, very thick] (3,0) rectangle ++(1,3);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>Thirds and fourths are not like fractions -- they are not pieces of the same size. But if we can break up one-third and one-fourth into smaller pieces that are the same size, then we can combine all the pieces. This is what the LCD is for. We can break up both thirds and fourths into twelfths, as shown below.</p>
 
 <sidebyside widths="35% 35%"><!--<image source="images/fig-8-3-2a.png"><description>rectangles</description></image><image source="images/fig-8-3-2b.png"><description>rectangles</description></image>-->
-    <image xml:id="fig-8-3-2a">
-        <description>rectangle for 8/12</description>
-        <latex-image>
+    <image xml:id="fig-8-3-2a"><description>rectangle for 8/12</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture}[auto, thick]
 
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    <image xml:id="fig-8-3-2b">
-        <description>rectangle for 9/12</description>
-        <latex-image>
+        \end{tikzpicture}]]></latex-image></image>
+    <image xml:id="fig-8-3-2b"><description>rectangle for 9/12</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
         \begin{tikzpicture}[auto, thick]
 
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>We can see from the figure that <m>\dfrac{2}{3} = \dfrac{8}{12}</m> and <m>\dfrac{3}{4} = \dfrac{9}{12}</m>.  Once we have written the fractions with the same denominator, they are like fractions and we can add them. This is what building fractions is all about.</p>
 </subsection>
 
-<subsection><title>Adding and Subtracting Unlike Fractions</title>  	
+<subsection><title>Adding and Subtracting Unlike Fractions</title>
+
 <p>We add or subtract algebraic fractions in the same way.</p>
 
 <assemblage><title>To Add or Subtract Algebraic Fractions</title><p><ol label="1">
@@ -126,6 +109,7 @@ because  <m>~~(5x+10) - (2x-2) = 5x+10 -2x \alert{+2} = 3x+12</m></p></warning>
 </subsection>
 
 <subsection><title>Finding the Lowest Common Denominator</title>
+
 <p>How can we find an LCD for fractions whose denominators are algebraic expressions?</p>
 
 <assemblage><p>The <term>lowest common denominator</term> for two or more algebraic fractions is the simplest algebraic expression that is a multiple of each denominator.</p></assemblage>
@@ -203,33 +187,121 @@ The LCD is <m>x(x-2)(x+2)</m>.</p>
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-8-3"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Simplify.</p></introduction>
 
-<exercise number="1"><statement><m>2x+5-(3x+2)</m></statement>
-<answer><m>-x+3</m></answer></exercise>
+<exercise number="1"><statement><m>2x+5-(3x+2)</m></statement></exercise>
 
-<exercise number="2"><statement><m>4(x-3)-3(2x-5)</m></statement>
-<answer><m>-2x+3</m></answer></exercise>
+<exercise number="2"><statement><m>4(x-3)-3(2x-5)</m></statement></exercise>
 
-<exercise number="3"><statement><m>2(3x-x^2)+x(2x-4)</m></statement>
-<answer><m>2x</m></answer></exercise>
+<exercise number="3"><statement><m>2(3x-x^2)+x(2x-4)</m></statement></exercise>
 
-<exercise number="4"><statement><m>(x-3)2x+(x+2)4</m></statement>
-<answer><m>2x^2-2x+8</m></answer></exercise>
+<exercise number="4"><statement><m>(x-3)2x+(x+2)4</m></statement></exercise>
 
-<exercise number="5"><statement><m>x^2(x-1)-2x(x+2)</m></statement>
-<answer><m>x^3-3x^2-4x</m></answer></exercise>
+<exercise number="5"><statement><m>x^2(x-1)-2x(x+2)</m></statement></exercise>
 
-<exercise number="6"><statement><m>3x(x-4)-2(x^2-16)-4x</m></statement>
-<answer><m>x^2+8x+32</m></answer></exercise>
+<exercise number="6"><statement><m>3x(x-4)-2(x^2-16)-4x</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-8-3">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+    <li><m>-x+3</m></li>
+    <li><m>-2x+3</m></li>
+    <li><m>2x</m></li>
+    <li><m>2x^2-2x+8</m></li>
+    <li><m>x^3-3x^2-4x</m></li>
+    <li><m>x^2+8x+32</m></li></ol></p></subsubsection>
 </subsection>
+
+<subsection>
+<subsubsection><title>Activity 1: Unlike Fractions</title>
+<exercises>
+
+<exercise><statement><p>Add: <m>~~~\dfrac{5x}{6}+\dfrac{3-2x}{4}</m></p>
+
+<p><m>\blert{\text{Step 1  Find the LCD}}</m></p>
+
+<p><m>\blert{\text{Step 2  Build each fraction.}}</m></p>
+
+<p><m>\blert{\text{Step 3  Add like fractions.}}</m></p>
+
+<p><m>\blert{\text{Step 4  Reduce if possible.}}</m></p></statement></exercise>
+
+<exercise><statement><p>Follow the steps below to subtract  <m>~~~\dfrac{2}{x+2}-\dfrac{3}{x-2}</m></p>
+
+<p><m>\blert{\text{Step 1  Find the LCD}}</m></p>
+
+<p><m>\blert{\text{Step 2  Build each fraction.}}</m></p>
+
+<p><m>\blert{\text{Step 3  Subtract like fractions.}}</m></p>
+
+<p><m>\blert{\text{Step 4  Reduce if possible.}}</m></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Finding the LCD</title>
+<exercises>
+
+<exercise><statement><p>Find the LCD for  <m>~\dfrac{3}{4x^2}+\dfrac{5}{6xy}</m></p>
+
+<p><m>\blert{\text{Factor each denominator.}}</m></p>
+
+<p><m>\blert{\text{Choose the correct factors.}}</m></p>
+
+<p><m>\blert{\text{LCD =}}</m></p></statement></exercise>
+
+<exercise><statement><p>Subtract  <m>~\dfrac{b}{3b+9}-\dfrac{b-1}{2b^2+6b}</m></p>
+
+<p><m>\blert{\text{Step 1  Find the LCD}}</m></p>
+
+<p><m>~~~~~~~\blert{\text{Factor each denominator.}}</m></p>
+
+<p><m>~~~~~~~\blert{\text{Choose the correct factors.}}</m></p>
+
+<p><m>~~~~~~~\blert{\text{LCD =}}</m></p>
+
+<p><m>\blert{\text{Step 2  Build each fraction.}}</m></p>
+
+<p><m>\blert{\text{Step 3  Subtract like fractions.}}</m></p>
+
+<p><m>\blert{\text{Step 4  Reduce if possible.}}</m></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Finding an LCD</li>
+    <li> Adding and subtracting unlike fractions</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, Problem 2, what was the LCD?</li>
+    <li>In Activity 1, Problem 2, what was the building factor for the first fraction?</li>
+    <li>In Activity 2, Problem 2, explain how to find the building factor for each fraction.</li>
+</ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+
+<exercise><statement><p>Add: <m>~~~\dfrac{x+1}{x} + \dfrac{2x+1}{x+2}</m></p></statement></exercise>
+
+<exercise><statement><p>Find the LCD for <m>~~~\dfrac{1}{3a^2-6a}</m> and <m>\dfrac{1}{3a^2+3a-6}</m></p></statement></exercise>
+
+<exercise><statement><p>Subtract: <m>~~~\dfrac{x+1}{2x-4} + \dfrac{2x}{x^2-4}</m></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1" >
+    <li><m>\dfrac{3x^2+4x+2}{x(x+2)}</m></li>
+    <li><m>3a(a-1)(a+2)(a-2)</m></li>
+    <li><m>\dfrac{x^2-x+2}{2(x^2-4)}</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-8-3.xml" />
 </section>
