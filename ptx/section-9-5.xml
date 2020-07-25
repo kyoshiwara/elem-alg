@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Equations-with-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Equations with Radicals</title>
+<section xml:id="Equations-with-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations with Radicals</title>
 
 <subsection><title>Radical Equations</title>
 
@@ -10,7 +9,9 @@
 	<me>t=\sqrt{\dfrac{h}{4.9}}</me>
 This equation is called a <term>radical equation</term>, because an unknown value, <m>h</m>, appears under a radical sign.</p> 
 
-<assemblage><p>A <term>radical equation</term> is one in which the variable appears under a radical.</p></assemblage>  
+<assemblage><title>Radical Equation</title>
+<p>A <term>radical equation</term> is one in which the variable appears under a radical.</p></assemblage>
+
 <example><statement><p>If you drop a penny from the top of the Sears Tower in Chicago, it will take 9.5 seconds to reach the ground. Find the height  of the Sears Tower in meters by solving the equation
  	<me>9.5=\sqrt{\dfrac{h}{4.9}}</me></p></statement>
 
@@ -58,6 +59,7 @@ You can check that <m>x=19</m> satisfies the original equation.</p></solution></
 </subsection>
 
 <subsection><title>Extraneous Solutions</title>
+
 <p>The technique of squaring both sides may introduce <term>extraneous solutions</term>. (Recall that an extraneous solution is a value that is not a solution to the original equation.) For example, consider the equation
 	<me>\sqrt{x+2}=-3</me>
 Squaring both sides gives us
@@ -74,7 +76,8 @@ The value <m>x=7</m> is a solution to the squared equation, but not to the origi
     <answer><p>Squaring both sides of the equation.</p></answer></exercise>
 </reading-questions>
 
-<assemblage><p>Whenever we square both sides of an equation, we must check the solutions in the original equation.</p></assemblage>
+<assemblage><title>Extraneous Solutions</title>
+<p>Whenever we square both sides of an equation, we must check the solutions in the original equation.</p></assemblage>
 
 <p>If a radical equation involves several terms, it is easiest to isolate the radical term on one side of the equation before squaring both sides.</p>
 
@@ -111,6 +114,7 @@ Thus, <m>x=2</m> is an extraneous solution. The only solution to the original eq
 </subsection>
 
 <subsection><title>Equations with Cube Roots</title>
+
 <p>	We can also solve equations in which the variable appears under a cube root.</p>  
 
 <example><statement><p>Solve the equation <m>~~15-2\sqrt[3]{x-4} = 9</m></p></statement>
@@ -137,6 +141,7 @@ Finally, we add 4 to both sides to find the solution, <m>x=31</m>. We do not hav
 </subsection>
 
 <subsection><title>Extraction of Roots</title>
+
 <p>	Now we'll compare solving radical equations, where we square both sides, with quadratic equations, where we may be able to take square roots of both sides.</p>
 
 <example><statement><p>Solve by extraction of roots <m>~~2(3x-1)^2 = 36</m></p></statement>
@@ -157,7 +162,7 @@ We write the solutions as <m>~\dfrac{1 \pm 3\sqrt{2}}{2}</m>.</p></solution></ex
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-9-5"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="3"><introduction><p>Square each expression.</p></introduction>
                              
