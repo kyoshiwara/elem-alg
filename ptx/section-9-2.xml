@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Negative-Exponents-and-Scientific-Notation" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Negative Exponents and Scientific Notation</title>
+<section xml:id="Negative-Exponents-and-Scientific-Notation" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Negative Exponents and Scientific Notation</title>
 
 <subsection><title>Zero as an Exponent</title>
 
@@ -27,6 +26,7 @@ Thus, it seems reasonable to make the following definition.</p>
 </subsection>
 
 <subsection><title>Negative Exponents</title>
+
 <p>We can also use the second law of exponents to give meaning to negative exponents. Consider the quotient <m>\dfrac{a^4}{a^7}</m>. According to the second law of exponents,
 	<me>\dfrac{a^4}{a^7} = \dfrac{1}{a^{7-4}} = \dfrac{1}{a^3}</me>
 However, if we allow negative numbers as exponents, we can apply the first half of the second law to obtain
@@ -45,6 +45,7 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 	<li><m>10^{-4}</m></li>
 	<li><m>(\dfrac{1}{4})^{-3}</m></li>
 	<li><m>(\dfrac{3}{5})^{-2}</m></li></ol></p></statement>
+
 <solution><p><ol label="a">
 	<li><m>10^{-4} = \dfrac{1}{10^4} = \dfrac{1}{10,000},</m> or 0.0001</li>
 	<li><p>To compute a negative power of a fraction, we compute the corresponding positive power of its reciprocal. (This is because of the fifth law of exponents.) 
@@ -76,6 +77,7 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 </subsection>
 
 <subsection><title>Laws of Exponents</title>
+
 <p>The laws of exponents apply to negative exponents. In particular, if we allow negative exponents, we can write the second law as a single rule.</p>
 
 <assemblage><title>Laws of Exponents</title><p><ol label="1" cols="2">
@@ -88,6 +90,7 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 <example><statement><p>Simplify by using the first or second law of exponents.<ol label="a" cols="2">
 	<li><m>x^5 \cdot x^{-8}</m></li>
 	<li><m>\dfrac{5^2}{5^{-6}}</m></li></ol></p></statement>
+
 <solution><p><ol label="a">
 	<li><p>Apply the first law:  add the exponents.
 		<me>x^5 \cdot x^{-8} = x^{5-8} = x^{-3}</me></p></li>
@@ -111,6 +114,7 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 <example><statement><p>Simplify by using the third or fourth law of exponents.<ol label="a" cols="2">
 	<li><m>\left(2^{-3}\right)^{-3}</m></li>
 	<li><m>(ab)^{-3}</m></li></ol></p></statement>
+
 <solution><p><ol label="a">
 	<li><p>Apply the third law:  multiply the exponents.
 		<me>\left(2^{-3}\right)^{-3} = x^{5-8} = 2^{-3(-3)}=2^9</me></p></li>
@@ -125,6 +129,7 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 </subsection>
 
 <subsection><title>Powers of Ten</title>
+
 <p>Scientists and engineers often encounter very large numbers such as
 	<me>5,980,000,000,000,000,000,000,000</me>
 (the mass of the earth in kilograms) and very small numbers such as
@@ -150,6 +155,7 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 <example><statement><p>Fill in the correct power of 10 for each factored form.<ol label="a" cols="2">
 	<li><m>38,400 = 3.84 \times <fillin characters="6"/></m></li>
 	<li><m>0.0057 = 5.7 \times <fillin characters="6"/></m></li></ol></p></statement>
+
 <solution><p><ol label="a">
 	<li><p>To recover <m>38,400</m> from <m>3.84</m>, we must move the decimal point four places to the right, so we multiply by <m>10^4</m>. Thus,
 		<me>38,400 = 3.84 \times 10^4</me></p></li>
@@ -158,6 +164,7 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 </subsection>
 
 <subsection><title>Scientific Notation</title>
+
 <p>	If there is just one digit to the left of the decimal point in the factored form, we say that the number is written in <term>scientific notation</term>.</p>
 
 <assemblage><p>A number is in <term>scientific notation</term> if it is expressed as the product of a number 
@@ -179,6 +186,7 @@ are written in scientific notation.</p>
 <example><statement><p>Write each number in scientific notation.<ol label="a" cols="2">
 	<li><m>62,000,000</m></li>
 	<li><m>0.000431</m></li></ol></p></statement>
+
 <solution><p><ol label="a">
 	<li><p>We position the decimal point so that there is just one nonzero digit to the left of the decimal.
 		<me>62,000,000 = 6.2 \times <fillin characters="6"/></me>
@@ -203,7 +211,8 @@ are written in scientific notation.</p>
 </subsection>
 
 <subsection><title>Calculators and Scientific Notation</title>
-<p>	Your calculator displays numbers in scientific notation if they have too many digits to fit in the display screen.</p>  
+
+<p>	Your calculator displays numbers in scientific notation if they have too many digits to fit in the display screen.</p>
 
 <example><statement><p>Use a calculator to compute the square of 12,345,678.</p></statement>
 
@@ -249,43 +258,227 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
 </subsection>
 
 <subsection><title>Mental Calculation with Scientific Notation</title>
+
 <p>We can often obtain a quick estimate for a calculation by converting each figure to scientific notation and rounding to just one or two digits.</p>
 
 <example><statement><p>Use scientific notation to find the product
 	<me>(6,200,000,000)(0.000 000 3)</me></p></statement>
+
 <solution><p>We can use a calculator (if necessary) to combine the decimal numbers, and the first law of exponents to combine the powers of 10.
 	<md><mrow>(6,200,000,000)(0.000 000 3) \amp = (6.2 \times 10^9)(3 \times 10^{-7})~~~~~~\blert{\text{Rearrange the factors.}}</mrow>
 		<mrow>\amp = (6.2 \times 3) \times (10^9 \times 10^{-7})~~~~~~ \blert{10^{9-7} = 10^2}</mrow>
 		<mrow> \amp = 18.6 \times 10^2 = 1860</mrow></md></p></solution></example>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-9-2"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Decide whether each statement is true or false.</p></introduction>
 
-<exercise number="1"><statement>The reciprocal of <m>x+2</m> is <m>\dfrac{1}{x} + \dfrac{1}{2}</m>.</statement>
-<answer>False</answer></exercise>
+<exercise number="1"><statement>The reciprocal of <m>x+2</m> is <m>\dfrac{1}{x} + \dfrac{1}{2}</m>.</statement></exercise>
 
-<exercise number="2"><statement>The reciprocal of <m>\dfrac{1}{3} + \dfrac{1}{4}</m> is 7.</statement>
-<answer>False</answer></exercise>
+<exercise number="2"><statement>The reciprocal of <m>\dfrac{1}{3} + \dfrac{1}{4}</m> is 7.</statement></exercise>
 
-<exercise number="3"><statement><m>\dfrac{3}{\dfrac{1}{5}} = 15</m></statement>
-<answer>True</answer></exercise>
+<exercise number="3"><statement><m>\dfrac{3}{\dfrac{1}{5}} = 15</m></statement></exercise>
 
-<exercise number="4"><statement><m>\dfrac{3}{\dfrac{1}{5}+\dfrac{1}{2}} = 15+6</m>.</statement>
-<answer>False</answer></exercise>
+<exercise number="4"><statement><m>\dfrac{3}{\dfrac{1}{5}+\dfrac{1}{2}} = 15+6</m>.</statement></exercise>
 
-<exercise number="5"><statement>The reciprocal of <m>\dfrac{1}{x}</m> is <m>x</m>.</statement>
-<answer>True</answer></exercise>
+<exercise number="5"><statement>The reciprocal of <m>\dfrac{1}{x}</m> is <m>x</m>.</statement></exercise>
 
-<exercise number="6"><statement>The reciprocal of <m>\dfrac{1}{x+y}</m> is <m>x+y</m>.</statement>
-<answer>True</answer></exercise>
+<exercise number="6"><statement>The reciprocal of <m>\dfrac{1}{x+y}</m> is <m>x+y</m>.</statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-9-2">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="3">
+    <li>False</li>
+    <li>False</li>
+    <li>True</li>
+    <li>False</li>
+	<li>True</li>
+    <li>True</li></ol></p></subsubsection>
 </subsection>
+
+<subsection>
+<subsubsection><title>Activity 1: Negative Exponents</title>
+
+<p>Consider the two lists below, and fill in the unknown values by following the pattern. Notice that as we move down the list, we can find each new entry by dividing the previous entry by the base.</p>
+
+<sidebyside><tabular top="none" halign="left" right="none" left="none" bottom="none">             
+                    <row>
+                        <cell ><m>2^4=16~~~~~~~~</m>Divide by 2</cell>
+                        <cell ><m>\hphantom{0000}</m></cell>
+                        <cell ><m>5^4=625~~~~~~~~</m>Divide by 5</cell></row>
+                    <row>
+                        <cell ><m>2^3=8~~~~~~~~~~</m>Divide by 2</cell>
+                        <cell ><m>\hphantom{0000}</m></cell>
+                    	<cell ><m>5^3=125~~~~~~~~</m>Divide by 5</cell></row>
+                    <row> 
+                        <cell ><m>2^2=4</m></cell>
+                        <cell ><m>\hphantom{0000}</m></cell>
+                    	<cell ><m>5^2=25</m></cell></row>
+                    <row>
+                        <cell ><m>2^1=</m></cell>
+                        <cell ><m>\hphantom{0000}</m></cell>
+                    	<cell ><m>5^1=</m></cell></row>
+                    <row>
+                        <cell ><m>2^0=</m></cell>
+                        <cell ><m>\hphantom{0000}</m></cell>
+                    	<cell ><m>5^0=</m></cell></row>
+                    <row>
+                        <cell ><m>2^{-1}=</m></cell>
+                        <cell ><m>\hphantom{0000}</m></cell>
+                    	<cell ><m>5^{-1}=</m></cell></row>
+                    <row>
+                        <cell><m>2^{-2}=</m></cell>
+                        <cell ><m>\hphantom{0000}</m></cell>
+                    	<cell ><m>5^{-2}=</m></cell></row>
+                    <row>
+                        <cell ><m>2^{-3}=</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                    	<cell ><m>5^{-3}=</m></cell></row>
+                    </tabular></sidebyside> 
+
+<exercises>
+<exercisegroup><introduction><p>Answer the following questions about your lists.</p></introduction>
+
+<exercise><statement><p><ol label="a">
+	<li>What did you find for the values of <m>2^0</m> and <m>5^0</m> ?</li>  
+	<li>If you make a list with another base (say, 3, for example), what will you find for the value of <m>3^0</m>?</li>  
+	<li>Explain why this is true.</li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+	<li>Compare the values of <m>2^3</m> and <m>2^{-3}</m>. Do you see a relationship between them?</li>
+	<li>What about the values of <m>5^2</m> and <m>5^{-2}</m>? Try to state a general rule about powers with negative exponents.</li> 
+	<li>Use your rule to guess the value of <m>3^{-4}</m>.</li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercise><statement><p>Write each expression without exponents.<ol label="a" cols="3">
+	<li><m>-6^2</m></li>
+	<li><m>6^{-2}</m></li>
+	<li><m>(-6)^{-2}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Write each expression without negative exponents.<ol label="a" cols="3">
+	<li><m>4t^{-2}</m></li>
+	<li><m>(4t)^{-2}</m></li>
+	<li><m>\left(\dfrac{x}{3}\right)^{-4}</m></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Laws of Exponents</title>
+<exercises>
+
+<exercise><statement><p>Simplify by using the first or second law of exponents.<ol label="a" cols="2">
+	<li><m>3^{-3} \cdot 3^{-6}</m></li>
+	<li><m>\dfrac{b^{-7}}{b^{-3}}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Write without negative exponents and simplify.<ol label="a" cols="2">
+	<li><m>\dfrac{1}{15^{-2}}</m></li>
+	<li><m>\dfrac{3k^2}{m^{-4}}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Simplify by using the third or fourth law of exponents.<ol label="a" cols="2">
+	<li><m>(3y)^{-2}</m></li>
+	<li><m>(a^{-3})^{-2}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Explain the simplification of <m>\dfrac{(3z^{-4})^{-2}}{2z^{-3}}</m> shown below.  State the law of exponents or other property used in each step.
+
+<md><mrow>(1)~~~\dfrac{(3z^{-4})^{-2}}{2z^{-3}} \amp = \dfrac{3^{-2}(z^{-4})^{-2}}{2z^{-3}}\hphantom{00000000}</mrow>
+	<mrow>(2)~~~ \hphantom{00000000}\amp = \dfrac{3^{-2}z^8}{2z^{-3}}\hphantom{00000000}</mrow>
+	<mrow>(3)~~~\hphantom{00000000}\amp = \dfrac{3^{-2}z^{8-(-3)}}{2}\hphantom{00000000}</mrow>
+	<mrow>(4)~~~\hphantom{00000000}\amp = \dfrac{z^{11}}{3^2 \cdot 2} = \dfrac{z^{11}}{18}\hphantom{00000000}</mrow></md></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Scientific Notation</title>
+<exercises>
+
+<exercise><statement><p>Compute each product.<ol label="a" cols="2">
+	<li><m>1.47 \times 10^5</m></li>
+	<li><m>5.2 \times 10^{-2}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Fill in the correct power of 10 for each factored form.<ol label="a" cols="2">
+	<li><m>0.00427 = 4.27 \times <fillin characters="6"/></m></li>
+	<li><m>4800 = 4.8 \times <fillin characters="6"/></m></li></ol></p></statement></exercise>
+
+
+<exercise><statement><p>Write each number in scientific notation.<ol label="a">
+	<li>The largest living animal is the blue whale, with an average weight of 120,000,000 grams.</li>
+	<li>The smallest animal is the fairy fly beetle, which weighs about 0.000 005  gram.</li></ol></p></statement>
+</exercise>
+
+<exercise><statement><p>Perform the following calculations on your calculator.  Write the results in scientific notation.
+<ol label="a" cols="2">
+	<li><m>6,565,656 \times 34,567</m></li>
+	<li><m>0.000123 \div 98,765</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>An adult human brain weighs about 1350 grams. If one neuron weighs <m>1.35 \times 10^{-8}</m> gram on average, how many neurons are there in a human brain?</p></statement></exercise>
+
+<exercise><statement><p>Use scientific notation to find the quotient <m>~0.000 000 84 \div 0.000 4</m></p>
+
+<p><m>\blert{\text{Write each number in scientific notation.}}</m></p>
+
+<p><m>\blert{\text{Combine the decimal numbers and the powers of 10 separately.}}</m></p>
+</statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Writing expressions using negative exponents</li>
+	<li>Simplifying expressions using the laws of exponents</li>
+	<li>Converting between standard and scientific notation</li>
+	<li>Performing computations using scientific notation</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>Explain why <m>3^0=1</m>.</li>
+	<li>Does <m>a^6a^{-2}=\dfrac{a^6}{^2}</m> ?  Explain why or why not.</li>
+	<li>Your calculator gives aresult of 4 E 12. What does this mean?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+
+<exercise><statement><p>Write each expression without using negative exponents.<ol label="a" cols="2">
+	<li><m>3x^{-4}</m></li>
+	<li><m>(3x)^{-4}</m></li>
+	<li><m>\dfrac{1}{3x^{-4}}</m></li>
+	<li><m>\left(\dfrac{3}{x}\right)^{-4}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Simplify. Write your answers without using negative exponents.<ol label="a" cols="2">
+	<li><m>n^{-5}n^3</m></li>
+	<li><m>\dfrac{n^3}{n^{-4}}</m></li>
+	<li><m>(n^3)^{-5}</m></li>
+	<li><m>(5n)^{-3}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Write in scientific notation.<ol label="a" cols="2">
+	<li><m>48,700,000,000</m></li>
+	<li><m>0.000 000 000 52</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Use a calculator to compute
+	<me>\dfrac{0.000 000 006}{(428,000,000,000)(0.000 000 000 0032)}</me></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1">
+    <li><p><ol label="a" cols="4">
+    	<li><m>\dfrac{3}{x^4}</m></li>
+    	<li><m>\dfrac{1}{81x^4}</m></li>
+    	<li><m>\dfrac{x^4}{3}</m></li>
+    	<li><m>\dfrac{x^4}{81}</m></li></ol></p></li>
+    <li><p><ol label="a" cols="4">
+    	<li><m>\dfrac{1}{n^2}</m></li>
+    	<li><m>n^8</m></li>
+    	<li><m>\dfrac{1}{n^{15}}</m></li>
+    	<li><m>\dfrac{1}{125n^3}</m></li></ol></p></li>
+    <li><p><ol label="a" cols="2" >
+    	<li><m>4.87 \times 10^{10}</m></li>
+    	<li><m>5.2 \times 10^{-10}</m></li></ol></p></li>
+    <li><m>4.38 \times 10^{-9}</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-9-2.xml" />
 </section>

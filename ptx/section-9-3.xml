@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Properties-of-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Properties of Radicals</title>
+<section xml:id="Properties-of-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Properties of Radicals</title>
 
 <subsection><title>Product and Quotient Rules</title>
 
@@ -16,7 +15,8 @@ This calculation shows that <m>2\sqrt{2}</m> is equal to <m>\sqrt{8}</m>, becaus
 <solution><p> <m>\sqrt{45}</m> is a number whose square is 45. We can square <m>3\sqrt{5}</m> as follows:
 	<md><mrow>(3\sqrt{5})^2 \amp = 3^2(\sqrt{5})^2</mrow>
 		<mrow> \amp = 9(5)=45</mrow></md>
-Because the square of <m>3\sqrt{5}</m> is equal to 45, it is the case that <m>3\sqrt{5}=\sqrt{45}</m>.</p></solution></example>
+Because the square of <m>3\sqrt{5}</m> is equal to 45, it is the case that <m>3\sqrt{5}=\sqrt{45}</m>.</p></solution>
+</example>
 
 <p>It is usually helpful to write a radical expression as simply as possible. The expression <m>2\sqrt{2}</m> is considered simpler than <m>\sqrt{8}</m>, because the radicand is a smaller number. Similarly, <m>3\sqrt{5}</m> is simpler than <m>\sqrt{45}</m>. In this section we discover properties of radicals that help us simplify radical expressions.</p>
 
@@ -42,6 +42,7 @@ Because the square of <m>3\sqrt{5}</m> is equal to 45, it is the case that <m>3\
 </subsection>
 
 <subsection><title>Simplifying Square Roots</title>
+
 <p>We can use the product rule for radicals to write <m>\sqrt{12} = \sqrt{4}\sqrt{3}</m>. Now, <m>\sqrt{4}=2</m>,  so we can simplify <m>\sqrt{12}</m> as
 	<me>\sqrt{12} = \sqrt{4}\sqrt{3} = 2\sqrt{3}</me></p>
 <p>The expression <m>2\sqrt{3}</m> is a simplified form for <m>\sqrt{12}</m>. The factor of 4, which is a perfect square, has been removed from the radical. This example illustrates a strategy for simplifying radicals.</p>
@@ -70,6 +71,7 @@ but 6.708 is not the exact value for <m>\sqrt{45}</m>. For long calculations, to
 </subsection>
 
 <subsection><title>Square Root of a Variable Expression</title>
+
 <p>To square a power of a variable we double the exponent.  For example, the square of <m>x^5</m> is
 	<me>\left(x^5\right)^2 = x^{5 \cdot 2} = x^{10}</me>
 Because taking the square root of a number is the opposite of squaring a number, to take the square root of an even power we divide the exponent by 2.</p>
@@ -126,6 +128,7 @@ Finally, we simplify the square root of <m>x^6</m> to get
 </subsection>
 
 <subsection><title>Sums and Differences</title>
+
 <p>What about sums and differences of radicals? We cannot add or subtract radicals by combining their radicands.  That is,
 	<me>\alert{\sqrt{a} + \sqrt{b} \not= \sqrt{a+b}}</me></p>
 
@@ -139,7 +142,8 @@ Finally, we simplify the square root of <m>x^6</m> to get
 just as we write
 	<me>x+x=2x</me></p>
 
-<assemblage><p>Square roots with identical radicands are called <term>like radicals</term>.</p></assemblage> 
+<assemblage><title> Like Radicals</title>
+<p>Square roots with identical radicands are called <term>like radicals</term>.</p></assemblage> 
 
 <assemblage><title>Look Closer</title>
 <p>We can add or subtract like radicals in the same way that we add or subtract like terms, namely by adding or subtracting their coefficients.  For example,
@@ -181,7 +185,7 @@ Then we combine the like radicals <m>2\sqrt{5}</m> and <m>6\sqrt{5}</m> to get
 	<me>\sqrt{20} - 3\sqrt{50} + 2\sqrt{45} = 8\sqrt{5} - 15\sqrt{2}</me></p></solution></example>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-9-3"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Find the missing factor.</p></introduction>
