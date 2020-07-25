@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Algebraic-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Algebraic Fractions</title>
+<section xml:id="Algebraic-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Fractions</title>
 
 <subsection><title>What is an Algebraic Fraction?</title>
 
@@ -18,7 +17,8 @@
 	<li>The dimensions of the room are unknown. We let <m>L</m> represent the length of bedroom. Then the price per square foot is <m>\dfrac{800}{L^2}</m>.</li>
 	<li>The distance and the speed of the liner are unknown. We let <m>D</m> represent the distance traveled, and <m>R</m> the speed, or rate. Then the time for voyage is <m>\dfrac{D}{R}</m>.</li></ol></p></solution></example>
 
-<assemblage><p>An <term>algebraic fraction</term> (or rational expression, as they are sometimes called) is a fraction in which both numerator and denominator are polynomials.</p></assemblage>
+<assemblage><title>Algberaic Fraction</title>
+	<p>An <term>algebraic fraction</term> (or rational expression, as they are sometimes called) is a fraction in which both numerator and denominator are polynomials.</p></assemblage>
 
 <p>Here are some examples:
 	<me>\dfrac{3}{x},~~~~~~\dfrac{a^2+1}{a-2},~~~~~~\text{and}~~~~~~\dfrac{z-1}{2z+3}</me></p>
@@ -47,6 +47,7 @@
 </subsection>
 
 <subsection><title>Applications of Algebraic Fractions</title>
+
 <p>	Envirogreen Technology, Inc. decides to produce a water filter for home use. They spend $5000 for startup costs, and each filter costs $50 to produce. To help her decide on a selling price for the filters, the marketing manager would like to know the average cost per filter if they produce <m>x</m> filters. She first computes the total cost of producing <m>x</m> filters.
 	<md><mrow>\text{Total Cost}~ \amp =~\text{Startup Cost}~+~\text{Cost of}~x~\text{Filters}</mrow>
 		<mrow>\amp = 5000 + 50x</mrow></md>
@@ -57,7 +58,7 @@ This expression is an algebraic fraction. </p>
 <example><statement><p>Sketch a graph of the equation  <m>~~A=\dfrac{5000+50x}{x}</m></p></statement>
 
 <solution><p>We evaluate the average cost for various production levels, <m>x</m>, and make a table of values. We plot the points and connect them with a smooth curve to obtain the graph shown below.</p>
-<sidebyside widths="25% 60%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+<sidebyside widths="25% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
                     <row bottom="minor">
                         <cell><m>x</m></cell>
                         <cell><m>A</m></cell></row>
@@ -87,9 +88,7 @@ This expression is an algebraic fraction. </p>
                         <cell><m>52.50</m></cell></row>                     
                 </tabular>
     <!--<image source="images/fig-8-1-ex3.png"><description>graph</description></image>-->
-    <image xml:id="fig-8-1-ex3">
-        <description>curve</description>
-        <latex-image>
+    <image xml:id="fig-8-1-ex3"><description>curve</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -106,14 +105,12 @@ This expression is an algebraic fraction. </p>
 		 \draw[black] ({.2},\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
 		}
 		\draw[samples=65,domain=1/2:20,smooth,variable=\x,red, very thick,<->, >=stealth'] plot ({\x},{(5 + 5*\x) / \x});
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 </solution></example>
 </subsection>
 
 <subsection><title>Reducing Fractions</title>
+
 <p>	We can <term>reduce</term> a fraction if we can divide both numerator and denominator by a common factor.  In algebra, it is helpful to think of factoring out the common factor first.  For example,
 	<me>\dfrac{27}{36} = \dfrac{\cancel{9} \cdot 3}{\cancel{9} \cdot 4} = \dfrac{3}{4}</me>
 where we have divided both numerator and denominator by 9. The new fraction has the same value as the old one, namely 0.75, but it is simpler (the numbers are smaller.) Reducing is an application of the fundamental principle of fractions.</p>
@@ -194,6 +191,7 @@ This the whole point of reducing a fraction: to get a simpler but equivalent exp
 </subsection>
 
 <subsection><title>Negative of a Binomial</title>
+
 <p>How can we deal with negative factors in a fraction? First, we consider some facts about the negative, or <term>opposite</term>, of an expression.</p>
 
 <assemblage><p>A fraction is a negative number if either its numerator or its denominator is negative, but not both. For example, 
@@ -246,33 +244,175 @@ We see that <m>x-2y</m> is the opposite of <m>2y-x</m>, that is, <m>x-2y = -(2y-
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-8-1"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="3"><introduction><p>Factor completely.</p></introduction>
 
-<exercise number="1"><statement><m>x^2-4</m></statement>
-<answer><m>(x-2)(x+2)</m></answer></exercise>
+<exercise number="1"><statement><m>x^2-4</m></statement></exercise>
 
-<exercise number="2"><statement><m>x^2-4x</m></statement>
-<answer><m>x(9)x-4)</m></answer></exercise>
+<exercise number="2"><statement><m>x^2-4x</m></statement></exercise>
 
-<exercise number="3"><statement><m>x^2-4x+4</m></statement>
-<answer><m>(x-2)^2</m></answer></exercise>
+<exercise number="3"><statement><m>x^2-4x+4</m></statement></exercise>
 
-<exercise number="4"><statement><m>4x^2-1</m></statement>
-<answer><m>(2x-1)(2x+1)</m></answer></exercise>
+<exercise number="4"><statement><m>4x^2-1</m></statement></exercise>
 
-<exercise number="5"><statement><m>4x^2-4x</m></statement>
-<answer><m>4x(x-1)</m></answer></exercise>
+<exercise number="5"><statement><m>4x^2-4x</m></statement></exercise>
 
-<exercise number="6"><statement><m>4x^2+4x+1</m></statement>
-<answer><m>(2x+1)^2</m></answer></exercise>
+<exercise number="6"><statement><m>4x^2+4x+1</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-8-1">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+	<li><m>(x-2)(x+2)</m></li>
+	<li><m>x(x-4)</m></li>
+	<li><m>(x-2)^2</m></li>
+	<li><m>(2x-1)(2x+1)</m></li>
+	<li><m>4x(x-1)</m></li>
+	<li><m>(2x+1)^2</m></li></ol></p></subsubsection>
 </subsection>
+
+
+<subsection>
+<subsubsection><title>Activity 1: Algebraic Fractions</title>
+<exercises>
+
+<exercise><statement><p><ol label="a">
+	<li>Evaluate <m>~\dfrac{z-1}{2z+3~}</m> for <m>z=-3</m>.</li>
+	<li>For what value of <m>z</m> is the fraction undefined?</li></ol></p></statement></exercise>
+
+<exercise><statement><p>Recall the average cost of producing a filter in the Example about Evergreen Technology:
+		<me>\text{Average Cost} = \dfrac{5000+50x}{x}</me>
+	Use the table and graph of average cost to help you answer the questions.</p>
+
+<sidebyside widths="25% 50%"><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>A</m></cell></row>
+                    <row> 
+                        <cell><m>50</m></cell>
+                        <cell><m>150</m></cell></row>
+                    <row> 
+                        <cell><m>100</m></cell>
+                        <cell><m>100</m></cell></row>
+                    <row> 
+                        <cell><m>200</m></cell>
+                        <cell><m>75</m></cell></row>
+                    <row>
+                        <cell><m>400</m></cell>
+                        <cell><m>62.50</m></cell></row>  
+                    <row>
+                        <cell><m>500</m></cell>
+                        <cell><m>60</m></cell></row> 
+                    <row>
+                        <cell><m>1000</m></cell>
+                        <cell><m>55</m></cell></row>
+                    <row>
+                        <cell><m>1250</m></cell>
+                        <cell><m>54</m></cell></row> 
+                    <row>
+                        <cell><m>2000</m></cell>
+                        <cell><m>52.50</m></cell></row>                     
+                </tabular>
+    <!--<image source="images/fig-8-1-ex3.png"><description>graph</description></image>-->
+    <image xml:id="fig-8-1-ex3"><description>curve</description><latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+		\begin{tikzpicture}[scale=.4]
+		\draw[cyan] (0,0) grid (20,15);
+		\draw[black, very thick, ->, >=stealth'] (0,0)--(21,0) node[right]{$x$};
+		\draw[black, very thick, ->, >=stealth'] (0,0)--++(0,16) node[left, xshift=2]{$A$};
+		\foreach \x [evaluate=\x as \xi using int(100*\x)] in  {5,10,15,20} {
+		 \draw[cyan, very thick] ({\x},0) --++(0,15);
+		 \draw[black] ({\x},.2) --++(0,-.4) node[below, yshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\foreach \x [evaluate=\x as \xi using int(10*\x)] in  {5,10,15} {
+		 \draw[cyan, very thick] (0,\x) --++(20,0);
+		 \draw[black] ({.2},\x) --++(-.4,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\xi$};
+		}
+		\draw[samples=65,domain=1/2:20,smooth,variable=\x,red, very thick,<->, >=stealth'] plot ({\x},{(5 + 5*\x) / \x});
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
+<p><ol label="a">
+	<li>Approximately how many filters should Envirogreen produce for the average cost to be $75?</li>
+	<li>What happens to the average cost per filter as <m>x</m> increases?</li>
+	<li>As <m>x</m> increases, the average cost appears to be approaching a limiting value. What is that value?</li>
+	<li>A market analysis concludes that Envirogreen can sell 1250 filters this year. How much should they charge for one filter if they would like to make a total profit of $100,000? (Hint:  Use the formula   Profit <m>=</m> Revenue <m>-</m> Cost)</li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Reducing Fractions</title>
+<exercises>
+
+<exercise><statement><p>Explain why each calculation is incorrect.<ol label="a">
+	<li><m>\dfrac{x-6}{x-9} \rightarrow \dfrac{x-2}{x-3}</m></li>
+	<li><m>\dfrac{2x+5}{2} \rightarrow x+5</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+	<li>Reduce <m>~\dfrac{12x-18}{16x-24}</m></li>
+	<li>If you evaluate <m>~\dfrac{12x-18}{16x-24}~</m> for <m>x=-17</m>, what do you expect to get?</li></ol></p></statement></exercise>
+
+<exercise><statement><p>Reduce <m>~\dfrac{x^2-x-6}{x^2-9}</m></p></statement></exercise>
+
+<exercise><statement><p>Find the opposite of each binomial.<ol label="a" cols="2">
+	<li><m>2a+3b</m></li>
+	<li><m>-x+1</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Reduce if possible.<ol label="a" cols="2">
+	<li><m>\dfrac{-x+1}{1-x}</m></li>
+	<li><m>\dfrac{1+x}{1-x}</m></li>
+	<li><m>\dfrac{2a-3b}{3b-2a}</m></li>
+	<li><m>\dfrac{2a-3b}{2b-3a}</m></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Evaluating algebraic fractions</li>
+	<li>Reducing algebraic fractions</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, Problem 2d, what was the average cost per filter?</li>
+	<li>In Activity 2, Problem 3, can we cancel the <m>x^2</m>'s?  Why or why not?</li>
+	<li>In Activity 2, Problem 4, which numerator is the opposite of its denominator?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+
+<exercise><statement><p>The chess club will have 4 men and an unknown number  of women.  What fraction of the club will be men?</p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+	<li>Evaluate <m>~\dfrac{z^2-4}{z-4}~</m> for <m>z=-2</m>.</li>
+	<li>For what values of <m>z</m> is <m>~\dfrac{z^2-4}{z-4}~</m> undefined?</li></ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p>Reduce.</p></introduction>
+
+<exercise><statement><m>~~\dfrac{20s^3t^2}{12st^3}</m></statement></exercise>
+
+<exercise><statement><m>~~\dfrac{x^2-4x}{2x}</m></statement></exercise>
+
+<exercise><statement><m>~~\dfrac{a^2-9}{3a-9}</m></statement></exercise>
+
+<exercise><statement><m>~~\dfrac{b-2}{2b^2-3b-2}</m></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1" cols="2">
+	<li><m>\dfrac{4}{4+w}</m></li>
+	<li><p><ol label="a" cols="2">
+		<li><m>0</m></li>
+		<li><m>4</m></li></ol></p></li>
+	<li><m>\dfrac{5s^2}{3t}</m></li>
+	<li><m>\dfrac{x-4}{2}</m></li>
+	<li><m>\dfrac{a+3}{3}</m></li>
+	<li><m>\dfrac{1}{2b+1}</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-8-1.xml" />
 </section>
 

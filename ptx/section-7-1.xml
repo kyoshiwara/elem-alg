@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Polynomials" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Polynomials</title>
+<section xml:id="Polynomials" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Polynomials</title>
 
 <subsection><title>What is a Polynomial?</title>
-<assemblage><p>A <term>polynomial</term> is an algebraic expression with several terms. Each term is a power of a variable (or a product of powers) with a constant coefficient.</p></assemblage>
+
+<assemblage><title>Polynomial</title>
+	<p>A <term>polynomial</term> is an algebraic expression with several terms. Each term is a power of a variable (or a product of powers) with a constant coefficient.</p></assemblage>
 
 <assemblage><title>Look Closer</title>
 <p>The exponents in a polynomial must be whole numbers, which means that a polynomial has no radicals containing variables, and no variables in the denominators of fractions.</p></assemblage> 
@@ -36,6 +37,7 @@
 </subsection>
 
 <subsection><title>Degree</title>
+
 <p>In a term containing only one variable, the exponent of the variable is called the <term>degree</term> of the term. (The degree of a constant term is zero, for reasons that will become clear in Chapter 9.) For example,  
 	<md><mrow>\amp 3x^2~~~~~~	 \amp \amp\text{is of second degree}</mrow>
 		<mrow>\amp 8y^3~~~~~~    \amp \amp\text{is of third degree}</mrow>
@@ -68,6 +70,7 @@ The degree of a polynomial in one variable is the largest exponent that appears 
 </subsection>
 
 <subsection><title>Evaluating Polynomials</title>
+
 <p>We evaluate polynomials the same way we evaluate any other algebraic expression:  by substituting the given values for the variables and then following the order of operations to simplify.</p>
 
 <example><statement><p>Evaluate <m>~16t^3-6t+20~</m> for <m>~t=\dfrac{3}{2}</m>.</p></statement>
@@ -80,6 +83,7 @@ The degree of a polynomial in one variable is the largest exponent that appears 
 </subsection>
 
 <subsection><title>Like Terms</title>
+
 <p><term>Like terms</term> are any terms that are exactly alike in their variable factors. The exponents on the variable factors must also match. For example,
 	<md><mrow>x^3~~~\amp \text{and}~~~2x+1 \amp \amp \blert{\text{Not like terms}}</mrow>
 		<mrow>2x^2y~~~\amp \text{and}~~~3y^2-2y+2   \amp \amp \blert{\text{Not like terms}}</mrow></md>
@@ -104,12 +108,14 @@ Note that we do not change the exponent on <m>x</m> in the sum; it is still 2.</
 
 <example><statement><p>Simplify by combining any like terms:
 	<me>x^3+2x^2-2x^3-(-4x^2)+4x</me></p></statement>
+
 <solution><p>The terms <m>x^3</m> and <m>-2x^3</m> are like terms; so are <m>2x^2</m> and <m>-4x^2</m>. We group the like terms together and combine them.
 	<me>\blert{x^3-2x^3} + \alert{2x^2-(-4x^2)} + 4x = \blert{-x^3} + \alert{6x^2} + 4x</me>
 The last term, <m>4x</m>, is not combined with any other terms.</p></solution></example>
 </subsection>
 
 <subsection><title>Adding Polynomials</title>
+
 <p>To add two polynomials we remove parentheses and combine like terms.</p>
 
 <example><statement><p>
@@ -128,6 +134,7 @@ The last term, <m>4x</m>, is not combined with any other terms.</p></solution></
 </subsection>
 
 <subsection><title>Subtracting Polynomials</title>
+
 <p>If an expression in parentheses is preceded by a minus sign, we must change the sign of each term within parentheses when we remove the parentheses. This rule applies when we subtract polynomials.</p>
 
 <example xml:id="Example-7-1-9"><statement><p>Subtract the polynomials <m>~(4x^2+2x-5)-(2x^2-3x-2)</m></p></statement>
@@ -145,8 +152,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 
 <example><statement><p>Subtract <m>~2n^2-3n-2~</m> from <m>~4n^2+2n-5</m></p></statement>
 
-<solution><p>
-	<sidebyside><tabular>         
+<solution><p><sidebyside><tabular>         
                     <row>
                         <cell><m>~~~~~~~~4n^2+2n-5</m></cell>
                         <cell><m>\hphantom{0000}</m></cell>
@@ -169,6 +175,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 </subsection>
 
 <subsection><title>Application</title>
+
 <p>Applied problems may involve addition or subtraction of polynomials. In particular, to calculate the profit it earns by selling its product, a company must subtract the cost of producing the goods from the revenue it earns by selling them. We can state this as a formula.</p>
 
 <assemblage><p><me>\blert{\text{Profit = Revenue - Cost}}</me></p></assemblage>
@@ -189,38 +196,149 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 	The company loses $200 if they produce 600 bags of cookies.</p></li></ol></p></solution></example>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-7-1"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Replace the comma in each pair by the proper symbol: <m>~\gt,~ \lt,~</m> or <m>~=</m>.</p></introduction>
 
-<exercise number="1"><statement><m>(-2)^3,~-2^3</m></statement>
-<answer><p><m>=</m></p></answer></exercise>
+<exercise number="1"><statement><m>(-2)^3,~-2^3</m></statement></exercise>
 
-<exercise number="2"><statement><m>-5^4,~(-5)^4</m></statement>
-<answer><p><m>\lt</m></p></answer></exercise>
+<exercise number="2"><statement><m>-5^4,~(-5)^4</m></statement></exercise>
 
-<exercise number="3"><statement><m>7-3^2,~4^2</m></statement>
-<answer><p><m>\lt</m></p></answer></exercise>
+<exercise number="3"><statement><m>7-3^2,~4^2</m></statement></exercise>
 
-<exercise number="4"><statement><m>2+4^3,~6^3</m></statement>
-<answer><p><m>\lt</m></p></answer></exercise>
+<exercise number="4"><statement><m>2+4^3,~6^3</m></statement></exercise>
 
-<exercise number="5"><statement><m>4 \cdot 2^3,~8^3</m></statement>
-<answer><p><m>\lt</m></p></answer></exercise>
+<exercise number="5"><statement><m>4 \cdot 2^3,~8^3</m></statement></exercise>
 
-<exercise number="6"><statement><m>2 \cdot 5^2,~10^2</m></statement>
-<answer><p><m>\lt</m></p></answer></exercise>
+<exercise number="6"><statement><m>2 \cdot 5^2,~10^2</m></statement></exercise>
 
-<exercise number="7"><statement><m>\dfrac{1}{2},~(\dfrac{1}{2})^2</m></statement>
-<answer>/</answer></exercise>
+<exercise number="7"><statement><m>\dfrac{1}{2},~\left(\dfrac{1}{2}\right)^2</m></statement></exercise>
 
-<exercise number="8"><statement><m>\dfrac{3}{4},~(\dfrac{3}{4})^2</m></statement>
-<answer>/</answer></exercise>
+<exercise number="8"><statement><m>\dfrac{3}{4},~\left(\dfrac{3}{4}\right)^2</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-7-1">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="4">
+	<li><m>=</m></li>
+	<li><m>\lt</m></li>
+	<li><m>\lt</m></li>
+	<li><m>\lt</m></li>
+	<li><m>\lt</m></li>
+	<li><m>\lt</m></li>
+	<li><m>\gt</m></li>
+	<li><m>\gt</m></li></ol></p></subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Polynomials</title>
+<exercises>
+
+<exercise><statement><p>Which of the following expressions are polynomials?<ol label="a" cols="2">
+	<li><m>t^2-7t+3</m></li>
+	<li><m>2+\dfrac{6}{x}</m></li>
+	<li><m>-a^3b^2c^4</m></li>
+	<li><m>3w^2-w+5\sqrt{w}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Give the degree of each polynomial.<ol label="a" cols="2">
+	<li><m>5x^9-1</m></li>
+	<li><m>3t^2-t-6t^4+8</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Write the polynomial <m>~3x-8-6x^3-x^6~</m> in descending powers of <m>x</m>.</p></statement>
+</exercise>
+
+<exercise><statement><p>Evaluate <m>~2x^3y^2-3xy^3-3~</m> for <m>x=-2,~y=-3</m>.</p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Adding and Subtracting Polynomials</title>
+<exercises>
+
+<exercise><statement><p>Simplify by combining any like terms.
+	 <me>2a^2b-5ba+4ba^29(-3ab)</me></p></statement></exercise>
+
+<exercise><statement><p>Add the polynomials.
+	 <me>(2m^4-4m^3+3m-1)+(m^3+4m^2-6m+2)</me></p></statement></exercise>
+
+<exercise><statement><p>Use a vertical format to add <m>~5y^2-3y+1~</m> to <m>~-3y^2+6y-7</m></p></statement></exercise>
+
+<exercise><statement><p>Subtract the polynomials.
+	 <me>(2m^4-4m^3+3m-1)-(m^3+4m^2-6m+2)</me></p></statement></exercise>
+
+<exercise><statement><p>Use a vertical format to subtract <m>~2x^2+5-2x~</m> from <m>~7-3x-4x^2</m></p></statement>
+</exercise>
+
+<exercise><statement><p>Simplify <m>~2a^2(3-a+4a^2)-3a(5a-a^2)</m></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Applications</title>
+<exercises>
+
+<exercise><statement><p>The length of a box is twice its width, <m>w</m>, and its height is 3 inches less than its width.
+<ol label="a"> 
+	<li>Sketch a picture of the box, and label its sides.</li>
+	<li>Write a polynomial for the volume of the box.</li>
+	<li>Write a polynomial for the surface area of the box.</li></ol></p></statement></exercise>
+
+<exercise><statement><p>Milly's Muffins can sell <m>x</m> muffins at the farmers' market if she charges <m>6-0.02x</m>  dollars for a muffin. It costs Milly <m>50+1.5x</m> dollars to make <m>x</m> muffins.<ol label="a"> 
+	<li><p>Write a polynomial for Milly's revenue from selling muffins.</p>  
+		<p>Hint:  Revenue <m>~=~</m>(number of items sold)<m>~\times ~</m>(price per item)</p></li>
+	<li>Write a polynomial for Milly's profit.</li>
+	<li>Find Milly's profit if she sells 50 muffins, 100 muffins, and 150 muffins.</li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Identifying a polynomial</li>
+	<li>Identifying degree and number of terms</li>
+	<li>Writing a polynomial in descending powers</li>
+	<li>Evaluating a polynomial</li>
+	<li>Adding and subtracting polynomials</li>
+	<li>Writing simple polynomial expressions</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>Name two places that a variable cannot appear in a polynomial.</li>
+	<li>What do you suppose "ascending powers" means?</li>
+	<li>What is wrong with this statement:
+		<me>5x-(2x+3x^2) = 5x=2x+3x^2</me></li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+
+<exercise><statement><p>Explain why each expression is not a polynomial.<ol label="a" cols="2">
+	<li><m>4x^3-x^2+\dfrac{3}{x}</m></li>
+	<li><m>2x^2-3x\sqrt{x} + 5x</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Evaluate <m>~2x^3-4x^2+3x-6~</m> for <m>x=-3</m>.</p></statement></exercise>
+
+<exercise><statement><p>Evaluate <m>~\dfrac{5}{4}x^2+\dfrac{1}{2}xy-2y^2~</m> for <m>x=-4,~y=2</m>.</p></statement>
+</exercise>
+
+<exercise><statement><p>Add  <m>~(5x^3-3x+4x^2-1)+(3+2x-x^3-6x^2)</m></p></statement></exercise>
+
+<exercise><statement><p>Subtract  <m>~(t^3-2t^2-3t+5)-(2t^3+4t-3-t^2)</m></p></statement></exercise>
+
+<exercise><statement><p>Simplify  <m>~ab(3ab-b)-b^2(2a^2-ab)</m></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1">
+	<li><p><ol label="a">
+		<li>It has a variable in the denominator</li>
+		<li>It has a variable under a radical</li></ol></p></li>
+	<li><m>-105</m></li>
+	<li><m>8</m></li>
+	<li><m>4x^3-2x^2-x+2</m></li>
+	<li><m>-t^3-t^2-7t+8</m></li>
+	<li><m>a^2b^2-ab^2+ab^3</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-7-1.xml" />
 </section>
