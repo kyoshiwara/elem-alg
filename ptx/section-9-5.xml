@@ -209,9 +209,169 @@ We write the solutions as <m>~\dfrac{1 \pm 3\sqrt{2}}{2}</m>.</p></solution></ex
 	<li><m>4x-3+12\sqrt{x-3}</m></li></ol></p></answer></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-9-5">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="2">
+    <li><p><ol label="a">
+    	<li><m>9x^2</m></li>
+    	<li><m>9+6x+x^2</m></li></ol></p></li>
+    <li><p><ol label="a">
+    	<li><m>3x</m></li>
+    	<li><m>9x</m></li></ol></p></li>
+    <li><p><ol label="a">
+    	<li><m>x+3</m></li>
+    	<li><m>x+2\sqrt{3x}+3</m></li></ol></p></li>
+    <li><p><ol label="a">
+    	<li><m>x^2-2\sqrt{3}x+3</m></li>
+    	<li><m>9-6\sqrt{x}+x</m></li></ol></p></li>
+    <li><p><ol label="a">
+    	<li><m>4-12\sqrt{x}+9x</m></li>
+    	<li><m>8x-24</m></li></ol></p></li>
+    <li><p><ol label="a">
+    	<li><m>x=1+4\sqrt{x-3}</m></li>
+    	<li><m>4x-3+12\sqrt{x-3}</m></li></ol></p></li></ol></p></subsubsection>
 </subsection>
+
+<subsection>
+<subsubsection><title>Activity 1: Solving Radical Equations</title>
+<exercises>
+<exercisegroup><introduction><p>After solving a radical equation, remember to check for extraneous solutions.</p></introduction>
+
+<exercise><statement><p>Solve <m>~\sqrt{x-6}=2</m></p></statement></exercise>
+
+<exercise><statement><p>Solve <m>~\sqrt{x-3}+5=x</m></p></statement></exercise>
+
+<exercise><statement><p>Solve <m>~3\sqrt[3]{4x-1}=-15</m></p></statement></exercise>
+</exercisegroup>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Roller Coasters</title>
+
+<p>You have been commissioned to design a new roller coaster for an amusement park. The roller coaster should be more spectacular than all existing roller coasters, and in particular it should include a vertical loop.  In order to stay on the track through the loop, the cars must travel at a speed given (in miles per hour) by
+	<me>v=\sqrt{89.3r}</me>
+where <m>r</m> is the radius of the loop in feet.</p>
+	<p>Here are three roller coasters with ver tall vertical loops:</p>
+
+<sidebyside><tabular top="none" halign="left" right="none" left="none" bottom="none">              
+                    <row bottom="minor">
+                        <cell>Height</cell>
+                        <cell halign="center">Roller Coaster</cell>
+                        <cell halign="center">Location</cell></row>
+                    <row> 
+                        <cell>188 feet</cell>
+                        <cell halign="center">Viper</cell>
+                        <cell>Six Flags Magic Mountain, Valencia, California</cell></row>
+                    <row> 
+                        <cell>173 feet</cell>
+                        <cell halign="center">Gash</cell>
+                        <cell>Six Flags Great Adventure, Jackson, New Jersey</cell></row>
+                    <row> 
+                        <cell>170 feet</cell>
+                        <cell halign="center">Shockwave</cell>
+                        <cell>Six Flags Great Adventure, Gurnee, Illinois</cell></row>
+                    </tabular></sidebyside>
+
+<exercises>
+<exercise><statement><sidebyside widths="60% 30%"><stack><p>Evaluate the formula to find the speed the cars must reach on each roller coaster. Because the vertical loops used in roller coasters are not perfect circles, the total height of the loop is about 2.5 times its radius.</p> 
+
+<p>Viper:</p>
+
+<p>Gash:</p>
+
+<p>Shockwave:</p></stack>
+
+<image source="images/act-9-5-1.png"><description>loop</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><p>You would like your roller coaster to have a vertical loop that is 200 feet tall. How fast must the cars travel?</p></statement></exercise>
+
+<exercise><statement><p>Now suppose you know the maximum speed possible for the cars on a particular roller coaster. Can you calculate the height of the tallest vertical loop the cars can negotiate? Here are the speeds of three of the world's fastest roller coasters.</p>
+
+<sidebyside><tabular top="none" halign="left" right="none" left="none" bottom="none">              
+                    <row bottom="minor">
+                        <cell>Speed</cell>
+                        <cell halign="center">Roller Coaster</cell>
+                        <cell halign="center">Location</cell></row>
+                    <row> 
+                        <cell>86 mph</cell>
+                        <cell halign="center">Fujiyama</cell>
+                        <cell>Fujikyu Highland Park, Japan</cell></row>
+                    <row> 
+                        <cell>80 mph</cell>
+                        <cell halign="center">Steel Phantom</cell>
+                        <cell>Kennywood, West Miflin, Pennsylvania</cell></row>
+                    <row> 
+                        <cell>79 mph</cell>
+                        <cell halign="center">Desperado</cell>
+                        <cell>Buffalo Bill's, Jean, Nevada</cell></row>
+                    </tabular></sidebyside>
+
+<p>Calculate the maximum loop height possible for each roller coaster.</p>
+
+<p>Desperado:</p>
+
+<p>Steel Phantom:</p>
+
+<p>Fujiyama:</p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Quadratic Equations</title>
+
+<exercises>
+<exercise><statement><p>Solve  <m>~~(2x+1)^2=8</m></p></statement></exercise>
+
+<exercise><statement><p>Solve  <m>~~3x^2-6x+2=0~~</m> and simplify the solutions.</p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Solving radical equations</li>
+	<li>Checking for extraneous solutions</li>
+	<li>Simplifying solutions of quadratic equations</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>What operation might introduce extraneous solutions?</li>
+	<li>What is wrong with this strategy:  To solve an equation with a variable under a square root, square each term of the equation.</li>
+	<li>How many solutions does the equation <m>~x^2=64~</m> have?  How many solutions does <m>~x^3=-64~</m> have?</li>
+</ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p>Solve.</p></introduction>
+
+<exercise><statement><p><m>5\sqrt{2x-4}-7=23</m></p></statement></exercise>
+
+<exercise><statement><p><m>4\sqrt[3]{6-x}+5=-3</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>Solve, and check for extraneous solutions.</p></introduction>
+
+<exercise><statement><p><m>\sqrt{2x-3}=-5</m></p></statement></exercise>
+
+<exercise><statement><p><m>t-5=\sqrt{2t+5}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise><statement><p>Solve by extracting roots  <m>~~3(2x-3)^2=15</m></p></statement></exercise>
+
+<exercise><statement><p>Solve  <m>~~2x^2-4x-5=0~~</m> and simplify your answer.</p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1" cols="2">
+    <li><m>x=20</m></li>
+    <li><m>x=14</m></li>
+    <li>No solution</li>
+    <li><m>t=10</m></li>
+    <li><m>x=\dfrac{3 \pm \sqrt{5}}{2}</m></li>
+    <li><m>x=\dfrac{2 \pm \sqrt{14}}{2}</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-9-5.xml" />
 </section>

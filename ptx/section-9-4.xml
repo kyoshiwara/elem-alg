@@ -156,29 +156,21 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 
 <exercisegroup cols="2"><introduction><p>Each simplification is incorrect. Give the correct simplification, or write c.b.s. if the expression cannot be simplified.</p></introduction>
 
-<exercise number="1"><statement><p><m>2+4\sqrt{5} \rightarrow 6\sqrt{5}</m></p></statement>
-<answer><p>c.b.s.</p></answer></exercise>
+<exercise number="1"><statement><p><m>2+4\sqrt{5} \rightarrow 6\sqrt{5}</m></p></statement></exercise>
 
-<exercise number="2"><statement><p><m>\dfrac{2+3\sqrt{5}}{2} \rightarrow 3\sqrt{5}</m></p></statement>
-<answer><p>c.b.s.</p></answer></exercise>
+<exercise number="2"><statement><p><m>\dfrac{2+3\sqrt{5}}{2} \rightarrow 3\sqrt{5}</m></p></statement></exercise>
 
-<exercise number="3"><statement><p><m>3\sqrt{5}+3\sqrt{2} \rightarrow 3\sqrt{7}</m></p></statement>
-<answer><p>c.b.s.</p></answer></exercise>
+<exercise number="3"><statement><p><m>3\sqrt{5}+3\sqrt{2} \rightarrow 3\sqrt{7}</m></p></statement></exercise>
 
-<exercise number="4"><statement><p><m>\dfrac{4+\sqrt{6}}{2} \rightarrow 2+\sqrt{3}</m></p></statement>
-<answer><p>c.b.s.</p></answer></exercise>
+<exercise number="4"><statement><p><m>\dfrac{4+\sqrt{6}}{2} \rightarrow 2+\sqrt{3}</m></p></statement></exercise>
 
-<exercise number="5"><statement><p><m>2(3\sqrt{5}) \rightarrow 6\sqrt{10}</m></p></statement>
-<answer><m>6\sqrt{5}</m></answer></exercise>
+<exercise number="5"><statement><p><m>2(3\sqrt{5}) \rightarrow 6\sqrt{10}</m></p></statement></exercise>
 
-<exercise number="6"><statement><p><m>2(3+\sqrt{5}) \rightarrow 6+\sqrt{10}</m></p></statement>
-<answer><m>6+2\sqrt{5}</m></answer></exercise>
+<exercise number="6"><statement><p><m>2(3+\sqrt{5}) \rightarrow 6+\sqrt{10}</m></p></statement></exercise>
 
-<exercise number="7"><statement><p><m>(3\sqrt{5})(4\sqrt{5}) \rightarrow 12\sqrt{5}</m></p></statement>
-<answer><m>60</m></answer></exercise>
+<exercise number="7"><statement><p><m>(3\sqrt{5})(4\sqrt{5}) \rightarrow 12\sqrt{5}</m></p></statement></exercise>
 
-<exercise number="8"><statement><p><m>3\sqrt{5}+4\sqrt{5} \rightarrow 7\sqrt{10}</m></p></statement>
-<answer><m>7\sqrt{5}</m></answer></exercise>
+<exercise number="8"><statement><p><m>3\sqrt{5}+4\sqrt{5} \rightarrow 7\sqrt{10}</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
 
