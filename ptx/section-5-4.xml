@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Products-of-Binomials" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Products of Binomials</title>
+<section xml:id="Products-of-Binomials" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Products of Binomials</title>
 
 <subsection><title>Products of Variables</title>
+
 <p>In Section 5.1, we learned to simplify the sum of two algebraic expressions by combining like terms. In this section we see how to multiply algebraic expressions.</p>
 
 <p>Recall that we can simplify a product such as <m>3(2x)</m> because
@@ -24,6 +24,7 @@ In a similar way, we can simplify the product <m>(3b)(4b)</m> by applying the co
 	<li><m>(5a)(-3a)</m></li>
 	<li><m>(2x)^3</m></li>
 	<li><m>(xy^2)(4x^2)</m></li></ol></p></statement>
+
 <solution><p><ol label="a">
 	<li><p>We apply the commutative property:
 			<me>(5a)(-3a) = 5(-3) \cdot a \cdot a = -15a^2</me></p></li>
@@ -44,6 +45,7 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 </subsection>
 
 <subsection><title>Using the Distributive Law</title>
+
 <p>We can use the areas of rectangles to investigate products of algebraic expressions. Recall that we find the area of a rectangle by multiplying its length times its width, <m>A=lw</m>. We have already used rectangles to visualize the distributive law.  Here are some examples.</p>
  
 <example><statement><p>Calculate the area of the rectangle by adding the areas of each piece. Then use the distributive law to find the product of the algebraic expressions.<ol label="a">
@@ -63,7 +65,7 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 
 <p>At this stage it will be helpful to introduce some terminology. </p>
 
-<assemblage><p><ul>
+<assemblage><title>Algebraic Expressions</title><p><ul>
 	<li>An algebraic expression with only one term, such as <m>2x^3</m>, is called a <term>monomial</term>.</li>  
 	<li>An expression with two terms, such as <m>x^2-16</m>, is called a <term>binomial</term>.</li> 
 	<li>An expression with three terms is a <term>trinomial</term>.</li> 
@@ -83,6 +85,7 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 </subsection>
 
 <subsection><title>Multiplying Binomials</title>
+
 <sidebyside widths="68% 28%" valigns="middle middle" margins="0% 0%"><p>Consider the rectangle shown at right. As you can see, it is divided into four smaller rectangles. You can verify that we get the same answer when we compute its area in two different ways: We can add up the areas of the four smaller rectangles, or we can find the length and width of the entire large rectangle and then find their product:</p>
 <image source="images/fig-5-4-1"><description>rectangle</description></image></sidebyside>
 
@@ -105,7 +108,7 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 <solution><p><ol label="a">
 	<li>We let the first factor, <m>(x-4)</m>, represent the width of the rectangle, and the second factor, <m>(x+6)</m>, represent its length.</li>
 	<li><p>We find the area of each sub-rectangle, as shown in the figure. Then we add the areas together.</p>             
-		<sidebyside widths="35% 50%" valigns="middle middle"><image source="images/fig-5-4-ex3"><description>rectangle</description></image><p>
+	<sidebyside widths="35% 50%" valigns="middle middle"><image source="images/fig-5-4-ex3"><description>rectangle</description></image><p>
 		<md><mrow>\text{Area} \amp =x^2+6x-4x-24</mrow>
 		<mrow> \amp = x^2+2x-24</mrow></md></p></sidebyside></li></ol></p></solution></example>
 
@@ -118,7 +121,8 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 </reading-questions>
 </subsection>
 
-<subsection><title>The Four Terms in a Binomial Product</title>	
+<subsection><title>The Four Terms in a Binomial Product</title>
+
 <p>	Using a rectangle to multiply binomials illustrates how the distributive law works. Analyzing the rectangle method will help us in a later Lesson, when we reverse the process to factor a quadratic trinomial. Let us take a closer look at the example above.</p>
 
 <assemblage><title>Look Closer</title>
@@ -168,34 +172,158 @@ Each term of the product corresponds to the area of one of the four sub-rectangl
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-5-4"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="3"><introduction><p>Find the area and perimeter of each figure.</p></introduction>
 
-<exercise number="1"><statement><sidebyside width="70%"><image source="images/sw-5-4-1"><description>triangle</description></image></sidebyside></statement>
-<answer><p><m>25b^2, 20b</m></p></answer></exercise>
+<exercise number="1"><statement><sidebyside width="70%"><image source="images/sw-5-4-1"><description>triangle</description></image></sidebyside></statement></exercise>
 
-<exercise number="2"><statement><sidebyside width="90%"><image source="images/sw-5-4-2"><description>triangle</description></image></sidebyside></statement>
-<answer><p><m>12a, 16\sqrt{a}</m></p></answer></exercise>
+<exercise number="2"><statement><sidebyside width="90%"><image source="images/sw-5-4-2"><description>triangle</description></image></sidebyside></statement>></exercise>
 
-<exercise number="3"><statement><sidebyside width="55%"><image source="images/sw-5-4-3"><description>triangle</description></image></sidebyside></statement>
-<answer><p><m>30p, 12+10p</m></p></answer></exercise>
+<exercise number="3"><statement><sidebyside width="55%"><image source="images/sw-5-4-3"><description>triangle</description></image></sidebyside></statement></exercise>
 
-<exercise number="4"><statement><sidebyside width="70%"><image source="images/sw-5-4-4"><description>triangle</description></image></sidebyside></statement>
-<answer><p><m>24w^2, 24w</m></p></answer></exercise>
+<exercise number="4"><statement><sidebyside width="70%"><image source="images/sw-5-4-4"><description>triangle</description></image></sidebyside></statement></exercise>
 
-<exercise number="5"><statement><sidebyside width="70%"><image source="images/sw-5-4-5"><description>triangle</description></image></sidebyside></statement>
-<answer><p><m>\sqrt{x}, 2+\sqrt{x}+\sqrt{x+4}</m></p></answer></exercise>
+<exercise number="5"><statement><sidebyside width="70%"><image source="images/sw-5-4-5"><description>triangle</description></image></sidebyside></statement></exercise>
 
-<exercise number="6"><statement><sidebyside width="70%"><image source="images/sw-5-4-6"><description>triangle</description></image></sidebyside></statement>
-<answer><p><m>\dfrac{k}{2}, 2\sqrt{k}+\sqrt{2k}</m></p></answer></exercise>
+<exercise number="6"><statement><sidebyside width="70%"><image source="images/sw-5-4-6"><description>triangle</description></image></sidebyside></statement></exercise>
 
 </exercisegroup>
 </exercises> 
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-5-4">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="2">
+    <li><m>25b^2, 20b</m></li>
+    <li><m>12a, 16\sqrt{a}</m></li>
+    <li><m>30p, 12+10p</m></li>
+    <li><m>24w^2, 24w</m></li>
+    <li><m>\sqrt{x}, 2+\sqrt{x}+\sqrt{x+4}</m></li>
+    <li><m>\dfrac{k}{2}, 2\sqrt{k}+\sqrt{2k}</m></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Areas of Rectangles</title>
+<exercises>
+
+<exercise><statement><p>Use the distributive law to find the products. Illustrate each product as the area of a rectangle.
+<ol label="a" cols="2">
+	<li><p><m>2a(6a-5)</m></p>
+		<sidebyside width="40%"><image source="images/act-5-4-1.png"><description>boxes</description></image></sidebyside></li>
+	<li><p><m>-4v(2v-3)</m></p>
+		<sidebyside width="40%"><image source="images/act-5-4-1.png"><description>boxes</description></image></sidebyside></li>
+	<li><p><m>-5x(x^2-3x+2)</m></p>
+		<sidebyside width="90%"><image source="images/act-5-4-2.png"><description>boxes</description></image></sidebyside></li>
+	<li><p><m>-3y(4y^2-2y+2)</m></p>
+		<sidebyside width="90%"><image source="images/act-5-4-2.png"><description>boxes</description></image></sidebyside></li></ol></p></statement></exercise>
+
+<exercise><statement><p>The City Council plans to install a 10-foot by 30-foot reflecting pool in front of City Hall.  When the cost estimate comes in, they realize they can afford to enlarge the pool. They decide to increase both the length and the width by <m>x</m> feet. Write an equation for the new area, <m>A</m>, of the pool in terms of <m>x</m>.
+<ol label="a">
+	<li><sidebyside widths="50% 50%"><p>Look at the drawing of the pool. Both dimensions of the original pool have been increased by <m>x</m>. The area of the enlarged pool is thus
+		<md><mrow>A \amp = \text{length} \times \text{width}</mrow>
+			<mrow> \amp = </mrow></md></p>
+		<image source="images/act-5-4-3.png"><description>rectangles</description></image></sidebyside></li>
+	<li><sidebyside widths="50% 45%"><p>We can partition the new pool into four sub-rectangles and compute the area of each.  Adding these areas give us the following expression for the area of the new pool.
+	     <md><mrow>A \amp = \hphantom{0000000000} \amp \amp \blert{\text{Combine like terms.}}</mrow>
+			<mrow> \amp = </mrow></md></p>                                            
+		<image source="images/act-5-4-4.png"><description>rectangles</description></image></sidebyside></li>
+	<li>The two expressions for the area are equivalent.  Write an equation for this fact.</li></ol></p></statement>
+</exercise>
+
+<exercise><statement><p>Write the area of each rectangle in two different ways:as the sum of four small areas, and then as one large rectangle, using the formula 
+	<me>\text{Area} = \text{length} \times \text{width}</me><ol label="a">
+
+<li><sidebyside widths="60% 35%"><p>sum of four small areas <m>=</m> one large area</p>
+	<image source="images/act-5-4-5.png"><description>rectangles</description></image></sidebyside></li>
+
+<li><sidebyside widths="60% 33%"><p>sum of four small areas <m>=</m> one large area</p>
+	<image source="images/act-5-4-6.png"><description>rectangles</description></image></sidebyside></li>
+</ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Products of Binomials</title>
+<exercises>
+
+<exercise><statement><p><ol label="a">
+<li><p>Use a rectangle to represent the product <m>~(3x-2)(x-5)</m>.</p>
+<sidebyside width = "30%"><image source="images/act-5-4-7.png"><description>rectangles</description></image></sidebyside></li>
+<li>Write the product as a quadratic trinomial.</li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+	<li><sidebyside widths="50% 35%"><p>Find the linear term in the product
+		<me>(x-6)(2x+3)</me>    	
+		Use the diagram to help you.</p>
+		<image source="images/act-5-4-8.png"><description>rectangles</description></image></sidebyside></li>
+	<li>Which of the four smaller rectangles make up the linear term?</li></ol></p></statement></exercise>
+
+<exercise><statement><p>Compute the area of each rectangle, then write each product as a quadratic trinomial in two variables.<ol label="a">
+	<li><sidebyside widths="40% 33%" margins="0% 15%"><p><m>(3a-5b)(3a-b)</m></p>
+	<image source="images/act-5-4-9.png"><description>rectangles</description></image></sidebyside></li>
+	<li><sidebyside widths="40% 33%" margins="0% 15%"><p><m>(x+4y)^2</m></p>
+	<image source="images/act-5-4-10.png"><description>rectangles</description></image></sidebyside></li>
+</ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Computing the area of a rectangle</li>
+	<li>Representing the product of two binomials as the area of a rectangle</li>
+	<li>Computing the product of two binomials</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>Explain the difference between simplifying <m>3a+a</m> and simplifying <m>3a(a)</m>.</li>
+	<li>Explain the difference between simplifying <m>6t-4t</m> and simplifying <m>6t(-4t)</m>.</li> 
+	<li>In Activity 1, Problem 2, by how much did the area of the pool increase?</li>
+	<li>In Activity 2, does <m>(x+4y)^2 = x^2+16y^2</m>?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+<exercisegroup><introduction><p>Compute the products.</p></introduction>
+
+<exercise><statement><p><ol label="a" cols="2">
+	<li><m>(5t)(-3t^2)</m></li>
+	<li><m>(5t)(t^2-3t)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a" cols="2">
+	<li><m>-3x(4x-5)</m></li>
+	<li><m>(6-2a)(-4a)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a" cols="2">
+	<li><m>(2b-8)(b+4)</m></li>
+	<li><m>(3c-1)(2c-3)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a" cols="2">
+	<li><m>(5y-2)^2</m></li>
+	<li><m>(1-4w)^2</m></li></ol></p></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p> <ol label = "1" >
+	<li><p><ol label="a" cols="2">
+		<li><m>15t^3</m></li>
+		<li><m>5t^3-15t^2</m></li></ol></p></li>
+	<li><p><ol label="a" cols="2">
+		<li><m>-12x^2+15x</m></li>
+		<li><m>-24a+8a^2</m></li></ol></p></li>
+	<li><p><ol label="a" cols="2">
+		<li><m>2b^2-32</m></li>
+		<li><m>6c^2-11c+3</m></li></ol></p></li>
+	<li><p><ol label="a" cols="2">
+		<li><m>25y^2-10y+4</m></li>
+		<li><m>1-8w+16w^2</m></li></ol></p></li></ol></p></subsubsection>
+</subsection>
+
+
 <xi:include href="./hmwk-5-4.xml" />
 </section>
 

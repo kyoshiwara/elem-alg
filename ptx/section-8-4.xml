@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Equations-with-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Equations with Fractions</title>
+<section xml:id="Equations-with-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations with Fractions</title>
 
 <subsection><title>"Clearing" Fractions</title>
+
 <p>How can we solve an equation that involves algebraic fractions?  Recall that to solve the equation
 	<me>\dfrac{3x}{4} = 9</me>
  we multiply both sides by 4 (the denominator of the fraction) to "clear" the fraction.
@@ -26,9 +26,10 @@ You can check that <m>x=200</m> does satisfy the equation.</p></solution></examp
 </subsection>
 
 <subsection><title>Using an LCD to Clear Fractions</title>
+
 <p>If an equation contains more than one fraction, we multiply both sides of the equation by the LCD of all the fractions. This will clear all the denominators at once.</p>
    
-<example xml:id="Example-8-4-2"><statement><p>Solve  <m>~~\dfrac{x}{3} -2 = \dfrac{4}{5} + \dfrac{x}{5}</m></p></statement>
+<example xml:id="Example-8-4-2"><statement><p>Solve <m>~~\dfrac{x}{3} -2 = \dfrac{4}{5} + \dfrac{x}{5}</m></p></statement>
 
 <solution><p>The LCD of <m>~\dfrac{x}{3},~ \dfrac{4}{5}</m> and <m>~\dfrac{x}{5}</m> is 15. We multiply both sides of the equation by 15.
 	<md><mrow>\blert{15}\left(\dfrac{x}{3} -2\right)  \amp = \left(\dfrac{4}{5} + \dfrac{x}{5}\right)\blert{15} \amp \amp \blert{\text{Apply the distributive law.}}</mrow>
@@ -50,6 +51,7 @@ Now we can proceed as usual to complete the solution.
 </subsection>
 
 <subsection><title>Variables in the Denominator</title>
+
 <p>Equations that involve algebraic fractions can also be solved using an LCD.</p>
 
 <example xml:id="Example-8-4-3"><statement><p>Solve  <m>~~\dfrac{3}{4} = 8- \dfrac{2x+11}{x-5}</m></p></statement>
@@ -110,6 +112,7 @@ Because division by zero is undefined, 3 is not a solution after all. The origin
 </subsection>
 
 <subsection><title>Formulas</title>
+
 <p>	We can also solve formulas that involve algebraic fractions.</p>
 
 <example><statement><p>Solve for <m>P</m>: <m>~~\dfrac{1}{T} = \dfrac{PR}{A-P}</m></p></statement>
@@ -133,6 +136,7 @@ Thus, the new version of the formula is
 </subsection>
 
 <subsection><title>Applications</title>
+
 <p>	Recall the formula <m>d=rt</m>, which is useful in solving problems about motion. By solving for <m>r</m> or <m>t</m>, we can write the equation in the forms
 	<me>r = \dfrac{d}{t}~~~~~~\text{or}~~~~~~t = \dfrac{d}{r}</me>
 if either of these is more useful for the problem.</p>
@@ -206,28 +210,151 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 		<mrow>\blert{rt} \amp \blert{= w}</mrow></md></p></assemblage>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-8-4"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Write each expression as a single fraction in simplest form.</p>
 </introduction>
 
-<exercise number="1"><statement><m>\dfrac{1}{x-2} + \dfrac{2}{x}</m></statement>
-<answer><m>\dfrac{3x-4}{x^2-2x}</m></answer></exercise>
+<exercise number="1"><statement><m>\dfrac{1}{x-2} + \dfrac{2}{x}</m></statement></exercise>
 
-<exercise number="2"><statement><m>\dfrac{1}{x-2} - \dfrac{2}{x}</m></statement>
-<answer><m>\dfrac{4-x}{x^2-2x}</m></answer></exercise>
+<exercise number="2"><statement><m>\dfrac{1}{x-2} - \dfrac{2}{x}</m></statement></exercise>
 
-<exercise number="3"><statement><m>\dfrac{1}{x-2} \cdot \dfrac{2}{x}</m></statement>
-<answer><m>\dfrac{2}{x^2-2x}</m></answer></exercise>
+<exercise number="3"><statement><m>\dfrac{1}{x-2} \cdot \dfrac{2}{x}</m></statement></exercise>
 
-<exercise number="4"><statement><m>\dfrac{1}{x-2} \div \dfrac{2}{x}</m></statement>
-<answer><m>\dfrac{x}{2x-4}</m></answer></exercise>
+<exercise number="4"><statement><m>\dfrac{1}{x-2} \div \dfrac{2}{x}</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-8-4">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="2">
+    <li><m>\dfrac{3x-4}{x^2-2x}</m></li>
+    <li><m>\dfrac{4-x}{x^2-2x}</m></li>
+    <li><m>\dfrac{2}{x^2-2x}</m></li>
+    <li><m>\dfrac{x}{2x-4}</m></li></ol></p></subsubsection>
 </subsection>
+
+<subsection>
+<subsubsection><title>Activity 1: Using a Graph</title>
+
+<p>A new health club opened up, and the manager kept track of the number of active members over its first few months of operation. The equation below gives the number <m>N</m> of active members, in hundreds, <m>t</m> months after the club opened.</p> 
+<sidebyside widths="50% 45%" valigns="middle middle"><p>
+	<me>N=\dfrac{10t}{4+t^2}</me>
+The graph of this equation is shown at right.<ol label="a">
+	<li>Use the equation to find out in which months the club had 200 active members.</li>
+	<li>Verify your answers on the graph.</li></ol></p>
+<image source="images/act-8-4-1.png"><description>graph</description></image></sidebyside></subsubsection>
+
+<subsubsection><title>Activity 2: Using Algebra</title>
+
+<exercises>
+<exercise><statement><p>Solve  <m>~~\dfrac{x^2}{2} + \dfrac{5x}{4} = 3~~</m> by first clearing the fractions.</p>
+</statement></exercise>
+
+<exercise><statement><p>Solve  <m>~~\dfrac{1}{x-2} + \dfrac{2}{x} = 1~~</m> </p>
+
+<p><m>\blert{\text{Step 1  Find the LCD for all the fractions in the equation.}}</m></p>
+
+<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
+
+<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p>
+</statement></exercise>
+
+<exercise><statement><p>Solve  <m>~~\dfrac{15}{x^2-3x} + \dfrac{4}{x} = \dfrac{5}{x-3}~~</m> </p>
+
+<p><m>\blert{\text{Step 1  Factor each denominator and find the LCD for all the fractions in the equation.}}</m></p>
+
+<p><m>\blert{\text{Step 2  Multiply each term of the equation by the LCD, and simplify.}}</m></p>
+
+<p><m>\blert{\text{Step 3  You now have an equation without fractions. Solve as usual.}}</m></p>
+
+<p><m>\blert{\text{Step 4  Check for extraneous solutions.}}</m></p>
+</statement></exercise>
+
+<exercise><statement><p>Solve the formula <m>~~\dfrac{w}{q} = 1 - \dfrac{T}{H}~~</m> for <m>q</m>. </p></statement>
+</exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Work Problem</title>
+
+<p>	In this application, the work being done is the water flowing into (or out of) the reservoir, so the work rate is the flow rate of water through the pipes.</p>
+
+<p>The city reservoir was completely emptied for repairs, and is now being refilled. Water flows in through the intake pipe at a steady rate that can fill the reservoir in 120 days. However, water is also being drained from the reservoir as it is used by the city, so that it actually takes 150 days to fill. After the reservoir is filled, the water supply is turned off, but the city continues to use water at the same rate. How long will it take to drain the reservoir dry?
+<ol label="a">
+<li><p>Let <m>d</m> stand for the number of days for the outflow pipe to drain the full reservoir.</p>
+
+		<p>Fraction of the reservoir that is drained in one day: <fillin characters="10"/></p>                                     
+		<p>This is the rate at which water leaves the reservoir.</p></li>
+
+<li><p>Now imagine that the intake pipe is open, but the outflow pipe is closed.</p>
+
+		<p>Fraction of the reservoir that is filled in one day: <fillin characters="10"/></p>                                     
+		<p>This is the rate at which water enters the reservoir.</p></li>
+
+<li><p>Consider the time period described in the problem when both pipes are open. Fill in the table.</p>  
+
+	<p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m></m></cell>
+                        <cell>Flow rate</cell>
+                        <cell><m>~~~~</m>Time<m>~~~~</m></cell>
+                        <cell>Fraction of reservoir</cell></row>
+                    <row> 
+                        <cell>Water entering</cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                      <row> 
+                        <cell>Water leaving</cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell>
+                        <cell><m></m></cell></row>
+                    </tabular></sidebyside></p></li>
+
+<li><p>Write an equation:</p>
+
+	<p><m>\blert{\text{Fraction of reservoir filled}} - \blert{\text{Fraction of reservoir drained}} = \blert{\text{One whole reservoir}}</m></p></li>
+
+<li>Solve your equation.</li></ol></p></subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Solving equations with fractions</li>
+	<li>Identifying extraneous solutions</li>
+	<li>Solving motion problems</li>
+	<li>Solving work problems</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, part (b), explain how you used the graph.</li>
+	<li>In Activity 2, Problem 2, what was the LCD?</li>
+	<li>In Activity 2, Problem 4, what was the LCD?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+
+<exercise><statement><p>Solve <m>~~~\dfrac{3x}{4}-1=2x+\dfrac{9}{2}</m></p></statement></exercise>
+
+<exercise><statement><p>Solve <m>~~~\dfrac{3}{x+4}-7=\dfrac{-4}{x+4}</m></p></statement></exercise>
+
+<exercise><statement><p>Solve <m>~~~\dfrac{1}{a^2+a}=2+\dfrac{1}{a}</m></p></statement></exercise>
+
+<exercise><statement><p>Solve <m>~~~R=\dfrac{cd}{c+d}~~</m> for <m>c</m></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1" cols="2">
+    <li><m>\dfrac{-22}{5}</m></li>
+    <li><m>-3</m></li>
+    <li><m>\dfrac{-3}{2}</m></li>
+	<li><m>c=\dfrac{dR}{d-R}</m></li></ol></p></subsubsection>
+</subsection>
+
+
 <xi:include href="./hmwk-8-4.xml" />
 </section>

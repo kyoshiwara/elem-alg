@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Algebraic-Solution-of-Systems"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Algebraic Solution of Systems</title>
+<section xml:id="Algebraic-Solution-of-Systems"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Solution of Systems</title>
 
 <subsection>
-	<p>In the previous Lesson, we compared the costs of operating two different refrigerators, a standard model and an energy-efficient model. We wrote a system of equations for this problem,</p>  
+<p>In the previous Lesson, we compared the costs of operating two different refrigerators, a standard model and an energy-efficient model. We wrote a system of equations for this problem,</p>  
 <sidebyside widths="60% 30%"><p>
 	<md><mrow>y=6x+1000</mrow>
 		<mrow>y=2x+1200</mrow></md> 
@@ -19,21 +18,18 @@ where <m>x</m> is the number of months the refrigerator has been running. We loo
 		<mrow>y=2x+1200</mrow></md></p></statement>
 
 <solution><p>We are looking for the point where the two <m>y</m>-values are equal. Therefore, we set the two expressions for <m>y</m> equal, which gives us an equation in <m>x</m> to solve: 
-		<me>\begin{aligned}
-            6x+1000 \amp = 2x+1200 \amp\amp \blert{\text{Subtract } 2x \text{ from both sides.}} \\
-            4x+1000 \amp = 1200 \amp\amp \blert{\text{Subtract 1000 from both sides.}}\\
-            4x \amp = 200   \amp\amp \blert{\text{Divide both sides by 3.}}\\
-            x \amp = 50         
-        \end{aligned}</me>
+		<md><mrow>6x+1000 \amp = 2x+1200 \amp\amp \blert{\text{Subtract } 2x \text{ from both sides.}}</mrow>
+            <mrow>4x+1000 \amp = 1200 \amp\amp \blert{\text{Subtract 1000 from both sides.}}</mrow>
+            <mrow>4x \amp = 200   \amp\amp \blert{\text{Divide both sides by 3.}}</mrow>
+            <mrow>x \amp = 50</mrow></md>         
 We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m>x=50</m> into either equation gives <m>y=1300</m>. The solution is <m>(50, 1300)</m>.</p></solution></example>
 </subsection>
 
 <subsection><title>Substitution Method</title>
+
 <p>In <xref ref="Example-4-3-1" text="type-global"/>, we solved the system by equating the two expressions for <m>y</m>. We can think of this procedure as substituting the expression for <m>y</m> from one equation into the other equation, like this:</p>
 <sidebyside width="83%"><!--<image source="images/fig-4-3-1.png"><description>graphic</description></image>-->
-    <image xml:id="fig-4-3-1">
-        <description>substitution</description>
-        <latex-image>
+    <image xml:id="fig-4-3-1"><description>substitution</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -49,10 +45,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
         \draw [blue,decorate,decoration={brace,amplitude=5pt}] (C)++(.15,.2) -- ++(2,0);
         \draw[blue,->,>=stealth'] (B)++(.22,-.21) to [out=270,in=90] ($(C)+(1.2,0.45)$);
         \node at ($(C)+(-.7,.8)$) {to get};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <assemblage><title>Look Closer</title>
 <p>The method works well in this example because both equations in the system were already in the form <m>y=mx+b</m>.  Sometimes we must solve one of the equations for <m>y</m> in terms of <m>x</m> before we can substitute.</p></assemblage>
@@ -65,9 +58,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
         <me>y=1-3x</me>
 We now substitute the expression <m>1-3x</m> for <m>y</m> in the other equation:
 <sidebyside width="30%"><!--<image source="images/fig-4-3-ex2.png"><description>graphic</description></image>-->
-    <image xml:id="fig-4-3-ex2">
-        <description>substitution</description>
-        <latex-image>
+    <image xml:id="fig-4-3-ex2"><description>substitution</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -83,17 +74,13 @@ We now substitute the expression <m>1-3x</m> for <m>y</m> in the other equation:
         \draw [blue,decorate,decoration={brace,amplitude=5pt}] (C)++(.55,.25) -- ++(1.3,0);
         \draw[blue,->,>=stealth'] (B)++(.5,-.21) to [out=270,in=90] ($(C)+(1.2,0.47)$);
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+    </latex-image></image></sidebyside>
 This gives us an equation in one variable, which we can solve as usual. We begin by simplifying the left side.
-        <me>\begin{aligned}
-            2(1-3x)+5x \amp = 5 \amp\amp \blert{\text{Apply the distributive law.}} \\
-            2-6x+5x \amp = 5 \amp\amp \blert{\text{Combine like terms.}}\\
-            2-x \amp = 5   \amp\amp \blert{\text{Subtract 2 from both sides.}}\\
-            -x \amp = 3     \amp\amp \blert{\text{Divide both sides by}~-1.}\\
-            x \amp = -3    
-        \end{aligned}</me>
+        <md><mrow>2(1-3x)+5x \amp = 5 \amp\amp \blert{\text{Apply the distributive law.}} </mrow>
+            <mrow>2-6x+5x \amp = 5 \amp\amp \blert{\text{Combine like terms.}}</mrow>
+            <mrow>2-x \amp = 5   \amp\amp \blert{\text{Subtract 2 from both sides.}}</mrow>
+            <mrow>-x \amp = 3     \amp\amp \blert{\text{Divide both sides by}~-1.}</mrow>
+            <mrow>x \amp = -3</mrow></md>    
 This is the <m>x</m>-coordinate of the solution point. To find the <m>y</m>-coordinate, we substitute <m>x=\alert{-3}</m> into either of the original equations. It is easiest to use the equation we solved for <m>y</m>, namely <m>y=1-3x</m>.
         <me>y=1-3(\alert{-3}) = 10 ~~~~~~~~~~~~~~~~~~~\blert{\text{Substitute}~-3~ \text{for}~x.}</me> 
 The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. You can check that these values satisfy both of the original equations in the system.</p></solution></example>
@@ -117,6 +104,7 @@ The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. Y
 </subsection>
 
 <subsection><title>Elimination Method</title>
+
 <p>A second algebraic method for solving systems is called <term>elimination</term>. As with the substitution method, we try to obtain an equation in a single variable, but we do it by eliminating one of the variables in the system. We first put both equations into the general linear form, <m>Ax+By = C</m>.</p> 
 
 <example><statement><p>Solve the system
@@ -138,22 +126,16 @@ The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. Y
     </sidebyside>
 
 <p>We add the equations together by adding the left side of the first equation to the left side of the second equation, and then adding the two right sides together, as follows:
-        <md><mrow>
-            5x-2y \amp = 21</mrow><mrow>
-           \underline{3x+2y} \amp \underline{ {}= 19\vphantom{y}}</mrow><mrow>
-            8x \amp = 40 </mrow>     
-        </md>
+        <md><mrow>5x-2y \amp = 21</mrow>
+           <mrow>\underline{3x+2y} \amp \underline{ {}= 19\vphantom{y}}</mrow>
+            <mrow>8x \amp = 40 </mrow></md>
 Note that the <m>y</m>-terms canceled, or were eliminated. We are left with an equation in <m>x</m> that is easy to solve:
-        <md><mrow>
-           8x \amp = 40 \amp\amp \blert{\text{Divide both sides by 8.}}</mrow><mrow>
-            x \amp = 5      
-        </mrow></md>
+        <md><mrow>8x \amp = 40 \amp\amp \blert{\text{Divide both sides by 8.}}</mrow>
+            <mrow>x \amp = 5      </mrow></md>
 We are not finished yet, because we must still find the value of <m>y</m>. We can substitute our value for <m>x</m> into either of the original equations, and solve for <m>y</m>. We'll use the second equation, <m>3x+2y=19</m>:
-        <md><mrow>
-            3(\alert{5})+2y \amp = 19 \amp\amp \blert{\text{Subtract 15 from both sides.}}</mrow><mrow>
-           2y \amp = 4 \amp\amp \blert{\text{Divide by 2.}}</mrow><mrow>
-            y \amp = 4     
-        </mrow></md>
+        <md><mrow>3(\alert{5})+2y \amp = 19 \amp\amp \blert{\text{Subtract 15 from both sides.}}</mrow>
+           <mrow>2y \amp = 4 \amp\amp \blert{\text{Divide by 2.}}</mrow>
+            <mrow>y \amp = 2     </mrow></md>
 Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 
 <assemblage><title>Look Ahead</title>
@@ -166,16 +148,15 @@ Thus, the solution is the point <m>(5,2)</m>.</p></solution></example>
 <solution><p>We can choose to eliminate either the <m>x</m>-terms or the <m>y</m>-terms in a system. For this example, it will be faster to eliminate the <m>y</m>-terms. If we multiply each term of the second equation by <m>-3</m>, then the coefficients of <m>y</m> will be opposites:
 		<me>\blert{-3}(3x+y=-1)~~\rightarrow ~~ -9x-3y=3</me>
 Note carefully that we must multiply each term by <m>-3</m>, not just the <m>y</m>-term. We can then replace the second equation by its new version to obtain a new system, and we add the equations together:
-		<me>\begin{aligned}
-            4x+3y \amp = 7 \\
-           \underline{-9x-3y }\amp \underline{ {}= 3\vphantom{y}} \\
-            -5x \amp = 10      
-        \end{aligned}</me>
+		<md><mrow>4x+3y \amp = 7</mrow>
+            <mrow>\underline{-9x-3y }\amp \underline{ {}= 3\vphantom{y}}</mrow>
+            <mrow>-5x \amp = 10</mrow></md>      
 The <m>y</m>-terms were eliminated, and we solve the resulting equation for <m>x</m> to get <m>x=-2</m>. Finally, we substitute <m>x=-2</m> into either of the equations to find <m>y=5</m>. The solution is <m>(-2,5)</m>.</p></solution></example>
 
 <warning><p>In <xref ref="Example-4-3-4" text="type-global"/>, we multiplied both sides of the equation <m>3x+y=-1</m> by <m>-3</m>. (This is an application of the Multiplication Property of Equality.) We must be careful to multiply every term on both sides of the equation by the same constant. Otherwise, we won't have an equivalent equation -- its solutions will not be the same.</p></warning> 
 
-<assemblage><p>When we add a multiple of one equation to the other we are making a <term>linear combination</term> of the equations.</p></assemblage>
+<assemblage><title>Linear Combination</title>
+<p>When we add a multiple of one equation to the other we are making a <term>linear combination</term> of the equations.</p></assemblage>
 
 <p>The method of elimination is also called the method of linear combinations. Sometimes it is necessary to multiply both equations by suitable constants in order to eliminate one of the variables.</p>
 
@@ -188,17 +169,13 @@ The <m>y</m>-terms were eliminated, and we solve the resulting equation for <m>x
         <md><mrow>\blert{2}(5x-2y\amp =22)\amp\amp\rightarrow \amp 10x-4y\amp=44</mrow>
         <mrow>\blert{-5}(2x-5y\amp=13)\amp\amp\rightarrow \amp -10x+25y\amp=-65</mrow></md>
 Adding these new equations eliminates the <m>x</m>-term and yields an equation in <m>y</m>.
-		<me>\begin{aligned}
-            	10x-4y \amp = 44 \\
-          	   \underline{-10x+25y} \amp \underline{ {}= -65\vphantom{y}} \\
-            	21y \amp = -21      
-        	\end{aligned}</me>
+		<md><mrow>10x-4y \amp = 44 </mrow>
+          	<mrow>\underline{-10x+25y} \amp \underline{ {}= -65\vphantom{y}}</mrow>
+            <mrow>21y \amp = -21</mrow></md>      
 We solve for <m>y</m> to find <m>y=-1</m>. Finally, we substitute <m>y=\alert{-1}</m> into the first equation and solve for <m>x</m>.
-		<me>\begin{aligned}
-            	5x-2(\alert{-1}) \amp = 22 \\
-          	   5x+2 \amp = 22 \\
-            	x \amp = 4      
-        	\end{aligned}</me>
+		<md><mrow>5x-2(\alert{-1}) \amp = 22</mrow>
+          	<mrow>5x+2 \amp = 22</mrow>
+            <mrow>x \amp = 4</mrow></md>      
 The solution to the system is <m>(4,-1)</m>.</p></solution></example> 
 
 <reading-questions>
@@ -229,6 +206,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
+
 <p>Recall that a system of two parallel lines has no solution and is called inconsistent. If the two equations in a system have the same graph, then every point on the graph is a solution and the system is called dependent. The elimination method will reveal whether the system falls into one of these two cases.</p>
 
 <example xml:id="Example-4-3-6"><statement><p>Solve each system by elimination.<ol label="a" cols="2">
@@ -240,17 +218,13 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
             2x-4y=6\end{aligned}</m></p></li></ol></p></statement> 
 
 <solution><p><ol label="a">
-    <li>
-        <sidebyside widths="57% 30%" valigns="middle middle" margins="0% 0%">
-         <p>To eliminate the <m>y</m>-terms, we multiply the first equation by 2 and add:   <me>\begin{aligned}[t]
-                6x-2y \amp = 4 \\
-               \underline{-6x+2y}\amp\underline{{}= 3\vphantom{y}}\\
-                0x+0y \amp = 7      
-            \end{aligned}</me></p><!--
+    <li><sidebyside widths="57% 30%" valigns="middle middle" margins="0% 0%">
+         <p>To eliminate the <m>y</m>-terms, we multiply the first equation by 2 and add:   
+         <md><mrow> 6x-2y \amp = 4 </mrow>
+             <mrow>\underline{-6x+2y}\amp\underline{{}= 3\vphantom{y}}</mrow>
+              <mrow>  0x+0y \amp = 7</mrow></md></p><!--
 <image source="images/fig-4-3-ex6a.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-3-ex6a">
-        <description>graph of parallel line</description>
-        <latex-image>
+    <image xml:id="fig-4-3-ex6a"><description>graph of parallel line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -267,23 +241,14 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
         }
         \draw[red, very thick,<->, >=stealth'] (-1,-5)--(7/3,5);
         \draw[red, very thick,<->, >=stealth'] (-13/6,-5)--(7/6,5);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
     <p>Both variables are eliminated, and we are left with the false statement <m>0=7</m>. There are no values of <m>x</m> or <m>y</m> that will make this equation true, so the system has no solutions. The graph shows that the system is inconsistent.</p></li>
-    <li>
-    <sidebyside widths="55% 30%" valigns="middle middle" margins="0% 0%"><p>To eliminate the <m>x</m>-terms, we multiply the first equation by <m>-2</m> and add:
-            <me>\begin{aligned}
-                -2x+4y \amp = -6 \\
-               \underline{2x-4y}\amp \underline{{}= \hphantom{-}6\vphantom{y}} \\
-                0x+0y \amp = 0      
-            \end{aligned}</me>
-</p>
+    <li><sidebyside widths="55% 30%" valigns="middle middle" margins="0% 0%"><p>To eliminate the <m>x</m>-terms, we multiply the first equation by <m>-2</m> and add:
+            <md><mrow>-2x+4y \amp = -6</mrow>
+               <mrow>\underline{2x-4y}\amp \underline{{}= \hphantom{-}6\vphantom{y}}</mrow>
+                <mrow>0x+0y \amp = 0</mrow></md>  </p>
 <!--<image source="images/fig-4-3-ex6b.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-3-ex6b">
-        <description>coincident lines</description>
-        <latex-image>
+    <image xml:id="fig-4-3-ex6b"><description>coincident lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -299,10 +264,7 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
          \draw[black] ({.15},\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \draw[red, very thick,<->, >=stealth'] (-5,-4)--(5,1);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 <p>We are left with the true but unhelpful equation <m>0=0</m>. The two equations are in fact equivalent (one is a constant multiple of the other), so the system is dependent. The graph of both equations is shown in the figure.</p></li></ol></p></solution></example>
 
 <p><xref ref="Example-4-3-6" text="type-global"/> illustrates a rule for identifying inconsistent and dependent systems.</p>
@@ -324,38 +286,190 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-4-3"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="2"><introduction><p>Simplify each expression. Write your answers in the form <m>ax+b</m>.</p></introduction>
 
-<exercise number="1"><statement><m>2x+3(4x-2)+1</m></statement>
-<answer><m>14x-5</m></answer></exercise>
+<exercise number="1"><statement><m>2x+3(4x-2)+1</m></statement></exercise>
 
-<exercise number="2"><statement><m>7x-5(2x+3)-2</m></statement>
-<answer><m>-3x-17</m></answer></exercise>
+<exercise number="2"><statement><m>7x-5(2x+3)-2</m></statement></exercise>
 
-<exercise number="3"><statement><m>\dfrac{3}{2}(4x-6)-3x</m></statement>
-<answer><m>3x-9</m></answer></exercise>
+<exercise number="3"><statement><m>\dfrac{3}{2}(4x-6)-3x</m></statement></exercise>
 
-<exercise number="4"><statement><m>\dfrac{2}{3}(6x+3)+x</m></statement>
-<answer><m>5x+2</m></answer></exercise>
+<exercise number="4"><statement><m>\dfrac{2}{3}(6x+3)+x</m></statement></exercise>
 
-<exercise number="5"><statement><m>\dfrac{2x+5}{3}-1</m></statement>
-<answer><m>\dfrac{2}{3}x+\dfrac{2}{3}</m></answer></exercise>
+<exercise number="5"><statement><m>\dfrac{2x+5}{3}-1</m></statement></exercise>
 
-<exercise number="6"><statement><m>\dfrac{3x-1}{4}+2</m></statement>
-<answer><m>\dfrac{3}{4}x+\dfrac{7}{4}</m></answer></exercise>
+<exercise number="6"><statement><m>\dfrac{3x-1}{4}+2</m></statement></exercise>
 
-<exercise number="7"><statement><m>x+4-\dfrac{3-5x}{2}</m></statement>
-<answer><m>\dfrac{7}{2}x+\dfrac{5}{2}</m></answer></exercise>
+<exercise number="7"><statement><m>x+4-\dfrac{3-5x}{2}</m></statement></exercise>
 
-<exercise number="8"><statement><m>8-x-\dfrac{4+2x}{3}</m></statement>
-<answer><m>\dfrac{-5}{3}x-\dfrac{20}{3}</m></answer></exercise>
+<exercise number="8"><statement><m>8-x-\dfrac{4+2x}{3}</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-3">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="2">
+    <li><m>14x-5</m></li>
+    <li><m>-3x-17</m></li>
+    <li><m>3x-9</m></li>
+    <li><m>5x+2</m></li>
+    <li><m>\dfrac{2}{3}x+\dfrac{2}{3}</m></li>
+    <li><m>\dfrac{3}{4}x+\dfrac{7}{4}</m></li>
+    <li><m>\dfrac{7}{2}x+\dfrac{5}{2}</m></li>
+    <li><m>\dfrac{-5}{3}x+\dfrac{20}{3}</m></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Substitution Method</title>
+<exercises>
+<exercise><statement><p>Solve the system algebraically.
+    <md><mrow>d \amp =65t</mrow>
+        <mrow>d \amp = 300+50t</mrow></md></p></statement></exercise>
+
+<exercise><statement><p>Follow the suggested steps to solve the system by substitution:
+    <md><mrow>3y-2x \amp = 3</mrow>
+        <mrow>x-2y \amp = -2</mrow></md>
+
+<ol label="1">
+    <li><m>\blert{\text{Solve the second equation for}~x~\text{in terms of}~y.}</m></li>
+    <li><m>\blert{\text{Substitute your expression for}~x~\text{into the first equation.}}</m></li>
+    <li><m>\blert{\text{Solve the equation you got in Step 2.}}</m></li>
+    <li><m>\blert{\text{Substitute the}~y~\text{-value into your result from Step 1 to find}~x.}</m></li>
+    <li><m>\blert{\text{Verify that your solution values satisfy both equations in the system.}}</m></li>
+</ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Elimination Method</title>
+<exercises>
+<exercise><statement><p>Follow the suggested steps to solve the system by elimination:
+    <md><mrow>2x-3y \amp = 6</mrow>
+        <mrow>4x-5y \amp = 8</mrow></md></p>
+
+<p>For this problem, we will eliminate the <m>x</m>-terms, so we arrange for their coefficients to be opposites.
+
+<ol label="1">
+    <li><m>\blert{\text{Multiply each term of the first equation by}~-2.}</m></li>
+    <li><m>\blert{\text{Add the new equations and solve the result for}~y.}</m></li>
+    <li><m>\blert{\text{Substitute your value for}~y~\text{into the first equation and solve for}~x.}</m></li>
+    <li><m>\blert{\text{Verify that your solution values satisfy both equations in the system.}}</m></li>
+</ol></p></statement></exercise>
+
+<exercise><statement><p>Follow the suggested steps to solve the system by elimination:
+    <md><mrow>3x \amp = 2y+13</mrow>
+        <mrow>3y-15 \amp = -7x</mrow></md></p>
+
+<p>For this problem, we will eliminate the <m>y</m>-terms.
+
+<ol label="1">
+    <li><m>\blert{\text{Write each equation in the form}~Ax+By=C.}</m></li>
+    <li><m>\blert{\text{Find rhe LCM of the}~y~\text{-coefficients. Multiply each equation by an appropriate constant.}}</m></li>
+    <li><m>\blert{\text{Add the new equations and solve the result for}~x.}</m></li>
+    <li><m>\blert{\text{Substitute your value for}~x~\text{into the second equation and solve for}~y.}</m></li>
+    <li><m>\blert{\text{Verify that your solution values satisfy both equations in the system.}}</m></li>
+</ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+    <li><p>Solve the system by elimination:
+        <md><mrow>x+3y \amp = 6</mrow>
+            <mrow>2x-12 \amp = -6y</mrow></md></p></li>
+    <li>Is the system dependent, inconsistent, or consistent and independent?</li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Applications</title>
+
+<exercises>
+<exercise><statement><p>A train ticket from Camarillo to San Diego costs $31 in coach and $47 for business class. On Tuesday, there were 42 passengers on the morning train, and Amtrak took in $1494 in fares. How many coach passengers took the morning train, and how many business class passengers?<ol label="a">
+    <li><p>Choose variables:
+        <md><mrow>x = </mrow>
+            <mrow>y = </mrow></md></p></li>
+    <li><p>Complete the table.</p>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell>Number of passengers</cell>
+                        <cell>Price per ticket</cell>
+                        <cell>Total revenue</cell></row>
+                    <row> 
+                        <cell>Coach</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell>Business</cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li><p>Write an equation about the number of passengers:
+            <me>\hphantom{0000}</me>
+        Write an equation about revenue:
+            <me>\hphantom{0000}</me></p></li>
+    <li><p>Solve your system.</p>
+        <p>Write your answer in a sentence.</p></li></ol></p></statement></exercise>
+
+<exercise><statement><p>The perimeter of a rectangular playground is 197 yards, and its length is 5 yards less than twice its width. Find the dimensions of the playground.<ol label="a">
+    <li><p>Choose variables:
+        <md><mrow>x = </mrow>
+            <mrow>y = </mrow></md></p></li>
+    <li><p>Write an equation about the perimeter of the playground:
+            <me>\hphantom{0000}</me>
+        Write an equation relating the length and the width:
+            <me>\hphantom{0000}</me></p></li>
+    <li><p>Solve your system.</p>
+        <p>Write your answer in a sentence.</p></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Solving systems by the substitution method</li>
+    <li>Solving systems by the elimination method</li>
+    <li>Identifying a system as consistent, inconsistent, or dependent</li>
+    <li>Writing a system of equations to solve an applied problem</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, Problem 2, why did we choose to solve the second equation for <m>x</m> in terms of <m>y</m>?</li>
+    <li>In Activity 2, Problem 1, why did we multiply the first equation by <m>-2</m>?</li>
+    <li>In Activity 2, Problem 2, what was the LCM of the <m>y</m>-coefficients?</li>
+    <li>In Activity 3, Problem 1, what were the two equations about?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercise><statement><p>Solve the system by substitution.
+    <md><mrow>3x-y \amp = 5</mrow>
+        <mrow>2x-3y \amp = 8</mrow></md></p></statement></exercise>
+
+<exercise><statement><p>Solve the system by elimination.
+    <md><mrow>2x-9y \amp = 3</mrow>
+        <mrow>4x-5y \amp = -7</mrow></md></p></statement></exercise>
+
+<exercise><statement><p>Solve the system by elimination.
+    <md><mrow>5x+2y \amp = 5</mrow>
+        <mrow>4x+3y \amp = -3</mrow></md></p></statement></exercise>
+
+<exercise><statement><p>Decide whether the system is dependent or inconsistent.
+    <md><mrow>3x-4y \amp = 2</mrow>
+        <mrow>2y+1 \amp = \dfrac{3}{2}x</mrow></md></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+    <li><m>(1,-2)</m></li>
+    <li><m>(-3,-1)</m></li>
+    <li><m>(3,-5)</m></li>
+    <li>Dependent</li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-4-3.xml" />
 </section>  

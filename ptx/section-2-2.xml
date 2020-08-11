@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Expressions-and-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Expressions and Equations</title>
+<section xml:id="Expressions-and-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Expressions and Equations</title>
 
 <subsection><title>Writing Algebraic Expressions</title>
 
@@ -24,6 +23,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 </subsection>
 
 <subsection><title>Evaluating Algebraic Expressions</title>
+
 <p>When we evaluate an algebraic expression, we must follow the order of operations.</p>
 
 <example xml:id="Example-2-2-2"><statement><p>Four students bought concert tickets with their $20 student-discount coupons.<ol label="a">
@@ -32,11 +32,9 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <solution><p><ol label="a">
 	<li><p>The discount price of one ticket is <m>t-20</m> dollars. So four tickets cost 
 		<me>4(t-20)~~\text{dollars}</me></p></li>
-	<li><p>We evaluate the expression in part (a) for <m>t=\alert{38}</m>.         
-		<me>\begin{aligned}
-               4(t-20) \amp = 4(\alert{38}-20) \amp  \blert{\text{Simplify inside parentheses first.}}\\
-                \amp = 4(18)=72                
-                \end{aligned}</me>					
+	<li><p>We evaluate the expression in part (a) for <m>t=\alert{38}</m>.        
+		<md><mrow>4(t-20) \amp = 4(\alert{38}-20) \amp  \blert{\text{Simplify inside parentheses first.}}</mrow>
+            <mrow>\amp = 4(18)=72</mrow></md>                
 		The students paid $72 for the tickets.</p></li></ol></p></solution></example>
 
 <reading-questions>
@@ -48,13 +46,13 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 </subsection>
 
 <subsection><title>Negative Numbers</title>
+
 <p>The order of operations applies to signed numbers. Operations inside parentheses or other grouping devices should be performed first.</p>
 
 <example><statement><p>Simplify  <m>~~4-3-[-6+(-5)-(-2)]</m></p></statement>
 
 <solution><p>Perform the operations inside brackets first. Simplify each step by rewriting subtractions as equivalent additions. 
-    <md>
-        <mrow>\amp 4-3- [-6+\blert{(-5)-(-2)}] \amp\amp  \blert{-5-(-2)=-5+2}</mrow>
+    <md><mrow>\amp 4-3- [-6+\blert{(-5)-(-2)}] \amp\amp  \blert{-5-(-2)=-5+2}</mrow>
         <mrow>=\,\amp  4-3-[\blert{-6-5+2}] \amp\amp \blert{-6-5=-11;~-11+2=-9}</mrow>
         <mrow>=\,\amp  4 \blert{-3-[-9]} \amp\amp \blert{\text{Rewrite as an addition.}}</mrow>
         <mrow>=\,\amp  4-3+9 = 10 \amp\amp  \blert{\text{Add from left to right.}}</mrow>        
@@ -91,8 +89,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 <example><statement><p>Evaluate <m>2x-3xy</m> for <m>x=-5</m> and <m>y=-2</m>.</p></statement>
 
 <solution><p>We substitute <m>\alert{-5}</m> for <m>x</m> and <m>\blert{-2}</m> for <m>y</m>, then follow the order of operations.
-    <md>
-        <mrow>2x-3xy \amp = 2(\alert{-5})-3(\alert{-5})(\blert{-2})  \amp \blert{\text{ Do multiplications first.}}</mrow>
+    <md><mrow>2x-3xy \amp = 2(\alert{-5})-3(\alert{-5})(\blert{-2})  \amp \blert{\text{ Do multiplications first.}}</mrow>
         <mrow>\amp = -10-(-15)(-2)</mrow>
         <mrow>\amp = -10-30=-40</mrow>         
     </md></p></solution></example>
@@ -103,39 +100,170 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-2-2"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>Choose the correct algebraic expression for each of the following situations.</p>
 <assemblage><p>
-	<me>\begin{aligned}
-              \amp n+12  \amp   \amp 12n    \amp  \amp \dfrac{n}{12}\\
-              \amp \dfrac{12}{n} \amp \amp 12-n   \amp  \amp n-12          
-                \end{aligned}</me></p></assemblage></introduction>
+	<md><mrow>\amp n+12  \amp   \amp 12n    \amp  \amp \dfrac{n}{12}</mrow>
+        <mrow>\amp \dfrac{12}{n} \amp \amp 12-n   \amp  \amp n-12</mrow></md>          
+</p></assemblage></introduction>
 
-<exercise number="1"><statement><p>Helen bought <m>n</m> packages of tulip bulbs. If each package contains 12 bulbs, how many bulbs did she buy?</p></statement>
-<answer><m>12n</m></answer></exercise>
+<exercise number="1"><statement><p>Helen bought <m>n</m> packages of tulip bulbs. If each package contains 12 bulbs, how many bulbs did she buy?</p></statement></exercise>
 
-<exercise number="2"><statement><p>Henry bought a package of <m>n</m> gladiolus bulbs, then bought 12 loose bulbs. How many bulbs did he buy?</p></statement>
-<answer><m>n+12</m></answer></exercise>
+<exercise number="2"><statement><p>Henry bought a package of <m>n</m> gladiolus bulbs, then bought 12 loose bulbs. How many bulbs did he buy?</p></statement></exercise>
 
-<exercise number="3"><statement><p>Together Karen and Dave sold 12 tickets to the spring concert. If Karen sold <m>n</m> tickets, how many did Dave sell?</p></statement>
-<answer><m>12-n</m></answer></exercise>
+<exercise number="3"><statement><p>Together Karen and Dave sold 12 tickets to the spring concert. If Karen sold <m>n</m> tickets, how many did Dave sell?</p></statement></exercise>
 
 <exercise number="4"><statement><p>Together Karl and Diana collected <m>n</m> used books for the book sale. If Karl collected 12 books, how many did Diana collect?
-</p></statement>
-<answer><m>n-12</m></answer></exercise>
+</p></statement></exercise>
 
-<exercise number="5"><statement><p>Greta made <m>n</m> dollars last week. If she worked for 12 hours, how much did she make per hour?</p></statement>
-<answer><m>\dfrac{n}{12}</m></answer></exercise>
+<exercise number="5"><statement><p>Greta made <m>n</m> dollars last week. If she worked for 12 hours, how much did she make per hour?</p></statement></exercise>
 
-<exercise number="6"><statement><p>Gert jogged for 12 minutes. If she jogged <m>n</m> miles, how many minutes does it take her to jog 1 mile?</p></statement>
-<answer><m>\dfrac{12}{n}</m></answer></exercise>
+<exercise number="6"><statement><p>Gert jogged for 12 minutes. If she jogged <m>n</m> miles, how many minutes does it take her to jog 1 mile?</p></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-2-2">
-    <title>Answers to Skills Warm-Up</title>
-    <idx><h>answers</h><h>for Section 2.2 skills</h></idx>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="3">
+    <li><m>12n</m></li>
+    <li><m>n+12</m></li>
+    <li><m>12-n</m></li>
+    <li><m>n-12</m></li>
+    <li><m>\dfrac{n}{12}</m></li>
+    <li><m>\dfrac{12}{n}</m></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Order of Operations</title>
+<exercises>
+
+<exercisegroup><introduction><p>Follow the order of operations to simplify each expression.</p></introduction>
+
+<exercise><statement><p><ol label="a" cols="2">
+    <li><m>5-(+7)-3-(-2)</m></li>
+    <li><m>-4-(-9)-3-8</m></li>
+    <li><m>7(-3)-2(-5)</m></li>
+    <li><m>9-4(-6)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a" cols="2">
+    <li><m>-6(-2)(-5)</m></li>
+    <li><m>-6(-2)-5</m></li>
+    <li><m>-6(-2-5)</m></li>
+    <li><m>-6-(2-5)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a" cols="2">
+    <li><m>[-5-8]-[7-10-4]</m></li>
+    <li><m>-6+[(4-8)-(-9)]</m></li>
+    <li><m>28-3(-12-2 \cdot 4)</m></li>
+    <li><m>12-36 \div 4(9-2 \cdot 3)</m></li></ol></p></statement></exercise>
+</exercisegroup>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Writing Algebraic Expressions</title>
+<exercises>
+
+<exercise><statement><p>Neda decides to order some photo albums as gifts. Each album costs $12, and the total shipping cost is $4. Neda would like an algebraic expression that describes the total cost of ordering <m>a</m> albums.
+<ol label="a">
+    <li><p><m>\blert{\text{Consider some specific values for the variable:}}</m></p>  
+        <p>What is Neda's bill if she orders 3 albums?  If she orders 5 albums?</p>
+        <p>For <m>\alert{3}</m> albums, the bill is:
+            <me>12 \cdot  \alert{3} + 4 = </me></p>      
+        <p>For <m>\alert{5}</m> albums, the bill is:
+            <me>\hphantom{0000}</me></p></li>
+    <li>Describe in words how you calculated your answers for specific values.</li>
+    <li><p><m>\blert{\text{Replace the specific values in your calculations by a variable.}}</m></p>
+        <p>If Neda orders <m>\alert{a}</m> albums, an expression for the bill is:</p>
+        <p>Let <m>B</m> stand for Neda's bill, and write an equation that gives Neda's bill, <m>B</m>, 
+        in terms of the number of albums she orders, <m>a</m>:</p></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Megan would like to buy a kayak on sale. She calculates that the kayak she wants costs $40 less than three weeks' salary. <ol label="a"> 
+    <li>Write an expression for the price of the kayak if Megan makes $280 per week.</li>                            
+    <li>If Megan makes <m>w</m> dollars per week, write an expression for the price of the kayak.</li></ol></p>
+</statement></exercise>
+
+<exercise><statement><p>Emily bought five rose bushes for her garden. Each rose bush cost $9 plus tax. <ol label="a">
+    <li>Write an expression for the total amount Emily paid if the tax on one rose bush is $0.45.</li> 
+    <li>If the tax on one rose bush is <m>t</m>, write an expression for the total amount Emily paid.</li></ol></p>
+</statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Evaluating Algebraic Expressions</title>
+<exercises>
+
+<exercise><statement><p>When a company purchases a piece of equipment such as a computer or a copy machine, the value of the equipment depreciates over time. One way to calculate the value of the equipment uses the formula
+    <me>V=C\left(1-\dfrac{t}{n}\right)</me>
+where <m>C</m> is the original cost of the equipment, <m>t</m> is the number of years since it was purchased, and <m>n</m> stands for the useful lifetime of the equipment in years. Find the value of a 4-year-old copy machine if it has a useful lifetime of 6 years and cost $3000 when new. <ol label="a">
+    <li>List the values of the variables:
+        <me>C=<fillin characters="6"/>,~~~t=<fillin characters="6"/>,~~~n=<fillin characters="6"/></me></li>              
+    <li>Substitute the values into the formula.</li>
+    <li><p>Simplify the expression. Follow the order of operations.</p>
+        <p><m>\blert{\text{Simplify inside the parentheses.}}</m></p>
+        <p><m>\blert{\text{Multiply.}}</m></p>
+        <p>Answer:</p></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Evaluate <m>~~8(x+xy)~~</m> for <m>~x=\dfrac{1}{2}~</m> and <m>~y=-6</m>.</p>
+    <p><m>\blert{\text{Substitute the values:}}~~~8\left(\dfrac{1}{2}+\dfrac{1}{2}(-6)\right)</m></p>
+    <p><m>\blert{\text{Follow the order of operations.}}</m></p></statement></exercise>
+
+<exercise><statement><p>Evaluate <m>~~3(a-b)~~</m> for <m>~a=-4~</m> and <m>~b=-6</m>.</p></statement></exercise>
+
+<exercise><statement><p>Evaluate <m>~~-2(a+b)-ab~~</m> for <m>~a=6~</m> and <m>~b=-3</m>.</p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Simplifying expressions with the order of operations</li>
+    <li>Writing algebraic expressions with two or more operations</li>
+    <li>Evaluating algebraic expressions at signed numbers</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li><p>Explain what is wrong with this calculation:
+        <me>9-4(-6) = 5 (-6) = -30</me></p></li>  
+    <li>For "5 dollars less than the price of 3 shirts," Delbert writes <m>5-3s</m>. What is wrong with his expression?</li>
+    <li>In problems 2 and 3 of Activity 2, which expression required parentheses?  Why?</li>
+    <li>When we evaluate <m>ab</m> for <m>a=6,~b=-3</m>, why should we enclose <m>-3</m> in parentheses?</li>
+</ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercisegroup><introduction><p>Write algebraic expressions.</p></introduction>
+
+<exercise><statement><p>Boyer's history book is 600 pages long, and he reads 20 pages per night. How many pages does he have left to read after <m>t</m> nights?</p></statement></exercise>
+
+<exercise><statement><p>Kristi deposits $50 from her paycheck into savings, and then gives herself 15% of the rest for spending money. If her paycheck is <m>p</m> dollars, how much spending money does she get?</p></statement></exercise>
+
+<exercise><statement><p>The area of a pyramid is one-third the product of its length, its width, and its height.</p></statement></exercise>
+
+<exercise><statement><p>The difference of a number <m>B</m> and twice its reciprocal.</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Evaluate.</p></introduction>
+
+<exercise><statement><p><m>2m(m+p)(m-p)~~~~</m> for <m>~m=-5~</m>and <m>~p=-8</m></p></statement></exercise>
+
+<exercise><statement><p><m>(z+2)(2z-1)~~~~</m> for <m>~z=\dfrac{-3}{4}</m></p></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="3">
+    <li><m>600-20t</m></li>
+    <li><m>0.15(p-50)</m></li>
+    <li><m>\dfrac{1}{3}lwh</m></li>
+    <li><m>B-\dfrac{2}{B}</m></li>
+    <li><m>390</m></li>
+    <li><m>\dfrac{-25}{8}</m></li>
+</ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-2-2.xml" />
 </section>

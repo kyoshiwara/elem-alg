@@ -27,7 +27,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 			<me>\text{The expression is} ~~~~\blert{\dfrac{C}{3}}</me></p></li>
 </ol></p></solution></example>
 
-<p>In In <xref ref="Example-1-2-1" text="type-global"/>, we used three steps to write an algebraic expression.</p>
+<p>In the previous Example, we used three steps to write an algebraic expression.</p>
 
 <assemblage><title>To write an algebraic expression</title><p><ol label="1">
     <li>Identify the unknown quantity and write a short phrase to describe it.</li>
@@ -155,7 +155,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 </ol></p></solution></example>
 
 <assemblage><title>Look Closer</title>
-<p>In <xref ref="Example-1-2-3" text="type-global"/>a, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
+<p>In the previous Example, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
 
 <assemblage><title>Commutative Law for Multiplication</title>
 <p>If <m>a</m> and <m>b</m> are numbers, then
@@ -212,9 +212,7 @@ are algebraic expressions. An important part of algebra involves translating wor
         \draw[blue, <-, >=stealth'] (Ea)--(E);
         \draw [blue,decorate,decoration={brace,amplitude=3pt}] (7.3,-0.2)--(F)  node [below,midway,yshift=-4pt] {difference};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+    </latex-image></image></sidebyside>
 
 <warning><p>The difference <m>5-2</m> is not the same as <m>2-5</m>.  When we translate 
 "<m>a</m> subtracted from <m>b</m>," the order of the terms is important.
@@ -258,9 +256,7 @@ The operation of subtraction is not commutative.</p></warning>
         \draw[blue, <-, >=stealth'] (F)++(0,.35)--(F)--++(0.3,0) node[right, scale=.9] {divisor};;
         \draw [blue,decorate,decoration={brace,amplitude=3pt}] (E2)++(0,0.4)--++(0,-0.8)  node [right,midway,xshift=4pt] {quotient};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+    </latex-image></image></sidebyside>
 
 <assemblage><title>Look Closer</title>
 <p>The operation of division is not commutative. The order of the numbers in a quotient makes a difference. For example, <m>12 \div 3 = 4</m> but <m>3 \div 12 = \dfrac{1}{4}</m>.</p></assemblage>
@@ -296,7 +292,7 @@ The operation of subtraction is not commutative.</p></warning>
 	<me>\dfrac{R}{4} = \alert{540} \div 4 = 135</me>
 Fernando's share of the rent is $135.</p></statement></example>
 
-<p>In <xref ref="Example-1-2-5" text="type-global"/>, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
+<p>In the previous Example, we evaluated the expression <m>\dfrac{R}{4}</m> for <m>R=540</m>.</p>
 </subsection>
 
 <subsection xml:id="useful-formulas"><title>Some Useful Algebraic Formulas</title>
@@ -365,39 +361,37 @@ Bert's average score is 15.8.</p></solution></example>
 
 <assemblage><title>Look Ahead</title>
 <p>You will also need to know the formulas for the area and perimeter of a rectangle. See the Skills Warm-Up to review these formulas.</p></assemblage>
+
+<p>This is the end of the Reading portion of Section 1.2.  Now try the Skills Warm-Up before the next class meeting.</p>
+
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-1-2"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
+
+<introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
+	<me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
+
 <exercises>
-<exercisegroup><introduction><p>Recall the formulas for the <term>area</term> and <term>perimeter</term> of a rectangle:
-    <me>\blert{A = lw ~~~~~~~~\text{and} ~~~~~~~~P=2l+2w}</me></p></introduction>
 
-<exercise number="1"><statement><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></statement>
-<answer><p>64 ft</p></answer></exercise>
+<exercise number="1"><statement><p>Delbert's living room is 20 feet long and 12 feet wide. How much oak baseboard does he need to border the floor? (Don't worry about doorways.)</p></statement></exercise>
 
-<exercise number="2"><statement><p>How much wood parquet tiling must he buy to cover the floor?</p></statement>
-<answer><p>240 sq ft</p></answer></exercise>
+<exercise number="2"><statement><p>How much wood parquet tiling must he buy to cover the floor?</p></statement></exercise>
 
-<p>Which of the following phrases describe a perimeter, and which describe an area?</p>
+<exercisegroup><introduction><p>Which of the following phrases describe a perimeter, and which describe an area?</p></introduction>
 
-<exercise number="3"><statement><p>The distance you jog around the shore of a small lake</p></statement>
-<answer><p>perimeter</p></answer></exercise>
+<exercise number="3"><statement><p>The distance you jog around the shore of a small lake</p></statement></exercise>
 
-<exercise number="4"><statement><p>The amount of Astroturf needed for the new football field</p></statement>
-<answer><p>area</p></answer></exercise>
+<exercise number="4"><statement><p>The amount of Astroturf needed for the new football field</p></statement></exercise>
 
-<exercise number="5"><statement><p>The amount of grated cheese needed to cover a pizza</p></statement>
-<answer><p>area</p></answer></exercise>
+<exercise number="5"><statement><p>The amount of grated cheese needed to cover a pizza</p></statement></exercise>
 
-<exercise number="6"><statement><p>The number of tulip bulbs needed to border a patio</p></statement>
-<answer><p>perimeter</p></answer></exercise>
+<exercise number="6"><statement><p>The number of tulip bulbs needed to border a patio</p></statement></exercise>
+</exercisegroup>
 
-<p>Find the perimeter and area of each figure. All angles are right angles.</p>
+<exercisegroup><introduction><p>Find the perimeter and area of each figure. All angles are right angles.</p></introduction>
 
 <exercise number="7"><statement><sidebyside width="35%"><!--<image source="images/sw-1-2-7.png"/>-->
-    <image xml:id="sw-1-2-7">
-        <description>stacks of squares</description>
-        <latex-image>
+    <image xml:id="sw-1-2-7"><description>stacks of squares</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -412,15 +406,10 @@ Bert's average score is 15.8.</p></solution></example>
         \node[below,text=cyan] at (0.5,-0.4){All squares are};
         \node[below,text=cyan] at (0.5,-1){1 centimeter on a side.};
         \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside></statement>
-<answer><p>32 cm; 23 sq cm</p></answer></exercise>
+    </latex-image></image></sidebyside></statement></exercise>
 
 <exercise number="8"><statement><sidebyside width="35%"><!--<image source="images/sw-1-2-8.png"/>-->
-    <image xml:id="sw-1-2-8">
-        <description>polygonal region with right angles</description>
-        <latex-image>
+    <image xml:id="sw-1-2-8"><description>polygonal region with right angles</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -434,13 +423,25 @@ Bert's average score is 15.8.</p></solution></example>
         \draw[red,very thick] (3,-2)--++(9,0) node[below, midway, text=black]{9 ft};
         \draw[red, very thick](12,8)--++(0,-10);
         \end{tikzpicture}]]>
-    </latex-image></image></sidebyside></statement>
-<answer><p>44 ft; 90 sq ft</p></answer></exercise>
+    </latex-image></image></sidebyside></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="3">
+    <li>64 ft</li>
+    <li>240 sq ft</li>
+    <li>perimeter</li>
+    <li>area</li>
+    <li>area</li>
+    <li>perimeter</li>
+    <li>32 cm; 23 sq cm</li>
+    <li>44 ft; 90 sq ft</li></ol></p></subsubsection>
+
 </subsection>
 
 <subsection><title>Lesson</title>
 
-<activity><title>Writing Algebraic Expressions</title>
+<subsubsection><title>Activity 1:  Writing Algebraic Expressions</title>
 
 <assemblage><title>To write an algebraic expression</title>
 <p><ol label="1">
@@ -448,13 +449,13 @@ Bert's average score is 15.8.</p></solution></example>
     <li>Choose a variable to represent the unknown quantity.</li>
     <li>Use mathematical symbols to represent the relationship described.</li></ol></p></assemblage>
 
-<p>Study the Example below, then write an expression for each Exercise.</p>
+<p>Study the Example below, then write expressions in the Exercise.</p>
 
-<example><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+<p>EXAMPLE: Write an algebraic expression for each quantity.<ol label="a">
     <li>3 feet more than the length of the rug</li>
-    <li>Twice the age of the building</li></ol></p></statement>
+    <li>Twice the age of the building</li></ol></p>
 
-<solution><p><ol label="a">
+<p>Solution:<ol label="a">
     <li><p>The length of the rug is unknown.
         <me>\blert{\text{Length of the rug:}~~~l}</me>
     The words "more than" indicate addition:  
@@ -462,21 +463,21 @@ Bert's average score is 15.8.</p></solution></example>
     <li><p>The age of the building is unknown.
             <me>\blert{\text{Age of the building:}~~~a}</me>
     "Twice" means two times:
-        <me>\blert{2a}</me></p></li></ol></p></solution></example>
+        <me>\blert{2a}</me></p></li></ol></p>
 
-<exercise><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+<p>EXERCISE 1. Write an algebraic expression for each quantity.<ol label="a">
     <li>Ten more than the number of students</li>
     <li>Five times the height of the triangle</li>
     <li>4% of the original price</li>
-    <li>Two and a quarter inches taller than last year's height</li></ol></p></statement></exercise>
+    <li>Two and a quarter inches taller than last year's height</li></ol></p>
 
 <p>The next example involves subtraction and division.</p>
 
-<example><statement><p>Write an algebraic expression for each quantity.<ol label="a">
+<p>EXAMPLE: Write an algebraic expression for each quantity.<ol label="a">
     <li>5 square feet less than the area of the circle</li>
-    <li>The ratio of your quiz score to 20</li></ol></p></statement>
+    <li>The ratio of your quiz score to 20</li></ol></p>
 
-<solution><p><ol label="a">
+<p>Solution:<ol label="a">
     <li><p>The area of the circle is unknown
         <me>\blert{\text{Area of circle:}~~~a}</me>
     The words "less than" indicate subtraction:  
@@ -484,42 +485,300 @@ Bert's average score is 15.8.</p></solution></example>
     <li><p>Your quiz score is unknown.
             <me>\blert{\text{Quiz score:}~~~s}</me>
     "Twice" means two times:
-        <me>\blert{\dfrac{s}{20}}</me></p></li></ol></p></solution></example>
+        <me>\blert{\dfrac{s}{20}}</me></p></li></ol></p>
 
+<p>EXERCISE 2. Write an algebraic expression for each quantity.<ol label="a">
+    <li>$60 less than first-class airfare</li>
+    <li>The quotient of the volume of the sphere and 6</li>
+    <li>The ratio of the number of gallons of alcohol to 20</li>
+    <li>The current population diminished by 50</li></ol></p>
 
+<p>3. Each of the words listed refers to one of the four arithmetic operations.  Group them under the correct operation.
+<ul cols="3">
+    <li>times</li>
+    <li>take away</li>
+    <li>sum of</li>
+    <li>divided by</li>
+    <li>less than</li>
+    <li>reduced by</li>
+    <li>twice</li>
+    <li>fraction of</li>
+    <li>increased by</li>
+    <li>product of</li>
+    <li>more than</li>
+    <li>quotient of</li>
+    <li>exceeded by</li>
+    <li>deducted from</li>
+    <li>ratio of</li>
+    <li>total</li>
+    <li>difference of</li>
+    <li>split</li>
+    <li>minus</li>
+    <li>per</li></ul></p>
+<p><ol label="a" cols="2">
+    <li>addition</li>
+    <li>subtraction</li>
+    <li>multiplication</li>
+    <li>division</li></ol></p>
+</subsubsection>
 
+<subsubsection><title>Activity 2:  Evaluating Algebraic Expressions</title>
 
+<p>EXAMPLE: The Appliance Mart is having a store wide 15%-off sale. If the regular price of an appliance is <m>P</m> dollars, then the sale price <m>S</m> is given by the expression
+    <me>S=0.85P</me>
+What is the sale price of a refrigerator that regularly sells for $600?</p>
 
+<p>Solution: We substitute <m>\alert{600}</m> for the regular price, <m>P</m>, in the expression.
+    <md><mrow>S \amp = 0.85P</mrow>
+        <mrow> \amp = 0.85(\alert{600}) = 510</mrow></md>
+The sale price is $510.</p> 
 
+<exercises>
 
+<exercise><statement><p>Evaluate the algebraic expression in the Example above to complete the table below showing the sale price for various appliances.</p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>P</m></cell>
+                        <cell><m>120</m></cell>
+                        <cell><m>200</m></cell>
+                        <cell><m>380</m></cell>
+                        <cell><m>480</m></cell>
+                        <cell><m>520</m></cell></row>
+                    <row> 
+                        <cell><m>S</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></statement></exercise> 
 
+<exercisegroup cols="2"><introduction><p>Complete each table below by evaluating the expression.</p></introduction>
 
+<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>10</m></cell>
+                        <cell><m>100</m></cell></row>
+                    <row> 
+                        <cell><m>0.65x</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p></statement></exercise>
 
+<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>n</m></cell>
+                        <cell><m>0.1</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>0.75</m></cell>
+                        <cell><m>1</m></cell></row>
+                    <row> 
+                        <cell><m>n-0.05</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside> </p></statement></exercise>
 
+<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>a</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>8</m></cell>
+                        <cell><m>\dfrac{3}{4}</m></cell>
+                        <cell><m>\dfrac{6}{5}</m></cell></row>
+                    <row> 
+                        <cell><m>\dfrac{2}{3}a</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside> </p></statement></exercise>
 
+<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>h</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>\dfrac{5}{4}</m></cell>
+                        <cell><m>2\dfrac{1}{2}</m></cell>
+                        <cell><m>3</m></cell></row>
+                    <row> 
+                        <cell><m>h-\dfrac{3}{4}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside> </p></statement></exercise>
 
+<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>w</m></cell>
+                        <cell><m>0.1</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>0.75</m></cell>
+                        <cell><m>1.2</m></cell></row>
+                    <row> 
+                        <cell><m>2-w</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside> </p></statement></exercise>
 
+<exercise><statement><p><sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>p</m></cell>
+                        <cell><m>0.1</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>4</m></cell></row>
+                    <row> 
+                        <cell><m>\dfrac{p}{0.4}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside> </p></statement></exercise>
+</exercisegroup>
+</exercises>
+</subsubsection>
 
+<subsubsection><title>Activity 3:  Using Algebraic Formulas</title>
 
+<p>Write down the five algebraic formulas from the Reading, as algebraic expressions and in words.</p>
 
-</activity>
+<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>\hphantom{00}</m></cell>
+                        <cell>Formula</cell>
+                        <cell>Words</cell></row>
+                    <row> 
+                        <cell>1.</cell>
+                        <cell><m>\hphantom{00000000000000}</m></cell>
+                        <cell><m>\hphantom{0000000000000000000000000000000000000000}</m></cell></row>
+                    <row> 
+                        <cell>2.</cell>
+                        <cell><m>\hphantom{00000000000000}</m></cell>
+                        <cell><m>\hphantom{0000000000000000000000000000000000000000}</m></cell></row>
+                    <row> 
+                        <cell>3.</cell>
+                        <cell><m>\hphantom{00000000000000}</m></cell>
+                        <cell><m>\hphantom{0000000000000000000000000000000000000000}</m></cell></row>
+                    <row> 
+                        <cell>4.</cell>
+                        <cell><m>\hphantom{00000000000000}</m></cell>
+                        <cell><m>\hphantom{0000000000000000000000000000000000000000}</m></cell></row>
+                    <row> 
+                        <cell>5.</cell>
+                        <cell><m>\hphantom{00000000000000}</m></cell>
+                        <cell><m>\hphantom{0000000000000000000000000000000000000000}</m></cell></row>
+                    </tabular></sidebyside>
 
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-1-2">
-    <title>Answers to Skills Warm-Up</title>
-    <idx><h>answers</h><h>for Section 1.2 skills</h></idx>
+<exercises>
+<exercisegroup><introduction><p>For the Exercises below,<ol label="a">
+    <li>Choose the appropriate formula and write an algebraic expression.</li>
+    <li>Evaluate the expression to answer the question.</li></ol></p></introduction>
 
-<!--                    <introduction>
-                        <p>This is an introduction, where you might explain that this division of this subsection contains various hints, answers, solutions of inline exercises, divisional exercises, and/or project-like blocks.  See the source to see just how this solutions division was built.</p>
-                    </introduction> -->
+<exercise> <statement><p>It cost Ariel $380 to buy supplies and advertising for her pet-sitting business.<ol label="a">  
+    <li>Write an expression for her profit from the business.</li>
+    <li>If Ariel earned $820 in revenue, what was her profit?</li></ol></p></statement></exercise>
 
-                    <!-- content will happen here automatically -->
+<exercise> <statement><p>Jamie cycled for <m>2\frac{1}{2}</m> hours this morning.<ol label="a">  
+    <li>Write an expression for the distance Jamie cycled.</li>
+    <li>If Jamie's average speed was 9 miles per hour, how far did she cycle?</li></ol></p></statement></exercise>
 
-<!--                    <conclusion permid="deF">
-                        <p>And a conclusion to this solutions division, which may not be readily apparent as distinct from the final division's worth of solutions, but since it is not prefixed with a number, it may be different enough.</p>
-                    </conclusion>-->
-</solutions>
+<exercise> <statement><p>SaveOurPark collected $2600 in donations from people in the neighborhood.<ol label="a">  
+    <li>Write an expression for the average amount that each person donated.</li>
+    <li>If 142 people made a donation, what was the average donation?</li></ol></p></statement></exercise>
+</exercisegroup>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Writing an algebraic expression</li>
+    <li>Evaluating an algebraic expression</li>
+    <li>Choosing an appropriate formula</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>
+<p><ol label="1">
+    <li>What is the first step in evaluating an algebraic expression?</li>
+    <li>What does it mean to evaluate an algebraic expression?</li>
+    <li><p>Give definitions for the following terms:</p>
+        <p>revenue,  principal,  percentage rate,  average,  perimeter</p></li></ol></p>
+</assemblage>
+
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercisegroup cols="2"><introduction><p>Write algebraic expressions.</p></introduction>
+
+<exercise><statement><p>The ratio of 6 to <m>x</m></p></statement></exercise>
+
+<exercise><statement><p><m>x</m> decreased by 6</p></statement></exercise>
+
+<exercise><statement><p>6% of <m>x</m></p></statement></exercise>
+
+<exercise><statement><p>One-sixth of <m>x</m></p></statement></exercise>
+
+<exercise><statement><p>8 less than <m>v</m></p></statement></exercise>
+
+<exercise><statement><p><m>H</m> increased by 14</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Choose a variable and write an algebraic expression.</p></introduction>
+
+<exercise><statement><p>The ratio of your quiz score to 20</p></statement></exercise>
+
+<exercise><statement><p>3 feet more than the length of the rug</p></statement></exercise>
+
+<exercise><statement><p>Twice the age of the building</p></statement></exercise>
+
+<exercise><statement><p>$6 less than the sales price</p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Use a formula to write an expression.</p></introduction>
+
+<exercise><statement><p>Marla's revenue was <m>D</m> dollars, and her costs were $100. What was her profit?</p>
+</statement></exercise>
+
+<exercise><statement><p>Gertrude earned a total of <m>P</m> points on 5 quizzes.  What was her average score?</p></statement></exercise>
+
+<exercise><statement><p>49.2% of the voters favored your candidate.  If <m>V</m> people voted, how many favored your candidate?</p></statement></exercise>
+
+<exercise><statement><p>The height of a triangle is 6 inches and its base is <m>n</m> inches. What is its area?</p></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="4">
+    <li><m>\dfrac{6}{x}</m></li>
+    <li><m>x-6</m></li>
+    <li><m>0.06x</m></li>
+    <li><m>\dfrac{1}{6}x</m></li>
+    <li><m>v-8</m></li>
+    <li><m>H+14</m></li>
+    <li><m>\dfrac{Q}{20}</m></li>
+    <li><m>L+3</m></li>
+    <li><m>2a</m></li>
+    <li><m>S-6</m></li>
+    <li><m>D-100</m></li>
+    <li><m>\dfrac{P}{5}</m></li>
+    <li><m>0.492V</m></li>
+    <li><m>3n</m></li></ol></p></subsubsection>
 
 </subsection>
+
+
 <xi:include href="./hmwk-1-2.xml" />
 
 </section>    

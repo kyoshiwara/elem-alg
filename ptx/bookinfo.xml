@@ -15,15 +15,12 @@
 
 <brandlogo url="https://yoshiwarabooks.org/" source="images/cover.png" />
 
-<!--    <website> -->
-<!--         <title>abstract.pugetsound.edu</title> -->
-<!--         <url>http://abstract.pugetsound.edu</url> -->
-<!--     </website> -->
 
 <!-- rename blocks -->
         <rename element="warning">Caution</rename>
         <rename element="inlineexercise">Reading Question</rename>
         <rename element="problem">Wrap-Up</rename>
+        <rename element="activity">Warm-Up</rename>
 <!-- <rename element="chapter" lang="en-US">Lesson</rename> -->
 
 

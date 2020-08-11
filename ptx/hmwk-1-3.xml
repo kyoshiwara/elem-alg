@@ -3,28 +3,74 @@
 <exercises  xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Homework 1.3</title>
 
-<exercisegroup cols="2">
-    <introduction><p>For Problems 1<ndash/>2, decide whether the ordered pairs are solutions of the equation whose graph is shown.
-</p></introduction>
+<exercisegroup cols="2"><introduction><p>For Problems 1<ndash/>2, decide whether the ordered pairs are solutions of the equation whose graph is shown.</p></introduction>
 
 <exercise number="1"><statement><p><ol label="a" cols="2">
-	<li><m>(6.5,3)</m></li>
-	<li><m>(0,3.5)</m></li>
-	<li><m>(8,2)</m></li>
-	<li><m>(4.5,1)</m></li></ol></p>
-	<sidebyside width="70%"><image source="images/hp-1-3-1.png"/></sidebyside></statement>
-	<answer><p><ol label="a" cols="2">
+    <li><m>(6.5,3)</m></li>
+    <li><m>(0,3.5)</m></li>
+    <li><m>(8,2)</m></li>
+    <li><m>(4.5,1)</m></li></ol></p>
+    <sidebyside width="70%"><image xml:id="fig-h-eq-t-plus-7halves">
+        <description>h=t+7/2</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.55]
+        \draw[cyan!60!white] (0,0) grid[step=1/2] (7,10);
+        \draw[black,thick,->,>=stealth'] (0,0)--(7.5,0) node[right]{$t$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,10.8)node[left]{$h$};
+
+        \foreach \x  in {3,6} {
+          \draw[cyan!60!white,ultra thick] (\x,0)--++(0,10);
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\x};
+        }
+        \foreach \x in {5,10} {
+          \draw[cyan!60!white,ultra thick] (0,\x)--++(7,0);
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\x};
+        }
+        \draw[magenta!90!black,very thick, ->, >=stealth'] (0,3.5) -- (6.5,10);
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside>
+    </statement>
+    <answer><p><ol label="a" cols="2">
     <li>no</li>
     <li>yes</li>
     <li>no</li>
     <li>no</li></ol></p> </answer></exercise>
 
 <exercise number="2"><statement><p><ol label="a" cols="2">
-	<li><m>(2,6)</m></li>
-	<li><m>(4,2)</m></li>
-	<li><m>(10,0)</m></li>
-	<li><m>(11,7)</m></li></ol></p>
-	<sidebyside width="70%"><image source="images/hp-1-3-2.png"/></sidebyside></statement></exercise>
+    <li><m>(2,6)</m></li>
+    <li><m>(4,2)</m></li>
+    <li><m>(10,0)</m></li>
+    <li><m>(11,7)</m></li></ol></p>
+    <sidebyside width="70%"><image xml:id="fig-m-eq-2-plus-sq-of-p-minus4">
+        <description>m=2+ square of p-4</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} [scale=.33]
+        \draw[cyan!60!white] (0,0) grid (10,15);
+        \draw[black,thick,->,>=stealth'] (0,0)--(11.5,0) node[right]{$p$};
+        \draw[black,thick,->,>=stealth'] (0,0)--(0,16.7)node[left]{$m$};
+
+        \foreach \x  in {5,10} {
+          \draw[cyan!60!white,ultra thick] (\x,0)--++(0,15);
+          \draw[black,thick] (\x,.1)--++(0,-.2) node[below, fill=white, inner sep=1, yshift=-2]{\x};
+        }
+        \foreach \x in {5,10,15} {
+          \draw[cyan!60!white,ultra thick] (0,\x)--++(10,0);
+          \draw[black,thick] (.1,\x)--++(-.2,0) node[left, fill=white, inner sep=1, xshift=-2]{\x};
+        }
+        \draw[samples=65,domain={4-sqrt(13):4+sqrt(13)},smooth,variable=\x,magenta!90!black,very thick, <->, >=stealth'] plot ({\x},{2+(\x-4)^2});
+        \end{tikzpicture}]]>
+        </latex-image>
+        </image>
+        </sidebyside>
+    </statement></exercise>
 </exercisegroup>
 
 <exercisegroup cols="2">

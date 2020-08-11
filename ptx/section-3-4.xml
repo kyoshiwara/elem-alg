@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Slope-Intercept-Form"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Slope-Intercept Form</title>
+<section xml:id="Slope-Intercept-Form"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Slope-Intercept Form</title>
 
 <subsection><title>Writing a Linear Equation</title>
 
@@ -53,7 +52,7 @@ We can also write the equation as  <m>H=0.4t+70</m>.</p></solution></example>
 
 <p>From <xref ref="Example-3-4-1" text="type-global"/>, we see that the coefficients of a linear equation tell us something about its graph.</p>
 
-<assemblage><p><ol label="1">
+<assemblage><title>Coefficients of a Linear Equation</title><p><ol label="1">
 	<li>The constant term tells us the vertical intercept of the graph.</li> 
 	<li>The coefficient of the input variable tells us the slope of the graph.</li></ol></p></assemblage>
 
@@ -71,6 +70,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 </subsection>
 
 <subsection><title>Slope-Intercept Method of Graphing</title>
+
 <p>A linear equation has the form <m>Ax+By=C</m>, and its graph is a straight line.  We have already studied two methods for graphing linear equations:<ol label="1">  
 	<li>Make a table of values and plot points</li>  
 	<li>Find and plot the intercepts (the intercept method)</li></ol></p>
@@ -81,9 +81,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 
 <solution><p>The slope of the line is <m>\dfrac{3}{4}</m> and its <m>y</m>-intercept is the point <m>(0,-2)</m>. We begin by plotting the <m>y</m>-intercept, as shown in the figure. Next, we use the slope to find another point on the line. 
 	<sidebyside width="40%"><!--<image source="images/fig-3-4-ex2.png"><description>graph</description></image>-->
-    <image xml:id="ig-3-4-ex2">
-        <description>graph of line</description>
-        <latex-image>
+    <image xml:id="ig-3-4-ex2"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -112,10 +110,7 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
         \filldraw[red] (0,-2) circle (1.5mm);
         \filldraw[red] (4,1) circle (1.5mm);
         \filldraw[red] (-4,-5) circle (1.5mm);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 The slope,
 	<me>m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{4}</me>
 gives the ratio of the change in <m>y</m>-coordinate to the change in <m>x</m>-coordinate as we move from any point on the line to another. Thus, starting at the point <m>(0,-2)</m>, we move: <ul>
@@ -151,18 +146,17 @@ Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units do
 </subsection>
 
 <subsection><title>Finding the Slope-Intercept Form</title>
+
 <p>Not all linear equations appear in slope-intercept form. However, we can write the equation of any non-vertical line in slope-intercept form by solving the equation for <m>y</m> in terms of <m>x</m>.</p>
 
 <example><statement><p>Find the slope and <m>y</m>-intercept of the graph of <m>~3x-4y=8</m></p></statement>
 
 <solution><p>To write the equation in slope-intercept form, we solve for <m>y</m> in terms of <m>x</m>.
- 	<me>\begin{aligned}
-                3x-4y \amp = 8 \amp\amp \blert{\text{Subtract}~ 3x ~ \text{from both sides.}}\\
-                -4y \amp = -3x+8 \amp\amp \blert{\text{Divide both sides by} ~-4.}\\
-                \dfrac{-4y}{-4} \amp = \dfrac{-3x+8}{-4} \amp\amp \blert{\text{Divide each term of the right side by} ~-4.}\\ 
-                y \amp = \dfrac{-3x}{-4}+\dfrac{-8}{-4} \amp\amp \blert{\text{Simplify each quotient.}}\\
-                y \amp = \dfrac{3}{4}x-2                
-                \end{aligned}</me>
+ 	<md><mrow>3x-4y \amp = 8 \amp\amp \blert{\text{Subtract}~ 3x ~ \text{from both sides.}}</mrow>
+        <mrow>-4y \amp = -3x+8 \amp\amp \blert{\text{Divide both sides by} ~-4.}</mrow>
+        <mrow>\dfrac{-4y}{-4} \amp = \dfrac{-3x+8}{-4} \amp\amp \blert{\text{Divide each term of the right side by} ~-4.}</mrow>
+        <mrow>y \amp = \dfrac{-3x}{-4}+\dfrac{-8}{-4} \amp\amp \blert{\text{Simplify each quotient.}}</mrow>
+        <mrow>y \amp = \dfrac{3}{4}x-2</mrow></md>                
 The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>b=-2</m>. Thus, the slope of the graph is <m>\dfrac{3}{4}</m> and the <m>y</m>-intercept is the point <m>(0,-2)</m>.</p></solution></example>
 
 <warning><p>Do not confuse solving for <m>y</m> with finding the <m>y</m>-intercept. In the Example above, we do not set <m>x=0</m> before solving for <m>y</m>. <ul> 
@@ -176,31 +170,235 @@ The equation is now in slope-intercept form, with <m>m= \dfrac{3}{4}</m> and <m>
 </subsection>
 
 <subsection xml:id="Skills-Warm-Up-3-4"><title>Skills Warm-Up</title>
+
 <exercises>
 <exercisegroup cols ="2"><introduction><p>Solve for the indicated variable.</p></introduction>
 
-<exercise number="1"><statement><p><m>2q+p=10~~~~~~~~</m> for <m>p</m></p></statement>
-<answer><m>10=2q</m></answer></exercise>
+<exercise number="1"><statement><p><m>2q+p=10~~~~~~~~</m> for <m>p</m></p></statement></exercise>
 
-<exercise number="2"><statement><p><m>2l+2w=18~~~~~~~~</m> for <m>l</m></p></statement>
-<answer><m>9-w</m></answer></exercise>
+<exercise number="2"><statement><p><m>2l+2w=18~~~~~~~~</m> for <m>l</m></p></statement></exercise>
 
-<exercise number="3"><statement><p><m>3a+9=-6b~~~~~~~~</m> for <m>a</m></p></statement>
-<answer><m>-3-2b</m></answer></exercise>
+<exercise number="3"><statement><p><m>3a+9=-6b~~~~~~~~</m> for <m>a</m></p></statement></exercise>
 
-<exercise number="4"><statement><p><m>2c=2d+22~~~~~~~~</m> for <m>d</m></p></statement>
-<answer><m>c-11</m></answer></exercise>
+<exercise number="4"><statement><p><m>2c=2d+22~~~~~~~~</m> for <m>d</m></p></statement></exercise>
 
-<exercise number="5"><statement><p><m>5r-4s=24~~~~~~~~</m> for <m>s</m></p></statement>
-<answer><m>\dfrac{5r-24}{4}</m></answer></exercise>
+<exercise number="5"><statement><p><m>5r-4s=24~~~~~~~~</m> for <m>s</m></p></statement></exercise>
 
-<exercise number="6"><statement><p><m>2m=11-3n~~~~~~~~</m> for <m>n</m></p></statement>
-<answer><m>\dfrac{11-2m}{3}</m></answer></exercise>
+<exercise number="6"><statement><p><m>2m=11-3n~~~~~~~~</m> for <m>n</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-3-4">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="3">
+    <li><p><m>10-2q</m></p></li>
+    <li><p><m>9-w</m></p></li>
+    <li><p><m>-3-2b</m></p></li>
+    <li><p><m>c-11</m></p></li>
+    <li><p><m>\dfrac{5r-24}{4}</m></p></li>
+    <li><p><m>\dfrac{11-2m}{3}</m></p></li>
+    </ol></p></subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: The Slope and the <m>y</m>-intercept</title>
+<exercises>
+<exercise><statement><p><ol label="a">
+    <li>Tuition at Woodrow University is $400 plus $30 per unit. Write an equation for tuition, <m>W</m>, in terms of the number of units, <m>u</m>, and fill in the table below.
+        <me>W=\hphantom{0000}</me></li>
+    <li>At Xavier College, the tuition, <m>X</m>, is $200 plus $30 per unit. Write an equation <m>X</m> and fill in the table.
+        <me>X=\hphantom{0000}</me></li>
+    <li><p>At the Yardley Institute, the tuition, <m>Y</m>, is $30 per unit. Write an equation <m>Y</m> and fill in the table.
+        <me>Y=\hphantom{0000}</me></p>
+        <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>u</m></cell>
+                        <cell><m>W</m></cell>
+                        <cell><m>X</m></cell>
+                        <cell><m>Y</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>8</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>12</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>Graph all three equations on the grid.
+    <sidebyside width="50%"><image source="images/act-3-4-1.png"><description>grid</description></image></sidebyside></li>
+    <li><p>Find the slope and the <m>y</m>-intercept for each equation.
+        <md><mrow>\text{W: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow>
+            <mrow>\text{X: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow> 
+            <mrow>\text{Y: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow></md></p></li>
+    <li>How are your results from part (e) reflected in the graphs of the equations?</li></ol></p></statement>
+</exercise>
+
+<exercise><statement><p><ol label="a">
+    <li><p>Anouk is traveling by train across Alaska at 60 miles per hour. Write an equation for the distance, <m>A</m>, Anouk has traveled in terms of hours, <m>h</m>, and fill in the table below.
+        <me>A=\hphantom{0000}</me></p></li>
+    <li><p>Boris is traveling by snowmobile at 30 miles per hour. Write an equation for Boris' distance, <m>B</m>,  and fill in the table.
+        <me>B=\hphantom{0000}</me></p></li>
+    <li><p>Chaka is traveling in a small plane at 100 miles per hour. Write an equation for Chaka's distance, <m>C</m>,  and fill in the table.
+        <me>C=\hphantom{0000}</me></p>
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>h</m></cell>
+                        <cell><m>A</m></cell>
+                        <cell><m>B</m></cell>
+                        <cell><m>C</m></cell></row>
+                    <row> 
+                        <cell><m>3</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>5</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>8</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>10</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row> 
+                        <cell><m>16</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></li>
+    <li>Graph all three equations on the grid.
+    <sidebyside width="50%"><image source="images/act-3-4-1.png"><description>grid</description></image></sidebyside></li>
+    <li><p>Find the slope and the <m>y</m>-intercept for each equation.
+        <md><mrow>\text{A: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow>
+            <mrow>\text{B: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow> 
+            <mrow>\text{C: slope}~=~\hphantom{0000}~\amp y\text{-intercept}~=~</mrow></md></p></li>
+    <li>How are your results from part (e) reflected in the graphs of the equations?</li></ol></p></statement>
+</exercise>
+
+<exercise><statement><p>Let's summarize the results of the Activity. In part 1 we graphed three equations:
+    <md><mrow>W \amp = 30u+400</mrow>
+        <mrow>X \amp = 30u+200</mrow>
+        <mrow>Y\amp = 30u</mrow></md>
+All of these equations have the same <fillin characters="10"/>, namely 30, but different <m>y</m>-intercepts.  In each case the <m>y</m>-intercept is the same as the <fillin characters="10"/> term in the equation. (This makes sense, because we find the<m>y</m>intercept by setting <m>u=0</m>.)</p>
+<p>In part 2 we graphed 
+    <md><mrow>A \amp = 60h</mrow>
+        <mrow>B \amp = 30h</mrow>
+        <mrow>C \amp = 100h</mrow></md>
+All of these equations pass through the origin, so their <m>y</m>-intercepts are all <fillin characters="10"/>, but each has a different <fillin characters="10"/>.  In each case, the slope is the same as the coefficient of <m>h</m> in the equation. This also makes sense if you think about it:  if we increase <m>h</m> by one hour, then <m>A</m> increases by 60 miles, <m>B</m> increases by 30 miles, and <m>c</m> increases by 100 miles.</p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Slope-Intercept Form</title>
+<exercises>
+<exercise><statement><sidebyside widths="50% 50%" valigns="middle middle"><p><ol label="a">
+    <li>Write an equation for the line whose <m>y</m>-intercept is <m>(0,-3)</m> and whose slope is <m>\dfrac{-2}{3}</m>.</li>
+
+    <li><p>Use the slope-intercept method to graph the equation.</p>
+
+    <p><m>\blert{\text{Plot the}~y\text{-intercept.}}</m></p>
+
+    <p><m>\begin{array}{l}
+        \blert{\text{Use the slope}~m =\dfrac{\Delta y}{\Delta x}=\dfrac{-2}{3}}\\
+        \blert{\text{to plot another point.}}
+        \end{array}</m></p>
+
+    <p><m>\begin{array}{l}
+        \blert{\text{Use the slope}~m =\dfrac{\Delta y}{\Delta x}=\dfrac{2}{-3}}\\
+        \blert{\text{to plot another point.}}
+        \end{array}</m></p>
+    </li></ol></p>
+    <image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><sidebyside widths="48% 50%"><p><ol label="a">
+    <li>State the slope and <m>y</m>-intercept of the equation <m>y=-3x+4</m></li>
+    <li><p>Graph the equation by the slope-intercept method.</p>  
+        <p>Hint:  Write the slope as a fraction,
+        <me>m= \dfrac{\Delta y}{\Delta x}=\dfrac{-3}{1} =\dfrac{3}{-1}</me></p></li></ol></p> 
+    <image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><p>On Memorial Day weekend, Arturo drives from his home to a cabin on Diamond Lake.  His distance in miles from Diamond Lake after <m>x</m> hours of driving is given by the equation <m>y=450-50x</m>.</p>
+<sidebyside widths="50% 45%" valigns="top top"><p><ol label="a">
+<li>What are the slope and the <m>y</m>-intercept of the graph of this equation?</li>
+<li>Graph the equation.</li>
+<li><p>What does the <m>y</m>-intercept tell you about the problem?</p>
+    <p>What does the slope tell you about the problem?</p></li></ol></p>
+<image source="images/act-3-4-2.png"><description>grid</description></image></sidebyside></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Writing an equation in slope-intercept form</li>
+    <li>Identifing the slope and <m>y</m>-intercept of a line from its equation</li>
+    <li>Graphing a linear equation by the slope-intercept method</li>
+    <li>Interpreting the slope and <m>y</m>-intercept in context</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, Problem 1, what do the slopes of the lines represent?</li>
+    <li>What do the slopes of the lines represent in Activity 1, Problem 2?</li>
+    <li>In Activity 2 part 1, does the negative sign in front of apply to the numerator, the denominator, or both?</li>
+    <li>In Activity 2 part 3, what does the -intercept of the line represent?</li>
+    <li>In Activity 2, Problem 3, why does it make sense that the slope is negative?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+
+<exercisegroup cols="2"><introduction><p><ol label="a">
+    <li>Put the equation in slope-intercept form.</li>
+    <li>Graph the line by the slope-intercept method.</li></ol></p></introduction>
+
+<exercise><statement><p><m>12x-8y=16</m></p>
+    <sidebyside><image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><p><m>4x+3y=0</m></p>
+    <sidebyside><image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>Write the equation for the line in slope-intercept form.</p></introduction>
+
+<exercise><statement><sidebyside width="90%"><image source="images/act-3-4-3.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><sidebyside width="90%"><image source="images/act-3-4-4.png"><description>grid</description></image></sidebyside></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+    <li><m>y=\dfrac{3}{2}x-2</m></li>
+    <li><m>y=\dfrac{-4}{3}x</m></li>
+    <li><m>y=\dfrac{-3}{4}x+6</m></li>
+    <li><m>y=2x-8</m></li></ol></p>
+</subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-3-4.xml" />
 </section>  

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Operations-on-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Operations on Radicals</title>
+<section xml:id="Operations-on-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Operations on Radicals</title>
 
 <subsection><title>Products</title>
+
 <p>We have used the product rule for radicals,
 	<me>\sqrt{ab} = \sqrt{a} \sqrt{b}</me>
 to simplify square roots. We can also use the product rule to multiply radicals together.</p>
@@ -79,6 +79,7 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 </subsection>
 
 <subsection><title>Quotients</title>
+
 <p>We use the quotient rule to simplify square roots of fractions by writing <m>\sqrt{\dfrac{a}{b}} = \dfrac{\sqrt{a}}{\sqrt{b}}</m>. We can also use the quotient rule to simplify quotients of square roots.</p>
 
 <assemblage><title>Quotient Rule</title>
@@ -97,6 +98,7 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 </subsection>
 
 <subsection><title>Fractions</title>
+
 <p>	When we solve quadratic equations, the solutions are often fractions that involve square roots. Many such fractions can be simplified using properties of radicals.</p>
 
 <example xml:id="Example-9-4-6"><statement><p>One of the solutions of the equation <m>4x^2-8x=1</m> is <m>\dfrac{8+\sqrt{80}}{8}</m>. Simplify this radical expression.</p></statement>
@@ -127,6 +129,7 @@ Because 8 is a term of the numerator, not a factor, we cannot cancel the 8's.</p
  </subsection>
 
  <subsection><title>Rationalizing the Denominator</title>
+
 <p>For some applications, it is easier to work with expressions that do not have radicals in the denominators of fractions.  For example, the fraction <m>~\dfrac{\sqrt{2}}{\sqrt{3}}~</m> is equivalent to
 	<me>\dfrac{\sqrt{2}\cdot \blert{\sqrt{3}}}{\sqrt{3}\cdot \blert{\sqrt{3}}} = \dfrac{\sqrt{6}}{3}</me>
 We multiplied the numerator and denominator by <m>\sqrt{3}</m>, the same root that appeared in the denominator originally, and thus eliminated the radical from the denominator. This process is called <term>rationalizing the denominator</term>.</p>
@@ -148,39 +151,136 @@ Now we multiply top and bottom of the fraction by <m>\sqrt{2}</m>.
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-9-4"><title> Skills Warm-Up</title>
+<subsection><title> Skills Warm-Up</title>
 <exercises>
 
 <exercisegroup cols="2"><introduction><p>Each simplification is incorrect. Give the correct simplification, or write c.b.s. if the expression cannot be simplified.</p></introduction>
 
-<exercise number="1"><statement><p><m>2+4\sqrt{5} \rightarrow 6\sqrt{5}</m></p></statement>
-<answer><p>c.b.s.</p></answer></exercise>
+<exercise number="1"><statement><p><m>2+4\sqrt{5} \rightarrow 6\sqrt{5}</m></p></statement></exercise>
 
-<exercise number="2"><statement><p><m>\dfrac{2+3\sqrt{5}}{2} \rightarrow 3\sqrt{5}</m></p></statement>
-<answer><p>c.b.s.</p></answer></exercise>
+<exercise number="2"><statement><p><m>\dfrac{2+3\sqrt{5}}{2} \rightarrow 3\sqrt{5}</m></p></statement></exercise>
 
-<exercise number="3"><statement><p><m>3\sqrt{5}+3\sqrt{2} \rightarrow 3\sqrt{7}</m></p></statement>
-<answer><p>c.b.s.</p></answer></exercise>
+<exercise number="3"><statement><p><m>3\sqrt{5}+3\sqrt{2} \rightarrow 3\sqrt{7}</m></p></statement></exercise>
 
-<exercise number="4"><statement><p><m>\dfrac{4+\sqrt{6}}{2} \rightarrow 2+\sqrt{3}</m></p></statement>
-<answer><p>c.b.s.</p></answer></exercise>
+<exercise number="4"><statement><p><m>\dfrac{4+\sqrt{6}}{2} \rightarrow 2+\sqrt{3}</m></p></statement></exercise>
 
-<exercise number="5"><statement><p><m>2(3\sqrt{5}) \rightarrow 6\sqrt{10}</m></p></statement>
-<answer><m>6\sqrt{5}</m></answer></exercise>
+<exercise number="5"><statement><p><m>2(3\sqrt{5}) \rightarrow 6\sqrt{10}</m></p></statement></exercise>
 
-<exercise number="6"><statement><p><m>2(3+\sqrt{5}) \rightarrow 6+\sqrt{10}</m></p></statement>
-<answer><m>6+2\sqrt{5}</m></answer></exercise>
+<exercise number="6"><statement><p><m>2(3+\sqrt{5}) \rightarrow 6+\sqrt{10}</m></p></statement></exercise>
 
-<exercise number="7"><statement><p><m>(3\sqrt{5})(4\sqrt{5}) \rightarrow 12\sqrt{5}</m></p></statement>
-<answer><m>60</m></answer></exercise>
+<exercise number="7"><statement><p><m>(3\sqrt{5})(4\sqrt{5}) \rightarrow 12\sqrt{5}</m></p></statement></exercise>
 
-<exercise number="8"><statement><p><m>3\sqrt{5}+4\sqrt{5} \rightarrow 7\sqrt{10}</m></p></statement>
-<answer><m>7\sqrt{5}</m></answer></exercise>
+<exercise number="8"><statement><p><m>3\sqrt{5}+4\sqrt{5} \rightarrow 7\sqrt{10}</m></p></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-9-4">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="3">
+    <li>c.b.s.</li>
+    <li>c.b.s.</li>
+    <li>c.b.s.</li>
+    <li>c.b.s.</li>
+    <li><m>6\sqrt{5}</m></li>
+    <li><m>6+2\sqrt{5}</m></li>
+    <li><m>60</m></li>
+    <li><m>7\sqrt{5}</m></li></ol></p></subsubsection>
 </subsection>
+
+<subsection>
+<subsubsection><title>Activity 1: Products and Quotients</title>
+<exercises>
+
+<exercise><statement><p>Find the product and simplify <m>~~(3x\sqrt{6x})(y\sqrt{15xy})</m></p></statement></exercise>
+
+<exercise><statement><p>Multiply <m>~~2a(2\sqrt{3}-\sqrt{a})</m></p></statement></exercise>
+
+<exercise><statement><p>Multiply <m>~~3\sqrt{x}(\sqrt{2x}-3x)</m></p></statement></exercise>
+
+<exercise><statement><p>Expand and simplify <m>~~(\sqrt{2}-2\sqrt{b})^2</m></p></statement></exercise>
+
+<exercise><statement><p>Simplify <m>~~\dfrac{3ab\sqrt{75a^3b}}{\sqrt{6ab^5}}</m></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Fractions with Radicals</title>
+<exercises>
+
+<exercise><statement><p>Add  <m>~~\dfrac{\sqrt{x}}{3}+\dfrac{\sqrt{2}}{x}</m></p></statement></exercise>
+
+<exercise><statement><p>Rationalize the denominator of <m>~~\dfrac{8}{\sqrt{x}}</m></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Application</title>
+
+<sidebyside widths="70% 25%"><stack><p>In this Activity we use a formula for the surface area of a pyramid with a square base, as shown in the figure at right.</p>  
+ <p>The pyramid has five faces, namely, the square base and four triangular sides. We know the height, <m>h</m>, of the pyramid, and the length, <m>s</m>, of the base.</p></stack> 
+<image source="images/act-9-4-1.png"><description>pyramid</description></image></sidebyside>
+
+<p>To calculate the surface area of the pyramid, we add the area of its base and the areas of the four triangular faces.
+    <md><mrow>S \amp = \text{(area of base)}~+~4 ~\text{(area of triangular face)}</mrow>
+        <mrow> \amp = s^2 + 4 \cdot \dfrac{1}{4}s\sqrt{4h^2+s^2}</mrow>
+        <mrow> \amp = s^2 + s\sqrt{4h^2+s^2}</mrow></md></p>
+
+<p>Use the formula given above to find the surface area of the Sun Pyramid in Mexico. The pyramid is 210 feet high and has a square base 689 feet on each side.</p>
+
+<sidebyside width="70%"><image source="images/act-9-4-2.png"><description>pyramid</description></image></sidebyside>
+
+<p>Challenge: Can you verify the expression for the area of a triangular face of the pyramid? Begin by finding the altitude of the face.</p>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Simplifying products involving radicals</li>
+    <li>Simplifying quotients of radicals</li>
+    <li>Rationalizing the denominator</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1 Problem 5, why don't we start by rationalizing the denominator?</li>
+    <li>Explain why <m>~\dfrac{\sqrt{6x}}{3}~</m> is not equivalent to <m>~\sqrt{2x}</m>.</li>
+    <li>In Activity 3, why don't we simplify <m>~\sqrt{4h^2+s^2}~</m> to <m>~2h+s</m>?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p>Find the product and simplify.</p></introduction>
+
+<exercise><statement><p><m>(3a\sqrt{12a})(2b\sqrt{6ab^3})</m></p></statement></exercise>
+
+<exercise><statement><p><m>5t(3t^3-2t\sqrt{2t})</m></p></statement></exercise>
+
+<exercise><statement><p><m>4\sqrt{3x}(2x\sqrt{6x}+3\sqrt{x})</m></p></statement></exercise>
+
+<exercise><statement><p><m>(3-\sqrt{k})(4+2\sqrt{k})</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p>Find the quotient and simplify.</p></introduction>
+
+<exercise><statement><p><m>\dfrac{\sqrt{10}}{\sqrt{45}}</m></p></statement></exercise>
+
+<exercise><statement><p><m>\dfrac{\sqrt{72x^3}}{\sqrt{36x}}</m></p></statement></exercise>
+</exercisegroup>
+
+<exercise><statement><p>Subtract <m>~~\dfrac{4+\sqrt{2}}{3}-\dfrac{\sqrt{2}}{2}</m></p></statement></exercise>
+
+<exercise><statement><p>Rationalize the denominator <m>~~\dfrac{3}{\sqrt{12x}}</m></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1" cols="2">
+    <li><m>36a^2b^2\sqrt{2b}</m></li>
+    <li><m>15t^4-10t^2\sqrt{2t}</m></li>
+    <li><m>24x^2\sqrt{2}+12x\sqrt{3}</m></li>
+    <li><m>12+2\sqrt{k}-2k</m></li>
+    <li><m>\dfrac{\sqrt{2}}{3}</m></li>
+    <li><m>x\sqrt{2}</m></li>
+    <li><m>\dfrac{8-\sqrt{2}}{6}</m></li>
+    <li><m>\dfrac{\sqrt{3x}}{2x}</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-9-4.xml" />
 </section>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Point-Slope-Formula" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Point-Slope Formula</title>
+<section xml:id="Point-Slope-Formula" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Point-Slope Formula</title>
 
 <subsection><title>Finding an Equation for a Line</title>
+
 <p>The slope of a line is the same, no matter which points we use to compute it. Therefore, if we know the slope  of a line and any one point  on the line, then all other points on the line must satisfy the slope formula:
 	<me>\blert{\dfrac{y-y_1}{x-x_1} = m}</me>
 This is, in fact, an equation for the line.</p>
@@ -15,9 +15,7 @@ This is, in fact, an equation for the line.</p>
 <solution><p><ol label="a">
 	<li><p>We plot the point <m>(1,3)</m>, then use the slope, <m>-2</m>, to find another point on the line. From the point <m>(1,3)</m>, we move 2 units down and 1 unit to the right, arriving at <m>(2,1)</m>. We draw the line through these two points.  The graph is shown below.</p>
 	<sidebyside width="40%"><!--<image source="images/fig-4-5-ex1.png"><description>graph</description></image>-->
-    <image xml:id="ig-4-5-ex1">
-        <description>graph of line</description>
-        <latex-image>
+    <image xml:id="ig-4-5-ex1"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -34,20 +32,15 @@ This is, in fact, an equation for the line.</p>
         \draw[red, very thick, <->, >=stealth'] (-3/2,8)--(13/2,-8);
         \filldraw[blue] (1,3) circle (2.3mm);
         \filldraw[blue] (2,1) circle (2.3mm);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside></li>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></li>
 	<li><p>We use the formula 
 		<me>\dfrac{y-y_1}{x-x_1} = m</me>	
 	with <m>\dfrac{\Delta y}{\Delta x}=\dfrac{-2}{1}</m> and <m>(x_1,y_1)=(\alert{1},\alert{3})</m> to get
 		<me>\dfrac{-2}{1}=\dfrac{y-\alert{3}}{x-\alert{1}}</me>
 	 To simplify the equation, we cross-multiply.
-	 	<me>\begin{aligned}
-                1(y-3) \amp = -2(x-1) \amp\amp \blert{\text{Apply the distributive law.}}\\
-                y-3\amp = -2x+2 \amp\amp \blert{\text{Add 3 to both sides.}}\\ 
-                y \amp = -2x+5               
-                \end{aligned}</me>
+	 	<md><mrow>1(y-3) \amp = -2(x-1) \amp\amp \blert{\text{Apply the distributive law.}}</mrow>
+            <mrow>y-3\amp = -2x+2 \amp\amp \blert{\text{Add 3 to both sides.}}</mrow>
+            <mrow>y \amp = -2x+5</mrow></md>               
     You can verify on the graph that <m>y=-2x+5</m> is an equation for the line.</p></li></ol></p></solution></example>
 
 <p>In <xref ref="Example-4-5-1" text="type-global"/> we used the slope formula in a new way: to find the equation of a line. We can simplify the formula by clearing the denominator.
@@ -58,16 +51,14 @@ We call this the <term>point-slope formula</term> for linear equations.</p>
 
 <assemblage><title>Point-Slope Formula</title>
 <p>To find an equation for the line of slope <m>m</m> passing through the point <m>(x_1,y_1)</m>, we use the <term>point-slope formula</term>
-<me>\blert{\dfrac{y-y_1}{x-x_1} = m}</me>  
+    <me>\blert{\dfrac{y-y_1}{x-x_1} = m}</me>  
 or
-<me>\blert{y-y_1 = m(x-x_1)}</me></p></assemblage>
+    <me>\blert{y-y_1 = m(x-x_1)}</me></p></assemblage>
 
 <assemblage><title>Look Closer</title>
 <p>What is the difference between the slope formula and the point-slope formula? 
-		<me>\begin{aligned}
-                \text{the slope formula} \amp  \amp\amp m=\dfrac{y_2-y_1}{x_2-x_1}\\
-                \text{the point-slope formula}\amp  \amp\amp m=\dfrac{y-y_1}{x-x_1}
-                \end{aligned}</me></p>
+		<md><mrow>\text{the slope formula} \amp  \amp\amp m=\dfrac{y_2-y_1}{x_2-x_1}</mrow>
+            <mrow>\text{the point-slope formula}\amp  \amp\amp m=\dfrac{y-y_1}{x-x_1}</mrow></md></p>
 <p>They are really the same formula, but they are used for different purposes:<ul>
 	<li>We use the slope formula to calculate the slope of a line when we know two points on the line. That is, we know <m>(x_1,y_1)</m> and <m>(x_2,y_2)</m>, and we are looking for <m>m</m>.</li>
 	<li>We use the point-slope formula to find the equation of a line. That is, we know <m>(x_1,y_1)</m> and <m>m</m>, and we are looking for <m>y=mx+b</m>.</li></ul></p></assemblage>
@@ -84,17 +75,13 @@ or
 <solution><p>We know one point on the required line, but we also need to know its slope. Now, our line is perpendicular to the given line, and the slope of the given line is <m>~m_1=2~</m> (as you can check by putting its equation into slope-intercept form). So the slope of our line is 
 	<me>m_2=\dfrac{-1}{m_1} = \dfrac{-1}{2}</me> 
 Now we can use the point-slope formula with <m>~m_1=\dfrac{-1}{2}</m> and <m>(x_1,y_1) = (1,4)</m>.
-	<me>\begin{aligned}
-                y-y_1 \amp = m(x-x_1) \\
-                y-\alert{4}\amp = \alert{\dfrac{-1}{2}}(x-\alert{1}) \amp\amp \blert{\text{Apply the distributive law.}}\\ 
-                y - 4 \amp = \dfrac{-1}{2}x + \dfrac{1}{2}  \amp\amp \blert{\text{Add 4 to both sides.}}\\ 
-                y \amp = -\dfrac{-1}{2}x + \dfrac{9}{2}  \amp\amp \blert{\dfrac{1}{2}+4=\dfrac{1}{2}+\dfrac{8}{2}= \dfrac{9}{2}}        
-                \end{aligned}</me>
+	<md><mrow>y-y_1 \amp = m(x-x_1) </mrow>
+        <mrow>y-\alert{4}\amp = \alert{\dfrac{-1}{2}}(x-\alert{1}) \amp\amp \blert{\text{Apply the distributive law.}}</mrow> 
+        <mrow>y - 4 \amp = \dfrac{-1}{2}x + \dfrac{1}{2}  \amp\amp \blert{\text{Add 4 to both sides.}}</mrow> 
+        <mrow>y \amp = -\dfrac{-1}{2}x + \dfrac{9}{2}  \amp\amp \blert{\dfrac{1}{2}+4=\dfrac{1}{2}+\dfrac{8}{2}= \dfrac{9}{2}}</mrow></md>        
 The given line and the perpendicular line are shown in the figure.
 <sidebyside width="40%"><!--<image source="images/fig-4-5-ex2.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-5-ex2">
-        <description>perpendicular lines</description>
-        <latex-image>
+    <image xml:id="fig-4-5-ex2"><description>perpendicular lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -110,41 +97,32 @@ The given line and the perpendicular line are shown in the figure.
          \draw[black] (5,.15) --++(0,-.3) node[below, yshift=-2, fill=white, inner sep=1]   {$5$};
         \draw[blue, very thick, <->, >=stealth'] (-1,-5)--(4,5) node[above, xshift=5, yshift=-1] {$4x-2y=6$};
         \draw[red, very thick, <->, >=stealth'] (-1,5)--(7,1) node[above right, xshift=-8, yshift=6, fill=white, inner sep=1] {$y=\frac{-1}{2}x+\frac{9}2{•}$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
-</p></solution></example>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></p></solution></example>
 
 <warning><p>If we happen to know the <m>y</m>-intercept of a line, we can write its equation using the slope-intercept formula, <m>y=mx+b</m>. But if we don't know the <m>y</m>-intercept and instead know a different point, it is easier to use the point-slope formula.</p></warning>
 </subsection>
 
 <subsection><title>The Line Through Two Points</title>
+
 <p>How many lines pass through two given points? There is only one. We can use the point-slope formula to can find its equation.</p>
 
 <example><statement><p>Find an equation for the line that passes through <m>(2,-1)</m> and <m>(-1,3)</m>.</p></statement>
 
 <solution><p>We solve this problem in two steps:  First, we find the slope of the line, and then we use the point-slope formula.</p>
 <p>Step 1 Let <m>(x_1,y_1) = (2,-1)</m> and <m>(x_2,y_2) = (-1,3)</m>.  Using the slope formula, we find
-        <me>\begin{aligned}
-                m \amp =\dfrac{y_2-y_1}{x_2-x_1}\\
-                \amp =\dfrac{3-(-1)}{-1-2} = \dfrac{4}{-3} = \dfrac{-4}{3}
-                \end{aligned}</me></p>
+        <md><mrow>m \amp =\dfrac{y_2-y_1}{x_2-x_1}</mrow>
+            <mrow>\amp =\dfrac{3-(-1)}{-1-2} = \dfrac{4}{-3} = \dfrac{-4}{3}</mrow></md></p>
 
 <p>Step 2 We apply the point-slope formula with <m>m=\dfrac{-4}{3}</m> and <m>(x_1,y_1) = (2,-1)</m>. (We can use either point to find the equation of the line.) Then
     <me>\dfrac{y-y_1}{x-x_1} = m~~~~~~\text{becomes} ~~~~~~ \dfrac{y-(-1)}{x-2} = \dfrac{-4}{3}</me>
 We cross-multiply to find 
-        <me>\begin{aligned}
-                3(y+1)\amp = -4(x-2) \amp\amp \blert{\text{Apply the distributive law.}}\\ 
-                3y+3 \amp = -4x+8  \amp\amp \blert{\text{Solve for}~y.}\\ 
-                3y \amp = -4x+5 \\
-                y \amp = \dfrac{-4}{3}x+\dfrac{5}{3}        
-                \end{aligned}</me>
+        <md><mrow>3(y+1)\amp = -4(x-2) \amp\amp \blert{\text{Apply the distributive law.}}</mrow> 
+            <mrow>3y+3 \amp = -4x+8  \amp\amp \blert{\text{Solve for}~y.}</mrow> 
+            <mrow>3y \amp = -4x+5</mrow>
+            <mrow>y \amp = \dfrac{-4}{3}x+\dfrac{5}{3}</mrow></md>        
 The graph of the line is shown in the figure.</p>
 <sidebyside width="35%"><!--<image source="images/fig-4-5-ex3.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-5-ex3">
-        <description>line through two points</description>
-        <latex-image>
+    <image xml:id="fig-4-5-ex3"><description>line through two points</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -162,11 +140,7 @@ The graph of the line is shown in the figure.</p>
         \draw[red, very thick,<->, >=stealth'] (-5/2,5)--(5,-5);
         \filldraw[blue] (2,-1) circle (2.mm);
         \filldraw[blue] (-1,3) circle (2.mm);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
-</solution></example>
+        \end{tikzpicture}]]></latex-image></image></sidebyside></solution></example>
 
 <reading-questions>
     <exercise number="3"><statement><p>How many different lines pass through two given points?</p></statement>
@@ -182,6 +156,7 @@ The graph of the line is shown in the figure.</p>
 </subsection>
 
 <subsection><title>Applications</title>
+
 <p>Variables that increase or decrease at a constant rate can be described by linear equations.</p>
 
 <example><statement><p>In 1993, Americans drank 188.6 million cases of wine. Wine consumption increased at a constant rate over the next decade, and in 2003 we drank 258.3 million cases of wine. 		(Source: LA Times, Adams Beverage Group)
@@ -193,11 +168,9 @@ The graph of the line is shown in the figure.</p>
 	<li><p>We have two data points of the form <m>(t,W)</m>, namely <m>(t_1,W_1)=(3,188.6)</m> and <m>(t_2,W_2)=(13,258.3)</m>. We use the point slope formula to fit a line through these two points. First we compute the slope.
 		<me>\dfrac{\Delta W}{\Delta t}=\dfrac{W_2-W_2}{t+2-t_1}=\dfrac{258.3-188.6}{13-3}=6.97</me>
 	Next, we substitute the slope <m>m=6.97</m> and either of the two data points into the point-slope formula.
-		<me>\begin{aligned}
-                W \amp = W_1+m(t-t_1)\\
-                W \amp = 188.6+6.97(t-3)\\
-                W \amp = 167.69+6.97t
-                \end{aligned}</me>
+		<md><mrow>W \amp = W_1+m(t-t_1)</mrow>
+            <mrow>W \amp = 188.6+6.97(t-3)</mrow>
+            <mrow>W \amp = 167.69+6.97t</mrow></md>
     Thus, <m>W = 167.69+6.97t</m>.</p></li>
     <li><p>The slope gives us the rate of change of <m>W</m> with respect to <m>t</m>. The units of the variables can help us interpret the slope in context.  
     	<me>\dfrac{\Delta W}{\Delta t}=\dfrac{258.3-188.6~\text{millions of cases}}{13-3~\text{years}} = 6.97~ \text{millions of cases/years}</me>
@@ -209,33 +182,141 @@ The graph of the line is shown in the figure.</p>
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-4-5"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 
 <exercises>
 <exercisegroup cols="2"><introduction><p>Use cross-multiplying to solve the proportion for <m>y</m> in terms of <m>x</m>.</p></introduction>
 
-<exercise number="1"><statement><m>\dfrac{y}{x} = \dfrac{-5}{2}</m></statement>
-<answer><m>y=\dfrac{-5}{2}x</m></answer></exercise>
+<exercise number="1"><statement><m>\dfrac{y}{x} = \dfrac{-5}{2}</m></statement></exercise>
 
-<exercise number="2"><statement><m>\dfrac{y-3}{4} = \dfrac{x}{2}</m></statement>
-<answer><m>y=2x+3</m></answer></exercise>
+<exercise number="2"><statement><m>\dfrac{y-3}{4} = \dfrac{x}{2}</m></statement></exercise>
 
-<exercise number="3"><statement><m>\dfrac{x+1}{5} = \dfrac{y-1}{3}</m></statement>
-<answer><m>y=\dfrac{3}{5}x+\dfrac{8}{5}</m></answer></exercise>
+<exercise number="3"><statement><m>\dfrac{x+1}{5} = \dfrac{y-1}{3}</m></statement></exercise>
 
-<exercise number="4"><statement><m>-2 = \dfrac{y+6}{x}</m></statement>
-<answer><m>y=-2x-6</m></answer></exercise>
+<exercise number="4"><statement><m>-2 = \dfrac{y+6}{x}</m></statement></exercise>
 
-<exercise number="5"><statement><m>\dfrac{y+2}{x-5} = \dfrac{3}{4}</m></statement>
-<answer><m>y=\dfrac{3}{4}x-\dfrac{23}{4}</m></answer></exercise>
+<exercise number="5"><statement><m>\dfrac{y+2}{x-5} = \dfrac{3}{4}</m></statement></exercise>
 
-<exercise number="6"><statement><m>\dfrac{-1}{3} = \dfrac{4-y}{1-x}</m></statement>
-<answer><m>y=\dfrac{-1}{3}x+\dfrac{13}{3}</m></answer></exercise>
+<exercise number="6"><statement><m>\dfrac{-1}{3} = \dfrac{4-y}{1-x}</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-5">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="2">
+    <li><m>y=\dfrac{-5}{2}x</m></li>
+    <li><m>y=2x+3</m></li>
+    <li><m>y=\dfrac{3}{5}x+\dfrac{8}{5}</m></li>
+    <li><m>y=-2x-6</m></li>
+    <li><m>y=\dfrac{3}{4}x-\dfrac{23}{4}</m></li>
+    <li><m>y=\dfrac{-1}{3}x+\dfrac{13}{3}</m></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Point-Slope Formula</title>
+
+<exercises>
+<exercise><statement><p><ol label="a">
+<li><p>Graph the line of slope <m>\dfrac{-1}{2}</m> that passes through the point <m>(-3,2)</m>. <ol label="1">
+    <li><m>\blert{\text{Plot the point}~~(-3,2).}</m></li>
+    <li><m>\blert{\text{Use the slope to find a second point:} ~~~m =\dfrac{\Delta y}{\Delta x} = \dfrac{-1}{2}}</m></li>
+    <li><p><m>\blert{\text{Use the slope to find a third point:} ~~~m =\dfrac{\Delta y}{\Delta x} = \dfrac{1}{-2}}</m></p>
+    <sidebyside width="60%"><image source="images/cr2-44.png"><description>graph</description></image></sidebyside></li>
+    </ol></p></li>
+<li><p>Find an equation for the line.<ol label="1">
+    <li><m>\blert{\text{Use the point-slope formula}~\dfrac{y-y_1}{x-x_1} = m.}</m></li>
+    <li><m>\blert{\text{Cross-multiply to simplify the equation.}}</m></li>
+    <li><m>\blert{\text{Solve for} ~y.} </m></li></ol></p></li>
+</ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+<li><p>Graph the line of slope 3 that passes through the point <m>(-4,-6)</m>. <ol label="1">
+    <li><m>\blert{\text{Plot the point}~~(-4,-6).}</m></li>
+    <li><m>\blert{\text{Use the slope to find a second point:} ~~~m =\dfrac{\Delta y}{\Delta x} = \dfrac{3}{1}}</m></li>
+    <li><p><m>\blert{\text{Use the slope to find a third point:} ~~~m =\dfrac{\Delta y}{\Delta x} = \dfrac{-3}{-1}}</m></p>
+    <sidebyside width="60%"><image source="images/cr2-44.png"><description>graph</description></image></sidebyside></li>
+    </ol></p></li>
+<li><p>Find an equation for the line.<ol label="1">
+    <li><m>\blert{\text{Use the point-slope formula}~\dfrac{y-y_1}{x-x_1} = m.}</m></li>
+    <li><m>\blert{\text{Cross-multiply to simplify the equation.}}</m></li>
+    <li><m>\blert{\text{Solve for} ~y.} </m></li></ol></p></li>
+</ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Using the Point-Slope Formula</title>
+
+<exercises>
+<exercise><statement><p>Find an equation for the line that passes through <m>-1,4)</m> and <m>(3,-2)</m>.<ol label="1">
+    <li><m>\blert{\text{Compute the slope of the line.}}</m></li>
+    <li><m>\blert{\text{Apply the point-slope formula.}}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Around 1950, people began cutting down the world's rain forests to clear land for agriculture.  In 1970 there were about 9.8 million square kilometers of rain forest left, and in 1990 there were about 8.2 million square kilometers. <ol label="a">  
+<li><p>Use these data points to find a linear equation for the number of million square kilometers, <m>y</m>, of rain forest left <m>x</m> years after 1950.<ol label="1">
+    <li><m>\blert{\text{Data points:}}</m></li>
+    <li><m>\blert{\text{Compute the slope:}}</m></li>
+    <li><m>\blert{\text{Apply the point-slope formula.}} </m></li></ol></p></li>
+<li>If we continue to clear the rain forest at the same rate, when will it be completely destroyed?</li></ol></p>
+</statement></exercise>
+
+<exercise><statement><p><ol label="a">
+    <li>What is the slope of a line that is parallel to <m>~x+4y=2</m>?</li>
+    <li>Find an equation for the line that is parallel to <m>~x+4y=2~</m> and passes through <m>(2,3)</m>.</li>
+</ol></p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+    <li>What is the slope of a line that is perpendicular to <m>~x+4y=2</m>?</li>
+    <li>Find an equation for the line that is perpendicular to <m>~x+4y=2~</m> and passes through <m>(2,3)</m>.</li>
+</ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Using the point-slope formula to find the equation of a line</li>
+    <li>Using the point-slope formula to graph a line</li>
+    <li>Using the point-slope formula in applications</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In graphing the line in Activity 1, explain how the 2 in the point <m>-3,2)</m> and the 2 in the slope <m>\dfrac{-1}{2}</m> are used differently.</li>
+    <li>In Problem 2 of Activity 2, what were the two data points?</li>
+    <li>What was different in the solutions of Problems 2 and 3 of Activity 2? </li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+<exercisegroup cols="2"><introduction><p><ol label="a">
+    <li>Graph the line.</li>
+    <li>Find the equation of the line.</li></ol></p></introduction>
+
+<exercise><statement><m>m=-3;~~~(-6,8)</m>
+    <sidebyside width="90%"><image source="images/cr2-44.png"><description>graph</description></image></sidebyside>
+</statement></exercise>
+
+<exercise><statement><m>m=\dfrac{2}{5};~~~(7,4)</m>
+    <sidebyside width="90%"><image source="images/cr2-44.png"><description>graph</description></image></sidebyside>
+</statement></exercise>
+</exercisegroup>
+
+<exercise><statement><p>Find an equation of the line that goes through <m>(-6,-4)</m> and <m>(2,8)</m>.</p>
+</statement></exercise>
+
+<exercise><statement><p>Find an equation of the line that is perpendicular to <m>~3x-5y=1~</m> and passes through <m>(0,4)</m>.</p>
+</statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+    <li><m>y=-3x-10</m></li>
+    <li><m>y=\dfrac{2}{5}x + \dfrac{6}{5}</m></li>
+    <li><m>y=\dfrac{3}{2}x+5</m></li>
+    <li><m>y=\dfrac{-5}{3}x+4</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-4-5.xml" />
 </section>                
