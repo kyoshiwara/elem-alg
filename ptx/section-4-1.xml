@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="The-Distributive-Law"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>The Distributive Law</title>
+<section xml:id="The-Distributive-Law"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Distributive Law</title>
 
 <subsection><title>Products</title>
+
 <p>So far we have considered sums and differences of algebraic expressions. Now we take a look at simple products. To simplify a product such as <m>3(2a)</m>, we multiply the numerical factors to find
 	<me>3(2a)=(3 \cdot 2)a = 6a</me>
 This calculation is an application of the associative law for multiplication. We can see why the product is reasonable by recalling that multiplication is repeated addition, so that
 	<me>3(2a) = 2a + 2a + 2a = 6a~~~~~~~~~~~~~\blert{\text{Three terms}}</me></p>
-
 
 <example><statement><p><ol label="a" cols="2">
 	<li><m>5(3x)=15x</m></li>
@@ -23,12 +22,11 @@ This calculation is an application of the associative law for multiplication. We
 </subsection>
 
 <subsection><title>The Distributive Law</title>
+
 <sidebyside widths="60% 35%" valigns="middle middle" margins="0% 0%"><p>Another useful property for simplifying expressions is the distributive law. First consider a numerical example. Suppose we would like to find the area of the two rooms shown at right.
     We can do this in two different ways:</p>  
     <!--<image source="images/fig-4-1-1.png"><description>rectangle</description></image>-->
-    <image xml:id="fig-4-1-1">
-        <description>rectangle</description>
-        <latex-image>
+    <image xml:id="fig-4-1-1"><description>rectangle</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -42,17 +40,12 @@ This calculation is an application of the associative law for multiplication. We
         \node[below] at (1.2,-.05) {12};
         \node[below] at (3.2,-.05) {8};
         \node[right] at (4.05,1) {10};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-</sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p><ul>
 	<li><p>Method 1: Think of the rooms as one large rectangle, with width 10 feet and length <m>12+8</m> feet. The area is then given by
-			<me>\begin{aligned}
-                \text{Area} \amp = \text{width} \times \text{length}\\
-					 \amp = \blert{10(12+8)} = 10(20) = 200~\text{square feet}             
-                \end{aligned}</me></p></li>
+			<md><mrow>\text{Area} \amp = \text{width} \times \text{length}</mrow>
+				<mrow>\amp = \blert{10(12+8)} = 10(20) = 200~\text{square feet}</mrow></md></p></li>
     <li><p>Method 2: Find the area of each room separately and add the two areas together. This gives us
     		<me>\blert{10(12) + 10(8)} = 120+80 = 200~\text{square feet}</me></p></li></ul></p>
 
@@ -75,10 +68,8 @@ We see that there are two ways to compute the expression <m>10(12+8)</m>.<ul>
 <example><statement><p>Simplify <m>~-2(3x-1)</m></p></statement>
 
 <solution><p>We multiply each term inside parentheses by <m>-2</m>:
-		<me>\begin{aligned}
-                \blert{-2}(3x-1) \amp = \blert{-2}(3x)\blert{-2}(-1)\\
-					 \amp = -6x+2             
-                \end{aligned}</me></p></solution></example>
+		<md><mrow>\blert{-2}(3x-1) \amp = \blert{-2}(3x)\blert{-2}(-1)</mrow>
+			<mrow> \amp = -6x+2</mrow></md></p></solution></example>
 
 <warning><p>Compare the three similar expressions:
 	<me>-3x-5x,~~~~~~-3(-5x),~~~~~~-3(-5-x)</me>
@@ -97,19 +88,18 @@ To simplify these expressions, we must first recognize the operations involved.<
 </subsection>
 
 <subsection><title>Solving Equations and Inequalities</title>
+
 <p>If an equation or inequality contains parentheses, we use the distributive law to simplify each side before we begin to solve.</p>
 
 <example xml:id="Example-4-1-3"><statement><p>Solve  <m>~25-6x=3x-2(4-x)</m></p></statement>
 
 <solution><p>We apply the distributive law to the right side of the equation.
-		<me>\begin{aligned}
-                25-6x \amp = 3x-2(4-x) \amp\amp \blert{\text{Apply the distributive law.}}\\
-                25-6x \amp = \blert{3x} - 8 + \blert{2x} \amp\amp \blert{\text{Combine like terms.}}\\
-                25-6x \amp = 5x-8 \amp\amp \blert{\text{Subtract}~5x~ \text{from both sides.}}\\ 
-                25-11x \amp = -8  \amp\amp \blert{\text{Subtract 25 from both sides.}}\\
-                -11x \amp = -33  \amp\amp \blert{\text{Divide both sides by}~-11.}\\
-                x \amp =3   \amp\amp \blert{\text{The solution is 3.}}           
-                \end{aligned}</me>
+		<md><mrow>25-6x \amp = 3x-2(4-x) \amp\amp \blert{\text{Apply the distributive law.}}</mrow>
+            <mrow>25-6x \amp = \blert{3x} - 8 + \blert{2x} \amp\amp \blert{\text{Combine like terms.}}</mrow>
+            <mrow>25-6x \amp = 5x-8 \amp\amp \blert{\text{Subtract}~5x~ \text{from both sides.}}</mrow> 
+            <mrow>25-11x \amp = -8  \amp\amp \blert{\text{Subtract 25 from both sides.}}</mrow>
+            <mrow>-11x \amp = -33  \amp\amp \blert{\text{Divide both sides by}~-11.}</mrow>
+            <mrow>x \amp =3   \amp\amp \blert{\text{The solution is 3.}}</mrow></md>
 You should verify each step of the solution, and check the answer.</p></solution></example>
 
 <warning><p>The expression on the right side of the equation in <xref ref="Example-4-1-3" text="type-global"/> is made up of two terms:
@@ -121,13 +111,11 @@ Remember that we think of all terms as added together, so the minus sign in fron
 <example xml:id="Example-4-1-4"><statement><p>Solve the proportion  <m>~\dfrac{7.6}{1.2} = \dfrac{x+3}{2x-1}</m></p></statement>
 
 <solution><p>We apply the property of proportions and cross-multiply to get
-		<me>\begin{aligned}
-                7.6(2x-1) \amp = 1.2(x+3) \amp\amp \blert{\text{Apply the distributive law.}}\\
-                15.2x-7.6 \amp = 1.2x+3.6 \amp\amp \blert{\text{Subtract}~1.2x~ \text{from both sides.}}\\
-                14x-7.6 \amp = 3.6 \amp\amp \blert{\text{Add}~7.6~ \text{to both sides.}}\\ 
-                14x \amp = 11.2  \amp\amp \blert{\text{Divide both sides by 14.}}\\
-                x \amp = \dfrac{11.2}{14} = 0.8             
-                \end{aligned}</me>
+		<md><mrow>7.6(2x-1) \amp = 1.2(x+3) \amp\amp \blert{\text{Apply the distributive law.}}</mrow>
+            <mrow>15.2x-7.6 \amp = 1.2x+3.6 \amp\amp \blert{\text{Subtract}~1.2x~ \text{from both sides.}}</mrow>
+             <mrow>14x-7.6 \amp = 3.6 \amp\amp \blert{\text{Add}~7.6~ \text{to both sides.}}</mrow> 
+             <mrow>14x \amp = 11.2  \amp\amp \blert{\text{Divide both sides by 14.}}</mrow>
+            <mrow>x \amp = \dfrac{11.2}{14} = 0.8</mrow></md>             
 We can check the solution by substituting <m>x=0.8</m> into the original proportion.</p></solution></example>
 
 <reading-questions>
@@ -138,6 +126,7 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 </subsection>
 
 <subsection><title>Algebraic Expressions</title>
+
 <p>We can often simplify algebraic expressions by combining like terms.</p>
 
 <example xml:id="Example-4-1-5"><statement><p>Delbert and Francine are collecting aluminum cans to recycle. They will be paid <m>x</m> dollars for every pound of cans they collect. At the end of three weeks, Delbert collected 23 pounds of aluminum cans, and Francine collected 47 pounds.<ol label="a">
@@ -166,17 +155,13 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 <solution><p><ol label="a">
 	<li>"Three feet less than twice the width" tells us to subtract 3 from twice the width. The length of the rectangle is 	<m>2w-3</m>.</li>
 	<li><p>The perimeter of a rectangle is given by the formula <m>P=2l+2w</m>. We substitute our expression for the length to get
-			<me>\begin{aligned}
-                P \amp = 2(\alert{2w-3}) +2w  \amp\amp \blert{\text{Apply the distributive law.}}\\
-                 \amp = 4w-6+2w \amp\amp \blert{\text{Combine like terms.}}\\
-                 \amp = 6w-6             
-                \end{aligned}</me></p></li>
+			<md><mrow>P \amp = 2(\alert{2w-3}) +2w  \amp\amp \blert{\text{Apply the distributive law.}}</mrow>
+                <mrow> \amp = 4w-6+2w \amp\amp \blert{\text{Combine like terms.}}</mrow>
+                <mrow> \amp = 6w-6</mrow></md>></p></li>
     <li><p>We set our expression for the perimeter equal to 36.
-    		<me>\begin{aligned}
-                6w-6 \amp = 36 \amp\amp \blert{\text{Add 6 to both sides.}}\\
-                 6w \amp = 42 \amp\amp \blert{\text{Divide both sides by 6.}}\\
-                  w \amp = 7             
-                \end{aligned}</me>
+    		<md><mrow> 6w-6 \amp = 36 \amp\amp \blert{\text{Add 6 to both sides.}}</mrow>
+                <mrow> 6w \amp = 42 \amp\amp \blert{\text{Divide both sides by 6.}}</mrow>
+                <mrow>  w \amp = 7</mrow></md>             
 The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\alert{7})-3=11</m> feet.</p></li></ol></p></solution></example>
 
 <reading-questions>
@@ -185,29 +170,138 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-4-1"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup><introduction><p>For Problems 1-2, use a formula to write an equation. Then solve the equation.</p></introduction>
 
-<exercise number="1"><statement><p>32.5% of the class are engineering majors. If there are 91 engineering majors, how many students are in the class?</p></statement>
-<answer><m>0.325x=91;~~280</m></answer></exercise>
+<exercise number="1"><statement><p>32.5% of the class are engineering majors. If there are 91 engineering majors, how many students are in the class?</p></statement></exercise>
 
-<exercise number="2"><statement><p>A rectangular cookie sheet is 40 cm long and has a perimeter of 116 cm. How wide is the cookie sheet?</p></statement>
-<answer><p><m>2w+2(40)=116;~~ 18~</m>cm</p></answer></exercise>
+<exercise number="2"><statement><p>A rectangular cookie sheet is 40 cm long and has a perimeter of 116 cm. How wide is the cookie sheet?</p></statement></exercise>
 </exercisegroup>
 
 <exercisegroup><introduction><p>For Problems 3-4, write an equation you could solve to answer the question.</p></introduction>
 
-<exercise number="3"><statement><p>Erika bought a 50-pound bag of dog food and after 28 days she had 29 pounds left. How much dog food did she use per day?</p></statement>
-<answer><p><m>50-28d=29;~~\dfrac{3}{4}~</m>lb</p></answer></exercise>
+<exercise number="3"><statement><p>Erika bought a 50-pound bag of dog food and after 28 days she had 29 pounds left. How much dog food did she use per day?</p></statement></exercise>
 
-<exercise number="4"><statement><p>A hamburger contains 60 calories less than two bags of fries.  A hamburger and one bag of fries contains 780 calories. How many calories are in a bag of fries? </p></statement>
-<answer><m>x+(2x-60)=780;~~280</m></answer></exercise>
+<exercise number="4"><statement><p>A hamburger contains 60 calories less than two bags of fries.  A hamburger and one bag of fries contains 780 calories. How many calories are in a bag of fries? </p></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-1">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="2">
+    <li><m>0.325x=91;~~280</m></li>
+    <li><m>2w+2(40)=116;~~18~</m>cm</li>
+    <li><m>50-28d=29,~~\dfrac{3}{4}~</m>lb</li>
+    <li><m>x+(2x-60)=780;~~280</m></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Simplifying Expressions</title>
+
+<exercises>
+<exercise><statement><p>Simplify each product.<ol label="a" cols="2">
+    <li><m>6(-2b)</m></li>
+    <li><m>-4(-7w)</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Use the distributive law to simplify each expression.<ol label="a" cols="2">
+    <li><m>8(3y-6)</m></li>
+    <li><m>-3(7+5x)</m></li></ol></p></statement></exercise>
+</exercises></subsubsection>
+
+<subsubsection><title>Activity 2: Solving Equations</title>
+
+<assemblage><title>Steps for Solving Linear Equations</title>
+<p><ol label="1">
+    <li>Use the distributive law to remove any parentheses.</li>
+    <li>Combine like terms on each side of the equation.</li>
+    <li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side and all the constant terms on the other.</li>
+    <li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li>
+</ol></p></assemblage>
+
+<exercises>
+<exercise><statement><p>Solve <m>~~6-3(x-2)=4x-(x+8)</m></p></statement></exercise>
+
+<exercise><statement><p>Solve <m>~~2n+(4-3n) \ge 6-(3-2n)</m></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Problem Solving</title>
+
+<exercises>
+<exercise><statement><p>Shalia runs a landscaping business. She has a budget of $385 to buy 20 rose bushes for one of her clients.  Hybrid tea roses cost $21 each, and shrub roses cost $16.<ol label="a">       
+    <li>If Shalia buys  tea roses, write an expression for the number of shrub roses she needs.</li>  
+    <li>Write expressions for the cost of the tea roses and the cost of the shrub roses.</li>
+    <li>Write and simplify an expression for the total cost of the roses.</li></ol></p></statement></exercise>
+
+<exercise><statement><p>One angle of a triangle is three times the smallest angle, and the third angle is 20 greater than the smallest angle. Find the degree measure of each angle.<ul>
+    <li>Step 1  Let <m>x</m> represent the smallest angle, and write expressions for the other two angles.
+        <md><mrow>\blert{\text{Second angle:}}</mrow>    
+            <mrow>\blert{\text{Third angle:}}</mrow></md></li>                                                       
+    <li>Step 2  Write an equation, using the fact that the sum of the three angles of a triangle is 180<m>\degree</m>.</li>
+    <li>Step 3  Solve the equation.  Begin by simplifying the left side.</li>
+    <li>Write your answer in a sentence.</li></ul></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Applying the distributive law</li>
+    <li>Solving linear equations</li>
+    <li>Writing equations for applied problems</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>Explain the difference between <m>6(-2b)</m> and <m>6(-2+b)</m>. Which law or property do you apply to simplify each expression?</li>
+    <li>Explain how to simplify each side of an equation before beginning to solve.</li>
+    <li>What formula did you use in Problem 2 of Activity 3?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercisegroup><introduction><p>Simplify.</p></introduction>
+
+<exercise><statement><m>8-3(2x+4)-3x-2</m></statement></exercise>
+
+<exercise><statement><m>3a-4-3(2a-5)</m></statement></exercise>
+
+<exercise><statement><p><ol label="a" cols="2">
+    <li><m>-4(-6t)+2</m></li>
+    <li><m>-4(-6t+2)</m></li>
+    <li><m>-4-6t-2</m></li>
+    <li><m>(-4-6t)(-2)</m></li></ol></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Solve.</p></introduction>
+
+<exercise><statement><m>-9+2(9+4z)=-23</m></statement></exercise>
+
+<exercise><statement><m>35=4(2w+5)-3w</m></statement></exercise>
+
+<exercise><statement><m>4(2-3w)=9-3(2w-1)</m></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+    <li><m>-9x-6</m></li>
+    <li><m>-3a+11</m></li>
+    <li><p><ol label="a">
+        <li><m>24t+2</m></li>
+        <li><m>24t-8</m></li>
+        <li><m>-6-6t</m></li>
+        <li><m>8+12t</m></li></ol></p></li>
+    <li><m>-4</m></li>
+    <li><m>3</m></li>
+    <li><m>\dfrac{-2}{3}</m></li></ol></p>
+</subsubsection>
+</subsection>
+
+
 <xi:include href="./hmwk-4-1.xml" />
 </section>

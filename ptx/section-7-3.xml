@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="More-About-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>More About Factoring</title>
+<section xml:id="More-About-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude"><title>More About Factoring</title>
 
 <subsection><title>Quotients of Powers</title>
+
 <p>We can reduce a fraction by dividing numerator and denominator by any common factors.  For example,
 	<me>\dfrac{10}{15} = \dfrac{2 \cdot 5}{3 \cdot 5} = \dfrac{2}{3}</me>
 We first factored the numerator and denominator of the fraction and then canceled the 5's by dividing.  We can apply the same technique to quotients of powers.</p>
@@ -41,6 +41,7 @@ We first factored the numerator and denominator of the fraction and then cancele
 </subsection>
 
 <subsection><title>Quotients of Monomials</title>
+
 <p>To divide one monomial by another, we apply the second law of exponents to the powers of each variable.</p>
 
 <example><statement><p>Divide <m>~~\dfrac{3x^2y^4}{6x^3y}</m></p></statement>
@@ -52,9 +53,11 @@ We first factored the numerator and denominator of the fraction and then cancele
 </subsection>
 
 <subsection><title>Greatest Common Factors</title>
+
 <p>Now we consider several techniques for factoring polynomials. The first of these is factoring out the <term>greatest common factor</term> (GCF).</p>
 
-<assemblage><p>The <term>greatest common factor</term> (GCF) is the largest factor that divides evenly into each term of the polynomial: the largest numerical factor and the highest power of each variable.</p></assemblage>
+<assemblage><title>Greatest Common Factor</title>
+	<p>The <term>greatest common factor</term> (GCF) is the largest factor that divides evenly into each term of the polynomial: the largest numerical factor and the highest power of each variable.</p></assemblage>
 
 <example xml:id="Example-7-3-3"><statement><p>Find the greatest common factor for <m>~~4a^3b^2+6ab^3-18a^2b^4</m></p></statement>
 
@@ -93,6 +96,7 @@ We apply the distributive law to factor <m>2ab^2</m> from each term.
 </subsection>
 
 <subsection><title>Factoring Quadratic Trinomials by Guess-and-Check</title>
+
 <p>So far, we can factor quadratic trinomials of the form <m>x^2+bx+c=0</m>, where <m>a=1</m>. Recall that the factored form of <m>x^2+bx+c=0</m> looks like
 	<me>(x+p)(x+q)~~~~~~ \text{where}~~~pq=c ~~~ \text{and} ~~~p+q=b</me></p>
 
@@ -120,6 +124,7 @@ The second choice gives the correct middle term, so the factorization is
 </subsection>
 
 <subsection><title>Quadratic Trinomials in Two Variables</title>
+
 <p>So far, we have factored quadratic trinomials in one variable, that is, polynomials of the form
 	<me>ax^2+bx+c</me>
 The method we learned can also be used to factor trinomials in two variables of the form
@@ -140,6 +145,7 @@ The second possibility gives the correct middle term, so the factorization is
 </subsection>
 
 <subsection><title>Combining Factoring Techniques</title>
+
 <p>We should always begin factoring by checking to see if there is a common factor that can be factored out.</p>
 
 <example><statement><p>Factor completely  <m>~2b^3+8b^2+6b~</m></p></statement>
@@ -156,26 +162,462 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 </reading-questions> 
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-7-3"><title>Skills Warm-Up</title>
+<subsection><title><m>\blert{\text{Optional Extension: The Box Method}}</m></title>
+
+<p>If the coefficients in a quadratic trinomial <m>ax^2+bx+c</m> are not prime numbers, the guess-and-check method may be time-consuming. In that case, we can use another technique that depends upon the following property of binomial products.</p>
+
+<example><statement><p><ol label="a">
+	<li>Compute the product <m>(3t+2)(t+3)</m> using the area of a rectangle.</li>
+	<li>Verify that the products of the diagonal entries are equal.</li></ol></p></statement>
+
+<solution><p><ol label="a">
+	<li><p>We construct a rectangle with sides <m>3t+2</m> and <m>t+3</m>, as shown below. We see that the product of the two binomials is </p>
+<sidebyside widths="60% 25%" margins="5% 10%" valigns="middle middle"><p><m>3t^2+9t+2t+6=3t^2+11t+6</m></p>
+	<tabular halign="center">
+        <row><cell ></cell>
+            <cell bottom="minor" ><m>~~~~~t~~~~~</m></cell>
+            <cell bottom="minor"><m>~~~~3~~~~~</m></cell></row>
+        <row><cell right="minor" left="none"><m>3t</m></cell>
+            <cell bottom="minor" right="minor"><m>3t^2</m></cell>
+            <cell bottom="minor" right="minor"><m>9t</m></cell></row>
+        <row><cell right="minor" left="none"><m>2</m></cell>
+            <cell bottom="minor" right="minor"><m>2t</m></cell>
+            <cell bottom="minor" right="minor"><m>6</m></cell></row>
+    </tabular></sidebyside></li>
+    <li><p>Now let's compute the product of the expressions along each diagonal of the rectangle: 
+    	<me>3t^2 \cdot 6 = 18t^2~~~~~~\text{and}~~~~~~9t \cdot 2t = 18t^2</me>    
+    The two products are equal. This is not surprising when you think about it, because each diagonal product is the product of all four terms of the binomials, namely <m>3t,~2,~t,</m> and <m>3</m>, just multiplied in a different order. You can see where the diagonal entries came from in our example:
+    	<md><mrow>18t^2 \amp = 3t^2 \cdot 6 =3t \cdot t \cdot 2 \cdot 3</mrow> 
+    		<mrow>18t^2 \amp = 9t \cdot 2t =3t \cdot 3 \cdot 2 \cdot t</mrow></md></p></li></ol></p></solution>
+</example>
+
+<assemblage><title>Product of Binomials</title>
+<p>When we represent the product of two binomials by the area of a rectangle, the products of the entries on the two diagonals are equal.</p></assemblage>
+
+<reading-questions>
+	<exercise number="5"><statement><p>In the previous Example, why are the products on the two diagonals equal?</p></statement>
+    <answer><p>Each is the product of all four terms of the binomials.</p></answer></exercise>
+</reading-questions>
+
+<assemblage><title>Look Ahead</title>
+<p>We can use rectangles to help us factor quadratic trinomials. Recall that factoring is the opposite or reverse of multiplying, so we must first understand how multiplication works.</p></assemblage>  
+
+<assemblage><title>Look Closer</title>
+<p>Look carefully at the rectangle for the product</p>
+<sidebyside widths="60% 25%" margins="5% 10%" valigns="middle middle"><p><me>(3x+4)(x+2)=3x^2+10x+8</me>
+Shown at right.</p>
+	<tabular halign="center"><col /><col width="20%"/><col  width="20%"/>
+        <row><cell ></cell>
+            <cell bottom="minor" ><m>~~~~~x~~~~~</m></cell>
+            <cell  bottom="minor"  ><m>~~~~2~~~~~</m></cell></row>
+        <row><cell right="minor" left="none"><m>3x</m></cell>
+            <cell  bottom="minor" right="minor" ><m>3x^2</m></cell>
+            <cell  bottom="minor" right="minor"  ><m>6x</m></cell></row>
+        <row><cell right="minor" left="none"><m>4</m></cell>
+            <cell  bottom="minor" right="minor" ><m>4x</m></cell>
+            <cell  bottom="minor" right="minor" ><m>8</m></cell></row>
+    </tabular></sidebyside><p><ul>
+    <li>The quadratic term of the product, <m>3x^2</m>, appears in the upper left sub-rectangle.</li>  
+	<li>The constant term of the product, 8, appears in the lower right sub-rectangle.</li>  
+	<li>The linear term, <m>10x</m>, is the sum of the other two sub-rectangles.</li></ul></p></assemblage>
+</subsection>
+
+<subsection><title>Factoring Quadratic Trinomials by the Box Method</title>
+
+<p>Now we'll factor the trinomial
+	<me>3x^2+10x+8</me>
+We'll try to reverse the steps for multiplication. Instead of starting with the factors on the outside of the rectangle, we begin by filling in the areas of the sub-rectangles.</p>
+
+<sidebyside widths="55% 25%" margins="0% 20%" valigns="middle middle">
+<p><m>\blert{\text{Step 1}~~}</m> The quadratic term, goes in the upper left, and the constant term, 8, goes in the lower right, as shown in the figure.</p>
+  
+<tabular halign="center"><col /><col width="20%"/><col  width="20%"/>
+        <row><cell ></cell>
+            <cell bottom="minor" ><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor"  ><m>\hphantom{0000}</m></cell></row>
+        <row><cell right="minor" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>3x^2</m></cell>
+            <cell  bottom="minor" right="minor"  ><m>\hphantom{0000}</m></cell></row>
+        <row><cell right="minor" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>8</m></cell></row>
+    </tabular></sidebyside>
+
+<p>	What about the other two entries?  We know that their sum must be <m>10x</m>, but we don't know what expressions go in each! This is where we use our observation that the products on the two diagonals are equal.</p>
+
+<p><m>\blert{\text{Step 2}~~}</m>  We compute the product of the entries on the first diagonal:
+	<me>D=3x^2 \cdot 8 = 24x^2</me>
+The product of the entries on the other diagonal must also be <m>24x^2</m>. We now know two things about those entries:
+	<md><mrow> \amp \text {1. Their product is}~~24x^2~~\text{and}</mrow>
+		<mrow> \amp \text {2. Their sum is}~~10x</mrow></md></p> 
+
+<p><m>\blert{\text{Step 3}~~}</m>  To find the two unknown entries, we list all the ways to factor <m>D=24x^2</m>, then choose the factors whose sum is <m>10x</m>. </p>
+
+<sidebyside><tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
+                    <row><cell>Factors of </cell>
+                        <cell><m>D=24x^2</m></cell>
+                        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
+                    <row><cell><m>x</m></cell>
+                        <cell><m>24x</m></cell>
+                        <cell><m>\hphantom{0000}x+24x=25x</m></cell></row>
+                    <row><cell><m>2x</m></cell>
+                        <cell><m>12x</m></cell>
+                        <cell><m>\hphantom{0000}2x+12x=24x</m></cell></row>
+                    <row><cell><m>3x</m></cell>
+                        <cell><m>8x</m></cell>
+                        <cell><m>\hphantom{0000}3x+8x=11x</m></cell></row>
+                    <row><cell><m>\blert{4x}</m></cell>
+                        <cell><m>\blert{6x}</m></cell>
+                        <cell><m>\hphantom{0000}\blert{4x+6x=10x}</m></cell></row>
+                    </tabular></sidebyside>
+
+<sidebyside widths="75% 15%" margins="0% 5%" valigns="top top">
+<p><m>\blert{\text{Step 4}~~}</m>  We see that the last pair of factors, <m>4x</m> and <m>6x</m>, has a sum of <m>10x</m>. We enter these factors in the remaining sub-rectangles. (It doesn't matter which one goes in which spot.) We now have all the sub-rectangles filled in, as shown at right.</p>
+
+<tabular halign="center"><col /><col/><col  />
+        <row><cell ></cell>
+            <cell bottom="minor" ><m></m></cell>
+            <cell  bottom="minor"  ><m></m></cell></row>
+        <row><cell right="minor" left="none"><m></m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~3x^2~~~</m></cell>
+            <cell  bottom="minor" right="minor"  ><m>~~~4x~~~</m></cell></row>
+        <row><cell right="minor" left="none"><m></m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~6x~~~</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~8~~~</m></cell></row>
+    </tabular></sidebyside>
+
+<p>Finally, we work backwards to discover what length and width produce the areas of the four subrectangles.</p>   
+
+<p><m>\blert{\text{Step 5}~~}</m>  We factor each row of the rectangle, and write the factors on the outside. Start with the top row, factoring out <m>x</m> and writing the result, <m>3x+4</m>, at the top, as shown at right.  We get the same result when we factor <m>2</m> from the bottom row.</p> 
+
+<sidebyside widths="65% 25%" margins="0% 5%" valigns="middle middle">
+<p>The final rectangle is shown at right, and the factors of <m>3x^2+10x+8</m> appear as the length and width of the rectangle. Our factorization is thus
+	<me>3x^2+10x+8=(x+2)(3x+4)</me></p> 
+
+<tabular halign="center"><col /><col width="20%"/><col  width="20%"/>
+        <row><cell ></cell>
+            <cell bottom="minor" ><m>3x</m></cell>
+            <cell  bottom="minor"  ><m>4</m></cell></row>
+        <row><cell right="minor" left="none"><m>x</m></cell>
+            <cell  bottom="minor" right="minor" ><m>\hphantom{00}3x^2\hphantom{00}</m></cell>
+            <cell  bottom="minor" right="minor"  ><m>\hphantom{00}4x\hphantom{00}</m></cell></row>
+        <row><cell right="minor" left="none"><m>2</m></cell>
+            <cell  bottom="minor" right="minor" ><m>\hphantom{00}6x\hphantom{00}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>\hphantom{00}8\hphantom{00}</m></cell></row>
+    </tabular></sidebyside>
+
+<reading-questions>
+    <exercise number="6"><statement><p>Which terms of the quadratic trinomial go into the upper left and lower 
+	right sub-rectangles of the box?</p></statement>
+    <answer><p>The quadratic and constant terms</p></answer></exercise>
+    <exercise number="7"><statement><p>Why do we list the possible factors of <m>D</m>?</p></statement>
+    <answer><p>To see which sum of factors equals the linear term</p></answer></exercise>
+</reading-questions> 
+
+<example><statement><p>Factor <m>~~2x^2-11x+15</m></p></statement>
+
+<solution><sidebyside widths="70% 15%" margins="0% 15%" valigns="middle middle">
+	<p><m>\blert{\text{Step 1}~~}</m>  Enter <m>2x^2</m> and <m>15</m> on the diagonal of the rectangle, as shown in the figure.</p>
+
+<tabular halign="center"><col /><col/><col/>
+        <row><cell ></cell>
+            <cell bottom="minor" ><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor"  ><m>\hphantom{0000}</m></cell></row>
+        <row><cell right="minor" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>2x^2</m></cell>
+            <cell  bottom="minor" right="minor"  ><m>\hphantom{0000}</m></cell></row>
+        <row><cell right="minor" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>15</m></cell></row>
+    </tabular></sidebyside>
+<p><m>\blert{\text{Step 2}~~}</m>  Compute the diagonal product:
+		<me>D=2x^2 \cdot 15 = 30x^2</me></p>
+<p><m>\blert{\text{Step 3}~~}</m>  List all possible factors of <m>D</m>, and compute the sum of each pair of 
+			factors.  (Note that both factors must be negative.)</p>
+
+	<sidebyside><tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
+                    <row><cell>Factors of </cell>
+                        <cell><m>D=30x^2</m></cell>
+                        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
+                    <row><cell><m>-x</m></cell>
+                        <cell><m>-30x</m></cell>
+                        <cell><m>\hphantom{0000}-x-30x=-31x</m></cell></row>
+                    <row><cell><m>-2x</m></cell>
+                        <cell><m>-15x</m></cell>
+                        <cell><m>\hphantom{0000}-2x-15x=-17x</m></cell></row>
+                    <row><cell><m>-3x</m></cell>
+                        <cell><m>-10x</m></cell>
+                        <cell><m>\hphantom{0000}-3x-10x=-13x</m></cell></row>
+                    <row><cell><m>\blert{-5x}</m></cell>
+                        <cell><m>\blert{-6x}</m></cell>
+                        <cell><m>\hphantom{0000}\blert{-5x-6x=-11x}</m></cell></row>
+                    </tabular></sidebyside>
+<sidebyside widths="65% 10%" margins="0% 20%" valigns="middle middle"><stack>
+    <p>The correct factors are <m>-5x</m> and <m>-6x</m>.</p>
+    <p><m>\blert{\text{Step 4}~~}</m>  Enter the factors <m>-5x</m> and <m>-6x</m> into the rectangle.</p></stack> 
+<tabular halign="center"><col /><col/><col/>
+        <row><cell ></cell>
+            <cell bottom="minor" ><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor"  ><m>\hphantom{0000}</m></cell></row>
+        <row><cell right="minor" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~2x^2~~~</m></cell>
+            <cell  bottom="minor" right="minor"  ><m>~~~-6x~~~</m></cell></row>
+        <row><cell right="minor" left="none"><m>\hphantom{0000}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~-5x~~~</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~15~~~</m></cell></row>
+    </tabular></sidebyside>
+<p><m>\blert{\text{Step 5}~~}</m>  Factor <m>2x</m> from the top row of the rectangle, and write the result, <m>x-3</m>, at the top, as shown below.</p>
+
+<sidebyside widths="25% 25%" margins="15% 15%" valigns="middle middle">
+
+<tabular halign="center"><col /><col /><col />
+        <row><cell ></cell>
+            <cell bottom="minor" ><m>x</m></cell>
+            <cell  bottom="minor"  ><m>-3</m></cell></row>
+        <row><cell right="minor" left="none"><m>2x</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~2x^2~~~</m></cell>
+            <cell  bottom="minor" right="minor"  ><m>~~~-6x~~~</m></cell></row>
+        <row><cell right="minor" left="none"><m>\hphantom{00}</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~-5x~~~</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~15~~~</m></cell></row>
+    </tabular>
+
+<tabular halign="center"><col /><col/><col/>
+        <row><cell ></cell>
+            <cell bottom="minor" ><m>x</m></cell>
+            <cell  bottom="minor"  ><m>-3</m></cell></row>
+        <row><cell right="minor" left="none"><m>2x</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~2x^2~~~</m></cell>
+            <cell  bottom="minor" right="minor"  ><m>~~~-6x~~~</m></cell></row>
+        <row><cell right="minor" left="none"><m>-5</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~-5x~~~</m></cell>
+            <cell  bottom="minor" right="minor" ><m>~~~15~~~</m></cell></row>
+    </tabular></sidebyside> 
+
+<p>Finally, factor <m>5</m> from the bottom row, and write it on the left. The correct factorization is
+	<me>2x^2-11x+15=(2x-5)(x-3)</me></p></solution></example>
+
+<reading-questions>
+    <exercise number="8"><statement><p>What do we do after we have filled in all the sub-rectangles of the box?
+</p></statement>
+    <answer><p>Factor the rows</p></answer></exercise>
+    <exercise number="9"><statement><p>Where do the factors of the quadratic trinomial appear?</p></statement>
+    <answer><p>As the length and width of the rectangle</p></answer></exercise>
+</reading-questions>
+
+<p>Here is a summary of our factoring method.</p>
+
+<assemblage><title>To Factor <m>~ax^2+bx+c~</m> Using the Box Method</title>
+<p><ol label="1">
+	<li>Write the quadratic term <m>ax^2</m> in the upper left sub-rectangle, and the 
+	constant term <m>c</m> in the lower right.</li>
+	<li>Multiply these two terms to find the diagonal product, <m>D</m>.</li>
+	<li>List all possible factors <m>px</m> and <m>qx</m> of <m>D</m>, and choose the pair whose sum 
+	is the linear term, <m>bx</m>, of the quadratic trinomial.</li>
+	<li>Write the factors <m>px</m> and <m>qx</m> in the remaining sub-rectangles.</li>
+	<li>Factor each row of the rectangle, writing the factors on the outside.  
+	These are the factors of the quadratic trinomial.</li></ol></p></assemblage>
+
+</subsection>
+
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup ><introduction><p>Mental exercise: Find the other factor of each quadratic trinomial without using pencil, paper, or calculator.</p></introduction>
 
-<exercise number="1"><statement><m>b^2+8b-240 = (b-12)(<fillin characters="6"/>)</m></statement>
-<answer><m>(b+20)</m></answer></exercise>
+<exercise number="1"><statement><m>b^2+8b-240 = (b-12)(<fillin characters="6"/>)</m></statement></exercise>
 
-<exercise number="2"><statement><m>n^2-97n-300 = (n-100)(<fillin characters="6"/>)</m></statement>
-<answer><m>(n+3)</m></answer></exercise>
+<exercise number="2"><statement><m>n^2-97n-300 = (n-100)(<fillin characters="6"/>)</m></statement></exercise>
 
-<exercise number="3"><statement><m>3u^2-17u-6 = (u-6)(<fillin characters="6"/>)</m></statement>
-<answer><m>(3u+1)</m></answer></exercise>
+<exercise number="3"><statement><m>3u^2-17u-6 = (u-6)(<fillin characters="6"/>)</m></statement></exercise>
 
-<exercise number="4"><statement><m>2t^2-21t+54 = (t-6)(<fillin characters="6"/>)</m></statement>
-<answer><m>(2t-9)</m></answer></exercise>
+<exercise number="4"><statement><m>2t^2-21t+54 = (t-6)(<fillin characters="6"/>)</m></statement></exercise>
+</exercisegroup>
+
+<exercisegroup cols="2"><introduction><p><m>\blert{\text{(Optional)}~~}</m> Use the given areas to find the length and width of each rectangle.</p></introduction>
+
+<exercise number="5"><statement><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~~6x^2~~</m></cell>
+                        <cell><m>~~9x~~</m></cell>></row>
+                    <row> 
+                        <cell><m>~~10x~~</m></cell>
+                        <cell><m>~~15~~</m></cell>></row>
+                    </tabular></sidebyside></statement></exercise>
+
+<exercise number="6"><statement><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~~8t^2~~</m></cell>
+                        <cell><m>~~-14t~~</m></cell>></row>
+                    <row> 
+                        <cell><m>~~-12t~~</m></cell>
+                        <cell><m>~~21~~</m></cell>></row>
+                    </tabular></sidebyside></statement></exercise>
+
+<exercise number="7"><statement><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~~12m^2~~</m></cell>
+                        <cell><m>~~-10m~~</m></cell>></row>
+                    <row> 
+                        <cell><m>~~30m~~</m></cell>
+                        <cell><m>~~-25~~</m></cell>></row>
+                    </tabular></sidebyside></statement></exercise>
+
+<exercise number="8"><statement><sidebyside><tabular top="minor" halign="center" right="minor" left="minor" bottom="minor">              
+                    <row bottom="minor">
+                        <cell><m>~~9a^2~~</m></cell>
+                        <cell><m>~~21a~~</m></cell>></row>
+                    <row> 
+                        <cell><m>~~-21a~~</m></cell>
+                        <cell><m>~~-49~~</m></cell>></row>
+                    </tabular></sidebyside></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-7-3">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+	<li><m>b+20</m></li>
+	<li><m>n+3</m></li>
+	<li><m>3u+1</m></li>
+	<li><m>2t-9</m></li>
+	<li><m>3x+5,~2x+3</m></li>
+	<li><m>2t-3,~4t-7</m></li>
+	<li><m>2m+5,~6m-5</m></li>
+	<li><m>3a-7,~3a+7</m></li>
+</ol></p></subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Quotients and the GCF</title>
+<exercises>
+
+<exercise><statement><p>Use the first second of exponents to find each quotient.<ol label="a" cols="3">
+	<li><m>\dfrac{x^6}{x^2}</m></li>
+	<li><m>\dfrac{b^2}{b^3}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Divide <m>~~\dfrac{8x^2y}{12x^5y^3}</m></p></statement></exercise>
+
+<exercise><statement><p>Find the greatest common factor for  <m>~~15x^2y^2-12xy+6xy^3</m></p></statement></exercise>
+
+<exercise><statement><p>Factor  <m>~~15x^2y^2-12xy+6xy^3</m></p></statement></exercise>
+
+<exercise><statement><p>Factor  <m>~~9(x^2+5)-x(x^2+5)</m></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Quadratic Trinomials</title>
+<exercises>
+
+<exercise><statement><p>Factor  <m>~3x^2+2x-5~</m> by the guess-and-check method.</p></statement></exercise>
+
+<exercise><statement><p><ol label="a">
+	<li>Compute the product <m>~(2x-5)(3x-4)~</m> using the area of a rectangle.</li>
+	<li>Verify that the products of the diagonal entries are equal.</li></ol></p></statement></exercise>
+
+<exercise><statement><p>Solve  <m>~2x^2=7x+15~</m></p>
+
+<p><m>\blert{\text{Write the equation in standard form.}}</m></p>
+
+<p><m>\blert{\text{Factor the left side.}}</m></p>
+
+<p><m>\blert{\text{Set each factor equal to zero.}}</m></p>
+
+<p><m>\blert{\text{Solve each equation.}}</m></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Factoring Completely</title>
+<exercises>
+
+<exercise><statement><p>Factor completely  <m>~4a^6-10a^5+6a^4</m></p></statement></exercise>
+
+<exercise><statement><p>Factor completely. <ol label="a">
+  <li><m>2a^3b-24a^2b^2-90ab^3</m></li>
+  <li><m>3x^2-8xy+4y^2</m></li></ol></p></statement></exercise>
+ </exercises>
+</subsubsection>
+
+<subsubsection><title><p><m>\blert{\text{(Optional Extension)}~~}</m> Activity 4: The Box Method</p></title>
+
+<p>Follow the steps to factor <m>~4x^2+4x-3</m>.</p>
+
+<sidebyside widths="70% 25%"><stack>
+<p><m>\blert{\text{Step 1}~~}</m> Enter the correct terms on the diagonal.</p>
+
+<p><m>\blert{\text{Step 2}~~}</m> Compute the diagonal product:
+	<me>D=</me></p></stack>
+<image source="images/hp-5-4-33.png"><description>boxes</description></image></sidebyside>
+
+<p><m>\blert{\text{Step 3}~~}</m> List all possible factors of <m>D</m>, and compute the sum of each pair of 
+factors. The factors must have opposite signs. (Complete each pair of factors below.)</p>
+<sidebyside><tabular> <col halign = "center"/> <col halign = "center"/>  <col halign = "center"/>          
+                    <row><cell>Factors of </cell>
+                        <cell><m>D=30x^2\hphantom{0000}</m></cell>
+                        <cell><m>\hphantom{0000}</m>Sum of Factors</cell></row>
+                    <row><cell><m>-x</m></cell>
+                        <cell><m><fillin characters="10"/></m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row><cell><m>-2x</m></cell>
+                        <cell><m><fillin characters="10"/></m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    <row><cell><m>-3x</m></cell>
+                        <cell><m><fillin characters="10"/></m></cell>
+                        <cell><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside>
+<p>The correct factors are:</p>
+
+<sidebyside widths="70% 25%"><stack>
+<p><m>\blert{\text{Step 4}~~}</m>Enter the correct factors into the rectangle.</p>
+
+<p><m>\blert{\text{Step 5}~~}</m>Factor the top row of the rectangle, and write the result at the top.  Finally, factor the bottom row, and write the result on the left. The correct factorization is
+	<me>4x^2+4x-3 =  \hphantom{0000}</me></p>
+</stack>
+<image source="images/hp-5-4-33.png"><description>boxes</description></image></sidebyside>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Factoring a quadratic trinomial <m>ax^2+bx+c</m> by guess-and-check</li>
+	<li>Factoring a quadratic trinomial in two variables</li>
+	<li>Factoring out a binomial common factor</li>
+	<li>Combining techniques to factor completely </li>
+	<li>(Optional) Factoring a quadratic trinomial <m>ax^2+bx+c</m> by the box method</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>When is the guess-and-check method easier to use than the box method?</li>
+	<li>In Activity 3, Problem 1, what is the common factor?</li>
+	<li>In Activity 3, Problem 3a, what is the common factor?</li>
+	<li>(Optional) When we use the box method, where do the factors of the trinomial appear?</li></ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+<exercise><statement><p>Factor <m>3z^2-2z-5</m> by the guess-and-check method.</p></statement></exercise>
+
+<exercise><statement><p>Factor completely.<ol label="a" cols="2">
+	<li><m>2a^3+10a^2-72a</m></li>
+	<li><m>6x^4+27x^3y-54x^2y^2</m></li></ol></p></statement></exercise>
+
+<exercisegroup cols="2"><introduction><p><m>\blert{\text{(Optional)}~~}</m> Factor using the box method.</p></introduction>
+
+<exercise><statement><m>2x^2-x-36</m></statement></exercise>
+
+<exercise><statement><m>4t^2-21t-18</m></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1">
+	<li><m>(3z-5)(z+1)</m></li>
+	<li><p><ol label="a">
+		<li><m>2a(a+9)(a-4)</m></li>
+		<li><m>3x^2(2x-3y)(x+6y)</m></li></ol></p></li>
+	<li><m>(2x-9)(x+4)</m></li>
+	<li><m>(4t+3)(t-6)</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-7-3.xml" />
 </section>		

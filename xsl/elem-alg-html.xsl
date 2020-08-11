@@ -1,7 +1,7 @@
 <!--  This file is part of the book                  -->
-<!--   Modeling, Functions, and Graphs   -->
+<!--   Elementary Algebra   -->
 <!--                                                 -->
-<!--  Copyright (C) 2016 Katherine Yoshiwara            -->
+<!--  Copyright (C) 2019 Katherine Yoshiwara            -->
 <!--
  Parts of this file were adapted from the author guide at https://github.com/rbeezer/mathbook and the analagous file at https://github.com/twjudson/aata 
 -->
@@ -9,7 +9,7 @@
 <!--
  Assumes current file is in elem-alg/xsl and that the mathbook repository is adjacent 
 -->
-<xsl:import href="../../mathbook/xsl/mathbook-html.xsl"/>
+<xsl:import href="../../mathbook/xsl/pretext-html.xsl"/>
 <!--
  Or make a thin customization layer and use 'select' to provide overrides 
 -->
@@ -34,6 +34,7 @@
 -->
 <xsl:param name="exercise.divisional.hint" select="'yes'" />
 <xsl:param name="exercise.divisional.answer" select="'no'" />
+<xsl:param name="exercise.worksheet.answer" select="'no'" />
 <xsl:param name="exercise.divisional.solution" select="'no'" />
 
 <!-- reading questions

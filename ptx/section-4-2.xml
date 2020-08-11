@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Systems-of-Linear-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Systems of Linear Equations</title>
+<section xml:id="Systems-of-Linear-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Systems of Linear Equations</title>
 
 <subsection><title>What is a System of Equations?</title>
+
 <p>In many applications it is useful to write two or more linear equations.</p>
 
 <example xml:id="Example-4-2-1"><statement><p>Delbert and Francine are buying appliances for their new home. They have a choice of two different refrigerators:  a standard model that sells for $1000, or an energy-efficient model at a price of $1200. The standard model costs $6 per month to run, and the energy-efficient model costs $2 per month. Write linear equations for the total cost of each refrigerator after <m>t</m> months.</p></statement>
@@ -20,7 +20,8 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
 		<mrow>y=2x+1200</mrow></md>
 </p></assemblage>
 
-<assemblage><p>A pair of linear equations with the same variables is called a <term>system of linear equations</term>.</p>
+<assemblage><title>System</title>
+    <p>A pair of linear equations with the same variables is called a <term>system of linear equations</term>.</p>
 </assemblage> 
 
 <p>In <xref ref="Example-4-2-1" text="type-global"/>, the standard refrigerator costs less initially, but costs more to run each month. Delbert and Francine want to know when the energy-efficient model will begin to pay for itself, or in other words, when the total cost of running the standard model will exceed the total cost of the energy-efficient model.</p>  
@@ -57,13 +58,12 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
 
 <p>In <xref ref="Example-4-2-2" text="type-global"/> we found an ordered pair, <m>(50,1300)</m>,that makes both equations true.</p>
 
-<assemblage><p>A <term>solution</term> to a system of equations is an ordered pair <m>(x,y)</m> that satisfies each equation in the system.</p></assemblage>
+<assemblage><title>Solution to a System</title>
+    <p>A <term>solution</term> to a system of equations is an ordered pair <m>(x,y)</m> that satisfies each equation in the system.</p></assemblage>
 
 <p>To check whether <m>(50,1300)</m> is really a solution of the system, we substitute the coordinates into each equation.
-      <me>\begin{aligned}
-            S \amp = 6t+1000 \amp\amp \text{Does}~~~ \alert{1300} = 6(\alert{50})+1000?~~~~~~\blert{\text{True}}\\
-            E \amp = 2t+1000 \amp\amp \text{Does}~~~\alert{1300} = 2(\alert{50})+1200?~~~~~~\blert{\text{True}}            
-        \end{aligned}</me>
+      <md><mrow>S \amp = 6t+1000 \amp\amp \text{Does}~~~\alert{1300} = 6(\alert{50})+1000?~~~~~~\blert{\text{True}}</mrow>
+          <mrow>E \amp = 2t+1000 \amp\amp \text{Does}~~~\alert{1300} = 2(\alert{50})+1200?~~~~~~\blert{\text{True}}</mrow></md>            
 We have verified that the ordered pair <m>(50,1300)</m> is a solution to the system in <xref ref="Example-4-2-1" text="type-global"/>.</p>  
 
 <reading-questions>
@@ -77,15 +77,14 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 </subsection>
 
 <subsection><title>Solving a System of Equations by Graphing</title>
+
 <p>The solution of a system satisfies both equations in the system, so the point that represents the solution must lie on both graphs. It is the intersection point of the two lines described by the system. Thus, we can solve a system of equations by graphing the equations and looking for the point (or points) where the graphs intersect.</p>
 
 <example xml:id="Example-4-2-3"><statement><p>Solve the system in <xref ref="Example-4-2-1" text="type-global"/> by graphing.</p></statement>
 
 <solution><p>The graph of the two equations is shown below. The graph of <m>S</m> has a smaller initial value than <m>E</m>, but it increases more rapidly because its slope is greater. The two graphs intersect at the point labeled <m>P</m>.</p>  
 	<sidebyside width="35%"><!--<image source="images/fig-4-2-ex3.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-2-ex3">
-        <description>graph of two lines</description>
-        <latex-image>
+    <image xml:id="fig-4-2-ex3"><description>graph of two lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -104,10 +103,7 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
         \draw[red, ultra thick, ->,>=stealth'] (0,4)--(10,16) node[right, text=black]{$ S $};
         \draw[red, ultra thick, ->,>=stealth'] (0,8)--(10,12) node[right, text=black]{$ E $};
         \filldraw[red!80!black] (5,10) circle (2mm) node[below right, yshift=-3, text=black, fill=white, inner sep=1] {$P$};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 <p>At this point the values of <m>S</m> and <m>E</m> are the same, approximately 1300. The <m>t</m>-coordinate of point  is 50, so the solution of the system is <m>(50,1300)</m>. The total cost of each model is about $1300 over the first 50 months of operation.</p></solution></example>
 
 <p>After 50 months, the total cost of the energy-efficient model will be less than the cost of the standard model.</p>
@@ -128,9 +124,7 @@ and the HomeLife policy costs
         <me>H=\dfrac{408}{6}t=68t</me>
 because a semiannual premium covers 6 months. The solution of the system represents the time when the costs of the two policies are equal. The graphs of the two equations are shown below.</p> 
     <sidebyside width="40%"><!--<image source="images/fig-4-2-ex4.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-2-ex4">
-        <description>parallel lines</description>
-        <latex-image>
+    <image xml:id="fig-4-2-ex4"><description>parallel lines</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -148,15 +142,11 @@ because a semiannual premium covers 6 months. The solution of the system represe
         \draw[black, very thick,->,>=stealth'] (0,0)--(0,11.5) node[left]{$ \$ $};
         \draw[red, thick, ->,>=stealth'] (0,.5)--(12,{(50+68*12)/100}) node[above right]{$ C $};
         \draw[blue, thick, ->,>=stealth'] (0,0)--(12,{68*12/100}) node[below right]{$ H $};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>As you can see, the two lines are parallel, so the graphs do not intersect. This system has no solution. There is no point where the two policies cost the same amount; the HomeLife policy is always less expensive.</p></solution></example>
 
 <p>In <xref ref="Example-4-2-4" text="type-global"/>, the two graphs never intersect, so the system has no solution. Such a system is called <term>inconsistent</term>. There is a third possibility:  Both equations may have the same graph.</p>   
-
 <example xml:id="Example-4-2-5"><statement><p>Solve the system
 		<md><mrow>y=2x+2</mrow>
 				<mrow>6x-3y=-6</mrow></md></p></statement>
@@ -165,9 +155,7 @@ because a semiannual premium covers 6 months. The solution of the system represe
 	<me>b=2~~~~~~\text{and}~~~~~~m = \dfrac{\Delta y}{\Delta x} = \dfrac{2}{1}</me>
 Its graph is shown below.</p> 
 	<sidebyside width="35%"><!--<image source="images/fig-4-2-ex5.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-2-ex5">
-        <description>graph of line</description>
-        <latex-image>
+    <image xml:id="fig-4-2-ex5"><description>graph of line</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -182,27 +170,20 @@ Its graph is shown below.</p>
          \draw[black] (.15,\x) --++(-.3,0) node[left, xshift=-2, fill=white, inner sep=1]   {$\x$};
         }
         \draw[red, very thick,<->, >=stealth'] (-3.5,-5)--(3/2,5);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <p>The second equation, which has the form <m>Ax+By=C</m>, is easier to graph by the intercept method. You can verify that its intercepts are <m>(0,2)</m> and <m>(-1,0)</m>. The graph of the second line is identical to the first graph.</p>
 <p> Every solution to the first equation is also a solution to the second equation, so every point on the line is a solution of the system as well. The system has infinitely many solutions.</p></solution></example>
 
 <p>We can verify that the two equations in <xref ref="Example-4-2-5" text="type-global"/> are actually equivalent by solving the second equation for <m>y</m> in terms of <m>x</m>.
-	<me>\begin{aligned}
-            6x-3y \amp = -6 \amp\amp \blert{\text{Add}~3y~\text{and 6 to both sides.}} \\
-            6x+6 \amp = 3y \amp\amp \blert{\text{Divide both sides by 3.}}\\
-            2x+2 \amp = y            
-        \end{aligned}</me>
+	<md><mrow>6x-3y \amp = -6 \amp\amp \blert{\text{Add}~3y~\text{and 6 to both sides.}}</mrow>
+        <mrow>6x+6 \amp = 3y \amp\amp \blert{\text{Divide both sides by 3.}}</mrow>
+        <mrow>2x+2 \amp = y</mrow></md>            
 The second equation is the same as the first equation. A system in which the two equations are equivalent is called <term>dependent</term>. A dependent system has infinitely many solutions: Every point on the graph is a solution to the system.</p>
 
 <p>We have now seen three types of systems. These are illustrated in the figure below. Most of the systems we will study have exactly one solution. Such systems are called <term>consistent and independent</term><idx>consistent and independent</idx>.</p>
     <sidebyside width="100%"><!--<image source="images/fig-4-2-1.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-2-1">
-        <description>three types of systems</description>
-        <latex-image>
+    <image xml:id="fig-4-2-1"><description>three types of systems</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -246,10 +227,7 @@ The second equation is the same as the first equation. A system in which the two
         }
         \draw[red, very thick,<->, >=stealth'] ({\delx-4},5)--({\delx+5},-1);
         \node[text=blue, align=center] at (\delx,-6.75) {Dependent;\\infinitely many solutions};
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <assemblage><p><ol label="1">
 	<li><term>Consistent and independent system.</term> The graphs of the two lines intersect in exactly one point. The system has exactly one solution.</li>  
@@ -266,6 +244,7 @@ The second equation is the same as the first equation. A system in which the two
 </subsection>
 
 <subsection><title>Problem Solving with Systems</title>
+
 <p>Many practical problems involve two or more unknown quantities. Often it is easier to solve these problems by using two variables and writing a system of equations.</p>
 
 <example><statement><p>Allen has been asked to design a rectangular Plexiglas plate whose perimeter is 28 inches and whose length is three times its width. What should the dimensions of the plate be?</p></statement>
@@ -295,9 +274,7 @@ We also know that the length is three times the width, or <m>y=3x</m>. These two
         <me>b=0 ~~~~~~~~ m = \dfrac{\Delta y}{\Delta x} = \dfrac{3}{1}</me>
 Their graphs are shown below. 
     <sidebyside width="40%"><!--<image source="images/fig-4-2-ex6.png"><description>graph</description></image>-->
-    <image xml:id="fig-4-2-ex6">
-        <description>graph of system</description>
-        <latex-image>
+    <image xml:id="fig-4-2-ex6"><description>graph of system</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
         <![CDATA[\tikzset{%
         }
@@ -313,10 +290,7 @@ Their graphs are shown below.
         \draw[black, very thick,->,>=stealth'] (0,-5)--(0,16.6) node[left]{$y$};
         \draw[blue!80!black, thick, <->,>=stealth'] (-1,15)--(15,-1);
         \draw[red!80!black, thick, <->,>=stealth'] (-5/3,-5)--(5,15);
-        \end{tikzpicture}]]>
-    </latex-image>
-    </image>
-    </sidebyside>
+        \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>x=3.5</m> and <m>y=10.5</m> are a solution to the system by checking that these values make both equations true.</p> 
 <p>Step 4 The width of the plate should be 3.5 inches and its length should be 10.5 inches.</p></p></solution></example>
@@ -331,28 +305,189 @@ The graphs intersect at approximately <m>(3.5,10.5)</m>. You can verify that <m>
 <exercises>
 <exercisegroup><introduction><p>Write algebraic expressions to answer the questions.</p></introduction>
 
-<exercise number="1"><statement><p>How much interest is earned after 2 years on <m>d+50</m> dollars at 6% annual interest rate?</p></statement>
-<answer><m>0.12(d+50)</m></answer></exercise>
+<exercise number="1"><statement><p>How much interest is earned after 2 years on <m>d+50</m> dollars at 6% annual interest rate?</p></statement></exercise>
 
-<exercise number="2"><statement><p>How much manganese is there in <m>8-z</m> grams of an alloy that is 35% manganese?</p></statement>
-<answer><m>0.35(8-z)</m></answer></exercise>
+<exercise number="2"><statement><p>How much manganese is there in <m>8-z</m> grams of an alloy that is 35% manganese?</p></statement></exercise>
 
-<exercise number="3"><statement><p>How far will a boat travel in 2 hours at a speed of <m>r+3</m> miles per hour?</p></statement>
-<answer><m>2(r+3)</m></answer></exercise>
+<exercise number="3"><statement><p>How far will a boat travel in 2 hours at a speed of <m>r+3</m> miles per hour?</p></statement></exercise>
 
-<exercise number="4"><statement><p>How far will a train moving at 40 miles per hour travel in <m>3+x</m> hours?</p></statement>
-<answer><m>40(3+x)</m></answer></exercise>
+<exercise number="4"><statement><p>How far will a train moving at 40 miles per hour travel in <m>3+x</m> hours?</p></statement></exercise>
 
-<exercise number="5"><statement><p>A small plane has a top airspeed of <m>v</m> miles per hour.  How far can the plane travel in 5 hours against a headwind of 15 miles per hour?</p></statement>
-<answer><m>5(v-15)</m></answer></exercise>
+<exercise number="5"><statement><p>A small plane has a top airspeed of <m>v</m> miles per hour.  How far can the plane travel in 5 hours against a headwind of 15 miles per hour?</p></statement></exercise>
 
-<exercise number="6"><statement><p>A fishing boat has a top speed in still water of 26 miles per hour.  How far can the boat travel downstream in 3 hours if the speed of the current is <m>w</m> miles per hour?</p></statement>
-<answer><m>3(26+w)</m></answer></exercise>
+<exercise number="6"><statement><p>A fishing boat has a top speed in still water of 26 miles per hour.  How far can the boat travel downstream in 3 hours if the speed of the current is <m>w</m> miles per hour?</p></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-4-2">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title>
+<p><ol label="1" cols="2">
+    <li><m>0.12(d+50)</m></li>
+    <li><m>0.35(8-z)</m></li>
+    <li><m>2(r+3)</m></li>
+    <li><m>40(3+x)</m></li>
+    <li><m>5(v-15)</m></li>
+    <li><m>3(26+w)</m></li></ol></p>
+</subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Solving Systems by Graphing</title>
+
+<p>A biologist wants to know the average weights of two species of birds in a wildlife preserve. She sets up a feeder whose platform is actually a scale, and mounts a camera to monitor the feeder. She waits until the feeder is occupied only by members of the two species she is studying, robins and thrushes. Then she takes a picture, which records the number of each species on the scale, and the total weight registered.</p>  
+
+<p>From her two best pictures, she obtains the following information. <ul>
+    <li>The total weight of three thrushes and six robins is 48 ounces, and</li>
+    <li>The total weight of five thrushes and two robins is 32 ounces.</li></ul></p> 
+<p><ol label="a">
+    <li><p>Begin by assigning variables to the two unknown quantities:
+        <md><mrow>\blert{\text{Average weight of a thrush:}~~t}</mrow>
+            <mrow>\blert{\text{Average weight of a robin:}~~r}</mrow></md></p>
+    <p>Write two equations about the weights of the birds: 
+        <md><mrow>\amp~~~~\blert{\text{(weight of thrushes)}}~+~\blert{\text{(weight of robins)}}~=~\blert{\text{total weight}}</mrow>
+        <mrow>(1)\amp</mrow>
+        <mrow>(2)\amp</mrow></md></p></li>
+    <li><sidebyside widths="50% 50%"><stack><p>Use the intercept method to graph each equation on the grid at right.</p>
+        <p>Equation (1):  <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+                    <row>
+                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>r</m></cell> 
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>0</m></cell></row>
+                    </tabular></sidebyside></p>
+        <p>Equation (2):  <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">             
+                    <row>
+                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>r</m></cell> 
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>0</m></cell></row>
+                    </tabular></sidebyside></p></stack>
+    <image source="images/act-4-2-1.png"><description>graph</description></image></sidebyside></li>
+    <li><p>Locate the point where the two graphs intersect.  What are its coordinates?</p>
+        <p>Answer the question posed by the biologist.</p></li></ol></p>
+</subsubsection>
+ 
+<subsubsection><title>Activity 2: Problem Solving</title>
+
+<p>The manager for Books for Cooks plans to spend $300 stocking a new diet cookbook. The paperback version costs her $5, and the hardback costs $10. She finds that she will sell three times as many paperbacks as hardbacks. How many of each should she buy?</p>
+<p>Let <m>x</m> represent the number of hardbacks and <m>y</m> the number of paperbacks she should buy.</p>
+<sidebyside widths="55% 40%"><p><ol label="a">
+    <li>Write an equation about the cost of the books.</li>
+    <li>Write a second equation about the number of each type of book.</li>
+    <li>Graph both equations on the grid and solve the system. Then answer the question in the problem.</li></ol></p> 
+    <image source="images/act-4-2-2.png"><description>graph</description></image></sidebyside>
+</subsubsection>
+
+<subsubsection><title>Activity 3: Inconsistent and Dependent Systems</title>
+
+<p>Robert and Ruth are moving from Los Angeles to Baltimore. Robert is driving a rental truck at an average speed of 50 miles per hour. Ruth leaves one day later in their car, and averages 65 miles per hour. When Ruth set out, Robert had already traveled 300 miles. When will Ruth catch up with Robert?</p>
+
+<exercises>
+<exercise><statement><p>Let <m>t</m> stand for the number of hours that Ruth has traveled. When she catches up with Robert, they will both have traveled the same distance, so we begin by writing equations for the distance, <m>d</m>, each has traveled after <m>t</m> hours.<ol label="a">  
+    <li>Ruth travels at 65 miles per hour, so an equation for the distance she has traveled is
+        <me>\blert{\text{Ruth's distance:}}~~~d = </me></li>                              
+    <li>Robert's speed is 50 miles per hour, but he has already traveled 300 miles when Ruth starts, so his distance is given by
+        <me>\blert{\text{Robert's distance:}}~~~d = </me></li>                          
+    <li>Together, the two equations form a system:</li></ol></p></statement></exercise>
+
+<exercise><statement><p>Next, we graph both equations on the same axes.</p>
+    <sidebyside widths="50% 50%"><p><ol label="a">
+    <li><p>To graph the equation for Ruth's distance, plot a few points.
+    <sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">           
+                    <row>
+                        <cell bottom="minor"><m>t</m></cell>
+                        <cell bottom="minor"><m>0</m></cell>
+                        <cell bottom="minor"><m>10</m></cell>
+                        <cell bottom="minor"><m>20</m></cell></row>
+                    <row>
+                        <cell bottom="minor"><m>d</m></cell> 
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell>
+                        <cell bottom="minor"><m>\hphantom{0000}</m></cell></row>
+                    </tabular></sidebyside></p></li>
+    <li>To graph the equation for Robert's distance, use the vertical intercept and the slope.</li>
+    <li>Locate the point where the two graphs intersect. What are its coordinates?</li></ol></p>
+    <image source="images/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><p>Finally, we interpret the solution.<ol label="a">
+    <li>What does the <m>t</m>-coordinate of the intersection point tell you about the problem?</li>
+    <li>What does the <m>d</m>-coordinate of the point tell you?</li>
+    <li>Verify that the intersection point is a solution of both equations in the system.</li></ol></p></statement>
+</exercise>
+
+<exercise><statement><sidebyside widths="50% 50%"><p>Now let's change the problem and suppose instead that Ruth and Robert both drive at an average speed of 50 miles per hour.<ol label="a">  
+    <li><p>Write a system of equations for this problem:</p>        
+        <p>Robert:  <m>~~~d=</m></p>       
+        <p>Ruth:    <m>~~~~d=</m></p></li>                                      
+    <li>Graph the equations on the grid.</li>  
+    <li>What is the solution of this system? What is this type of system called?</li></ol></p>
+    <image source="images/act-4-2-3.png"><description>graph</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><sidebyside widths="50% 45%" valigns="middle middle"><p><ol label="a">
+    <li><p>Graph the system of equations.
+        <md><mrow>3x \amp = 2y+6</mrow>
+            <mrow>y \amp = \dfrac{3}{2}x-3</mrow></md>      
+    Hint:  Use the intercept method to graph the first equation, and the slope-intercept method to graph the second equation.</p></li>
+    <li>Is the system inconsistent or dependent?</li></ol></p>
+    <image source="images/grid8k.bmp"><description>grid</description></image></sidebyside></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Deciding whether an ordered pair is a solution of a system</li>
+    <li>Solving a system of equations by graphing</li>
+    <li>Identifing a system as consistent, inconsistent, or dependent</li>
+    <li>Writing a system of equations to solve an applied problem</li>
+</ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>In Activity 1, how far has Robert traveled at <m>t=0</m>?</li>
+    <li>In Activity 2, Problem 1, explain why it makes sense that the system has no solution.</li>
+    <li>In Activity 3, which equation is correct: <m>x=3y</m> or  <m>y=3x</m>?  Why?</li>
+    <li>In Activity 3, how much did the manager spend on hardback books?  How much on paperback books?</li>
+</ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+
+<exercises>
+<exercise><statement><p>Is <m>(-3,5)</m> a solution of the system?
+    <md><mrow>2x+3y \amp = 9</mrow>
+        <mrow>2x-y \amp = 1</mrow></md>
+Explain how you know.</p></statement></exercise>
+
+<exercise><statement><sidebyside widths="50% 45%" valigns="middle middle"><p>Solve the system by graphing.
+    <md><mrow>y = \dfrac{2}{3}x - 4</mrow>
+        <mrow>2x-3y=12</mrow></md>
+Hint:  Graph the first equation by the slope-intercept method, and the second equation by the intercept method.</p>
+    <image source="images/cr2-44.png"><description>grid</description></image></sidebyside></statement></exercise>
+
+<exercise><statement><p>Write a system of equations for the problem:</p>
+    <p>Kathy has two cats, Miso and Nori. Together they weigh 18 pounds. Miso's weight is 3 pounds more than half of Nori's weight. How much does each cat weigh?</p></statement></exercise>
+
+<exercise><statement><p>Decide whether the system is inconsistent or dependent.
+    <md><mrow>6x-4y \amp = 8</mrow>
+        <mrow>x \amp = \dfrac{2}{3}y+2</mrow></md></p></statement></exercise>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title><p> <ol label = "1" cols="2">
+    <li>No</li>
+    <li><m>(3,-2)</m></li>
+    <li><md><mrow>x \amp +y  = 18</mrow>
+        <mrow>y \amp = \dfrac{1}{2}x+3</mrow></md></li>
+    <li>Inconsistent</li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-4-2.xml" />
 </section>

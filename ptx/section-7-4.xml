@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Special-Products-and-Factors" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Special Products and Factors</title>
+<section xml:id="Special-Products-and-Factors" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Special Products and Factors</title>
 
 <subsection><title>Squares of Monomials</title>
+
 <p>A few special binomial products occur so frequently that it is useful to recognize their forms. This will enable you to write their factored forms directly, without trial and error. To prepare for these special products, we first consider the squares of monomials.</p>
 
 <p>Study the squares of monomials in <xref ref="Example-7-4-1" text="type-global"/>. Do you see a quick way to find the product?</p>
@@ -27,6 +27,7 @@
 </subsection>
 
 <subsection><title>Squares of Binomials</title>
+
 <p>You can use the distributive law to verify each of the following special products.
 
 <md><mrow>(a+b)^2 \amp =(a+b)(a+b) \amp \amp \amp (a-b)^2 \amp =(a-b)(a-b)</mrow>
@@ -67,6 +68,7 @@ We must use the distributive law to multiply the binomial times itself.</p></war
 </subsection>
 
 <subsection><title>Difference of Two Squares</title>
+
 <p>Now consider the product
 	<me>(a+b)(a-b) = a^2 - ab + ab - b^2</me>
 In this product, the two middle terms cancel each other, and we are left with a difference of two squares.</p>
@@ -90,6 +92,7 @@ In this product, the two middle terms cancel each other, and we are left with a 
 </subsection>
 
 <subsection><title>Factoring Special Products</title>
+
 <p>The three special products we have just studied are useful as patterns for factoring certain polynomials. For factoring, we view the formulas from right to left.</p>
 
 <assemblage><title>Special Factorizations</title>
@@ -142,32 +145,116 @@ Thus,
 </reading-questions>
 </subsection>
 
-<subsection xml:id="Skills-Warm-Up-7-4"><title>Skills Warm-Up</title>
+<subsection><title>Skills Warm-Up</title>
 <exercises>
 <exercisegroup cols="3"><introduction><p>Express each product as a polynomial.</p></introduction>
 
-<exercise number="1"><statement><m>(z-3)^2</m></statement>
-<answer><m>z^2-6z+9</m></answer></exercise>
+<exercise number="1"><statement><m>(z-3)^2</m></statement></exercise>
 
-<exercise number="2"><statement><m>(x+4)^2</m></statement>
-<answer><m>x^2+8x+16</m></answer></exercise>
+<exercise number="2"><statement><m>(x+4)^2</m></statement></exercise>
 
-<exercise number="3"><statement><m>(3a+5)^2</m></statement>
-<answer><m>9a^2+30a+25</m></answer></exercise>
+<exercise number="3"><statement><m>(3a+5)^2</m></statement></exercise>
 
-<exercise number="4"><statement><m>(2b-7)^2</m></statement>
-<answer><m>4b^2-28b+49</m></answer></exercise>
+<exercise number="4"><statement><m>(2b-7)^2</m></statement></exercise>
 
-<exercise number="5"><statement><m>(2n-5)(2n+5)</m></statement>
-<answer><m>4n^2-25</m></answer></exercise>
+<exercise number="5"><statement><m>(2n-5)(2n+5)</m></statement></exercise>
 
-<exercise number="6"><statement><m>(4m+9)(4m-9)</m></statement>
-<answer><m>16m^2-81</m></answer></exercise>
+<exercise number="6"><statement><m>(4m+9)(4m-9)</m></statement></exercise>
 </exercisegroup>
 </exercises>
-<solutions inline="hint solution answer" divisional="hint solution answer" project="hint solution answer"  scope="Skills-Warm-Up-7-4">
-    <title>Answers to Skills Warm-Up</title>
-</solutions>
+
+<subsubsection><title>Answers to Skills Warm-Up</title><p><ol label="1" cols="2">
+	<li><m>z^2-6z+9</m></li>
+	<li><m>x^2+8x+16</m></li>
+	<li><m>9a^2+30a+25</m></li>
+	<li><m>4b^2-28b+49</m></li>
+	<li><m>4n^2-25</m></li>
+	<li><m>16m^2-81</m></li></ol></p></subsubsection>
 </subsection>
+
+<subsection><title>Lesson</title>
+
+<subsubsection><title>Activity 1: Special Products</title>
+<exercises>
+
+<exercise><statement><p>Simplify each square.  <ol label="a" cols="2">
+	<li><m>(-6h^6)^2</m></li>
+	<li><m>(12st^8)^2</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Find a monomial whose square is given. <ol label="a" cols="2">
+	<li><m>64b^6</m></li>
+	<li><m>169a^4b^{16}</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Use a formula to expand each product. <ol label="a">
+	<li><m>(4-3t)^2</m></li>
+	<li><m>(6s+2t)^2</m></li>
+	<li><m>(5x^4+4)(5x^4-4)</m></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Activity 2: Special Factorizations</title>
+<exercises>
+
+<exercise><statement><p>Use one of the three formulas to factor each polynomial.<ol label="a">
+	<li><m>25y^2-w^2</m></li>
+	<li><m>m^6-18m^3+81</m></li>
+	<li><m>4h^2+36hk+81k^2</m></li></ol></p></statement></exercise>
+
+<exercise><statement><p>Factor completely.<ol label="a">
+	<li><m>x^6-16x^2</m></li>
+	<li><m>3b^9+18b^6+27b^3</m></li>
+	<li><m>2x^5y-20x^3y^3+50xy^3</m></li></ol></p></statement></exercise>
+</exercises>
+</subsubsection>
+
+<subsubsection><title>Wrap-Up</title>
+
+<assemblage><title>Objectives</title>
+<p>In this Lesson we practiced the following skills:<ul>
+    <li>Identifying squares of monomials</li>
+	<li>Using the fromulas for squares of binomials and difference of squares</li>
+	<li>Factoring squares of binomials and difference of squares</li>
+	<li>Knowing that the sum of squares cannot be factored</li></ul></p></assemblage>
+
+<assemblage><title>Questions</title>   
+<p><ol label="1">
+    <li>Explain the difference between squaring <m>3b^3</m> and squaring <m>3+b^3</m>.</li>
+	<li>How can you check whether a trinomial might be the square of a binomial?</li>
+	<li>Explain why we can factor the difference of two squares, but we cannot factor the sum of two squares.</li>
+</ol></p></assemblage>
+</subsubsection>
+</subsection>
+
+<subsection><title>Homework Preview</title>
+<exercises>
+<exercisegroup><introduction><p>Expand each product.</p></introduction>
+
+<exercise><statement><p><m>(4a-5b)^2</m></p></statement></exercise>
+
+<exercise><statement><p><m>(4a+5b)^2</m></p></statement></exercise>
+
+<exercise><statement><p><m>(4a+5b)(4a-5b)</m></p></statement></exercise>
+</exercisegroup>
+
+<exercisegroup><introduction><p>Factor.</p></introduction>
+
+<exercise><statement><p><m>36x^2+96x+64</m></p></statement></exercise>
+
+<exercise><statement><p><m>36x^2-96x+64</m></p></statement></exercise>
+
+<exercise><statement><p><m>36x^2-64</m></p></statement></exercise>
+</exercisegroup>
+</exercises>
+
+<subsubsection><title>Answers to Homework Preview</title>
+<p><ol label = "1" cols="2">
+	<li><m>16a^2-40ab+25b^2</m></li>
+	<li><m>16a^2+40ab+25b^2</m></li>
+	<li><m>16a^2-25b^2</m></li>
+	<li><m>4(3x+4)^2</m></li>
+	<li><m>4(3x-4)^2</m></li>
+	<li><m>4(3x+4)(3x-4)</m></li></ol></p></subsubsection>
+</subsection>
+
 <xi:include href="./hmwk-7-4.xml" />
 </section> 
