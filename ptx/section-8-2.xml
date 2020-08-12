@@ -3,11 +3,12 @@
 
 <section xml:id="Operations-on--Fractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Operations on Fractions</title>
 
-<subsection><title>Products of Fractions</title>
+<subsection><title>Products of Fractions</title><idx><h>products</h><h>of fractions</h></idx><idx><h>multiplying</h><h>fractions</h></idx><idx><h>fractions</h><h>multiplication or products of</h></idx>
 
 <p>	To multiply two fractions together, we multiply their numerators together and then multiply their denominators together.</p>
 
 <assemblage><title>Product of Fractions</title>
+<idx><h>products</h><h>of fractions</h></idx><idx><h>multiplying</h><h>fractions</h></idx><idx><h>fractions</h><h>multiplication or products of</h></idx>
 	<p>If <m>~b \not= 0~</m> and <m>~d \not= 0~</m>, then
 		<me>\blert{\dfrac{a}{b} \cdot \dfrac{c}{d} = \dfrac{ac}{bd}}</me></p></assemblage>
 
@@ -79,7 +80,9 @@ We get the same answer with either method.</p></solution></example>
 <assemblage><title>Look Closer</title>
 <p>When we multiply algebraic fractions, it is usually easier to cancel common factors before multiplying.  Otherwise, it may be very difficult to reduce the result!</p></assemblage>
 
-<assemblage><title>To Multiply Algebraic Fractions</title><p><ol label="1">
+<assemblage><title>To Multiply Algebraic Fractions</title>
+<idx><h>products</h><h>of fractions</h></idx><idx><h>multiplying</h><h>fractions</h></idx><idx><h>fractions</h><h>multiplication or products of</h></idx>
+<p><ol label="1">
 	<li>Factor each numerator and denominator completely.</li>
 	<li>If any factor appears in both a numerator and a denominator, divide out that factor.</li>
 	<li>Multiply the remaining factors of the numerator and the remaining factors of the denominator.</li>
@@ -107,11 +110,13 @@ We get the same answer with either method.</p></solution></example>
 </subsection>
 
 <subsection><title>Quotients of Fractions</title>
+<idx><h>quotients</h><h>of fractions</h></idx><idx><h>division</h><h>of fractions</h></idx><idx><h>fractions</h><h>dividing</h></idx><idx><h>fractions</h><h>quotients of</h></idx>
 
 <p>To divide one fraction by another, we multiply the first fraction by the reciprocal of the second fraction.  For example,
 	<me>\dfrac{m}{2} \blert{\div \dfrac{2p}{3}} = \dfrac{m}{2} \blert{\cdot \dfrac{3}{2p}} = \dfrac{3m}{4p}</me></p>
 
 <assemblage><title>Quotient of Fractions</title>
+<idx><h>quotients</h><h>of fractions</h></idx><idx><h>division</h><h>of fractions</h></idx><idx><h>fractions</h><h>dividing</h></idx><idx><h>fractions</h><h>quotients of</h></idx>
 <p>	If <m>b,~c,~,d \not= 0</m>,  then
 	<me>\dfrac{a}{b} \div \dfrac{c}{d} = \dfrac{a}{b} \cdot \dfrac{d}{c}</me></p></assemblage>
 
@@ -155,7 +160,9 @@ We get the same answer with either method.</p></solution></example>
 
 <p>To divide two algebraic fractions, we take the reciprocal of the divisor and then follow the rules for multiplying algebraic fractions.</p>
 
-<assemblage><title>To Divide One Fraction by Another</title><p><ol label="1">
+<assemblage><title>To Divide One Fraction by Another</title>
+<idx><h>quotients</h><h>of fractions</h></idx><idx><h>division</h><h>of fractions</h></idx><idx><h>fractions</h><h>dividing</h></idx><idx><h>fractions</h><h>quotients of</h></idx>
+<p><ol label="1">
 	<li>Take the reciprocal of the second fraction and change the division to multiplication.</li>
 	<li>Follow the rules for multiplication of fractions.</li></ol></p></assemblage>
 
@@ -177,9 +184,11 @@ Now, we follow the rules for multiplication. We begin by factoring each numerato
 		<mrow> \amp = \dfrac{\cancel{\blert{3}}}{2} \cdot \dfrac{1}{2 \cdot \cancel{\blert{3}}a}=\dfrac{1}{4a}</mrow></md></p>
 </subsection>
 
-<subsection><title>Adding Like Fractions</title>
+<subsection><title>Adding Like addition</title><idx><h>addition</h><h>of fractions</h></idx><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h></idx>
 
-<assemblage><p>Fractions with the same denominator are called <term>like fractions</term>.</p></assemblage>
+<assemblage>
+	<idx><h>addition</h><h>of fractions</h></idx><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h></idx>
+	<p>Fractions with the same denominator are called <term>like fractions</term>.</p></assemblage>
 
 <p>Here are some examples of like fractions:
 	<me>\dfrac{5}{8} ~~\text{and}~~\dfrac{9}{8},~~~~~~~\dfrac{4}{5x} ~~\text{and}~~\dfrac{3}{5x},~~~~~~~\dfrac{1}{a-2} ~~\text{and}~~\dfrac{a}{a-2}</me>
@@ -203,6 +212,7 @@ becuase <m>3x</m> and <m>4x</m> are like terms. Similarly, we can think of the s
 <assemblage><p>When we add like fractions, we add their numerators and keep the denominator the same.</p></assemblage>
 
 <assemblage><title>Sum or Difference of Like Fractions</title>
+<idx><h>addition</h><h>of fractions</h></idx><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h></idx>
 <p>If <m>c \not= 0</m>,  then    
 	<me>\blert{\dfrac{a}{c}+\dfrac{b}{c}= \dfrac{a+b}{c}}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{c}-\dfrac{b}{c}= \dfrac{a-b}{c}}</me></p></assemblage>
 
@@ -224,7 +234,7 @@ becuase <m>3x</m> and <m>4x</m> are like terms. Similarly, we can think of the s
 </reading-questions>
 </subsection>
 
-<subsection><title>Subtracting Like Fractions</title>
+<subsection><title>Subtracting Like Fractions</title><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h></idx>
 
 <p>We must be careful when subtracting algebraic fractions: A subtraction sign in front of a fraction applies to the entire numerator.</p>
 
@@ -244,7 +254,8 @@ We should always check to see whether the fraction can be reduced. Factor the nu
 	<me>\dfrac{x-3}{x-1} - \dfrac{3x-5}{x-1} = \dfrac{x-3-3x-5}{x-1}~~~~~~\alert{\text{Incorrect!}}</me>
 We must change the sign of each term of the second numerator, to get <m>-3x+5</m>.</p></warning>
 
-<assemblage><title>To Add or Subtract Like Fractions</title><p><ol label="1">
+<assemblage><title>To Add or Subtract Like Fractions</title>
+<idx><h>addition</h><h>of fractions</h></idx><idx><h>subtraction</h><h>of fractions</h></idx><idx><h>fractions</h><h>adding and subtracting</h></idx><p><ol label="1">
 	<li>Add or subtract the numerators.</li>
 	<li>Keep the same denominator.</li>
 	<li>Reduce the sum or difference if necessary.</li></ol></p></assemblage>
@@ -255,7 +266,7 @@ We must change the sign of each term of the second numerator, to get <m>-3x+5</m
 </reading-questions>
 </subsection>
 
-<subsection><title>Polynomial Division</title>
+<subsection><title>Polynomial Division</title><idx><h>division</h><h>of polynomials</h></idx><idx><h>polynomial division</h></idx>
 
 <p>Not every fraction can be reduced. Consider three improper fractions: 
 	<me>\dfrac{8}{6},~~~~ \dfrac{8}{4},~~~\text{and} ~~~\dfrac{8}{3}</me> 

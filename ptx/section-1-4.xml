@@ -2,10 +2,12 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Solving-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Solving Equations</title>
+<idx><h>equation</h><h>solution of</h></idx>
 
 <subsection><title>What is an Equation?</title>
 
 <assemblage><title>Equation</title>
+<idx><h>equation</h></idx>
 <p>An <term>equation</term> is a statement that two expressions are equal. It may involve one or more variables.</p></assemblage>
 
 <example xml:id="Example-1-4-1"><statement><p>Liz makes $6 an hour as a tutor in the Math Lab. Her weekly earnings, <m>w</m>, depend on the number of hours she works, <m>h</m>. The equation relating these two variables is
@@ -19,10 +21,13 @@ Liz makes $42 for 7 hours of work. </p></statement></example>
 Now we have an equation in just one variable. We would like to find the value of <m>h</m> that makes this equation true.</p>
 
 <assemblage><title>Solution of Equation</title>
+<idx><h>equation</h><h>solution of</h></idx><idx><h>solution</h><h>of equation</h></idx>
+<idx><h>solving an equation</h></idx><idx><h>solving an equation</h><seealso><h>equation</h></seealso></idx>
     <p>A value of the variable that makes an equation true is called a <term>solution</term> of the equation, and the process of finding this value is called <term>solving</term> the equation.</p></assemblage>
 </subsection>
 
 <subsection><title>Trial and Error</title>
+<idx><h>trial and error</h></idx>
 <p>Some equations are easy enough to solve by trial and error. You can probably see that the solution of the equation <m>~54=6h~</m> is 9. We can use a table to help us solve a harder equation by trial and error.</p>
 
 <exercise><statement><p>One of Aunt Esther's Chocolate Dream cookies contains 42 calories, so <m>d</m> cookies contain <m>c</m> calories, and <m>c=42d</m>. If Albert consumed 546 calories, how many cookies did he eat? Use trial and error to help you solve the equation <m>546=42d</m>.
@@ -66,6 +71,7 @@ Now we have an equation in just one variable. We would like to find the value of
 </subsection>
 
 <subsection><title>Inverse Operations</title>
+<idx><h>inverse operations</h></idx>
 
 <p>Instead of relying on trial and error to solve equations, we will use <term>inverse operations</term>. Try the Exercise below.</p>
 <exercise><statement><p>
@@ -78,6 +84,7 @@ Now we have an equation in just one variable. We would like to find the value of
 	Do you still end up with your original number?</p></statement></exercise>
 
 <assemblage><title>Inverse Operations</title>
+<idx><h>inverse operations</h></idx>
 <p>Multiplication and division are opposite or <term>inverse operations</term>, because each operation undoes the effects of the other.</p></assemblage>
 
 <exercise><statement><p>
@@ -90,6 +97,7 @@ Now we have an equation in just one variable. We would like to find the value of
 	Do you still end up with your original number?</p></statement></exercise>
 
 <assemblage><title>More Inverse Operations</title>
+<idx><h>inverse operations</h></idx>
     <p>Addition and subtraction are opposite or <term>inverse operations</term>, because each operation undoes the effects of the other.</p></assemblage>
 
 <p>We see that the opposite operation for multiplication is division, and the opposite operation for addition is subtraction. Now we can solve the equation in <xref ref="Example-1-4-1" text="type-global"/>.</p>
@@ -108,6 +116,7 @@ The solution is 9. Liz worked for 9 hours.</p></solution></example>
 <p>In the previous Example, we transformed the equation into a simpler one (namely, <m>h=9</m>) which tells us the solution. We can use the following operations to transform an equation:</p>
 
 <assemblage><title>To solve an equation algebraically</title>
+<idx><h>equation</h><h>solving</h><h>algebraically</h></idx>
 <p><ol label="1">
 	<li>We can add or subtract the same number from both sides.</li>
 	<li>We can multiply or divide both sides by the same number, as long as 
@@ -117,9 +126,11 @@ The solution is 9. Liz worked for 9 hours.</p></solution></example>
 <p>Our method for solving equations works because of the <term>properties of equality</term>, one for each of the four arithmetic operations. They are listed below.</p></assemblage>
 
 <assemblage><title>Addition and Subtraction Properties of Equality</title>
+<idx><h>properties of equality</h><h>addition and subtraction</h></idx>
 <p>If the same quantity is added to or subtracted from both sides of an equation, the solution is unchanged. In symbols,
 	<me>\blert{\text{If}~~a=b,~~ \text{then}~~a+c=b+c~~\text{and}~~a-c=b-c}</me></p></assemblage> 
 <assemblage><title>Multiplication and Division Properties of Equality</title>
+<idx><h>properties of equality</h><h>multiplication and division</h></idx>
 <p>If both sides of an equation are multiplied or divided by the same nonzero quantity, the solution is unchanged. In symbols,
 	<me>\blert{\text{If}~~a=b,~~ \text{then}~~ac=bc~~\text{and}~~\dfrac{a}{c}=\dfrac{b}{c},~~c\not=0}</me></p></assemblage>
 
@@ -127,6 +138,7 @@ The solution is 9. Liz worked for 9 hours.</p></solution></example>
 </subsection>
 
 <subsection><title>Solving Equations</title>
+<idx><h>equation</h><h>solving</h></idx>
 
 <p>Now we can solve equations algebraically. We'll start with the simple Example from Section 1.3 about Delbert's and Francine's ages.</p>
 
@@ -147,6 +159,7 @@ The solution to this equation is 15. You can check that substituting <m>\alert{1
 <p>That last example is easy enough to solve without algebra, but the method will help us with harder problems. Here is a general strategy for solving such equations.</p></assemblage>
 
 <assemblage><title>To solve an equation algebraically</title>
+<idx><h>equation</h><h>solving</h><h>algebraically</h></idx>
 <p><ol label="1">
 	<li>Ask yourself what operation has been performed on the variable.</li>
 	<li>Perform the opposite operation on both sides of the equation in order to isolate the variable.</li>
@@ -160,6 +173,7 @@ The solution to this equation is 15. You can check that substituting <m>\alert{1
 </subsection>
 
 <subsection><title>Problem Solving with Equations</title>
+<idx><h>equation</h><h>problem solving with</h></idx>
 
 <p>Some problems can be solved by applying one of our familiar formulas.</p>
 
@@ -181,6 +195,7 @@ Finally, we answer the question in a sentence:
 <p>Many practical problems can be solved by first writing an equation that describes or <term>models</term> the problem, and then solving the equation. We will use three steps to solve applied problems.</p>
 
 <assemblage><title>Steps for solving an applied problem</title>
+<idx><h>applied problems</h></idx>
 <p><ol label="1">
 	<li>Identify the unknown quantity and choose a variable to represent it.</li>
 	<li>Find some quantity that can be described in two different ways, and write an equation using the variable to model 
@@ -281,7 +296,7 @@ Finally, we answer the question in a sentence:
 <subsection><title>Lesson</title>
 
 <subsubsection><title>Activity 1:  Opposite Operations</title>
-
+<idx><h>inverse operations</h></idx><idx><h>opposite operations</h><see>inverse operations</see></idx>
 <p>We can use opposite or inverse operations to "undo" an algebraic expression.</p> 
 
 <exercises>
@@ -340,7 +355,7 @@ Finally, we answer the question in a sentence:
 </subsubsection>
 
 <subsubsection><title>Activity 2:  Solving Equations Algebraically</title>
-
+<idx><h>equation</h><h>solving</h><h>algebraically</h></idx>
 <p>Follow the Examples below to write out the solution for each Exercise.</p>
 
 <warning><p>Do not do the problems in your head! Soon we will encounter equations that cannot be solved so easily. In order to learn the algebraic method, it is important for you to write down the steps of your solution.</p></warning>
@@ -388,7 +403,7 @@ Finally, we answer the question in a sentence:
 </subsubsection> 
 
 <subsubsection><title>Activity 3:  Using Formulas</title>
-
+<idx><h>formula</h><h>using</h></idx>
 <p>The distance from Los Angeles to San Francisco is approximately 420 miles. How long will it take a car traveling at 60 miles per hour to go from Los Angeles to San Francisco? Follow the steps to solve the problem:<ol label="1">
     <li>Write down the appropriate formula.</li>
     <li>List the given values of the variables.</li>
@@ -401,7 +416,7 @@ Finally, we answer the question in a sentence:
 </subsubsection>
 
 <subsubsection><title>Activity 4:  Writing Equations</title>
-
+<idx><h>equation</h><h>writing</h></idx>
 <p>In the following Exercises, concentrate on writing an equation for the problem. Use the hints to help you solve the problems.</p>
 
 <exercises>

@@ -2,13 +2,16 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Equations-and-Graphs"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations and Graphs</title>
+<idx><h>graph</h></idx><idx><h>graphing</h><see>graph</see></idx>
     
 <subsection><title>Anatomy of a Graph</title>
+<idx><h>graph</h></idx>
 
 <p>We use equations to express the relationship between two variabes. A graph is a way of visualizing an equation.</p>
 
 <assemblage><title>Graph of an Equation</title>
-<p>A graph has two <term>axes</term>, horizontal and vertical, and the values for the variables are displayed along the axes. The first, or <term>input</term>, variable is displayed on the horizontal axis. The second, or <term>output</term>, variable is displayed on the vertical axis.</p></assemblage>
+<idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
+<p>A graph has two <term>axes</term><idx><h>axis</h></idx>, horizontal and vertical, and the values for the variables are displayed along the axes. The first, or <term>input</term><idx><h>input</h><h>variable</h></idx>, variable is displayed on the horizontal axis. <idx><h>horizontal axis</h><see><m>x</m>-axis</see></idx> The second, or <term>output</term><idx><h>output</h><h>variable</h></idx>, variable is displayed on the vertical axis.<idx><h>vertical axis</h><see><m>y</m>-axis</see></idx></p></assemblage>
 
 <p>The graph itself shows how the two variables are related.</p>
 
@@ -69,6 +72,7 @@ From the table, we see that the value of <m>F</m> is always 4 more than the valu
 <p>Each point on a graph has two coordinates, which designate the position of the point. For example, the point labeled <m>P</m> in <xref ref="Example-1-3-1" text="type-global"/> has horizontal coordinate 3 and vertical coordinate 7.</p>
 
 <assemblage><title>Ordered pair</title>
+<idx><h>ordered pair</h></idx>
 <p>In the Example above, we write the coordinates of point <m>P</m> inside parentheses as an <term>ordered pair</term>: <m>(3,7)</m>. The order of the coordinates makes a difference.  We always list the horizontal coordinate first, then the vertical coordinate.</p></assemblage>
 
 <reading-questions>
@@ -86,6 +90,7 @@ From the table, we see that the value of <m>F</m> is always 4 more than the valu
 which is true.</p></assemblage>
 
 <assemblage><title>Solution of an equation</title>
+<idx><h>solution</h><h>to an equation in two variables</h></idx>
 <p>An ordered pair that makes an equation true is called a <term>solution</term> of the equation. Each point on the graph represents a solution of the equation.</p></assemblage>
 
 <exercise><p><ol label="a">
@@ -99,6 +104,7 @@ which is true.</p></assemblage>
 </subsection>
 
 <subsection><title>Graphing an Equation</title>
+<idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
 <p>The simplest way to draw a graph for an equation is to make a table of values and plot the points.</p>
 
 <example><statement><p>Graph the equation  <m>y=8-x</m>.</p></statement>
@@ -160,9 +166,12 @@ which is true.</p></assemblage>
 </subsection>
 
 <subsection><title>Choosing Scales for the Axes</title>
+<idx><h>axis</h><h>choosing scale for</h></idx>
 <p>If the variables in an equation have very large (or very small) values, we must choose scales for the axes that fit these values.</p>
 
-<assemblage><title>To graph an equation</title><p><ol label="1">
+<assemblage><title>To graph an equation</title>
+<idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
+<p><ol label="1">
     <li>Make a table of values.</li>
     <li>Choose scales for the axes.</li>
     <li>Plot the points and connect them with a smooth curve.</li></ol></p></assemblage>
@@ -249,6 +258,7 @@ which is true.</p></assemblage>
 </subsection>
 
 <subsection><title>Solving Equations with Graphs</title>
+<idx><h>equation</h><h>solving</h><h>with graphs</h></idx>
 
 <p>In the first Example we showed a graph of the equation 
 	<me>F=D+4</me>
@@ -257,7 +267,7 @@ which gives Francine's age, <m>F</m>, in terms of Delbert's age, <m>D</m>. We ca
 	<li>Given a value of <m>D</m>, find the corresponding value of <m>F</m>.</li>
 	<li>Given a value of <m>F</m>, find the corresponding value of <m>D</m>.</li>
 </ol>
-The first of these tasks is another way of <term>evaluating</term> the algebraic expression <m>D+4</m>, and the second task is another way of <term>solving</term> an equation.</p>
+The first of these tasks is another way of <term>evaluating</term> the algebraic expression <idx><h>algebraic expression</h><h>evaluating</h><h>with graphs</h></idx> <m>D+4</m>, and the second task is another way of <term>solving</term><idx><h>equation</h><h>solving</h><h>with graphs</h></idx> an equation.</p>
 
 <example><statement><p><ol label="a">
 	<li>Use the graph of the equation <m>F=D+4</m> to evaluate the expression <m>D+4</m> for <m>D=7</m>. Verify your answer algebraically.</li>
@@ -468,7 +478,9 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 
 <subsubsection><title>Activity 1:  Making a Graph</title>
 
+
 <assemblage><title>To graph an equation</title>
+<idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
 <p><ol label="1">
     <li>Make a table of values.</li>
     <li>Choose scales for the axes.</li>
@@ -529,6 +541,7 @@ The first of these tasks is another way of <term>evaluating</term> the algebraic
 </ol></p></subsubsection>
 
 <subsubsection><title>Activity 2:  Choosing Scales for the Axes</title>
+<idx><h>axis</h><h>choosing scale for</h></idx>
 
 <p><ol label="1">
 <li><p>Corey's truck holds 20 gallons of gasoline and gets 18 miles to the gallon.<ol label="a"> 
