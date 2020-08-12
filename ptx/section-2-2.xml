@@ -4,7 +4,7 @@
 <section xml:id="Expressions-and-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Expressions and Equations</title>
 
 <subsection><title>Writing Algebraic Expressions</title>
-
+<idx><h>algebraic expression</h><h>writing</h></idx>
 <p>When we write an algebraic expression, we use the same operations on a variable that we would use to calculate with a specific number. Writing down the expression for a specific numerical value can help us write an algebraic expression.</p>
 
 <example xml:id="Example-2-2-1"><statement><p>Alida keeps $100 in cash from her weekly paycheck, and deposits 40% of the remainder in her savings account. If Alida's paycheck is <m>p</m>, write an expression for the amount she deposits in savings.</p></statement>
@@ -23,7 +23,7 @@ If her paycheck is <m>p</m> dollars, we perform the same operations on <m>p</m> 
 </subsection>
 
 <subsection><title>Evaluating Algebraic Expressions</title>
-
+<idx><h>algebraic expression</h><h>evaluating</h></idx>
 <p>When we evaluate an algebraic expression, we must follow the order of operations.</p>
 
 <example xml:id="Example-2-2-2"><statement><p>Four students bought concert tickets with their $20 student-discount coupons.<ol label="a">

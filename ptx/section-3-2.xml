@@ -3,9 +3,10 @@
 
 <section xml:id="Ratio-and-Proportion"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Ratio and Proportion</title>
 
-<subsection><title>Ratios</title>
 
-<p>A <term>ratio</term> is a type of quotient used to compare two numerical quantities.</p>
+<subsection><title>Ratios</title><idx><h>ratio</h></idx>
+
+<p>A <term>ratio</term><idx><h>ratio</h></idx> is a type of quotient used to compare two numerical quantities.</p>
 
 <p>For example, suppose the ratio of pupils to computers at a local elementary school is 10 to 3. This means that for every 10 pupils in the school there are 3 computers. We often display a ratio as a fraction, like this: 
 	<me>\dfrac{\text{Number of pupils}}{\text{Number of computers}}=\dfrac{10}{3}</me></p>
@@ -21,7 +22,7 @@
 
 <p>In <xref ref="Example-3-2-1" text="type-global"/>, we could also compute the ratio of opponents to supporters of the gun control law. In that case, the answer would be <m>\dfrac{32}{68}</m> or <m>\dfrac{8}{17}</m>, the reciprocal of the answer to Example 1.</p>
 
-<assemblage><title>Ratio</title>
+<assemblage><title>Ratio</title><idx><h>ratio</h></idx>
 <p>A <term>ratio</term> is a type of quotient used to compare two numerical quantities. The ratio of <m>a</m> to <m>b</m> is written <m>\dfrac{a}{b}</m>.</p></assemblage>
 
 <assemblage><title>Look Closer</title>
@@ -41,8 +42,8 @@
 
 <subsection><title>Rates</title>
 
-<assemblage><title>Rate</title>
-    <p>A <term>rate</term> is a ratio that compares two quantities with different units.</p></assemblage>
+<assemblage><title>Rate</title><idx><h>rate</h></idx>
+    <p>A <term>rate</term><idx><h>rate</h></idx> is a ratio that compares two quantities with different units.</p></assemblage>
 
 <p>You are already familiar with many rates. If you say that your average speed was 50 miles per hour, or that apples cost 89 cents per pound, you are using rates. Because per usually indicates division,
 	<md>
@@ -55,10 +56,11 @@
 <p>We simplify by dividing the denominator into the numerator, to get <m>\dfrac{26~ \text{miles}}{1~ \text{gallon}}</m>, or 26 miles per gallon.</p></solution></example>
 </subsection>
 
-<subsection><title>Proportions</title>
+<subsection><title>Proportions</title><idx><h>proportion</h></idx>
 
 <assemblage><title>Proportion</title>
-    <p>A <term>proportion</term> is a statement that two ratios are equal.</p></assemblage>
+<idx><h>proportion</h></idx>
+    <p>A <term>proportion</term><idx><h>proportion</h></idx> is a statement that two ratios are equal.</p></assemblage>
 
 <p>Thus, a proportion is an equation in which both sides are ratios. Here are some proportions: 
 	<me>\dfrac{6}{9}=\dfrac{8}{12}~~~~~~\text{and}~~~~~~\dfrac{3.2}{8}=\dfrac{1}{2.5}</me>
@@ -96,6 +98,7 @@ Now we can divide both sides by 5 to get the answer,
 Then we complete the solution as before.</p></assemblage>
 
 <assemblage><title>Property of Proportions</title>
+<idx><h>proportion</h><h>property of</h></idx><idx><h>proportion</h><h>cross-multiply</h></idx><idx><h>cross-multiply</h><see>proportion</see></idx>
 <p>We can clear the fractions from a proportion by cross-multiplying.
 	<me>\blert{\text{If}~~\dfrac{a}{b}=\dfrac{c}{d},~~~\text{then}~~~ad=bc.}</me></p></assemblage>
 
@@ -120,6 +123,7 @@ We can check the solution by substituting <m>x=5.25</m> into the original propor
 </subsection>
 
 <subsection><title>Proportional Variables</title>
+<idx><h>proportional variables</h></idx>
 
 <p>Suppose that grape juice costs 80 cents per quart, and complete the table.</p>
 
@@ -149,7 +153,8 @@ We can check the solution by substituting <m>x=5.25</m> into the original propor
 <p>Did you find that the ratio <m>\dfrac{\text{total price}}{\text{number of quarts}}</m>, or price per quart, is the same for each row of the table? This agrees with common sense: The price per quart of grape juice is the same no matter how many quarts you buy.</p>
 
 <assemblage><title>Proportional Variables</title>
-    <p>Two variables are <term>proportional</term> if their ratio is always the same.</p></assemblage>  
+<idx><h>proportional variables</h></idx>
+    <p>Two variables are <term>proportional</term><idx><h>proportional variables</h></idx> if their ratio is always the same.</p></assemblage>  
 
 <example><statement><p>One quart of grape juice costs 80 cents. The price of grape juice is proportional to the number of quarts you buy. How much grape juice can you buy for $10.00?</p></statement>
 
@@ -196,9 +201,10 @@ The graph of this equation is a straight line that passes through the origin, as
 </assemblage>
 
 <assemblage><title>Equation for Proportional Variables</title>
+<idx><h>proportional variables</h><h>equation for</h></idx><idx><h>proportional variables</h><h>constant of proportionality</h></idx>
 <p>If two variables are proportional, they are related by the equation
 	<me>y=kx</me>
-where <m>k</m> is the <term>constant of proportionality</term>.</p></assemblage>
+where <m>k</m> is the <term>constant of proportionality</term><idx><h>constant of proportionality</h></idx>.</p></assemblage>
 
 <reading-questions>
     <exercise number="6"><statement><p>What are proportional variables?</p></statement>

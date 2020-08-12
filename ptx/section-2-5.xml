@@ -4,6 +4,7 @@
 <section xml:id="Like-Terms"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Like Terms</title>
 
 <subsection><title>Equivalent Expressions</title>
+<idx><h>equivalent</h><h>expressions</h></idx><idx><h>expression</h><h>equivalent</h></idx>
 
 <p>When we solve an equation such as  
 	<me> 2+3x=17</me>
@@ -21,7 +22,8 @@ Both expressions equal 15 when <m>x=3</m>.</p>
 </p></statement></exercise>
 
 <assemblage><title>Equivalent Expressions</title>
-<p>Two algebraic expressions are <term>equivalent</term> if they name the same number for all values of the variable.</p></assemblage> 
+<idx><h>equivalent</h><h>expressions</h></idx><idx><h>expression</h><h>equivalent</h></idx>
+<p>Two algebraic expressions are <term>equivalent</term><idx><h>equivalent</h></idx> if they name the same number for all values of the variable.</p></assemblage> 
 
 <p>Thus, <m>2+3x</m> and <m>5x</m> are equivalent expressions, and we can replace one by the other if it will simplify our work.</p>
 
@@ -37,12 +39,14 @@ Because they are not equal for <m>x=6</m>, the expressions <m>2+3x</m> and <m>5x
 </subsection>
 
 <subsection><title>Like Terms</title>
+<idx><h>term</h><h>like</h></idx><idx><h>like terms</h></idx>
 
 <p>We saw above that <m>2x+3x</m> and <m>5x</m> are equivalent expressions. This makes sense when we consider what these expressions mean: <m>2x</m> means two <m>x</m>'s added together, and <m>3x</m> means three <m>x</m>'s added together. Then
 	<me>2x+3x=(x+x)+(x+x+x)=5x</me>	
-We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as we can add two pencils to three pencils, or two dollars to three dollars. In algebra this is called <term>combining like terms</term>.</p>
+We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as we can add two pencils to three pencils, or two dollars to three dollars. In algebra this is called <term>combining like terms</term><idx><h>combining like terms</h></idx><idx><h>combining like terms</h><seealso>like terms</seealso></idx>.</p>
 
 <assemblage><title>Like Terms</title>
+<idx><h>like terms</h></idx>
     <p><term>Like terms</term> are any terms that are exactly alike in their variable factors.</p></assemblage>
 
 <example><statement><p><ol label="a">
@@ -54,6 +58,7 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
         because their variable factors are different.</li></ol></p></statement></example>
 
 <assemblage><title>Numerical Coefficient</title>
+<idx><h>numerical coefficient</h></idx><idx><h>numerical coefficient</h><seealso>coefficient</seealso></idx><idx><h>coefficient</h></idx>
     <p>The numerical factor in a term is called the <term>numerical coefficient</term>, or just the <term>coefficient</term> of the term.</p></assemblage>
 
 <example><statement><p><ol label="a">
@@ -66,8 +71,11 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 </subsection>
 
 <subsection><title>Adding and Subtracting Like Terms</title>
+<idx><h>like terms</h><h>adding and subtracting</h></idx>
+<idx><h>like terms</h><h>combining</h></idx>
 
 <assemblage><title>To add like terms</title>
+<idx><h>like terms</h><h>adding and subtracting</h></idx>
 <p>Add the numerical coefficients of the terms. Do not change the variable factors of the terms.</p></assemblage>
 
 <example xml:id="Example-2-5-3"><statement><p>Add like terms.<ol label="a"  cols="3">
@@ -85,11 +93,15 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 <p>In <xref ref="Example-2-5-3" text="type-global"/>, we replaced each expression by a simpler but equivalent expression. In other words, <m>-7y</m> is equivalent to <m>-4y-3y</m>, and <m>3st</m> is equivalent to <m>-6st+9st</m>.</p></assemblage>
 
 <assemblage><title>Simplifying an expression</title>
+<idx><h>expression</h><h>simplifying</h></idx>
+<idx><h>simplifying an expression</h></idx>
 <p>Replacing an expression by a simpler equivalent one is called <term>simplifying</term> the expression.</p></assemblage>
 
 <p>We subtract like terms in the same way that we add like terms.</p>
 
 <assemblage><title>To subtract like terms</title>
+<idx><h>like terms</h><h>adding and subtracting</h></idx>
+<idx><h>like terms</h><h>combining</h></idx>
 <p>Subtract the numerical coefficients of the terms. Do not change the variable factors of the terms.</p></assemblage>
 
 <example><statement><m>6a-(-8a)=[6-(-8)a]=14a~~~~~~~~~~\blert{\text{Subtract the coefficients.}}</m></statement></example>
@@ -118,14 +130,14 @@ so
 <warning><p>In <xref ref="example-2-5-5" text="type-global"/>, <m>9a-3 \not= 6a,</m> because <m>9a</m> and <m>-3</m> are not like terms.</p></warning>
 </subsection>
 
-<subsection><title>Removing Parentheses</title>
+<subsection><title>Removing Parentheses</title><idx><h>parentheses</h><h>removing</h></idx>
 
 <p>When we add signed numbers, we can remove parentheses that follow an addition symbol. For instance,
 	<me>5+(-3)=5-3=2</me>
 We can also remove parentheses when we add like terms. Thus,
 	<me>5x+(-3x)=5x-3x=2x</me></p>
 
-<assemblage><title>Removing parentheses that follow a plus sign</title>
+<assemblage><title>Removing parentheses that follow a plus sign</title><idx><h>parentheses</h><h>removing</h></idx>
 <p>Parentheses preceded by a plus sign may be omitted, and each term within parentheses keeps its original sign.</p></assemblage>
 
 <example><statement><p>Simplify <m>~(2x+3)+(5x-7)</m></p></statement>
@@ -143,7 +155,7 @@ the minus sign preceding <m>(7x-4)</m> applies to each term inside the parenthes
         <mrow>\amp =5x-7x-2+4    \amp \amp \blert{\text{Combine like terms.}}</mrow>
         <mrow>\amp =-2x+2</mrow></md></p></warning>
 
-<assemblage><title>Removing parentheses that follow a minus sign</title>
+<assemblage><title>Removing parentheses that follow a minus sign</title><idx><h>parentheses</h><h>removing</h></idx>
 <p>If an expression inside parentheses is preceded by a minus sign, we change the sign of each term within parentheses and then omit the parentheses and the minus sign.</p></assemblage>
 
 <example><statement><p>Simplify <m>~-5b-(3-2b)+(4b-6)</m></p></statement>
@@ -181,6 +193,7 @@ the minus sign preceding <m>(7x-4)</m> applies to each term inside the parenthes
 </subsection>
 
 <subsection><title>Solving Equations and Inequalities</title>
+<idx><h>equation</h><h>solving</h></idx><idx><h>inequality</h><h>solving</h></idx>
 
 <p>	We can now solve equations in which two or more terms contain the variable.</p>
 
@@ -227,7 +240,9 @@ The solution is all <m>x</m>-values greater than 3. You can check the solution b
 
 <p>Here are our guidelines for solving linear equations.</p>
 
-<assemblage><title>Steps for Solving Linear Equations</title><p><ol label="1">
+<assemblage><title>Steps for Solving Linear Equations</title>
+<idx><h>equation</h><h>solving</h></idx>
+<p><ol label="1">
 	<li>Combine like terms on each side of the equation.</li>
 	<li>By adding or subtracting the same quantity on both sides of the equation, get all the variable terms on one side and all the constant terms on the other.</li>
 	<li>Divide both sides by the coefficient of the variable to obtain an equation of the form <m>x=a</m>.</li></ol></p></assemblage>

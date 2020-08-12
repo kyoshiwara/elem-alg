@@ -3,7 +3,7 @@
 
 <section xml:id="Linear-Equations-and-Inequalities"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Linear Equations and Inequalities</title>
 
-<subsection><title>Solving Equations</title>
+<subsection><title>Solving Equations</title><idx><h>solving an equation</h></idx><idx><h>equation</h><h>solving</h></idx>
 
 <p>We solve an equation by isolating the variable on one side of the equation. If an equation involves two or more operations, we must undo those operations in reverse order.</p>
 
@@ -123,13 +123,14 @@ operations? </p></statement>
 </subsection>
 
 <subsection><title>Solving Inequalities</title>
+<idx><h>solving an inequality</h></idx><idx><h>inequality</h><h>solving</h></idx>
 
-<assemblage><title>Inequality</title>
+<assemblage><title>Inequality</title><idx><h>inequality</h></idx>
     <p>A statement that uses one of the symbols <m>\gt</m> or <m>\lt</m> is called an <term>inequality</term>.</p></assemblage>
 
 <p>Examples of inequalities are 
 	<me> -1 \gt -3 ~~~~~~ \text{and}~~~~~~ x \lt 2</me> 	
-Unlike the equations we have studied, which have at most one solution, an inequality can have infinitely many solutions.  A solution of an equation or inequality is said to <term>satisfy</term> the equation or inequality.</p>
+Unlike the equations we have studied, which have at most one solution, an inequality can have infinitely many solutions.  A solution of an equation or inequality is said to <term>satisfy</term><idx><h>satisfy an equation or inequality</h></idx> the equation or inequality.</p>
 
 <example><statement><p>Solve the inequality  <m>~x \lt 2</m></p></statement>
 
@@ -155,7 +156,7 @@ Unlike the equations we have studied, which have at most one solution, an inequa
 
 The open circle at 2 shows that 2 itself is not a solution (because 2 is not less than 2.)</p></solution></example>
 
-<assemblage><title>Look Closer</title>
+<assemblage><title>Look Closer</title><idx><h>order symbol</h></idx>
 <p>An inequality that uses the symbol for less than, <m>\lt</m>, or greater than, <m>\gt</m>, is called a <term>strict inequality</term>. A nonstrict inequality uses one of the following symbols.
     <md><mrow>\amp \blert{\ge}  \amp \amp \text{means  "greater than or equal to"}</mrow>
         <mrow>\amp \blert{\le}    \amp \amp \text{means  "less than or equal to"}</mrow></md>
@@ -192,7 +193,10 @@ is shown below. We use a solid dot at <m>-2</m> to show that <m>-2</m> is includ
 
 <p>	The rules for solving inequalities are very similar to the rules for solving equations, with one important difference. In the Activities we will develop the following strategies for solving inequalities.</p>
 
-<assemblage><title>To solve an inequality</title><p><ol label = "1">
+<assemblage><title>To solve an inequality</title>
+<idx><h>inequality</h><h>solving</h></idx><idx>solving an inequality</idx>
+<p><ol label = "1">
+
 	<li>We can add or subtract the same quantity on both sides.</li> 
 	<li>We can multiply or divide both sides by the same positive number.</li>  
 	<li>If we multiply or divide both sides by a negative number, we must reverse the direction of the inequality.</li></ol></p></assemblage>
@@ -226,6 +230,7 @@ The graph of the solutions is shown below.
 </subsection>
 
 <subsection><title>Compound Inequalities</title>
+<idx><h>inequality</h><h>compouind</h></idx><idx><h>compound inequality</h></idx>
 
 <p>An inequality in which the variable expression is bounded from above and from below is called a <term>compound inequality</term>  For example,
 	<me>-3 \lt 2x-5 \le 6</me>
