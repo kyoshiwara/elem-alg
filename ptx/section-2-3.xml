@@ -4,8 +4,10 @@
 <section xml:id="Graphs-of-Linear-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphs of Linear Equations</title>
 
 <subsection><title>Graphing Equations</title>
-
+<idx><h>linear equation</h><h>graph of</h></idx>
+<idx><h>graph</h><h>of an equation</h></idx><idx><h>equation</h><h>graph of</h></idx>
 <assemblage><title>Linear Equation</title>
+<idx><h>linear equation</h></idx>
     <p>An equation of the form <m>\blert{y=ax+b}</m>,  where <m>a</m> and <m>b</m> are constants, is called a <term>linear equation</term> because its graph is a straight line.</p></assemblage>
 
 <p>We can graph a linear equation by evaluating the expression <m>ax+b</m> at several values of <m>x</m> and then plotting points.</p>
@@ -91,10 +93,10 @@
 </subsection>
 
 <subsection><title>Cartesian Coordinate System</title>
+<idx><h>Cartesian coordinate system</h></idx>
+<p>Many graphs include negative values as well as positive values. To make such a graph, we construct a <term>Cartesian coordinate system</term><idx><h>Cartesian coordinate system</h></idx>, named after the French mathematician and philosopher René Descartes.</p>   
 
-<p>Many graphs include negative values as well as positive values. To make such a graph, we construct a <term>Cartesian coordinate system</term>, named after the French mathematician and philosopher René Descartes.</p>   
-
-<sidebyside widths="50% 40%" valigns="middle middle"><p>We draw two perpendicular number lines for the horizontal and vertical axes. The two axes divide the plane into four <term>quadrants</term>, or regions, as shown at right. We often use <m>x</m> for the input variable and  <m>y</m> for the output variable, so the horizontal axis is called the <term><m>x</m>-axis</term><idx><m>x</m>-axis</idx> and the vertical axis is the <term><m>y</m>-axis</term><idx><m>y</m>-axis</idx>. The axes intersect at the zero point of each number line. The coordinates of this intersection point, called the <term>origin</term><idx>origin</idx>, are <m>(0,0)</m>.</p>
+<sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%"><p>We draw two perpendicular number lines for the horizontal and vertical axes. The two axes divide the plane into four <term>quadrants</term><idx><h>quadrant</h></idx>, or regions, as shown at right. We often use <m>x</m> for the input variable <idx><h>input</h><h>variable</h></idx> and  <m>y</m> for the output variable<idx><h>output</h><h>variable</h></idx>, so the horizontal axis <idx><h>axis</h>horizontal</idx> is called the <term><m>x</m>-axis</term><idx><em>x</em>-axis</idx> and the vertical axis <idx><h>axis</h>vertical</idx> is the <term><m>y</m>-axis</term><idx><em>y</em>-axis</idx>. The axes intersect at the zero point of each number line. The coordinates of this intersection point, called the <term>origin</term><idx>origin</idx>, are <m>(0,0)</m>.</p>
  <!--<image source="images/fig-2-3-1.png"><description>grid</description></image>-->
     <image xml:id="fig-2-3-1"><description>grud: 5 by 5</description><latex-image>
         <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->

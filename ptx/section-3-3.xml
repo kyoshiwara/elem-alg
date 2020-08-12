@@ -3,9 +3,10 @@
 
 <section xml:id="Slope"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Slope</title>
 
-<subsection><title>Rate of Change</title>
+<subsection><title>Rate of Change</title><idx><h>rate</h><h>of change</h></idx>
 
 <assemblage><title>Rate of Change</title>
+<idx><h>rate</h><h>of change</h></idx>
     <p>A <term>rate of change</term> is a type of ratio that measures how one variable changes with respect to another.</p></assemblage>
 
 <example xml:id="example-pottery-oven"><statement><p>In order to fire a particular kind of pottery, the pieces must first be cured by raising the temperature slowly and evenly.  Sonia checks the temperature in the drying oven at ten-minute intervals, and records the following data.</p>
@@ -73,7 +74,7 @@ or 0.4 degree per minute. This is less than the maximum rate recommended for cur
 
 <p>We introduce some new notation to use when calculating a rate of change. </p>
 
-<assemblage><p>The Greek letter <m>\blert{\Delta}</m> ("delta") is used in mathematics to indicate change.</p></assemblage>
+<assemblage><p>The Greek letter <m>\blert{\Delta}</m><idx>Delta (<m>\Delta</m>)</idx><idx><h>change in</h><see>Delta</see></idx><idx><h><m>\Delta</m></h><see>Delta</see></idx> ("delta") is used in mathematics to indicate change.</p></assemblage>
 
 <p>In <xref ref="example-pottery-oven" text="type-global"/>,  we used the variable <m>x</m> to represent time and <m>y</m> to represent the temperature, so we denote the ratio <m>\dfrac{\text{change in temperature}}{\text{change in time}}</m> by <m>\dfrac{\Delta y}{\Delta x}</m>.  With this notation, we calculate the rate of change of temperature between the data points <m>(20, 78)</m> and <m>(50, 90)</m> as follows:
 	<me>\dfrac{\Delta y}{\Delta x}=\dfrac{\text{12 degrees}}{\text{30 minutes}} = 0.4 \text{ degree per minute}</me></p>
@@ -110,7 +111,7 @@ or 0.4 degree per minute. This is less than the maximum rate recommended for cur
     \end{tikzpicture}]]></latex-image></image></sidebyside> 
 <p>The rate of change of one variable with respect to another is so important in applications that the ratio <m>\dfrac{\Delta y}{\Delta x}</m> is given a name; it is called <term>slope</term>, and is usually denoted by the letter <m>m</m>.</p>
 
-<assemblage><title>Slope</title>
+<assemblage><title>Slope</title><idx><h>slope</h></idx>
 <p>The <term>slope</term> of a line is defined by the ratio
 	<me>\blert{\dfrac{\text{change in } y\text{-coordinate}}{\text{change in } x\text{-coordinate}}}</me>
 as we move from one point to another on the line. In symbols,
@@ -164,13 +165,15 @@ The slope tells us that if we start at any point on the line and move 1 unit in 
 </reading-questions>
 </subsection>
 
-<subsection><title>Meaning of Slope</title>
+<subsection><title>Meaning of Slope</title><idx><h>slope</h><h>meaning</h></idx>
 
 <p>In <xref ref="example-pottery-oven" text="type-global"/>, we graphed the temperature of a pottery oven over time. We calculated the slope of the graph as
 	<me>\dfrac{\Delta y}{\Delta x} = 0.4~~ \text{degrees per minute}</me>
 The slope gives us the rate of change of the temperature with respect to time:  the temperature is increasing at a rate of 0.4 degrees per minute.</p>
 
-<assemblage><p>The slope of a line measures the rate of change of <m>y</m> with respect to <m>x</m>.</p></assemblage>
+<assemblage>
+<idx><h>slope</h><h>meaning</h></idx>
+<p>The slope of a line measures the rate of change of <m>y</m> with respect to <m>x</m>.</p></assemblage>
 
 <p>In different situations, this rate might be interpreted as a rate of growth or a speed.  The slope of a graph can give us valuable information about the variables involved. </p> 
 
@@ -224,7 +227,7 @@ The slope represents the trucker's average speed or velocity.</p></li></ol></p><
 </subsection>
 
 <subsection><title>Geometrical Meaning of Slope</title>
-
+<idx><h>slope</h><h>meaning</h></idx>
 <p>Suppose we graph two lines with positive slope on the same coordinate system. If we move along the lines from left to right, then the line with the larger slope will be steeper. This makes sense if we think of the slope as a rate of change: The line whose <m>y</m>-coordinate is increasing faster with respect to <m>x</m> is the steeper line.</p>
 
 <assemblage><title>Look Closer</title>
@@ -314,7 +317,7 @@ minutes.</p></statement></exercise>
 <subsection><title>Lesson</title>
 
 <subsubsection><title>Activity 1: Calculating Slope</title>
-
+<idx><h>slope</h><h>calculate</h></idx>
 <p>To calculate slope, we choose two points on the graph and compute the ratio
     <me>\dfrac{\blert{\text{change in vertical coordinate}}} {\blert{\text{change in horizontal coordinate}}}</me> 
 Be sure to include units with your ratios!</p>  
@@ -468,14 +471,16 @@ Be sure to include units with your ratios!</p>
 </subsubsection>
 
 <subsubsection><title>Activity 2: Negative Slopes</title>
+<idx><h>slope</h><h>negative</h></idx><idx><h>negative</h><h>slope</h></idx>
 
 <assemblage><p>An increasing quantity has a positive rate of change, or slope, and a decreasing quantity has a negative rate of change. </p></assemblage>
 
-<assemblage><p><ul>
-    <li>When we move to the right on a graph, <m>\Delta x</m> is positive.</li>
-    <li>When we move to the left, <m>\Delta x</m> is negative.</li>
-    <li>When we move up on a graph, <m>\Delta y</m> is positive.</li>           
-    <li>When we move down, <m>\Delta y</m> is negative.</li></ul></p></assemblage>
+<assemblage><title>Horizontal and Vertical Changes</title>
+    <p><ul>
+    <li>When we move to the right on a graph, <m>\Delta x</m> is positive.<idx><h>positive</h><h><m>\Delta x</m></h></idx></li>
+    <li>When we move to the left, <m>\Delta x</m> is negative.<idx><h>negative</h><h><m>\Delta x</m></h></idx></li>
+    <li>When we move up on a graph, <m>\Delta y</m> is positive.<idx><h>positive</h><h><m>\Delta y</m></h></idx></li>           
+    <li>When we move down, <m>\Delta y</m> is negative.<idx><h>negative</h><h><m>\Delta y</m></h></idx></li></ul></p></assemblage>
 
 <exercises>
 
@@ -495,7 +500,8 @@ Be sure to include units with your ratios!</p>
 </exercises>
 </subsubsection>
 
-<subsubsection><title>Activity 2: Negative Slopes</title>
+<subsubsection><title>Activity 3: Computing Slopes</title>
+<idx><h>slope</h><h>compute</h></idx>
 
 <p>How do we know which two points to choose when we want to compute the slope of a line? It turns out that any two points on the line will do.</p>
 

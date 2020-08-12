@@ -4,8 +4,10 @@
 <section xml:id="Algebraic-Expressions"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Expressions</title>
 
 <subsection><title>Writing an Algebraic Expression</title>
+<idx><h>algebraic expression</h><h>writing</h></idx><idx><h>expression</h></idx>
 
 <assemblage><title>Algebraic expression</title>
+<idx><h>algebraic expression</h></idx><idx><h>expression</h></idx>
     <p>An <term>algebraic expression</term>, or simply an <term>expression</term>, is any meaningful combination of numbers, variables, and operation symbols.</p></assemblage>
 
 <p>For example,
@@ -29,7 +31,9 @@ are algebraic expressions. An important part of algebra involves translating wor
 
 <p>In the previous Example, we used three steps to write an algebraic expression.</p>
 
-<assemblage><title>To write an algebraic expression</title><p><ol label="1">
+<assemblage><title>To write an algebraic expression</title>
+<idx><h>algebraic expression</h></idx><idx><h>algebraic expression</h><h>writing</h></idx>
+<p><ol label="1">
     <li>Identify the unknown quantity and write a short phrase to describe it.</li>
     <li>Choose a variable to represent the unknown quantity.</li>
     <li>Use mathematical symbols to represent the relationship.</li></ol></p></assemblage>
@@ -40,8 +44,9 @@ are algebraic expressions. An important part of algebra involves translating wor
 </subsection>
 
 <subsection><title>Sums</title>
+<idx><h>sum</h></idx><idx><h>sum</h><seealso>addition</seealso></idx>
 
-<p>When we add two numbers <m>a</m> and <m>b</m>, the result is called the <term>sum</term> of <m>a</m> and <m>b</m>. We call the numbers <m>a</m> and <m>b</m> the <term>terms</term> of the sum.</p>
+<p>When we add two numbers <m>a</m> and <m>b</m>, the result is called the <term>sum</term><idx><h>sum</h></idx> of <m>a</m> and <m>b</m>. We call the numbers <m>a</m> and <m>b</m> the <term>terms</term><idx><h>term</h><h>of the sum</h></idx> of the sum.</p>
 <!--    <sidebyside width="50%"><image source="images/fig-1-2-1.png"/></sidebyside> -->
     <sidebyside width="42%">
         <image xml:id="fig-1-2-1">
@@ -87,12 +92,15 @@ are algebraic expressions. An important part of algebra involves translating wor
 <p>The terms can be added in either order.  We call this fact the <term>commutative law</term> for addition.</p>
 
 <assemblage><title>Commutative Law for Addition</title>
+<idx><h>commutative law</h><h>of addition</h></idx>
+<idx><h>addition</h><h>commutative law of</h></idx>
     <p>If <m>a</m> and <m>b</m> are numbers, then
         <me>\blert{a+b = b+a}</me></p>
 </assemblage>
 </subsection>
 
 <subsection><title>Products</title>
+<idx><h>product</h></idx><idx><h>product</h><seealso>multiplication</seealso></idx>
 
 <p>When we multiply two numbers <m>a</m> and <m>b</m>, the result is called the <term>product</term> of <m>a</m> and <m>b</m>.  The numbers <m>a</m> and <m>b</m> are the <term>factors</term> of the product.</p>
 
@@ -158,6 +166,8 @@ are algebraic expressions. An important part of algebra involves translating wor
 <p>In the previous Example, <m>10z = 10 \cdot z = z \cdot 10</m>, because two numbers can be multiplied in either order to give the same answer. This is the <term>commutative law</term> for multiplication.</p></assemblage>
 
 <assemblage><title>Commutative Law for Multiplication</title>
+<idx><h>commutative law</h><h>of multiplication</h></idx>
+<idx><h>multiplication</h><h>commutative law of</h></idx>
 <p>If <m>a</m> and <m>b</m> are numbers, then
         <me>\blert{a \cdot b = b \cdot a}</me></p>
 </assemblage>
@@ -173,8 +183,9 @@ are algebraic expressions. An important part of algebra involves translating wor
 </subsection>
 
 <subsection><title>Differences</title>
+<idx><h>difference</h></idx><idx><h>difference</h><seealso>subtraction</seealso></idx>
 
-<p>When we subtract <m>b</m> from <m>a</m> the result is called the <term>difference</term> of <m>a</m> and <m>b</m>. As with addition, <m>a</m> and <m>b</m> are called <term>terms</term>.</p>
+<p>When we subtract <m>b</m> from <m>a</m> the result is called the <term>difference</term><idx><h>difference</h></idx> of <m>a</m> and <m>b</m>. As with addition, <m>a</m> and <m>b</m> are called <term>terms</term><idx><h>term</h><h></h></idx>.</p>
 <!--    <sidebyside width="70%"><image source="images/fig-1-2-3.png"/></sidebyside>-->
     <sidebyside width="60%">
         <image xml:id="fig-1-2-3">
@@ -224,6 +235,7 @@ The operation of subtraction is not commutative.</p></warning>
 </subsection>
 
 <subsection><title>Quotients</title>
+<idx><h>quotient</h></idx><idx><h>quotient</h><seealso>division</seealso></idx>
 
 <p>When we divide <m>a</m> by <m>b</m> the result is called the <term>quotient</term> of <m>a</m> and <m>b</m>.  We call <m>a</m> the <term>dividend</term> and <m>b</m> the <term>divisor</term>.  In algebra we indicate division by using the division symbol, <m>\div</m>, or a fraction bar.</p>
 <!--    <sidebyside width="80%"><image source="images/fig-1-2-4.png"/></sidebyside>-->
@@ -282,10 +294,12 @@ The operation of subtraction is not commutative.</p></warning>
 </subsection>
 
 <subsection><title>Evaluating an Algebraic Expression</title>
+<idx><h>evaluating</h><h>an algebraic expression</h></idx><idx><h>algebraic expression</h><h>evaluating</h></idx>
 
 <p>An algebraic expression is a pattern or rule for different versions of the situation it describes. We can replace the variable by specific numbers to fit a particular situation.</p>
 
 <assemblage><title>Evaluation</title>
+<idx><h>evaluating</h><h>an algebraic expression</h></idx><idx><h>algebraic expression</h><h>evaluating</h></idx>
 <p>Substituting a specific value into an expression and calculating the result is called <term>evaluating</term> the expression.</p></assemblage>
 
 <example xml:id="Example-1-2-5"><statement><p>Fernando has three roommates, and his share of the rent is <m>\dfrac{R}{4}</m>, where <m>R</m> is a variable representing the total rent on the apartment. If Fernando and his roommates find an apartment whose rent is $540, we can find Fernando's share of the rent by replacing <m>R</m> by <m>\alert{540}</m>.
@@ -299,6 +313,7 @@ Fernando's share of the rent is $135.</p></statement></example>
 <p>Here are some examples of common formulas. Formulas may involve several different variables.</p>
 
 <assemblage><title>Distance</title>
+<idx><h>distance</h><h>formula for</h></idx>
     <p>To find the distance traveled by an object moving at a constant speed or rate for a specified time, we multiply the rate by the time.
 	<me>\blert{\text{distance} = \text{rate} \times \text{time}~~~~~~~~~~~~~d = rt}</me></p></assemblage>
 
@@ -310,6 +325,7 @@ Fernando's share of the rent is $135.</p></statement></example>
 The train will travel 240 miles.</p></solution></example>
 
 <assemblage><title>Profit</title>
+<idx><h>profit</h><h>formula for</h></idx>
     <p>To find the <term>profit</term> earned by a company we subtract the costs from the revenue.
 	<me>\blert{\text{profit} = \text{revenue} - \text{cost}~~~~~~~~~~~~~P = R-C}</me></p></assemblage>
 
@@ -321,6 +337,7 @@ The train will travel 240 miles.</p></solution></example>
 The owner's profit was $350.</p></solution></example>
 
 <assemblage><title>Interest</title>
+<idx><h>interest</h><h>formula for</h></idx>
     <p>To find the <term>interest</term> earned on an investment we multiply the amount invested (the principal) by the interest rate and the length of the investment.
 	<me>\blert{\text{interest} = \text{principal} \times \text{interest rate} \times \text{time}~~~~~~~~~~~~~I=Prt}</me></p></assemblage>
 
@@ -332,6 +349,7 @@ The owner's profit was $350.</p></solution></example>
 The account will earn $132 in interest.</p></solution></example>
 
 <assemblage><title>Percent</title>
+<idx><h>percent</h><h>formula for</h></idx>
     <p>To find a percentage or <term>part</term> of a given amount, we multiply the whole amount by the percentage rate.
 	<me>\blert{\text{part} = \text{percentage rate} \times \text{whole} ~~~~~~~~~~~~~P=rW}</me></p></assemblage>
 
@@ -343,6 +361,7 @@ The account will earn $132 in interest.</p></solution></example>
 You would need 12 gallons of ginger ale.</p></solution></example>
 
 <assemblage><title>Average</title>
+<idx><h>average</h><h>formula for</h></idx>
     <p>To find the <term>average</term> of a collection of scores, we divide the sum of the scores by the number of scores.
 	<me>\blert{\text{average score} = \dfrac{\text{sum of scores}}{\text{number of scores}} ~~~~~~~~~~~~~A=\dfrac{S}{n}}</me></p></assemblage>
 
@@ -442,6 +461,7 @@ Bert's average score is 15.8.</p></solution></example>
 <subsection><title>Lesson</title>
 
 <subsubsection><title>Activity 1:  Writing Algebraic Expressions</title>
+<idx><h>algebraic expression</h><h>writing</h></idx>
 
 <assemblage><title>To write an algebraic expression</title>
 <p><ol label="1">
@@ -523,6 +543,8 @@ Bert's average score is 15.8.</p></solution></example>
 </subsubsection>
 
 <subsubsection><title>Activity 2:  Evaluating Algebraic Expressions</title>
+<idx><h>algebraic expression</h><h>evaluating</h></idx>
+<idx><h>evaluating the expression</h></idx>
 
 <p>EXAMPLE: The Appliance Mart is having a store wide 15%-off sale. If the regular price of an appliance is <m>P</m> dollars, then the sale price <m>S</m> is given by the expression
     <me>S=0.85P</me>

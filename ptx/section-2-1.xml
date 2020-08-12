@@ -2,10 +2,10 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Signed-Numbers"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Signed Numbers</title>
-
+<idx><h>signed number</h></idx>
 <subsection><title>Types of Numbers</title>
 
-<p>Numbers greater than zero are called <term>positive numbers</term>, and numbers less than zero are <term>negative numbers</term>. We use a <term>number line</term> to illustrate relationships among numbers.</p>
+<p>Numbers greater than zero are called <term>positive numbers</term><idx><h>positive numbers</h></idx>, and numbers less than zero are <term>negative numbers</term><idx><h>negative numbers</h></idx>. We use a <term>number line</term><idx><h>number line</h></idx> to illustrate relationships among numbers.</p>
 
 <sidebyside width="70%"><!--<image source="images/fig-2-1-1.png"><description>number line</description></image>-->
     <image xml:id="fig-2-1-1"><description>number line</description><latex-image>
@@ -23,9 +23,9 @@
         \node[below,text=bold] at (0,-1.3) {\textbf{A Number Line}};
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
-<p>To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced intervals. These numbers are called the <term>natural</term> or <term>counting numbers</term>. The <term>whole numbers</term> include the natural numbers and zero:  0, 1, 2, 3, ... .</p> 
+<p>To the right of zero we mark the numbers 1, 2, 3, 4, ... at evenly spaced intervals. These numbers are called the <term>natural</term><idx><h>natural number</h></idx> or <term>counting numbers</term><idx>counting number</idx>. The <term>whole numbers</term><idx><h>whole number</h></idx> include the natural numbers and zero:  0, 1, 2, 3, ... .</p> 
 
-<assemblage><title>Integers</title> 
+<assemblage><title>Integers</title><idx><h>integer</h></idx>
 	<p>The natural numbers, zero, and the negatives of the natural numbers are called the <term>integers</term>:
     <me> \cdots -3,~ {-2},~ {-1},~ 0,~ 1,~ 2,~ 3 \cdots</me></p></assemblage> 
 
@@ -57,6 +57,7 @@
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
 <assemblage><title> Order Symbols</title>
+<idx><h>order symbol</h></idx><idx><h>order symbol</h><seealso>inequality</seealso></idx>
 <p>We use special symbols to indicate order:
 	<md><mrow>\blert{\lt} \amp ~~~~ \text{means}~~~~  \blert{\text{is less than}}</mrow>
         <mrow>\blert{\gt} \amp ~~~~ \text{means}~~~~  \blert{\text{is greater than}}</mrow></md></p></assemblage>
@@ -91,7 +92,6 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 </subsection>
 
 <subsection><title>Adding Two Numbers with the Same Sign</title>
-
 <p>We'll use number lines to review operations on signed numbers.</p>
 
 <assemblage><title>Case 1: The sum of two positive numbers</title>
@@ -146,7 +146,7 @@ The small ends of the symbols <m>\lt</m> and <m>\gt</m> always point to the smal
 <p>In the examples above, we see that:
 	<md><mrow>\amp \blert{\text{The sum of two positive numbers is positive.}}</mrow>
         <mrow>\amp \blert{\text{The sum of two negative numbers is negative.}}</mrow></md>               
-Thus, the sign of the sum is the same as the sign of the two terms. To find the value of the sum, we add the <term>absolute values</term>, or unsigned parts, of the two terms.</p></assemblage>
+Thus, the sign of the sum is the same as the sign of the two terms. To find the value of the sum, we add the <term>absolute values</term><idx>absolute value</idx>, or unsigned parts, of the two terms.</p></assemblage>
 
 <example><statement><p>Add  <m>(-4)+(-7)</m></p></statement>
 
@@ -154,7 +154,6 @@ Thus, the sign of the sum is the same as the sign of the two terms. To find the 
 </subsection>
 
 <subsection><title>Adding Two Numbers with Opposite Signs</title>
-
 <p>Suppose you have debts of $9, and assets of $6. (Your "assets" are your possessions.) What is your net worth?  We can model this situation by the sum
 	<me>-9+(+6)</me>
 where debts are represented by negative numbers and assets by positive numbers. If you use your $6 to pay off part of your debt, you will still owe $3, so your net worth is <m>-$3</m>. It makes sense that if your debts are greater than your assets, your net worth is negative.</p> 
@@ -196,7 +195,7 @@ where debts are represented by negative numbers and assets by positive numbers. 
 	<li>We subtract 5 from 9 to get 4, then make the answer negative, because <m>-9 </m> has a larger absolute value than <m>+5</m>. Thus,<m>(+5)+(-9)=-4.</m></li></ol></p></solution></example>
 
 <reading-questions>
-    <exercise number="2"><statement><p>What is the absolute value of a number?</p></statement>
+    <exercise number="2"><statement><p>What is the <term>absolute value</term><idx>absolute value</idx> of a number?</p></statement>
     	<answer><p>The unsigned part of the number.</p></answer></exercise>
     <exercise number="3"><statement><p>When we add two numbers with opposite signs, we <fillin characters="6"/> their absolute values.</p></statement>
     	<answer><p>subtract</p></answer></exercise>
@@ -204,7 +203,13 @@ where debts are represented by negative numbers and assets by positive numbers. 
 
 <p>We now have two rules for adding signed numbers.</p>
 
-<assemblage><title>Rules for Adding Integers</title><p><ol label="1">
+<assemblage><title>Rules for Adding Integers</title>
+<idx><h>addition</h><h>of signed numbers</h></idx>
+<idx><h>addition</h><h>rules for adding integers</h></idx>
+<idx><h>integer</h><h>rules for adding</h></idx>
+<idx><h>addition</h><h>of integers</h></idx>
+<idx><h>signed number</h><h>addition of</h></idx>
+<p><ol label="1">
 	<li>To add two numbers with the same sign, add their absolute values. The sum has the same sign as the numbers.</li>
 	<li>To add two numbers with opposite signs, subtract their absolute values. The sum has the same sign as the number with the larger absolute value.</li></ol></p></assemblage>
 </subsection>
@@ -251,7 +256,6 @@ where debts are represented by negative numbers and assets by positive numbers. 
 </subsection>
 
 <subsection><title>Subtracting a Negative Number</title>
-
 <p>When we add a negative number we move to the left on the number line. There are only two directions we can move on a number line, so when we subtract a negative number we must move to the right.</p>
 
 <assemblage><title>Subtracting a negative number</title>
@@ -312,6 +316,11 @@ Subtracting a negative number has the same result as adding the positive number 
 <p>From the examples above, we see that to subtract any number, positive or negative, we add its opposite. We can do this in steps as follows.</p>
 
 <assemblage><title>Rules for Subtracting Integers</title>
+<idx><h>subtraction</h><h>of signed numbers</h></idx>
+<idx><h>subtraction</h><h>rules for adding integers</h></idx>
+<idx><h>integer</h><h>rules for subtracting</h></idx>
+<idx><h>subtraction</h><h>of integers</h></idx>
+<idx><h>signed number</h><h>subtraction of</h></idx>
 <p>To subtract <m>b</m> from <m>a</m>:<ol label="1">
 	<li>Change the sign of <m>b</m>.</li>
 	<li>Change the subtraction to addition.</li>
@@ -437,6 +446,9 @@ We must perform additions and subtractions in order from left to right:
 </subsection>
 
 <subsection><title>Multiplying Signed Numbers</title>
+<idx><h>signed number</h><h>multiplying</h></idx>
+<idx><h>multiplication</h><h>of signed numbers</h></idx>
+<idx><h>product</h><h>of signed numbers</h></idx>
 
 <subsubsection><title>Case 1: The product of numbers with opposite signs</title>
 <p>We can think of multiplication as repeated addition.  For example,
@@ -475,13 +487,20 @@ Based on the pattern in these calculations, the following rule seems reasonable.
 
 <p>Now we have a pair of rules about the products of signed numbers.</p>
 
-<assemblage><title>Products of Signed Numbers</title><p><ol label="1">
+<assemblage><title>Products of Signed Numbers</title>
+<idx><h>signed number</h><h>multiplying</h></idx>
+<idx><h>multiplication</h><h>of signed numbers</h></idx>
+<idx><h>product</h><h>of signed numbers</h></idx>
+<p><ol label="1">
 	<li>The product of two numbers with opposite signs is a negative number.</li>
 	<li>The product of two numbers with the same sign is a positive number.</li></ol></p></assemblage>
 </subsubsection>
 </subsection>
 
 <subsection><title>Dividing Signed Numbers</title>
+<idx><h>signed number</h><h>division of</h></idx>
+<idx><h>division</h><h>of signed numbers</h></idx>
+<idx><h>quotient</h><h>of signed numbers</h></idx>
 
 <p>Division is the inverse operation for multiplication. For example, we know that
 	<me>\dfrac{12}{3}=\alert{4}~~~~~~\text{because}~~~~~~3 \cdot \alert{4} = 12</me>
@@ -499,7 +518,11 @@ Note that the numerator in the division fact becomes the product in the multipli
 
 <p>The Example above illustrates the rules for division of signed numbers.</p>
 
-<assemblage><title>Quotients of Signed Numbers</title><p><ol label="a">
+<assemblage><title>Quotients of Signed Numbers</title>
+<idx><h>signed number</h><h>division of</h></idx>
+<idx><h>division</h><h>of signed numbers</h></idx>
+<idx><h>quotient</h><h>of signed numbers</h></idx>
+<p><ol label="a">
 	<li>The quotient of two numbers with opposite signs is a negative number.</li>
 	<li>The quotient of two numbers with the same sign is a positive number.</li></ol></p></assemblage>
 
@@ -522,6 +545,7 @@ Note that the numerator in the division fact becomes the product in the multipli
 <p>For many of the calculations in algebra, it is more convenient to write a negative fraction with the minus sign in the numerator, like this: <m>\dfrac{-3}{4}</m>.</p> 
 
 <assemblage><title>Standard Form for Fractions</title>
+<idx><h>standard form</h><h>of writing negative fractions</h></idx><idx><h>fraction</h><h>standard for for writing negative fraction</h></idx>
 <p>A negative fraction is written in <term>standard form</term> when the minus sign is in the numerator:  <m>\dfrac{-a}{b}</m>.
 	<me>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</me>
 The standard form for a positive fraction has positive numerator and denominator.
@@ -529,7 +553,8 @@ The standard form for a positive fraction has positive numerator and denominator
 </subsection>
 
 <subsection><title>Quotients Involving Zero</title>
-
+<idx><h>quotient</h><h>involving zero</h></idx>
+<idx><h>division</h><h>involving zero</h></idx>
 <p>	What is the meaning of an expression such as <m>\dfrac{0}{2}</m>? We can rewrite this quotient as an equivalent multiplication fact.
 	<me>\dfrac{0}{2}=\alert{?}~~~~\text{is equivalent to}~~~~2 \cdot \alert{?} = 0</me> 
 What number can we substitute for the question mark to make <m>~2 \cdot \alert{?} = 0~</m> a true statement? The only solution for this equation is <m>0</m>. Thus, replacing the question marks by <m>0</m> we have
@@ -541,6 +566,8 @@ In general, 0 divided by any (non-zero) number is 0.</p>
 What number can we substitute for the question mark to make <m>~0 \cdot \alert{?} = 2~</m> a true statement? This equation has no solution, because 0 times any number is 0, not 2.  Thus, there is no answer for the division problem <m>\dfrac{2}{0}</m>. We say that the quotient <m>\dfrac{2}{0}</m> is <term>undefined</term>. In general, we cannot divide any number by zero.</p>
 
 <assemblage><title>Quotients Involving Zero</title>
+<idx><h>quotient</h><h>involving zero</h></idx>
+<idx><h>division</h><h>involving zero</h></idx>
 <p>If <m>a</m> is any nonzero number, then
 <me>\blert{\dfrac{0}{a} = 0}~~~~~~\text{and}~~~~~~ \blert{\dfrac{a}{0} ~~ \text{is undefined.}}</me></p></assemblage>
 

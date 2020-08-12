@@ -2,10 +2,12 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Intercepts"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Intercepts</title>
+<idx><h>intercept</h></idx>
 
 <subsection><title>Intercepts of a Line</title>
 
 <assemblage><title>Intercepts</title>
+<idx><h>intercept</h><h>of a line</h></idx>
     <p>The <term>intercepts</term> of a line are the points where the graph crosses the axes.</p></assemblage>
 
 <p>It is easy to recognize the intercepts of a line on a good graph. Here is a graph of the line  
@@ -47,7 +49,9 @@ The <m>y</m>-intercept is <m>(0,4)</m>, as we saw above. To find the <m>x</m>-in
         <mrow>-8  \amp = x</mrow></md>   
 The <m>x</m>-intercept is <m>(-8,0)</m>, as expected.</p></solution></example>
 
-<assemblage><title>To find the intercepts of a graph</title><p><ul>
+<assemblage><title>To find the intercepts of a graph</title>
+<idx><h>intercept</h><h>finding intercepts of a graph</h></idx>
+<p><ul>
 	<li><p>To find the <m>x</m>-intercept of a graph:</p>
 	<p>Substitute <m>0</m> for <m>y</m> in the equation and solve for <m>x</m>.</p></li>
 
@@ -63,6 +67,7 @@ The <m>x</m>-intercept is <m>(-8,0)</m>, as expected.</p></solution></example>
 </subsection>
 
 <subsection><title>The Intercept Method of Graphing</title>
+<idx><h>intercept</h><h>method of graphing</h></idx>
 
 <p>We can use the <m>x</m>- and <m>y</m>-intercepts to graph a linear equation quickly. Instead of choosing several different values of <m>x</m> to find points on the graph, we find the two intercepts and fill in the short table shown below.  By finding the missing values for <m>x</m> and <m>y</m> we are finding the intercepts of the graph.  
 	<sidebyside><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -133,7 +138,9 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 
 <p>The <term>intercept method</term> for graphing a line is often faster and more efficient than making a table and plotting points.</p>
 
-<assemblage><title>To Graph a Linear Equation Using the Intercept Method</title><p><ol label="1">
+<assemblage><title>To Graph a Linear Equation Using the Intercept Method</title>
+<idx><h>intercept</h><h>method of graphing</h></idx>
+<p><ol label="1">
 	<li><p>Find the <m>x</m>- and <m>y</m>-intercepts of the graph.</p></li>   
 	<li>Draw the line through the two intercepts.</li>
 	<li>Find a third point on the graph as a check. (Choose any convenient value for <m>x</m> and solve for <m>y</m>.)</li>
@@ -160,6 +167,7 @@ You can check that the point <m>(1,2)</m> lies on the graph.</p></solution></exa
 </subsection>
 
 <subsection><title>Interpreting the Intercepts</title>
+<idx><h>intercept</h><h>interpreting</h></idx>
 
 <p>The intercepts of a graph give us valuable information about a problem. They often represent the starting or ending values for a particular variable.</p>
 

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Slope-Intercept-Form"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Slope-Intercept Form</title>
+<section xml:id="Slope-Intercept-Form"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Slope-Intercept Form</title><idx><h>slope-intercept form</h></idx>
 
 <subsection><title>Writing a Linear Equation</title>
+<idx><h>linear equation</h><h>writing</h></idx>
 
 <p>In <xref ref="Slope">Lesson</xref>, we plotted data for the temperature inside an oven used to cure pottery.</p>
     <sidebyside widths="55% 40%" valigns="middle middle" margins="0% 0%"><stack><tabular top="major" halign="center" right="minor" left="minor" bottom="minor">            

@@ -5,7 +5,7 @@
 
 <subsection><title>Quadratic Equations</title>
 
-<p>So far you have learned how to solve linear equations. In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term>. In this chapter we'll consider second-degree equations, or <term>quadratic equations</term>.</p>
+<p>So far you have learned how to solve linear equations. In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term><idx><h>first-degree</h></idx><idx><h>first-degree</h><seealso>linear</seealso></idx><idx><h>equation</h><h>first-degree</h></idx>. In this chapter we'll consider second-degree equations, or <term>quadratic equations</term>.</p>
 
 <assemblage><title>Quadratic Equations</title>
 <p>A <term>quadratic equation</term> can be written in the standard form 

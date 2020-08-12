@@ -3,9 +3,11 @@
 
 <section xml:id="Variables"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Variables</title>
     
-<subsection><title>What is a Variable?</title>   
+<subsection><title>What is a Variable?</title>
+<idx>variable</idx>
                    
 <assemblage><title>Variable</title>
+<idx>variable</idx>
     <p>A <term>variable</term> is a numerical quantity that changes over time or in different situations.</p></assemblage>
 
     <p>We can show the values of a variable in a table or a graph.</p>
@@ -212,7 +214,7 @@
 <p><ol label="a">
     <li>Fill in the blanks in the table.  Describe in words how you found the unknown values.   
         <me>\blert{\text{Divide the rent by 4}}</me></li>
-    <li>Write a mathematical sentence that gives Fernando's share of the total rent.
+    <li>Write a mathematical sentence <idx>mathematical sentence</idx> that gives Fernando's share of the total rent.
         <me>\blert{\text{Fernando's share}=\text{Rent}\div 4}</me></li>
     <li>The total rent and Fernando's share are variables. Let <m>R</m> stand for the total rent, and let <m>F</m> stand for Fernando's share. Using these letters, write a formula for Fernando's share of the rent.
         <me>\blert{F=R \div 4}</me></li>
@@ -238,7 +240,9 @@
         \end{tikzpicture}]]></latex-image></image></sidebyside></li>         
    </ol></p></statement></example>
 
-<assemblage><p>A formula relating two variables is a type of <term>equation</term>, and an equation is just a statement that two quantities are equal.</p></assemblage>
+<assemblage>
+    <idx>mathematical sentence</idx>
+    <p>A formula <idx>formula</idx> relating two variables is a type of <term>equation</term><idx>equation</idx>, and an equation is just a statement that two quantities are equal.</p></assemblage>
 
 <p>By studying the values in a table, we may be able to find a relationship between the values, and then write an equation relating the two variables. </p>
 
@@ -404,7 +408,7 @@ and so on. In each column, we can find <m>y</m> by subtracting 3 from <m>x</m>. 
                     </tabular></sidebyside></li>
         <li>During which year did the number of unemployed workers increase the most?</li></ol></p></subsubsection>
 
-<subsubsection><title>Activity 2: Writing Mathematical Sentences</title>
+<subsubsection><title>Activity 2: Writing Mathematical Sentences</title><idx>mathematical sentence</idx>
 
 <p><ol label="1">
     <li><p>Barry lives with his aunt while he attends college. Every week he gives her $20 from his paycheck to help pay for groceries. Fill in the table:</p>
