@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Problem-Solving-with-Systems"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Solving with Systems</title>
+<section xml:id="Problem-Solving-with-Systems"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Problem Solving with Systems</title><idx><h>system of equations</h><h>problem solving with</h></idx>
 
 <subsection><p>In this section we explore some applications of systems of equations.  We begin by reviewing some familiar formulas. </p></subsection>
 
-<subsection><title>Interest</title>
+<subsection><title>Interest</title><idx><h>interest</h></idx>
 
 <p>Recall the formula for calculating interest,
 <me>\blert{I=Prt}</me>
@@ -172,7 +172,8 @@ Thus, Mort invested $3000 in the savings plan and $1500 in the mutual fund.</p><
 </reading-questions>
 </subsection>
 
-<subsection><title>Mixtures</title>
+<subsection><title>Mixtures</title><idx><h>percent</h></idx>
+<idx><h>mixtures</h></idx><idx><h>mixtures</h><seealso>percent</seealso></idx>
 
 <p>A pharmacist has on hand 20 ounces of a certain drug at 40% strength, but she needs a small quantity of the drug at 75% strength for a prescription. She decides to add a pure form of the drug to the 40% solution. How much should she add to make a mixture of 75% strength?</p>
 
@@ -351,6 +352,7 @@ or <m>x=15</m>. The chemist needs 15 milliliters of the 20% solution and 30 mill
 </subsection>
 
 <subsection><title>Motion</title>
+<idx><h>motion problems</h></idx>
 
 <p>We can also use systems of equations to solve problems involving motion at a constant speed.  We'll need the formula <m>\blert{D=RT}</m>.</p>
 

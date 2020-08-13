@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Systems-of-Linear-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Systems of Linear Equations</title>
+<section xml:id="Systems-of-Linear-Equations"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Systems of Linear Equations</title><idx><h>system of linear equations</h></idx>
+<idx><h>system of linear equations</h><seealso>system of equations</seealso></idx>
 
 <subsection><title>What is a System of Equations?</title>
 
@@ -21,6 +22,7 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
 </p></assemblage>
 
 <assemblage><title>System</title>
+<idx><h>system of linear equations</h></idx>
     <p>A pair of linear equations with the same variables is called a <term>system of linear equations</term>.</p>
 </assemblage> 
 
@@ -59,6 +61,8 @@ Let <m>E</m> stand for the total cost of running the energy-efficient refrigerat
 <p>In <xref ref="Example-4-2-2" text="type-global"/> we found an ordered pair, <m>(50,1300)</m>,that makes both equations true.</p>
 
 <assemblage><title>Solution to a System</title>
+<idx><h>system of linear equations</h><h>solution</h></idx>
+<idx><h>solution</h><h>to a system of equations</h></idx>
     <p>A <term>solution</term> to a system of equations is an ordered pair <m>(x,y)</m> that satisfies each equation in the system.</p></assemblage>
 
 <p>To check whether <m>(50,1300)</m> is really a solution of the system, we substitute the coordinates into each equation.
@@ -77,6 +81,7 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 </subsection>
 
 <subsection><title>Solving a System of Equations by Graphing</title>
+<idx><h>system of equations</h><h>solve by graphing</h></idx>
 
 <p>The solution of a system satisfies both equations in the system, so the point that represents the solution must lie on both graphs. It is the intersection point of the two lines described by the system. Thus, we can solve a system of equations by graphing the equations and looking for the point (or points) where the graphs intersect.</p>
 
@@ -115,6 +120,10 @@ We have verified that the ordered pair <m>(50,1300)</m> is a solution to the sys
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
+<idx><h>system of equations</h><h>inconsistent</h></idx>
+<idx><h>inconsistent system of equations</h></idx>
+<idx><h>system of equations</h><h>dependent</h></idx>
+<idx><h>dependent system of equations</h></idx>
 
 <example xml:id="Example-4-2-4"><statement><p>Delbert and Francine are also shopping for homeowners insurance. HomeLife offers a policy for semiannual premiums of $408, or they can join a co-op for $50 and pay just $68 per month for comparable coverage. Which option is less expensive in the long run?</p></statement>
 
@@ -146,7 +155,9 @@ because a semiannual premium covers 6 months. The solution of the system represe
 
 <p>As you can see, the two lines are parallel, so the graphs do not intersect. This system has no solution. There is no point where the two policies cost the same amount; the HomeLife policy is always less expensive.</p></solution></example>
 
-<p>In <xref ref="Example-4-2-4" text="type-global"/>, the two graphs never intersect, so the system has no solution. Such a system is called <term>inconsistent</term>. There is a third possibility:  Both equations may have the same graph.</p>   
+<p>In <xref ref="Example-4-2-4" text="type-global"/>, the two graphs never intersect, so the system has no solution. Such a system is called <term>inconsistent</term><idx><h>system of equations</h><h>inconsistent</h></idx>
+<idx><h>inconsistent system of equations</h></idx>
+. There is a third possibility:  Both equations may have the same graph.</p>   
 <example xml:id="Example-4-2-5"><statement><p>Solve the system
 		<md><mrow>y=2x+2</mrow>
 				<mrow>6x-3y=-6</mrow></md></p></statement>
@@ -179,7 +190,8 @@ Its graph is shown below.</p>
 	<md><mrow>6x-3y \amp = -6 \amp\amp \blert{\text{Add}~3y~\text{and 6 to both sides.}}</mrow>
         <mrow>6x+6 \amp = 3y \amp\amp \blert{\text{Divide both sides by 3.}}</mrow>
         <mrow>2x+2 \amp = y</mrow></md>            
-The second equation is the same as the first equation. A system in which the two equations are equivalent is called <term>dependent</term>. A dependent system has infinitely many solutions: Every point on the graph is a solution to the system.</p>
+The second equation is the same as the first equation. A system in which the two equations are equivalent is called <term>dependent</term><idx><h>system of equations</h><h>dependent</h></idx><idx><h>dependent system of equations</h></idx>
+. A dependent system has infinitely many solutions: Every point on the graph is a solution to the system.</p>
 
 <p>We have now seen three types of systems. These are illustrated in the figure below. Most of the systems we will study have exactly one solution. Such systems are called <term>consistent and independent</term><idx>consistent and independent</idx>.</p>
     <sidebyside width="100%"><!--<image source="images/fig-4-2-1.png"><description>graph</description></image>-->
@@ -229,7 +241,15 @@ The second equation is the same as the first equation. A system in which the two
         \node[text=blue, align=center] at (\delx,-6.75) {Dependent;\\infinitely many solutions};
         \end{tikzpicture}]]></latex-image></image></sidebyside>
 
-<assemblage><p><ol label="1">
+<assemblage>
+<idx><h>system of equations</h><h>inconsistent</h></idx>
+<idx><h>inconsistent system of equations</h></idx>
+<idx><h>system of equations</h><h>dependent</h></idx>
+<idx><h>dependent system of equations</h></idx>
+<idx><h>system of equations</h><h>consistent and independent</h></idx>
+<idx><h>consistent system of equations</h></idx>
+<idx><h>independent system of equations</h></idx>
+  <p><ol label="1">
 	<li><term>Consistent and independent system.</term> The graphs of the two lines intersect in exactly one point. The system has exactly one solution.</li>  
 	<li><term>Inconsistent system.</term> The graphs of the equations are parallel lines and hence do not intersect. An inconsistent system has no solutions.</li>
 	<li><term>Dependent system.</term> All the solutions of one equation are also solutions to the second equation, and hence are solutions of the system. The graphs of the two equations are the same line. A dependent system has infinitely many solutions.</li></ol></p></assemblage>

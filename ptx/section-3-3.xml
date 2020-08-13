@@ -109,9 +109,10 @@ or 0.4 degree per minute. This is less than the maximum rate recommended for cur
     \node[text=black,fill=white, inner sep=2] at (37.5,25.5) {$\Delta x = 30$};
     \node[right,text=black,fill=white, inner sep=2] at (52,34) {$\Delta y = 30$};
     \end{tikzpicture}]]></latex-image></image></sidebyside> 
-<p>The rate of change of one variable with respect to another is so important in applications that the ratio <m>\dfrac{\Delta y}{\Delta x}</m> is given a name; it is called <term>slope</term>, and is usually denoted by the letter <m>m</m>.</p>
+<p>The rate of change of one variable with respect to another is so important in applications that the ratio <m>\dfrac{\Delta y}{\Delta x}</m> is given a name; it is called <term>slope</term>, and is usually denoted by the letter <m>m</m><idx><em>m</em> as slope</idx>.</p>
 
-<assemblage><title>Slope</title><idx><h>slope</h></idx>
+<assemblage><title>Slope</title>
+<idx><h>slope</h></idx><idx><h>slope</h><h>formula for</h></idx>
 <p>The <term>slope</term> of a line is defined by the ratio
 	<me>\blert{\dfrac{\text{change in } y\text{-coordinate}}{\text{change in } x\text{-coordinate}}}</me>
 as we move from one point to another on the line. In symbols,

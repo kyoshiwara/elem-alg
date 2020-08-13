@@ -2,6 +2,7 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="The-Quadratic-Formula" xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Quadratic Formula</title>
+<idx><h>quadratic formula</h></idx>
 
 <subsection>
 <sidebyside widths="65% 30%" valigns="middle middle"><p>The graph of the equation
@@ -36,10 +37,10 @@ is shown at right. By reading the graph, we estimate the <m>x</m>-intercepts at 
 
 <p>The graph of the quadratic equation  
 	<me>y=ax^2+bx+c</me>
-depends upon its coefficients, <m>a,~b,</m> and <m>c</m>. In particular, the <m>x</m>-intercepts of the graph are determined by the values of these coefficients. In fact, there is a formula that uses the coefficients to calculate the solutions of the equation <m>ax^2+bx+c=0</m>.  It is called the <term>quadratic formula</term>.</p>
+depends upon its coefficients, <idx><h>coefficient</h><h>of quadratic equation</h></idx> <m>a,~b,</m> and <m>c</m>. In particular, the <m>x</m>-intercepts of the graph are determined by the values of these coefficients.  In fact, there is a formula that uses the coefficients to calculate the solutions of the equation <m>ax^2+bx+c=0</m>.  It is called the <term>quadratic formula</term>.</p>
 
 <assemblage><title>The Quadratic Formula</title>
-<p>The solutions of the equation
+<idx><h>quadratic formula</h></idx><p>The solutions of the equation
 	<me>ax^2+bx+c=0,~~~~a \not= 0</me>
 are given by the formula
 	<me>\blert{x=\dfrac{-b \pm \sqrt{b^2-4ac}}{2a}}</me></p></assemblage>  
@@ -107,6 +108,7 @@ These values are very close to our estimates from the graph.</p></solution></exa
 </subsection>
 
 <subsection><title>Non-Real Solutions</title>
+<idx><h>non-real</h><h>solutions</h></idx>
 
 <sidebyside widths="60% 30%"><p>The graph of 
 	<me>y=x^2-4x+5</me>
@@ -137,16 +139,17 @@ has no <m>x</m>-intercepts, as you can see in the figure at right. Nonetheless, 
 				<mrow> \amp = \dfrac{4 \pm \sqrt{16-20}}{2} = \dfrac{4 \pm \sqrt{-4}}{2}</mrow></md>
   
 We cannot continue with the calculation because <m>\sqrt{-4}</m> is undefined;  it is not equal to any real number.  This quadratic equation does not have any real-valued solutions, and that is why the graph of <m>y=x^2-4x+5</m> does not have any <m>x</m>-intercepts.</p>
-<p>The solutions to the equation above are a type of number called <term>complex numbers</term>. If a quadratic equation does not have real-valued solutions, then its graph will not have <m>x</m>-intercepts.</p>
+<p>The solutions to the equation above are a type of number called <term>complex numbers</term><idx><h>complex number</h></idx>. If a quadratic equation does not have real-valued solutions, then its graph will not have <m>x</m>-intercepts.</p>
 
 <assemblage><p>Every quadratic equation has two solutions. The nature of those solutions determines the nature of the <m>x</m>-intercepts of the graph. </p></assemblage>
 
 <assemblage><title><m>x</m>-Intercepts of <m>y=ax^2+bx+c</m></title>
+<idx><h>quadratic equation</h><h>nature of solutions</h></idx>
 <p>The <m>x</m>-intercepts of the graph of <m>y=ax^2+bx+c</m> are the solutions of
 <me> ax^2+bx+c=0</me>There are three possibilities.<ol label="1"> 
 	<li>If both solutions are real numbers, and unequal, the graph has two <m>x</m>-intercepts.</li>
 	<li>If the solutions are real and equal, the graph has one <m>x</m>-intercept, which is also its vertex.</li>
-	<li>If both solutions are non-real complex numbers, the graph has no <m>x</m>-intercepts.</li></ol></p></assemblage>
+	<li>If both solutions are non-real <idx><h>non-real</h></idx> complex numbers, the graph has no <m>x</m>-intercepts.</li></ol></p></assemblage>
 
 <reading-questions>
     <exercise number="4"><statement><p>If a quadratic equation has no real solutions, what does that tell you about 

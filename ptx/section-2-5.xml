@@ -59,7 +59,7 @@ We can add two <m>x</m>'s to three <m>x</m>'s and get five <m>x</m>'s, just as w
 
 <assemblage><title>Numerical Coefficient</title>
 <idx><h>numerical coefficient</h></idx><idx><h>numerical coefficient</h><seealso>coefficient</seealso></idx><idx><h>coefficient</h></idx>
-    <p>The numerical factor in a term is called the <term>numerical coefficient</term>, or just the <term>coefficient</term> of the term.</p></assemblage>
+    <p>The numerical factor <idx><h>factor</h></idx> in a term is called the <term>numerical coefficient</term>, or just the <term>coefficient</term> of the term.</p></assemblage>
 
 <example><statement><p><ol label="a">
 	<li>In the expression <m>3xy</m>, the number 3 is the numerical coefficient.</li>  

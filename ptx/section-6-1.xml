@@ -2,12 +2,16 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Extracting-Roots" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Extracting Roots</title>
-
+<idx><h>roots</h><h>extraction of</h></idx>
+<idx><h>roots</h><h>extraction of</h><seealso>quadratic equation</seealso></idx>
 <subsection><title>Quadratic Equations</title>
-
-<p>So far you have learned how to solve linear equations. In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term><idx><h>first-degree</h></idx><idx><h>first-degree</h><seealso>linear</seealso></idx><idx><h>equation</h><h>first-degree</h></idx>. In this chapter we'll consider second-degree equations, or <term>quadratic equations</term>.</p>
+<idx><h>quadratic equation</h></idx><idx><h>quadratic</h></idx>
+<idx><h>quadratic</h><seealso>polynomial</seealso></idx>
+<idx><h>quadratic</h><seealso>equation</seealso></idx>
+<p>So far you have learned how to solve linear equations. In linear equations, the variable cannot have any exponent other than 1, and for this reason such equations are often called <term>first-degree</term><idx><h>first-degree</h></idx><idx><h>first-degree</h><seealso>linear</seealso></idx><idx><h>equation</h><h>first-degree</h></idx>. In this chapter we'll consider second-degree <idx><h>second-degree</h></idx><idx><h>second-degree</h><seealso>quadratic</seealso></idx> equations, or <term>quadratic equations</term><idx>quadratic equation</idx>.</p>
 
 <assemblage><title>Quadratic Equations</title>
+<idx><h>quadratic equation</h></idx>
 <p>A <term>quadratic equation</term> can be written in the standard form 
 	<me>ax^2+bx+c=0</me>
 where <m>a,~b,</m> and <m>c</m> are constants, and <m>a</m> is not zero.</p></assemblage>  
@@ -29,10 +33,16 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
 </subsection> 
 
 <subsection><title>Graphs of Quadratic Equations</title>
+<idx><h>quadratic equation</h><h>graph of</h></idx>
+<idx><h>quadratic equation</h><h>graph of</h><seealso><h>parabola</h></seealso></idx>
+<idx><h>graph</h><h>of quadratic equation</h></idx>
+<idx><h>graph</h><h>of quadratic equation</h><seealso>parabola</seealso></idx>
+<idx><h>equation</h><h>of parabola</h><see>quadratic equation</see></idx>
+<idx><h>parabola</h></idx>
 
 <sidebyside widths="60% 25%" valigns="middle middle" margins="0% 0%"><stack><p>Quadratic equations appear in a variety of applications. A quadratic equation in two variables has the form
 	<me>y=ax^2+bx+c,~~a \not= 0</me>
- Its graph is not a straight line, but a curve called a <term>parabola</term>. The simplest, or basic, parabola is the graph of <m>y=x^2</m>, shown in the figure. </p>
+ Its graph is not a straight line, but a curve called a <term>parabola</term><idx><h>parabola</h></idx>. The simplest, or basic, parabola is the graph of <m>y=x^2</m>, shown in the figure. </p>
  <tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
                     <row bottom="minor">
                         <cell><m>x</m></cell>
@@ -110,6 +120,7 @@ The first equation is already written in standard form, with <m>a=2,~b=5</m> and
 </subsection>
 
 <subsection><title>Solving Quadratic Equations</title>
+<idx><h>quadratic equation</h><h>solving</h></idx>
 
 <p>Consider a simple quadratic equation,
 	<me>x^2=16</me>
@@ -159,6 +170,7 @@ This equation tells us that <m>x</m> is a number whose square is 16. Thus, <m>x<
 </subsection>
 
 <subsection><title>Extraction of Roots</title>
+<idx><h>extraction of roots</h></idx>
 
 <sidebyside widths="55% 35%"><stack><p>The figure at right shows a graph of the quadratic equation <m>y=2x^2-5</m>.</p><p> 
 	<tabular top="major" halign="center" right="minor" left="minor" bottom="minor">              
@@ -235,6 +247,8 @@ The exact solutions are thus <m>\sqrt{6}</m> and <m>-\sqrt{6}</m>. (Don't forget
 <p>This method for solving quadratic equations is called <term>extraction of roots</term>. The method applies to quadratic equation of the form <m>ax^2+c=0</m>, where the linear term <m>bx</m> is missing.</p>
 
 <assemblage><title>Extraction of Roots</title>
+<idx><h>extraction of roots</h></idx>
+<idx><h>quadratic</h><h>solve by extraction of roots</h></idx>
 	<p>To solve a quadratic equation of the form
 		<me>ax^2+c=0</me><ol label="1">
 	<li>Isolate <m>x^2</m> on one side of the equation.</li> 
@@ -299,6 +313,7 @@ The exact solutions are thus <m>\sqrt{6}</m> and <m>-\sqrt{6}</m>. (Don't forget
 </subsection>
 
 <subsection><title>Solving Formulas</title>
+<idx><h>formula</h><h>solving for a variable (with quadratic term)</h></idx>
 
 <p>Extraction of roots can be used to solve some formulas with a quadratic term.</p>
 

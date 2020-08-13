@@ -2,8 +2,11 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Products-of-Binomials" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Products of Binomials</title>
-
+<idx><h>binomial</h><h>product of</h></idx>
+<idx><h>product</h><h>of binomials</h></idx>
 <subsection><title>Products of Variables</title>
+<idx><h>product</h><h>of variables</h></idx>
+<idx><h>product</h><h>of variables</h><seealso>power</seealso></idx>
 
 <p>In Section 5.1, we learned to simplify the sum of two algebraic expressions by combining like terms. In this section we see how to multiply algebraic expressions.</p>
 
@@ -45,6 +48,7 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 </subsection>
 
 <subsection><title>Using the Distributive Law</title>
+<idx><h>distributive law</h><h>with algebraic expressions</h></idx>
 
 <p>We can use the areas of rectangles to investigate products of algebraic expressions. Recall that we find the area of a rectangle by multiplying its length times its width, <m>A=lw</m>. We have already used rectangles to visualize the distributive law.  Here are some examples.</p>
  
@@ -65,11 +69,12 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 
 <p>At this stage it will be helpful to introduce some terminology. </p>
 
-<assemblage><title>Algebraic Expressions</title><p><ul>
-	<li>An algebraic expression with only one term, such as <m>2x^3</m>, is called a <term>monomial</term>.</li>  
-	<li>An expression with two terms, such as <m>x^2-16</m>, is called a <term>binomial</term>.</li> 
-	<li>An expression with three terms is a <term>trinomial</term>.</li> 
-	<li>The expression <m>ax^2+bx+c</m> is thus called a <term>quadratic trinomial</term>, because it involves 
+<assemblage><title>Algebraic Expressions</title>
+<p><ul>
+	<li>An algebraic expression with only one term, such as <m>2x^3</m>, is called a <term>monomial</term><idx><h>monomial</h></idx>.</li>  
+	<li>An expression with two terms, such as <m>x^2-16</m>, is called a <term>binomial</term><idx><h>binomial</h></idx>.</li> 
+	<li>An expression with three terms is a <term>trinomial</term><idx><h>trinomial</h></idx><idx><h>trinomial</h><seealso>quadratic trinomial</seealso></idx>.</li> 
+	<li>The expression <m>ax^2+bx+c</m> is thus called a <term>quadratic trinomial</term><idx><h>quadratic trinomial</h></idx>, because it involves 
 		the square of the variable.</li></ul></p></assemblage>
 
 <warning><p>Notice the difference between <m>(3a)(2a)</m> and <m>3a(2+a)</m>:<ul>
@@ -85,6 +90,8 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 </subsection>
 
 <subsection><title>Multiplying Binomials</title>
+<idx><h>binomial</h><h>multiplying</h></idx>
+<idx><h>multiplying</h><h>binomials</h></idx>
 
 <sidebyside widths="68% 28%" valigns="middle middle" margins="0% 0%"><p>Consider the rectangle shown at right. As you can see, it is divided into four smaller rectangles. You can verify that we get the same answer when we compute its area in two different ways: We can add up the areas of the four smaller rectangles, or we can find the length and width of the entire large rectangle and then find their product:</p>
 <image source="images/fig-5-4-1"><description>rectangle</description></image></sidebyside>
@@ -122,10 +129,11 @@ When we multiply expressions, we multiply the coefficients and we multiply the v
 </subsection>
 
 <subsection><title>The Four Terms in a Binomial Product</title>
-
+<idx><h>FOIL (terms of binomial product)</h></idx>
 <p>	Using a rectangle to multiply binomials illustrates how the distributive law works. Analyzing the rectangle method will help us in a later Lesson, when we reverse the process to factor a quadratic trinomial. Let us take a closer look at the example above.</p>
 
 <assemblage><title>Look Closer</title>
+<idx><h>FOIL (terms of binomial product)</h></idx>
 <sidebyside widths="50% 30%" valigns="middle middle"><p>In <xref ref="Example-5-4-3" text="type-global"/> we computed the product <m>(x-4)(x+6)</m>. The top row of the rectangle corresponds to
     <me>x(x+6)=x^2+6x</me>
 and the bottom row corresponds to
@@ -137,7 +145,8 @@ Each term of the product corresponds to the area of one of the four sub-rectangl
 <sidebyside width="75%"><image source="images/fig-5-4-2"><description>product of binomials and rectangle</description></image></sidebyside>
 </assemblage>
 
-<p>The letters  <m>\blert{\text{F,  O,  I,  L}}</m>  indicate the four steps in computing the product:<ol label="1">
+<p>The letters  <m>\blert{\text{F,  O,  I,  L}}</m>  indicate the four steps in computing the product:<idx><h>FOIL (terms of binomial product)</h></idx>
+<ol label="1">
 	<li><m>\blert{\text{F}}</m>	stands for the product of the <m>\blert{\text{First}}</m> terms in each binomial.</li>
 	<li><m>\blert{\text{O}}</m> stands for the product of the <m>\blert{\text{Outer}}</m> terms.</li>
 	<li><m>\blert{\text{I}}</m> stands for the product of the <m>\blert{\text{Inner}}</m> terms.</li>
@@ -147,7 +156,8 @@ Each term of the product corresponds to the area of one of the four sub-rectangl
 	<md><mrow>(x+6)(x-4)= \amp x^2+2x-24</mrow>
 		<mrow> \amp \blert{\text{F}~~~~~~~\text{O+I}~~~~~~~\text{L}}</mrow></md></p>
 
-<assemblage><p><ul>
+<assemblage><idx><h>FOIL (terms of binomial product)</h></idx>
+<p><ul>
 	<li>The quadratic term in the product comes from the First terms.</li>
 	<li>The linear or <m>x</m>-term of the product is the sum of Outer and Inner.</li> 
 	<li>The constant term of the product comes from the Last terms.</li></ul></p></assemblage>

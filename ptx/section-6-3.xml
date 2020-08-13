@@ -4,6 +4,7 @@
 <section xml:id="Solving-Quadratic-Equations-by-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Solving Quadratic Equations by Factoring</title>
 
 <subsection><title>The Zero-Factor Principle</title>
+<idx><h>zero-factor principle</h></idx>
 
 <p>	In <xref ref="Some-Quadratic-Models">Lesson</xref> we applied the Zero-Factor Principle to solve quadratic equations of the form  <m>ax^2+bx+c=0</m>.  For reference, here is the statement of the Zero-Factor Principle.</p>  
 
@@ -38,6 +39,7 @@
 </subsection>
 
 <subsection><title>Factoring Quadratic Trinomials</title>
+<idx><h>factoring</h><h>quadratic trinomials</h></idx>
 
 <p>In <xref ref="Some-Quadratic-Models">Lesson</xref> we learned to factor quadratic expressions of the form <m>ax^2+bx</m>. Now we consider quadratic trinomials of the form <m>x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
 	<me>x^2+7x+12=(x+3)(x+4)</me></p>
@@ -74,7 +76,9 @@
 
 <p>We make several observations about this product.</p>
     
-<assemblage><p><ol label="1">
+<assemblage>
+<idx><h>FOIL (terms of binomial product)</h></idx>
+<p><ol label="1">
 	<li>The quadratic term, <m>x^2</m>, comes from the product of the First terms in each binomial.</li>  
 	<li>The constant term, <m>12</m>, is the product of the Last terms.</li>  
 	<li>The middle term, <m>7x</m>, is the sum of two terms, the product of the Inside terms and the product of the Outside terms.</li></ol></p></assemblage>
@@ -90,6 +94,7 @@ We see that the constant term of the trinomial is the product <m>pq</m>, and the
 	<me>x^2+7x+12=(x+3)(x+4)</me></p>
 
 <assemblage><title>To Factor a Quadratic Trinomial</title>
+<idx><h>factoring</h><h>quadratic trinomials</h></idx>
 <p>	To factor <m>x^2+bx+c</m>, we look for two numbers <m>p</m> and <m>q</m> so that   
 		<me>\blert{pq=c}~~~~\text{and}~~~~\blert{p+q=b}</me></p></assemblage>
 
@@ -133,6 +138,7 @@ where <m>pq=40</m> and <m>p+q=13</m>. To find the numbers <m>p</m> and <m>q</m>,
 <p>In the Activities we'll see how to factor trinomials with negative coefficients. Here are the results.</p></assemblage>
 
 <assemblage><title>Sign Patterns for Factoring Quadratic Trinomials</title>
+<idx><h>factoring</h><h>quadratic trinomials</h></idx>
 <p>Assume that <m>b,~c,~p,</m> and <m>q</m> are positive integers.<ol label="1">  
 	<li><p><m>x^2+bx+c=(x+p)(x+q)</m></p>	
 	<p>If all the coefficients of the trinomial are positive, then both <m>p</m> and <m>q</m> are positive.</p></li>
@@ -152,6 +158,7 @@ You can check the factorization by multiplying the two binomials to see that the
 </subsection>
 
 <subsection><title>Solving a Quadratic Equation</title>
+<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
 
 <p>	Now we can use factoring to solve a quadratic equation.</p>
 
@@ -176,7 +183,9 @@ We cannot apply the Zero-Factor principle to this equation.</p></warning>
 
 <p>Here is our method for solving a quadratic equation by factoring.</p>
 
-<assemblage><title>To Solve a Quadratic Equation by Factoring</title><p><ol label="1">
+<assemblage><title>To Solve a Quadratic Equation by Factoring</title>
+<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
+<p><ol label="1">
 	<li>Write the equation in standard form, 
 		<me>ax^2+bx+c=0~~~~~~(a \not= 0)</me></li>       
 	<li>Factor the left side of the equation.</li>
