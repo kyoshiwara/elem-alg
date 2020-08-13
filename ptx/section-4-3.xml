@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Algebraic-Solution-of-Systems"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Solution of Systems</title>
+<section xml:id="Algebraic-Solution-of-Systems"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Algebraic Solution of Systems</title><idx><h>solution</h><h>to a system of equations</h></idx><idx><h>system of equations</h><h>algebraic solution</h></idx>
 
 <subsection>
 <p>In the previous Lesson, we compared the costs of operating two different refrigerators, a standard model and an energy-efficient model. We wrote a system of equations for this problem,</p>  
@@ -26,6 +26,7 @@ We find that <m>x=50</m>, the same answer we got using graphing. Substituting <m
 </subsection>
 
 <subsection><title>Substitution Method</title>
+<idx><h>substitution method</h></idx><idx><h>substitution method</h><seealso>system of equations</seealso></idx>
 
 <p>In <xref ref="Example-4-3-1" text="type-global"/>, we solved the system by equating the two expressions for <m>y</m>. We can think of this procedure as substituting the expression for <m>y</m> from one equation into the other equation, like this:</p>
 <sidebyside width="83%"><!--<image source="images/fig-4-3-1.png"><description>graphic</description></image>-->
@@ -95,6 +96,7 @@ The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. Y
 <p>Here is a summary of the substitution method.</p>
 
 <assemblage><title>To Solve a System by Substitution</title>
+<idx><h>system of equations</h><h>solve by substitution method</h></idx>
 <p><ol label="1">
 	<li>Choose one of the variables in one of the equations. (It is best to choose a variable whose coefficient is 1 or <m>-1</m>.)  Solve the equation for that variable.</li>
 	<li>Substitute the result of Step 1 into the other equation. This gives an equation in one variable.</li>
@@ -105,7 +107,7 @@ The solution to the system is <m>x=-3,~ y=10</m>, or the point <m>(-3,10)</m>. Y
 
 <subsection><title>Elimination Method</title>
 
-<p>A second algebraic method for solving systems is called <term>elimination</term>. As with the substitution method, we try to obtain an equation in a single variable, but we do it by eliminating one of the variables in the system. We first put both equations into the general linear form, <m>Ax+By = C</m>.</p> 
+<p>A second algebraic method for solving systems is called <term>elimination</term><idx><h>elimination method</h></idx><idx><h>elimination method</h><seealso>system of equations</seealso></idx>. As with the substitution method, we try to obtain an equation in a single variable, but we do it by eliminating one of the variables in the system. We first put both equations into the general linear form, <m>Ax+By = C</m>.</p> 
 
 <example><statement><p>Solve the system
         <md><mrow>5x=2y+21</mrow>
@@ -156,9 +158,10 @@ The <m>y</m>-terms were eliminated, and we solve the resulting equation for <m>x
 <warning><p>In <xref ref="Example-4-3-4" text="type-global"/>, we multiplied both sides of the equation <m>3x+y=-1</m> by <m>-3</m>. (This is an application of the Multiplication Property of Equality.) We must be careful to multiply every term on both sides of the equation by the same constant. Otherwise, we won't have an equivalent equation -- its solutions will not be the same.</p></warning> 
 
 <assemblage><title>Linear Combination</title>
+<idx><h>linear combination</h></idx>
 <p>When we add a multiple of one equation to the other we are making a <term>linear combination</term> of the equations.</p></assemblage>
 
-<p>The method of elimination is also called the method of linear combinations. Sometimes it is necessary to multiply both equations by suitable constants in order to eliminate one of the variables.</p>
+<p>The method of elimination is also called the <term>method of linear combinations</term><idx><h>linear combination</h></idx><idx><h>linear combination</h><seealso>system of equations</seealso></idx>. Sometimes it is necessary to multiply both equations by suitable constants in order to eliminate one of the variables.</p>
 
 <example><statement><p>Use linear combinations to solve the system
 		<md><mrow>5x-2y=22</mrow>
@@ -187,7 +190,9 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 
 <p>Here are the steps for solving a system by elimination.</p>
 
-<assemblage><title>To Solve a System by Elimination</title><p><ol label="1">
+<assemblage><title>To Solve a System by Elimination</title>
+<idx><h>system of equations</h><h>solve by linear combinations</h></idx>
+<idx><h>system of equations</h><h>solve by elimination</h></idx><p><ol label="1">
 	<li>Write each equation in the form <m>Ax+By = C</m>.</li>
 	<li>Decide which variable to eliminate. Multiply each equation by an appropriate constant so that the coefficients of that variable are opposites.</li>
 	<li>Add the equations from Step 2 and solve for the remaining variable.</li>
@@ -206,6 +211,10 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 </subsection>
 
 <subsection><title>Inconsistent and Dependent Systems</title>
+<idx><h>system of equations</h><h>inconsistent</h></idx>
+<idx><h>inconsistent system of equations</h></idx>
+<idx><h>system of equations</h><h>dependent</h></idx>
+<idx><h>dependent system of equations</h></idx>
 
 <p>Recall that a system of two parallel lines has no solution and is called inconsistent. If the two equations in a system have the same graph, then every point on the graph is a solution and the system is called dependent. The elimination method will reveal whether the system falls into one of these two cases.</p>
 
@@ -270,6 +279,10 @@ The solution to the system is <m>(4,-1)</m>.</p></solution></example>
 <p><xref ref="Example-4-3-6" text="type-global"/> illustrates a rule for identifying inconsistent and dependent systems.</p>
 
 <assemblage><title>When Using Elimination to Solve a System</title>
+<idx><h>system of equations</h><h>inconsistent</h></idx>
+<idx><h>inconsistent system of equations</h></idx>
+<idx><h>system of equations</h><h>dependent</h></idx>
+<idx><h>dependent system of equations</h></idx>
 <p><ol label="1">
 	<li>If combining the two equations results in an equation of the form
 		<me>0x+0y=k~~~~(k \not= 0)</me>

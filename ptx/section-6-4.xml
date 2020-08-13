@@ -4,6 +4,8 @@
 <section xml:id="Graphing-Quadratic-Equations" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Graphing Quadratic Equations</title>
 
 <subsection><title><m>x</m>-Intercepts of a Parabola</title>
+<idx><h><em>x</em>-intercept</h><h>of a parabola</h></idx>
+<idx><h>intercept</h><seealso><em>x</em>-intercept</seealso></idx>
 
 <p>So far we have graphed quadratic equations by plotting points. But we can use some algebraic techniques to make the process easier.</p>
 <p>In <xref ref="Some-Quadratic-Models">Lesson</xref> we saw that the solutions of the equation
@@ -13,6 +15,7 @@ namely, <m>p=0</m> and <m>p=40</m>, are also the horizontal intercepts of the gr
 This is the same connection we saw between the <m>x</m>-intercepts of a line and the solutions of its equation. Recall that the <m>x</m>-intercept of the line <m>y=mx+b</m> is the point where the graph crosses the <m>x</m>-axis. To find the <m>x</m>-intercepts of a line, we set <m>y=0</m> and solve for <m>x</m>. The same strategy applies to quadratic equations.</p>
 
 <assemblage><title><m>x</m>-Intercepts of a Parabola</title>
+<idx><h><em>x</em>-intercept</h><h>of a parabola</h></idx>
 <p>	To find the <m>x</m>-intercepts of the graph of
 	<me>y=ax^2+bx+c</me> 
 we set <m>y=0</m> and solve the equation
@@ -80,11 +83,16 @@ we set <m>y=0</m> and solve the equation
 </subsection>
 
 <subsection><title>The Vertex</title>
+<idx><h>vertex of a parabola</h></idx>
+<idx><h>parabola</h><h>vertex</h></idx>
 
-<p>The graph of a quadratic equation <m>y=ax^2+bx+c</m> is a smooth curve, called a parabola, that bends upwards or downwards.</p> 
+<p>The graph of a quadratic equation <m>y=ax^2+bx+c</m> is a smooth curve, called a parabola, <idx><h>parabola</h></idx> that bends upwards or downwards.</p> 
 	
-	<assemblage><title>The Vertex</title>
-		<p>The high or low point of a parabola is called its <term>vertex</term>.</p></assemblage> 
+<assemblage><title>The Vertex</title>
+<idx><h>vertex of a parabola</h></idx>
+<idx><h>parabola</h><h>vertex</h></idx>
+	<p>The high or low point of a parabola is called its <term>vertex</term>.</p>
+</assemblage> 
 
 <sidebyside widths="60% 30%" valigns="middle middle" margins="0% 0%"><p>Look again at the graph of <m>y=4x-x^2</m> from <xref ref="Example-6-4-1" text="type-global"/>, shown at right. Notice that the graph is symmetric about a vertical line (called the <term>axis of symmetry</term>) that passes through the vertex. All the parabolas we'll study have a vertical axis of symmetry.</p>   
 <!--	<image source="images/fig-6-4-1.png"><description>parabola</description></image>-->
@@ -111,7 +119,8 @@ we set <m>y=0</m> and solve the equation
 <assemblage><title>Look Closer</title>
 <p>Because of this symmetry, the <m>x</m>-intercepts are located at equal distances on either side of the axis of symmetry. Or we can say that the <m>x</m>-coordinate of the vertex is exactly halfway between the two <m>x</m>-intercepts.</p></assemblage>
 
-<assemblage><p>We can locate the vertex of a parabola by taking the average of its <m>x</m>-intercepts.</p></assemblage>
+<assemblage>
+	<p>We can locate the vertex of a parabola by taking the average of its <m>x</m>-intercepts.</p></assemblage>
 
 <reading-questions>
     <exercise number="2"><statement><p>What is the vertex of a parabola?</p></statement>
@@ -126,7 +135,10 @@ The <m>x</m>-coordinate of the vertex is <m>x=2</m>. To find the <m>y</m>-coordi
 <me>y=4(\alert{2})-\alert{2}^2=8-4=4</me>
 The coordinates of the vertex are <m>(2,4)</m>, as you can see in the graph above.</p></solution></example>
 
-<assemblage><title>The Vertex of a Parabola</title><p><ol label="1">
+<assemblage><title>The Vertex of a Parabola</title>
+<idx><h>vertex of a parabola</h></idx>
+<idx><h>parabola</h><h>vertex</h></idx>
+<p><ol label="1">
 	<li>The <m>x</m>-coordinate of the vertex is the average of the <m>x</m>-intercepts.</li>
 	<li>To find the <m>y</m>-coordinate of the vertex, substitute its <m>x</m>-coordinate into 
 	the equation of the parabola.</li></ol></p></assemblage>
@@ -167,7 +179,10 @@ The <m>y</m>-intercept is the point <m>(0,7)</m>. We plot the vertex and the int
 
 <p>By combining the techniques we studied in this Lesson, we write the following guidelines for sketching an accurate graph of a quadratic equation.</p>
 
-<assemblage><title>To Graph a Quadratic Equation</title><p><ol label="1">  
+<assemblage><title>To Graph a Quadratic Equation</title>
+<idx><h>quadratic equation</h><h>graphing</h></idx>
+<idx><h>parabola</h><h>graphing</h></idx>
+<p><ol label="1">  
 	<li>Find the <m>x</m>-intercepts:  set <m>y=0</m> and solve for <m>x</m>.</li>
 	<li>Find the vertex:  the <m>x</m>-coordinate is the average of the <m>x</m>-intercepts.  
 	Find the <m>y</m>-coordinate by substituting the <m>x</m>-coordinate into the 

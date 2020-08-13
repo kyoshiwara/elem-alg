@@ -2,10 +2,11 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Properties-of-Lines"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>Properties of Lines</title>
+<idx><h>lines</h><h>properties of</h></idx>
 
 <subsection><title>Parallel and Perpendicular Lines</title>
 
-<p>Lines that lie in the same plane but never intersect are called <term>parallel</term> lines. It is easy to understand that parallel lines have the same slope.</p>
+<p>Lines that lie in the same plane but never intersect are called <term>parallel</term><idx><h>parallel lines</h></idx><idx><h>lines</h><h>parallel</h></idx> lines. It is easy to understand that parallel lines have the same slope.</p>
 
 <exercise><statement>
     <sidebyside widths="55% 30%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two parallel lines in the figure. (We denote the slope of the first line by <m>m_1</m> and the slope of the second line by <m>m_2</m>.)
@@ -34,7 +35,7 @@
         \filldraw[red!80!black] (3,3) circle (2mm);
         \end{tikzpicture}]]></latex-image></image></sidebyside></statement></exercise>
 
-<p>Lines that intersect at right angles are called <term>perpendicular</term> lines. It is a little harder to see the relationship between the slopes of perpendicular lines.</p>
+<p>Lines that intersect at right angles <idx><h>right</h><h>angle</h></idx> are called <term>perpendicular</term><idx><h>perpendicular lines</h></idx><idx><h>lines</h><h>perpendicular</h></idx> lines. It is a little harder to see the relationship between the slopes of perpendicular lines.</p>
 
 <exercise><statement>
 	<sidebyside widths="55% 30%" valigns="middle middle" margins="0% 5%"><p>Calculate the slopes of the two perpendicular lines in the figure. 
@@ -65,6 +66,7 @@
 This relationship holds for any pair of perpendicular lines.</p>
 
 <assemblage><title>Parallel and Perpendicular Lines</title>
+<idx><h>lines</h><h>parallel</h></idx><idx><h>lines</h><h>parallel</h></idx>
 <p><ol label="1">
 	<li><p>Two lines are parallel if their slopes are equal, that is, if
 		<me>\blert{m_1 = m_2}</me>		
@@ -99,6 +101,7 @@ are parallel, perpendicular, or neither.</p></statement>
 so the lines are perpendicular.</p></solution></example>
 
 <assemblage><title>Look Closer</title>
+<idx><h>perpendicular lines</h></idx><idx><h>lines</h><h>perpendicular</h></idx><idx><h>negative reciprocal</h></idx>
 <p>Another way to state the condition for perpendicular lines is 
 	<me>m_2 = \dfrac{-1}{m_1}</me>
 Because of this relationship, we often say that the slope of one perpendicular line is the <term>negative reciprocal</term> of the other.</p></assemblage>
@@ -112,8 +115,9 @@ Because of this relationship, we often say that the slope of one perpendicular l
 </subsection>
 
 <subsection><title>Equations for Horizontal and Vertical Lines</title>
+<idx><h>lines</h><h>horizontal</h></idx><idx><h>horizontal line</h></idx><idx><h>lines</h><h>vertical</h></idx><idx><h>vertical line</h></idx>
 
-<p>In <xref ref="Slope">Lesson</xref> we learned that the slope of a horizontal line is zero. What does this tell us about the equation of a horizontal line that passes through a particular point?</p>
+<p>In <xref ref="Slope">Lesson</xref> we learned that the slope of a horizontal line is zero. <idx><h>slope</h><h>of horizontal line</h></idx> What does this tell us about the equation of a horizontal line that passes through a particular point?</p>
 
 <example xml:id="Example-3-5-2"><statement><p>Find the equation of the horizontal line that passes through <m>(5,3)</m>.</p></statement>
 
@@ -124,6 +128,8 @@ Because of this relationship, we often say that the slope of one perpendicular l
  or just <m>y=3</m>. The fact that <m>x</m> does not appear in the equation means that <m>y=3</m> for every point on the line, no matter what the value of <m>x</m> is.</p></solution></example> 
 
 <assemblage><title>Look Closer</title>
+<idx><h>undefined</h><h>slope of vertical line</h></idx>
+<idx><h>slope</h><h>vertical line</h></idx>
 <p>What about the equation of a vertical line? The slope of a vertical line is undefined; a vertical line does not have a slope. We cannot use the slope-intercept form to write the equation of a vertical line. However, we can use what we learned about horizontal lines in <xref ref="Example-3-5-2" text="type-global"/>.</p>
 <sidebyside widths="60% 30%" valigns="middle middle" margins="0% 5%"> 
 <p>Look at the graph of the vertical line at right. Every point on the line has <m>x</m>-coordinate <m>-2</m>, no matter what the <m>y</m>-coordinate is. An equation for this line is <m>x=-2</m>. The value of <m>x</m> does not depend upon <m>y</m>; it is constant, so <m>y</m> does not appear in the equation.</p>
@@ -135,6 +141,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
 </ul></p></note>
 
 <assemblage><title>Horizontal and Vertical Lines</title>
+<idx><h>lines</h><h>horizontal</h></idx><idx><h>horizontal line</h><h>equation of</h></idx><idx><h>lines</h><h>vertical</h></idx><idx><h>vertical line</h><h>equation of</h></idx>
 <p><ol label="1">
 	<li><p>The equation of the horizontal line passing through <m>(0,b)</m> is
 			<me>\blert{y=b}</me></p></li>
@@ -154,6 +161,7 @@ Because of this relationship, we often say that the slope of one perpendicular l
 </subsection>
 
 <subsection><title>Distance Between Points</title>
+<idx><h>distance</h><h>between points</h></idx>
 
 <p>It is easy to compute the distance between two points that lie on the same horizontal or vertical line. We subtract the smaller coordinate from the larger one.</p>
 
@@ -191,13 +199,14 @@ and the distance between points <m>C(\blert{-7}, -3)</m> and <m>D(\blert{-2}, -3
 <p>Note that the <term>distance</term> between two points is always a positive number. That is why we always subtract the smaller coordinate from the larger one to compute distance. However, when we compute a slope, we need more information.</p>
 
 <assemblage><title>Look Closer</title>
-<p>When we compute slope, the direction in which we move on the line makes a difference. We will call this the <term>directed distance</term>, and it can be either positive or negative.</p>
+<p>When we compute slope, the direction in which we move on the line makes a difference. We will call this the <term>directed distance</term><idx><h>directed distance</h></idx><idx><h>distance</h><h>directed</h></idx>, and it can be either positive or negative.</p>
 <p>If we move from <m>C</m> to <m>D</m>, we have moved in the positive <m>x</m>-direction, so the directed distance is positive: 
 	<me>\Delta x = -2-(-7)=5</me>
 If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-direction, so the directed distance is negative:                                        
 	<me>\Delta x = -7-(-2)=-5</me></p></assemblage>
 
 <assemblage><title>Directed Distance</title>
+<idx><h>directed distance</h></idx><idx><h>distance</h><h>directed</h></idx>
     <p>To find the <term>directed distance</term> between two points on a number line, we subtract the initial coordinate from the final coordinate.</p></assemblage>
 
 <reading-questions>
@@ -255,10 +264,12 @@ If we move from <m>D</m> to <m>C</m>, we have moved in the negative <m>x</m>-dir
 </subsection>
 
 <subsection><title>Subscript Notation</title>
+<idx><h>subscript notation</h></idx>
 
-<p>When we compute the slope of a line joining two points, we must be careful to subtract their <m>x</m>-coordinates and their <m>y</m>-coordinates in the same order, final minus initial. To distinguish between the coordinates of different points, we use a new notation called <term>subscripts</term>.</p>
+<p>When we compute the slope of a line joining two points, we must be careful to subtract their <m>x</m>-coordinates and their <m>y</m>-coordinates in the same order, final minus initial. To distinguish between the coordinates of different points, we use a new notation called <term>subscripts</term><idx><h>subscript</h></idx>.</p>
 
 <assemblage><title>Subscripts</title>
+<idx><h>subscript notation</h></idx><idx><h>subscript</h></idx>
     <p>We denote the coordinates of a particular point by <m>(x_1,y_1)</m> and the coordinates of a second point by <m>(x_2,y_2)</m>.</p></assemblage>
 
 <example xml:id="Example-3-5-5"><statement><sidebyside widths="50% 40%" valigns="middle middle" margins="0% 0%"><p>Compute the slope between point <m>D</m> and <m>F</m> in the figure.</p><!--<image source="images/fig-3-5-ex5.png"><description>graph</description></image>-->
@@ -310,6 +321,8 @@ Thus, the slope of the line segment joining <m>D</m> and <m>F</m> is
 <p>The method described in <xref ref="Example-3-5-5" text="type-global"/> gives us a new formula for computing slope.</p>
 
 <assemblage><title>Two-Point Formula for Slope</title>
+<idx><h>slope</h><h>formula for</h></idx>
+<idx><h>two-point formula for slope</h></idx>
 <p>The slope of the line joining points <m>P_1(x_1,y_1)</m> and <m>P_2(x_2,y_2)</m> is
 	<me>\blert{m=\dfrac{y_2-y_1}{x_2-x_1}}~~~~~~\text{if}~~~~x_2 \not= x_1</me></p></assemblage>
 

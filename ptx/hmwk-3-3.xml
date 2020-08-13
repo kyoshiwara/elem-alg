@@ -485,7 +485,7 @@
 <exercise number="23"><statement><p><ol label="a">
 	<li>Calculate the slope of the line shown below.</li>
 	<li>Explain why <m>\Delta y = 0</m> for any two points on the line.</li>
-	<li>Explain why the slope of any horizontal line is zero.</li></ol></p>
+	<li>Explain why the slope of any horizontal line is zero.<idx><h>slope</h><h>of horizontal line</h></idx></li></ol></p>
 	<sidebyside width="30%"><!--<image source="images/hp-3-3-23.png"><description>graph</description></image>-->
     <image xml:id="hp-3-3-23">
         <description>horizontal line</description>
@@ -514,7 +514,7 @@
 <exercise number="24"><statement><p><ol label="a">
 	<li>Calculate the slope of the line shown below.</li>
 	<li>Explain why <m>\Delta x = 0</m> for any two points on the line.</li>
-	<li>Explain why the slope of any vertical line is undefined.</li></ol></p>
+	<li>Explain why the slope of any vertical line is undefined.<idx><h>slope</h><h>of vertical line</h></idx></li></ol></p>
 	<sidebyside width="30%"><!--<image source="images/hp-3-3-24.png"><description>graph</description></image>-->
     <image xml:id="hp-3-3-24">
         <description>vertical line</description>

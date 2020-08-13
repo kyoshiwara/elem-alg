@@ -2,6 +2,12 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Square-Roots-and-Cube-Roots" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Square Roots and Cube Roots</title>
+<idx><h>roots</h></idx>
+<idx><h>roots</h><seealso>radical</seealso></idx>
+<idx><h>roots</h><h>square</h></idx>
+<idx><h>roots</h><h>square</h><seealso>square root</seealso></idx>
+<idx><h>roots</h><h>cube</h></idx>
+<idx><h>roots</h><h>cube</h><seealso>cube root</seealso></idx>
 
 <subsection><title>What is a Square Root?</title>
 
@@ -10,9 +16,11 @@
 <p>Because the formula for the area of a square is <m>A=s^2</m>, the side <m>s</m> should satisfy the equation <m>s^2=25</m>. We want a number whose square is 25. As you can probably guess, the length of the square should be 5 inches, because <m>5^2=25</m>. We say that 5 is a <term>square root</term> of 25.</p>
 
 <assemblage><title>Square Root</title>
+<idx><h>square root</h></idx>
 <p>The number <m>s</m> is called a <term>square root</term> of a number <m>b</m> if <m>s^2=b</m>.</p></assemblage>
 
-<assemblage><p>Finding a square root of a number is the opposite of squaring a number.</p></assemblage>
+<assemblage><idx><h>square root</h></idx>
+<p>Finding a square root of a number is the opposite of squaring a number.</p></assemblage>
 
 <example><statement><p>Find a square root of 25, and a square root of 144.</p></statement>
 
@@ -31,15 +39,16 @@
 </subsection>
 
 <subsection><title>Radicals</title>
+<idx><h>radical</h></idx>
 
-<p>The positive square root of a number is called the <term>principal square root</term>. The symbol <m>\sqrt{\hphantom{00}}</m> denotes the positive or principal square root. Thus, we may write
+<p>The positive square root of a number is called the <term>principal square root</term><idx><h>principal square root</h></idx><idx><h>square root</h><h>principal</h></idx>. The symbol <m>\sqrt{\hphantom{00}}</m> denotes the positive or principal square root. Thus, we may write
 	<me>\sqrt{25} = 5~~~~~~\text{and}~~~~~~\sqrt{144}=12</me>
-The symbol <m>\sqrt{\hphantom{00}}</m> is called a <term>radical</term> sign, and the number inside is called the <term>radicand</term>.  Square roots are often called <term>radicals</term>.</p>
+The symbol <m>\sqrt{\hphantom{00}}</m> is called a <term>radical</term><idx><h>radical sign (<m>\sqrt{\hphantom{1} \vphantom{1}} \thinspace </m>)</h></idx> sign, and the number inside is called the <term>radicand</term><idx><h>radicand</h></idx>.  Square roots are often called <term>radicals</term><idx><h>radical</h></idx>.</p>
 
 <p>	What about the other square root, the negative one?  If we want to indicate the negative square root of a number, we place a negative sign outside the radical sign, like this: 
-	<me>-\sqrt{16}=-4~~~~~~\text{and}~~~~~~ -\sqrt{49}=-7</me>
+	<me>-\sqrt{16}=-4~~~~~~\text{and}~~~~~~ {-\sqrt{49}}=-7</me>
 If we want to refer to both square roots, we use the symbol <m>\pm</m>,  read "plus or minus."  For example,
-	<me>\pm \sqrt{36}=\pm 6,~~~~\text{which means}~~~~6~~\text{or}~~ -6</me>	
+	<me>\pm \sqrt{36}=\pm 6,~~~~\text{which means}~~~~6~~\text{or}~~ {-6}</me>	
 Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
 
 <example><statement><p> Find each square root.<ol label="a" cols="2">
@@ -59,7 +68,7 @@ Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
 	<md><mrow>2^2 \amp = \underline{\hphantom{000000}}</mrow>
          <mrow>(-2)^2 \amp = \underline{\hphantom{000000}}</mrow></md> </p>
 
-<assemblage><p>We cannot find the square root of a negative number.  We say that the square root of a negative number is <term>undefined</term>.</p></assemblage>
+<assemblage><p>We cannot find the square root of a negative number.  We say that the square root of a negative number is <term>undefined</term><idx><h>square root</h><h>undefined</h></idx><idx><h>square root</h><h>undefined</h><seealso>complex number</seealso></idx>.</p></assemblage>
 
 <reading-questions>
     <exercise number="4"><statement><p>How do we find the square root of a negative number?</p></statement>
@@ -70,6 +79,7 @@ Note that zero has only one square root: <m>\sqrt{0}=0</m>.</p>
  <subsection><title>Rational and Irrational Numbers</title>
  
  <assemblage><title>Rational Number</title>
+ <idx><h>rational number</h></idx>
  <p>A <term>rational number</term> is one that can be expressed as a quotient (or ratio) of two integers, where the denominator is not zero.</p></assemblage>
 
  <p>The term "rational" has nothing to do with being reasonable or logical; it comes from the word ratio.  Thus, any fraction such as
@@ -83,8 +93,9 @@ is a rational number. Integers are also rational numbers, because any integer ca
 
  <p>Every fraction can be written in decimal form.</p>
 
- <assemblage><title>Decimal Form of a Rational Number</title>
-<p>The decimal representation of a rational number has one of two forms.<ol label="1">
+<assemblage><title>Decimal Form of a Rational Number</title>
+<idx><h>rational number</h><h>decimal form</h></idx>
+ <p>The decimal representation of a rational number has one of two forms.<ol label="1">
 	<li>The decimal representation terminates, or ends.</li>  	
 	<li>The decimal representation repeats a pattern.</li></ol></p></assemblage>
 
@@ -107,8 +118,9 @@ is a rational number. Integers are also rational numbers, because any integer ca
  		<me>2.236~ 068^2 = 5.000~ 000~ 100~ 624</me>
  which is not exactly 5, although it is close.) In fact, no matter how many digits your calculator or computer can display, you can never find an exact decimal equivalent for <m>\sqrt{5}</m>. <m>\sqrt{5}</m> is an example of an <term>irrational</term> number.</p>
 
- <assemblage><title>Irrational Number</title>
- 	<p>An <term>irrational number</term> is one that cannot be expressed as a quotient of two integers.</p></assemblage> 
+<assemblage><title>Irrational Number</title>
+<idx><h>irrational number</h></idx>
+  	<p>An <term>irrational number</term> is one that cannot be expressed as a quotient of two integers.</p></assemblage> 
 
  <assemblage><title>Look Closer</title>
  <p>There is no terminating decimal fraction that gives the exact value of <m>\sqrt{5}</m>. The decimal representation of an irrational number never ends, and does not repeat any pattern! The best we can do is round off the decimal form and give an approximate value. Nonetheless, an irrational number still has a precise location on the number line, just as a rational number does. The figure below shows the locations of several rational and irrational numbers on a number line. 
@@ -130,7 +142,8 @@ is a rational number. Integers are also rational numbers, because any integer ca
         \end{tikzpicture}]]></latex-image></image></sidebyside></p></assemblage> 
 
  <assemblage><title>Real Numbers</title>
- <p>Each point on a number line corresponds either to a rational number or an irrational number, and these numbers fill up the number line completely. The rational and irrational numbers together make up the <term>real numbers</term>, and the number line is sometimes called the <term>real line</term>.</p></assemblage>
+ <idx><h>real number</h></idx>
+ <p>Each point on a number line corresponds either to a rational number or an irrational number, and these numbers fill up the number line completely. The rational and irrational numbers together make up the <term>real numbers</term>, and the number line is sometimes called the <term>real line</term><idx><h>real line</h></idx><idx><h>real line</h><seealso>number line</seealso></idx>.</p></assemblage>
 
  <reading-questions>
     <exercise number="7"><statement><p>What are the rational and irrational numbers together called?</p></statement>
@@ -171,7 +184,9 @@ Rounding to three decimal places gives 2.708</p></solution></example>
 
 <p>We can now update the order of operations by modifying Steps 1 and 2 to include radicals.</p>
 
-<assemblage><title>Order of Operations</title><p><ol label = "1">
+<assemblage><title>Order of Operations</title>
+<idx><h>order of operations</h><h>with radicals</h></idx>
+<p><ol label = "1">
 <li>Perform any operations inside parentheses, or above or below a fraction bar.</li>
 <li>Compute all indicated powers and roots.</li>
 <li>Perform all multiplications and divisions in the order in which they occur from left to right.</li>
@@ -184,12 +199,13 @@ Rounding to three decimal places gives 2.708</p></solution></example>
 </subsection>
 
 <subsection><title>Cube Roots</title>
-
+<idx><h>roots</h><h>cube</h></idx><idx><h>cube root</h></idx>
 <p>Imagine a cube whose volume is 64 cubic inches. What is the length, <m>c</m>, of one side of this cube? Because the volume of a cube is given by the formula <m>V=c^3</m>, we must find a number that satisfies
 	<me>c^3=64</me>
 We are looking for a number <m>c</m> whose cube is 64. With a little trial and error we can soon discover that <m>c=4</m>. The number <m>c</m> is called the <term>cube root</term> of 64, and is denoted by <m>\sqrt[3]{64}</m>.</p>    
 
 <assemblage><title>Cube Root</title>
+<idx><h>roots</h><h>cube</h></idx><idx><h>cube root</h></idx>
 <p>The number <m>c</m> is called a cube root of a number <m>b</m> if <m>c^3=b</m>.</p></assemblage>
 
 <example><statement><p><ol label="a">
@@ -198,7 +214,8 @@ We are looking for a number <m>c</m> whose cube is 64. With a little trial and e
 
 <p>Recall that every positive number has two square roots, and that negative numbers do not have square roots. The situation is different with cube roots.</p>
 
-<assemblage><p>Every number has exactly one cube root. The cube root of a positive number is positive, and the cube root of a negative number is negative.</p></assemblage>
+<assemblage><idx><h>roots</h><h>cube</h></idx><idx><h>cube root</h></idx>
+<p>Every number has exactly one cube root. The cube root of a positive number is positive, and the cube root of a negative number is negative.</p></assemblage>
 
 <p>Just as with square roots, some cube roots are irrational numbers and some are not. Cube roots are treated the same as square roots in the order of operations.</p>
 

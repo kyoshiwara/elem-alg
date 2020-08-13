@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
     <chapter xml:id="chap7"  xmlns:xi="http://www.w3.org/2001/XInclude">
-        <title>Polynomials</title>
+        <title>Polynomials</title><idx><h>polynomial</h></idx>
 
 
     <xi:include href="./section-7-1.xml" />             
     <xi:include href="./section-7-2.xml" />            
     <xi:include href="./section-7-3.xml" />            
-    <xi:include href="./section-7-3A.xml" />            
+<!--   <xi:include href="./section-7-3A.xml" /> box method -->           
     <xi:include href="./section-7-4.xml" />            
                      
     <xi:include href="./ch7rev.xml" />  

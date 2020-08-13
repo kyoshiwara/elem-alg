@@ -102,7 +102,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 <subsection><title>Products</title>
 <idx><h>product</h></idx><idx><h>product</h><seealso>multiplication</seealso></idx>
 
-<p>When we multiply two numbers <m>a</m> and <m>b</m>, the result is called the <term>product</term> of <m>a</m> and <m>b</m>.  The numbers <m>a</m> and <m>b</m> are the <term>factors</term> of the product.</p>
+<p>When we multiply two numbers <m>a</m> and <m>b</m>, the result is called the <term>product</term> of <m>a</m> and <m>b</m>.  The numbers <m>a</m> and <m>b</m> are the <term>factors</term><idx><h>factor</h></idx> of the product.</p>
 
 <assemblage><title>Look Closer</title>
 <p>In arithmetic we use the symbol <m>\times</m> to denote multiplication. However, in algebra, <m>\times</m> may be confused with the variable <m>x</m>. So, instead, we use a dot or parentheses for multiplication, like this:</p>
