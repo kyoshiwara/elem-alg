@@ -4,6 +4,7 @@
 <section xml:id="Special-Products-and-Factors" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Special Products and Factors</title>
 
 <subsection><title>Squares of Monomials</title>
+<idx><h>monomial</h><h>square of</h></idx>
 
 <p>A few special binomial products occur so frequently that it is useful to recognize their forms. This will enable you to write their factored forms directly, without trial and error. To prepare for these special products, we first consider the squares of monomials.</p>
 
@@ -27,6 +28,7 @@
 </subsection>
 
 <subsection><title>Squares of Binomials</title>
+<idx><h>binomial</h><h>square of</h></idx>
 
 <p>You can use the distributive law to verify each of the following special products.
 
@@ -35,6 +37,7 @@
 	<mrow> \amp = a^2+2ab+b^2 \amp \amp  \amp \amp =a^2-2ab+b^2</mrow></md></p>
 
 <assemblage><title>Squares of Binomials</title>
+<idx><h>binomial</h><h>square of</h></idx>
 <p><ol label="1">
 	<li><m>\blert{(a+b)^2=a^2+2ab+b^2}</m></li>
 	<li><m>\blert{(a-b)^2=a^2-2ab+b^2}</m></li></ol></p></assemblage>
@@ -74,6 +77,8 @@ We must use the distributive law to multiply the binomial times itself.</p></war
 In this product, the two middle terms cancel each other, and we are left with a difference of two squares.</p>
 
 <assemblage><title>Difference of Two Squares</title>
+<idx><h>difference</h><h>of two squares</h></idx>
+<idx><h>binomial</h><h>difference of two squares</h></idx>
 <p><me>\blert{(a+b)(a-b)=a^2-b^2}</me></p></assemblage>  
 
 <example><statement><p>  Multiply <m>~(2y+9w)(2y-9w)~</m></p></statement>
@@ -96,6 +101,9 @@ In this product, the two middle terms cancel each other, and we are left with a 
 <p>The three special products we have just studied are useful as patterns for factoring certain polynomials. For factoring, we view the formulas from right to left.</p>
 
 <assemblage><title>Special Factorizations</title>
+<idx><h>factoring</h><h>special factorizations</h></idx>
+<idx><h>factoring</h><h>difference of squares</h></idx>
+<idx><h>factoring</h><h>perfect square trinomial</h></idx>
 <p><ol label="1">
 	<li><m>\blert{a^2+2ab+b^2=(a+b)^2}</m></li>
 	<li><m>\blert{a^2-2ab+b^2=(a-b)^2}</m></li>
@@ -122,7 +130,9 @@ This is the correct middle term, so our trinomial has the form (1), with <m>a=x<
 	<me>x^2+16,~~~~~~9x^2+4y^2,~~~~~~\text{and}~~~~~~25y^4+w^4</me>
 cannot be factored. You can check, for instance, that <m>x^2+16 \not= (x+4)(x+4)</m>.</p></warning>
 
-<assemblage><title>Sum of Two Squares</title>	
+<assemblage><title>Sum of Two Squares</title>
+<idx><h>factoring</h><h>sum of two squares</h></idx>
+<idx><h>sum</h><h>of two squares</h></idx>	
 <p>	The sum of two squares, <m>~a^2+b^2~</m>, cannot be factored.</p></assemblage>
 
 <p>As always when factoring, we should check first for common factors.</p>

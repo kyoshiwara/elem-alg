@@ -4,12 +4,16 @@
 <section xml:id="Equations-with-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations with Radicals</title>
 
 <subsection><title>Radical Equations</title>
+<idx><h>equation</h><h>with radicals</h></idx>
+<idx><h>radical</h><h>equation</h></idx>
 
 <p>When an object falls from a height of <m>h</m> meters, the time it takes to reach the ground is given in seconds by
 	<me>t=\sqrt{\dfrac{h}{4.9}}</me>
 This equation is called a <term>radical equation</term>, because an unknown value, <m>h</m>, appears under a radical sign.</p> 
 
 <assemblage><title>Radical Equation</title>
+<idx><h>equation</h><h>with radicals</h></idx>
+<idx><h>radical</h><h>equation</h></idx>
 <p>A <term>radical equation</term> is one in which the variable appears under a radical.</p></assemblage>
 
 <example><statement><p>If you drop a penny from the top of the Sears Tower in Chicago, it will take 9.5 seconds to reach the ground. Find the height  of the Sears Tower in meters by solving the equation
@@ -39,7 +43,10 @@ This equation is called a <term>radical equation</term>, because an unknown valu
 		<mrow>442.225 \amp = h</mrow></md>
 The Sears Tower is about 442 meters tall.</p></solution></example>
 
-<assemblage><title>To Solve a Radical Equation</title><p><ol label="1">
+<assemblage><title>To Solve a Radical Equation</title>
+<idx><h>equation</h><h>with radicals</h></idx>
+<idx><h>radical</h><h>equation</h></idx>
+<p><ol label="1">
 	<li>Isolate the radical on one side of the equation.</li>
 	<li>Square both sides of the equation.</li>
 	<li>Continue as usual to solve for the variable.</li></ol></p></assemblage>
@@ -59,6 +66,7 @@ You can check that <m>x=19</m> satisfies the original equation.</p></solution></
 </subsection>
 
 <subsection><title>Extraneous Solutions</title>
+<idx><h>extraneous solution</h></idx>
 
 <p>The technique of squaring both sides may introduce <term>extraneous solutions</term>. (Recall that an extraneous solution is a value that is not a solution to the original equation.) For example, consider the equation
 	<me>\sqrt{x+2}=-3</me>
@@ -77,6 +85,7 @@ The value <m>x=7</m> is a solution to the squared equation, but not to the origi
 </reading-questions>
 
 <assemblage><title>Extraneous Solutions</title>
+<idx><h>extraneous solution</h></idx>
 <p>Whenever we square both sides of an equation, we must check the solutions in the original equation.</p></assemblage>
 
 <p>If a radical equation involves several terms, it is easiest to isolate the radical term on one side of the equation before squaring both sides.</p>
@@ -114,6 +123,9 @@ Thus, <m>x=2</m> is an extraneous solution. The only solution to the original eq
 </subsection>
 
 <subsection><title>Equations with Cube Roots</title>
+<idx><h>equation</h><h>with cube roots</h></idx>
+<idx><h>cube root</h><h>equation</h></idx>
+<idx><h>cube root</h><h>equation</h><seealso>equation</seealso></idx>
 
 <p>	We can also solve equations in which the variable appears under a cube root.</p>  
 
@@ -141,6 +153,7 @@ Finally, we add 4 to both sides to find the solution, <m>x=31</m>. We do not hav
 </subsection>
 
 <subsection><title>Extraction of Roots</title>
+<idx><h>extraction of roots</h></idx>
 
 <p>	Now we'll compare solving radical equations, where we square both sides, with quadratic equations, where we may be able to take square roots of both sides.</p>
 

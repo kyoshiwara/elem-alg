@@ -2,8 +2,13 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Negative-Exponents-and-Scientific-Notation" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Negative Exponents and Scientific Notation</title>
+<idx><h>exponent</h><h>negative</h></idx>
+<idx><h>negative exponent</h><see>exponent</see></idx>
 
 <subsection><title>Zero as an Exponent</title>
+<idx><h>exponent</h><h>zero</h></idx>
+<idx><h>zero</h><h>as an exponent</h></idx>
+<idx><h>zero</h><h>as an exponent</h><seealso>exponent</seealso></idx>
 
 <p>Negative exponents simplify many calculations and give us a useful form for writing very large or very small numbers.</p>
 <p>But first, what do negative exponents mean? In order for them to be useful, their properties must fit with what we already know about exponents.</p>
@@ -13,6 +18,8 @@
 Thus, it seems reasonable to make the following definition.</p>
 
 <assemblage><title>Zero as an Exponent</title>
+<idx><h>exponent</h><h>zero</h></idx>
+<idx><h>zero</h><h>as an exponent</h></idx>
 <p><me>\blert{a^0=1,~~~~\text{if}~~~~a \not= 0}</me></p></assemblage>
 
 <p>For example,
@@ -26,6 +33,7 @@ Thus, it seems reasonable to make the following definition.</p>
 </subsection>
 
 <subsection><title>Negative Exponents</title>
+<idx><h>exponent</h><h>negative</h></idx>
 
 <p>We can also use the second law of exponents to give meaning to negative exponents. Consider the quotient <m>\dfrac{a^4}{a^7}</m>. According to the second law of exponents,
 	<me>\dfrac{a^4}{a^7} = \dfrac{1}{a^{7-4}} = \dfrac{1}{a^3}</me>
@@ -34,12 +42,14 @@ However, if we allow negative numbers as exponents, we can apply the first half 
 We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for <m>a \not= 0</m>, we make the following definition.</p>
  
 <assemblage><title>Negative Exponents</title>
+<idx><h>exponent</h><h>negative</h></idx>
 <p><me>\blert{a^{-n} = \dfrac{1}{a^n}~~~~\text{if}~~~~a \not= 0}</me></p></assemblage>
 
 <p>For example,
 		<me>2^{-4} = \dfrac{1}{2^4} ~~~~~~\text{and}~~~~~~x^{-5} = \dfrac{1}{x^5}</me></p>
 
-<assemblage><p>A negative exponent indicates the reciprocal of the power with the positive exponent.</p></assemblage>
+<assemblage><idx><h>exponent</h><h>negative</h></idx>
+<p>A negative exponent indicates the reciprocal of the power with the positive exponent.</p></assemblage>
 
 <example><statement><p>Write each expression without exponents.<ol label="a" cols="3">
 	<li><m>10^{-4}</m></li>
@@ -80,7 +90,9 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 
 <p>The laws of exponents apply to negative exponents. In particular, if we allow negative exponents, we can write the second law as a single rule.</p>
 
-<assemblage><title>Laws of Exponents</title><p><ol label="1" cols="2">
+<assemblage><title>Laws of Exponents</title>
+<idx><h>exponent</h><h>laws of</h></idx>
+<p><ol label="1" cols="2">
 	<li><me>\blert{a^m \cdot a^n = a^{m+n}}</me></li>
 	<li><me>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(a \not= 0)}</me></li>
 	<li><me>\blert{\left(a^m\right)^n = a^{mn}}</me></li>
@@ -129,6 +141,7 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 </subsection>
 
 <subsection><title>Powers of Ten</title>
+<idx><h>power</h><h>of ten</h></idx>
 
 <p>Scientists and engineers often encounter very large numbers such as
 	<me>5,980,000,000,000,000,000,000,000</me>
@@ -137,7 +150,10 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 (the mass of a hydrogen atom in grams) in their work. These numbers can be written in a more compact and useful form using powers of 10.</p>
 <p>Recall the following facts about our base-10 number system.</p>
 
-<assemblage><title>Multiplying by Powers of Ten</title><p><ul>
+<assemblage><title>Multiplying by Powers of Ten</title>
+<idx><h>multiplying</h><h>by a power of ten</h></idx>
+<idx><h>power</h><h>of ten</h></idx>
+<p><ul>
 <li><p>Multiplying a number by a positive power of 10 has the effect of moving the decimal point <m>k</m> places to the right, where <m>k</m> is the exponent on 10. For example,
 	<me>2.358 \times 10^2 = 235.8~~~~~~\text{and}~~~~~~17 \times 10^4 = 170,000</me></p></li>
 <li><p>Multiplying a number by a negative power of 10 has the effect of moving the decimal point to the left. For example,
@@ -164,10 +180,12 @@ We therefore define <m>a^{-3}</m> to mean <m>\dfrac{1}{a^3}</m>. In general, for
 </subsection>
 
 <subsection><title>Scientific Notation</title>
-
+<idx><h>scientific notation</h></idx>
+<idx><h>multiplying</h><h>by a power of ten</h></idx>
 <p>	If there is just one digit to the left of the decimal point in the factored form, we say that the number is written in <term>scientific notation</term>.</p>
 
-<assemblage><p>A number is in <term>scientific notation</term> if it is expressed as the product of a number 
+<assemblage><idx><h>scientific notation</h></idx>
+<p>A number is in <term>scientific notation</term> if it is expressed as the product of a number 
 	between 1 and 10 and a power of 10. </p></assemblage>
 
 <p>For example,
@@ -176,7 +194,9 @@ are written in scientific notation.</p>
 
 <p>	To write a number in scientific notation, we first position the decimal point and then determine the correct power of 10.</p>
   
-<assemblage><title>To Write a Number in Scientific Notation</title><p><ol label="1">
+<assemblage><title>To Write a Number in Scientific Notation</title>
+<idx><h>scientific notation</h><h>writing in</h></idx>
+<p><ol label="1">
 	<li>Locate the decimal point so that there is exactly one nonzero digit to its left.</li>
 	<li><p>Count the number of places you moved the decimal point:  this determines the power of 10.<ol label="a">
 		<li>If the original number is greater than 10, the exponent is positive.</li>
@@ -258,6 +278,7 @@ The calculator displays the quotient, 1.735. Thus, there are about 1.735 acres o
 </subsection>
 
 <subsection><title>Mental Calculation with Scientific Notation</title>
+<idx><h>scientific notation</h><h>mental calculation with</h></idx>
 
 <p>We can often obtain a quick estimate for a calculation by converting each figure to scientific notation and rounding to just one or two digits.</p>
 

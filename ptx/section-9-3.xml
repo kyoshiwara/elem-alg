@@ -4,6 +4,8 @@
 <section xml:id="Properties-of-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Properties of Radicals</title>
 
 <subsection><title>Product and Quotient Rules</title>
+<idx><h>radical</h><h>product rule</h></idx>
+<idx><h>radical</h><h>quotient rule</h></idx>
 
 <p>Radicals with the same value may be written in different forms. Consider the following calculation:
 	<md><mrow>\left(2\sqrt{2}\right)^2 \amp = 2^2\left(\sqrt{2}\right)^2~~~~~~~~\blert{\text{By the fourth law of exponents.}}</mrow>
@@ -23,6 +25,10 @@ Because the square of <m>3\sqrt{5}</m> is equal to 45, it is the case that <m>3\
 <p>In the Activities we will verify the following properties of radicals.</p>
 
 <assemblage>
+<idx><h>radical</h><h>product rule</h></idx>
+<idx><h>radical</h><h>quotient rule</h></idx>
+<idx><h>product rule</h><see>radical</see></idx>
+<idx><h>quotient rule</h><see>radical</see></idx>
 	<p>Product Rule for Radicals
 		<me>  \text{If}~~a,~b \ge 0,~~~\text{then}~~~~\blert{\sqrt{ab}=\sqrt{a}\sqrt{b}}</me></p>
 	<p>Quotient Rule for Radicals
@@ -42,12 +48,15 @@ Because the square of <m>3\sqrt{5}</m> is equal to 45, it is the case that <m>3\
 </subsection>
 
 <subsection><title>Simplifying Square Roots</title>
+<idx><h>square root</h><h>simplifying</h></idx>
 
 <p>We can use the product rule for radicals to write <m>\sqrt{12} = \sqrt{4}\sqrt{3}</m>. Now, <m>\sqrt{4}=2</m>,  so we can simplify <m>\sqrt{12}</m> as
 	<me>\sqrt{12} = \sqrt{4}\sqrt{3} = 2\sqrt{3}</me></p>
 <p>The expression <m>2\sqrt{3}</m> is a simplified form for <m>\sqrt{12}</m>. The factor of 4, which is a perfect square, has been removed from the radical. This example illustrates a strategy for simplifying radicals.</p>
 
-<assemblage><title>To Simplify a Square Root</title><p><ol label="1">
+<assemblage><title>To Simplify a Square Root</title>
+<idx><h>square root</h><h>simplifying</h></idx>
+<p><ol label="1">
 	<li>Factor any perfect squares from the radicand.</li>
 	<li>Use the product rule to write the radical as a product of two square roots.</li>
 	<li>Simplify the square root of the perfect square.</li></ol></p></assemblage>
@@ -71,6 +80,7 @@ but 6.708 is not the exact value for <m>\sqrt{45}</m>. For long calculations, to
 </subsection>
 
 <subsection><title>Square Root of a Variable Expression</title>
+<idx><h>square root</h><h>of variable expression</h></idx>
 
 <p>To square a power of a variable we double the exponent.  For example, the square of <m>x^5</m> is
 	<me>\left(x^5\right)^2 = x^{5 \cdot 2} = x^{10}</me>
@@ -128,6 +138,10 @@ Finally, we simplify the square root of <m>x^6</m> to get
 </subsection>
 
 <subsection><title>Sums and Differences</title>
+<idx><h>addition</h><h>of radicals</h></idx>
+<idx><h>subtraction</h><h>of radicals</h></idx>
+<idx><h>radical</h><h>adding</h></idx>
+<idx><h>radical</h><h>subtracting</h></idx>
 
 <p>What about sums and differences of radicals? We cannot add or subtract radicals by combining their radicands.  That is,
 	<me>\alert{\sqrt{a} + \sqrt{b} \not= \sqrt{a+b}}</me></p>
@@ -143,9 +157,15 @@ just as we write
 	<me>x+x=2x</me></p>
 
 <assemblage><title> Like Radicals</title>
+<idx><h>like radicals</h></idx>
+<idx><h>radical</h><h>like</h></idx>
 <p>Square roots with identical radicands are called <term>like radicals</term>.</p></assemblage> 
 
 <assemblage><title>Look Closer</title>
+<idx><h>addition</h><h>of radicals</h></idx>
+<idx><h>subtraction</h><h>of radicals</h></idx>
+<idx><h>radical</h><h>adding</h></idx>
+<idx><h>radical</h><h>subtracting</h></idx>
 <p>We can add or subtract like radicals in the same way that we add or subtract like terms, namely by adding or subtracting their coefficients.  For example,
 	<me>2r+3r=5r</me>
 where <m>r</m> is a variable that can stand for any real number. In particular, if <m>r=\sqrt{2}</m>, we have

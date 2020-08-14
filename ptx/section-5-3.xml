@@ -4,10 +4,13 @@
 <section xml:id="Using-Formulas" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Using Formulas</title>
 
 <subsection><title>Volume and Surface Area</title>
+<idx><h>volume</h></idx><idx><h>surface area</h></idx>
 <p>In Section 5.1 we used exponents to calculate the area of a square and the volume of a cube.</p>
 
 <assemblage><title>Volume and Surface Area</title>
 <idx><h>volume</h></idx><idx><h>surface area</h></idx>
+<idx><h>area</h></idx>
+<idx><h>area</h><seealso>surface area</seealso></idx>
 <p><ul>
 	<li><term>Volume</term> is the amount of space contained within a three-dimensional object. It is measured in cubic units, such as cubic feet or cubic centimeters.</li>  
 	<li><term>Surface area</term> is the sum of the areas of all the faces or surfaces that contain a solid. It is measured in square units.</li></ul></p></assemblage>

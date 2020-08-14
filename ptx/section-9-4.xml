@@ -2,14 +2,18 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Operations-on-Radicals" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Operations on Radicals</title>
+<idx><h>radical</h><h>operations on</h></idx>
 
 <subsection><title>Products</title>
+<idx><h>radical</h><h>multiplying</h></idx>
+<idx><h>multiplying</h><h>radicals</h></idx>
 
 <p>We have used the product rule for radicals,
 	<me>\sqrt{ab} = \sqrt{a} \sqrt{b}</me>
 to simplify square roots. We can also use the product rule to multiply radicals together.</p>
 
 <assemblage><title>Product Rule</title>
+<idx><h>radical</h><h>product rule</h></idx>
 	<p><me>\text{If}~~a, ~b \ge 0,~~\text{then}~~~~\blert{\sqrt{a} \sqrt{b}=\sqrt{ab}}</me></p></assemblage>
 
 <p>For example,
@@ -83,6 +87,7 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 <p>We use the quotient rule to simplify square roots of fractions by writing <m>\sqrt{\dfrac{a}{b}} = \dfrac{\sqrt{a}}{\sqrt{b}}</m>. We can also use the quotient rule to simplify quotients of square roots.</p>
 
 <assemblage><title>Quotient Rule</title>
+<idx><h>radical</h><h>quotient rule</h></idx>
 	<p><me>\text{If}~~a \ge 0~~\text{and}~~b \gt 0,~~\text{then}~~~~\blert{ \dfrac{\sqrt{a}}{\sqrt{b}}=\sqrt{\dfrac{a}{b}} }</me></p></assemblage>
 
 <example><statement><p>Simplify  <m>~~\dfrac{2\sqrt{30a}}{\sqrt{6a}}</m></p></statement>
@@ -98,6 +103,10 @@ The rule <m>\sqrt{a}\sqrt{b} = \sqrt{ab}</m> applies to the second product, but 
 </subsection>
 
 <subsection><title>Fractions</title>
+<idx><h>fractions</h><h>involving square roots</h></idx>
+<idx><h>square root</h><h>involving fractions</h></idx>
+<idx><h>fractions</h><h>involving square roots</h><seealso>rationalizing the denominator</seealso></idx>
+<idx><h>square root</h><h>involving fractions</h><seealso>rationalizing the denominator</seealso></idx>
 
 <p>	When we solve quadratic equations, the solutions are often fractions that involve square roots. Many such fractions can be simplified using properties of radicals.</p>
 
@@ -129,6 +138,7 @@ Because 8 is a term of the numerator, not a factor, we cannot cancel the 8's.</p
  </subsection>
 
  <subsection><title>Rationalizing the Denominator</title>
+ <idx><h>rationalizing the denominator</h></idx>
 
 <p>For some applications, it is easier to work with expressions that do not have radicals in the denominators of fractions.  For example, the fraction <m>~\dfrac{\sqrt{2}}{\sqrt{3}}~</m> is equivalent to
 	<me>\dfrac{\sqrt{2}\cdot \blert{\sqrt{3}}}{\sqrt{3}\cdot \blert{\sqrt{3}}} = \dfrac{\sqrt{6}}{3}</me>

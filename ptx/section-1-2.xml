@@ -544,7 +544,8 @@ Bert's average score is 15.8.</p></solution></example>
 
 <subsubsection><title>Activity 2:  Evaluating Algebraic Expressions</title>
 <idx><h>algebraic expression</h><h>evaluating</h></idx>
-<idx><h>evaluating the expression</h></idx>
+<idx><h>evaluating an algebraic expression</h></idx>
+<idx><h>evaluating an algebraic expression</h><seealso>algebraic expression</seealso></idx>
 
 <p>EXAMPLE: The Appliance Mart is having a store wide 15%-off sale. If the regular price of an appliance is <m>P</m> dollars, then the sale price <m>S</m> is given by the expression
     <me>S=0.85P</me>
