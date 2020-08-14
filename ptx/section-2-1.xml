@@ -547,7 +547,7 @@ Note that the numerator in the division fact becomes the product in the multipli
 <p>For many of the calculations in algebra, it is more convenient to write a negative fraction with the minus sign in the numerator, like this: <m>\dfrac{-3}{4}</m>.</p> 
 
 <assemblage><title>Standard Form for Fractions</title>
-<idx><h>standard form</h><h>of writing negative fractions</h></idx><idx><h>fractions</h><h>standard for for writing negative fraction</h></idx>
+<idx><h>standard form</h><h>of writing negative fractions</h></idx><idx><h>fractions</h><h>standard form for writing negative fraction</h></idx>
 <p>A negative fraction is written in <term>standard form</term> when the minus sign is in the numerator:  <m>\dfrac{-a}{b}</m>.
 	<me>\blert{\dfrac{-a}{b}}=\dfrac{a}{-b}=-\dfrac{a}{b}</me>
 The standard form for a positive fraction has positive numerator and denominator.

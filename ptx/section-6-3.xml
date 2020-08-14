@@ -40,6 +40,7 @@
 
 <subsection><title>Factoring Quadratic Trinomials</title>
 <idx><h>factoring</h><h>quadratic trinomials</h></idx>
+<idx><h>trinomial</h><seealso>factoring</seealso></idx>
 
 <p>In <xref ref="Some-Quadratic-Models">Lesson</xref> we learned to factor quadratic expressions of the form <m>ax^2+bx</m>. Now we consider quadratic trinomials of the form <m>x^2+bx+c</m>. Many of these can be factored into the product of two binomials. For example,
 	<me>x^2+7x+12=(x+3)(x+4)</me></p>
