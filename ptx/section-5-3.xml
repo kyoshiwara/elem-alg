@@ -4,15 +4,22 @@
 <section xml:id="Using-Formulas" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Using Formulas</title>
 
 <subsection><title>Volume and Surface Area</title>
+<idx><h>volume</h></idx><idx><h>surface area</h></idx>
 <p>In Section 5.1 we used exponents to calculate the area of a square and the volume of a cube.</p>
 
-<assemblage><title>Volume and Surface Area</title><p><ul>
+<assemblage><title>Volume and Surface Area</title>
+<idx><h>volume</h></idx><idx><h>surface area</h></idx>
+<idx><h>area</h></idx>
+<idx><h>area</h><seealso>surface area</seealso></idx>
+<p><ul>
 	<li><term>Volume</term> is the amount of space contained within a three-dimensional object. It is measured in cubic units, such as cubic feet or cubic centimeters.</li>  
 	<li><term>Surface area</term> is the sum of the areas of all the faces or surfaces that contain a solid. It is measured in square units.</li></ul></p></assemblage>
 
 <p>We saw that the area of a square whose side has length <m>s</m> units is given by <m>A=s^2</m> square units, and the volume of a cube of side <m>s</m> units is gven by <m>V=s^3</m> cubic units.  Many other useful formulas involve exponents. The figure below shows several solid objects, along with formulas for their volumes and surface areas.</p>
 
-<sidebyside width="95%"><image source="images/fig-5-3-1"><description>solids</description></image></sidebyside>  
+<sidebyside width="95%">
+	<idx><h>volume</h><h>formulas</h></idx><idx><h>surface area</h><h>formulas</h></idx>
+	<image source="images/fig-5-3-1"><description>solids</description></image></sidebyside>  
 
 <example><statement><p>At the Red Deer Pub and Microbrewery there is a spherical copper tank in which beer is brewed. If the tank is 4 feet in diameter, how much beer does it hold?</p></statement>
 
@@ -34,6 +41,7 @@ The tank holds approximately 33.5 cubic feet of beer, or about 251 gallons.</p><
 </subsection>
 
 <subsection><title>Solving Equations with <m>x^2</m></title>
+<idx><h>equation</h><h>with <m>x^2</m></h></idx><idx><h>equation</h><h>with <m>x^2</m></h><seealso>quadratic equation</seealso></idx>
 
 <p>Taking a square root is the opposite of squaring a number. Thus, we can undo the squaring operation by taking square roots.  For example, to solve the equation
 	<me>x^2=64</me>
@@ -52,7 +60,7 @@ The equation has two solutions, <m>8</m> and <m>-8</m>.</p>
 		<mrow> \pm 4.2 \amp = r</mrow></md>
 Because the radius of a soup can cannot be a negative number, we discard the negative solution in this application. The radius of the can is 4.2 centimeters.</p></solution></example>
 
-<p>The equations above, which involve the square of the variable (such as <m>x^2</m> or <m>r^2</m>), are called <term>quadratic equations</term>, and we shall see more about them later.</p>
+<p>The equations above, which involve the square of the variable (such as <m>x^2</m> or <m>r^2</m>), are called <term>quadratic equations</term><idx><h>quadratic equation</h></idx>, and we shall see more about them later.</p>
 
 <reading-questions>
     <exercise number="3"><statement><p>What operation is the opposite of squaring a number?</p></statement>
@@ -61,12 +69,14 @@ Because the radius of a soup can cannot be a negative number, we discard the neg
 </subsection>
 
 <subsection><title>Pythagorean Theorem</title>
+<idx><h>Pythagorean Theorem</h></idx>
 
-<p>A triangle in which one of the angles is a right angle, or <m>90 \degree</m>, is called a <term>right triangle</term>.  The side opposite the right angle is the longest side of the triangle, and is called the <term>hypotenuse</term>. The other two sides of the triangle are called the <term>legs</term>.</p> 		
+<p>A triangle in which one of the angles is a right angle,<idx><h>right</h><h>angle</h></idx> or <m>90 \degree</m>, is called a <term>right triangle</term><idx><h>right</h><h>triangle</h></idx>.  The side opposite the right angle is the longest side of the triangle, and is called the <term>hypotenuse</term><idx><h>hypotenuse</h></idx>. The other two sides of the triangle are called the <term>legs</term><idx><h>leg (of a right triangle)</h></idx>.</p> 		
 	
 <p>If we know the lengths of any two sides of a right triangle, we can find the third side using a formula called the Pythagorean Theorem. We use the variable <m>c</m> for the length of the hypotenuse, and the lengths of the legs are denoted by <m>a</m> and <m>b</m> (it doesn't matter which is which).</p>
 
 <assemblage><title>Pythagorean Theorem</title>
+<idx><h>Pythagorean Theorem</h></idx>
 <sidebyside widths="60% 25%"><p>If <m>c</m> stands for the length of the hypotenuse of a right triangle, and the lengths of the two legs are represented by <m>a</m> and <m>b</m>, then
 <me>a^2 + b^2 = c^2</me></p><!--                  
 <image source="images/fig-5-3-2.png"><description>triangle</description></image>-->
@@ -106,7 +116,7 @@ We use a calculator to evaluate the square root and find that the width of the r
 </subsection>
 
 <subsection><title>Solving for One Variable</title>
-
+<idx><h>formula</h><h>solving for one variable</h></idx>
 <p>In the formula in <xref ref="Example-5-3-4" text="type-global"/>, the variable <m>P</m> occurs more than once.  We substitute the value for <m>P</m> each time it occurs.</p>
 
 <example xml:id="Example-5-3-4"><statement><p>If a principal of <m>P</m> dollars is invested at interest rate <m>r</m>, the formula 
@@ -126,7 +136,8 @@ it is not correct to add the two 5000's and write <m>7000 = 10,000(0.065)t</m>. 
 
 <p>If we plan to use a formula more than once with different values for the variables, it may be faster in the long run to solve for one of the variables in terms of the others. We have already done something like this when we put a linear equation into slope-intercept form:  in that situation we solved for <m>y</m> in terms of <m>x</m>.</p>
 
-<example xml:id="Example-5-3-5"><statement><p>Solve the formula <m>~~A=P+Prt~~</m> for <m>t</m>.</p></statement>
+<example xml:id="Example-5-3-5"><idx><h>formula</h><h>solving for one variable</h></idx>
+<statement><p>Solve the formula <m>~~A=P+Prt~~</m> for <m>t</m>.</p></statement>
 
 <solution><p>For this problem, we treat <m>t</m> as the unknown and treat all the other variables as if they were constants. We begin by isolating the term containing <m>t</m> on one side of the equation.
 	<md><mrow>A \amp = P+Prt \amp \amp \blert{\text{Subtract} ~P~ \text{from both sides.}}</mrow>

@@ -53,11 +53,17 @@ We can also write the equation as  <m>H=0.4t+70</m>.</p></solution></example>
 
 <p>From <xref ref="Example-3-4-1" text="type-global"/>, we see that the coefficients of a linear equation tell us something about its graph.</p>
 
-<assemblage><title>Coefficients of a Linear Equation</title><p><ol label="1">
+<assemblage><title>Coefficients of a Linear Equation</title>
+<idx><h>linear equation</h><h>coefficients</h></idx>
+<idx><h>coefficient</h><h>of linear equation</h></idx>
+<p><ol label="1">
 	<li>The constant term tells us the vertical intercept of the graph.</li> 
 	<li>The coefficient of the input variable tells us the slope of the graph.</li></ol></p></assemblage>
 
 <assemblage><title>Slope-Intercept Form</title>
+<idx><h>slope-intercept form</h></idx>
+<idx><h><em>m</em> as slope</h></idx>
+<idx><h><em>b</em> as <m>y</m>-intercept</h></idx>
 <p>A linear equation written in the form
 		<me>\blert{y=mx+b}</me>
 is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is the slope of the graph, and <m>b</m> is the <m>y</m>-intercept.</p></assemblage>
@@ -71,7 +77,8 @@ is said to be in <term>slope-intercept form</term>. The coefficient <m>m</m> is 
 </subsection>
 
 <subsection><title>Slope-Intercept Method of Graphing</title>
-
+<idx><h>slope-intercept form</h><h>method for graphing</h></idx>
+<idx><h>slope-intercept form</h><h>method for graphing</h><seealso>slope-intercept method</seealso></idx><idx><h>slope-intercept method</h></idx>
 <p>A linear equation has the form <m>Ax+By=C</m>, and its graph is a straight line.  We have already studied two methods for graphing linear equations:<ol label="1">  
 	<li>Make a table of values and plot points</li>  
 	<li>Find and plot the intercepts (the intercept method)</li></ol></p>
@@ -136,6 +143,7 @@ Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units do
 <p>The slope-intercept method can be used to graph any non-vertical line.</p>
 
 <assemblage><title>To Graph a Line Using the Slope-Intercept Method</title>
+<idx><h>slope-intercept method</h></idx>
 <p><ol label="1">
 	<li>Write the equation in the form <m>y=mx+b</m>.</li> 
 	<li>Plot the  <m>y</m>-intercept, <m>(0,b)</m>.</li> 
@@ -147,6 +155,7 @@ Starting again from the <m>y</m>-intercept <m>(0,-2)</m>, we now move 3 units do
 </subsection>
 
 <subsection><title>Finding the Slope-Intercept Form</title>
+<idx><h>slope-intercept form</h><h>finding</h></idx>
 
 <p>Not all linear equations appear in slope-intercept form. However, we can write the equation of any non-vertical line in slope-intercept form by solving the equation for <m>y</m> in terms of <m>x</m>.</p>
 

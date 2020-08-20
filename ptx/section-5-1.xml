@@ -4,16 +4,17 @@
 <section xml:id="Exponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Exponents</title>
 
 <subsection><title>What is an Exponent?</title>
+<idx><h>exponent</h></idx>
 
-<p>The area of a rectangle is given by the formula <m>A=lw</m>. The variable <m>l</m> stands for the length of the rectangle, and <m>w</m> stands for for its width. The area tells us how many square tiles, one unit on a side, will fit inside the rectangle, as shown below.</p>
+<p>The area of a rectangle <idx><h>area</h><h>of rectangle</h></idx> is given by the formula <m>A=lw</m>. The variable <m>l</m> stands for the length of the rectangle, and <m>w</m> stands for for its width. The area tells us how many square tiles, one unit on a side, will fit inside the rectangle, as shown below.</p>
 <sidebyside width="90%"><image source="images/fig-5-1-1"><description>box</description></image></sidebyside> 
 
-<p>Similarly, the volume of a box (measured in cubic units) is given by the formula <m>V=lwh</m>, where <m>l,~w</m>, and <m>h</m> stand for the length, width, and height of the box. The volume tells us how many blocks, one unit on a side, will fit inside the box. The volume of the box shown above is
+<p>Similarly, the volume of a box <idx><h>volume</h><h>of box</h></idx> (measured in cubic units) is given by the formula <m>V=lwh</m>, where <m>l,~w</m>, and <m>h</m> stand for the length, width, and height of the box. The volume tells us how many blocks, one unit on a side, will fit inside the box. The volume of the box shown above is
 	<me>v=lwh = 6 \cdot 4 \cdot 3 =72~\text{cubic units}</me></p>
 
-<p>A <term>square</term> is a rectangle whose length and width are equal. If we use <m>s</m>, for side, to stand for both the length and width of the square, its area is given by
+<p>A <term>square</term><idx><h>square</h></idx> is a rectangle whose length and width are equal. If we use <m>s</m>, for side, to stand for both the length and width of the square, its area is given by
 	<me>A=s \cdot s</me></p>     
-<sidebyside widths="70% 20%"><p>A <term>cube</term> is a box whose length, width, and height are all equal, so its volume is given by
+<sidebyside widths="70% 20%"><p>A <term>cube</term><idx><h>cube</h></idx> is a box whose length, width, and height are all equal, so its volume is given by
 	<me>V=s \cdot s \cdot s</me></p>  
 <image source="images/fig-5-1-2"><description>cube</description></image></sidebyside>
 
@@ -24,9 +25,13 @@
 
 <p>Finding the area of a square or the volume of a cube involves repeated multiplication by the same number. We indicate repeated multiplication with a symbol called an <term>exponent</term>.</p>
 
-<assemblage><title>Expopnent</title>
-<p>An <term>exponent</term> is a number that appears above and to the right of a particular factor. It tells us how many times that factor occurs in the expression.</p>
-<p> The factor to which the exponent applies is called the <term>base</term>, and the product is called a <term>power</term> of the base.</p></assemblage> 
+<assemblage><title>Exponent</title>
+<idx><h>exponent</h></idx>
+<idx><h>base</h><h>exponent and</h></idx>
+<idx><h>power</h></idx>
+<idx><h>power</h><seealso>exponent</seealso></idx>
+<p>An <term>exponent</term> is a number that appears above and to the right of a particular factor<idx><h>factor</h></idx>. It tells us how many times that factor occurs in the expression.</p>
+<p> The factor <idx><h>factor</h></idx> to which the exponent applies is called the <term>base</term>, and the product is called a <term>power</term> of the base.</p></assemblage> 
 
 <p>For example, </p>
 <sidebyside width="40%"><!--<image source="images/fig-5-1-3.png"><description>exponent</description></image>-->
@@ -52,6 +57,7 @@
 <p>We read the expression <m>2^5</m> as the "fifth power of 2," or as "2 raised to the fifth power," or simply as "2 to the fifth."</p>
 
 <assemblage><title>Exponents</title>
+<idx><h>exponent</h></idx>
 <p>An <term>exponent</term> indicates repeated multiplication.  
 <me>a^n = a \cdot a \cdot a \cdot \cdots \cdot a ~~~~~~~~ (n ~ \text{factors of}~ a)</me>  
 where <m>n</m> is a positive integer.</p></assemblage>
@@ -78,8 +84,10 @@ These names come from the formulas for the area, <m>A</m>, of a square with side
 </subsection>
 
 <subsection><title>Powers of Negative Numbers</title>
+<idx><h>power</h><h>of negative number</h></idx>
 
-<assemblage><p>To show that a negative number is raised to a power, we enclose the negative number in parentheses.</p></assemblage>
+<assemblage><idx><h>power</h><h>of negative number</h></idx>
+<p>To show that a negative number is raised to a power, we enclose the negative number in parentheses.</p></assemblage>
 
 <p>For example, to indicate the square of <m>-5</m>, we write 
 	<me>(-5)^2 = (-5)(-5) = 25~~~~~~\blert{\text{Exponent applies to}~(-5).}</me> 
@@ -136,10 +144,12 @@ The first sequence tells the calculator to square 3, then make the result negati
 </subsection>
 
 <subsection><title>Powers of Variables</title>
+<idx><h>power</h><h>of a variable</h></idx>
 
 <p>We can also use exponents with variables. We must be careful to distinguish between a product of a variable and a power of a variable.</p>
 
-<assemblage><p>An exponent on a variable indicates repeated multiplication, while a coefficient in front of a variable indicates repeated addition.</p></assemblage>
+<assemblage><idx><h>power</h><h>of a variable</h></idx>
+<p>An exponent on a variable indicates repeated multiplication, while a coefficient in front of a variable indicates repeated addition.</p></assemblage>
 
 <example><statement><p>Compare the expressions <m>x^4</m> and <m>4x</m>.</p></statement>
 
@@ -168,7 +178,10 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 		<md><mrow>2x^3 \amp =2(\alert{5}^3) = 2(125) = 250</mrow>
             <mrow>(2x)^3\amp =(2 \cdot \alert{5})^3 = 10^3 = 1000</mrow></md></p></solution></example>
 
-<assemblage><p>An exponent applies only to its base, and not to any other factors in the product. If we want an exponent to apply to more than one factor, we must enclose those factors in parentheses.</p></assemblage>
+<assemblage><idx><h>exponent</h></idx>
+<idx><h>base</h><h>exponent and</h></idx>
+<idx><h>power</h></idx>
+<p>An exponent applies only to its base, and not to any other factors in the product. If we want an exponent to apply to more than one factor, we must enclose those factors in parentheses.</p></assemblage>
 
 <assemblage><title>Look Closer</title>
 <p>Think about the operations in <xref ref="Example-5-1-5" text="type-global"/>.<ul>
@@ -177,7 +190,10 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 
 <p>When simplifying an expression, we perform powers before multiplications, but after operations within parentheses.  Thus, we include exponents in the order of operations as follows.</p>
 
-<assemblage><title>Order of Operations</title><p><ol label = "1">
+<assemblage><title>Order of Operations</title>
+<idx><h>order of operations</h></idx>
+<idx><h>order of operations</h><h>powers</h></idx>
+<p><ol label = "1">
 <li>Perform any operations inside parentheses, or above or below a fraction bar.</li>
 <li>Compute all indicated powers.</li>
 <li>Perform all multiplications and divisions in the order in which they occur from left to right.</li>
@@ -220,6 +236,7 @@ The expressions <m>x^4</m> and <m>4x</m> are not equivalent; they are not equal 
 </subsection>
 
 <subsection><title>Like Terms</title>
+<idx><h>like terms</h><h>involving exponents</h></idx>
 
 <p>In Chapter 2 we learned how to add or subtract like terms. For example,
 	<md><mrow>8x-3x \amp = 5x</mrow>
@@ -414,10 +431,31 @@ We can also combine like powers of the same variable. For instance,
 
 <subsubsection><title>Activity 2: Computing Powers</title>
 <exercises>
-<exercise><statement><sidebyside widths="60% 25%" valigns="middle middle" margins="0% 10%"><p><ol label="a">
-	<li>Find the area of a square whose side is <m>2\frac{1}{2}</m> centimeters long.</li>
-	<li>Find the volume of a cube whose base is the square in part (a).</li></ol></p>
-<image source="images/act-5-1-1.png"><description>cube</description></image></sidebyside></statement></exercise>
+<exercise><statement><sidebyside widths="60% 22%" valigns="middle middle" margins="0% 10%"><p><ol label="a">
+    <li>Find the area of a square whose side is <m>2\frac{1}{2}</m> centimeters long.</li>
+    <li>Find the volume of a cube whose base is the square in part (a).</li></ol></p>
+<image xml:id="cube-side-2-and-half">
+        <description>cube of side 2.5</description>
+        <latex-image>
+        <!-- CDATA prevents certain LaTeX code from being interpreted as xml -->
+        <![CDATA[\tikzset{%
+        }
+        \begin{tikzpicture} 
+        \def\s{2.5};
+        \def\b{0.9};
+        \coordinate (A) at (\s,0);
+        \coordinate (B) at (\s,\s);
+        \coordinate (C) at (0,\s);
+        \draw[magenta!80!black,ultra thick] (0,0) rectangle (B);
+        \draw[magenta!80!black,ultra thick] (A)--++(\b,\b)--++(C) -- ++($-1*(A)$)--++(-\b,-\b);
+        \draw[magenta!80!black,ultra thick] (B)--++(\b,\b);
+        \node[below] at ({\s/2},0) {$2.5$};
+        \node[left] at (0,{\s/2}) {$2.5$};
+        \node[right] at ({\b/2+\s},{\b/3}) {$2.5$};
+        \end{tikzpicture}]]>
+    </latex-image>
+    </image>
+</sidebyside></statement></exercise>
 
 <exercise><statement><p>Compute each power of a signed number. <ol label="a" cols="3">
 	<li><m>(-2)^1</m></li>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="The-Distributive-Law"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Distributive Law</title>
+<section xml:id="The-Distributive-Law"   xmlns:xi="http://www.w3.org/2001/XInclude"><title>The Distributive Law</title><idx><h>distributive law</h></idx>
 
-<subsection><title>Products</title>
+<subsection><title>Products</title><idx><h>product</h><h>of algebraic expressions</h></idx>
 
 <p>So far we have considered sums and differences of algebraic expressions. Now we take a look at simple products. To simplify a product such as <m>3(2a)</m>, we multiply the numerical factors to find
 	<me>3(2a)=(3 \cdot 2)a = 6a</me>
@@ -21,7 +21,7 @@ This calculation is an application of the associative law for multiplication. We
 </reading-questions>
 </subsection>
 
-<subsection><title>The Distributive Law</title>
+<subsection><title>The Distributive Law</title><idx><h>distributive law</h></idx>
 
 <sidebyside widths="60% 35%" valigns="middle middle" margins="0% 0%"><p>Another useful property for simplifying expressions is the distributive law. First consider a numerical example. Suppose we would like to find the area of the two rooms shown at right.
     We can do this in two different ways:</p>  
@@ -59,6 +59,7 @@ We see that there are two ways to compute the expression <m>10(12+8)</m>.<ul>
 <p>This last equation is an example of the distributive law.</p>
 
 <assemblage><title>Distributive Law</title>
+<idx><h>distributive law</h></idx>
 <p>If <m>a,~ b,</m> and <m>c</m> are any numbers, then
 		<me>\blert{a(b+c) = ab + ac}</me></p></assemblage>
 
@@ -88,6 +89,7 @@ To simplify these expressions, we must first recognize the operations involved.<
 </subsection>
 
 <subsection><title>Solving Equations and Inequalities</title>
+<idx><h>equation</h><h>solving</h></idx><idx><h>inequality</h><h>solving</h></idx>
 
 <p>If an equation or inequality contains parentheses, we use the distributive law to simplify each side before we begin to solve.</p>
 
@@ -126,6 +128,7 @@ We can check the solution by substituting <m>x=0.8</m> into the original proport
 </subsection>
 
 <subsection><title>Algebraic Expressions</title>
+<idx><h>algebraic expression</h><h>simplifying</h></idx>
 
 <p>We can often simplify algebraic expressions by combining like terms.</p>
 
@@ -213,6 +216,7 @@ The width of the rectangle is <m>\alert{7}</m> feet, and its length is <m>2(\ale
 <subsubsection><title>Activity 2: Solving Equations</title>
 
 <assemblage><title>Steps for Solving Linear Equations</title>
+<idx><h>equation</h><h>solving</h></idx>
 <p><ol label="1">
     <li>Use the distributive law to remove any parentheses.</li>
     <li>Combine like terms on each side of the equation.</li>

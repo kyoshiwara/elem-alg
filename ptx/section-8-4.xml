@@ -4,6 +4,9 @@
 <section xml:id="Equations-with-Fractions" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Equations with Fractions</title>
 
 <subsection><title>"Clearing" Fractions</title>
+<idx><h>fractions</h><h>clearing</h></idx>
+<idx><h>fractions</h><h>clearing</h><seealso>equation</seealso></idx>
+<idx><h>equation</h><h>clearing fractions</h></idx>
 
 <p>How can we solve an equation that involves algebraic fractions?  Recall that to solve the equation
 	<me>\dfrac{3x}{4} = 9</me>
@@ -26,6 +29,8 @@ You can check that <m>x=200</m> does satisfy the equation.</p></solution></examp
 </subsection>
 
 <subsection><title>Using an LCD to Clear Fractions</title>
+<idx><h>equation</h><h>clearing fractions</h></idx>
+<idx><h>lowest common denominator</h><h>clearing fractions</h></idx>
 
 <p>If an equation contains more than one fraction, we multiply both sides of the equation by the LCD of all the fractions. This will clear all the denominators at once.</p>
    
@@ -51,6 +56,7 @@ Now we can proceed as usual to complete the solution.
 </subsection>
 
 <subsection><title>Variables in the Denominator</title>
+<idx><h>fractions</h><h>solving equations with variable in denominator</h></idx>
 
 <p>Equations that involve algebraic fractions can also be solved using an LCD.</p>
 
@@ -77,6 +83,8 @@ The solution is <m>x=9</m>. You can check that <m>x=9</m> satisfies the original
 </subsection>
 
 <subsection><title>Extraneous Solutions</title>
+<idx><h>extraneous solution</h></idx>
+<idx><h>solution</h><h>extraneous</h><see>extraneous solution</see></idx>
 
 <example xml:id="Example-8-4-4"><statement><p>Solve  <m>~~6 +\dfrac{4}{x-3} = \dfrac{x+1}{x-3}</m></p></statement>
 
@@ -94,16 +102,17 @@ The solution appears to be <m>x=3</m>. But we have a problem, because the LCD, <
 		<mrow> 6 + \dfrac{4}{0} \amp = \dfrac{3+1}{0}</mrow></md>
 Because division by zero is undefined, 3 is not a solution after all. The original equation does not have a solution.</p></solution></example>
 
-<p>In <xref ref="Example-8-4-4" text="type-global"/>, when we multiplied both sides of the equation by zero we found a false solution for the equation.  Such solutions are called <term>extraneous solutions</term>. There is always a danger that an extraneous solution may be introduced when we multiply by an expression that contains the variable.</p>  
+<p>In <xref ref="Example-8-4-4" text="type-global"/>, when we multiplied both sides of the equation by zero we found a false solution for the equation.  Such solutions are called <term>extraneous solutions</term><idx><h>extraneous solution</h></idx>. There is always a danger that an extraneous solution may be introduced when we multiply by an expression that contains the variable.</p>  
 
 <reading-questions>
     <exercise number="3"><statement><p>When might an extraneous solution be introduced?</p></statement>
     <answer><p>When we multiply by an expression that contains the variable.</p></answer></exercise>
 </reading-questions>
 
-<assemblage><p>We should always check for extraneous solutions when solving equations that involve algebraic fractions.</p></assemblage>
+<assemblage><idx><h>extraneous solution</h></idx>
+<p>We should always check for extraneous solutions when solving equations that involve algebraic fractions.</p></assemblage>
 
-<p>To check a solution, we substitute it into the original equation. If a possible solution causes any of the denominators in the equation to equal zero, then that solution is extraneous.</p>
+<p>To check a solution, we substitute it into the original equation. If a possible solution causes any of the denominators in the equation to equal zero, then that solution is extraneous.<idx><h>extraneous solution</h></idx></p>
 
 <reading-questions>
     <exercise number="4"><statement><p>How do we check for extraneous solutions?</p></statement>
@@ -112,6 +121,7 @@ Because division by zero is undefined, 3 is not a solution after all. The origin
 </subsection>
 
 <subsection><title>Formulas</title>
+<idx><h>formula</h><h>solving formula with algebraic fractions for a variable</h></idx>
 
 <p>	We can also solve formulas that involve algebraic fractions.</p>
 
@@ -243,7 +253,7 @@ of the job. In general, the amount of work done, expressed as a fraction of 1 wh
 The graph of this equation is shown at right.<ol label="a">
 	<li>Use the equation to find out in which months the club had 200 active members.</li>
 	<li>Verify your answers on the graph.</li></ol></p>
-<image source="images/act-8-4-1.png"><description>graph</description></image></sidebyside></subsubsection>
+<image source="images/act-8-4-1"><description>graph</description></image></sidebyside></subsubsection>
 
 <subsubsection><title>Activity 2: Using Algebra</title>
 

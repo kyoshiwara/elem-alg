@@ -2,8 +2,10 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="More-About-Factoring" xmlns:xi="http://www.w3.org/2001/XInclude"><title>More About Factoring</title>
+<idx><h>factoring</h></idx>
 
 <subsection><title>Quotients of Powers</title>
+<idx><h>quotient</h><h>of powers</h></idx>
 
 <p>We can reduce a fraction by dividing numerator and denominator by any common factors.  For example,
 	<me>\dfrac{10}{15} = \dfrac{2 \cdot 5}{3 \cdot 5} = \dfrac{2}{3}</me>
@@ -26,6 +28,7 @@ We first factored the numerator and denominator of the fraction and then cancele
 <p>These examples suggest the following property.</p>
 
 <assemblage><title>Second Law of Exponents</title>
+<idx><h>exponent</h><h>second law</h></idx>
 <p>To divide two powers with the same base, we subtract the smaller exponent from the larger one, and keep the same base.<ol label="1">
 <li>If the larger exponent occurs in the numerator, put the power in the numerator.</li>
 <li>If the larger exponent occurs in the denominator, put the power in the denominator.</li></ol></p>
@@ -41,6 +44,8 @@ We first factored the numerator and denominator of the fraction and then cancele
 </subsection>
 
 <subsection><title>Quotients of Monomials</title>
+<idx><h>quotient</h><h>of monomials</h></idx>
+<idx><h>division</h><h>of monomials</h></idx>
 
 <p>To divide one monomial by another, we apply the second law of exponents to the powers of each variable.</p>
 
@@ -53,10 +58,13 @@ We first factored the numerator and denominator of the fraction and then cancele
 </subsection>
 
 <subsection><title>Greatest Common Factors</title>
+<idx><h>GCF</h><see>greatest common factor</see></idx>
+<idx><h>greatest common factor</h></idx>
 
 <p>Now we consider several techniques for factoring polynomials. The first of these is factoring out the <term>greatest common factor</term> (GCF).</p>
 
 <assemblage><title>Greatest Common Factor</title>
+<idx><h>greatest common factor</h></idx>
 	<p>The <term>greatest common factor</term> (GCF) is the largest factor that divides evenly into each term of the polynomial: the largest numerical factor and the highest power of each variable.</p></assemblage>
 
 <example xml:id="Example-7-3-3"><statement><p>Find the greatest common factor for <m>~~4a^3b^2+6ab^3-18a^2b^4</m></p></statement>
@@ -96,6 +104,8 @@ We apply the distributive law to factor <m>2ab^2</m> from each term.
 </subsection>
 
 <subsection><title>Factoring Quadratic Trinomials by Guess-and-Check</title>
+<idx><h>factoring</h><h>quadratic trinomials</h></idx>
+<idx><h>guess-and-check method for factoring</h></idx>
 
 <p>So far, we can factor quadratic trinomials of the form <m>x^2+bx+c=0</m>, where <m>a=1</m>. Recall that the factored form of <m>x^2+bx+c=0</m> looks like
 	<me>(x+p)(x+q)~~~~~~ \text{where}~~~pq=c ~~~ \text{and} ~~~p+q=b</me></p>
@@ -124,6 +134,7 @@ The second choice gives the correct middle term, so the factorization is
 </subsection>
 
 <subsection><title>Quadratic Trinomials in Two Variables</title>
+<idx><h>quadratic trinomial</h><h>in two variables</h></idx>
 
 <p>So far, we have factored quadratic trinomials in one variable, that is, polynomials of the form
 	<me>ax^2+bx+c</me>
@@ -145,6 +156,7 @@ The second possibility gives the correct middle term, so the factorization is
 </subsection>
 
 <subsection><title>Combining Factoring Techniques</title>
+<idx><h>factoring</h></idx>
 
 <p>We should always begin factoring by checking to see if there is a common factor that can be factored out.</p>
 
@@ -163,6 +175,7 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 </subsection>
 
 <subsection><title><m>\blert{\text{Optional Extension: The Box Method}}</m></title>
+<idx><h>box method for factoring a quadratic trinomial</h></idx>
 
 <p>If the coefficients in a quadratic trinomial <m>ax^2+bx+c</m> are not prime numbers, the guess-and-check method may be time-consuming. In that case, we can use another technique that depends upon the following property of binomial products.</p>
 
@@ -192,6 +205,7 @@ The remaining factor, <m>b^2+4b+3</m>, is a quadratic trinomial that can be fact
 </example>
 
 <assemblage><title>Product of Binomials</title>
+<idx><h>box method for factoring a quadratic trinomial</h></idx>
 <p>When we represent the product of two binomials by the area of a rectangle, the products of the entries on the two diagonals are equal.</p></assemblage>
 
 <reading-questions>
@@ -223,6 +237,7 @@ Shown at right.</p>
 </subsection>
 
 <subsection><title>Factoring Quadratic Trinomials by the Box Method</title>
+<idx><h>box method for factoring a quadratic trinomial</h></idx>
 
 <p>Now we'll factor the trinomial
 	<me>3x^2+10x+8</me>
@@ -408,6 +423,8 @@ The product of the entries on the other diagonal must also be <m>24x^2</m>. We n
 <p>Here is a summary of our factoring method.</p>
 
 <assemblage><title>To Factor <m>~ax^2+bx+c~</m> Using the Box Method</title>
+<idx><h>box method for factoring a quadratic trinomial</h></idx>
+<idx><h>factoring</h><h>the box method</h></idx>
 <p><ol label="1">
 	<li>Write the quadratic term <m>ax^2</m> in the upper left sub-rectangle, and the 
 	constant term <m>c</m> in the lower right.</li>

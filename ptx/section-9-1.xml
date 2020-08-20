@@ -2,6 +2,7 @@
 <!-- <mathbook><book> -->
 
 <section xml:id="Laws-of-Exponents" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Laws of Exponents</title>
+<idx><h>exponent</h><h>laws of</h></idx>
 
 <subsection><title>Products and Quotients</title>
 
@@ -32,6 +33,8 @@ The exponents tell us how many copies of the base to multiply together, but the 
 <p>These laws are expressed in symbols below.</p>
 
 <assemblage>
+<idx><h>exponent</h><h>first law</h></idx>
+<idx><h>exponent</h><h>second law</h></idx>
 <p>First Law of Exponents
 	<me>\blert{a^m \cdot a^n = a^{m+n}}</me></p>	
 <p>Second Law of Exponents
@@ -42,12 +45,15 @@ The exponents tell us how many copies of the base to multiply together, but the 
 </subsection>
 
 <subsection><title>Power of a Power</title>
+<idx><h>power</h><h>of a power</h></idx>
+<idx><h>power</h><h>of a power</h><seealso>exponent</seealso></idx>
 
 <p>Consider the expression <m>(x^4)^3</m>, or the cube of <m>x^4</m>. We can simplify this expression as follows.     
 	<me>(x^4)^3 = (x^4)(x^4)(x^4) = x^{4+4+4} = x^{12}~~~~~~\blert{\text{Add exponents.}}</me>
 We wrote <m>(x^4)^3</m> as a repeated product and applied the first law of exponents to add the exponents. Of course, because repeated addition is actually multiplication, we can just multiply the exponents together: <m>3(4)=12</m>. This gives us another rule.</p>
 
 <assemblage><title>Third Law of Exponents</title>
+<idx><h>exponent</h><h>third law</h></idx>
 <p>To raise a power to a power, keep the same base and multiply the exponents. In symbols,
 	<me>\blert{(a^m)^n = a^{mn}}</me></p></assemblage>
 
@@ -67,6 +73,8 @@ We wrote <m>(x^4)^3</m> as a repeated product and applied the first law of expon
 </subsection>
 
 <subsection><title>Power of a Product</title>
+<idx><h>power</h><h>of a product</h></idx>
+<idx><h>power</h><h>of a product</h><seealso>exponent</seealso></idx>
 
 <p>To simplify the expression <m>(2x)^3</m>, we can use the commutative and associative properties of multiplication to write	
 	<md><mrow>(2x)^3 \amp = (2x)(2x)(2x)</mrow>
@@ -75,6 +83,7 @@ We wrote <m>(x^4)^3</m> as a repeated product and applied the first law of expon
 Thus, to raise a product to a power we can raise each factor to the power. This example illustrates the following rule.</p>
 
 <assemblage><title>Fourth Law of Exponents</title>
+<idx><h>exponent</h><h>fourth law</h></idx>
 <p>To raise a product to a power, raise each factor to the power. In symbols,
 	<me>\blert{(ab)^n = a^nb^n}</me></p></assemblage>
 
@@ -96,6 +105,8 @@ In the expression <m>3a^2</m>, only the factor <m>a</m> is squared, but in <m>(3
 </subsection>
 
 <subsection><title>Power of a Quotient</title>
+<idx><h>power</h><h>of a quotient</h></idx>
+<idx><h>power</h><h>of a quotient</h><seealso>exponent</seealso></idx>
 
 <p>To simplify the expression <m>\left(\dfrac{x}{2}\right)^4</m>, we multiply together four copies of the fraction <m>\dfrac{x}{2}</m>. That is,
 	<md><mrow>  \left(\dfrac{x}{2}\right)^4 \amp = \dfrac{x}{2} \cdot \dfrac{x}{2} \cdot \dfrac{x}{2} \cdot \dfrac{x}{2} = \dfrac{x \cdot x \cdot x \cdot x}{2 \cdot 2 \cdot 2 \cdot 2}</mrow>
@@ -103,6 +114,7 @@ In the expression <m>3a^2</m>, only the factor <m>a</m> is squared, but in <m>(3
 This example suggests the following rule.</p>
 
 <assemblage><title>Fifth Law of Exponents</title>
+<idx><h>exponent</h><h>fifth law</h></idx>
 <p>To raise a quotient to a power, raise both the numerator and the denominator to the power. In symbols,
 	<me>\blert{\left(\dfrac{a}{b}\right)^n = \dfrac{a^n}{b^n}}</me></p></assemblage>
 
@@ -121,7 +133,9 @@ This example suggests the following rule.</p>
 
 <p>We can use the laws of exponents along with the order of operations to simplify algebraic expressions. The five laws of exponents are stated together below. All of the laws are valid when the base  is not equal to zero and when the exponents <m>m</m> and <m>n</m> are positive integers.</p>
 
-<assemblage><title>Laws of Exponents</title><p><ol label="1">
+<assemblage><title>Laws of Exponents</title>
+<idx><h>exponent</h><h>laws of</h></idx>
+<p><ol label="1">
 	<li><me>\blert{a^m \cdot a^n = a^{m+n}}</me></li>
 	<li><md><mrow>\blert{\dfrac{a^m}{a^n} = a^{m-n}~~~~(n \lt m)}</mrow>
 		<mrow>\blert{\dfrac{a^m}{a^n} = \dfrac{1}{a^{n-m}}~~~~(n \gt m)}</mrow></md></li>

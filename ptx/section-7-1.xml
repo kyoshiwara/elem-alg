@@ -4,9 +4,10 @@
 <section xml:id="Polynomials" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Polynomials</title>
 
 <subsection><title>What is a Polynomial?</title>
+<idx><h>polynomial</h></idx>
 
 <assemblage><title>Polynomial</title>
-	<p>A <term>polynomial</term> is an algebraic expression with several terms. Each term is a power of a variable (or a product of powers) with a constant coefficient.</p></assemblage>
+	<p>A <term>polynomial</term><idx><h>polynomial</h></idx> is an algebraic expression with several terms. Each term is a power of a variable (or a product of powers) with a constant coefficient.</p></assemblage>
 
 <assemblage><title>Look Closer</title>
 <p>The exponents in a polynomial must be whole numbers, which means that a polynomial has no radicals containing variables, and no variables in the denominators of fractions.</p></assemblage> 
@@ -37,8 +38,9 @@
 </subsection>
 
 <subsection><title>Degree</title>
+<idx><h>degree (of a polynomial)</h></idx>
 
-<p>In a term containing only one variable, the exponent of the variable is called the <term>degree</term> of the term. (The degree of a constant term is zero, for reasons that will become clear in Chapter 9.) For example,  
+<p>In a term containing only one variable, the exponent of the variable is called the <term>degree</term><idx><h>degree (of a polynomial)</h></idx> of the term. (The degree of a constant term is zero, for reasons that will become clear in Chapter 9.) For example,  
 	<md><mrow>\amp 3x^2~~~~~~	 \amp \amp\text{is of second degree}</mrow>
 		<mrow>\amp 8y^3~~~~~~    \amp \amp\text{is of third degree}</mrow>
 		<mrow>\amp 4x~~~~~~      \amp \amp\text{is of first degree (the exponent on}~x~ \text{ is 1)}</mrow>
@@ -70,6 +72,7 @@ The degree of a polynomial in one variable is the largest exponent that appears 
 </subsection>
 
 <subsection><title>Evaluating Polynomials</title>
+<idx><h>polynomial</h><h>evaluating</h></idx>
 
 <p>We evaluate polynomials the same way we evaluate any other algebraic expression:  by substituting the given values for the variables and then following the order of operations to simplify.</p>
 
@@ -83,6 +86,7 @@ The degree of a polynomial in one variable is the largest exponent that appears 
 </subsection>
 
 <subsection><title>Like Terms</title>
+<idx><h>like terms</h></idx>
 
 <p><term>Like terms</term> are any terms that are exactly alike in their variable factors. The exponents on the variable factors must also match. For example,
 	<md><mrow>x^3~~~\amp \text{and}~~~2x+1 \amp \amp \blert{\text{Not like terms}}</mrow>
@@ -91,7 +95,8 @@ are not like terms because their variable factors are different. However,
 	<md><mrow>\dfrac{1}{2}x^2y~~~\amp \text{and}~~~-3yx^2 \amp \amp \blert{\text{Like terms}}</mrow></md>
 are like terms, because <m>x^2y</m> and <m>yx^2</m> are equivalent expressions.</p>
 
-<assemblage><p>Recall that: To add or subtract like terms, we add or subtract their numerical coefficients. The variable factors of the terms remain unchanged.</p></assemblage>
+<assemblage><idx><h>like terms</h><h>adding and subtracting</h></idx>
+	<p>Recall that: To add or subtract like terms, we add or subtract their numerical coefficients. The variable factors of the terms remain unchanged.</p></assemblage>
 
 <reading-questions>
     <exercise number="4"><statement><p>What is the numerical coefficient of a term?</p></statement>
@@ -115,6 +120,8 @@ The last term, <m>4x</m>, is not combined with any other terms.</p></solution></
 </subsection>
 
 <subsection><title>Adding Polynomials</title>
+<idx><h>addition</h>of polynomials</idx>
+<idx><h>polynomial</h><h>adding</h></idx>
 
 <p>To add two polynomials we remove parentheses and combine like terms.</p>
 
@@ -134,6 +141,8 @@ The last term, <m>4x</m>, is not combined with any other terms.</p></solution></
 </subsection>
 
 <subsection><title>Subtracting Polynomials</title>
+<idx><h>subtraction</h>of polynomials</idx>
+<idx><h>polynomial</h><h>subtracting</h></idx>
 
 <p>If an expression in parentheses is preceded by a minus sign, we must change the sign of each term within parentheses when we remove the parentheses. This rule applies when we subtract polynomials.</p>
 
@@ -175,6 +184,7 @@ because we have not changed the sign of <m>\alert{\text{each}}</m> term inside p
 </subsection>
 
 <subsection><title>Application</title>
+<idx><h>applied problems</h></idx>
 
 <p>Applied problems may involve addition or subtraction of polynomials. In particular, to calculate the profit it earns by selling its product, a company must subtract the cost of producing the goods from the revenue it earns by selling them. We can state this as a formula.</p>
 

@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- <mathbook><book> -->
 
-<section xml:id="Point-Slope-Formula" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Point-Slope Formula</title>
+<section xml:id="Point-Slope-Formula" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Point-Slope Formula</title><idx><h>point-slope formula</h></idx>
 
 <subsection><title>Finding an Equation for a Line</title>
+<idx><h>equation</h><h>of line</h><see>linear equation</see></idx><idx><h>linear equation</h><h>finding</h></idx>
 
 <p>The slope of a line is the same, no matter which points we use to compute it. Therefore, if we know the slope  of a line and any one point  on the line, then all other points on the line must satisfy the slope formula:
 	<me>\blert{\dfrac{y-y_1}{x-x_1} = m}</me>
@@ -50,6 +51,8 @@ to get
 We call this the <term>point-slope formula</term> for linear equations.</p>
 
 <assemblage><title>Point-Slope Formula</title>
+<idx><h>point-slope formula</h></idx>
+<idx><h>linear equation</h><h>point-slope formula</h></idx>
 <p>To find an equation for the line of slope <m>m</m> passing through the point <m>(x_1,y_1)</m>, we use the <term>point-slope formula</term>
     <me>\blert{\dfrac{y-y_1}{x-x_1} = m}</me>  
 or
@@ -150,7 +153,9 @@ The graph of the line is shown in the figure.</p>
     	<answer><p>Point-slope formula</p></answer></exercise>
 </reading-questions>
 
-<assemblage><title>To Fit a Line through Two Points</title><p><ol label="1">
+<assemblage><title>To Fit a Line through Two Points</title>
+<idx><h>linear equation</h><h>finding</h></idx>
+<p><ol label="1">
 	<li>Compute the slope between the two points.</li>
 	<li>Substitute the slope and either point into the point-slope formula.</li></ol></p></assemblage>
 </subsection>

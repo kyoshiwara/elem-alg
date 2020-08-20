@@ -4,11 +4,13 @@
 <section xml:id="Some-Quadratic-Models" xmlns:xi="http://www.w3.org/2001/XInclude"><title>Some Quadratic Models</title>
 
 <subsection><title>Revenue</title>
+<idx><h>revenue</h></idx>
 
 <p>In this section we consider some applications that lead to quadratic equations. The first application involves revenue.</p>
 <p><term>Revenue</term> is the amount of money a company takes in from selling a product. To find the total revenue from the sale of a product, we multiply the price of one item by the number of items sold.</p>
 
-<assemblage><titel>Revenue</titel>
+<assemblage><title>Revenue</title>
+<idx><h>revenue</h></idx>
 <p>Revenue <m>=</m> (price per item) <m>\cdot</m> (number of items sold)</p></assemblage>
 
 <p>For example, if a snack bar sells 30 sandwiches at $4.25 each, their revenue from sandwiches is 
@@ -86,7 +88,8 @@ The graph of this equation is shown again below. </p>
 <image source="images/fig-6-2-ex1"><description>parabola</description></image></sidebyside></assemblage>
 </subsection>
 
-<subsection><title>The Zero Factor Principle</title>
+<subsection><title>The Zero-Factor Principle</title>
+<idx><h>zero-factor principle</h></idx>
 
 <p>Look again at the equation for revenue in Example 1,
 	<me>R=p(40-p)</me>
@@ -100,6 +103,7 @@ so the revenue is zero as well. The second factor, <m>40-p</m>, is zero when <m>
 A quadratic equation has a solution when either of its factors is equal to zero. This is a consequence of the following fact about numbers.</p>
 
 <assemblage><title>Zero-Factor Principle</title>
+<idx><h>zero-factor principle</h></idx>
 <p>	If the product of two numbers is zero, then one (or both) of the numbers must be zero.  Using symbols,
 	<me>\text{If}~AB=0,~\text{then either} ~A=0~\text{or}~B=0.</me></p></assemblage>
 
@@ -117,8 +121,10 @@ A quadratic equation has a solution when either of its factors is equal to zero.
 </subsection>
 
 <subsection><title>Factoring</title>
+<idx><h>factor</h><seealso>factoring</seealso></idx>
+<idx><h>factoring</h></idx>
 
-<p>In order to use the zero-factor principle to solve quadratic equations, we must be able to write quadratic expressions in <term>factored form</term>. This process is called <term>factoring</term>, and it is the reverse of multiplying factors together. Here are some examples comparing multiplying and factoring.</p>
+<p>In order to use the zero-factor principle to solve quadratic equations, we must be able to write quadratic expressions in <term>factored form</term><idx><h>factored form</h></idx>. This process is called <term>factoring</term><idx><h>factoring</h></idx>, and it is the reverse of multiplying factors together. Here are some examples comparing multiplying and factoring.</p>
 
 <assemblage><p>
 	<md><mrow>\amp \text{Multiplying} \amp \amp \text{Factoring}</mrow>
@@ -157,6 +163,8 @@ We fill in these factors for the question marks to obtain the factored form,
 </subsection>
 
 <subsection><title>Solving Quadratic Equations by Factoring</title>
+<idx><h>factoring</h><h>solve equations by</h></idx>
+<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
 
 <p>Now let's see how to solve a quadratic equation using factoring.</p>
 
@@ -180,7 +188,10 @@ Thus, the two solutions are <m>x=0</m> and <m>x=2</m>. You should check that bot
 
 <warning><p>We cannot solve the equation in <xref ref="Example-6-2-4" text="type-global"/> by dividing both sides by <m>2x</m>. If we do that, we get the equation <m>x=2</m>. This is one of the solutions, but we have lost the second solution, <m>x=0</m>. We should never divide both sides of an equation by the variable, because we risk losing one of the solutions. Instead, we follow the steps below to solve the equation by factoring.</p></warning>
 
-<assemblage><title>To Solve a Quadratic Equation by Factoring</title><p><ol label="1">
+<assemblage><title>To Solve a Quadratic Equation by Factoring</title>
+<idx><h>factoring</h><h>solve equations by</h></idx>
+<idx><h>quadratic equation</h><h>solve by factoring</h></idx>
+<p><ol label="1">
 	<li>Write the equation with zero isolated on the right side.</li>       
 	<li>Factor the left side of the equation.</li>
 	<li>Apply the zero-factor principle; that is, set each factor equal to zero.</li>

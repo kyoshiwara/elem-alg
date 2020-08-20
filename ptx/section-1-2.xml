@@ -102,7 +102,7 @@ are algebraic expressions. An important part of algebra involves translating wor
 <subsection><title>Products</title>
 <idx><h>product</h></idx><idx><h>product</h><seealso>multiplication</seealso></idx>
 
-<p>When we multiply two numbers <m>a</m> and <m>b</m>, the result is called the <term>product</term> of <m>a</m> and <m>b</m>.  The numbers <m>a</m> and <m>b</m> are the <term>factors</term> of the product.</p>
+<p>When we multiply two numbers <m>a</m> and <m>b</m>, the result is called the <term>product</term> of <m>a</m> and <m>b</m>.  The numbers <m>a</m> and <m>b</m> are the <term>factors</term><idx><h>factor</h></idx> of the product.</p>
 
 <assemblage><title>Look Closer</title>
 <p>In arithmetic we use the symbol <m>\times</m> to denote multiplication. However, in algebra, <m>\times</m> may be confused with the variable <m>x</m>. So, instead, we use a dot or parentheses for multiplication, like this:</p>
@@ -544,7 +544,8 @@ Bert's average score is 15.8.</p></solution></example>
 
 <subsubsection><title>Activity 2:  Evaluating Algebraic Expressions</title>
 <idx><h>algebraic expression</h><h>evaluating</h></idx>
-<idx><h>evaluating the expression</h></idx>
+<idx><h>evaluating an algebraic expression</h></idx>
+<idx><h>evaluating an algebraic expression</h><seealso>algebraic expression</seealso></idx>
 
 <p>EXAMPLE: The Appliance Mart is having a store wide 15%-off sale. If the regular price of an appliance is <m>P</m> dollars, then the sale price <m>S</m> is given by the expression
     <me>S=0.85P</me>
